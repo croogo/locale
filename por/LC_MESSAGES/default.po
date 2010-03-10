@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Croogo\n"
 "POT-Creation-Date: 2009-12-28 19:45+0700\n"
-"PO-Revision-Date: 2010-03-09 19:53-0300\n"
+"PO-Revision-Date: 2010-03-09 22:17-0300\n"
 "Last-Translator: Juan Basso <jrbasso@gmail.com>\n"
 "Language-Team: Juan Basso <jrbasso@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -557,11 +557,11 @@ msgstr "Nós não publicados"
 
 #: \controllers\nodes_controller.php:265
 msgid "Nodes promoted"
-msgstr "Nós promovidos"
+msgstr "Nós publicados"
 
 #: \controllers\nodes_controller.php:268
 msgid "Nodes unpromoted"
-msgstr "Nós não promovidos"
+msgstr "Nós despublicados"
 
 #: \controllers\nodes_controller.php:293;329;358
 msgid "Invalid content type."
@@ -897,31 +897,31 @@ msgstr "Acos"
 #: \plugins\acl\views\acl_acos\admin_add.ctp:2
 #: \plugins\acl\views\acl_acos\admin_edit.ctp:2
 msgid "Add Aco"
-msgstr ""
+msgstr "Incluir Aco"
 
 #: \plugins\acl\controllers\acl_acos_controller.php:31;48
 msgid "The Aco has been saved"
-msgstr ""
+msgstr "O Aco foi salvo"
 
 #: \plugins\acl\controllers\acl_acos_controller.php:34;51
 msgid "The Aco could not be saved. Please, try again."
-msgstr ""
+msgstr "O Aco não pode ser salvo. Tente novamente."
 
 #: \plugins\acl\controllers\acl_acos_controller.php:40
 msgid "Edit Aco"
-msgstr ""
+msgstr "Editar Aco"
 
 #: \plugins\acl\controllers\acl_acos_controller.php:43
 msgid "Invalid Aco"
-msgstr ""
+msgstr "Aco inválido"
 
 #: \plugins\acl\controllers\acl_acos_controller.php:61
 msgid "Invalid id for Aco"
-msgstr ""
+msgstr "ID inválido do Aco"
 
 #: \plugins\acl\controllers\acl_acos_controller.php:65
 msgid "Aco deleted"
-msgstr ""
+msgstr "Aco excluído"
 
 #: \plugins\acl\controllers\acl_actions_controller.php:20
 #: \plugins\acl\views\acl_acos\admin_index.ctp:18
@@ -998,31 +998,31 @@ msgstr "Aros"
 #: \plugins\acl\views\acl_aros\admin_add.ctp:2
 #: \plugins\acl\views\acl_aros\admin_edit.ctp:2
 msgid "Add Aro"
-msgstr ""
+msgstr "Incluir Aro"
 
 #: \plugins\acl\controllers\acl_aros_controller.php:31;48
 msgid "The Aro has been saved"
-msgstr ""
+msgstr "O Aro foi salvo"
 
 #: \plugins\acl\controllers\acl_aros_controller.php:34;51
 msgid "The Aro could not be saved. Please, try again."
-msgstr ""
+msgstr "O Aro não pode ser salvo. Tente novamente."
 
 #: \plugins\acl\controllers\acl_aros_controller.php:40
 msgid "Edit Aro"
-msgstr ""
+msgstr "Editar Aro"
 
 #: \plugins\acl\controllers\acl_aros_controller.php:43
 msgid "Invalid Aro"
-msgstr ""
+msgstr "Aro inválido"
 
 #: \plugins\acl\controllers\acl_aros_controller.php:61
 msgid "Invalid id for Aro"
-msgstr ""
+msgstr "ID inválido do Aro"
 
 #: \plugins\acl\controllers\acl_aros_controller.php:65
 msgid "Aro deleted"
-msgstr ""
+msgstr "Aro excluído"
 
 #: \plugins\acl\controllers\acl_permissions_controller.php:19
 #: \views\elements\admin\navigation.ctp:46
@@ -1031,7 +1031,7 @@ msgstr "Permissões"
 
 #: \plugins\acl\views\acl_acos\admin_index.ctp:6
 msgid "New Aco"
-msgstr ""
+msgstr "Novo Aco"
 
 #: \plugins\acl\views\acl_acos\admin_index.ctp:24
 #: \plugins\acl\views\acl_actions\admin_index.ctp:41
@@ -1185,7 +1185,7 @@ msgstr "Mover para baixo"
 
 #: \plugins\acl\views\acl_aros\admin_index.ctp:6
 msgid "New Aro"
-msgstr ""
+msgstr "Novo Aro"
 
 #: \plugins\acl\views\acl_permissions\admin_index.ctp:10
 msgid "Edit Actions"
@@ -1197,31 +1197,31 @@ msgstr "erro"
 
 #: \plugins\debug_kit\controllers\components\toolbar.php:85
 msgid "Component initialization and startup"
-msgstr ""
+msgstr "Inicialização e startup do componente"
 
 #: \plugins\debug_kit\controllers\components\toolbar.php:123
 msgid "Controller Action"
-msgstr ""
+msgstr "Ação do Controller"
 
 #: \plugins\debug_kit\controllers\components\toolbar.php:150
 msgid "Render Controller Action"
-msgstr ""
+msgstr "Ação de Renderização do Controller"
 
 #: \plugins\debug_kit\controllers\components\toolbar.php:163
 msgid "Could not load DebugToolbar panel %s"
-msgstr ""
+msgstr "Não pode carregar o painel %s do DebugToolbar"
 
 #: \plugins\debug_kit\vendors\fire_cake.php:298
 msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
-msgstr ""
+msgstr "O cabeçalho já foi enviado em %s, na linha %s. Não pode enviar o log para o FirePHP."
 
 #: \plugins\debug_kit\vendors\fire_cake.php:319
 msgid "Incorrect parameter count for FireCake::fb()"
-msgstr ""
+msgstr "Número de parâmetros incorretos para o FireCake::fb()"
 
 #: \plugins\debug_kit\vendors\fire_cake.php:392
 msgid "Maximum number (99,999) of messages reached!"
-msgstr ""
+msgstr "Número máximo (99.999) de mensagens alcançado!"
 
 #: \plugins\debug_kit\views\debug.php:57
 msgid "Rendering %s"
@@ -1233,7 +1233,7 @@ msgstr "Renderizando View"
 
 #: \plugins\debug_kit\views\elements\debug_toolbar.ctp:32
 msgid "There are no active panels. You must enable a panel to see its output."
-msgstr ""
+msgstr "Não há paineis ativos. Você deve habilitar o painel para ver a saída."
 
 #: \plugins\debug_kit\views\elements\log_panel.ctp:29
 msgid "Logs"
@@ -1253,7 +1253,7 @@ msgstr "Mensagem"
 
 #: \plugins\debug_kit\views\elements\log_panel.ctp:45
 msgid "There were no log entries made this request"
-msgstr ""
+msgstr "Não há log nesta requisição"
 
 #: \plugins\debug_kit\views\elements\memory_panel.ctp:30
 msgid "Memory"
@@ -1327,53 +1327,53 @@ msgstr "conteúdo aqui"
 #: \plugins\extensions\controllers\extensions_hooks_controller.php:37
 #: \views\elements\admin\navigation.ctp:55
 msgid "Hooks"
-msgstr ""
+msgstr "Hooks"
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:37
 #: \views\elements\admin\navigation.ctp:53
 msgid "Locales"
-msgstr ""
+msgstr "Idiomas"
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:48
 msgid "Locale does not exist."
-msgstr ""
+msgstr "Idioma não existe."
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:61
 msgid "Could not edit croogo_bootstrap.php file."
-msgstr ""
+msgstr "Não foi possível editar o arquivo crooogo_boostrap.php."
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:67
 msgid "Upload a new locale"
-msgstr ""
+msgstr "Enviar um novo idioma."
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:93;142
 msgid "Invalid locale."
-msgstr ""
+msgstr "Idioma inválido."
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:98
 msgid "Locale already exists."
-msgstr ""
+msgstr "Idioma já existe."
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:147
 msgid "The file default.po does not exist."
-msgstr ""
+msgstr "O arquivo default.po não existe."
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:157
 msgid "Locale updated successfully"
-msgstr ""
+msgstr "Idioma atualizado com sucesso"
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:167
 #: \plugins\translate\controllers\translate_controller.php:89
 msgid "Invalid locale"
-msgstr ""
+msgstr "Idioma inválido"
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:173
 msgid "Locale deleted successfully."
-msgstr ""
+msgstr "Idioma excluído com sucesso."
 
 #: \plugins\extensions\controllers\extensions_locales_controller.php:175
 msgid "Local could not be deleted."
-msgstr ""
+msgstr "Idioma não pode ser excluído."
 
 #: \plugins\extensions\controllers\extensions_plugins_controller.php:51
 #: \views\elements\admin\navigation.ctp:54
@@ -1382,15 +1382,15 @@ msgstr "Plugins"
 
 #: \plugins\extensions\controllers\extensions_plugins_controller.php:62
 msgid "Upload a new plugin"
-msgstr ""
+msgstr "Enviar um novo plugin"
 
 #: \plugins\extensions\controllers\extensions_plugins_controller.php:91
 msgid "Invalid plugin."
-msgstr ""
+msgstr "Plugin inválido."
 
 #: \plugins\extensions\controllers\extensions_plugins_controller.php:96
 msgid "Plugin already exists."
-msgstr ""
+msgstr "O plugin já existe."
 
 #: \plugins\extensions\controllers\extensions_plugins_controller.php:138
 msgid "Invalid plugin"
@@ -1423,7 +1423,7 @@ msgstr "Arquivo XML inválido"
 
 #: \plugins\extensions\controllers\extensions_themes_controller.php:101
 msgid "Directory with theme alias already exists."
-msgstr ""
+msgstr "O diretório com o nome do tema já existe."
 
 #: \plugins\extensions\controllers\extensions_themes_controller.php:146
 msgid "Theme Editor"
@@ -1435,19 +1435,19 @@ msgstr "Tema inválido."
 
 #: \plugins\extensions\controllers\extensions_themes_controller.php:160
 msgid "Default theme cannot be deleted."
-msgstr ""
+msgstr "O tema padrão não pode ser excluído."
 
 #: \plugins\extensions\controllers\extensions_themes_controller.php:182
 msgid "Theme deleted successfully."
-msgstr ""
+msgstr "Tema excluído com sucesso."
 
 #: \plugins\extensions\views\extensions_hooks\admin_index.ctp:17
 msgid "Hook"
-msgstr ""
+msgstr "Hook"
 
 #: \plugins\extensions\views\extensions_hooks\admin_index.ctp:18
 msgid "Hook type"
-msgstr ""
+msgstr "Tipo de hook"
 
 #: \plugins\extensions\views\extensions_hooks\admin_index.ctp:19
 #: \views\links\admin_index.ctp:25
@@ -1458,7 +1458,7 @@ msgstr "Status"
 #: \plugins\translate\views\translate\admin_index.ctp:27
 #: \views\nodes\admin_translations.ctp:27
 msgid "Locale"
-msgstr ""
+msgstr "Idioma"
 
 #: \plugins\extensions\views\extensions_locales\admin_index.ctp:15
 msgid "Default"
@@ -1576,15 +1576,15 @@ msgstr "Registro não pode ser traduzido. Tente novamente."
 
 #: \plugins\translate\controllers\translate_controller.php:150
 msgid "Invalid Locale or ID"
-msgstr ""
+msgstr "Idioma ou ID inválido"
 
 #: \plugins\translate\controllers\translate_controller.php:186
 msgid "Translation for the locale deleted successfully."
-msgstr ""
+msgstr "Tradução para o idioma excluído com sucesso."
 
 #: \plugins\translate\controllers\translate_controller.php:188
 msgid "Translation for the locale could not be deleted."
-msgstr ""
+msgstr "Tradução para o idioma não pode ser excluído."
 
 #: \plugins\translate\views\translate\admin_edit.ctp:21
 msgid "Record"
@@ -1878,11 +1878,11 @@ msgstr "Configurações"
 
 #: \views\elements\admin\nodes_filter.ctp:25
 msgid "Unpublished"
-msgstr "Não publicado"
+msgstr "Despublicado"
 
 #: \views\elements\admin\nodes_filter.ctp:35
 msgid "Promoted"
-msgstr "Promovido"
+msgstr "Publicado"
 
 #: \views\elements\admin\nodes_filter.ctp:37
 msgid "Yes"
@@ -1899,7 +1899,7 @@ msgstr "Filtrar"
 
 #: \views\elements\admin\quick.ctp:4
 msgid "You are logged in as "
-msgstr "Você está logado como"
+msgstr "Você está logado como "
 
 #: \views\elements\admin\quick.ctp:5
 msgid "Log Out"
@@ -2120,15 +2120,15 @@ msgstr "Incluir novo campo"
 #: \views\nodes\admin_add.ctp:81
 #: \views\nodes\admin_edit.ctp:81
 msgid "Promoted to front page"
-msgstr "Promovido para página principal"
+msgstr "Publicado na página principal"
 
 #: \views\nodes\admin_index.ctp:77
 msgid "Promote"
-msgstr "Promover"
+msgstr "Publicar"
 
 #: \views\nodes\admin_index.ctp:78
 msgid "Unpromote"
-msgstr "Despromover"
+msgstr "Despublicar"
 
 #: \views\nodes\admin_links.ctp:24
 msgid "Sort by:"
