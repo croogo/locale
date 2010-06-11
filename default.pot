@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2010-04-04 15:21+0000\n"
+"POT-Creation-Date: 2010-06-11 14:40+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,2554 +14,2345 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: \app_controller.php:110
+#: E:\xampp\htdocs\p\croogo_croogo\app\app_controller.php:109
 msgid "Site down for maintenance"
 msgstr ""
 
-#: \controllers\attachments_controller.php:82
-#: \views\elements\admin\navigation.ctp:83
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:83
 msgid "Attachments"
 msgstr ""
 
-#: \controllers\attachments_controller.php:96
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:96
 msgid "Add Attachment"
 msgstr ""
 
-#: \controllers\attachments_controller.php:135;164
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:135;164
 msgid "The Attachment has been saved"
 msgstr ""
 
-#: \controllers\attachments_controller.php:143;167
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:143;167
 msgid "The Attachment could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\attachments_controller.php:156
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:156
 msgid "Edit Attachment"
 msgstr ""
 
-#: \controllers\attachments_controller.php:159
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:159
 msgid "Invalid Attachment"
 msgstr ""
 
-#: \controllers\attachments_controller.php:184;205
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:184;205
 msgid "Invalid id for Attachment"
 msgstr ""
 
-#: \controllers\attachments_controller.php:201
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:201
 msgid "Attachment deleted"
 msgstr ""
 
-#: \controllers\blocks_controller.php:31
-#: \views\elements\admin\navigation.ctp:52;54
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:52;54
 msgid "Blocks"
 msgstr ""
 
-#: \controllers\blocks_controller.php:39
-#: \views\blocks\admin_add.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:2
 msgid "Add Block"
 msgstr ""
 
-#: \controllers\blocks_controller.php:46;68
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:46;68
 msgid "The Block has been saved"
 msgstr ""
 
-#: \controllers\blocks_controller.php:49;71
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:49;71
 msgid "The Block could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\blocks_controller.php:58
-#: \views\blocks\admin_edit.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:2
 msgid "Edit Block"
 msgstr ""
 
-#: \controllers\blocks_controller.php:61
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:61
 msgid "Invalid Block"
 msgstr ""
 
-#: \controllers\blocks_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:89
 msgid "Invalid id for Block"
 msgstr ""
 
-#: \controllers\blocks_controller.php:97
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:97
 msgid "Block deleted"
 msgstr ""
 
-#: \controllers\blocks_controller.php:104
-#: \controllers\languages_controller.php:89
-#: \controllers\links_controller.php:149
-#: \controllers\settings_controller.php:135
-#: \controllers\terms_controller.php:116
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:183
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:135
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:283
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:95
 msgid "Moved up successfully"
 msgstr ""
 
-#: \controllers\blocks_controller.php:106
-#: \controllers\languages_controller.php:91
-#: \controllers\links_controller.php:151
-#: \controllers\settings_controller.php:137
-#: \controllers\terms_controller.php:118
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:106
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:91
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:185
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:137
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:285
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:97
 msgid "Could not move up"
 msgstr ""
 
-#: \controllers\blocks_controller.php:114
-#: \controllers\languages_controller.php:99
-#: \controllers\links_controller.php:159
-#: \controllers\settings_controller.php:145
-#: \controllers\terms_controller.php:126
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:114
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:99
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:203
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:145
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:316
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:105
 msgid "Moved down successfully"
 msgstr ""
 
-#: \controllers\blocks_controller.php:116
-#: \controllers\languages_controller.php:101
-#: \controllers\links_controller.php:161
-#: \controllers\settings_controller.php:147
-#: \controllers\terms_controller.php:128
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:116
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:101
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:205
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:147
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:318
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:107
 msgid "Could not move down"
 msgstr ""
 
-#: \controllers\blocks_controller.php:132
-#: \controllers\comments_controller.php:115
-#: \controllers\links_controller.php:177
-#: \controllers\messages_controller.php:104
-#: \controllers\nodes_controller.php:282
-#: \controllers\terms_controller.php:144
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:132
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:122
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:222
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:306
 msgid "No items selected."
 msgstr ""
 
-#: \controllers\blocks_controller.php:138
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:138
 msgid "Blocks deleted."
 msgstr ""
 
-#: \controllers\blocks_controller.php:141
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:141
 msgid "Blocks published"
 msgstr ""
 
-#: \controllers\blocks_controller.php:144
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:144
 msgid "Blocks unpublished"
 msgstr ""
 
-#: \controllers\blocks_controller.php:146
-#: \controllers\comments_controller.php:129
-#: \controllers\links_controller.php:191
-#: \controllers\messages_controller.php:118
-#: \controllers\nodes_controller.php:302
-#: \controllers\terms_controller.php:158
-#: \controllers\users_controller.php:181;222;233
-#: \plugins\extensions\controllers\extensions_themes_controller.php:183
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:146
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:136
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:251
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:118
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:326
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:209;250;261
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:186
 msgid "An error occurred."
 msgstr ""
 
-#: \controllers\comments_controller.php:42;136
-#: \views\elements\comments.ctp:7
-#: \views\elements\node_more_info.ctp:33
-#: \views\elements\admin\navigation.ctp:31
-#: \views\nodes\admin_add.ctp:10
-#: \views\nodes\admin_edit.ctp:11
-#: \views\types\admin_add.ctp:10
-#: \views\types\admin_edit.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:49;143
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:11
 msgid "Comments"
 msgstr ""
 
-#: \controllers\comments_controller.php:61
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:68
 msgid "Comments: Published"
 msgstr ""
 
-#: \controllers\comments_controller.php:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:70
 msgid "Comments: Approval"
 msgstr ""
 
-#: \controllers\comments_controller.php:71
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:78
 msgid "Edit Comment"
 msgstr ""
 
-#: \controllers\comments_controller.php:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:81
 msgid "Invalid Comment"
 msgstr ""
 
-#: \controllers\comments_controller.php:79
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:86
 msgid "The Comment has been saved"
 msgstr ""
 
-#: \controllers\comments_controller.php:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:89
 msgid "The Comment could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\comments_controller.php:92
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:99
 msgid "Invalid id for Comment"
 msgstr ""
 
-#: \controllers\comments_controller.php:100
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:107
 msgid "Comment deleted"
 msgstr ""
 
-#: \controllers\comments_controller.php:121
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:128
 msgid "Comments deleted."
 msgstr ""
 
-#: \controllers\comments_controller.php:124
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:131
 msgid "Comments published"
 msgstr ""
 
-#: \controllers\comments_controller.php:127
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:134
 msgid "Comments unpublished"
 msgstr ""
 
-#: \controllers\comments_controller.php:154;165
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:161;172
 msgid "Invalid Node"
 msgstr ""
 
-#: \controllers\comments_controller.php:172
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:179
 msgid "Maximum level reached. You cannot reply to that comment."
 msgstr ""
 
-#: \controllers\comments_controller.php:220
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:227
 msgid "Your comment has been added successfully."
 msgstr ""
 
-#: \controllers\comments_controller.php:222
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:229
 msgid "Your comment will appear after moderation."
 msgstr ""
 
-#: \controllers\comments_controller.php:230
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:237
 msgid "New comment posted under"
 msgstr ""
 
-#: \controllers\comments_controller.php:255
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:262
 msgid "Sorry, the comment appears to be spam."
 msgstr ""
 
-#: \controllers\comments_controller.php:268
-#: \controllers\contacts_controller.php:180
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:275
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:181
 msgid "Invalid captcha entry"
 msgstr ""
 
-#: \controllers\contacts_controller.php:42
-#: \views\elements\admin\navigation.ctp:89;91
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:89;91
 msgid "Contacts"
 msgstr ""
 
-#: \controllers\contacts_controller.php:50
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:50
 msgid "Add Contact"
 msgstr ""
 
-#: \controllers\contacts_controller.php:55;72
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:55;72
 msgid "The Contact has been saved"
 msgstr ""
 
-#: \controllers\contacts_controller.php:58;75
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:58;75
 msgid "The Contact could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\contacts_controller.php:64
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:64
 msgid "Edit Contact"
 msgstr ""
 
-#: \controllers\contacts_controller.php:67
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:67
 msgid "Invalid Contact"
 msgstr ""
 
-#: \controllers\contacts_controller.php:85
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:85
 msgid "Invalid id for Contact"
 msgstr ""
 
-#: \controllers\contacts_controller.php:93
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:93
 msgid "Contact deleted"
 msgstr ""
 
-#: \controllers\contacts_controller.php:136
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:136
 msgid "Your message has been received..."
 msgstr ""
 
-#: \controllers\contacts_controller.php:167
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:168
 msgid "Sorry, the message appears to be spam."
 msgstr ""
 
-#: \controllers\filemanager_controller.php:66
-#: \views\elements\admin\navigation.ctp:84
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:66
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:84
 msgid "File Manager"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:81
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:81
 msgid "Edit file: %s"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:92
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:92
 msgid "File saved successfully"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:102
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:6
-#: \plugins\extensions\views\extensions_locales\admin_add.ctp:15
-#: \plugins\extensions\views\extensions_locales\admin_index.ctp:6
-#: \plugins\extensions\views\extensions_plugins\admin_add.ctp:15
-#: \plugins\extensions\views\extensions_plugins\admin_index.ctp:6
-#: \plugins\extensions\views\extensions_themes\admin_add.ctp:15
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:6
-#: \views\attachments\admin_add.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:102
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_add.ctp:12
 msgid "Upload"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:115
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:115
 msgid "File uploaded successfully."
 msgstr ""
 
-#: \controllers\filemanager_controller.php:135
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:135
 msgid "File deleted"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:137;164;210;232
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:137;164;210;232
 msgid "An error occured"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:162
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:162
 msgid "Directory deleted"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:195
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:195
 msgid "New Directory"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:206
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:206
 msgid "Directory created successfully."
 msgstr ""
 
-#: \controllers\filemanager_controller.php:218
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:218
 msgid "New File"
 msgstr ""
 
-#: \controllers\filemanager_controller.php:228
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:228
 msgid "File created successfully."
 msgstr ""
 
-#: \controllers\languages_controller.php:31
-#: \views\elements\admin\navigation.ctp:114
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:114
 msgid "Languages"
 msgstr ""
 
-#: \controllers\languages_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:39
 msgid "Add Language"
 msgstr ""
 
-#: \controllers\languages_controller.php:44;61
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:44;61
 msgid "The Language has been saved"
 msgstr ""
 
-#: \controllers\languages_controller.php:47;64
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:47;64
 msgid "The Language could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\languages_controller.php:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:53
 msgid "Edit Language"
 msgstr ""
 
-#: \controllers\languages_controller.php:56
-#: \plugins\translate\controllers\translate_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:104
 msgid "Invalid Language"
 msgstr ""
 
-#: \controllers\languages_controller.php:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:74
 msgid "Invalid id for Language"
 msgstr ""
 
-#: \controllers\languages_controller.php:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:82
 msgid "Language deleted"
 msgstr ""
 
-#: \controllers\languages_controller.php:113
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:113
 msgid "Select a language"
 msgstr ""
 
-#: \controllers\links_controller.php:57
-msgid "Links"
-msgstr ""
-
-#: \controllers\links_controller.php:62
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:56
 msgid "Links: %s"
 msgstr ""
 
-#: \controllers\links_controller.php:79
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:75
 msgid "Add Link"
 msgstr ""
 
-#: \controllers\links_controller.php:85;111
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:86;118
 msgid "The Link has been saved"
 msgstr ""
 
-#: \controllers\links_controller.php:88;114
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:89;121
 msgid "The Link could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\links_controller.php:102
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:101
 msgid "Edit Link"
 msgstr ""
 
-#: \controllers\links_controller.php:105
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:104
 msgid "Invalid Link"
 msgstr ""
 
-#: \controllers\links_controller.php:134
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:141;149;176;196
 msgid "Invalid id for Link"
 msgstr ""
 
-#: \controllers\links_controller.php:142
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:165
 msgid "Link deleted"
 msgstr ""
 
-#: \controllers\links_controller.php:183
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:243
 msgid "Links deleted."
 msgstr ""
 
-#: \controllers\links_controller.php:186
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:246
 msgid "Links published"
 msgstr ""
 
-#: \controllers\links_controller.php:189
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:249
 msgid "Links unpublished"
 msgstr ""
 
-#: \controllers\menus_controller.php:31
-#: \views\elements\admin\navigation.ctp:41;43
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:41;43
 msgid "Menus"
 msgstr ""
 
-#: \controllers\menus_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:39
 msgid "Add Menu"
 msgstr ""
 
-#: \controllers\menus_controller.php:44;61
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:44;61
 msgid "The Menu has been saved"
 msgstr ""
 
-#: \controllers\menus_controller.php:47;64
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:47;64
 msgid "The Menu could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\menus_controller.php:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:53
 msgid "Edit Menu"
 msgstr ""
 
-#: \controllers\menus_controller.php:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:56
 msgid "Invalid Menu"
 msgstr ""
 
-#: \controllers\menus_controller.php:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:74
 msgid "Invalid id for Menu"
 msgstr ""
 
-#: \controllers\menus_controller.php:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:82
 msgid "Menu deleted"
 msgstr ""
 
-#: \controllers\messages_controller.php:31
-#: \views\elements\admin\navigation.ctp:92
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:92
 msgid "Messages"
 msgstr ""
 
-#: \controllers\messages_controller.php:50
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:50
 msgid "Messages: Read"
 msgstr ""
 
-#: \controllers\messages_controller.php:52
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:52
 msgid "Messages: Unread"
 msgstr ""
 
-#: \controllers\messages_controller.php:60
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:60
 msgid "Edit Message"
 msgstr ""
 
-#: \controllers\messages_controller.php:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:63
 msgid "Invalid Message"
 msgstr ""
 
-#: \controllers\messages_controller.php:68
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:68
 msgid "The Message has been saved"
 msgstr ""
 
-#: \controllers\messages_controller.php:71
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:71
 msgid "The Message could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\messages_controller.php:81
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:81
 msgid "Invalid id for Message"
 msgstr ""
 
-#: \controllers\messages_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:89
 msgid "Message deleted"
 msgstr ""
 
-#: \controllers\messages_controller.php:110
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:110
 msgid "Messages deleted."
 msgstr ""
 
-#: \controllers\messages_controller.php:113
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:113
 msgid "Messages marked as read"
 msgstr ""
 
-#: \controllers\messages_controller.php:116
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:116
 msgid "Messages marked as unread"
 msgstr ""
 
-#: \controllers\nodes_controller.php:58
-#: \plugins\extensions\views\extensions_locales\admin_edit.ctp:16
-#: \views\elements\admin\navigation.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_edit.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:8
 msgid "Content"
 msgstr ""
 
-#: \controllers\nodes_controller.php:89
-#: \views\elements\admin\navigation.ctp:12
-#: \views\nodes\admin_index.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:9
 msgid "Create content"
 msgstr ""
 
-#: \controllers\nodes_controller.php:102;159
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:102;173
 msgid "Content type does not exist."
 msgstr ""
 
-#: \controllers\nodes_controller.php:106
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:106
 msgid "Create content: %s"
 msgstr ""
 
-#: \controllers\nodes_controller.php:127;183
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:141;207
 msgid "%s has been saved"
 msgstr ""
 
-#: \controllers\nodes_controller.php:130;186
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:144;210
 msgid "%s could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\nodes_controller.php:150;558;574
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:164;647;675
 msgid "Invalid content"
 msgstr ""
 
-#: \controllers\nodes_controller.php:163
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:177
 msgid "Edit content: %s"
 msgstr ""
 
-#: \controllers\nodes_controller.php:240
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:264
 msgid "Paths updated."
 msgstr ""
 
-#: \controllers\nodes_controller.php:246
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:270
 msgid "Invalid id for Node"
 msgstr ""
 
-#: \controllers\nodes_controller.php:254
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:278
 msgid "Node deleted"
 msgstr ""
 
-#: \controllers\nodes_controller.php:288
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:312
 msgid "Nodes deleted."
 msgstr ""
 
-#: \controllers\nodes_controller.php:291
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:315
 msgid "Nodes published"
 msgstr ""
 
-#: \controllers\nodes_controller.php:294
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:318
 msgid "Nodes unpublished"
 msgstr ""
 
-#: \controllers\nodes_controller.php:297
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:321
 msgid "Nodes promoted"
 msgstr ""
 
-#: \controllers\nodes_controller.php:300
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:324
 msgid "Nodes unpromoted"
 msgstr ""
 
-#: \controllers\nodes_controller.php:334;408;459
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:365;452;517;592
 msgid "Invalid content type."
 msgstr ""
 
-#: \controllers\nodes_controller.php:379
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:415
 msgid "Invalid Term."
 msgstr ""
 
-#: \controllers\nodes_controller.php:443
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:493
 msgid "Nodes"
 msgstr ""
 
-#: \controllers\nodes_controller.php:526
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:602
 msgid "Search Results: %s"
 msgstr ""
 
-#: \controllers\regions_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:31
 msgid "Region"
 msgstr ""
 
-#: \controllers\regions_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:39
 msgid "Add Region"
 msgstr ""
 
-#: \controllers\regions_controller.php:44;61
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:44;61
 msgid "The Region has been saved"
 msgstr ""
 
-#: \controllers\regions_controller.php:47;64
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:47;64
 msgid "The Region could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\regions_controller.php:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:53
 msgid "Edit Region"
 msgstr ""
 
-#: \controllers\regions_controller.php:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:56
 msgid "Invalid Region"
 msgstr ""
 
-#: \controllers\regions_controller.php:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:74
 msgid "Invalid id for Region"
 msgstr ""
 
-#: \controllers\regions_controller.php:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:82
 msgid "Region deleted"
 msgstr ""
 
-#: \controllers\roles_controller.php:31
-#: \views\elements\admin\navigation.ctp:100
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:100
 msgid "Roles"
 msgstr ""
 
-#: \controllers\roles_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:39
 msgid "Add Role"
 msgstr ""
 
-#: \controllers\roles_controller.php:44;61
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:44;61
 msgid "The Role has been saved"
 msgstr ""
 
-#: \controllers\roles_controller.php:47;64
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:47;64
 msgid "The Role could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\roles_controller.php:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:53
 msgid "Edit Role"
 msgstr ""
 
-#: \controllers\roles_controller.php:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:56
 msgid "Invalid Role"
 msgstr ""
 
-#: \controllers\roles_controller.php:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:74
 msgid "Invalid id for Role"
 msgstr ""
 
-#: \controllers\roles_controller.php:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:82
 msgid "Role deleted"
 msgstr ""
 
-#: \controllers\settings_controller.php:38
-#: \views\elements\admin\navigation.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:4
 msgid "Dashboard"
 msgstr ""
 
-#: \controllers\settings_controller.php:42
-#: \views\elements\admin\navigation.ctp:106
-#: \views\settings\admin_add.ctp:7
-#: \views\settings\admin_edit.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:106
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:7
 msgid "Settings"
 msgstr ""
 
-#: \controllers\settings_controller.php:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:54
 msgid "Invalid Setting."
 msgstr ""
 
-#: \controllers\settings_controller.php:61
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:61
 msgid "Add Setting"
 msgstr ""
 
-#: \controllers\settings_controller.php:66;83
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:66;83
 msgid "The Setting has been saved"
 msgstr ""
 
-#: \controllers\settings_controller.php:69;86
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:69;86
 msgid "The Setting could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\settings_controller.php:75
-#: \views\settings\admin_view.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:75
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:43
 msgid "Edit Setting"
 msgstr ""
 
-#: \controllers\settings_controller.php:78
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:78
 msgid "Invalid Setting"
 msgstr ""
 
-#: \controllers\settings_controller.php:96
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:96
 msgid "Invalid id for Setting"
 msgstr ""
 
-#: \controllers\settings_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:104
 msgid "Setting deleted"
 msgstr ""
 
-#: \controllers\settings_controller.php:110
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:110
 msgid "Settings: %s"
 msgstr ""
 
-#: \controllers\settings_controller.php:113
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:113
 msgid "Settings updated successfully"
 msgstr ""
 
-#: \controllers\settings_controller.php:127
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:127
 msgid "Invalid Setting key"
 msgstr ""
 
-#: \controllers\terms_controller.php:40
-#: \views\nodes\admin_add.ctp:9
-#: \views\nodes\admin_edit.ctp:10
-msgid "Terms"
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:48
+msgid "Invalid Vocabulary ID."
 msgstr ""
 
-#: \controllers\terms_controller.php:44
-msgid "Terms: %s"
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:54
+msgid "Vocabulary: %s"
 msgstr ""
 
-#: \controllers\terms_controller.php:56
-msgid "Add Term"
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:87
+msgid "%s: Add Term"
 msgstr ""
 
-#: \controllers\terms_controller.php:61;85
-msgid "The Term has been saved"
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:97;193
+msgid "Term with same slug already exists in the vocabulary."
 msgstr ""
 
-#: \controllers\terms_controller.php:64;88
-msgid "The Term could not be saved. Please, try again."
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:110;207
+msgid "Term saved successfuly."
 msgstr ""
 
-#: \controllers\terms_controller.php:77
-msgid "Edit Term"
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:116;213
+msgid "Term could not be added to the vocabulary. Please try again."
 msgstr ""
 
-#: \controllers\terms_controller.php:80
-msgid "Invalid Term"
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:120;217
+msgid "Term could not be saved. Please try again."
 msgstr ""
 
-#: \controllers\terms_controller.php:101
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:168
+msgid "%s: Edit Term"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:229;264;296
 msgid "Invalid id for Term"
 msgstr ""
 
-#: \controllers\terms_controller.php:109
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:252
 msgid "Term deleted"
 msgstr ""
 
-#: \controllers\terms_controller.php:150
-msgid "Terms deleted."
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:254
+msgid "Term could not be deleted. Please, try again."
 msgstr ""
 
-#: \controllers\terms_controller.php:153
-msgid "Terms published"
-msgstr ""
-
-#: \controllers\terms_controller.php:156
-msgid "Terms unpublished"
-msgstr ""
-
-#: \controllers\types_controller.php:31
-#: \views\types\admin_add.ctp:7
-#: \views\types\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:8
 msgid "Type"
 msgstr ""
 
-#: \controllers\types_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:46
 msgid "Add Type"
 msgstr ""
 
-#: \controllers\types_controller.php:44;64
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:51;71
 msgid "The Type has been saved"
 msgstr ""
 
-#: \controllers\types_controller.php:47;67
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:54;74
 msgid "The Type could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\types_controller.php:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:63
 msgid "Edit Type"
 msgstr ""
 
-#: \controllers\types_controller.php:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:66
 msgid "Invalid Type"
 msgstr ""
 
-#: \controllers\types_controller.php:80
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:87
 msgid "Invalid id for Type"
 msgstr ""
 
-#: \controllers\types_controller.php:88
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:95
 msgid "Type deleted"
 msgstr ""
 
-#: \controllers\users_controller.php:44;137
-#: \views\elements\admin\navigation.ctp:97;99
-#: \views\users\admin_index.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:49
+msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:69;162
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:97;99
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:2
 msgid "Users"
 msgstr ""
 
-#: \controllers\users_controller.php:55;75
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:80;100
 msgid "The User has been saved"
 msgstr ""
 
-#: \controllers\users_controller.php:58;78;160
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:83;103;188
 msgid "The User could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\users_controller.php:70;90
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:95;115
 msgid "Invalid User"
 msgstr ""
 
-#: \controllers\users_controller.php:97
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:122
 msgid "Password has been reset."
 msgstr ""
 
-#: \controllers\users_controller.php:100
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:125
 msgid "Password could not be reset. Please, try again."
 msgstr ""
 
-#: \controllers\users_controller.php:103
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:128
 msgid "Current password did not match. Please, try again."
 msgstr ""
 
-#: \controllers\users_controller.php:113
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:138
 msgid "Invalid id for User"
 msgstr ""
 
-#: \controllers\users_controller.php:121
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:146
 msgid "User deleted"
 msgstr ""
 
-#: \controllers\users_controller.php:127
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:152
 msgid "Admin Login"
 msgstr ""
 
-#: \controllers\users_controller.php:132;257
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:157;285
 msgid "Log out successful."
 msgstr ""
 
-#: \controllers\users_controller.php:141
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:166
 msgid "Register"
 msgstr ""
 
-#: \controllers\users_controller.php:152
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:180
 msgid "["
 msgstr ""
 
-#: \controllers\users_controller.php:157
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:185
 msgid "You have successfully registered an account. An email has been sent with further instructions."
 msgstr ""
 
-#: \controllers\users_controller.php:179
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:207
 msgid "Account activated successfully."
 msgstr ""
 
-#: \controllers\users_controller.php:190
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:218
 msgid "Forgot Password"
 msgstr ""
 
-#: \controllers\users_controller.php:195
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:223
 msgid "Invalid username."
 msgstr ""
 
-#: \controllers\users_controller.php:207;219
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:235;247
 msgid "Reset Password"
 msgstr ""
 
-#: \controllers\users_controller.php:210
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:238
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 
-#: \controllers\users_controller.php:213;245
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:241;273
 msgid "An error occurred. Please try again."
 msgstr ""
 
-#: \controllers\users_controller.php:242
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:270
 msgid "Your password has been reset successfully."
 msgstr ""
 
-#: \controllers\users_controller.php:253
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:281
 msgid "Log in"
 msgstr ""
 
-#: \controllers\users_controller.php:264
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:292
 msgid "Invalid User."
 msgstr ""
 
-#: \controllers\vocabularies_controller.php:31
-#: \views\vocabularies\admin_add.ctp:10
-#: \views\vocabularies\admin_edit.ctp:8
-msgid "Vocabulary"
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:31
+msgid "Vocabularies"
 msgstr ""
 
-#: \controllers\vocabularies_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:39
 msgid "Add Vocabulary"
 msgstr ""
 
-#: \controllers\vocabularies_controller.php:44;64
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:44;64
 msgid "The Vocabulary has been saved"
 msgstr ""
 
-#: \controllers\vocabularies_controller.php:47;67
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:47;67
 msgid "The Vocabulary could not be saved. Please, try again."
 msgstr ""
 
-#: \controllers\vocabularies_controller.php:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:56
 msgid "Edit Vocabulary"
 msgstr ""
 
-#: \controllers\vocabularies_controller.php:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:59
 msgid "Invalid Vocabulary"
 msgstr ""
 
-#: \controllers\vocabularies_controller.php:80
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:80
 msgid "Invalid id for Vocabulary"
 msgstr ""
 
-#: \controllers\vocabularies_controller.php:88
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:88
 msgid "Vocabulary deleted"
 msgstr ""
 
-#: \models\behaviors\croogo_translate.php:73
+#: E:\xampp\htdocs\p\croogo_croogo\app\models\behaviors\croogo_translate.php:73
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_acos_controller.php:19
-#: \plugins\acl\views\acl_acos\admin_index.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:2
 msgid "Acos"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_acos_controller.php:26
-#: \plugins\acl\views\acl_acos\admin_add.ctp:2
-#: \plugins\acl\views\acl_acos\admin_edit.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_add.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_edit.ctp:2
 msgid "Add Aco"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_acos_controller.php:31;48
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:31;48
 msgid "The Aco has been saved"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_acos_controller.php:34;51
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:34;51
 msgid "The Aco could not be saved. Please, try again."
 msgstr ""
 
-#: \plugins\acl\controllers\acl_acos_controller.php:40
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:40
 msgid "Edit Aco"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_acos_controller.php:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:43
 msgid "Invalid Aco"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_acos_controller.php:61
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:61
 msgid "Invalid id for Aco"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_acos_controller.php:69
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:69
 msgid "Aco deleted"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:20
-#: \plugins\acl\views\acl_acos\admin_index.ctp:18
-#: \plugins\acl\views\acl_actions\admin_index.ctp:20
-#: \plugins\acl\views\acl_aros\admin_index.ctp:18
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:17
-#: \plugins\extensions\views\extensions_locales\admin_index.ctp:16
-#: \plugins\extensions\views\extensions_plugins\admin_index.ctp:17
-#: \plugins\translate\views\translate\admin_index.ctp:28
-#: \views\attachments\admin_browse.ctp:18
-#: \views\attachments\admin_index.ctp:17
-#: \views\blocks\admin_index.ctp:20
-#: \views\comments\admin_index.ctp:31
-#: \views\contacts\admin_index.ctp:17
-#: \views\filemanager\admin_browse.ctp:29
-#: \views\languages\admin_index.ctp:18
-#: \views\links\admin_index.ctp:26
-#: \views\menus\admin_index.ctp:17
-#: \views\messages\admin_index.ctp:30
-#: \views\nodes\admin_index.ctp:36
-#: \views\nodes\admin_translations.ctp:28
-#: \views\regions\admin_index.ctp:16
-#: \views\roles\admin_index.ctp:16
-#: \views\settings\admin_index.ctp:17
-#: \views\terms\admin_index.ctp:25
-#: \views\types\admin_index.ctp:17
-#: \views\users\admin_index.ctp:18
-#: \views\vocabularies\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:16
 msgid "Actions"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:32
 msgid "Add Action"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:46;49
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:46;49
 msgid "The "
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:72
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:72
 msgid "Edit Action"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:75
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:75
 msgid "Invalid Action"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:80
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:80
 msgid "The Action has been saved"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:83
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:83
 msgid "The Action could not be saved. Please, try again."
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:110;125
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:110;125
 msgid "Invalid id for Action"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:118
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:118
 msgid "Action deleted"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:130
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:130
 msgid "Action moved up"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_actions_controller.php:135
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:135
 msgid "Action moved down"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_aros_controller.php:19
-#: \plugins\acl\views\acl_aros\admin_index.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:2
 msgid "Aros"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_aros_controller.php:26
-#: \plugins\acl\views\acl_aros\admin_add.ctp:2
-#: \plugins\acl\views\acl_aros\admin_edit.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_add.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_edit.ctp:2
 msgid "Add Aro"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_aros_controller.php:31;48
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:31;48
 msgid "The Aro has been saved"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_aros_controller.php:34;51
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:34;51
 msgid "The Aro could not be saved. Please, try again."
 msgstr ""
 
-#: \plugins\acl\controllers\acl_aros_controller.php:40
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:40
 msgid "Edit Aro"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_aros_controller.php:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:43
 msgid "Invalid Aro"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_aros_controller.php:61
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:61
 msgid "Invalid id for Aro"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_aros_controller.php:69
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:69
 msgid "Aro deleted"
 msgstr ""
 
-#: \plugins\acl\controllers\acl_permissions_controller.php:36
-#: \views\elements\admin\navigation.ctp:101
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_permissions_controller.php:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:101
 msgid "Permissions"
 msgstr ""
 
-#: \plugins\acl\views\acl_acos\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:6
 msgid "New Aco"
 msgstr ""
 
-#: \plugins\acl\views\acl_acos\admin_index.ctp:24
-#: \plugins\acl\views\acl_actions\admin_index.ctp:41
-#: \plugins\acl\views\acl_aros\admin_index.ctp:24
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:45
-#: \plugins\extensions\views\extensions_locales\admin_index.ctp:28
-#: \plugins\translate\views\translate\admin_index.ctp:34
-#: \views\attachments\admin_browse.ctp:24
-#: \views\attachments\admin_index.ctp:23
-#: \views\blocks\admin_index.ctp:28
-#: \views\comments\admin_index.ctp:37
-#: \views\contacts\admin_index.ctp:25
-#: \views\filemanager\admin_browse.ctp:55
-#: \views\languages\admin_index.ctp:26
-#: \views\links\admin_index.ctp:34
-#: \views\menus\admin_index.ctp:24
-#: \views\messages\admin_index.ctp:36
-#: \views\nodes\admin_index.ctp:42
-#: \views\nodes\admin_translations.ctp:34
-#: \views\regions\admin_index.ctp:22
-#: \views\roles\admin_index.ctp:22
-#: \views\settings\admin_index.ctp:25
-#: \views\terms\admin_index.ctp:33
-#: \views\types\admin_index.ctp:23
-#: \views\users\admin_index.ctp:24
-#: \views\vocabularies\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:41
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:45
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:55
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:23
 msgid "Edit"
 msgstr ""
 
-#: \plugins\acl\views\acl_acos\admin_index.ctp:25
-#: \plugins\acl\views\acl_actions\admin_index.ctp:42
-#: \plugins\acl\views\acl_aros\admin_index.ctp:25
-#: \plugins\extensions\views\extensions_locales\admin_index.ctp:29
-#: \plugins\extensions\views\extensions_plugins\admin_index.ctp:26
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:63
-#: \plugins\translate\views\translate\admin_index.ctp:40
-#: \views\attachments\admin_browse.ctp:25
-#: \views\attachments\admin_index.ctp:29
-#: \views\blocks\admin_index.ctp:30;59
-#: \views\comments\admin_index.ctp:39;75
-#: \views\contacts\admin_index.ctp:27
-#: \views\filemanager\admin_browse.ctp:38;57
-#: \views\languages\admin_index.ctp:28
-#: \views\links\admin_index.ctp:36;64
-#: \views\menus\admin_index.ctp:26
-#: \views\messages\admin_index.ctp:38;67
-#: \views\nodes\admin_index.ctp:44;83
-#: \views\nodes\admin_translations.ctp:35
-#: \views\regions\admin_index.ctp:24
-#: \views\roles\admin_index.ctp:24
-#: \views\settings\admin_index.ctp:27
-#: \views\terms\admin_index.ctp:35;61
-#: \views\types\admin_index.ctp:25
-#: \views\users\admin_index.ctp:26
-#: \views\vocabularies\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:40
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:30;59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:39;75
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:38;57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:41;68
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:38;67
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:27
 msgid "Delete"
 msgstr ""
 
-#: \plugins\acl\views\acl_acos\admin_index.ctp:29
-#: \plugins\acl\views\acl_actions\admin_index.ctp:46
-#: \plugins\acl\views\acl_aros\admin_index.ctp:29
-#: \plugins\extensions\views\extensions_locales\admin_index.ctp:33
-#: \plugins\extensions\views\extensions_plugins\admin_index.ctp:30
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:67
-#: \plugins\translate\views\translate\admin_index.ctp:46
-#: \views\attachments\admin_browse.ctp:25
-#: \views\attachments\admin_index.ctp:34
-#: \views\blocks\admin_index.ctp:35
-#: \views\comments\admin_index.ctp:43
-#: \views\contacts\admin_index.ctp:31
-#: \views\languages\admin_index.ctp:32
-#: \views\links\admin_index.ctp:42
-#: \views\menus\admin_index.ctp:31
-#: \views\messages\admin_index.ctp:42
-#: \views\nodes\admin_index.ctp:48
-#: \views\nodes\admin_translations.ctp:35
-#: \views\regions\admin_index.ctp:29
-#: \views\roles\admin_index.ctp:29
-#: \views\settings\admin_index.ctp:32
-#: \views\terms\admin_index.ctp:40
-#: \views\types\admin_index.ctp:30
-#: \views\users\admin_index.ctp:31
-#: \views\vocabularies\admin_index.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:33
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:67
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:32
 msgid "Are you sure?"
 msgstr ""
 
-#: \plugins\acl\views\acl_acos\admin_index.ctp:48
-#: \plugins\acl\views\acl_aros\admin_index.ctp:48
-#: \views\attachments\admin_browse.ctp:61
-#: \views\attachments\admin_index.ctp:60
-#: \views\blocks\admin_index.ctp:69
-#: \views\comments\admin_index.ctp:85
-#: \views\contacts\admin_index.ctp:54
-#: \views\languages\admin_index.ctp:51
-#: \views\menus\admin_index.ctp:49
-#: \views\messages\admin_index.ctp:77
-#: \views\nodes\admin_index.ctp:93
-#: \views\regions\admin_index.ctp:46
-#: \views\roles\admin_index.ctp:46
-#: \views\settings\admin_index.ctp:59
-#: \views\types\admin_index.ctp:48
-#: \views\users\admin_index.ctp:50
-#: \views\vocabularies\admin_index.ctp:47
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:70
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:60
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:69
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:85
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:77
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:93
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:50
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:49
 msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
 msgstr ""
 
-#: \plugins\acl\views\acl_actions\admin_add.ctp:9
-#: \plugins\acl\views\acl_actions\admin_edit.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_edit.ctp:11
 msgid "Choose none if the Aco is a controller."
 msgstr ""
 
-#: \plugins\acl\views\acl_actions\admin_index.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:10
 msgid "New Action"
 msgstr ""
 
-#: \plugins\acl\views\acl_actions\admin_index.ctp:11
-#: \plugins\acl\views\acl_permissions\admin_index.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:9
 msgid "Generate Actions"
 msgstr ""
 
-#: \plugins\acl\views\acl_actions\admin_index.ctp:18
-#: \plugins\acl\views\acl_permissions\admin_index.ctp:20
-#: \views\links\admin_index.ctp:23
-#: \views\settings\admin_view.ctp:4
-#: \views\terms\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:29
 msgid "Id"
 msgstr ""
 
-#: \plugins\acl\views\acl_actions\admin_index.ctp:19
-#: \plugins\acl\views\acl_permissions\admin_index.ctp:21
-#: \plugins\extensions\views\extensions_plugins\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:14
 msgid "Alias"
 msgstr ""
 
-#: \plugins\acl\views\acl_actions\admin_index.ctp:47
-#: \views\blocks\admin_index.ctp:26
-#: \views\languages\admin_index.ctp:24
-#: \views\links\admin_index.ctp:32
-#: \views\settings\admin_index.ctp:23
-#: \views\terms\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:47
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:24
 msgid "Move up"
 msgstr ""
 
-#: \plugins\acl\views\acl_actions\admin_index.ctp:48
-#: \views\blocks\admin_index.ctp:27
-#: \views\languages\admin_index.ctp:25
-#: \views\links\admin_index.ctp:33
-#: \views\settings\admin_index.ctp:24
-#: \views\terms\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:25
 msgid "Move down"
 msgstr ""
 
-#: \plugins\acl\views\acl_aros\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:6
 msgid "New Aro"
 msgstr ""
 
-#: \plugins\acl\views\acl_permissions\admin_index.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:10
 msgid "Edit Actions"
 msgstr ""
 
-#: \plugins\acl\views\acl_permissions\admin_toggle.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_toggle.ctp:9
 msgid "error"
 msgstr ""
 
-#: \plugins\example\controllers\example_controller.php:31;35
-#: \plugins\example\views\elements\admin_menu.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\controllers\example_controller.php:31;35
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:1
 msgid "Example"
 msgstr ""
 
-#: \plugins\example\views\elements\admin_menu.ctp:3
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:3
 msgid "Example 1"
 msgstr ""
 
-#: \plugins\example\views\elements\admin_menu.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:4
 msgid "Example 2"
 msgstr ""
 
-#: \plugins\example\views\example\admin_index.ctp:3
-#: \plugins\example\views\example\index.ctp:3
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\example\admin_index.ctp:3
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\example\index.ctp:3
 msgid "content here"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_hooks_controller.php:37
-#: \views\elements\admin\navigation.ctp:65
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:65
 msgid "Hooks"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_hooks_controller.php:69;84
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:76;96
 msgid "%s activated successfully."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_hooks_controller.php:78
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:78;98
+msgid "%s could not be activated. Plugin depends on other plugins that are not available."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:89
 msgid "%s deactivated successfully."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:37
-#: \views\elements\admin\navigation.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:63
 msgid "Locales"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:53
 msgid "Locale does not exist."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:70
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:70
 msgid "Could not edit croogo_bootstrap.php file."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:76
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:76
 msgid "Upload a new locale"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:102;151
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:102;151
 msgid "Invalid locale."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:107
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:107
 msgid "Locale already exists."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:148
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:148
 msgid "Edit locale: %s"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:156
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:156
 msgid "The file default.po does not exist."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:166
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:166
 msgid "Locale updated successfully"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:176
-#: \plugins\translate\controllers\translate_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:176
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:89
 msgid "Invalid locale"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:186
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:186
 msgid "Locale deleted successfully."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_locales_controller.php:188
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:188
 msgid "Local could not be deleted."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_plugins_controller.php:51
-#: \views\elements\admin\navigation.ctp:64
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:64
 msgid "Plugins"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_plugins_controller.php:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:63
 msgid "Upload a new plugin"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_plugins_controller.php:92
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:92
 msgid "Invalid plugin."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_plugins_controller.php:102
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:102
 msgid "Plugin already exists."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_plugins_controller.php:144
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:144
 msgid "Invalid plugin"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_plugins_controller.php:154
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:152
+msgid "You cannot delete a plugin that is currently active."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:158
 msgid "Plugin deleted successfully."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_plugins_controller.php:156
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:160
 msgid "Plugin could not be deleted."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:37
-#: \views\elements\admin\navigation.ctp:62
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:62
 msgid "Themes"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:62
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:62
 msgid "Theme activated."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:68
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:68
 msgid "Upload a new theme"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:93
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:93
 msgid "Invalid YML file"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:99
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:99
 msgid "Invalid zip archive"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:104
 msgid "Directory with theme alias already exists."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:138
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:138
 msgid "Theme uploaded successfully."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:145
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:145
 msgid "Theme Editor"
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:154
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:154
 msgid "Invalid Theme."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:163
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:163
 msgid "Default theme cannot be deleted."
 msgstr ""
 
-#: \plugins\extensions\controllers\extensions_themes_controller.php:185
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:166
+msgid "You cannot delete a theme that is currently active."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:188
 msgid "Theme deleted successfully."
 msgstr ""
 
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:13
 msgid "Plugin"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:14
 msgid "Hook"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:15
 msgid "Hook type"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:16
-#: \views\links\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:30
 msgid "Status"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:38
 msgid "Deactivate"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_hooks\admin_index.ctp:41
-#: \plugins\extensions\views\extensions_locales\admin_index.ctp:23
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:41
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:58
 msgid "Activate"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_locales\admin_index.ctp:14
-#: \plugins\translate\views\translate\admin_index.ctp:27
-#: \views\nodes\admin_translations.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:27
 msgid "Locale"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_locales\admin_index.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:15
 msgid "Default"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_plugins\admin_index.ctp:15
-#: \views\elements\comments_form.ctp:23;39
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:23;39
 msgid "Name"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_plugins\admin_index.ctp:16
-#: \views\settings\admin_view.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:19
 msgid "Description"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:17
+msgid "Hooks Active"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:7
 msgid "Editor"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:12
 msgid "Current Theme"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:28;54
-#: \views\comments\rss\index.ctp:16
-#: \views\elements\node_info.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:28;54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\rss\index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:9
 msgid "by"
 msgstr ""
 
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:32;56
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:32;56
 msgid "Regions supported: "
 msgstr ""
 
-#: \plugins\extensions\views\extensions_themes\admin_index.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:37
 msgid "Available Themes"
 msgstr ""
 
-#: \plugins\install\controllers\install_controller.php:75
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:93
 msgid "Installation: Welcome"
 msgstr ""
 
-#: \plugins\install\controllers\install_controller.php:90
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:108
 msgid "Step 1: Database"
 msgstr ""
 
-#: \plugins\install\controllers\install_controller.php:96;136
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:124;165
 msgid "Could not connect to database."
 msgstr ""
 
-#: \plugins\install\controllers\install_controller.php:100
-msgid "Could not select database."
-msgstr ""
-
-#: \plugins\install\controllers\install_controller.php:117
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:145
 msgid "Could not write database.php file."
 msgstr ""
 
-#: \plugins\install\controllers\install_controller.php:129
-msgid "Step 2: Run SQL"
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:157
+msgid "Step 2: Build database"
 msgstr ""
 
-#: \plugins\install\controllers\install_controller.php:156
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:210
 msgid "Installation completed successfully"
 msgstr ""
 
-#: \plugins\install\controllers\install_controller.php:161
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:215
 msgid "Installation files deleted successfully."
 msgstr ""
 
-#: \plugins\install\controllers\install_controller.php:164
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:218
 msgid "Could not delete installation files."
 msgstr ""
 
-#: \plugins\install\views\install\data.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\data.ctp:5
 msgid "Click here to build your database"
 msgstr ""
 
-#: \plugins\install\views\install\finish.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\finish.ctp:21
 msgid "Click here to delete installation files"
 msgstr ""
 
-#: \plugins\install\views\install\index.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:8
 msgid "Your tmp directory is writable."
 msgstr ""
 
-#: \plugins\install\views\install\index.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:11
 msgid "Your tmp directory is NOT writable."
 msgstr ""
 
-#: \plugins\install\views\install\index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:16
 msgid "Your config directory is writable."
 msgstr ""
 
-#: \plugins\install\views\install\index.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:19
 msgid "Your config directory is NOT writable."
 msgstr ""
 
-#: \plugins\install\views\install\index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:24
 msgid "PHP version %s > 5"
 msgstr ""
 
-#: \plugins\install\views\install\index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:27
 msgid "PHP version %s < 5"
 msgstr ""
 
-#: \plugins\install\views\install\index.ctp:33
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:33
 msgid "Installation cannot continue as minimum requirements are not met."
 msgstr ""
 
-#: \plugins\install\views\layouts\install.ctp:5
-#: \views\layouts\admin.ctp:5
-#: \views\layouts\admin_full.ctp:5
-#: \views\layouts\admin_login.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\layouts\install.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_full.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_login.ctp:5
 msgid "Croogo"
 msgstr ""
 
-#: \plugins\install\views\layouts\install.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\layouts\install.ctp:21
 msgid "Install Croogo"
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:35;80
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:35;80
 msgid "Invalid ID."
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:44;161
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:44;161
 msgid "Invalid model."
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:56;116;173
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:56;116;173
 msgid "Invalid record."
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:63
 msgid "Translations: %s"
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:123
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:123
 msgid "Translate content: %s (%s)"
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:130
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:130
 msgid "Record has been translated"
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:137
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:137
 msgid "Record could not be translated. Please, try again."
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:148
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:148
 msgid "Invalid Locale or ID"
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:188
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:188
 msgid "Translation for the locale deleted successfully."
 msgstr ""
 
-#: \plugins\translate\controllers\translate_controller.php:190
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:190
 msgid "Translation for the locale could not be deleted."
 msgstr ""
 
-#: \plugins\translate\views\translate\admin_edit.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_edit.ctp:15
 msgid "Record"
 msgstr ""
 
-#: \plugins\translate\views\translate\admin_index.ctp:8
-#: \views\nodes\admin_translations.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:8
 msgid "Translate in a new language"
 msgstr ""
 
-#: \plugins\translate\views\translate\admin_index.ctp:26
-#: \views\links\admin_index.ctp:24
-#: \views\nodes\admin_translations.ctp:26
-#: \views\terms\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:30
 msgid "Title"
 msgstr ""
 
-#: \plugins\translate\views\translate\admin_index.ctp:63
-#: \views\nodes\admin_translations.ctp:52
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:52
 msgid "No translations available."
 msgstr ""
 
-#: \tests\cases\controllers\languages_controller.test.php:147;178
+#: E:\xampp\htdocs\p\croogo_croogo\app\tests\cases\controllers\languages_controller.test.php:185;216
 msgid "Could not add a new language."
 msgstr ""
 
-#: \views\attachments\admin_browse.ctp:6
-#: \views\attachments\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:6
 msgid "New Attachment"
 msgstr ""
 
-#: \views\attachments\admin_browse.ctp:17
-#: \views\attachments\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:16
 msgid "URL"
 msgstr ""
 
-#: \views\attachments\admin_browse.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:51
 msgid "Insert"
 msgstr ""
 
-#: \views\attachments\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:9
 msgid "Attachment"
 msgstr ""
 
-#: \views\attachments\admin_edit.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:10
 msgid "Info"
 msgstr ""
 
-#: \views\attachments\admin_edit.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:29
 msgid "Caption"
 msgstr ""
 
-#: \views\attachments\admin_edit.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:36
 msgid "File URL"
 msgstr ""
 
-#: \views\attachments\admin_edit.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:37
 msgid "Mime Type"
 msgstr ""
 
-#: \views\blocks\admin_add.ctp:7
-#: \views\blocks\admin_edit.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:7
 msgid "Block"
 msgstr ""
 
-#: \views\blocks\admin_add.ctp:8
-#: \views\blocks\admin_edit.ctp:8
-#: \views\links\admin_add.ctp:8
-#: \views\links\admin_edit.ctp:8
-#: \views\nodes\admin_add.ctp:12
-#: \views\nodes\admin_edit.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:13
 msgid "Access"
 msgstr ""
 
-#: \views\blocks\admin_add.ctp:9
-#: \views\blocks\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:9
 msgid "Visibilities"
 msgstr ""
 
-#: \views\blocks\admin_add.ctp:16
-#: \views\blocks\admin_edit.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:17
 msgid "unique name for your block"
 msgstr ""
 
-#: \views\blocks\admin_add.ctp:17
-#: \views\blocks\admin_edit.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:18
 msgid "if you are not sure, choose 'none'"
 msgstr ""
 
-#: \views\blocks\admin_add.ctp:35
-#: \views\blocks\admin_edit.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:36
 msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
 msgstr ""
 
-#: \views\blocks\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:6
 msgid "New Block"
 msgstr ""
 
-#: \views\blocks\admin_index.ctp:57
-#: \views\comments\admin_index.ctp:73
-#: \views\links\admin_index.ctp:62
-#: \views\nodes\admin_index.ctp:79
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:73
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:66
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:79
 msgid "Publish"
 msgstr ""
 
-#: \views\blocks\admin_index.ctp:58
-#: \views\comments\admin_index.ctp:74
-#: \views\links\admin_index.ctp:63
-#: \views\nodes\admin_index.ctp:80
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:67
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:80
 msgid "Unpublish"
 msgstr ""
 
-#: \views\blocks\admin_index.ctp:63
-#: \views\comments\admin_index.ctp:79
-#: \views\links\admin_index.ctp:68
-#: \views\messages\admin_index.ctp:71
-#: \views\nodes\admin_index.ctp:87
-#: \views\terms\admin_index.ctp:65
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:79
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:72
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:71
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:87
 msgid "Submit"
 msgstr ""
 
-#: \views\comments\admin_edit.ctp:8
-#: \views\elements\comments.ctp:5
-#: \views\elements\node_more_info.ctp:31
-#: \views\elements\admin\navigation.ctp:112
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:112
 msgid "Comment"
 msgstr ""
 
-#: \views\comments\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:9
 msgid "Contact Info"
 msgstr ""
 
-#: \views\comments\admin_edit.ctp:17
-#: \views\comments\admin_index.ctp:14
-#: \views\elements\admin\navigation.ctp:33
-#: \views\elements\admin\nodes_filter.ctp:24
-#: \views\nodes\admin_add.ctp:74
-#: \views\nodes\admin_edit.ctp:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:33
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:84
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:85
 msgid "Published"
 msgstr ""
 
-#: \views\comments\admin_index.ctp:15
-#: \views\elements\admin\navigation.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:34
 msgid "Approval"
 msgstr ""
 
-#: \views\comments\rss\index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\rss\index.ctp:16
 msgid "Comment on"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:7
-#: \views\contacts\admin_edit.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:7
 msgid "Contact"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:8
-#: \views\contacts\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:8
 msgid "Details"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:9
-#: \views\contacts\admin_edit.ctp:9
-#: \views\contacts\view.ctp:20
-#: \plugins\debug_kit\views\elements\log_panel.ctp:28
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:40;64
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:20
 msgid "Message"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:39
-#: \views\contacts\admin_edit.ctp:40
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:40
 msgid "Let users leave a message"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:42
-#: \views\contacts\admin_edit.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:43
 msgid "Save messages in database"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:45
-#: \views\contacts\admin_edit.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:45
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:46
 msgid "Notify by email instantly"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:48
-#: \views\contacts\admin_edit.ctp:49
-#: \views\types\admin_add.ctp:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:56
 msgid "Spam protection (requires Akismet API key)"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:51
-#: \views\contacts\admin_edit.ctp:52
-#: \views\types\admin_add.ctp:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:52
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:59
 msgid "Use captcha? (requires Recaptcha API key)"
 msgstr ""
 
-#: \views\contacts\admin_add.ctp:56
-#: \views\contacts\admin_edit.ctp:57
-#: \views\types\admin_add.ctp:65
-#: \views\types\admin_edit.ctp:66
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:65
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:66
 msgid "You can manage your API keys here."
 msgstr ""
 
-#: \views\contacts\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:6
 msgid "New Contact"
 msgstr ""
 
-#: \views\contacts\view.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:17
 msgid "Your name"
 msgstr ""
 
-#: \views\contacts\view.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:18
 msgid "Your email"
 msgstr ""
 
-#: \views\contacts\view.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:19
 msgid "Subject"
 msgstr ""
 
-#: \views\contacts\view.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:24
 msgid "Send"
 msgstr ""
 
-#: \views\elements\comment.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comment.ctp:13
 msgid "said on %s"
 msgstr ""
 
-#: \views\elements\comment.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comment.ctp:19
 msgid "Reply"
 msgstr ""
 
-#: \views\elements\comments_form.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:2
 msgid "Add new comment"
 msgstr ""
 
-#: \views\elements\comments_form.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:7
 msgid "Go back to original post"
 msgstr ""
 
-#: \views\elements\comments_form.ctp:28;40
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:28;40
 msgid "Email"
 msgstr ""
 
-#: \views\elements\comments_form.ctp:33;41
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:33;41
 msgid "Website"
 msgstr ""
 
-#: \views\elements\comments_form.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:48
 msgid "Post comment"
 msgstr ""
 
-#: \views\elements\node_info.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:6
 msgid "Posted"
 msgstr ""
 
-#: \views\elements\node_info.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:20
 msgid "on"
 msgstr ""
 
-#: \views\elements\node_more_info.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:17
 msgid "Posted in"
 msgstr ""
 
-#: \views\elements\node_more_info.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:28
 msgid "Leave a comment"
 msgstr ""
 
-#: \views\elements\search.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\search.ctp:24
 msgid "Search"
 msgstr ""
 
-#: \views\elements\admin\logo.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\logo.ctp:2
 msgid "Admin Panel"
 msgstr ""
 
-#: \views\elements\admin\logo.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\logo.ctp:4
 msgid "Visit website"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:10;23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:10;23
 msgid "List"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:19
 msgid "Content types"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:21
-#: \views\types\admin_add.ctp:8
-#: \views\types\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:9
 msgid "Taxonomy"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:24;44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:24;44
 msgid "Add new"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:55
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:55
 msgid "Regions"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:60
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:60
 msgid "Extensions"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:81
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:81
 msgid "Media"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:108
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:108
 msgid "Site"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:109
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:109
 msgid "Meta"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:110
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:110
 msgid "Reading"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:111
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:111
 msgid "Writing"
 msgstr ""
 
-#: \views\elements\admin\navigation.ctp:113
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:113
 msgid "Service"
 msgstr ""
 
-#: \views\elements\admin\nodes_filter.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:25
 msgid "Unpublished"
 msgstr ""
 
-#: \views\elements\admin\nodes_filter.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:35
 msgid "Promoted"
 msgstr ""
 
-#: \views\elements\admin\nodes_filter.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:37
 msgid "Yes"
 msgstr ""
 
-#: \views\elements\admin\nodes_filter.ctp:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:38
 msgid "No"
 msgstr ""
 
-#: \views\elements\admin\nodes_filter.ctp:43
-#: \views\nodes\admin_index.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:10
 msgid "Filter"
 msgstr ""
 
-#: \views\elements\admin\quick.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\quick.ctp:4
 msgid "You are logged in as "
 msgstr ""
 
-#: \views\elements\admin\quick.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\quick.ctp:5
 msgid "Log Out"
 msgstr ""
 
-#: \views\elements\email\text\comment.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:2
 msgid "A new comment has been posted under: %s"
 msgstr ""
 
-#: \views\elements\email\text\comment.ctp:6
-#: \views\elements\email\text\contact.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:8
 msgid "Name: %s"
 msgstr ""
 
-#: \views\elements\email\text\comment.ctp:7
-#: \views\elements\email\text\contact.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:9
 msgid "Email: %s"
 msgstr ""
 
-#: \views\elements\email\text\comment.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:8
 msgid "Website: %s"
 msgstr ""
 
-#: \views\elements\email\text\comment.ctp:9
-#: \views\elements\email\text\contact.ctp:11
-#: \views\elements\email\text\forgot_password.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:17
 msgid "IP Address: %s"
 msgstr ""
 
-#: \views\elements\email\text\comment.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:10
 msgid "Comment: %s"
 msgstr ""
 
-#: \views\elements\email\text\contact.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:7
 msgid "You have received a new message at: %s"
 msgstr ""
 
-#: \views\elements\email\text\contact.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:10
 msgid "Subject: %s"
 msgstr ""
 
-#: \views\elements\email\text\contact.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:12
 msgid "Message: %s"
 msgstr ""
 
-#: \views\elements\email\text\forgot_password.ctp:1
-#: \views\elements\email\text\register.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\register.ctp:1
 msgid "Hello %s"
 msgstr ""
 
-#: \views\elements\email\text\forgot_password.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
 msgstr ""
 
-#: \views\elements\email\text\forgot_password.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
 msgstr ""
 
-#: \views\elements\email\text\register.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\register.ctp:10
 msgid "Please visit this link to activate your account: %s"
 msgstr ""
 
-#: \views\errors\missing_action.ctp:1
-#: \views\errors\missing_controller.ctp:1
-#: \views\errors\security.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:1
 msgid "Page not found"
 msgstr ""
 
-#: \views\errors\missing_action.ctp:2
-#: \views\errors\missing_controller.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:2
 msgid "Error"
 msgstr ""
 
-#: \views\errors\missing_action.ctp:4
-#: \views\errors\missing_controller.ctp:4
-#: \views\errors\security.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:4
 msgid "The requested address was not found on this server."
 msgstr ""
 
-#: \views\errors\security.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:2
 msgid "Security Error"
 msgstr ""
 
-#: \views\filemanager\admin_browse.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:6
 msgid "Upload here"
 msgstr ""
 
-#: \views\filemanager\admin_browse.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:7
 msgid "Create directory"
 msgstr ""
 
-#: \views\filemanager\admin_browse.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:8
 msgid "Create file"
 msgstr ""
 
-#: \views\filemanager\admin_browse.ctp:14
-#: \views\filemanager\admin_create_directory.ctp:6
-#: \views\filemanager\admin_create_file.ctp:6
-#: \views\filemanager\admin_editfile.ctp:6
-#: \views\filemanager\admin_upload.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_create_directory.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_create_file.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_editfile.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_upload.ctp:6
 msgid "You are here:"
 msgstr ""
 
-#: \views\filemanager\admin_browse.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:28
 msgid "Directory content"
 msgstr ""
 
-#: \views\filemanager\admin_browse.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:36
 msgid "Open"
 msgstr ""
 
-#: \views\helpers\meta.php:34
-#: \views\settings\admin_view.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:596
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:9
 msgid "Key"
 msgstr ""
 
-#: \views\helpers\meta.php:38
-#: \views\settings\admin_view.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:600
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:14
 msgid "Value"
 msgstr ""
 
-#: \views\helpers\meta.php:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:615
 msgid "Remove"
 msgstr ""
 
-#: \views\languages\admin_index.ctp:6
-#: \views\languages\admin_select.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_select.ctp:6
 msgid "New Language"
 msgstr ""
 
-#: \views\layouts\admin_login.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_login.ctp:21
 msgid "Back to"
 msgstr ""
 
-#: \views\layouts\maintenance.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\maintenance.ctp:13
 msgid "Site down for maintenance."
 msgstr ""
 
-#: \views\links\admin_add.ctp:7
-#: \views\links\admin_edit.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:7
 msgid "Link"
 msgstr ""
 
-#: \views\links\admin_add.ctp:9
-#: \views\links\admin_edit.ctp:9
-#: \views\menus\admin_add.ctp:8
-#: \views\menus\admin_edit.ctp:8
-#: \views\settings\admin_add.ctp:8
-#: \views\settings\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:8
 msgid "Misc."
 msgstr ""
 
-#: \views\links\admin_add.ctp:16
-#: \views\links\admin_edit.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:17
 msgid "Parent"
 msgstr ""
 
-#: \views\links\admin_add.ctp:22
-#: \views\links\admin_edit.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:23
 msgid "Link to a Node"
 msgstr ""
 
-#: \views\links\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:6
 msgid "New Link"
 msgstr ""
 
-#: \views\menus\admin_add.ctp:7
-#: \views\menus\admin_edit.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_edit.ctp:7
 msgid "Menu"
 msgstr ""
 
-#: \views\menus\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:6
 msgid "New Menu"
 msgstr ""
 
-#: \views\menus\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:23
 msgid "View links"
 msgstr ""
 
-#: \views\messages\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:6
 msgid "Unread"
 msgstr ""
 
-#: \views\messages\admin_index.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:7
 msgid "Read"
 msgstr ""
 
-#: \views\messages\admin_index.ctp:65
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:65
 msgid "Mark as read"
 msgstr ""
 
-#: \views\messages\admin_index.ctp:66
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:66
 msgid "Mark as unread"
 msgstr ""
 
-#: \views\nodes\admin_add.ctp:11
-#: \views\nodes\admin_edit.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:10
+msgid "Terms"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:12
 msgid "Custom fields"
 msgstr ""
 
-#: \views\nodes\admin_add.ctp:13
-#: \views\nodes\admin_edit.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:14
 msgid "Publishing"
 msgstr ""
 
-#: \views\nodes\admin_add.ctp:39
-#: \views\nodes\admin_edit.ctp:41
-#: \views\types\admin_add.ctp:42
-#: \views\types\admin_edit.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:52
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:44
 msgid "Disabled"
 msgstr ""
 
-#: \views\nodes\admin_add.ctp:40
-#: \views\nodes\admin_edit.ctp:42
-#: \views\types\admin_add.ctp:43
-#: \views\types\admin_edit.ctp:45
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:45
 msgid "Read only"
 msgstr ""
 
-#: \views\nodes\admin_add.ctp:41
-#: \views\nodes\admin_edit.ctp:43
-#: \views\types\admin_add.ctp:44
-#: \views\types\admin_edit.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:50
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:46
 msgid "Read/Write"
 msgstr ""
 
-#: \views\nodes\admin_add.ctp:63
-#: \views\nodes\admin_edit.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:72
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:74
 msgid "Add another field"
 msgstr ""
 
-#: \views\nodes\admin_add.ctp:75
-#: \views\nodes\admin_edit.ctp:75
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:88
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:86
 msgid "Promoted to front page"
 msgstr ""
 
-#: \views\nodes\admin_index.ctp:81
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:81
 msgid "Promote"
 msgstr ""
 
-#: \views\nodes\admin_index.ctp:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:82
 msgid "Unpromote"
 msgstr ""
 
-#: \views\nodes\admin_links.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_links.ctp:24
 msgid "Sort by:"
 msgstr ""
 
-#: \views\nodes\index.ctp:4
-#: \views\nodes\promoted.ctp:4
-#: \views\nodes\search.ctp:6
-#: \views\nodes\term.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\index.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\promoted.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\search.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\term.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\index_blog.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\term_2.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\term_node.ctp:7
 msgid "No items found."
 msgstr ""
 
-#: \views\regions\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:6
 msgid "New Region"
 msgstr ""
 
-#: \views\roles\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:6
 msgid "New Role"
 msgstr ""
 
-#: \views\settings\admin_add.ctp:13
-#: \views\settings\admin_edit.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:14
 msgid "e.g., 'Site.title'"
 msgstr ""
 
-#: \views\settings\admin_add.ctp:22
-#: \views\settings\admin_edit.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:23
 msgid "e.g., 'text' or 'textarea'"
 msgstr ""
 
-#: \views\settings\admin_index.ctp:6
-#: \views\settings\admin_view.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:46
 msgid "New Setting"
 msgstr ""
 
-#: \views\settings\admin_view.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:2
 msgid "Setting"
 msgstr ""
 
-#: \views\settings\admin_view.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:24
 msgid "Input Type"
 msgstr ""
 
-#: \views\settings\admin_view.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:29
 msgid "Weight"
 msgstr ""
 
-#: \views\settings\admin_view.ctp:34
-#: \views\types\admin_add.ctp:11
-#: \views\types\admin_edit.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:12
 msgid "Params"
 msgstr ""
 
-#: \views\settings\admin_view.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:44
 msgid "Delete Setting"
 msgstr ""
 
-#: \views\settings\admin_view.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:44
 msgid "Are you sure you want to delete # %s?"
 msgstr ""
 
-#: \views\settings\admin_view.ctp:45
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:45
 msgid "List Settings"
 msgstr ""
 
-#: \views\terms\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_add.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_edit.ctp:12
+msgid "Term"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:6
 msgid "New Term"
 msgstr ""
 
-#: \views\types\admin_add.ctp:9
-#: \views\types\admin_edit.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:31
+msgid "Slug"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:10
 msgid "Format"
 msgstr ""
 
-#: \views\types\admin_add.ctp:31
-#: \views\types\admin_edit.ctp:33
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:33
 msgid "Show author's name"
 msgstr ""
 
-#: \views\types\admin_add.ctp:34
-#: \views\types\admin_edit.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:36
 msgid "Show date"
 msgstr ""
 
-#: \views\types\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:6
 msgid "New Type"
 msgstr ""
 
-#: \views\users\admin_add.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_add.ctp:2
 msgid "Add User"
 msgstr ""
 
-#: \views\users\admin_edit.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_edit.ctp:2
 msgid "Edit User"
 msgstr ""
 
-#: \views\users\admin_edit.ctp:6
-#: \views\users\admin_reset_password.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_edit.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:2
 msgid "Reset password"
 msgstr ""
 
-#: \views\users\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:6
 msgid "New User"
 msgstr ""
 
-#: \views\users\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:14
 msgid "Role"
 msgstr ""
 
-#: \views\users\admin_login.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_login.ctp:10
 msgid "Forgot password?"
 msgstr ""
 
-#: \views\users\admin_login.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_login.ctp:17
 msgid "Log In"
 msgstr ""
 
-#: \views\users\admin_reset_password.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:8
 msgid "Current Password"
 msgstr ""
 
-#: \views\users\admin_reset_password.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:9
 msgid "New Password"
 msgstr ""
 
-#: \views\users\index.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\index.ctp:4
 msgid "You are currently logged in as:"
 msgstr ""
 
-#: \views\users\login.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\login.ctp:2
 msgid "Login"
 msgstr ""
 
-#: \views\users\reset.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\reset.ctp:6
 msgid "New password"
 msgstr ""
 
-#: \views\vocabularies\admin_add.ctp:11
-#: \views\vocabularies\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_edit.ctp:8
+msgid "Vocabulary"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_edit.ctp:9
 msgid "Options"
 msgstr ""
 
-#: \views\vocabularies\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:6
 msgid "New Vocabulary"
 msgstr ""
 
-#: \views\vocabularies\admin_index.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:22
 msgid "View terms"
 msgstr ""
 
-#: \webroot\test.php:88
+#: E:\xampp\htdocs\p\croogo_croogo\app\webroot\test.php:88
 msgid "Debug setting does not allow access to this url."
-msgstr ""
-
-#: \plugins\debug_kit\controllers\components\toolbar.php:99
-msgid "Component intitailization"
-msgstr ""
-
-#: \plugins\debug_kit\controllers\components\toolbar.php:100
-msgid "Component initialization and startup"
-msgstr ""
-
-#: \plugins\debug_kit\controllers\components\toolbar.php:170
-msgid "Controller action"
-msgstr ""
-
-#: \plugins\debug_kit\controllers\components\toolbar.php:171
-msgid "Controller action start"
-msgstr ""
-
-#: \plugins\debug_kit\controllers\components\toolbar.php:199
-msgid "Render Controller Action"
-msgstr ""
-
-#: \plugins\debug_kit\controllers\components\toolbar.php:200
-msgid "Controller render start"
-msgstr ""
-
-#: \plugins\debug_kit\controllers\components\toolbar.php:266
-msgid "Could not load DebugToolbar panel %s"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\debug_kit_debugger.php:185
-msgid "Core Processing (Derived)"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\fire_cake.php:297
-msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
-msgstr ""
-
-#: \plugins\debug_kit\vendors\fire_cake.php:318
-msgid "Incorrect parameter count for FireCake::fb()"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\fire_cake.php:397
-msgid "Maximum number (99,999) of messages reached!"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:50
-msgid "-> Testing :url"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:76
-msgid "Total Requests made: :requests"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:77
-msgid "Total Time elapsed: :duration (seconds)"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:81
-msgid "Requests/Second: :rps req/sec"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:85
-msgid "Average request time: :average-time seconds"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:89
-msgid "Standard deviation of average request time: :std-dev"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:93
-msgid "Longest/shortest request: :longest sec/:shortest sec"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:145
-msgid "DebugKit Benchmark Shell"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:147
-msgid "\tAllows you to obtain some rough benchmarking statistics \n\tabout a fully qualified URL."
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:149
-msgid "\tUse:"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:150
-msgid "\t\tcake benchmark [-n iterations] [-t timeout] url"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:152
-msgid "\tParams:"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:153
-msgid "\t\t-n Number of iterations to perform. Defaults to 10. \n\t\t   Must be an integer."
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:154
-msgid "\t\t-t Maximum total time for all iterations, in seconds. \n\t\t   Defaults to 100. Must be an integer."
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:156
-msgid "\tIf a single iteration takes more than the \n\ttimeout specified, only one request will be made."
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:158
-msgid "\tExample Use:"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:159
-msgid "\t\tcake benchmark -n 10 -t 100 http://localhost/testsite"
-msgstr ""
-
-#: \plugins\debug_kit\vendors\shells\benchmark.php:161
-msgid "\tNote that this benchmark does not include browser render time"
-msgstr ""
-
-#: \plugins\debug_kit\views\debug.php:41
-msgid "Rendering %s"
-msgstr ""
-
-#: \plugins\debug_kit\views\debug.php:62
-msgid "Rendering View"
-msgstr ""
-
-#: \plugins\debug_kit\views\debug.php:68
-msgid "View render complete"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\debug_toolbar.ctp:25
-msgid "There are no active panels. You must enable a panel to see its output."
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\history_panel.ctp:21
-msgid "Request History"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\history_panel.ctp:23
-msgid "No previous requests logged."
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\history_panel.ctp:25
-msgid "previous requests available"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\history_panel.ctp:27
-msgid "Restore to current request"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\log_panel.ctp:21
-msgid "Logs"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\log_panel.ctp:28
-msgid "Time"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\log_panel.ctp:37
-msgid "There were no log entries made this request"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\request_panel.ctp:21
-msgid "Request"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\request_panel.ctp:35
-msgid "Current Route"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\session_panel.ctp:21
-msgid "Session"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\sql_log_panel.ctp:25
-msgid "Sql Logs"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\sql_log_panel.ctp:40
-msgid "Query Explain:"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\sql_log_panel.ctp:43
-msgid "Click an \"Explain\" link above, to see the query explanation."
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\sql_log_panel.ctp:48
-msgid "No active database connections"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:33
-msgid "Memory"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:36
-msgid "Peak Memory Use"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:40
-msgid "Memory use"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:53
-msgid "Timers"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:55
-msgid "%s (ms)"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:56
-msgid "Total Request Time:"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:65
-msgid "Time in ms"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\timer_panel.ctp:66
-msgid "Graph"
-msgstr ""
-
-#: \plugins\debug_kit\views\elements\variables_panel.ctp:21
-msgid "View Variables"
-msgstr ""
-
-#: \plugins\debug_kit\views\helpers\html_toolbar.php:181
-msgid "Explain"
-msgstr ""
-
-#: \plugins\debug_kit\views\helpers\simple_graph.php:77
-msgid "Starting %sms into the request, taking %sms"
-msgstr ""
-
-#: \plugins\debug_kit\views\helpers\toolbar.php:158
-msgid "maybe slow"
 msgstr ""
 
