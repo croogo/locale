@@ -2,7 +2,7 @@ Project in progress...
 
 # Description
 
-Base code: [tree][1]
+Base code of Croogo engine: [tree][1]
 
 # Install 
 
@@ -13,7 +13,9 @@ Need to take into account the permission to the directory **locale**.
 
 # Install - manual
 
-Put **rus** folder in **locale** folder.
+Put **rus** folder in **locale** folder. 
+
+Reactivate the language in the admin panel: Menu-> Extensions-> Locales.
 
 # Note
 
