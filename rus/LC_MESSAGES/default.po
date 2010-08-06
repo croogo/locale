@@ -3,17 +3,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: Croogo\n"
 "POT-Creation-Date: 2010-08-04 12:35+0400\n"
-"PO-Revision-Date: 2010-08-05 19:33+0300\n"
+"PO-Revision-Date: 2010-08-06 20:35+0300\n"
 "Last-Translator: Black Sea Group <bs@bs-group.zip>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language-Team: BS-Group <bs@bs-group.biz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Poedit-Language: Russian\n"
-"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
 
 #: /app_controller.php:109
 msgid "Site down for maintenance"
@@ -26,7 +26,7 @@ msgstr "Вложения"
 
 #: /controllers/attachments_controller.php:96
 msgid "Add Attachment"
-msgstr "Змагрузка вложения"
+msgstr "Загрузка вложения"
 
 #: /controllers/attachments_controller.php:135;164
 msgid "The Attachment has been saved"
@@ -1010,11 +1010,11 @@ msgstr "Action сохранен"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:83
 msgid "The Action could not be saved. Please, try again."
-msgstr ""
+msgstr "Action не может быть сохранен. Пожалуйста, попробуйте еще раз."
 
 #: /plugins/acl/controllers/acl_actions_controller.php:110;125
 msgid "Invalid id for Action"
-msgstr ""
+msgstr "Неверный id Action"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:118
 msgid "Action deleted"
@@ -1041,11 +1041,11 @@ msgstr "Добавить Aro"
 
 #: /plugins/acl/controllers/acl_aros_controller.php:31;48
 msgid "The Aro has been saved"
-msgstr ""
+msgstr "Aro был сохранен"
 
 #: /plugins/acl/controllers/acl_aros_controller.php:34;51
 msgid "The Aro could not be saved. Please, try again."
-msgstr ""
+msgstr "Aro не может быть сохранен. Пожалуйста, попробуйте еще раз."
 
 #: /plugins/acl/controllers/acl_aros_controller.php:40
 msgid "Edit Aro"
@@ -1053,11 +1053,11 @@ msgstr "Редактировать Aro"
 
 #: /plugins/acl/controllers/acl_aros_controller.php:43
 msgid "Invalid Aro"
-msgstr ""
+msgstr "Неверный Aro"
 
 #: /plugins/acl/controllers/acl_aros_controller.php:61
 msgid "Invalid id for Aro"
-msgstr ""
+msgstr "Неверный id для Aro"
 
 #: /plugins/acl/controllers/acl_aros_controller.php:69
 msgid "Aro deleted"
@@ -1180,7 +1180,7 @@ msgstr "Страница  %page% из %pages%, показано %current% зап
 #: /plugins/acl/views/acl_actions/admin_add.ctp:9
 #: /plugins/acl/views/acl_actions/admin_edit.ctp:11
 msgid "Choose none if the Aco is a controller."
-msgstr ""
+msgstr "Выберите Нет, если Aco является контроллером."
 
 #: /plugins/acl/views/acl_actions/admin_index.ctp:10
 msgid "New Action"
@@ -1189,7 +1189,7 @@ msgstr "Новый Action"
 #: /plugins/acl/views/acl_actions/admin_index.ctp:11
 #: /plugins/acl/views/acl_permissions/admin_index.ctp:9
 msgid "Generate Actions"
-msgstr ""
+msgstr "Генерация Actions"
 
 #: /plugins/acl/views/acl_actions/admin_index.ctp:18
 #: /plugins/acl/views/acl_permissions/admin_index.ctp:20
@@ -1400,7 +1400,7 @@ msgstr ""
 
 #: /plugins/extensions/views/extensions_hooks/admin_index.ctp:15
 msgid "Hook type"
-msgstr ""
+msgstr "Тип Hook "
 
 #: /plugins/extensions/views/extensions_hooks/admin_index.ctp:16
 #: /views/links/admin_index.ctp:25
@@ -1461,52 +1461,52 @@ msgstr "Доступные темы"
 
 #: /plugins/translate/controllers/translate_controller.php:35;80
 msgid "Invalid ID."
-msgstr ""
+msgstr "Неверный ID."
 
 #: /plugins/translate/controllers/translate_controller.php:44;161
 msgid "Invalid model."
-msgstr ""
+msgstr "Неверная модель."
 
 #: /plugins/translate/controllers/translate_controller.php:56;116;173
 msgid "Invalid record."
-msgstr ""
+msgstr "Неверная запись."
 
 #: /plugins/translate/controllers/translate_controller.php:63
 msgid "Translations: %s"
-msgstr ""
+msgstr "Переводы: %s"
 
 #: /plugins/translate/controllers/translate_controller.php:123
 msgid "Translate content: %s (%s)"
-msgstr ""
+msgstr "Перевести контент: %s (%s)"
 
 #: /plugins/translate/controllers/translate_controller.php:130
 msgid "Record has been translated"
-msgstr ""
+msgstr "Запись была переведена"
 
 #: /plugins/translate/controllers/translate_controller.php:137
 msgid "Record could not be translated. Please, try again."
-msgstr ""
+msgstr "Запись не может быть переведена. Пожалуйста, попробуйте еще раз."
 
 #: /plugins/translate/controllers/translate_controller.php:148
 msgid "Invalid Locale or ID"
-msgstr ""
+msgstr "Неверный Язык или ID"
 
 #: /plugins/translate/controllers/translate_controller.php:188
 msgid "Translation for the locale deleted successfully."
-msgstr ""
+msgstr "Перевод для языка успешно удален."
 
 #: /plugins/translate/controllers/translate_controller.php:190
 msgid "Translation for the locale could not be deleted."
-msgstr ""
+msgstr "Перевод для языка не может быть удален."
 
 #: /plugins/translate/views/translate/admin_edit.ctp:15
 msgid "Record"
-msgstr ""
+msgstr "Запись"
 
 #: /plugins/translate/views/translate/admin_index.ctp:8
 #: /views/nodes/admin_translations.ctp:8
 msgid "Translate in a new language"
-msgstr ""
+msgstr "Перевести на новой язык"
 
 #: /plugins/translate/views/translate/admin_index.ctp:26
 #: /views/links/admin_index.ctp:24
@@ -1518,11 +1518,11 @@ msgstr "Заголовок"
 #: /plugins/translate/views/translate/admin_index.ctp:63
 #: /views/nodes/admin_translations.ctp:52
 msgid "No translations available."
-msgstr ""
+msgstr "Нет доступных переводов."
 
 #: /tests/cases/controllers/languages_controller.test.php:147;178
 msgid "Could not add a new language."
-msgstr ""
+msgstr "Не могу добавить новый язык."
 
 #: /views/attachments/admin_browse.ctp:6
 #: /views/attachments/admin_index.ctp:6
@@ -1646,12 +1646,12 @@ msgstr "Рассмотрение"
 
 #: /views/comments/rss/index.ctp:16
 msgid "Comment on"
-msgstr ""
+msgstr "Прокомментировать"
 
 #: /views/contacts/admin_add.ctp:7
 #: /views/contacts/admin_edit.ctp:7
 msgid "Contact"
-msgstr ""
+msgstr "Контакт"
 
 #: /views/contacts/admin_add.ctp:8
 #: /views/contacts/admin_edit.ctp:8
@@ -1662,22 +1662,22 @@ msgstr "Подробно"
 #: /views/contacts/admin_edit.ctp:9
 #: /views/contacts/view.ctp:20
 msgid "Message"
-msgstr ""
+msgstr "Сообщение"
 
 #: /views/contacts/admin_add.ctp:39
 #: /views/contacts/admin_edit.ctp:40
 msgid "Let users leave a message"
-msgstr ""
+msgstr "Позволить пользователям оставлять сообщения"
 
 #: /views/contacts/admin_add.ctp:42
 #: /views/contacts/admin_edit.ctp:43
 msgid "Save messages in database"
-msgstr ""
+msgstr "Сохраненять сообщения в базе данных"
 
 #: /views/contacts/admin_add.ctp:45
 #: /views/contacts/admin_edit.ctp:46
 msgid "Notify by email instantly"
-msgstr ""
+msgstr "Сообщать по электронной почте мгновенно"
 
 #: /views/contacts/admin_add.ctp:48
 #: /views/contacts/admin_edit.ctp:49
@@ -1689,7 +1689,7 @@ msgstr "Защита от спама (требуется Akismet API key)"
 #: /views/contacts/admin_edit.ctp:52
 #: /views/types/admin_add.ctp:59
 msgid "Use captcha? (requires Recaptcha API key)"
-msgstr ""
+msgstr "Использовать captcha? (требуется ReCaptcha API key)"
 
 #: /views/contacts/admin_add.ctp:56
 #: /views/contacts/admin_edit.ctp:57
@@ -1700,39 +1700,39 @@ msgstr "Управление API ключами"
 
 #: /views/contacts/admin_index.ctp:6
 msgid "New Contact"
-msgstr ""
+msgstr "Новый контакт"
 
 #: /views/contacts/view.ctp:17
 msgid "Your name"
-msgstr ""
+msgstr "Ваше имя"
 
 #: /views/contacts/view.ctp:18
 msgid "Your email"
-msgstr ""
+msgstr "Ваш e-mail"
 
 #: /views/contacts/view.ctp:19
 msgid "Subject"
-msgstr ""
+msgstr "# Тема"
 
 #: /views/contacts/view.ctp:24
 msgid "Send"
-msgstr ""
+msgstr "Отправить"
 
 #: /views/elements/comment.ctp:13
 msgid "said on %s"
-msgstr ""
+msgstr "говорит о  %s"
 
 #: /views/elements/comment.ctp:19
 msgid "Reply"
-msgstr ""
+msgstr "Ответ"
 
 #: /views/elements/comments_form.ctp:2
 msgid "Add new comment"
-msgstr ""
+msgstr "Добавить новый комментарий"
 
 #: /views/elements/comments_form.ctp:7
 msgid "Go back to original post"
-msgstr ""
+msgstr "Вернуться к исходному сообщению"
 
 #: /views/elements/comments_form.ctp:28;40
 msgid "Email"
@@ -1744,23 +1744,23 @@ msgstr "Сайт"
 
 #: /views/elements/comments_form.ctp:48
 msgid "Post comment"
-msgstr ""
+msgstr "Оставить комментарий"
 
 #: /views/elements/node_info.ctp:6
 msgid "Posted"
-msgstr ""
+msgstr "Написал"
 
 #: /views/elements/node_info.ctp:20
 msgid "on"
-msgstr ""
+msgstr "в"
 
 #: /views/elements/node_more_info.ctp:17
 msgid "Posted in"
-msgstr ""
+msgstr "Опубликовано в"
 
 #: /views/elements/node_more_info.ctp:29
 msgid "Leave a comment"
-msgstr ""
+msgstr "Оставить комментарий"
 
 #: /views/elements/search.ctp:24
 msgid "Search"
@@ -1786,7 +1786,7 @@ msgstr "Тип контента"
 #: /views/types/admin_add.ctp:8
 #: /views/types/admin_edit.ctp:9
 msgid "Taxonomy"
-msgstr ""
+msgstr "Таксономия"
 
 #: /views/elements/admin/navigation.ctp:24;44
 msgid "Add new"
@@ -1826,11 +1826,11 @@ msgstr "Сервис"
 
 #: /views/elements/admin/nodes_filter.ctp:25
 msgid "Unpublished"
-msgstr ""
+msgstr "Неопубликованный"
 
 #: /views/elements/admin/nodes_filter.ctp:35
 msgid "Promoted"
-msgstr ""
+msgstr "Повышен"
 
 #: /views/elements/admin/nodes_filter.ctp:37
 msgid "Yes"
@@ -1855,7 +1855,7 @@ msgstr "Выход"
 
 #: /views/elements/email/text/comment.ctp:2
 msgid "A new comment has been posted under: %s"
-msgstr ""
+msgstr "Новый комментарий был размещен под: %s"
 
 #: /views/elements/email/text/comment.ctp:6
 #: /views/elements/email/text/contact.ctp:8
@@ -1879,36 +1879,36 @@ msgstr ""
 
 #: /views/elements/email/text/comment.ctp:10
 msgid "Comment: %s"
-msgstr ""
+msgstr "Комментарий: %s"
 
 #: /views/elements/email/text/contact.ctp:7
 msgid "You have received a new message at: %s"
-msgstr ""
+msgstr "Вы получили новые сообщения на: %s"
 
 #: /views/elements/email/text/contact.ctp:10
 msgid "Subject: %s"
-msgstr ""
+msgstr "Тема: %s"
 
 #: /views/elements/email/text/contact.ctp:12
 msgid "Message: %s"
-msgstr ""
+msgstr "Сообщение: %s"
 
 #: /views/elements/email/text/forgot_password.ctp:1
 #: /views/elements/email/text/register.ctp:1
 msgid "Hello %s"
-msgstr ""
+msgstr "Привет %s"
 
 #: /views/elements/email/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
-msgstr ""
+msgstr "Пожалуйста, посетите эту ссылку для сброса пароля: %s"
 
 #: /views/elements/email/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
-msgstr ""
+msgstr "Если Вы не запрашивали восстановление пароля, то Вы можете проигнорировать это сообщение."
 
 #: /views/elements/email/text/register.ctp:10
 msgid "Please visit this link to activate your account: %s"
-msgstr ""
+msgstr "ожалуйста, посетите эту ссылку для активации учетной записи: %s"
 
 #: /views/errors/missing_action.ctp:1
 #: /views/errors/missing_controller.ctp:1
@@ -1919,17 +1919,17 @@ msgstr "Страница не найдена"
 #: /views/errors/missing_action.ctp:2
 #: /views/errors/missing_controller.ctp:2
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: /views/errors/missing_action.ctp:4
 #: /views/errors/missing_controller.ctp:4
 #: /views/errors/security.ctp:4
 msgid "The requested address was not found on this server."
-msgstr ""
+msgstr "Запрашиваемый адрес не был найден на этом сервере."
 
 #: /views/errors/security.ctp:2
 msgid "Security Error"
-msgstr ""
+msgstr "Ошибка безопасности"
 
 #: /views/filemanager/admin_browse.ctp:6
 msgid "Upload here"
@@ -1962,12 +1962,12 @@ msgstr "Открыть"
 #: /views/helpers/meta.php:34
 #: /views/settings/admin_view.ctp:9
 msgid "Key"
-msgstr ""
+msgstr "Ключ"
 
 #: /views/helpers/meta.php:38
 #: /views/settings/admin_view.ctp:14
 msgid "Value"
-msgstr ""
+msgstr "Значение"
 
 #: /views/helpers/meta.php:53
 msgid "Remove"
@@ -1986,11 +1986,11 @@ msgstr ""
 
 #: /views/layouts/admin_login.ctp:21
 msgid "Back to"
-msgstr ""
+msgstr "Назад к"
 
 #: /views/layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
-msgstr ""
+msgstr "Сайт закрыт на техническое обслуживание."
 
 #: /views/links/admin_add.ctp:7
 #: /views/links/admin_edit.ctp:7
@@ -2014,7 +2014,7 @@ msgstr "Родительский элемент"
 #: /views/links/admin_add.ctp:22
 #: /views/links/admin_edit.ctp:23
 msgid "Link to a Node"
-msgstr ""
+msgstr "Ссылка на узел"
 
 #: /views/links/admin_index.ctp:6
 msgid "New Link"
@@ -2031,28 +2031,28 @@ msgstr "Новое меню"
 
 #: /views/menus/admin_index.ctp:23
 msgid "View links"
-msgstr ""
+msgstr "Открыть ссылки"
 
 #: /views/messages/admin_index.ctp:6
 msgid "Unread"
-msgstr ""
+msgstr "Непрочитанный"
 
 #: /views/messages/admin_index.ctp:7
 msgid "Read"
-msgstr ""
+msgstr "Читать"
 
 #: /views/messages/admin_index.ctp:65
 msgid "Mark as read"
-msgstr ""
+msgstr "Отметить как прочитанное"
 
 #: /views/messages/admin_index.ctp:66
 msgid "Mark as unread"
-msgstr ""
+msgstr "Отметить как непрочитанное"
 
 #: /views/nodes/admin_add.ctp:11
 #: /views/nodes/admin_edit.ctp:12
 msgid "Custom fields"
-msgstr ""
+msgstr "Пользовательские поля"
 
 #: /views/nodes/admin_add.ctp:13
 #: /views/nodes/admin_edit.ctp:14
@@ -2083,7 +2083,7 @@ msgstr "Чтение/Запись"
 #: /views/nodes/admin_add.ctp:63
 #: /views/nodes/admin_edit.ctp:63
 msgid "Add another field"
-msgstr ""
+msgstr "Добавить еще одно поле"
 
 #: /views/nodes/admin_add.ctp:75
 #: /views/nodes/admin_edit.ctp:75
@@ -2092,22 +2092,22 @@ msgstr " На Главной "
 
 #: /views/nodes/admin_index.ctp:81
 msgid "Promote"
-msgstr ""
+msgstr "Продвигать"
 
 #: /views/nodes/admin_index.ctp:82
 msgid "Unpromote"
-msgstr ""
+msgstr "Убирать"
 
 #: /views/nodes/admin_links.ctp:24
 msgid "Sort by:"
-msgstr ""
+msgstr "Сортировать по:"
 
 #: /views/nodes/index.ctp:4
 #: /views/nodes/promoted.ctp:4
 #: /views/nodes/search.ctp:6
 #: /views/nodes/term.ctp:6
 msgid "No items found."
-msgstr ""
+msgstr "Не найдено."
 
 #: /views/regions/admin_index.ctp:6
 msgid "New Region"
@@ -2130,15 +2130,15 @@ msgstr ""
 #: /views/settings/admin_index.ctp:6
 #: /views/settings/admin_view.ctp:46
 msgid "New Setting"
-msgstr ""
+msgstr "Новая настройка"
 
 #: /views/settings/admin_view.ctp:2
 msgid "Setting"
-msgstr ""
+msgstr "Настройка"
 
 #: /views/settings/admin_view.ctp:24
 msgid "Input Type"
-msgstr ""
+msgstr "Тип ввода"
 
 #: /views/settings/admin_view.ctp:29
 msgid "Weight"
@@ -2152,11 +2152,11 @@ msgstr ""
 
 #: /views/settings/admin_view.ctp:44
 msgid "Delete Setting"
-msgstr ""
+msgstr "Удалить Настройку"
 
 #: /views/settings/admin_view.ctp:44
 msgid "Are you sure you want to delete # %s?"
-msgstr ""
+msgstr "Вы уверены, что хотите удалить # %s?"
 
 #: /views/settings/admin_view.ctp:45
 msgid "List Settings"
