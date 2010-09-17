@@ -1,0 +1,1922 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+
+
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-06-11 14:40+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Site down for maintenance"
+msgstr "Site em manutenção"
+
+
+msgid "Attachments"
+msgstr "Acessórios"
+
+
+msgid "Add Attachment"
+msgstr "Adicionar acessórios"
+
+
+msgid "The Attachment has been saved"
+msgstr "O acessório foi salvo"
+
+
+msgid "The Attachment could not be saved. Please, try again."
+msgstr "O acessório não pode ser salvo.Por favor,tente novamente."
+
+
+msgid "Edit Attachment"
+msgstr "Editar configuração "
+
+
+msgid "Invalid Attachment"
+msgstr "Acessório Inválido"
+
+
+msgid "Invalid id for Attachment"
+msgstr "ID Inválido para Acessório "
+
+
+msgid "Attachment deleted"
+msgstr "Acessório excluído"
+
+
+msgid "Blocks"
+msgstr "Blocos"
+
+
+msgid "Add Block"
+msgstr "Adicionar Blocos"
+
+
+msgid "The Block has been saved"
+msgstr "O bloco foi salvo"
+
+
+msgid "The Block could not be saved. Please, try again."
+msgstr "O bloco não pode ser salvo. Por favor, tente novamente."
+
+
+
+msgid "Edit Block"
+msgstr "Editar Bloco"
+
+
+msgid "Invalid Block"
+msgstr "Bloco Inválido"
+
+
+msgid "Invalid id for Block"
+msgstr "ID inválido para o bloco"
+
+
+msgid "Block deleted"
+msgstr "Bloco excluído"
+
+msgid "Moved up successfully"
+msgstr "Movido para cima com sucesso "
+
+msgid "Could not move up"
+msgstr "Não foi possível mover para cima"
+
+msgid "Moved down successfully"
+msgstr "Movido para baixo com sucesso"
+
+msgid "Could not move down"
+msgstr "Não pode ser movido para baixo"
+
+msgid "No items selected."
+msgstr "Itens não selecionados."
+
+
+msgid "Blocks deleted."
+msgstr "Blocos excluídos."
+
+
+msgid "Blocks published"
+msgstr "Blocos publicados"
+
+
+msgid "Blocks unpublished"
+msgstr "Blocos não publicados"
+
+
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
+
+msgid "Comments"
+msgstr "Comentários"
+
+msgid "Comments: Published"
+msgstr "Comentários: Publicados"
+
+
+msgid "Comments: Approval"
+msgstr "Commentários: Aprovados"
+
+
+msgid "Edit Comment"
+msgstr "Editar Comentário"
+
+
+msgid "Invalid Comment"
+msgstr "Comentário inválido"
+
+
+msgid "The Comment has been saved"
+msgstr "O comentário foi salvo"
+
+
+msgid "The Comment could not be saved. Please, try again."
+msgstr "O comentário não pode ser salvo. Por favor,tente novamente."
+
+
+msgid "Invalid id for Comment"
+msgstr "ID Inválido do Comentário"
+
+
+msgid "Comment deleted"
+msgstr "Comentário excluído"
+
+
+msgid "Comments deleted."
+msgstr "Comentários excluídos."
+
+
+msgid "Comments published"
+msgstr "Comentários publicados"
+
+
+msgid "Comments unpublished"
+msgstr "Comentários não publicados"
+
+
+msgid "Invalid Node"
+msgstr "Nó inválido"
+
+
+msgid "Maximum level reached. You cannot reply to that comment."
+msgstr "Nível máximo atingido. Você não pode responder a esse comentário."
+
+
+msgid "Your comment has been added successfully."
+msgstr "Seu comentário foi adicionado com sucesso."
+
+
+msgid "Your comment will appear after moderation."
+msgstr "Seu comentário será exibido após moderação."
+
+
+msgid "New comment posted under"
+msgstr "Novo comentário postado acima"
+
+
+msgid "Sorry, the comment appears to be spam."
+msgstr "Desculpe, o comentário parece ser spam."
+
+
+msgid "Invalid captcha entry"
+msgstr "Entrada Inválida captcha "
+
+
+msgid "Contacts"
+msgstr "Contatos"
+
+
+msgid "Add Contact"
+msgstr "Adicionar Contato"
+
+
+msgid "The Contact has been saved"
+msgstr "O contato foi salvo"
+
+
+msgid "The Contact could not be saved. Please, try again."
+msgstr "O contato não pode ser salvo.Por favor, tente novamente."
+
+
+msgid "Edit Contact"
+msgstr "Editar Contato"
+
+
+msgid "Invalid Contact"
+msgstr "Contato Inválido"
+
+
+msgid "Invalid id for Contact"
+msgstr "ID Inválido para o contato"
+
+
+msgid "Contact deleted"
+msgstr "Contato excluído"
+
+
+msgid "Your message has been received..."
+msgstr "Sua mensagem foi recebida..."
+
+
+msgid "Sorry, the message appears to be spam."
+msgstr "Desculpe, a mensagem parece ser spam."
+
+
+msgid "File Manager"
+msgstr "Gerenciador de Arquivos"
+
+
+msgid "Edit file: %s"
+msgstr "Editar arquivo: %s"
+
+
+msgid "File saved successfully"
+msgstr "Arquivo salvo com sucesso"
+
+
+msgid "Upload"
+msgstr "Upload"
+
+
+msgid "File uploaded successfully."
+msgstr "Arquivo carregado com sucesso."
+
+
+msgid "File deleted"
+msgstr "Arquivo excluído"
+
+
+msgid "An error occured"
+msgstr "Ocorreu um erro"
+
+
+msgid "Directory deleted"
+msgstr "Lista Excluída"
+
+
+msgid "New Directory"
+msgstr "Nova lista"
+
+
+msgid "Directory created successfully."
+msgstr "Lista criada com sucesso."
+
+
+msgid "New File"
+msgstr "Novo Arquivo"
+
+
+msgid "File created successfully."
+msgstr "Arquivo criado com sucesso."
+
+
+msgid "Languages"
+msgstr "Línguas"
+
+
+msgid "Add Language"
+msgstr "Adicionar Língua"
+
+
+msgid "The Language has been saved"
+msgstr "A lígua foi salva."
+
+
+msgid "The Language could not be saved. Please, try again."
+msgstr "A Língua não pode ser salva.Por favor,tente novamente."
+
+
+msgid "Edit Language"
+msgstr "Editar língua"
+
+
+msgid "Invalid Language"
+msgstr "Língua Inválida"
+
+
+msgid "Invalid id for Language"
+msgstr "ID Inválida para Língua"
+
+
+msgid "Language deleted"
+msgstr "Língua excluída"
+
+
+msgid "Select a language"
+msgstr "Selecione a língua"
+
+
+msgid "Links: %s"
+msgstr "Links: %s"
+
+
+msgid "Add Link"
+msgstr "Adicionar Link"
+
+
+msgid "The Link has been saved"
+msgstr "O Link foi salvo."
+
+
+msgid "The Link could not be saved. Please, try again."
+msgstr "O Link não pôde ser salvo. Por favor,tente novamente"
+
+
+msgid "Edit Link"
+msgstr "Editar Link"
+
+
+msgid "Invalid Link"
+msgstr "Link Inválido"
+
+
+msgid "Invalid id for Link"
+msgstr "ID Inválido para Link"
+
+
+msgid "Link deleted"
+msgstr "Link Excluído"
+
+
+msgid "Links deleted."
+msgstr "Links excluídos."
+
+
+msgid "Links published"
+msgstr "Links publicados"
+
+
+msgid "Links unpublished"
+msgstr "Links não publicados"
+
+msgid "Menus"
+msgstr "Menus"
+
+
+msgid "Add Menu"
+msgstr "Adicionar Menu"
+
+
+msgid "The Menu has been saved"
+msgstr "O Menu foi salvo"
+
+
+msgid "The Menu could not be saved. Please, try again."
+msgstr "O Menu não pode ser salvo. Por favor, tente novamente."
+
+
+msgid "Edit Menu"
+msgstr "Editar Menu"
+
+
+msgid "Invalid Menu"
+msgstr "Menu Inválido"
+
+
+msgid "Invalid id for Menu"
+msgstr "ID Inválido  para Menu"
+
+
+msgid "Menu deleted"
+msgstr "Menu excluído"
+
+msgid "Messages"
+msgstr "Mensagens"
+
+
+msgid "Messages: Read"
+msgstr "Mensagens: Lidas"
+
+
+msgid "Messages: Unread"
+msgstr "Mensagens: Não lidas"
+
+
+msgid "Edit Message"
+msgstr "Editar Mensagem"
+
+
+msgid "Invalid Message"
+msgstr "Mensagem Inválida"
+
+
+msgid "The Message has been saved"
+msgstr "A mensagem foi salva"
+
+
+msgid "The Message could not be saved. Please, try again."
+msgstr "A mensagem não pode ser salva. Por favor, tente novamente."
+
+
+msgid "Invalid id for Message"
+msgstr "ID Inválida para a mensagem"
+
+
+msgid "Message deleted"
+msgstr "Mensagem excluída"
+
+
+msgid "Messages deleted."
+msgstr "Mensagens excluída."
+
+
+msgid "Messages marked as read"
+msgstr "Mensagens marcadas como lida "
+
+msgid "Messages marked as unread"
+msgstr "Mensagens marcadas como não lidas"
+
+
+msgid "Content"
+msgstr "Conteúdo"
+
+
+msgid "Create content"
+msgstr "Criar conteúdo"
+
+msgid "Content type does not exist."
+msgstr "Tipo de Conteúdo não existe."
+
+msgid "Create content: %s"
+msgstr "Criar conteúdo: %s"
+
+
+msgstr "% foi salvo"
+msgstr "%s foi salvo"
+
+msgid "%s has been saved"
+msgstr "%s foi salvo com sucesso"
+
+
+
+msgid "%s could not be saved. Please, try again."
+msgstr "%s não pode ser salvo. Por favor, tente novamente."
+
+
+msgid "Invalid content"
+msgstr "Conteúdo Inválido"
+
+
+msgid "Edit content: %s"
+msgstr "Editar conteúdo: %s"
+
+
+msgid "Paths updated."
+msgstr "Caminhos atualizados."
+
+
+msgid "Invalid id for Node"
+msgstr "ID Inválida para o Nó"
+
+
+msgid "Node deleted"
+msgstr "Nó excluído."
+
+msgid "Nodes deleted."
+msgstr "Nósexcluído."
+
+
+msgid "Nodes published"
+msgstr "Nós publicado"
+
+
+msgid "Nodes unpublished"
+msgstr "Nós não publicado"
+
+
+msgid "Nodes promoted"
+msgstr "Nóss promovidos"
+
+
+
+msgid "Nodes unpromoted"
+msgstr "Nós não promovidos"
+
+
+
+msgid "Invalid content type."
+msgstr "Tipo de conteúdo Inválido."
+
+
+msgid "Nodes"
+msgstr "Nós"
+
+msgid "Search Results: %s"
+msgstr "Pesquisar resultados: %s"
+
+msgid "Region"
+msgstr "Região"
+
+
+msgid "Add Region"
+msgstr "Adicionar Região"
+
+msgid "The Region has been saved"
+msgstr "A Região foi salva"
+
+
+msgid "The Region could not be saved. Please, try again."
+msgstr "A Região não pode ser salva. Por favor, tente novamente."
+
+
+msgid "Edit Region"
+msgstr "Editar Região"
+
+
+msgid "Invalid Region"
+msgstr "Região Inválida"
+
+
+msgid "Invalid id for Region"
+msgstr "ID Inválido para região"
+
+
+msgid "Region deleted"
+msgstr "Região excluída "
+
+
+msgid "Roles"
+msgstr "Função"
+
+
+msgid "Add Role"
+msgstr "Adicionar função"
+
+
+msgid "The Role has been saved"
+msgstr "A função foi salvo"
+
+
+msgid "The Role could not be saved. Please, try again."
+msgstr "A função não pode ser salvo.Por favor, tente novamente."
+
+
+msgid "Edit Role"
+msgstr "Editar Função"
+
+
+msgid "Invalid Role"
+msgstr "Função Inválida "
+
+
+msgid "Invalid id for Role"
+msgstr "ID Inválido para função"
+
+
+msgid "Role deleted"
+msgstr "Função excluída"
+
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+
+msgid "Settings"
+msgstr "Configurações"
+
+
+msgid "Invalid Setting."
+msgstr "Configuração Inválida."
+
+msgid "Add Setting"
+msgstr "Adicionar Configuração"
+
+msgid "The Setting has been saved"
+msgstr "A configuração foi salva"
+
+
+msgid "The Setting could not be saved. Please, try again."
+msgstr "A configuração não ´pde ser salva.Por favor, tente novamente."
+
+msgid "Edit Setting"
+msgstr "Editar configuração "
+
+msgid "Invalid Setting"
+msgstr "Configuração inválida"
+
+msgid "Invalid id for Setting"
+msgstr "ID inválido para configuração "
+
+
+msgid "Setting deleted"
+msgstr "Configuração excluída"
+
+msgid "Settings: %s"
+msgstr "Configurações: %s"
+
+
+msgid "Settings updated successfully"
+msgstr "As Configurações foram atualizadas com sucesso"
+
+
+msgid "Invalid Setting key"
+msgstr "Chave de configuração inválida"
+
+msgid "Invalid Vocabulary ID."
+msgstr "Vocabulário de ID inválido."
+
+
+msgid "Vocabulary: %s"
+msgstr "Vocabulário: %s"
+
+msgid "%s: Add Term"
+msgstr "%s: Adicionar Termo"
+
+
+msgid "Term with same slug already exists in the vocabulary."
+msgstr "Termo slug igual já existe no vocabulário."
+
+
+msgid "Term saved successfuly."
+msgstr "Termo salvo com sucesso."
+
+
+msgid "Term could not be added to the vocabulary. Please try again."
+msgstr "Termo não pode ser adicionado ao vocabulário.Por favor , tente novamente."
+
+msgid "Term could not be saved. Please try again."
+msgstr "Termo não pode ser salvo.Por favor, tente novamente."
+
+msgid "%s: Edit Term"
+msgstr "%s: Editar Termo"
+
+msgid "Invalid id for Term"
+msgstr "ID Inválido para termo"
+
+
+msgid "Term deleted"
+msgstr "Termo excluído"
+
+msgid "Term could not be deleted. Please, try again."
+msgstr "Termo não pode ser excluído.Por favor,tente novamente."
+
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Add Type"
+msgstr "Adicionar Tipo"
+
+
+msgid "The Type has been saved"
+msgstr "O Tipo foi salvo"
+
+msgid "The Type could not be saved. Please, try again."
+msgstr "O tipo não pode ser salvo.Por favor, tente novamente."
+
+msgid "Edit Type"
+msgstr "Editar Tipo"
+
+msgid "Invalid Type"
+msgstr "Tipo Inválido "
+
+
+msgid "Invalid id for Type"
+msgstr "ID Inválido para Tipo"
+
+
+msgid "Type deleted"
+msgstr "Tipo excluído"
+
+
+msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
+msgstr "Você atingiu o limite máximo para as tentativas de login falhou. Por favor, tente novamente após alguns minutos."
+
+
+msgid "Users"
+msgstr "Usuários"
+
+
+msgid "The User has been saved"
+msgstr "O usuário foi salvo"
+
+
+msgid "The User could not be saved. Please, try again."
+msgstr "O Ususário não pode ser salvo. Por favor, tente novamente."
+
+
+msgid "Invalid User"
+msgstr "Usuário Inválido "
+
+
+msgid "Password has been reset."
+msgstr "Senha redefinida."
+
+
+msgid "Password could not be reset. Please, try again."
+msgstr "A senha não pode ser reposta. Por favor, tente novamente."
+
+
+msgid "Current password did not match. Please, try again."
+msgstr "Senha atual não coincidem. Por favor, tente novamente."
+
+msgid "Invalid id for User"
+msgstr "ID Inválido para o usuário "
+
+msgid "User deleted"
+msgstr "Usuário excluído"
+
+msgid "Admin Login"
+msgstr "Admin Login"
+
+
+msgid "Log out successful."
+msgstr "Saiu com sucesso."
+
+
+msgid "Register"
+msgstr "Registro"
+
+
+
+
+msgid "You have successfully registered an account. An email has been sent with further instructions."
+msgstr "Sua conta foi registrada com sucesso. Um e-mail foi enviado com instruções detalhadas."
+
+
+msgid "Account activated successfully."
+msgstr "Conta ativada com sucesso."
+
+
+msgid "Forgot Password"
+msgstr "Esqueceu sua senha"
+
+
+msgid "Invalid username."
+msgstr "Usuário Inválido."
+
+
+msgid "Reset Password"
+msgstr "Esqueci minha senha"
+
+
+msgid "An email has been sent with instructions for resetting your password."
+msgstr "Um e-mail foi enviado com instruções para redefinir sua senha."
+
+
+msgid "An error occurred. Please try again."
+msgstr "Ocorreu um erro.Por favor, tente novamente."
+
+
+msgid "Your password has been reset successfully."
+msgstr "Sua senha foi redefinida com sucesso."
+
+
+msgid "Log in"
+msgstr "Log in"
+
+msgid "Invalid User."
+msgstr "Usuário Inválido."
+
+msgid "Vocabularies"
+msgstr "Vocabulários"
+
+
+msgid "Add Vocabulary"
+msgstr "Adicionar Vocabulário"
+
+
+msgid "The Vocabulary has been saved"
+msgstr "O vocabulário foi salvo"
+
+msgid "The Vocabulary could not be saved. Please, try again."
+msgstr "O vocabulário não pode ser salvo.Por favor, tente novamente."
+
+
+msgid "Edit Vocabulary"
+msgstr "Editar Vocabulário"
+
+
+msgid "Invalid Vocabulary"
+msgstr "Vocabulário Inválido"
+
+msgid "Invalid id for Vocabulary"
+msgstr "ID Inválido para Vocabulário"
+
+msgid "Vocabulary deleted"
+msgstr "Vocabulário excluído"
+
+
+msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+msgstr "Datasource %s do CroogoTranslateBehavio para o modelo %s não está conectado"
+
+msgid "Acos"
+msgstr "Acos"
+
+
+msgid "Add Aco"
+msgstr "Adicionar Aco"
+
+
+msgid "The Aco has been saved"
+msgstr "O Aco  foi  salvo"
+
+
+msgid "The Aco could not be saved. Please, try again."
+msgstr "O Aco não pode ser salvo. Por favor, tente novamente. "
+
+
+msgid "Edit Aco"
+msgstr "Editar Aco"
+
+
+msgid "Invalid Aco"
+msgstr "Aco Inválido "
+
+
+msgid "Invalid id for Aco"
+msgstr "ID inválido para Aco"
+
+
+msgid "Aco deleted"
+msgstr "Aco excluído"
+
+
+msgid "Actions"
+msgstr "Ações"
+
+
+msgid "Add Action"
+msgstr "Adicionar Ação"
+
+
+msgid "The "
+msgstr "O "
+
+msgid "Edit Action"
+msgstr "Editar Acão"
+
+
+msgid "Invalid Action"
+msgstr "Ação inválida"
+
+msgid "The Action has been saved"
+msgstr "A Ação foi salva"
+
+
+msgid "The Action could not be saved. Please, try again."
+msgstr "A Ação não pode ser salva. Por favor, tente novamente."
+
+msgid "Invalid id for Action"
+msgstr "ID Inválido de Ação"
+
+
+msgid "Action deleted"
+msgstr "Ação excluída"
+
+msgid "Action moved up"
+msgstr "Ação movida para cima"
+
+
+msgid "Action moved down"
+msgstr "Ação movida para baixo"
+
+
+msgid "Aros"
+msgstr "Aros"
+
+msgid "Add Aro"
+msgstr "Adicionar Aro"
+
+
+msgid "The Aro has been saved"
+msgstr "O Aro foi salvo"
+
+
+msgid "The Aro could not be saved. Please, try again."
+msgstr "O Aro não pode ser salvo. Por favor, tente novamente."
+
+msgid "Edit Aro"
+msgstr "Editar Aro"
+
+msgid "Invalid Aro"
+msgstr "Aro Inválido"
+
+msgid "Invalid id for Aro"
+msgstr "ID inválido para Aro"
+
+
+msgid "Aro deleted"
+msgstr "Aro excluído"
+
+msgid "Permissions"
+msgstr "Permissões"
+
+
+msgid "New Aco"
+msgstr "Novo Aco"
+
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Delete"
+msgstr "Excluir"
+
+
+msgid "Are you sure?"
+msgstr "Você tem certeza?"
+
+
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Página %page% de %pages%, mostrando %current% registros de um total de %count%, iniciando no registro %start%, terminando em %end%"
+
+
+msgid "Choose none if the Aco is a controller."
+msgstr "Escolha nenhum se o Aco é o controlador."
+
+msgid "New Action"
+msgstr "Nova Ação "
+
+
+msgid "Generate Actions"
+msgstr "Gerar ações"
+
+msgid "Id"
+msgstr "Id"
+
+
+msgid "Alias"
+msgstr "Atalho"
+
+
+msgid "Move up"
+msgstr "Mover para cima"
+
+msgid "Move down"
+msgstr "Mover para baixo"
+
+msgid "New Aro"
+msgstr "Novo Aro"
+
+
+msgid "Edit Actions"
+msgstr "Editar Ações "
+
+msgid "error"
+msgstr "erro"
+
+msgid "Example"
+msgid "Example 1"
+
+
+
+msgstr "Exemplo"
+msgstr "Exemplo 1"
+
+msgid "Example 2"
+msgstr "Exemplo 2"
+
+
+msgid "content here"
+msgstr "conteúdo aqui"
+
+
+msgid "Hooks"
+msgstr "Hooks"
+
+
+msgid "%s activated successfully."
+msgstr "%s ativado com sucesso."
+
+msgid "%s could not be activated. Plugin depends on other plugins that are not available."
+msgstr "%s não pode ser ativado. Plugin depende de outros plugins que não estão disponíveis"
+
+
+msgid "%s deactivated successfully."
+msgstr "%s desativado com sucesso."
+
+
+msgid "Locales"
+msgstr "Locais"
+
+
+msgid "Locale does not exist."
+msgstr "Local não existe."
+
+msgid "Could not edit croogo_bootstrap.php file."
+msgstr "Não foi possível editar arquivo croogo_bootstrap.php."
+
+msgid "Upload a new locale"
+msgstr "Carregar um novo local"
+
+
+msgid "Invalid locale."
+msgstr "Local Inválido."
+
+
+msgid "Locale already exists."
+msgstr "Local já existente."
+
+
+msgid "Edit locale: %s"
+msgstr "Editar local: %s"
+
+msgid "The file default.po does not exist."
+msgstr "O arquivo default.po não existe."
+
+msgid "Invalid locale"
+msgstr "Local atualizado com sucesso "
+
+
+msgid "Invalid locale"
+msgstr "Local Inválido"
+
+
+msgid "Locale deleted successfully."
+msgstr "Local removido com sucesso."
+
+
+msgid "Local could not be deleted."
+msgstr "Local não pode ser excluído."
+
+msgid "Plugins"
+msgstr "Plugins"
+
+
+msgid "Upload a new plugin"
+msgstr "Carregar um novo plugin"
+
+
+msgid "Invalid plugin."
+msgstr "Plugin Inválido."
+
+
+msgid "Plugin already exists."
+msgstr "Plugin já existente."
+
+msgid "Invalid plugin"
+msgstr "Plugin Inválido"
+
+
+msgid "You cannot delete a plugin that is currently active."
+msgstr "Você não pode excluir um plugin que está ativo."
+
+
+msgid "Plugin deleted successfully."
+msgstr "Plugin excluído com sucesso."
+
+
+msgid "Plugin could not be deleted."
+msgstr "Plugin não pode ser excluído."
+
+msgid "Themes"
+msgstr "Temas"
+
+
+msgid "Theme activated."
+msgstr "Tema ativado."
+
+
+msgid "Upload a new theme"
+msgstr "Carregar um novo tema"
+
+msgid "Invalid YML file"
+msgstr "Arquivo YML inválido"
+
+msgid "Invalid zip archive"
+msgstr "Arquivo Zip Inválido"
+
+
+msgid "Directory with theme alias already exists."
+msgstr "Diretório com esse mesmo nome já existe."
+
+
+msgid "Theme uploaded successfully."
+msgstr "Tema carregado com sucesso."
+
+msgid "Theme Editor"
+msgstr "Editor Tema"
+
+
+msgid "Invalid Theme."
+msgstr "Tema Inválido."
+
+
+msgid "Default theme cannot be deleted."
+msgstr "Tema padrão não pode ser excluído."
+
+
+msgid "You cannot delete a theme that is currently active."
+msgstr "Você não pode excluir um tema que está ativo atualmente."
+
+
+msgid "Theme deleted successfully."
+msgstr "Tema excluído com sucesso."
+
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Hook"
+msgstr "Hook"
+
+
+msgid "Hook type"
+msgstr "Tipo Hook "
+
+
+msgid "Status"
+msgstr "Status"
+
+
+msgid "Deactivate"
+msgstr "Desativar"
+
+
+msgid "Activate"
+msgstr "Ativado"
+
+
+
+msgid "Locale"
+msgstr "Local"
+
+
+
+msgid "Default"
+msgstr "Padrão"
+
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Description"
+msgstr "Descrição"
+
+
+msgid "Hooks Active"
+msgstr "Hooks Ativo"
+
+
+msgid "Editor"
+msgstr "Editor"
+
+
+msgid "Current Theme"
+msgstr "Tema Atual"
+
+msgid "by"
+msgstr "por"
+
+
+msgid "Regions supported: "
+msgstr "Regiões suportadas: "
+
+
+msgid "Available Themes"
+msgstr "Temas Disponíveis"
+
+
+msgid "Installation: Welcome"
+msgstr "Instalação: Bem vindo"
+
+msgid "Step 1: Database"
+msgstr "Passo 1: Base de dados"
+
+msgid "Could not connect to database."
+msgstr "Não foi possível conectar no banco de dados."
+
+
+
+msgid "Could not write database.php file."
+msgstr "Não foi possível gravar no arquivo database.php"
+
+
+msgid "Step 2: Build database"
+msgstr "Passo 2: Criar banco de dados"
+
+
+msgid "Installation completed successfully"
+msgstr "Instalação concluída com sucesso"
+
+
+msgid "Installation files deleted successfully."
+msgstr "Arquivos de instalação apagados com sucesso."
+
+
+msgid "Could not delete installation files."
+msgstr "Não foi possível excluir os arquivos de instalação."
+
+msgid "Click here to build your database"
+msgstr "Clique aqui para criar seu banco de dados"
+
+
+msgid "Click here to delete installation files"
+msgstr "Clique aqui para apagar os arquivos de instalação"
+
+
+msgid "Your tmp directory is writable."
+msgstr "Sua configuração do diretório tmp é gravável."
+
+
+msgid "Your tmp directory is NOT writable."
+msgstr "Sua configuração do diretório tmp NÃO é gravável."
+
+
+msgid "Your config directory is writable."
+msgstr "Sua configuração do diretório é gravável."
+
+
+msgid "Your config directory is NOT writable."
+msgstr "Sua configuração do diretório NÃO é gravável."
+
+
+msgid "PHP version %s > 5"
+msgstr "Versão PHP  %s > 5"
+
+
+msgid "PHP version %s < 5"
+msgstr "Versão PHP  %s < 5"
+
+
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr "A instalação não pode continuar, requisitos mínimos não foram cumpridos."
+
+
+msgid "Croogo"
+msgstr "Croogo"
+
+
+msgid "Install Croogo"
+msgstr "Instalar Croogo"
+
+
+msgid "Invalid ID."
+msgstr "ID Inválido."
+
+msgid "Invalid model."
+msgstr "Modelo Inválido."
+
+
+msgid "Invalid record."
+msgstr "Registro Inválido."
+
+
+msgid "Translations: %s"
+msgstr "Traduções: %s"
+
+msgid "Translate content: %s (%s)"123
+msgstr "Traduzir conteúdo: %s (%s)"
+
+
+msgid "Record has been translated"
+msgstr "Tradução gravada com sucesso"
+
+msgid "Record could not be translated. Please, try again."
+msgstr "Não foi possível gravar a tradução. Por favor, tente novamente."
+
+msgid "Invalid Locale or ID"
+msgstr "Local de ID Inválido"
+
+
+msgid "Translation for the locale deleted successfully."
+msgstr "Tradução para o local excluído com sucesso."
+
+
+msgid "Translation for the locale could not be deleted."
+msgstr "Tradução para o local não podera ser excluída."
+
+
+msgid "Record"
+msgstr "Gravar"
+
+
+msgid "Translate in a new language"
+msgstr "Translate in a new language"
+
+
+msgid "Title"
+msgstr "Título"
+
+
+msgid "No translations available."
+msgstr "Nenhuma tradução disponível."
+
+
+msgid "Could not add a new language."
+msgstr "Não foi possível adicionar um novo idioma."
+
+
+msgid "New Attachment"
+msgstr "Novo Acessório"
+
+
+msgid "URL"
+msgstr "URL"
+
+
+msgid "Insert"
+msgstr "Inserir"
+
+
+msgid "Attachment"
+msgstr "Acessório"
+
+
+msgid "Info"
+msgstr "Info"
+
+
+msgid "Caption"
+msgstr "Título"
+
+
+msgid "File URL"
+msgstr "Arquivo URL"
+
+
+msgid "Mime Type"
+msgstr "Tipo Mime"
+
+
+msgid "Block"
+msgstr "Bloco"
+
+msgid "Access"
+msgstr "Acessar"
+
+
+msgid "Visibilities"
+msgstr "Visibilidades"
+
+
+msgid "unique name for your block"
+msgstr "nome exclusivo para o bloco"
+
+
+msgid "if you are not sure, choose 'none'"
+msgstr "Se você não tiver certeza, escolha a opção 'none'"
+
+
+msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
+msgstr "Digite uma URL por linha. Deixe em branco se quiser que este bloco apareça em todas as páginas."
+
+
+msgid "New Block"
+msgstr "Novo Bloco"
+
+msgid "Publish"
+msgstr "Publicado"
+
+
+msgid "Unpublish"
+msgstr "Não publicado"
+
+
+msgid "Submit"
+msgstr "Submit"
+
+
+msgid "Comment"
+msgstr "Comentario"
+
+msgid "Contact Info"
+msgstr "Informações de contato"
+
+
+msgid "Published"
+msgstr "Publicados"
+
+
+msgid "Approval"
+msgstr "Aprovação"
+
+msgid "Comment on"
+msgstr "Comentar sobre"
+
+
+msgid "Contact"
+msgstr "Contato"
+
+
+msgid "Details"
+msgstr "Details"
+
+
+msgid "Message"
+msgstr "Mensagem"
+
+
+msgid "Let users leave a message"
+msgstr "Permita que os usuários deixem uma mensagem"
+
+
+msgid "Save messages in database"
+msgstr "Save messages in database"
+
+
+msgid "Notify by email instantly"
+msgstr "Notifique por e-mail imediatamente"
+
+
+msgid "Spam protection (requires Akismet API key)"
+msgstr "Proteção de spam (requer Chave da API Akismet)"
+
+
+msgid "Use captcha? (requires Recaptcha API key)"
+msgstr "Usar captcha? (requer Chave da API Recaptcha)"
+
+msgid "You can manage your API keys here."
+msgstr "Você pode gerenciar suas chaves API aqui."
+
+
+msgid "New Contact"
+msgstr "Novo Contato"
+
+
+msgid "Your name"
+msgstr "Seu nome"
+
+msgid "Your email"
+msgstr "Seu e-mail"
+
+msgid "Subject"
+msgstr "Assunto"
+
+
+msgid "Send"
+msgstr "Enviar"
+
+
+msgid "said on %s"
+msgstr "disse em  %s"
+
+
+msgid "Reply"
+msgstr "Responder"
+
+
+msgid "Add new comment"
+msgstr "Adicionar novo comentário"
+
+
+msgid "Go back to original post"
+msgstr "Volte ao post original"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Website"
+msgstr "Website"
+
+
+msgid "Post comment"
+msgstr "Postar comentario"
+
+
+msgid "Posted"
+msgstr "Postado"
+
+
+msgid "on"
+msgstr "em"
+
+
+msgid "Posted in"
+msgstr "Postado em"
+
+
+msgid "Leave a comment"
+msgstr "Deixar um comentário"
+
+
+msgid "Search"
+msgstr "Pesquisar"
+
+
+msgid "Admin Panel"
+msgstr "Admin Painel"
+
+msgid "Visit website"
+msgstr "Visitar website"
+
+
+msgid "List"
+msgstr "Lista"
+
+
+msgid "Content types"
+msgstr "Tipo de conteúdo"
+
+msgid "Taxonomy"
+msgstr "Taxonomia"
+
+msgid "Add new"
+msgstr "Adicionar novo "
+
+
+msgid "Regions"
+msgstr "Regiões"
+
+msgid "Extensions"
+msgstr "Extensões"
+
+
+msgid "Media"
+msgstr "Media"
+
+msgid "Site"
+msgstr "Site"
+
+
+msgid "Meta"
+msgstr "Meta"
+
+msgid "Reading"
+msgstr "Lendo"
+
+
+msgid "Writing"
+msgstr "Escrevendo"
+
+
+msgid "Service"
+msgstr "Serviços"
+
+msgid "Unpublished"
+msgstr "Não publicados"
+
+
+msgid "Promoted"
+msgstr "Promovido"
+
+
+msgid "Yes"
+msgstr "Sim"
+
+
+msgid "No"
+msgstr "Não"
+
+
+msgid "Filter"
+msgstr "Filtrar"
+
+
+msgid "You are logged in as "
+msgstr "Você está logado como "
+
+
+msgid "Log Out"
+msgstr "Sair"
+
+
+msgid "A new comment has been posted under: %s"
+msgstr "Um novo comentário foi postado em: %s"
+
+msgid "Name: %s"
+msgstr "Nome: %s"
+
+
+msgid "Email: %s"
+msgstr "E-mail: %s"
+
+msgid "Website: %s"
+msgstr "Website: %s"
+
+
+msgid "IP Address: %s"
+msgstr "Endereço IP: %s"
+
+
+msgid "Comment: %s"
+msgstr "Comentário: %s"
+
+
+msgid "You have received a new message at: %s"
+msgstr "Você recebeu uma nova mensagem de: %s"
+
+
+msgid "Subject: %s"
+msgstr "Assunto: %s"
+
+
+msgid "Message: %s"
+msgstr "Mensagem: %s"
+
+
+msgid "Hello %s"
+msgstr "Olá %s"
+
+
+msgid "Please visit this link to reset your password: %s"
+msgstr "Por favor, acesse este link para redefinir sua senha: %s"
+
+
+msgid "If you did not request a password reset, then please ignore this email."
+msgstr "Se você não pediu para redefinir de senha, por favor, ignore este e-mail."
+
+
+msgid "Please visit this link to activate your account: %s"
+msgstr "Por favor, acesse este link para ativar sua conta: %s"
+
+
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+
+msgid "Error"
+msgstr "Erro"
+
+
+msgid "The requested address was not found on this server."
+msgstr "O endereço solicitado não foi encontrado neste servidor."
+
+msgid "Security Error"
+msgstr "Erro de Segurança"
+
+
+msgid "Upload here"
+msgstr "Upload aqui"
+
+
+msgid "Create directory"
+msgstr "Criar diretório"
+
+msgid "Create directory"
+msgstr "Criar arquivo "
+
+
+msgid "You are here:"
+msgstr "Você está aqui :"
+
+
+msgid "Directory content"
+msgstr "Directory content"
+
+
+msgid "Open"
+msgstr "Aberto"
+
+
+msgid "Key"
+msgstr "Chave"
+
+
+msgid "Value"
+msgstr "Valor"
+
+
+msgid "Remove"
+msgstr "Remover"
+
+
+msgid "New Language"
+msgstr "Nova Língua"
+
+msgid "Back to"
+msgstr "Voltar para"
+
+
+msgid "Site down for maintenance."
+msgstr "Site em manutenção."
+
+
+msgid "Link"
+msgstr "Link"
+
+
+msgid "Misc."
+msgstr "Misto"
+
+
+msgid "Parent"
+msgstr "Pai"
+
+
+msgid "Link to a Node"
+msgstr "Link para o nó"
+
+msgid "New Link"
+msgstr "Novo Link"
+
+
+
+msgid "Menu"
+msgstr "Menu"
+
+
+msgid "New Menu"
+msgstr "Novo Menu"
+
+
+msgid "View links"
+msgstr "Ver links"
+
+
+msgid "Unread"
+msgstr "Não lido"
+
+
+msgid "Read"
+msgstr "Ler"
+
+
+msgid "Mark as read"
+msgstr "Marcar como lido"
+
+
+msgid "Mark as unread"
+msgstr "Marcar como não lido"
+
+
+msgid "Terms"
+msgstr "Termos"
+
+
+msgid "Custom fields"
+msgstr "Campos personalizados"
+
+
+msgid "Publishing"
+msgstr "Publicação"
+
+
+msgid "Disabled"
+msgstr "Inválido"
+
+
+msgid "Read only"
+msgstr "Somente Leitura"
+
+
+msgid "Read/Write"
+msgstr "Ler/Escrever"
+
+
+msgid "Add another field"
+msgstr "Add another field"
+
+
+msgid "Promoted to front page"
+msgstr "Promovido para a página inicial"
+
+
+msgid "Promote"
+msgstr "Promover"
+
+
+msgid "Unpromote"
+msgstr "Não promover"
+
+
+msgid "Sort by:"
+msgstr "Classificar por:"
+
+
+msgid "No items found."
+msgstr "Nenhum item encontrado."
+
+
+msgid "New Region"
+msgstr "Nova Região "
+
+
+msgid "New Role"
+msgstr "Nova Função "
+
+
+msgid "e.g., 'Site.title'"
+msgstr "ex., 'Site.titulo'"
+
+
+
+msgid "e.g., 'text' or 'textarea'"
+msgstr "ex., 'texto' ou 'textarea'"
+
+
+msgid "New Setting"
+msgstr "Nova Configuração"
+
+
+msgid "Setting"
+msgstr "Configuração"
+
+
+msgid "Input Type"
+msgstr "Tipo de entrada"
+
+
+msgid "Weight"
+msgstr "Peso"
+
+
+msgid "Params"
+msgstr "Parametros"
+
+
+msgid "Delete Setting"
+msgstr "Excluir Configuração"
+
+
+msgid "Are you sure you want to delete # %s?"
+msgstr "Tem certeza de que deseja excluir # %s?"
+
+
+msgid "List Settings"
+msgstr "Configurações da Lista"
+
+
+msgid "Term"
+msgstr "Termo"
+
+
+msgid "New Term"
+msgstr "Novo Termo"
+
+
+msgid "Slug"
+msgstr "Slug"
+
+
+msgid "Format"
+msgstr "Formato"
+
+
+msgid "Show author's name"
+msgstr "Mostrar nome do autor"
+
+
+msgid "Show date"
+msgstr "Show date"
+
+
+msgid "New Type"
+msgstr "Novo Tipo"
+
+
+msgid "Add User"
+msgstr "Adicionar Ususário"
+
+msgid "Edit User"
+msgstr "Editar Usuário"
+
+
+msgid "Reset password"
+msgstr "Restaurar senha"
+
+
+msgid "New User"
+msgstr "Novo Usuário"
+
+
+msgid "Role"
+msgstr "Função"
+
+
+msgid "Forgot password?"
+msgstr "Esqueceu senha?"
+
+
+msgid "Log In"
+msgstr "Log In"
+
+
+msgid "Current Password"
+msgstr "Senha atual"
+
+
+msgid "New Password"
+msgstr "Nova senha "
+
+
+msgid "You are currently logged in as:"
+msgstr "Você está logado como:"
+
+
+msgid "Login"
+msgstr "Login"
+
+
+msgid "New password"
+msgstr "Nova senha "
+
+msgid "Vocabulary"
+msgstr "Vocabulário"
+
+
+msgid "Options"
+msgstr "Opções"
+
+
+msgid "New Vocabulary"
+msgstr "Novo Vocabulário"
+
+msgid "View terms"
+msgstr "Ver termos"
+
+
+msgid "Debug setting does not allow access to this url."
+msgstr "Configuração Debug não permite o acesso a este url"
+
