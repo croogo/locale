@@ -1,0 +1,516 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Croogo Czech\n"
+"POT-Creation-Date: 2010-09-04 10:51+0100\n"
+"PO-Revision-Date: 2010-09-11 14:44+0100\n"
+"Last-Translator: Marek Sebera <marek.sebera@gmail.com>\n"
+"Language-Team: Marek Sebera <marek.sebera@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2 \n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "%s could not be saved. Please, try again."
+msgstr "%s nemohl být uložen. Zkuste to prosím znovu"
+
+msgid "%s has been saved"
+msgstr "%s byl uložen"
+
+msgid "Add Attachment"
+msgstr "Přidat přílohu"
+
+msgid "Add Block"
+msgstr "Přidat Blok"
+
+msgid "Add Contact"
+msgstr "Přidat Kontakt"
+
+msgid "Add Language"
+msgstr "Přidat jazyk"
+
+msgid "Add Link"
+msgstr "Přidat odkaz"
+
+msgid "Add Menu"
+msgstr "Přidat Menu"
+
+msgid "Add Region"
+msgstr "Přidat Region"
+
+msgid "Add Role"
+msgstr "Přidat Roli"
+
+msgid "Add User"
+msgstr "Přidat uživatele"
+
+msgid "An error occured"
+msgstr "Nastala chyba"
+
+msgid "An error occurred."
+msgstr "Nastala chyba"
+
+msgid "Attachment deleted"
+msgstr "Příloha smazána"
+
+msgid "Attachments"
+msgstr "Přílohy"
+
+msgid "Block deleted"
+msgstr "Blok byl smazán"
+
+msgid "Blocks"
+msgstr "Bloky"
+
+msgid "Blocks deleted."
+msgstr "Blok smazán"
+
+msgid "Blocks published"
+msgstr "Blok publikován"
+
+msgid "Blocks unpublished"
+msgstr "Blok nebyl publikován"
+
+msgid "Comment deleted"
+msgstr "Komentář byl smazán"
+
+msgid "Comment"
+msgstr "Komentář"
+
+msgid "Comments"
+msgstr "Komentáře"
+
+msgid "Comments deleted."
+msgstr "Komentáře byly smazány"
+
+msgid "Comments published"
+msgstr "Komentáře byly publikovány"
+
+msgid "Comments unpublished"
+msgstr "Komentáře nebyly publikovány"
+
+msgid "Comments: Approval"
+msgstr "Komentáře : K přijetí"
+
+msgid "Comments: Published"
+msgstr "Komentáře : Publikovaní"
+
+msgid "Contact deleted"
+msgstr "Kontakt byl smazán"
+
+msgid "Contacts"
+msgstr "Kontakty"
+
+msgid "Content"
+msgstr "Obsah"
+
+msgid "Content type does not exist."
+msgstr "Typ obsahu neexistuje"
+
+msgid "Could not move down"
+msgstr "Nemohu to posunout dolů"
+
+msgid "Could not move up"
+msgstr "Nemohu to posunout nahoru"
+
+msgid "Create content"
+msgstr "Vytvořit obsah"
+
+msgid "Create content: %s"
+msgstr "Vytvořit obsah: %s"
+
+msgid "Current Password"
+msgstr "Stávající heslo"
+
+msgid "Dashboard"
+msgstr "Přístrojová deska"
+
+msgid "Debug setting does not allow access to this url."
+msgstr "Nastavení serveru nedovoluje přistupovat na tuto URL"
+
+msgid "Directory created successfully."
+msgstr "Adresář byl vytvořen úspěšně"
+
+msgid "Directory deleted"
+msgstr "Adresář byl smazán"
+
+msgid "Edit Attachment"
+msgstr "Upravit přílohu"
+
+msgid "Edit Block"
+msgstr "Upravit Blok"
+
+msgid "Edit Comment"
+msgstr "Upravit komentář"
+
+msgid "Edit Contact"
+msgstr "Upravit Kontakt"
+
+msgid "Edit Language"
+msgstr "Upravit jazyk"
+
+msgid "Edit Link"
+msgstr "Upravit Odkaz"
+
+msgid "Edit Menu"
+msgstr "Upravit Menu"
+
+msgid "Edit Message"
+msgstr "Upravit zprávu"
+
+msgid "Edit Region"
+msgstr "Upravit Region"
+
+msgid "Edit Role"
+msgstr "Upravit Roli"
+
+msgid "Edit User"
+msgstr "Upravit uživatele"
+
+msgid "Edit content: %s"
+msgstr "Upravit obsah: %s"
+
+msgid "Edit file: %s"
+msgstr "Upravit soubor: %s"
+
+msgid "File Manager"
+msgstr "Správce souborů"
+
+msgid "File created successfully."
+msgstr "Soubor vytvořen úspěšně"
+
+msgid "File deleted"
+msgstr "Soubor smazán"
+
+msgid "File saved successfully"
+msgstr "Soubor úspěšně uložen"
+
+msgid "File uploaded successfully."
+msgstr "Soubor nahrán úspěšně"
+
+msgid "Forgot password?"
+msgstr "Zapomenuté heslo?"
+
+msgid "Format"
+msgstr "Formát"
+
+msgid "Invalid Attachment"
+msgstr "Neplatný formát přílohy"
+
+msgid "Invalid Block"
+msgstr "Vadný Blok"
+
+msgid "Invalid Comment"
+msgstr "Chybný komentář"
+
+msgid "Invalid Contact"
+msgstr "Neplatný Kontakt"
+
+msgid "Invalid Language"
+msgstr "Neplatný jazyk"
+
+msgid "Invalid Link"
+msgstr "Neplatný odkaz"
+
+msgid "Invalid Menu"
+msgstr "Chybné menu"
+
+msgid "Invalid Message"
+msgstr "Neplatná zpráva"
+
+msgid "Invalid Node"
+msgstr "Neplatný Node"
+
+msgid "Invalid Region"
+msgstr "Neplatný region"
+
+msgid "Invalid Role"
+msgstr "Neplatná Role"
+
+msgid "Invalid Term."
+msgstr "Neplatný termín"
+
+msgid "Invalid captcha entry"
+msgstr "Špatně opsaná captcha"
+
+msgid "Invalid content"
+msgstr "Neplatný obsah"
+
+msgid "Invalid content type."
+msgstr "Neplatný typ obsahu"
+
+msgid "Invalid id for Attachment"
+msgstr "Neplatné id přílohy"
+
+msgid "Invalid id for Block"
+msgstr "Neplatné id Bloku"
+
+msgid "Invalid id for Comment"
+msgstr "Neplatné id Komentáře"
+
+msgid "Invalid id for Contact"
+msgstr "Neplatné id pro kontakt"
+
+msgid "Invalid id for Language"
+msgstr "Neplatné id Jazyka"
+
+msgid "Invalid id for Link"
+msgstr "Neplatné id pro Odkaz"
+
+msgid "Invalid id for Menu"
+msgstr "Chybné id Menu"
+
+msgid "Invalid id for Message"
+msgstr "Neplatné id zprávy"
+
+msgid "Invalid id for Node"
+msgstr "Neplatné ID pro článek"
+
+msgid "Invalid id for Region"
+msgstr "Neplatné ID Regionu"
+
+msgid "Invalid id for Role"
+msgstr "Neplatné ID pro Roli"
+
+msgid "Language deleted"
+msgstr "jazyk byl smazán"
+
+msgid "Languages"
+msgstr "Jazyky"
+
+msgid "Link deleted"
+msgstr "Odkaz smazán"
+
+msgid "Links deleted."
+msgstr "Odkazy smazány"
+
+msgid "Links published"
+msgstr "Odkazy zobrazeny"
+
+msgid "Links unpublished"
+msgstr "Odkazy schovány"
+
+msgid "Links: %s"
+msgstr "Odkazy: %s"
+
+msgid "Log In"
+msgstr "Přihlásit"
+
+msgid "Login"
+msgstr "Přihlásit"
+
+msgid "Maximum level reached. You cannot reply to that comment."
+msgstr "Maximální úrovně dosaženo, nelze odpověďet na tento Komentář"
+
+msgid "Menu deleted"
+msgstr "Menu smazáno"
+
+msgid "Menus"
+msgstr "Menu"
+
+msgid "Message deleted"
+msgstr "Zpráva byla smazána"
+
+msgid "Messages"
+msgstr "Zprávy"
+
+msgid "Messages deleted."
+msgstr "Zprávy byly smazány"
+
+msgid "Messages marked as read"
+msgstr "Zpráva byla označena jako přečtená"
+
+msgid "Messages marked as unread"
+msgstr "Zpráva byla označena jako nepřečtená"
+
+msgid "Messages: Read"
+msgstr "Zpráva: Přečtené"
+
+msgid "Messages: Unread"
+msgstr "Zpráva: Nepřečtené"
+
+msgid "Moved down successfully"
+msgstr "Posunuto dolů bez problémů"
+
+msgid "Moved up successfully"
+msgstr "Posunuto nahoru bez problémů"
+
+msgid "New Directory"
+msgstr "Nový adresář"
+
+msgid "New File"
+msgstr "Nový soubor"
+
+msgid "New Password"
+msgstr "Nové heslo"
+
+msgid "New Type"
+msgstr "Nový typ"
+
+msgid "New User"
+msgstr "Nový uživatel"
+
+msgid "New Vocabulary"
+msgstr "Nová slovní zásoba"
+
+msgid "New comment posted under"
+msgstr "Nový komentář zaslán"
+
+msgid "New password"
+msgstr "Nové heslo"
+
+msgid "No items selected."
+msgstr "Žádná položka nebyla vybrána"
+
+msgid "Node deleted"
+msgstr "Článek byl smazán"
+
+msgid "Nodes"
+msgstr "Články"
+
+msgid "Nodes deleted."
+msgstr "Články byly smazány"
+
+msgid "Nodes promoted"
+msgstr "Článek byl zveřejněn"
+
+msgid "Nodes published"
+msgstr "Články byly publikovány"
+
+msgid "Nodes unpromoted"
+msgstr "Články nezveřejněny"
+
+msgid "Nodes unpublished"
+msgstr "Články byly nepublikovány"
+
+msgid "Options"
+msgstr "Nastavení"
+
+msgid "Paths updated."
+msgstr "Cesty byly aktualizovány"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "Region deleted"
+msgstr "Regiony byly smazány"
+
+msgid "Reset password"
+msgstr "Reset hesla"
+
+msgid "Role deleted"
+msgstr "Role byla smazána"
+
+msgid "Roles"
+msgstr "Role"
+
+msgid "Search Results: %s"
+msgstr "Výsledky vyhledávání: %s"
+
+msgid "Select a language"
+msgstr "Vyberte jazyk"
+
+msgid "Show author's name"
+msgstr "Ukázat autorovo jméno"
+
+msgid "Show date"
+msgstr "Ukázat datum"
+
+msgid "Site down for maintenance"
+msgstr "Probíhají úpravy, vraťte se prosím později"
+
+msgid "Slug"
+msgstr "Zkratka"
+
+msgid "Sorry, the comment appears to be spam."
+msgstr "Sorry, komentář vypadá jako spam"
+
+msgid "Sorry, the message appears to be spam."
+msgstr "Pardon, zpráva byla označena za spam"
+
+msgid "The Attachment could not be saved. Please, try again."
+msgstr "Příloha nemohla být uložena, zkuste to to prosím znovu"
+
+msgid "The Attachment has been saved"
+msgstr "Příloha byla uožena"
+
+msgid "The Block could not be saved. Please, try again."
+msgstr "Blok nemohl být uložen, zkuste to prosím znovu"
+
+msgid "The Block has been saved"
+msgstr "Blok byl uložen"
+
+msgid "The Comment could not be saved. Please, try again."
+msgstr "Komentář nemohl být uložen, zkuste to prosím znovu"
+
+msgid "The Comment has been saved"
+msgstr "Komentář byl uložen"
+
+msgid "The Contact could not be saved. Please, try again."
+msgstr "Kontakt se nepodařilo uložit, zkuste to prosím později"
+
+msgid "The Contact has been saved"
+msgstr "Kontakt byl uložen"
+
+msgid "The Language could not be saved. Please, try again."
+msgstr "Jazyk nemohl být uložen. Zkuste to prosím znovu"
+
+msgid "The Language has been saved"
+msgstr "Jazyk byl uložen"
+
+msgid "The Link could not be saved. Please, try again."
+msgstr "Odkaz nemohl být uložen, zkuste to prosím později"
+
+msgid "The Link has been saved"
+msgstr "Odkaz byl uložen"
+
+msgid "The Menu could not be saved. Please, try again."
+msgstr "Menu nemohlo být uloženo. Zkuste to prosím později"
+
+msgid "The Menu has been saved"
+msgstr "Menu bylo uloženo"
+
+msgid "The Message could not be saved. Please, try again."
+msgstr "Zpráva nemohla být doručena"
+
+msgid "The Message has been saved"
+msgstr "Zpráva byla uložena"
+
+msgid "The Region could not be saved. Please, try again."
+msgstr "Region se nepodařilo uložit, zkuste to prosím později"
+
+msgid "The Region has been saved"
+msgstr "Region byl uložen"
+
+msgid "The Role could not be saved. Please, try again."
+msgstr "Role nemohla být uložena, zkuste to prosím později"
+
+msgid "The Role has been saved"
+msgstr "Role byla uložena"
+
+msgid "Upload"
+msgstr "Nahrát"
+
+msgid "User"
+msgstr "Uživatel"
+
+msgid "View terms"
+msgstr "Prohlížet termíny"
+
+msgid "Vocabulary"
+msgstr "Slovní zásoba"
+
+msgid "You are currently logged in as:"
+msgstr "Právě přihlášen:"
+
+msgid "Your comment has been added successfully."
+msgstr "Komentář úspěšně přidán"
+
+msgid "Your comment will appear after moderation."
+msgstr "Komentář se objeví po schválení"
+
+msgid "Your message has been received..."
+msgstr "Vaše zpráva byla přijata"
+
