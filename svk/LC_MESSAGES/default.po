@@ -1756,7 +1756,7 @@ msgstr "Správa"
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:39
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:40
 msgid "Let users leave a message"
-msgstr "Uživateľia môžu zanechať komentár"
+msgstr "Uživatelia môžu zanechať komentár"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:42
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:43
