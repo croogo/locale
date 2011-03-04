@@ -560,11 +560,11 @@ msgstr "Uzly nepublikované"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:321
 msgid "Nodes promoted"
-msgstr "Podporované uzly"
+msgstr "Propagované uzly"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:324
 msgid "Nodes unpromoted"
-msgstr "Nepodporované uzly"
+msgstr "Nepropagované uzly"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:365;452;517;592
 msgid "Invalid content type."
@@ -1919,7 +1919,7 @@ msgstr "Nepublikovaný"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:35
 msgid "Promoted"
-msgstr "Povýšený"
+msgstr "Propagovaný"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:37
 msgid "Yes"
@@ -2176,15 +2176,15 @@ msgstr "Pridať ďalšie pole"
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:88
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:86
 msgid "Promoted to front page"
-msgstr "Publikované na úvodnej stránke"
+msgstr "Propagované na úvodnej stránke"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:81
 msgid "Promote"
-msgstr "Povýšíť"
+msgstr "Propagovať"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:82
 msgid "Unpromote"
-msgstr "Znížiť úroveň"
+msgstr "Zrušiť propagáciu"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_links.ctp:24
 msgid "Sort by:"
