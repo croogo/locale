@@ -209,7 +209,7 @@ msgstr "Komentáre nepublikované"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:161;172
 msgid "Invalid Node"
-msgstr "Chybný Bod"
+msgstr "Chybný Uzol"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:179
 msgid "Maximum level reached. You cannot reply to that comment."
@@ -275,7 +275,7 @@ msgstr "Vaša správa bola prijatá..."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:168
 msgid "Sorry, the message appears to be spam."
-msgstr "Prepráčte, správa vyzerá ako spam."
+msgstr "Prepáčte, správa vyzerá ako spam."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:66
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:84
@@ -337,40 +337,40 @@ msgstr "Súbor úspešne vytvorený."
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:31
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:114
 msgid "Languages"
-msgstr "Lokalizácie"
+msgstr "Jazyky"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:39
 msgid "Add Language"
-msgstr "Pridaj Lokalizáciu"
+msgstr "Pridaj jazyk"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:44;61
 msgid "The Language has been saved"
-msgstr "Lokalizácia bola uložená"
+msgstr "Jazyk bol uložený"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:47;64
 msgid "The Language could not be saved. Please, try again."
-msgstr "Lokalizáciu nie je možné uložiť. Prosím, skúste znova."
+msgstr "Jazyk nie je možné uložiť. Prosím, skúste znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:53
 msgid "Edit Language"
-msgstr "Upraviť Lokalizáciu"
+msgstr "Upraviť jazyk"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:56
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:104
 msgid "Invalid Language"
-msgstr "Nesprávna Lokalizácia"
+msgstr "Nesprávny jazyk"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:74
 msgid "Invalid id for Language"
-msgstr "Chybné id pre Lokalizáciu"
+msgstr "Chybné id pre jazyk"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:82
 msgid "Language deleted"
-msgstr "Lokalizácia vymazaná"
+msgstr "Jazyk vymazaný"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:113
 msgid "Select a language"
-msgstr "Vyberte Lokalizáciu"
+msgstr "Vyberte jazyk"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:56
 msgid "Links: %s"
@@ -378,7 +378,7 @@ msgstr "Odkazy: %s"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:75
 msgid "Add Link"
-msgstr "Pridaj Odkaz"
+msgstr "Pridať Odkaz"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:86;118
 msgid "The Link has been saved"
@@ -560,7 +560,7 @@ msgstr "Uzly nepublikované"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:321
 msgid "Nodes promoted"
-msgstr "Podporované uzly."
+msgstr "Podporované uzly"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:324
 msgid "Nodes unpromoted"
@@ -580,7 +580,7 @@ msgstr "Uzly"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:602
 msgid "Search Results: %s"
-msgstr "Vysledok vyhladávania: %s"
+msgstr "Vysledok vyhľadávania: %s"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:31
 msgid "Region"
@@ -596,7 +596,7 @@ msgstr "Región bol uložený"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:47;64
 msgid "The Region could not be saved. Please, try again."
-msgstr "Región sa nedal uložiť. Skúste ešte raz."
+msgstr "Región sa nedal uložiť. Skúste prosím znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:53
 msgid "Edit Region"
@@ -629,7 +629,7 @@ msgstr "Skupina bola uložená"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:47;64
 msgid "The Role could not be saved. Please, try again."
-msgstr "Skupinu nebolo možné uložiť. Skúste ešte raz." 
+msgstr "Skupinu nebolo možné uložiť. Skúste prosím znova." 
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:53
 msgid "Edit Role"
@@ -649,15 +649,15 @@ msgstr "Skupina zmazaná"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:38
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:4
-msgid "Nástenka"
+msgid "Dashboard"
 msgstr "Nástenka"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:42
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:106
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:7
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:7
-msgid "Nastavenia"
-msgstr "Nastavenie"
+msgid "Settings"
+msgstr "Nastavenia"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:54
 msgid "Invalid Setting."
@@ -673,7 +673,7 @@ msgstr "Nastavenie bolo uložené"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:69;86
 msgid "The Setting could not be saved. Please, try again."
-msgstr "Nastavenie sa nedalo uložiť. Pokúste sa znova."
+msgstr "Nastavenie sa nedalo uložiť. Skúste prosím znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:75
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:43
@@ -726,11 +726,11 @@ msgstr "Termín bol úspešne uložený"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:116;213
 msgid "Term could not be added to the vocabulary. Please try again."
-msgstr "Termín sa nedal priložiť ku slovníku. Skúste znova."
+msgstr "Termín nebolo možné pridať do slovníka. Skúste prosím znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:120;217
 msgid "Term could not be saved. Please try again."
-msgstr "Termín sa nedal uložiť. Pokúste sa znova."
+msgstr "Termín nebolo možné uložiť. Skúste prosím znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:168
 msgid "%s: Edit Term"
@@ -746,7 +746,7 @@ msgstr "Termín zmazaný"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:254
 msgid "Term could not be deleted. Please, try again."
-msgstr "Termín sa nedal zmazať. Skúte znova."
+msgstr "Termín sa nedal zmazať. Skúste prosím znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:38
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:7
@@ -764,7 +764,7 @@ msgstr "Typ bol uložený"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:54;74
 msgid "The Type could not be saved. Please, try again."
-msgstr "Typ sa nedal uložiť. Pokúste sa znova."
+msgstr "Typ sa nedal uložiť. Skúste prosím znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:63
 msgid "Edit Type"
@@ -784,45 +784,45 @@ msgstr "Typ zmazaný"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:49
 msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
-msgstr "Maximálny limit pre neúspešne prihlásenie bol dosiahnutý. Skúste znova o niekoľko minút."
+msgstr "Maximálny limit pre neúspešne prihlásenie bol dosiahnutý. Skúste prosím znova o niekoľko minút."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:69;162
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:97;99
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:2
 msgid "Users"
-msgstr "Uživatelia"
+msgstr "Užívatelia"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:80;100
 msgid "The User has been saved"
-msgstr "Uživateľ bol uložený"
+msgstr "Užívateľ bol uložený"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:83;103;188
 msgid "The User could not be saved. Please, try again."
-msgstr "Uživateľa nie je možné uložiť. Skúste znova."
+msgstr "Užívateľa nie je možné uložiť. Skúste znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:95;115
 msgid "Invalid User"
-msgstr "Neplatný uživateľ"
+msgstr "Neplatný užívateľ"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:122
 msgid "Password has been reset."
-msgstr "Heslo bolo obnovené"
+msgstr "Heslo bolo obnovené."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:125
 msgid "Password could not be reset. Please, try again."
-msgstr "Heslo sa nedá obnoviť. Skúste znova."
+msgstr "Heslo nie je možné obnoviť. Skúste prosím znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:128
 msgid "Current password did not match. Please, try again."
-msgstr "Vaše heslo nie je správne. Skúste znova."
+msgstr "Vaše existujúce heslo nie je správne. Skúste prosím znova."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:138
 msgid "Invalid id for User"
-msgstr "Neplatné id uživateľa"
+msgstr "Neplatné id užívateľa"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:146
 msgid "User deleted"
-msgstr "Uživateľ zmazaný"
+msgstr "Užívateľ zmazaný"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:152
 msgid "Admin Login"
@@ -838,7 +838,7 @@ msgstr "Registrovať"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:180
 msgid "["
-msgstr ""
+msgstr "["
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:185
 msgid "You have successfully registered an account. An email has been sent with further instructions."
@@ -854,7 +854,7 @@ msgstr "Zabudnuté heslo"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:223
 msgid "Invalid username."
-msgstr "Neplatné uživateľské meno."
+msgstr "Neplatné užívateľské meno."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:235;247
 msgid "Reset Password"
@@ -1255,15 +1255,15 @@ msgstr "Komponenty"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:76;96
 msgid "%s activated successfully."
-msgstr "%s bol úspeŠne aktivovaný."
+msgstr "%s bol úspešne aktivovaný."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:78;98
 msgid "%s could not be activated. Plugin depends on other plugins that are not available."
-msgstr "%s nebolo možné aktivovať. Plugin vyžaduje ďalší plugin, ktorý nie je k dispozícií."
+msgstr "%s nebolo možné aktivovať. Plugin vyžaduje ďalší plugin, ktorý nie je k dispozícii."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:89
 msgid "%s deactivated successfully."
-msgstr "%s bol úspeŠne deaktivovaný"
+msgstr "%s bol úspešne deaktivovaný"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:37
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:63
@@ -1313,7 +1313,7 @@ msgstr "Lokalizácia bola úspešne zmazaná."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:188
 msgid "Local could not be deleted."
-msgstr "Lokalizácia sa nedá zmazať."
+msgstr "Lokalizáciu nie je možné zmazať."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:51
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:64
@@ -1387,7 +1387,7 @@ msgstr "Neplatná šablóna"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:163
 msgid "Default theme cannot be deleted."
-msgstr "Predvolenú Šablónu neviete zmazať"
+msgstr "Predvolenú šablónu neviete zmazať"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:166
 msgid "You cannot delete a theme that is currently active."
@@ -1395,7 +1395,7 @@ msgstr "Aktívnu tému neviete zmazať."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:188
 msgid "Theme deleted successfully."
-msgstr "Šablóna úspešne zmazaná"
+msgstr "Šablóna úspešne zmazaná."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:13
 msgid "Plugin"
@@ -1500,11 +1500,11 @@ msgstr "Inštalačné súbory boli vymazané."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:218
 msgid "Could not delete installation files."
-msgstr "Nevedel som vymazať inštalačné súbory."
+msgstr "Inštalačné súbory nebolo možné vymazať."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\data.ctp:5
 msgid "Click here to build your database"
-msgstr "Kliknite sem pre vybudovanie databázy"
+msgstr "Kliknite sem pre naplnenie vašej databázy"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\finish.ctp:21
 msgid "Click here to delete installation files"
@@ -1516,7 +1516,7 @@ msgstr "Váš tmp adresár je zapisovateľný."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:11
 msgid "Your tmp directory is NOT writable."
-msgstr "Váš tmp adresár je nezapisovateľný."
+msgstr "Váš tmp adresár NIE je zapisovateľný."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:16
 msgid "Your config directory is writable."
@@ -1524,7 +1524,7 @@ msgstr "Váš konfiguračný adresár je zapisovateľný."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:19
 msgid "Your config directory is NOT writable."
-msgstr "Váš konfiguračný adresár je nezapisovateľný."
+msgstr "Váš konfiguračný adresár NIE je zapisovateľný."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:24
 msgid "PHP version %s > 5"
@@ -1536,7 +1536,7 @@ msgstr "PHP verzia %s < 5"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:33
 msgid "Installation cannot continue as minimum requirements are not met."
-msgstr "V inštalovaní neviem pokračovať. Minimálne podmienky nie sú splnené."
+msgstr "V inštalácii nie je možné pokračovať, keďže nie sú splnené minimálne požiadavky."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\layouts\install.ctp:5
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin.ctp:5
@@ -1555,11 +1555,11 @@ msgstr "Chybné ID"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:44;161
 msgid "Invalid model."
-msgstr "Chybný model"
+msgstr "Neplatný model."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:56;116;173
 msgid "Invalid record."
-msgstr "Chybný záznam"
+msgstr "Neplatný záznam."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:63
 msgid "Translations: %s"
@@ -1608,11 +1608,11 @@ msgstr "Názov"
 #: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:63
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:52
 msgid "No translations available."
-msgstr "Lokalizácie nie sú k dispozícii"
+msgstr "Preklady nie sú k dispozícii"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\tests\cases\controllers\languages_controller.test.php:185;216
 msgid "Could not add a new language."
-msgstr "Nevedel som pridať novú Lokalizáciu"
+msgstr "Nevedel som pridať nový jazyk"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:6
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:6
@@ -1717,7 +1717,7 @@ msgstr "Komentár"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:9
 msgid "Contact Info"
-msgstr "Kontaktné Info"
+msgstr "Kontaktné info"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:17
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:14
@@ -1993,7 +1993,7 @@ msgstr "Pre nové heslo navštívte tento link: %s"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
-msgstr "Keď ste nežiadal nové heslo, prosím ignorujte tento email."
+msgstr "Ak ste nežiadali nové heslo, prosím ignorujte tento email."
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\register.ctp:10
 msgid "Please visit this link to activate your account: %s"
