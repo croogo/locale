@@ -2350,7 +2350,7 @@ msgstr "Nový slovník"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:22
 msgid "View terms"
-msgstr "Zobraziť podmienky"
+msgstr "Zobraziť pojmy"
 
 #: E:\xampp\htdocs\p\croogo_croogo\app\webroot\test.php:88
 msgid "Debug setting does not allow access to this url."
