@@ -476,7 +476,7 @@ msgstr "Wiadomość została zapisana"
 
 #: /controllers/messages_controller.php:71;71
 msgid "The Message could not be saved. Please, try again."
-msgstr "Podczas zapisywania wiadomości wystąpił błąd, Spróbuj ponownie."
+msgstr "Podczas zapisywania wiadomości wystąpił błąd. Spróbuj ponownie."
 
 #: /controllers/messages_controller.php:81;81
 msgid "Invalid id for Message"
@@ -619,35 +619,35 @@ msgstr "Obszar został usunięty"
 #: /controllers/roles_controller.php:31;31
 #: /views/elements/admin/navigation.ctp:99;99
 msgid "Roles"
-msgstr ""
+msgstr "Grupy"
 
 #: /controllers/roles_controller.php:39;39
 msgid "Add Role"
-msgstr ""
+msgstr "Dodaj Grupę"
 
 #: /controllers/roles_controller.php:44;61;44;61
 msgid "The Role has been saved"
-msgstr ""
+msgstr "Grupa została zapisana"
 
 #: /controllers/roles_controller.php:47;64;47;64
 msgid "The Role could not be saved. Please, try again."
-msgstr ""
+msgstr "Podczas zapisywania grupy wystąpił błąd. Spróbuj ponownie."
 
 #: /controllers/roles_controller.php:53;53
 msgid "Edit Role"
-msgstr ""
+msgstr "Edytuj grupę"
 
 #: /controllers/roles_controller.php:56;56
 msgid "Invalid Role"
-msgstr ""
+msgstr "Nieprawidłowa grupa"
 
 #: /controllers/roles_controller.php:74;74
 msgid "Invalid id for Role"
-msgstr ""
+msgstr "Nieprawidłowy identyfikator grupy"
 
 #: /controllers/roles_controller.php:82;82
 msgid "Role deleted"
-msgstr ""
+msgstr "Grupa została usunięta"
 
 #: /controllers/settings_controller.php:38;38
 #: /views/elements/admin/navigation.ctp:4;4
@@ -1821,7 +1821,7 @@ msgstr "Wyślij komentarz"
 
 #: /views/elements/node_info.ctp:6;6
 msgid "Posted"
-msgstr "Wysłano"
+msgstr "Dodano"
 
 #: /views/elements/node_info.ctp:20;20
 msgid "on"
@@ -2194,11 +2194,11 @@ msgstr "Nowy Obszar"
 #: /views/roles/admin_edit.ctp:8;8
 #: /views/users/admin_index.ctp:14;14
 msgid "Role"
-msgstr ""
+msgstr "Grupa"
 
 #: /views/roles/admin_index.ctp:6;6
 msgid "New Role"
-msgstr ""
+msgstr "Dodaj Grupę"
 
 #: /views/settings/admin_add.ctp:13;13
 #: /views/settings/admin_edit.ctp:14;14
@@ -2377,4 +2377,4 @@ msgid "Posted in"
 msgstr "Opublikowano w"
 
 msgid "Body"
-msgstr "Zawartość"
+usgstr "Zawartość"
