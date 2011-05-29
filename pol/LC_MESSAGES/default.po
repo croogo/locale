@@ -300,7 +300,7 @@ msgstr "Plik został zapisany"
 #: /plugins/extensions/views/extensions_themes/admin_index.ctp:6;6
 #: /views/attachments/admin_add.ctp:12;12
 msgid "Upload"
-msgstr "Wysłano"
+msgstr "Prześlij"
 
 #: /controllers/filemanager_controller.php:115;115
 msgid "File uploaded successfully."
@@ -374,7 +374,7 @@ msgstr ""
 
 #: /controllers/links_controller.php:56;56
 msgid "Links: %s"
-msgstr "Link: %s"
+msgstr "Linki: %s"
 
 #: /controllers/links_controller.php:75;75
 msgid "Add Link"
@@ -586,35 +586,35 @@ msgstr "Wyniki wyszukiwania: %s"
 #: /views/regions/admin_add.ctp:7;7
 #: /views/regions/admin_edit.ctp:8;8
 msgid "Region"
-msgstr "Region"
+msgstr "Obszar"
 
 #: /controllers/regions_controller.php:39;39
 msgid "Add Region"
-msgstr "Dodaj Region"
+msgstr "Dodaj Obszar"
 
 #: /controllers/regions_controller.php:44;61;44;61
 msgid "The Region has been saved"
-msgstr "Region został zapisany"
+msgstr "Obszar został zapisany"
 
 #: /controllers/regions_controller.php:47;64;47;64
 msgid "The Region could not be saved. Please, try again."
-msgstr "Podczas zapisywania Regionu wystąpił błąd. Spróbuj ponownie."
+msgstr "Podczas zapisywania obszaru wystąpił błąd. Spróbuj ponownie."
 
 #: /controllers/regions_controller.php:53;53
 msgid "Edit Region"
-msgstr "Edytuj Region"
+msgstr "Edytuj Obszar"
 
 #: /controllers/regions_controller.php:56;56
 msgid "Invalid Region"
-msgstr "Nieprawidłowy Region"
+msgstr "Nieprawidłowy Obszar"
 
 #: /controllers/regions_controller.php:74;74
 msgid "Invalid id for Region"
-msgstr "Nieprawidłowy identyfikator Regionu"
+msgstr "Nieprawidłowy identyfikator obszaru"
 
 #: /controllers/regions_controller.php:82;82
 msgid "Region deleted"
-msgstr "Region został usunięty"
+msgstr "Obszar został usunięty"
 
 #: /controllers/roles_controller.php:31;31
 #: /views/elements/admin/navigation.ctp:99;99
@@ -652,7 +652,7 @@ msgstr ""
 #: /controllers/settings_controller.php:38;38
 #: /views/elements/admin/navigation.ctp:4;4
 msgid "Dashboard"
-msgstr "Panel"
+msgstr "Panel Administracyjny"
 
 #: /controllers/settings_controller.php:42;42
 #: /views/elements/admin/navigation.ctp:105;105
@@ -980,11 +980,11 @@ msgstr ""
 #: /views/users/admin_index.ctp:18;18
 #: /views/vocabularies/admin_index.ctp:16;16
 msgid "Actions"
-msgstr ""
+msgstr "Akcje"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:32;32
 msgid "Add Action"
-msgstr ""
+msgstr "Dodaj Akcje"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:46;49;46;49
 msgid "The "
@@ -992,27 +992,27 @@ msgstr ""
 
 #: /plugins/acl/controllers/acl_actions_controller.php:72;72
 msgid "Edit Action"
-msgstr ""
+msgstr "Edytuj Akcje"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:75;75
 msgid "Invalid Action"
-msgstr ""
+msgstr "Nieprawidłowa Akcja"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:80;80
 msgid "The Action has been saved"
-msgstr ""
+msgstr "Akcja została zapisana"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:83;83
 msgid "The Action could not be saved. Please, try again."
-msgstr ""
+msgstr "Podczas zapisywania akci wystąpił błąd. Spróbuj ponownie."
 
 #: /plugins/acl/controllers/acl_actions_controller.php:110;125;110;125
 msgid "Invalid id for Action"
-msgstr ""
+msgstr "Nieprawidłowy identyfikator akcji"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:118;118
 msgid "Action deleted"
-msgstr ""
+msgstr "Akcja została usunięta"
 
 #: /plugins/acl/controllers/acl_actions_controller.php:130;130
 msgid "Action moved up"
@@ -1060,7 +1060,7 @@ msgstr ""
 #: /plugins/acl/controllers/acl_permissions_controller.php:36;36
 #: /views/elements/admin/navigation.ctp:100;100
 msgid "Permissions"
-msgstr ""
+msgstr "Uprawnienia"
 
 #: /plugins/acl/views/acl_acos/admin_index.ctp:6;6
 msgid "New Aco"
@@ -1252,52 +1252,52 @@ msgstr ""
 #: /plugins/extensions/controllers/extensions_locales_controller.php:37;37
 #: /views/elements/admin/navigation.ctp:63;63
 msgid "Locales"
-msgstr ""
+msgstr "Ustawienia regionalne"
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:53;53
 msgid "Locale does not exist."
-msgstr ""
+msgstr "Lokalizacja nie istnieje."
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:70;70
 msgid "Could not edit croogo_bootstrap.php file."
-msgstr ""
+msgstr "Brak uprawnień do pliku croogo_bootstrap.php."
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:76;76
 msgid "Upload a new locale"
-msgstr ""
+msgstr "Prześlij lokalizacje"
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:102;151;102;151
 msgid "Invalid locale."
-msgstr ""
+msgstr "Nieprawidłowa lokalizacja."
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:107;107
 msgid "Locale already exists."
-msgstr ""
+msgstr "Ta lokalizacja już istnieje."
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:148;148
 msgid "Edit locale: %s"
-msgstr ""
+msgstr "Edytuj lokalizację: %s"
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:156;156
 msgid "The file default.po does not exist."
-msgstr ""
+msgstr "Plik deafault.po nie istnieje."
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:166;166
 msgid "Locale updated successfully"
-msgstr ""
+msgstr "Dodano lokalizację"
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:176;176
 #: /plugins/translate/controllers/translate_controller.php:88;88
 msgid "Invalid locale"
-msgstr ""
+msgstr "Nieprawidłowa lokalizacja"
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:186;186
 msgid "Locale deleted successfully."
-msgstr ""
+msgstr "Lokalizacja została usunięta."
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:188;188
 msgid "Local could not be deleted."
-msgstr ""
+msgstr "Lokalizacja nie może zostać usunięta."
 
 #: /plugins/extensions/controllers/extensions_plugins_controller.php:51;51
 #: /views/elements/admin/navigation.ctp:64;64
@@ -1447,7 +1447,7 @@ msgstr "przez"
 
 #: /plugins/extensions/views/extensions_themes/admin_index.ctp:32;56;32;56
 msgid "Regions supported: "
-msgstr "Wspierane Regiony: "
+msgstr "Wspierane obszary: "
 
 #: /plugins/extensions/views/extensions_themes/admin_index.ctp:37;37
 msgid "Available Themes"
@@ -1554,7 +1554,7 @@ msgstr "Przetłumaczona zawartość: %s (%s)"
 
 #: /plugins/translate/controllers/translate_controller.php:128;128
 msgid "Record has been translated"
-msgstr "Rekord został przetłumaczony"
+msgstr "Obszar został przetłumaczony"
 
 #: /plugins/translate/controllers/translate_controller.php:135;135
 msgid "Record could not be translated. Please, try again."
@@ -1574,7 +1574,7 @@ msgstr "Tłumaczenie dla lokalizacji nie może zostać usunięte."
 
 #: /plugins/translate/views/translate/admin_edit.ctp:15;15
 msgid "Record"
-msgstr "Rekord"
+msgstr "Obszar"
 
 #: /plugins/translate/views/translate/admin_index.ctp:8;8
 #: /views/nodes/admin_translations.ctp:8;8
@@ -1710,12 +1710,12 @@ msgstr "Informacje Kontaktowe"
 #: /views/nodes/admin_add.ctp:85;85
 #: /views/nodes/admin_edit.ctp:86;86
 msgid "Published"
-msgstr "Opublikowano"
+msgstr "Opublikowane"
 
 #: /views/comments/admin_index.ctp:15;15
 #: /views/elements/admin/navigation.ctp:34;34
 msgid "Approval"
-msgstr "Zatwierdź"
+msgstr "Do zatwierdzenia"
 
 #: /views/comments/rss/index.ctp:16;16
 msgid "Comment on"
@@ -1793,7 +1793,7 @@ msgstr "Wyslij"
 
 #: /views/elements/comment.ctp:13;13
 msgid "said on %s"
-msgstr "powiedziano o %s"
+msgstr "napisał (%s)"
 
 #: /views/elements/comment.ctp:19;19
 msgid "Reply"
@@ -1825,15 +1825,11 @@ msgstr "Wysłano"
 
 #: /views/elements/node_info.ctp:20;20
 msgid "on"
-msgstr "do"
-
-#: /views/elements/node_more_info.ctp:17;17
-msgid "Posted in"
-msgstr "Opublikowano w"
+msgstr "dnia"
 
 #: /views/elements/node_more_info.ctp:28;28
 msgid "Leave a comment"
-msgstr "Zostaw komentarz"
+msgstr "Dodaj komentarz"
 
 #: /views/elements/search.ctp:24;24
 msgid "Search"
@@ -1867,7 +1863,7 @@ msgstr "Dodaj"
 
 #: /views/elements/admin/navigation.ctp:55;55
 msgid "Regions"
-msgstr "Regiony"
+msgstr "Obszary"
 
 #: /views/elements/admin/navigation.ctp:60;60
 msgid "Extensions"
@@ -1879,7 +1875,7 @@ msgstr ""
 
 #: /views/elements/admin/navigation.ctp:107;107
 msgid "Site"
-msgstr "Położenie"
+msgstr "Strona"
 
 #: /views/elements/admin/navigation.ctp:108;108
 msgid "Meta"
@@ -1916,7 +1912,7 @@ msgstr "Nie"
 #: /views/elements/admin/nodes_filter.ctp:43;43
 #: /views/nodes/admin_index.ctp:10;10
 msgid "Filter"
-msgstr "Filtr"
+msgstr "Filtruj"
 
 #: /views/elements/admin/quick.ctp:4;4
 msgid "You are logged in as "
@@ -2177,7 +2173,7 @@ msgstr "Promuj"
 
 #: /views/nodes/admin_index.ctp:82;82
 msgid "Unpromote"
-msgstr "Niepromuj"
+msgstr "Nie promuj"
 
 #: /views/nodes/admin_links.ctp:24;24
 msgid "Sort by:"
@@ -2192,7 +2188,7 @@ msgstr "Nic nie znaleziono."
 
 #: /views/regions/admin_index.ctp:6;6
 msgid "New Region"
-msgstr "Nowy Region"
+msgstr "Nowy Obszar"
 
 #: /views/roles/admin_add.ctp:7;7
 #: /views/roles/admin_edit.ctp:8;8
@@ -2353,3 +2349,32 @@ msgstr ""
 msgid "Debug setting does not allow access to this url."
 msgstr ""
 
+msgid "You are not authorized to access that location."
+msgstr "Nie masz uprawnień do wybranej lokalizacji."
+
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+msgid "Password"
+msgstr "Hasło"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Tagline"
+msgstr "Fraza (Podtytuł)"
+
+msgid "Timezone"
+msgstr "Strefa czasowa"
+
+msgid "Categories"
+msgstr "Kategorie"
+
+msgid "Posted in"
+msgstr "Opublikowano w"
+
+msgid "Body"
+msgstr "Zawartość"
