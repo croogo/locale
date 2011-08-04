@@ -2378,3 +2378,9 @@ msgstr "Opublikowano w"
 
 msgid "Body"
 usgstr "Zawartość"
+
+msgid "Taxonomy"
+msgstr "Taksonomia"
+
+msgid "Create"
+msgstr "Utwórz nowy"
