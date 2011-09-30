@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2010-09-04 10:51+0100\n"
+"POT-Creation-Date: 2011-09-30 20:47+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -19,7 +19,7 @@ msgid "Site down for maintenance"
 msgstr ""
 
 #: /controllers/attachments_controller.php:82;82
-#: /views/elements/admin/navigation.ctp:82;82
+#: /views/elements/admin/navigation.ctp:76;76
 msgid "Attachments"
 msgstr ""
 
@@ -52,7 +52,7 @@ msgid "Attachment deleted"
 msgstr ""
 
 #: /controllers/blocks_controller.php:31;31
-#: /views/elements/admin/navigation.ctp:52;54;52;54
+#: /views/elements/admin/navigation.ctp:48;50;48;50
 msgid "Blocks"
 msgstr ""
 
@@ -61,32 +61,32 @@ msgstr ""
 msgid "Add Block"
 msgstr ""
 
-#: /controllers/blocks_controller.php:46;68;46;68
+#: /controllers/blocks_controller.php:46;72;46;72
 msgid "The Block has been saved"
 msgstr ""
 
-#: /controllers/blocks_controller.php:49;71;49;71
+#: /controllers/blocks_controller.php:53;77;53;77
 msgid "The Block could not be saved. Please, try again."
 msgstr ""
 
-#: /controllers/blocks_controller.php:58;58
+#: /controllers/blocks_controller.php:62;62
 #: /views/blocks/admin_edit.ctp:2;2
 msgid "Edit Block"
 msgstr ""
 
-#: /controllers/blocks_controller.php:61;61
+#: /controllers/blocks_controller.php:65;65
 msgid "Invalid Block"
 msgstr ""
 
-#: /controllers/blocks_controller.php:89;89
+#: /controllers/blocks_controller.php:95;95
 msgid "Invalid id for Block"
 msgstr ""
 
-#: /controllers/blocks_controller.php:97;97
+#: /controllers/blocks_controller.php:103;103
 msgid "Block deleted"
 msgstr ""
 
-#: /controllers/blocks_controller.php:104;104
+#: /controllers/blocks_controller.php:110;110
 #: /controllers/languages_controller.php:89;89
 #: /controllers/links_controller.php:188;188
 #: /controllers/settings_controller.php:135;135
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Moved up successfully"
 msgstr ""
 
-#: /controllers/blocks_controller.php:106;106
+#: /controllers/blocks_controller.php:112;112
 #: /controllers/languages_controller.php:91;91
 #: /controllers/links_controller.php:190;190
 #: /controllers/settings_controller.php:137;137
@@ -104,7 +104,7 @@ msgstr ""
 msgid "Could not move up"
 msgstr ""
 
-#: /controllers/blocks_controller.php:114;114
+#: /controllers/blocks_controller.php:120;120
 #: /controllers/languages_controller.php:99;99
 #: /controllers/links_controller.php:213;213
 #: /controllers/settings_controller.php:145;145
@@ -113,7 +113,7 @@ msgstr ""
 msgid "Moved down successfully"
 msgstr ""
 
-#: /controllers/blocks_controller.php:116;116
+#: /controllers/blocks_controller.php:122;122
 #: /controllers/languages_controller.php:101;101
 #: /controllers/links_controller.php:215;215
 #: /controllers/settings_controller.php:147;147
@@ -122,31 +122,31 @@ msgstr ""
 msgid "Could not move down"
 msgstr ""
 
-#: /controllers/blocks_controller.php:132;132
+#: /controllers/blocks_controller.php:138;138
 #: /controllers/comments_controller.php:122;122
 #: /controllers/links_controller.php:232;232
 #: /controllers/messages_controller.php:104;104
-#: /controllers/nodes_controller.php:306;306
+#: /controllers/nodes_controller.php:323;323
 msgid "No items selected."
 msgstr ""
 
-#: /controllers/blocks_controller.php:138;138
+#: /controllers/blocks_controller.php:144;144
 msgid "Blocks deleted."
 msgstr ""
 
-#: /controllers/blocks_controller.php:141;141
+#: /controllers/blocks_controller.php:147;147
 msgid "Blocks published"
 msgstr ""
 
-#: /controllers/blocks_controller.php:144;144
+#: /controllers/blocks_controller.php:150;150
 msgid "Blocks unpublished"
 msgstr ""
 
-#: /controllers/blocks_controller.php:146;146
+#: /controllers/blocks_controller.php:152;152
 #: /controllers/comments_controller.php:136;136
 #: /controllers/links_controller.php:261;261
 #: /controllers/messages_controller.php:118;118
-#: /controllers/nodes_controller.php:326;326
+#: /controllers/nodes_controller.php:343;343
 #: /controllers/users_controller.php:209;250;261;209;250;261
 #: /plugins/extensions/controllers/extensions_themes_controller.php:186;186
 msgid "An error occurred."
@@ -155,7 +155,7 @@ msgstr ""
 #: /controllers/comments_controller.php:49;143;49;143
 #: /views/elements/comments.ctp:7;7
 #: /views/elements/node_more_info.ctp:32;32
-#: /views/elements/admin/navigation.ctp:31;31
+#: /views/elements/admin/navigation.ctp:27;27
 #: /views/nodes/admin_add.ctp:10;10
 #: /views/nodes/admin_edit.ctp:11;11
 #: /views/types/admin_add.ctp:10;10
@@ -237,7 +237,7 @@ msgid "Invalid captcha entry"
 msgstr ""
 
 #: /controllers/contacts_controller.php:42;42
-#: /views/elements/admin/navigation.ctp:88;90;88;90
+#: /views/elements/admin/navigation.ctp:82;84;82;84
 msgid "Contacts"
 msgstr ""
 
@@ -278,63 +278,64 @@ msgid "Sorry, the message appears to be spam."
 msgstr ""
 
 #: /controllers/filemanager_controller.php:66;66
-#: /views/elements/admin/navigation.ctp:83;83
+#: /views/elements/admin/navigation.ctp:77;77
 msgid "File Manager"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:81;81
+#: /controllers/filemanager_controller.php:96;96
 msgid "Edit file: %s"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:92;92
+#: /controllers/filemanager_controller.php:107;107
 msgid "File saved successfully"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:102;102
-#: /plugins/extensions/views/extensions_locales/admin_add.ctp:15;15
+#: /controllers/filemanager_controller.php:117;117
+#: /plugins/extensions/views/extensions_locales/admin_add.ctp:15;21;15;21
 #: /plugins/extensions/views/extensions_locales/admin_index.ctp:6;6
-#: /plugins/extensions/views/extensions_plugins/admin_add.ctp:15;15
+#: /plugins/extensions/views/extensions_plugins/admin_add.ctp:15;21;15;21
 #: /plugins/extensions/views/extensions_plugins/admin_index.ctp:6;6
-#: /plugins/extensions/views/extensions_themes/admin_add.ctp:15;15
+#: /plugins/extensions/views/extensions_themes/admin_add.ctp:15;21;15;21
 #: /plugins/extensions/views/extensions_themes/admin_index.ctp:6;6
-#: /views/attachments/admin_add.ctp:12;12
+#: /views/attachments/admin_add.ctp:13;13
+#: /views/filemanager/admin_upload.ctp:31;31
 msgid "Upload"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:115;115
+#: /controllers/filemanager_controller.php:130;130
 msgid "File uploaded successfully."
 msgstr ""
 
-#: /controllers/filemanager_controller.php:135;135
+#: /controllers/filemanager_controller.php:150;150
 msgid "File deleted"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:137;164;210;232;137;164;210;232
+#: /controllers/filemanager_controller.php:152;179;225;247;152;179;225;247
 msgid "An error occured"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:162;162
+#: /controllers/filemanager_controller.php:177;177
 msgid "Directory deleted"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:195;195
+#: /controllers/filemanager_controller.php:210;210
 msgid "New Directory"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:206;206
+#: /controllers/filemanager_controller.php:221;221
 msgid "Directory created successfully."
 msgstr ""
 
-#: /controllers/filemanager_controller.php:218;218
+#: /controllers/filemanager_controller.php:233;233
 msgid "New File"
 msgstr ""
 
-#: /controllers/filemanager_controller.php:228;228
+#: /controllers/filemanager_controller.php:243;243
 msgid "File created successfully."
 msgstr ""
 
 #: /controllers/languages_controller.php:31;31
-#: /views/elements/admin/navigation.ctp:113;113
+#: /views/elements/admin/navigation.ctp:107;107
 msgid "Languages"
 msgstr ""
 
@@ -416,7 +417,7 @@ msgid "Links unpublished"
 msgstr ""
 
 #: /controllers/menus_controller.php:31;31
-#: /views/elements/admin/navigation.ctp:41;43;41;43
+#: /views/elements/admin/navigation.ctp:37;39;37;39
 msgid "Menus"
 msgstr ""
 
@@ -449,7 +450,7 @@ msgid "Menu deleted"
 msgstr ""
 
 #: /controllers/messages_controller.php:31;31
-#: /views/elements/admin/navigation.ctp:91;91
+#: /views/elements/admin/navigation.ctp:85;85
 msgid "Messages"
 msgstr ""
 
@@ -499,85 +500,84 @@ msgstr ""
 
 #: /controllers/nodes_controller.php:58;58
 #: /plugins/extensions/views/extensions_locales/admin_edit.ctp:16;16
-#: /views/elements/admin/navigation.ctp:8;8
+#: /views/elements/admin/navigation.ctp:4;4
 msgid "Content"
 msgstr ""
 
-#: /controllers/nodes_controller.php:89;89
-#: /views/elements/admin/navigation.ctp:12;12
+#: /controllers/nodes_controller.php:100;100
 #: /views/nodes/admin_index.ctp:9;9
 msgid "Create content"
 msgstr ""
 
-#: /controllers/nodes_controller.php:102;173;102;173
+#: /controllers/nodes_controller.php:113;188;113;188
 msgid "Content type does not exist."
 msgstr ""
 
-#: /controllers/nodes_controller.php:106;106
+#: /controllers/nodes_controller.php:117;117
 msgid "Create content: %s"
 msgstr ""
 
-#: /controllers/nodes_controller.php:141;207;141;207
+#: /controllers/nodes_controller.php:152;222;152;222
 msgid "%s has been saved"
 msgstr ""
 
-#: /controllers/nodes_controller.php:144;210;144;210
+#: /controllers/nodes_controller.php:159;227;159;227
 msgid "%s could not be saved. Please, try again."
 msgstr ""
 
-#: /controllers/nodes_controller.php:164;647;685;164;647;685
+#: /controllers/nodes_controller.php:179;664;702;179;664;702
 msgid "Invalid content"
 msgstr ""
 
-#: /controllers/nodes_controller.php:177;177
+#: /controllers/nodes_controller.php:192;192
 msgid "Edit content: %s"
 msgstr ""
 
-#: /controllers/nodes_controller.php:264;264
+#: /controllers/nodes_controller.php:281;281
 msgid "Paths updated."
 msgstr ""
 
-#: /controllers/nodes_controller.php:270;270
+#: /controllers/nodes_controller.php:287;287
 msgid "Invalid id for Node"
 msgstr ""
 
-#: /controllers/nodes_controller.php:278;278
+#: /controllers/nodes_controller.php:295;295
 msgid "Node deleted"
 msgstr ""
 
-#: /controllers/nodes_controller.php:312;312
+#: /controllers/nodes_controller.php:329;329
 msgid "Nodes deleted."
 msgstr ""
 
-#: /controllers/nodes_controller.php:315;315
+#: /controllers/nodes_controller.php:332;332
 msgid "Nodes published"
 msgstr ""
 
-#: /controllers/nodes_controller.php:318;318
+#: /controllers/nodes_controller.php:335;335
 msgid "Nodes unpublished"
 msgstr ""
 
-#: /controllers/nodes_controller.php:321;321
+#: /controllers/nodes_controller.php:338;338
 msgid "Nodes promoted"
 msgstr ""
 
-#: /controllers/nodes_controller.php:324;324
+#: /controllers/nodes_controller.php:341;341
 msgid "Nodes unpromoted"
 msgstr ""
 
-#: /controllers/nodes_controller.php:365;452;517;592;365;452;517;592
+#: /controllers/nodes_controller.php:382;469;534;609;382;469;534;609
 msgid "Invalid content type."
 msgstr ""
 
-#: /controllers/nodes_controller.php:415;415
+#: /controllers/nodes_controller.php:432;432
 msgid "Invalid Term."
 msgstr ""
 
-#: /controllers/nodes_controller.php:493;493
+#: /controllers/nodes_controller.php:510;510
 msgid "Nodes"
 msgstr ""
 
-#: /controllers/nodes_controller.php:602;602
+#: /controllers/nodes_controller.php:619;619
 msgid "Search Results: %s"
 msgstr ""
 
@@ -616,7 +616,7 @@ msgid "Region deleted"
 msgstr ""
 
 #: /controllers/roles_controller.php:31;31
-#: /views/elements/admin/navigation.ctp:99;99
+#: /views/elements/admin/navigation.ctp:93;93
 msgid "Roles"
 msgstr ""
 
@@ -649,12 +649,12 @@ msgid "Role deleted"
 msgstr ""
 
 #: /controllers/settings_controller.php:38;38
-#: /views/elements/admin/navigation.ctp:4;4
+#: /views/elements/admin/header.ctp:5;5
 msgid "Dashboard"
 msgstr ""
 
 #: /controllers/settings_controller.php:42;42
-#: /views/elements/admin/navigation.ctp:105;105
+#: /views/elements/admin/navigation.ctp:99;99
 #: /views/settings/admin_add.ctp:7;7
 #: /views/settings/admin_edit.ctp:7;7
 msgid "Settings"
@@ -788,7 +788,7 @@ msgid "You have reached maximum limit for failed login attempts. Please try agai
 msgstr ""
 
 #: /controllers/users_controller.php:69;162;69;162
-#: /views/elements/admin/navigation.ctp:96;98;96;98
+#: /views/elements/admin/navigation.ctp:90;92;90;92
 #: /views/users/admin_index.ctp:2;2
 msgid "Users"
 msgstr ""
@@ -917,45 +917,8 @@ msgstr ""
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
 msgstr ""
 
-#: /plugins/acl/controllers/acl_acos_controller.php:19;19
-#: /plugins/acl/views/acl_acos/admin_index.ctp:2;2
-msgid "Acos"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_acos_controller.php:26;26
-#: /plugins/acl/views/acl_acos/admin_add.ctp:2;2
-#: /plugins/acl/views/acl_acos/admin_edit.ctp:2;2
-msgid "Add Aco"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_acos_controller.php:31;48;31;48
-msgid "The Aco has been saved"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_acos_controller.php:34;51;34;51
-msgid "The Aco could not be saved. Please, try again."
-msgstr ""
-
-#: /plugins/acl/controllers/acl_acos_controller.php:40;40
-msgid "Edit Aco"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_acos_controller.php:43;43
-msgid "Invalid Aco"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_acos_controller.php:61;61
-msgid "Invalid id for Aco"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_acos_controller.php:69;69
-msgid "Aco deleted"
-msgstr ""
-
 #: /plugins/acl/controllers/acl_actions_controller.php:20;20
-#: /plugins/acl/views/acl_acos/admin_index.ctp:18;18
 #: /plugins/acl/views/acl_actions/admin_index.ctp:20;20
-#: /plugins/acl/views/acl_aros/admin_index.ctp:18;18
 #: /plugins/extensions/views/extensions_locales/admin_index.ctp:16;16
 #: /plugins/extensions/views/extensions_plugins/admin_index.ctp:18;18
 #: /plugins/translate/views/translate/admin_index.ctp:28;28
@@ -969,7 +932,7 @@ msgstr ""
 #: /views/links/admin_index.ctp:31;31
 #: /views/menus/admin_index.ctp:17;17
 #: /views/messages/admin_index.ctp:30;30
-#: /views/nodes/admin_index.ctp:36;36
+#: /views/nodes/admin_index.ctp:35;35
 #: /views/nodes/admin_translations.ctp:28;28
 #: /views/regions/admin_index.ctp:16;16
 #: /views/roles/admin_index.ctp:16;16
@@ -985,8 +948,12 @@ msgstr ""
 msgid "Add Action"
 msgstr ""
 
-#: /plugins/acl/controllers/acl_actions_controller.php:46;49;46;49
-msgid "The "
+#: /plugins/acl/controllers/acl_actions_controller.php:46;46
+msgid "The %s has been saved"
+msgstr ""
+
+#: /plugins/acl/controllers/acl_actions_controller.php:49;49
+msgid "The %s could not be saved. Please, try again."
 msgstr ""
 
 #: /plugins/acl/controllers/acl_actions_controller.php:72;72
@@ -1021,152 +988,9 @@ msgstr ""
 msgid "Action moved down"
 msgstr ""
 
-#: /plugins/acl/controllers/acl_aros_controller.php:19;19
-#: /plugins/acl/views/acl_aros/admin_index.ctp:2;2
-msgid "Aros"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_aros_controller.php:26;26
-#: /plugins/acl/views/acl_aros/admin_add.ctp:2;2
-#: /plugins/acl/views/acl_aros/admin_edit.ctp:2;2
-msgid "Add Aro"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_aros_controller.php:31;48;31;48
-msgid "The Aro has been saved"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_aros_controller.php:34;51;34;51
-msgid "The Aro could not be saved. Please, try again."
-msgstr ""
-
-#: /plugins/acl/controllers/acl_aros_controller.php:40;40
-msgid "Edit Aro"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_aros_controller.php:43;43
-msgid "Invalid Aro"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_aros_controller.php:61;61
-msgid "Invalid id for Aro"
-msgstr ""
-
-#: /plugins/acl/controllers/acl_aros_controller.php:69;69
-msgid "Aro deleted"
-msgstr ""
-
 #: /plugins/acl/controllers/acl_permissions_controller.php:36;36
-#: /views/elements/admin/navigation.ctp:100;100
+#: /views/elements/admin/navigation.ctp:94;94
 msgid "Permissions"
-msgstr ""
-
-#: /plugins/acl/views/acl_acos/admin_index.ctp:6;6
-msgid "New Aco"
-msgstr ""
-
-#: /plugins/acl/views/acl_acos/admin_index.ctp:24;24
-#: /plugins/acl/views/acl_actions/admin_index.ctp:41;41
-#: /plugins/acl/views/acl_aros/admin_index.ctp:24;24
-#: /plugins/extensions/views/extensions_locales/admin_index.ctp:28;28
-#: /plugins/translate/views/translate/admin_index.ctp:34;34
-#: /views/attachments/admin_browse.ctp:24;24
-#: /views/attachments/admin_index.ctp:23;23
-#: /views/blocks/admin_index.ctp:28;28
-#: /views/comments/admin_index.ctp:37;37
-#: /views/contacts/admin_index.ctp:25;25
-#: /views/filemanager/admin_browse.ctp:55;55
-#: /views/languages/admin_index.ctp:26;26
-#: /views/links/admin_index.ctp:39;39
-#: /views/menus/admin_index.ctp:24;24
-#: /views/messages/admin_index.ctp:36;36
-#: /views/nodes/admin_index.ctp:42;42
-#: /views/nodes/admin_translations.ctp:34;34
-#: /views/regions/admin_index.ctp:22;22
-#: /views/roles/admin_index.ctp:22;22
-#: /views/settings/admin_index.ctp:25;25
-#: /views/terms/admin_index.ctp:48;48
-#: /views/types/admin_index.ctp:23;23
-#: /views/users/admin_index.ctp:24;24
-#: /views/vocabularies/admin_index.ctp:23;23
-msgid "Edit"
-msgstr ""
-
-#: /plugins/acl/views/acl_acos/admin_index.ctp:25;25
-#: /plugins/acl/views/acl_actions/admin_index.ctp:42;42
-#: /plugins/acl/views/acl_aros/admin_index.ctp:25;25
-#: /plugins/extensions/views/extensions_locales/admin_index.ctp:29;29
-#: /plugins/extensions/views/extensions_plugins/admin_index.ctp:43;43
-#: /plugins/extensions/views/extensions_themes/admin_index.ctp:63;63
-#: /plugins/translate/views/translate/admin_index.ctp:40;40
-#: /views/attachments/admin_browse.ctp:29;29
-#: /views/attachments/admin_index.ctp:29;29
-#: /views/blocks/admin_index.ctp:30;59;30;59
-#: /views/comments/admin_index.ctp:39;75;39;75
-#: /views/contacts/admin_index.ctp:27;27
-#: /views/filemanager/admin_browse.ctp:38;57;38;57
-#: /views/languages/admin_index.ctp:28;28
-#: /views/links/admin_index.ctp:41;68;41;68
-#: /views/menus/admin_index.ctp:26;26
-#: /views/messages/admin_index.ctp:38;67;38;67
-#: /views/nodes/admin_index.ctp:44;44
-#: /views/nodes/admin_translations.ctp:35;35
-#: /views/regions/admin_index.ctp:24;24
-#: /views/roles/admin_index.ctp:24;24
-#: /views/settings/admin_index.ctp:27;27
-#: /views/terms/admin_index.ctp:54;54
-#: /views/types/admin_index.ctp:25;25
-#: /views/users/admin_index.ctp:26;26
-#: /views/vocabularies/admin_index.ctp:27;27
-msgid "Delete"
-msgstr ""
-
-#: /plugins/acl/views/acl_acos/admin_index.ctp:29;29
-#: /plugins/acl/views/acl_actions/admin_index.ctp:46;46
-#: /plugins/acl/views/acl_aros/admin_index.ctp:29;29
-#: /plugins/extensions/views/extensions_locales/admin_index.ctp:33;33
-#: /plugins/extensions/views/extensions_plugins/admin_index.ctp:47;47
-#: /plugins/extensions/views/extensions_themes/admin_index.ctp:67;67
-#: /plugins/translate/views/translate/admin_index.ctp:46;46
-#: /views/attachments/admin_browse.ctp:34;34
-#: /views/attachments/admin_index.ctp:34;34
-#: /views/blocks/admin_index.ctp:35;35
-#: /views/comments/admin_index.ctp:43;43
-#: /views/contacts/admin_index.ctp:31;31
-#: /views/languages/admin_index.ctp:32;32
-#: /views/links/admin_index.ctp:46;46
-#: /views/menus/admin_index.ctp:31;31
-#: /views/messages/admin_index.ctp:42;42
-#: /views/nodes/admin_index.ctp:48;48
-#: /views/nodes/admin_translations.ctp:35;35
-#: /views/regions/admin_index.ctp:29;29
-#: /views/roles/admin_index.ctp:29;29
-#: /views/settings/admin_index.ctp:32;32
-#: /views/terms/admin_index.ctp:59;59
-#: /views/types/admin_index.ctp:30;30
-#: /views/users/admin_index.ctp:31;31
-#: /views/vocabularies/admin_index.ctp:32;32
-msgid "Are you sure?"
-msgstr ""
-
-#: /plugins/acl/views/acl_acos/admin_index.ctp:48;48
-#: /plugins/acl/views/acl_aros/admin_index.ctp:48;48
-#: /views/attachments/admin_browse.ctp:70;70
-#: /views/attachments/admin_index.ctp:60;60
-#: /views/blocks/admin_index.ctp:69;69
-#: /views/comments/admin_index.ctp:85;85
-#: /views/contacts/admin_index.ctp:54;54
-#: /views/languages/admin_index.ctp:51;51
-#: /views/menus/admin_index.ctp:49;49
-#: /views/messages/admin_index.ctp:77;77
-#: /views/nodes/admin_index.ctp:93;93
-#: /views/regions/admin_index.ctp:46;46
-#: /views/roles/admin_index.ctp:46;46
-#: /views/settings/admin_index.ctp:59;59
-#: /views/types/admin_index.ctp:48;48
-#: /views/users/admin_index.ctp:50;50
-#: /views/vocabularies/admin_index.ctp:49;49
-msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
 msgstr ""
 
 #: /plugins/acl/views/acl_actions/admin_add.ctp:9;9
@@ -1197,6 +1021,84 @@ msgstr ""
 msgid "Alias"
 msgstr ""
 
+#: /plugins/acl/views/acl_actions/admin_index.ctp:41;41
+#: /plugins/extensions/views/extensions_locales/admin_index.ctp:28;28
+#: /plugins/translate/views/translate/admin_index.ctp:34;34
+#: /views/attachments/admin_browse.ctp:24;24
+#: /views/attachments/admin_index.ctp:23;23
+#: /views/blocks/admin_index.ctp:28;28
+#: /views/comments/admin_index.ctp:37;37
+#: /views/contacts/admin_index.ctp:25;25
+#: /views/filemanager/admin_browse.ctp:55;55
+#: /views/languages/admin_index.ctp:26;26
+#: /views/links/admin_index.ctp:39;39
+#: /views/menus/admin_index.ctp:24;24
+#: /views/messages/admin_index.ctp:36;36
+#: /views/nodes/admin_index.ctp:41;41
+#: /views/nodes/admin_translations.ctp:34;34
+#: /views/regions/admin_index.ctp:22;22
+#: /views/roles/admin_index.ctp:22;22
+#: /views/settings/admin_index.ctp:25;25
+#: /views/terms/admin_index.ctp:48;48
+#: /views/types/admin_index.ctp:23;23
+#: /views/users/admin_index.ctp:24;24
+#: /views/vocabularies/admin_index.ctp:23;23
+msgid "Edit"
+msgstr ""
+
+#: /plugins/acl/views/acl_actions/admin_index.ctp:42;42
+#: /plugins/extensions/views/extensions_locales/admin_index.ctp:29;29
+#: /plugins/extensions/views/extensions_plugins/admin_index.ctp:43;43
+#: /plugins/extensions/views/extensions_themes/admin_index.ctp:63;63
+#: /plugins/translate/views/translate/admin_index.ctp:40;40
+#: /views/attachments/admin_browse.ctp:29;29
+#: /views/attachments/admin_index.ctp:29;29
+#: /views/blocks/admin_index.ctp:30;59;30;59
+#: /views/comments/admin_index.ctp:39;75;39;75
+#: /views/contacts/admin_index.ctp:27;27
+#: /views/filemanager/admin_browse.ctp:38;57;38;57
+#: /views/languages/admin_index.ctp:28;28
+#: /views/links/admin_index.ctp:41;68;41;68
+#: /views/menus/admin_index.ctp:26;26
+#: /views/messages/admin_index.ctp:38;67;38;67
+#: /views/nodes/admin_index.ctp:43;43
+#: /views/nodes/admin_translations.ctp:35;35
+#: /views/regions/admin_index.ctp:24;24
+#: /views/roles/admin_index.ctp:24;24
+#: /views/settings/admin_index.ctp:27;27
+#: /views/terms/admin_index.ctp:54;54
+#: /views/types/admin_index.ctp:25;25
+#: /views/users/admin_index.ctp:26;26
+#: /views/vocabularies/admin_index.ctp:27;27
+msgid "Delete"
+msgstr ""
+
+#: /plugins/acl/views/acl_actions/admin_index.ctp:46;46
+#: /plugins/extensions/views/extensions_locales/admin_index.ctp:33;33
+#: /plugins/extensions/views/extensions_plugins/admin_index.ctp:47;47
+#: /plugins/extensions/views/extensions_themes/admin_index.ctp:67;67
+#: /plugins/translate/views/translate/admin_index.ctp:46;46
+#: /views/attachments/admin_browse.ctp:34;34
+#: /views/attachments/admin_index.ctp:34;34
+#: /views/blocks/admin_index.ctp:35;35
+#: /views/comments/admin_index.ctp:43;43
+#: /views/contacts/admin_index.ctp:31;31
+#: /views/languages/admin_index.ctp:32;32
+#: /views/links/admin_index.ctp:46;46
+#: /views/menus/admin_index.ctp:31;31
+#: /views/messages/admin_index.ctp:42;42
+#: /views/nodes/admin_index.ctp:47;47
+#: /views/nodes/admin_translations.ctp:35;35
+#: /views/regions/admin_index.ctp:29;29
+#: /views/roles/admin_index.ctp:29;29
+#: /views/settings/admin_index.ctp:32;32
+#: /views/terms/admin_index.ctp:59;59
+#: /views/types/admin_index.ctp:30;30
+#: /views/users/admin_index.ctp:31;31
+#: /views/vocabularies/admin_index.ctp:32;32
+msgid "Are you sure?"
+msgstr ""
+
 #: /plugins/acl/views/acl_actions/admin_index.ctp:47;47
 #: /views/blocks/admin_index.ctp:26;26
 #: /views/languages/admin_index.ctp:24;24
@@ -1215,10 +1117,6 @@ msgstr ""
 #: /views/terms/admin_index.ctp:43;43
 #: /views/vocabularies/admin_index.ctp:25;25
 msgid "Move down"
-msgstr ""
-
-#: /plugins/acl/views/acl_aros/admin_index.ctp:6;6
-msgid "New Aro"
 msgstr ""
 
 #: /plugins/acl/views/acl_permissions/admin_index.ctp:10;10
@@ -1248,12 +1146,16 @@ msgid "content here"
 msgstr ""
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:37;37
-#: /views/elements/admin/navigation.ctp:63;63
+#: /views/elements/admin/navigation.ctp:59;59
 msgid "Locales"
 msgstr ""
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:53;53
 msgid "Locale does not exist."
+msgstr ""
+
+#: /plugins/extensions/controllers/extensions_locales_controller.php:68;68
+msgid "Locale '%s' set as default"
 msgstr ""
 
 #: /plugins/extensions/controllers/extensions_locales_controller.php:70;70
@@ -1298,7 +1200,7 @@ msgid "Local could not be deleted."
 msgstr ""
 
 #: /plugins/extensions/controllers/extensions_plugins_controller.php:51;51
-#: /views/elements/admin/navigation.ctp:64;64
+#: /views/elements/admin/navigation.ctp:60;60
 msgid "Plugins"
 msgstr ""
 
@@ -1306,48 +1208,48 @@ msgstr ""
 msgid "Upload a new plugin"
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:92;92
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:98;98
 msgid "Invalid plugin."
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:102;102
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:105;105
 msgid "Plugin already exists."
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:144;168;144;168
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:149;173;149;173
 msgid "Invalid plugin"
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:152;152
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:157;157
 msgid "You cannot delete a plugin that is currently active."
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:158;158
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:163;163
 msgid "Plugin deleted successfully."
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:160;160
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:165;165
 msgid "Plugin could not be deleted."
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:187;187
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:192;192
 msgid "Plugin deactivated successfully."
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:189;189
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:194;194
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:198;198
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:203;203
 msgid "Plugin activated successfully."
 msgstr ""
 
-#: /plugins/extensions/controllers/extensions_plugins_controller.php:200;200
+#: /plugins/extensions/controllers/extensions_plugins_controller.php:205;205
 msgid "Plugin could not be activated. Please, try again."
 msgstr ""
 
 #: /plugins/extensions/controllers/extensions_themes_controller.php:37;37
-#: /views/elements/admin/navigation.ctp:62;62
+#: /views/elements/admin/navigation.ctp:58;58
 msgid "Themes"
 msgstr ""
 
@@ -1393,6 +1295,85 @@ msgstr ""
 
 #: /plugins/extensions/controllers/extensions_themes_controller.php:188;188
 msgid "Theme deleted successfully."
+msgstr ""
+
+#: /plugins/extensions/views/extensions_locales/admin_add.ctp:22;22
+#: /plugins/extensions/views/extensions_locales/admin_edit.ctp:27;27
+#: /plugins/extensions/views/extensions_plugins/admin_add.ctp:22;22
+#: /plugins/extensions/views/extensions_themes/admin_add.ctp:22;22
+#: /views/attachments/admin_add.ctp:20;20
+#: /views/attachments/admin_edit.ctp:45;45
+#: /views/blocks/admin_add.ctp:57;57
+#: /views/blocks/admin_edit.ctp:60;60
+#: /views/comments/admin_edit.ctp:37;37
+#: /views/contacts/admin_add.ctp:72;72
+#: /views/contacts/admin_edit.ctp:73;73
+#: /views/filemanager/admin_create_directory.ctp:29;29
+#: /views/filemanager/admin_create_file.ctp:30;30
+#: /views/filemanager/admin_editfile.ctp:30;30
+#: /views/filemanager/admin_upload.ctp:32;32
+#: /views/languages/admin_add.ctp:26;26
+#: /views/languages/admin_edit.ctp:27;27
+#: /views/links/admin_add.ctp:58;58
+#: /views/links/admin_edit.ctp:58;58
+#: /views/menus/admin_add.ctp:33;33
+#: /views/menus/admin_edit.ctp:34;34
+#: /views/messages/admin_edit.ctp:20;20
+#: /views/nodes/admin_add.ctp:110;110
+#: /views/nodes/admin_edit.ctp:107;107
+#: /views/regions/admin_add.ctp:24;24
+#: /views/regions/admin_edit.ctp:25;25
+#: /views/roles/admin_add.ctp:24;24
+#: /views/roles/admin_edit.ctp:26;26
+#: /views/settings/admin_add.ctp:35;35
+#: /views/settings/admin_edit.ctp:35;35
+#: /views/terms/admin_add.ctp:41;41
+#: /views/terms/admin_edit.ctp:34;34
+#: /views/types/admin_add.ctp:87;87
+#: /views/types/admin_edit.ctp:88;88
+#: /views/users/admin_add.ctp:29;29
+#: /views/users/admin_edit.ctp:36;36
+#: /views/users/admin_reset_password.ctp:16;16
+#: /views/vocabularies/admin_add.ctp:38;38
+#: /views/vocabularies/admin_edit.ctp:37;37
+msgid "Cancel"
+msgstr ""
+
+#: /plugins/extensions/views/extensions_locales/admin_edit.ctp:26;26
+#: /plugins/translate/views/translate/admin_edit.ctp:31;31
+#: /views/attachments/admin_add.ctp:19;19
+#: /views/attachments/admin_edit.ctp:44;44
+#: /views/blocks/admin_add.ctp:56;56
+#: /views/blocks/admin_edit.ctp:59;59
+#: /views/comments/admin_edit.ctp:36;36
+#: /views/contacts/admin_add.ctp:71;71
+#: /views/contacts/admin_edit.ctp:72;72
+#: /views/filemanager/admin_editfile.ctp:29;29
+#: /views/languages/admin_add.ctp:25;25
+#: /views/languages/admin_edit.ctp:26;26
+#: /views/links/admin_add.ctp:57;57
+#: /views/links/admin_edit.ctp:57;57
+#: /views/menus/admin_add.ctp:32;32
+#: /views/menus/admin_edit.ctp:33;33
+#: /views/messages/admin_edit.ctp:19;19
+#: /views/nodes/admin_add.ctp:109;109
+#: /views/nodes/admin_edit.ctp:106;106
+#: /views/regions/admin_add.ctp:23;23
+#: /views/regions/admin_edit.ctp:24;24
+#: /views/roles/admin_add.ctp:23;23
+#: /views/roles/admin_edit.ctp:25;25
+#: /views/settings/admin_add.ctp:34;34
+#: /views/settings/admin_edit.ctp:34;34
+#: /views/settings/admin_prefix.ctp:65;65
+#: /views/terms/admin_add.ctp:40;40
+#: /views/terms/admin_edit.ctp:33;33
+#: /views/types/admin_add.ctp:86;86
+#: /views/types/admin_edit.ctp:87;87
+#: /views/users/admin_add.ctp:28;28
+#: /views/users/admin_edit.ctp:35;35
+#: /views/vocabularies/admin_add.ctp:37;37
+#: /views/vocabularies/admin_edit.ctp:36;36
+msgid "Save"
 msgstr ""
 
 #: /plugins/extensions/views/extensions_locales/admin_index.ctp:14;14
@@ -1459,27 +1440,27 @@ msgstr ""
 msgid "Step 1: Database"
 msgstr ""
 
-#: /plugins/install/controllers/install_controller.php:124;165;124;165
+#: /plugins/install/controllers/install_controller.php:124;160;124;160
 msgid "Could not connect to database."
 msgstr ""
 
-#: /plugins/install/controllers/install_controller.php:145;145
+#: /plugins/install/controllers/install_controller.php:140;140
 msgid "Could not write database.php file."
 msgstr ""
 
-#: /plugins/install/controllers/install_controller.php:157;157
+#: /plugins/install/controllers/install_controller.php:152;152
 msgid "Step 2: Build database"
 msgstr ""
 
-#: /plugins/install/controllers/install_controller.php:210;210
+#: /plugins/install/controllers/install_controller.php:205;205
 msgid "Installation completed successfully"
 msgstr ""
 
-#: /plugins/install/controllers/install_controller.php:215;215
+#: /plugins/install/controllers/install_controller.php:210;210
 msgid "Installation files deleted successfully."
 msgstr ""
 
-#: /plugins/install/controllers/install_controller.php:218;218
+#: /plugins/install/controllers/install_controller.php:213;213
 msgid "Could not delete installation files."
 msgstr ""
 
@@ -1570,7 +1551,7 @@ msgstr ""
 msgid "Translation for the locale could not be deleted."
 msgstr ""
 
-#: /plugins/translate/views/translate/admin_edit.ctp:15;15
+#: /plugins/translate/views/translate/admin_edit.ctp:16;16
 msgid "Record"
 msgstr ""
 
@@ -1609,23 +1590,41 @@ msgstr ""
 msgid "Insert"
 msgstr ""
 
-#: /views/attachments/admin_edit.ctp:9;9
+#: /views/attachments/admin_browse.ctp:70;70
+#: /views/attachments/admin_index.ctp:60;60
+#: /views/blocks/admin_index.ctp:69;69
+#: /views/comments/admin_index.ctp:85;85
+#: /views/contacts/admin_index.ctp:54;54
+#: /views/languages/admin_index.ctp:51;51
+#: /views/menus/admin_index.ctp:49;49
+#: /views/messages/admin_index.ctp:77;77
+#: /views/nodes/admin_index.ctp:92;92
+#: /views/regions/admin_index.ctp:46;46
+#: /views/roles/admin_index.ctp:46;46
+#: /views/settings/admin_index.ctp:59;59
+#: /views/types/admin_index.ctp:48;48
+#: /views/users/admin_index.ctp:50;50
+#: /views/vocabularies/admin_index.ctp:49;49
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: /views/attachments/admin_edit.ctp:8;8
 msgid "Attachment"
 msgstr ""
 
-#: /views/attachments/admin_edit.ctp:10;10
+#: /views/attachments/admin_edit.ctp:9;9
 msgid "Info"
 msgstr ""
 
-#: /views/attachments/admin_edit.ctp:29;29
+#: /views/attachments/admin_edit.ctp:28;28
 msgid "Caption"
 msgstr ""
 
-#: /views/attachments/admin_edit.ctp:36;36
+#: /views/attachments/admin_edit.ctp:35;35
 msgid "File URL"
 msgstr ""
 
-#: /views/attachments/admin_edit.ctp:37;37
+#: /views/attachments/admin_edit.ctp:36;36
 msgid "Mime Type"
 msgstr ""
 
@@ -1636,8 +1635,8 @@ msgstr ""
 
 #: /views/blocks/admin_add.ctp:8;8
 #: /views/blocks/admin_edit.ctp:8;8
-#: /views/links/admin_add.ctp:8;8
-#: /views/links/admin_edit.ctp:8;8
+#: /views/links/admin_add.ctp:9;9
+#: /views/links/admin_edit.ctp:9;9
 #: /views/nodes/admin_add.ctp:12;12
 #: /views/nodes/admin_edit.ctp:13;13
 msgid "Access"
@@ -1648,19 +1647,34 @@ msgstr ""
 msgid "Visibilities"
 msgstr ""
 
-#: /views/blocks/admin_add.ctp:17;17
-#: /views/blocks/admin_edit.ctp:18;18
-msgid "unique name for your block"
+#: /views/blocks/admin_add.ctp:10;10
+#: /views/blocks/admin_edit.ctp:10;10
+#: /views/settings/admin_view.ctp:34;34
+#: /views/types/admin_add.ctp:11;11
+#: /views/types/admin_edit.ctp:12;12
+msgid "Params"
 msgstr ""
 
 #: /views/blocks/admin_add.ctp:18;18
 #: /views/blocks/admin_edit.ctp:19;19
+msgid "unique name for your block"
+msgstr ""
+
+#: /views/blocks/admin_add.ctp:19;19
+#: /views/blocks/admin_edit.ctp:20;20
 msgid "if you are not sure, choose 'none'"
 msgstr ""
 
-#: /views/blocks/admin_add.ctp:36;36
-#: /views/blocks/admin_edit.ctp:37;37
+#: /views/blocks/admin_add.ctp:37;37
+#: /views/blocks/admin_edit.ctp:38;38
 msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
+msgstr ""
+
+#: /views/blocks/admin_add.ctp:55;55
+#: /views/blocks/admin_edit.ctp:58;58
+#: /views/nodes/admin_add.ctp:108;108
+#: /views/nodes/admin_edit.ctp:105;105
+msgid "Apply"
 msgstr ""
 
 #: /views/blocks/admin_index.ctp:6;6
@@ -1670,14 +1684,14 @@ msgstr ""
 #: /views/blocks/admin_index.ctp:57;57
 #: /views/comments/admin_index.ctp:73;73
 #: /views/links/admin_index.ctp:66;66
-#: /views/nodes/admin_index.ctp:79;79
+#: /views/nodes/admin_index.ctp:78;78
 msgid "Publish"
 msgstr ""
 
 #: /views/blocks/admin_index.ctp:58;58
 #: /views/comments/admin_index.ctp:74;74
 #: /views/links/admin_index.ctp:67;67
-#: /views/nodes/admin_index.ctp:80;80
+#: /views/nodes/admin_index.ctp:79;79
 msgid "Unpublish"
 msgstr ""
 
@@ -1685,14 +1699,14 @@ msgstr ""
 #: /views/comments/admin_index.ctp:79;79
 #: /views/links/admin_index.ctp:72;72
 #: /views/messages/admin_index.ctp:71;71
-#: /views/nodes/admin_index.ctp:87;87
+#: /views/nodes/admin_index.ctp:86;86
 msgid "Submit"
 msgstr ""
 
 #: /views/comments/admin_edit.ctp:8;8
 #: /views/elements/comments.ctp:5;5
 #: /views/elements/node_more_info.ctp:30;30
-#: /views/elements/admin/navigation.ctp:111;111
+#: /views/elements/admin/navigation.ctp:105;105
 msgid "Comment"
 msgstr ""
 
@@ -1702,15 +1716,15 @@ msgstr ""
 
 #: /views/comments/admin_edit.ctp:18;18
 #: /views/comments/admin_index.ctp:14;14
-#: /views/elements/admin/navigation.ctp:33;33
-#: /views/elements/admin/nodes_filter.ctp:24;24
+#: /views/elements/admin/navigation.ctp:29;29
+#: /views/elements/admin/nodes_filter.ctp:26;26
 #: /views/nodes/admin_add.ctp:85;85
 #: /views/nodes/admin_edit.ctp:86;86
 msgid "Published"
 msgstr ""
 
 #: /views/comments/admin_index.ctp:15;15
-#: /views/elements/admin/navigation.ctp:34;34
+#: /views/elements/admin/navigation.ctp:30;30
 msgid "Approval"
 msgstr ""
 
@@ -1833,94 +1847,96 @@ msgid "Leave a comment"
 msgstr ""
 
 #: /views/elements/search.ctp:24;24
+#: /views/elements/admin/nodes_filter.ctp:51;51
 msgid "Search"
 msgstr ""
 
-#: /views/elements/admin/logo.ctp:2;2
-msgid "Admin Panel"
-msgstr ""
-
-#: /views/elements/admin/logo.ctp:4;4
+#: /views/elements/admin/header.ctp:7;7
 msgid "Visit website"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:10;23;10;23
+#: /views/elements/admin/header.ctp:13;13
+msgid "You are logged in as: %s"
+msgstr ""
+
+#: /views/elements/admin/header.ctp:15;15
+msgid "Log out"
+msgstr ""
+
+#: /views/elements/admin/navigation.ctp:6;19;6;19
 msgid "List"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:19;19
+#: /views/elements/admin/navigation.ctp:8;8
+#: /views/filemanager/admin_create_directory.ctp:28;28
+#: /views/filemanager/admin_create_file.ctp:29;29
+msgid "Create"
+msgstr ""
+
+#: /views/elements/admin/navigation.ctp:15;15
 msgid "Content types"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:21;21
+#: /views/elements/admin/navigation.ctp:17;17
 #: /views/types/admin_add.ctp:8;8
 #: /views/types/admin_edit.ctp:9;9
 msgid "Taxonomy"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:24;44;24;44
+#: /views/elements/admin/navigation.ctp:20;40;20;40
 msgid "Add new"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:55;55
+#: /views/elements/admin/navigation.ctp:51;51
 msgid "Regions"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:60;60
+#: /views/elements/admin/navigation.ctp:56;56
 msgid "Extensions"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:80;80
+#: /views/elements/admin/navigation.ctp:74;74
 msgid "Media"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:107;107
+#: /views/elements/admin/navigation.ctp:101;101
 msgid "Site"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:108;108
+#: /views/elements/admin/navigation.ctp:102;102
 msgid "Meta"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:109;109
+#: /views/elements/admin/navigation.ctp:103;103
 msgid "Reading"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:110;110
+#: /views/elements/admin/navigation.ctp:104;104
 msgid "Writing"
 msgstr ""
 
-#: /views/elements/admin/navigation.ctp:112;112
+#: /views/elements/admin/navigation.ctp:106;106
 msgid "Service"
 msgstr ""
 
-#: /views/elements/admin/nodes_filter.ctp:25;25
+#: /views/elements/admin/nodes_filter.ctp:27;27
 msgid "Unpublished"
 msgstr ""
 
-#: /views/elements/admin/nodes_filter.ctp:35;35
+#: /views/elements/admin/nodes_filter.ctp:37;37
 msgid "Promoted"
 msgstr ""
 
-#: /views/elements/admin/nodes_filter.ctp:37;37
+#: /views/elements/admin/nodes_filter.ctp:39;39
 msgid "Yes"
 msgstr ""
 
-#: /views/elements/admin/nodes_filter.ctp:38;38
+#: /views/elements/admin/nodes_filter.ctp:40;40
 msgid "No"
 msgstr ""
 
-#: /views/elements/admin/nodes_filter.ctp:43;43
-#: /views/nodes/admin_index.ctp:10;10
+#: /views/elements/admin/nodes_filter.ctp:54;54
 msgid "Filter"
-msgstr ""
-
-#: /views/elements/admin/quick.ctp:4;4
-msgid "You are logged in as "
-msgstr ""
-
-#: /views/elements/admin/quick.ctp:5;5
-msgid "Log Out"
 msgstr ""
 
 #: /views/elements/email/text/comment.ctp:2;2
@@ -2029,17 +2045,17 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#: /views/helpers/layout.php:609;609
+#: /views/helpers/layout.php:622;622
 #: /views/settings/admin_view.ctp:9;9
 msgid "Key"
 msgstr ""
 
-#: /views/helpers/layout.php:613;613
+#: /views/helpers/layout.php:626;626
 #: /views/settings/admin_view.ctp:14;14
 msgid "Value"
 msgstr ""
 
-#: /views/helpers/layout.php:628;628
+#: /views/helpers/layout.php:641;641
 msgid "Remove"
 msgstr ""
 
@@ -2061,13 +2077,13 @@ msgstr ""
 msgid "Site down for maintenance."
 msgstr ""
 
-#: /views/links/admin_add.ctp:7;7
-#: /views/links/admin_edit.ctp:7;7
+#: /views/links/admin_add.ctp:8;8
+#: /views/links/admin_edit.ctp:8;8
 msgid "Link"
 msgstr ""
 
-#: /views/links/admin_add.ctp:9;9
-#: /views/links/admin_edit.ctp:9;9
+#: /views/links/admin_add.ctp:10;10
+#: /views/links/admin_edit.ctp:10;10
 #: /views/menus/admin_add.ctp:8;8
 #: /views/menus/admin_edit.ctp:8;8
 #: /views/settings/admin_add.ctp:8;8
@@ -2075,13 +2091,13 @@ msgstr ""
 msgid "Misc."
 msgstr ""
 
-#: /views/links/admin_add.ctp:17;17
-#: /views/links/admin_edit.ctp:18;18
+#: /views/links/admin_add.ctp:18;18
+#: /views/links/admin_edit.ctp:19;19
 msgid "Parent"
 msgstr ""
 
-#: /views/links/admin_add.ctp:23;23
-#: /views/links/admin_edit.ctp:24;24
+#: /views/links/admin_add.ctp:24;24
+#: /views/links/admin_edit.ctp:25;25
 msgid "Link to a Node"
 msgstr ""
 
@@ -2168,11 +2184,11 @@ msgstr ""
 msgid "Promoted to front page"
 msgstr ""
 
-#: /views/nodes/admin_index.ctp:81;81
+#: /views/nodes/admin_index.ctp:80;80
 msgid "Promote"
 msgstr ""
 
-#: /views/nodes/admin_index.ctp:82;82
+#: /views/nodes/admin_index.ctp:81;81
 msgid "Unpromote"
 msgstr ""
 
@@ -2184,6 +2200,8 @@ msgstr ""
 #: /views/nodes/promoted.ctp:4;4
 #: /views/nodes/search.ctp:6;6
 #: /views/nodes/term.ctp:6;6
+#: /views/themed/pokus/nodes/promoted.ctp:4;4
+#: /views/themed/pokus/nodes/term.ctp:6;6
 msgid "No items found."
 msgstr ""
 
@@ -2226,12 +2244,6 @@ msgstr ""
 
 #: /views/settings/admin_view.ctp:29;29
 msgid "Weight"
-msgstr ""
-
-#: /views/settings/admin_view.ctp:34;34
-#: /views/types/admin_add.ctp:11;11
-#: /views/types/admin_edit.ctp:12;12
-msgid "Params"
 msgstr ""
 
 #: /views/settings/admin_view.ctp:44;44
@@ -2314,6 +2326,10 @@ msgstr ""
 
 #: /views/users/admin_reset_password.ctp:9;9
 msgid "New Password"
+msgstr ""
+
+#: /views/users/admin_reset_password.ctp:15;15
+msgid "Reset"
 msgstr ""
 
 #: /views/users/index.ctp:4;4
