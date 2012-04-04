@@ -1,0 +1,2006 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: croogo dutch\n"
+"POT-Creation-Date: 2009-11-10 04:17+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ceeram <c33ram@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Language-Team: \n"
+
+#: \app_controller.php:55
+msgid "Site down for maintenance"
+msgstr "Website is offline in verband met onderhoud"
+
+#: \controllers\attachments_controller.php:70
+#: \views\elements\admin\navigation.ctp:30
+msgid "Attachments"
+msgstr "Bijlagen"
+
+#: \controllers\attachments_controller.php:78
+msgid "Add Attachment"
+msgstr "Bijlage toevoegen"
+
+#: \controllers\attachments_controller.php:116;138
+msgid "The Attachment has been saved"
+msgstr "De bijlage is opgelsagen"
+
+#: \controllers\attachments_controller.php:124;141
+msgid "The Attachment could not be saved. Please, try again."
+msgstr "De bijlage kon niet worden opgeslagen, probeer nogmaals"
+
+#: \controllers\attachments_controller.php:130
+msgid "Edit Attachment"
+msgstr "Bijlage bewerken"
+
+#: \controllers\attachments_controller.php:133
+msgid "Invalid Attachment"
+msgstr "Ongeldige bijlage"
+
+#: \controllers\attachments_controller.php:151;166
+msgid "Invalid id for Attachment"
+msgstr "Ongeldig id voor bijlage"
+
+#: \controllers\attachments_controller.php:162
+msgid "Attachment deleted"
+msgstr "Bijlage verwijderd"
+
+#: \controllers\blocks_controller.php:31
+#: \views\elements\admin\navigation.ctp:21;23
+msgid "Blocks"
+msgstr "Blokken"
+
+#: \controllers\blocks_controller.php:39
+#: \views\blocks\admin_add.ctp:2
+msgid "Add Block"
+msgstr "Blok toevoegen"
+
+#: \controllers\blocks_controller.php:46;68
+msgid "The Block has been saved"
+msgstr "Het blok is opgeslagen"
+
+#: \controllers\blocks_controller.php:49;71
+msgid "The Block could not be saved. Please, try again."
+msgstr "Het blok kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\blocks_controller.php:58
+#: \views\blocks\admin_edit.ctp:2
+msgid "Edit Block"
+msgstr "Blok bewerken"
+
+#: \controllers\blocks_controller.php:61
+msgid "Invalid Block"
+msgstr "Ongeldig blok"
+
+#: \controllers\blocks_controller.php:89
+msgid "Invalid id for Block"
+msgstr "Ongeldig id voor blok"
+
+#: \controllers\blocks_controller.php:93
+msgid "Block deleted"
+msgstr "Blok verwijderd"
+
+#: \controllers\blocks_controller.php:100
+#: \controllers\languages_controller.php:85
+#: \controllers\links_controller.php:142
+#: \controllers\settings_controller.php:131
+#: \controllers\terms_controller.php:112
+msgid "Moved up succuessfully"
+msgstr "Omhoog verplaatsen geslaagd"
+
+#: \controllers\blocks_controller.php:102
+#: \controllers\languages_controller.php:87
+#: \controllers\links_controller.php:144
+#: \controllers\settings_controller.php:133
+#: \controllers\terms_controller.php:114
+msgid "Could not move up"
+msgstr "Kon niet omhoog verplaatsen"
+
+#: \controllers\blocks_controller.php:110
+#: \controllers\languages_controller.php:95
+#: \controllers\links_controller.php:152
+#: \controllers\settings_controller.php:141
+#: \controllers\terms_controller.php:122
+msgid "Moved down succuessfully"
+msgstr "Succesvol omlaag verplaatst"
+
+#: \controllers\blocks_controller.php:112
+#: \controllers\languages_controller.php:97
+#: \controllers\links_controller.php:154
+#: \controllers\settings_controller.php:143
+#: \controllers\terms_controller.php:124
+msgid "Could not move down"
+msgstr "Kon niet omlaag verplaatsen"
+
+#: \controllers\blocks_controller.php:128
+#: \controllers\comments_controller.php:100
+#: \controllers\links_controller.php:170
+#: \controllers\messages_controller.php:100
+#: \controllers\nodes_controller.php:312
+#: \controllers\terms_controller.php:140
+msgid "No items selected."
+msgstr "Geen items geselecteerd"
+
+#: \controllers\blocks_controller.php:135
+msgid "Blocks deleted."
+msgstr "Blokken verwijderd"
+
+#: \controllers\blocks_controller.php:138
+msgid "Blocks published"
+msgstr "Blokken gepubliceerd"
+
+#: \controllers\blocks_controller.php:141
+msgid "Blocks unpublished"
+msgstr "Blokken niet gepubliceerd"
+
+#: \controllers\blocks_controller.php:143
+#: \controllers\comments_controller.php:115
+#: \controllers\links_controller.php:185
+#: \controllers\messages_controller.php:115
+#: \controllers\nodes_controller.php:333
+#: \controllers\terms_controller.php:155
+#: \controllers\users_controller.php:163;206;218
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden"
+
+#: \controllers\comments_controller.php:31;123
+#: \views\elements\comments.ctp:7
+#: \views\elements\node_more_info.ctp:33
+#: \views\elements\admin\navigation.ctp:10
+#: \views\nodes\admin_add.ctp:16
+#: \views\nodes\admin_edit.ctp:33
+#: \views\types\admin_add.ctp:10
+#: \views\types\admin_edit.ctp:11
+msgid "Comments"
+msgstr "Commentaren"
+
+#: \controllers\comments_controller.php:50
+#: \views\comments\admin_edit.ctp:17
+#: \views\comments\admin_index.ctp:14
+#: \views\elements\admin\nodes_filter.ctp:24
+#: \views\nodes\admin_add.ctp:73
+#: \views\nodes\admin_edit.ctp:89
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: \controllers\comments_controller.php:52
+#: \views\comments\admin_index.ctp:15
+msgid "Approval"
+msgstr "Goedkeuring"
+
+#: \controllers\comments_controller.php:60
+msgid "Edit Comment"
+msgstr "Commentaar bewerken"
+
+#: \controllers\comments_controller.php:63
+msgid "Invalid Comment"
+msgstr "Ongeldig commentaar"
+
+#: \controllers\comments_controller.php:68
+msgid "The Comment has been saved"
+msgstr "Het commentaar is opgeslagen"
+
+#: \controllers\comments_controller.php:71
+msgid "The Comment could not be saved. Please, try again."
+msgstr "Commentaar kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\comments_controller.php:81
+msgid "Invalid id for Comment"
+msgstr "Ongeldig id voor commentaar"
+
+#: \controllers\comments_controller.php:85
+msgid "Comment deleted"
+msgstr "Commentaar verwijderd"
+
+#: \controllers\comments_controller.php:107
+msgid "Comments deleted."
+msgstr "Commentaren verwijderd"
+
+#: \controllers\comments_controller.php:110
+msgid "Comments published"
+msgstr "Commentaren gepubliceerd"
+
+#: \controllers\comments_controller.php:113
+msgid "Comments unpublished"
+msgstr "Commentaren niet gepubliceerd"
+
+#: \controllers\comments_controller.php:142;154
+msgid "Invalid Node"
+msgstr "Ongeldige node"
+
+#: \controllers\comments_controller.php:162
+msgid "Maximum level reached. You cannot reply to that comment."
+msgstr "Maximum niveau bereikt. Je kunt niet reageren op dit commentaar"
+
+#: \controllers\comments_controller.php:211
+msgid "Your comment has been added successfully."
+msgstr "Je commentaar is succesvol toegevoegd"
+
+#: \controllers\comments_controller.php:213
+msgid "Your comment will appear after moderation."
+msgstr "Je commentaar zal na beoordeling verschijnen"
+
+#: \controllers\comments_controller.php:219
+msgid "New comment posted under"
+msgstr "Nieuw commentaar geplaatst bij"
+
+#: \controllers\comments_controller.php:242
+msgid "Sorry, the comment appears to be spam."
+msgstr "Sorry, het commentaar lijkt spam te zijn"
+
+#: \controllers\comments_controller.php:255
+#: \controllers\contacts_controller.php:159
+msgid "Invalid captcha entry"
+msgstr "Ongeldige captcha"
+
+#: \controllers\contacts_controller.php:31
+#: \views\elements\admin\navigation.ctp:35;37
+msgid "Contacts"
+msgstr "Contactpersonen"
+
+#: \controllers\contacts_controller.php:39
+msgid "Add Contact"
+msgstr "Contactpersoon toevoegen"
+
+#: \controllers\contacts_controller.php:44;61
+msgid "The Contact has been saved"
+msgstr "Contactpersoon is opgeslagen"
+
+#: \controllers\contacts_controller.php:47;64
+msgid "The Contact could not be saved. Please, try again."
+msgstr "De contactpersoon kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\contacts_controller.php:53
+msgid "Edit Contact"
+msgstr "Contactpersoon bewerken"
+
+#: \controllers\contacts_controller.php:56
+msgid "Invalid Contact"
+msgstr "Ongeldig contactpersoon"
+
+#: \controllers\contacts_controller.php:74
+msgid "Invalid id for Contact"
+msgstr "Ongeldig id voor contactpersoon"
+
+#: \controllers\contacts_controller.php:78
+msgid "Contact deleted"
+msgstr "Contactpersoon verwijderd"
+
+#: \controllers\contacts_controller.php:115
+msgid "Your message has been received..."
+msgstr "Je bericht is ontvangen"
+
+#: \controllers\contacts_controller.php:146
+msgid "Sorry, the message appears to be spam."
+msgstr "Sorry, het berickt lijkt spam te zijn"
+
+#: \controllers\filemanager_controller.php:86
+msgid "File saved successfully"
+msgstr "Bestand succesvol opgeslagen"
+
+#: \controllers\filemanager_controller.php:96
+#: \views\attachments\admin_add.ctp:12
+msgid "Upload"
+msgstr "Upload"
+
+#: \controllers\filemanager_controller.php:110
+msgid "File uploaded successfully."
+msgstr "Bestand upload geslaagd"
+
+#: \controllers\filemanager_controller.php:126
+msgid "File deleted"
+msgstr "bestand verwijderd"
+
+#: \controllers\filemanager_controller.php:128;151;199;224
+msgid "An error occured"
+msgstr "Er is een fout opgetreden"
+
+#: \controllers\filemanager_controller.php:149
+msgid "Directory deleted"
+msgstr "Bestandsmap verwijderd"
+
+#: \controllers\filemanager_controller.php:183
+msgid "New Directory"
+msgstr "Nieuwe bestandmap"
+
+#: \controllers\filemanager_controller.php:195
+msgid "Directory created successfully."
+msgstr "Bestandsmap succesvol aangemaakt"
+
+#: \controllers\filemanager_controller.php:207
+msgid "New File"
+msgstr "Nieuw bestand"
+
+#: \controllers\filemanager_controller.php:220
+msgid "File created successfully."
+msgstr "Bstand succesvol aangemaakt"
+
+#: \controllers\languages_controller.php:31
+#: \views\elements\admin\navigation.ctp:66
+msgid "Languages"
+msgstr "Talen"
+
+#: \controllers\languages_controller.php:39
+msgid "Add Language"
+msgstr "Taa toevoegen"
+
+#: \controllers\languages_controller.php:44;61
+msgid "The Language has been saved"
+msgstr "De taal is opgeslagen"
+
+#: \controllers\languages_controller.php:47;64
+msgid "The Language could not be saved. Please, try again."
+msgstr "De taal kon niet worden opgeslagen"
+
+#: \controllers\languages_controller.php:53
+msgid "Edit Language"
+msgstr "Taal wijzigen"
+
+#: \controllers\languages_controller.php:56
+#: \controllers\nodes_controller.php:196
+msgid "Invalid Language"
+msgstr "Ongeldige taal"
+
+#: \controllers\languages_controller.php:74
+msgid "Invalid id for Language"
+msgstr "Ongeldig id voor de taal"
+
+#: \controllers\languages_controller.php:78
+msgid "Language deleted"
+msgstr "Taal verwijderd"
+
+#: \controllers\languages_controller.php:111
+msgid "Select a language"
+msgstr "Selecteer een taal"
+
+#: \controllers\links_controller.php:54
+msgid "Links"
+msgstr "Links"
+
+#: \controllers\links_controller.php:76
+msgid "Add Link"
+msgstr "Link toevoegen"
+
+#: \controllers\links_controller.php:82;108
+msgid "The Link has been saved"
+msgstr "De link is opgeslagen"
+
+#: \controllers\links_controller.php:85;111
+msgid "The Link could not be saved. Please, try again."
+msgstr "De link kon niet worden opgeslagen"
+
+#: \controllers\links_controller.php:99
+msgid "Edit Link"
+msgstr "Link wijzigen"
+
+#: \controllers\links_controller.php:102
+msgid "Invalid Link"
+msgstr "Ongeldige link"
+
+#: \controllers\links_controller.php:131
+msgid "Invalid id for Link"
+msgstr "Ongeldig id voor de link"
+
+#: \controllers\links_controller.php:135
+msgid "Link deleted"
+msgstr "Link verwijderd"
+
+#: \controllers\links_controller.php:177
+msgid "Links deleted."
+msgstr "Links verwijderd"
+
+#: \controllers\links_controller.php:180
+msgid "Links published"
+msgstr "Links gepublicerd"
+
+#: \controllers\links_controller.php:183
+msgid "Links unpublished"
+msgstr "Links niet gepubliceerd"
+
+#: \controllers\menus_controller.php:31
+#: \views\elements\admin\navigation.ctp:14;16
+msgid "Menus"
+msgstr "Menus"
+
+#: \controllers\menus_controller.php:39
+#: \views\elements\admin\navigation.ctp:17
+msgid "Add Menu"
+msgstr "Menu toevoegen"
+
+#: \controllers\menus_controller.php:44;61
+msgid "The Menu has been saved"
+msgstr "Het menu is opgeslagen"
+
+#: \controllers\menus_controller.php:47;64
+msgid "The Menu could not be saved. Please, try again."
+msgstr "het menu kon niet worden opgeslagen"
+
+#: \controllers\menus_controller.php:53
+msgid "Edit Menu"
+msgstr "Wijzig menu"
+
+#: \controllers\menus_controller.php:56
+msgid "Invalid Menu"
+msgstr "Ongeldig menu"
+
+#: \controllers\menus_controller.php:74
+msgid "Invalid id for Menu"
+msgstr "Ongeldig id voor menu"
+
+#: \controllers\menus_controller.php:78
+msgid "Menu deleted"
+msgstr "Menu verwijderd"
+
+#: \controllers\messages_controller.php:31
+#: \views\elements\admin\navigation.ctp:38
+msgid "Messages"
+msgstr "Berichten"
+
+#: \controllers\messages_controller.php:50
+#: \views\messages\admin_index.ctp:7
+msgid "Read"
+msgstr "Gelezen"
+
+#: \controllers\messages_controller.php:52
+#: \views\messages\admin_index.ctp:6
+msgid "Unread"
+msgstr "Ongelezen"
+
+#: \controllers\messages_controller.php:60
+msgid "Edit Message"
+msgstr "Bericht bewerken"
+
+#: \controllers\messages_controller.php:63
+msgid "Invalid Message"
+msgstr "Ongeldig bericht"
+
+#: \controllers\messages_controller.php:68
+msgid "The Message has been saved"
+msgstr "Het bericht is opgeslagen"
+
+#: \controllers\messages_controller.php:71
+msgid "The Message could not be saved. Please, try again."
+msgstr "Het bericht kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\messages_controller.php:81
+msgid "Invalid id for Message"
+msgstr "Ongeldig id voor bericht"
+
+#: \controllers\messages_controller.php:85
+msgid "Message deleted"
+msgstr "Bericht verwijderd"
+
+#: \controllers\messages_controller.php:107
+msgid "Messages deleted."
+msgstr "Berichten verwijderd"
+
+#: \controllers\messages_controller.php:110
+msgid "Messages marked as read"
+msgstr "Berichten als gelezen gemarkeerd"
+
+#: \controllers\messages_controller.php:113
+msgid "Messages marked as unread"
+msgstr "Berichten als ongelezen gemarkeerd"
+
+#: \controllers\nodes_controller.php:45
+#: \views\elements\admin\navigation.ctp:4
+msgid "Content"
+msgstr "Inhoud"
+
+#: \controllers\nodes_controller.php:76
+#: \views\elements\admin\navigation.ctp:7
+#: \views\nodes\admin_index.ctp:9
+msgid "Create content"
+msgstr "Inhoud aanmaken"
+
+#: \controllers\nodes_controller.php:89;137;206
+msgid "Content type does not exist."
+msgstr "Inhoudtype bestaat niet"
+
+#: \controllers\nodes_controller.php:94
+msgid "Create content: "
+msgstr "Inhoud aanmaken:"
+
+#: \controllers\nodes_controller.php:128;178;438;451
+msgid "Invalid content"
+msgstr "Ongeldige inhoud"
+
+#: \controllers\nodes_controller.php:142
+msgid "Edit content: "
+msgstr "inhoud bewerken"
+
+#: \controllers\nodes_controller.php:184
+msgid "Invalid locale"
+msgstr "Ongeldige locale"
+
+#: \controllers\nodes_controller.php:211
+msgid "Translate content:"
+msgstr "Inhoud vertalen"
+
+#: \controllers\nodes_controller.php:273
+msgid "Paths updated."
+msgstr "Paden bijgewerkt"
+
+#: \controllers\nodes_controller.php:280
+msgid "Invalid id for Node"
+msgstr "ongeldige id voor de node"
+
+#: \controllers\nodes_controller.php:284
+msgid "Node deleted"
+msgstr "Node verwijderd"
+
+#: \controllers\nodes_controller.php:319
+msgid "Nodes deleted."
+msgstr "Nodes verwijderd"
+
+#: \controllers\nodes_controller.php:322
+msgid "Nodes published"
+msgstr "Nodes gepubliceerd"
+
+#: \controllers\nodes_controller.php:325
+msgid "Nodes unpublished"
+msgstr "Nodes niet gepubliceerd"
+
+#: \controllers\nodes_controller.php:328
+msgid "Nodes promoted"
+msgstr "Nodes opgewaardeerd"
+
+#: \controllers\nodes_controller.php:331
+msgid "Nodes unpromoted"
+msgstr "Afgewaardeerde nodes"
+
+#: \controllers\nodes_controller.php:353;386;412
+msgid "Invalid content type."
+msgstr "Ongeldig inhoudtype"
+
+#: \controllers\nodes_controller.php:369
+msgid "Invalid Term."
+msgstr "Invalid Begrip"
+
+#: \controllers\nodes_controller.php:400
+msgid "Nodes"
+msgstr "Nodes"
+
+#: \controllers\regions_controller.php:31
+msgid "Region"
+msgstr "Gebied"
+
+#: \controllers\regions_controller.php:39
+msgid "Add Region"
+msgstr "Gebied toevoegen"
+
+#: \controllers\regions_controller.php:44;61
+msgid "The Region has been saved"
+msgstr "Het gebied is opgeslagen"
+
+#: \controllers\regions_controller.php:47;64
+msgid "The Region could not be saved. Please, try again."
+msgstr "Het gebied kon niet worden opgeslagen. Porbeer nogmaals"
+
+#: \controllers\regions_controller.php:53
+msgid "Edit Region"
+msgstr "Gebied bewerken"
+
+#: \controllers\regions_controller.php:56
+msgid "Invalid Region"
+msgstr "Ongeldig gebied"
+
+#: \controllers\regions_controller.php:74
+msgid "Invalid id for Region"
+msgstr "Ongeldig id voor het gebied"
+
+#: \controllers\regions_controller.php:78
+msgid "Region deleted"
+msgstr "Gebied verwijderd"
+
+#: \controllers\roles_controller.php:31
+#: \views\elements\admin\navigation.ctp:45
+msgid "Roles"
+msgstr "Rollen"
+
+#: \controllers\roles_controller.php:39
+msgid "Add Role"
+msgstr "Rol toevoegen"
+
+#: \controllers\roles_controller.php:44;61
+msgid "The Role has been saved"
+msgstr "De rol is opgeslagen"
+
+#: \controllers\roles_controller.php:47;64
+msgid "The Role could not be saved. Please, try again."
+msgstr "The rol kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\roles_controller.php:53
+msgid "Edit Role"
+msgstr "Rol bewerken"
+
+#: \controllers\roles_controller.php:56
+msgid "Invalid Role"
+msgstr "Ongeldige rol"
+
+#: \controllers\roles_controller.php:74
+msgid "Invalid id for Role"
+msgstr "Ongeldig id voor de rol"
+
+#: \controllers\roles_controller.php:78
+msgid "Role deleted"
+msgstr "Rol verwijderd"
+
+#: \controllers\settings_controller.php:38
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: \controllers\settings_controller.php:54
+msgid "Invalid Setting."
+msgstr "Ongeldige instelling"
+
+#: \controllers\settings_controller.php:66;83
+msgid "The Setting has been saved"
+msgstr "De instelling is opgeslagen"
+
+#: \controllers\settings_controller.php:69;86
+msgid "The Setting could not be saved. Please, try again."
+msgstr "De instelling kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\settings_controller.php:78
+msgid "Invalid Setting"
+msgstr "Ongeldige instelling"
+
+#: \controllers\settings_controller.php:96
+msgid "Invalid id for Setting"
+msgstr "Ongeldig id voor de instelling"
+
+#: \controllers\settings_controller.php:100
+msgid "Setting deleted"
+msgstr "Instelling verwijderd"
+
+#: \controllers\settings_controller.php:106
+#: \views\elements\admin\navigation.ctp:57
+#: \views\settings\admin_add.ctp:7
+#: \views\settings\admin_edit.ctp:7
+msgid "Settings"
+msgstr "Instellingen"
+
+#: \controllers\settings_controller.php:109
+msgid "Settings updated successfully"
+msgstr "Instelling succesvol bijgewerkt"
+
+#: \controllers\settings_controller.php:123
+msgid "Invalid Setting key"
+msgstr "Ongeldige instellingssleutel"
+
+#: \controllers\terms_controller.php:40
+#: \views\nodes\admin_add.ctp:15
+#: \views\nodes\admin_edit.ctp:32
+msgid "Terms"
+msgstr "Begrippen"
+
+#: \controllers\terms_controller.php:56
+msgid "Add Term"
+msgstr "Begrip toevoegen"
+
+#: \controllers\terms_controller.php:61;85
+msgid "The Term has been saved"
+msgstr "het begrip is opgeslagen"
+
+#: \controllers\terms_controller.php:64;88
+msgid "The Term could not be saved. Please, try again."
+msgstr "Het begrip kon niet worden opgeslagen"
+
+#: \controllers\terms_controller.php:77
+msgid "Edit Term"
+msgstr "Begrip wijzigen"
+
+#: \controllers\terms_controller.php:80
+msgid "Invalid Term"
+msgstr "Ongeldig begrip"
+
+#: \controllers\terms_controller.php:101
+msgid "Invalid id for Term"
+msgstr "Ongeldig id voor het begrip"
+
+#: \controllers\terms_controller.php:105
+msgid "Term deleted"
+msgstr "Begrip verwijderd"
+
+#: \controllers\terms_controller.php:147
+msgid "Terms deleted."
+msgstr "Begrippen verwijderd"
+
+#: \controllers\terms_controller.php:150
+msgid "Terms published"
+msgstr "Begrippen gepubliceerd"
+
+#: \controllers\terms_controller.php:153
+msgid "Terms unpublished"
+msgstr "Begrippen niet gepubliceerd"
+
+#: \controllers\themes_controller.php:37
+#: \views\elements\admin\navigation.ctp:50;52
+msgid "Themes"
+msgstr "Themas"
+
+#: \controllers\themes_controller.php:58
+msgid "Theme activated."
+msgstr "Thema geactiveerd"
+
+#: \controllers\themes_controller.php:64
+#: \views\elements\admin\navigation.ctp:53
+msgid "Add a new theme"
+msgstr "Nieuw thema toevoegen"
+
+#: \controllers\types_controller.php:31
+#: \views\types\admin_add.ctp:7
+#: \views\types\admin_edit.ctp:8
+msgid "Type"
+msgstr "Type"
+
+#: \controllers\types_controller.php:39
+msgid "Add Type"
+msgstr "Type toevoegen"
+
+#: \controllers\types_controller.php:44;64
+msgid "The Type has been saved"
+msgstr "Het type is opgeslagen"
+
+#: \controllers\types_controller.php:47;67
+msgid "The Type could not be saved. Please, try again."
+msgstr "Het type kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\types_controller.php:56
+msgid "Edit Type"
+msgstr "Type bewerken"
+
+#: \controllers\types_controller.php:59
+msgid "Invalid Type"
+msgstr "Ongeldig type"
+
+#: \controllers\types_controller.php:80
+msgid "Invalid id for Type"
+msgstr "Ongeldig id voor het type"
+
+#: \controllers\types_controller.php:84
+msgid "Tyoe deleted"
+msgstr "Type verwijderd"
+
+#: \controllers\users_controller.php:35;119
+#: \views\elements\admin\navigation.ctp:42;44
+#: \views\users\admin_index.ctp:2
+msgid "Users"
+msgstr "Gebruikers"
+
+#: \controllers\users_controller.php:45;65
+msgid "The User has been saved"
+msgstr "De gebruiker is opgeslagen"
+
+#: \controllers\users_controller.php:48;68;141
+msgid "The User could not be saved. Please, try again."
+msgstr "De gebruiker kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\users_controller.php:60;80
+msgid "Invalid User"
+msgstr "Ongeldige gebruiker"
+
+#: \controllers\users_controller.php:85
+msgid "Password has been reset."
+msgstr "Het wachtwoord is gereset"
+
+#: \controllers\users_controller.php:88
+msgid "Password could not be reset. Please, try again."
+msgstr "Wachtwoord kon niet worden gereset. Probeer nogmaals"
+
+#: \controllers\users_controller.php:98
+msgid "Invalid id for User"
+msgstr "Ongeldig id voor de gebruiker"
+
+#: \controllers\users_controller.php:102
+msgid "User deleted"
+msgstr "Gebruiker verwijderd"
+
+#: \controllers\users_controller.php:108
+msgid "Admin Login"
+msgstr "Admin login"
+
+#: \controllers\users_controller.php:113;244
+msgid "Log out successful."
+msgstr "Succesvol uitgelogd"
+
+#: \controllers\users_controller.php:123
+msgid "Register"
+msgstr "Registreer"
+
+#: \controllers\users_controller.php:138
+msgid "You have successfully registered an account. An email has been sent with further instructions."
+msgstr "Je hebt succesvol een account geregistreerd. Er is een email verzonden met verdere instructies"
+
+#: \controllers\users_controller.php:161
+msgid "Account activated successfully."
+msgstr "Account succesvol geactiveerd"
+
+#: \controllers\users_controller.php:173
+msgid "Forgot Password"
+msgstr "Wachtwoord vergeten"
+
+#: \controllers\users_controller.php:178
+msgid "Invalid username."
+msgstr "Ongeldige gebruikersnaam"
+
+#: \controllers\users_controller.php:190;203
+msgid "Reset Password"
+msgstr "Wachtwoord resetten"
+
+#: \controllers\users_controller.php:193
+msgid "An email has been sent with instructions for resetting your password."
+msgstr "Er is een email verzonden met instructies voor het resetten van je wachtwoord"
+
+#: \controllers\users_controller.php:197;232
+msgid "An error occurred. Please try again."
+msgstr "Er is een fout opgetreden. Probeer nogmaals"
+
+#: \controllers\users_controller.php:228
+msgid "Your password has been reset successfully."
+msgstr "Je wachtwoord is succesvol gereset"
+
+#: \controllers\users_controller.php:240
+msgid "Log in"
+msgstr "Inloggen"
+
+#: \controllers\users_controller.php:252
+msgid "Invalid User."
+msgstr "Ongeldige gebruiker"
+
+#: \controllers\vocabularies_controller.php:31
+#: \views\vocabularies\admin_add.ctp:7
+#: \views\vocabularies\admin_edit.ctp:8
+msgid "Vocabulary"
+msgstr "Woordenlijst"
+
+#: \controllers\vocabularies_controller.php:39
+msgid "Add Vocabulary"
+msgstr "Woordenlijst toevoegen"
+
+#: \controllers\vocabularies_controller.php:44;64
+msgid "The Vocabulary has been saved"
+msgstr "De woordenlijst is opgeslagen"
+
+#: \controllers\vocabularies_controller.php:47;67
+msgid "The Vocabulary could not be saved. Please, try again."
+msgstr "De woordenlijst kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \controllers\vocabularies_controller.php:56
+msgid "Edit Vocabulary"
+msgstr "Woordenlijst bewerken"
+
+#: \controllers\vocabularies_controller.php:59
+msgid "Invalid Vocabulary"
+msgstr "Ongeldige woordenlijst"
+
+#: \controllers\vocabularies_controller.php:80
+msgid "Invalid id for Vocabulary"
+msgstr "Ongeldig id voor de woordenlijst"
+
+#: \controllers\vocabularies_controller.php:84
+msgid "Vocabulary deleted"
+msgstr "Woordenlijst verwijderd"
+
+#: \models\behaviors\croogo_translate.php:71
+msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+msgstr "Databron %s voor CroogoTranslateBehavior van Model %s is niet verbonden"
+
+#: \models\behaviors\croogo_translate.php:470
+msgid "Association %s is already binded to model %s"
+msgstr "Associatie %s is reeds verbonden met Model %s"
+
+#: \plugins\acl\controllers\acl_acos_controller.php:19
+#: \plugins\acl\views\acl_acos\admin_index.ctp:2
+msgid "Acos"
+msgstr "Acos"
+
+#: \plugins\acl\controllers\acl_acos_controller.php:26
+#: \plugins\acl\views\acl_acos\admin_add.ctp:2
+#: \plugins\acl\views\acl_acos\admin_edit.ctp:2
+msgid "Add Aco"
+msgstr "Aco toevoegen"
+
+#: \plugins\acl\controllers\acl_acos_controller.php:31;48
+msgid "The Aco has been saved"
+msgstr "De aco is opgeslagen"
+
+#: \plugins\acl\controllers\acl_acos_controller.php:34;51
+msgid "The Aco could not be saved. Please, try again."
+msgstr "De aco kon niet worden opgeslagen. Probeer nogmaals"
+
+#: \plugins\acl\controllers\acl_acos_controller.php:40
+msgid "Edit Aco"
+msgstr "Aco bewerken"
+
+#: \plugins\acl\controllers\acl_acos_controller.php:43
+msgid "Invalid Aco"
+msgstr "Ongeldige aco"
+
+#: \plugins\acl\controllers\acl_acos_controller.php:61
+msgid "Invalid id for Aco"
+msgstr "Ongeldig id voor de aco"
+
+#: \plugins\acl\controllers\acl_acos_controller.php:65
+msgid "Aco deleted"
+msgstr "Aco verwijderd"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:20
+#: \plugins\acl\views\acl_acos\admin_index.ctp:18
+#: \plugins\acl\views\acl_actions\admin_index.ctp:20
+#: \plugins\acl\views\acl_aros\admin_index.ctp:18
+#: \views\attachments\admin_browse.ctp:19
+#: \views\attachments\admin_index.ctp:17
+#: \views\blocks\admin_index.ctp:20
+#: \views\comments\admin_index.ctp:31
+#: \views\contacts\admin_index.ctp:17
+#: \views\filemanager\admin_browse.ctp:30
+#: \views\languages\admin_index.ctp:18
+#: \views\links\admin_index.ctp:26
+#: \views\menus\admin_index.ctp:17
+#: \views\messages\admin_index.ctp:30
+#: \views\nodes\admin_index.ctp:36
+#: \views\regions\admin_index.ctp:16
+#: \views\roles\admin_index.ctp:16
+#: \views\settings\admin_index.ctp:17
+#: \views\terms\admin_index.ctp:25
+#: \views\types\admin_index.ctp:17
+#: \views\users\admin_index.ctp:18
+#: \views\vocabularies\admin_index.ctp:16
+msgid "Actions"
+msgstr "Acties"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:32
+msgid "Add Action"
+msgstr "Actie toevoegen"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:72
+msgid "Edit Action"
+msgstr "Actie wijzigen"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:75
+msgid "Invalid Action"
+msgstr "Ongeldige actie"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:80
+msgid "The Action has been saved"
+msgstr "De actie is opgeslagen"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:83
+msgid "The Action could not be saved. Please, try again."
+msgstr "De actie kon niet worden opgeslagen"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:110;121
+msgid "Invalid id for Action"
+msgstr "Ongeldig id voor de actie"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:114
+msgid "Action deleted"
+msgstr "Actie verwijderd"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:126
+msgid "Action moved up"
+msgstr "Actie omhoog verplaatst"
+
+#: \plugins\acl\controllers\acl_actions_controller.php:131
+msgid "Action moved down"
+msgstr "Actie omlaag verplaatst"
+
+#: \plugins\acl\controllers\acl_aros_controller.php:19
+#: \plugins\acl\views\acl_aros\admin_index.ctp:2
+msgid "Aros"
+msgstr "Aros"
+
+#: \plugins\acl\controllers\acl_aros_controller.php:26
+#: \plugins\acl\views\acl_aros\admin_add.ctp:2
+#: \plugins\acl\views\acl_aros\admin_edit.ctp:2
+msgid "Add Aro"
+msgstr "Aro toevoegen"
+
+#: \plugins\acl\controllers\acl_aros_controller.php:31;48
+msgid "The Aro has been saved"
+msgstr "De aro is opgeslagen"
+
+#: \plugins\acl\controllers\acl_aros_controller.php:34;51
+msgid "The Aro could not be saved. Please, try again."
+msgstr "De aro kon niet worden opgeslagen"
+
+#: \plugins\acl\controllers\acl_aros_controller.php:40
+msgid "Edit Aro"
+msgstr "Aro bewerken"
+
+#: \plugins\acl\controllers\acl_aros_controller.php:43
+msgid "Invalid Aro"
+msgstr "Ongeldige aro"
+
+#: \plugins\acl\controllers\acl_aros_controller.php:61
+msgid "Invalid id for Aro"
+msgstr "Ongeldig id voor de aro"
+
+#: \plugins\acl\controllers\acl_aros_controller.php:65
+msgid "Aro deleted"
+msgstr "Aro verwijderd"
+
+#: \plugins\acl\controllers\acl_permissions_controller.php:19
+#: \views\elements\admin\navigation.ctp:46
+msgid "Permissions"
+msgstr "Rechten"
+
+#: \plugins\acl\views\acl_acos\admin_index.ctp:6
+msgid "New Aco"
+msgstr "Nieuwe aco"
+
+#: \plugins\acl\views\acl_acos\admin_index.ctp:24
+#: \plugins\acl\views\acl_actions\admin_index.ctp:41
+#: \plugins\acl\views\acl_aros\admin_index.ctp:24
+#: \views\attachments\admin_browse.ctp:25
+#: \views\attachments\admin_index.ctp:23
+#: \views\blocks\admin_index.ctp:28
+#: \views\comments\admin_index.ctp:37
+#: \views\contacts\admin_index.ctp:25
+#: \views\languages\admin_index.ctp:26
+#: \views\links\admin_index.ctp:34
+#: \views\menus\admin_index.ctp:24
+#: \views\messages\admin_index.ctp:36
+#: \views\nodes\admin_index.ctp:42
+#: \views\regions\admin_index.ctp:22
+#: \views\roles\admin_index.ctp:22
+#: \views\settings\admin_index.ctp:25
+#: \views\terms\admin_index.ctp:33
+#: \views\types\admin_index.ctp:23
+#: \views\users\admin_index.ctp:24
+#: \views\vocabularies\admin_index.ctp:23
+msgid "Edit"
+msgstr "Bewerken"
+
+#: \plugins\acl\views\acl_acos\admin_index.ctp:25
+#: \plugins\acl\views\acl_actions\admin_index.ctp:42
+#: \plugins\acl\views\acl_aros\admin_index.ctp:25
+#: \views\attachments\admin_browse.ctp:26
+#: \views\attachments\admin_index.ctp:24
+#: \views\blocks\admin_index.ctp:29;53
+#: \views\comments\admin_index.ctp:38;70
+#: \views\contacts\admin_index.ctp:26
+#: \views\filemanager\admin_browse.ctp:37;51
+#: \views\languages\admin_index.ctp:27
+#: \views\links\admin_index.ctp:35;57
+#: \views\menus\admin_index.ctp:25
+#: \views\messages\admin_index.ctp:37;62
+#: \views\nodes\admin_index.ctp:44;79
+#: \views\regions\admin_index.ctp:23
+#: \views\roles\admin_index.ctp:23
+#: \views\settings\admin_index.ctp:26
+#: \views\terms\admin_index.ctp:34;55
+#: \views\types\admin_index.ctp:24
+#: \views\users\admin_index.ctp:25
+#: \views\vocabularies\admin_index.ctp:24
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: \plugins\acl\views\acl_acos\admin_index.ctp:25
+#: \plugins\acl\views\acl_actions\admin_index.ctp:42
+#: \plugins\acl\views\acl_aros\admin_index.ctp:25
+#: \views\attachments\admin_browse.ctp:26
+#: \views\attachments\admin_index.ctp:24
+#: \views\blocks\admin_index.ctp:29
+#: \views\comments\admin_index.ctp:38
+#: \views\contacts\admin_index.ctp:26
+#: \views\languages\admin_index.ctp:27
+#: \views\links\admin_index.ctp:35
+#: \views\menus\admin_index.ctp:25
+#: \views\messages\admin_index.ctp:37
+#: \views\nodes\admin_index.ctp:44
+#: \views\regions\admin_index.ctp:23
+#: \views\roles\admin_index.ctp:23
+#: \views\settings\admin_index.ctp:26
+#: \views\terms\admin_index.ctp:34
+#: \views\types\admin_index.ctp:24
+#: \views\users\admin_index.ctp:25
+#: \views\vocabularies\admin_index.ctp:24
+msgid "Are you sure?"
+msgstr "Weet je het zeker"
+
+#: \plugins\acl\views\acl_acos\admin_index.ctp:44
+#: \plugins\acl\views\acl_aros\admin_index.ctp:44
+#: \views\attachments\admin_browse.ctp:56
+#: \views\attachments\admin_index.ctp:50
+#: \views\blocks\admin_index.ctp:63
+#: \views\comments\admin_index.ctp:80
+#: \views\contacts\admin_index.ctp:49
+#: \views\languages\admin_index.ctp:46
+#: \views\menus\admin_index.ctp:43
+#: \views\messages\admin_index.ctp:72
+#: \views\nodes\admin_index.ctp:89
+#: \views\regions\admin_index.ctp:40
+#: \views\roles\admin_index.ctp:40
+#: \views\settings\admin_index.ctp:53
+#: \views\types\admin_index.ctp:42
+#: \views\users\admin_index.ctp:44
+#: \views\vocabularies\admin_index.ctp:41
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Pagina %page% van %pages%, met %current% van in totaal %count% records, vanaf record %start%, tot %end%"
+
+#: \plugins\acl\views\acl_actions\admin_add.ctp:9
+#: \plugins\acl\views\acl_actions\admin_edit.ctp:11
+msgid "Choose none if the Aco is a controller."
+msgstr "Kies geen indien de aco een controller is"
+
+#: \plugins\acl\views\acl_actions\admin_index.ctp:10
+msgid "New Action"
+msgstr "Nieuwe actie"
+
+#: \plugins\acl\views\acl_actions\admin_index.ctp:11
+#: \plugins\acl\views\acl_permissions\admin_index.ctp:9
+msgid "Generate Actions"
+msgstr "Genereer acties"
+
+#: \plugins\acl\views\acl_actions\admin_index.ctp:18
+#: \plugins\acl\views\acl_permissions\admin_index.ctp:20
+#: \views\links\admin_index.ctp:23
+#: \views\settings\admin_view.ctp:4
+#: \views\terms\admin_index.ctp:23
+msgid "Id"
+msgstr "Id"
+
+#: \plugins\acl\views\acl_actions\admin_index.ctp:19
+#: \plugins\acl\views\acl_permissions\admin_index.ctp:21
+msgid "Alias"
+msgstr "Alias"
+
+#: \plugins\acl\views\acl_actions\admin_index.ctp:43
+#: \views\blocks\admin_index.ctp:26
+#: \views\languages\admin_index.ctp:24
+#: \views\links\admin_index.ctp:32
+#: \views\settings\admin_index.ctp:23
+#: \views\terms\admin_index.ctp:31
+msgid "Move up"
+msgstr "Omhoog verplaatsen"
+
+#: \plugins\acl\views\acl_actions\admin_index.ctp:44
+#: \views\blocks\admin_index.ctp:27
+#: \views\languages\admin_index.ctp:25
+#: \views\links\admin_index.ctp:33
+#: \views\settings\admin_index.ctp:24
+#: \views\terms\admin_index.ctp:32
+msgid "Move down"
+msgstr "Omlaag verplaatsen"
+
+#: \plugins\acl\views\acl_aros\admin_index.ctp:6
+msgid "New Aro"
+msgstr "Nieuwe aro"
+
+#: \plugins\acl\views\acl_permissions\admin_index.ctp:10
+msgid "Edit Actions"
+msgstr "Acties bewerken"
+
+#: \plugins\acl\views\acl_permissions\admin_toggle.ctp:9
+msgid "error"
+msgstr "Fout"
+
+#: \plugins\debug_kit\controllers\components\toolbar.php:85
+msgid "Component initialization and startup"
+msgstr "Component initialisatie en opstart"
+
+#: \plugins\debug_kit\controllers\components\toolbar.php:123
+msgid "Controller Action"
+msgstr "Controller actie"
+
+#: \plugins\debug_kit\controllers\components\toolbar.php:150
+msgid "Render Controller Action"
+msgstr "Controller actie weergeven"
+
+#: \plugins\debug_kit\controllers\components\toolbar.php:163
+msgid "Could not load DebugToolbar panel %s"
+msgstr "Kon het DebugToolbar paneel %s niet laden"
+
+#: \plugins\debug_kit\vendors\fire_cake.php:298
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr "Headers reeds verstuurd in %s op lijn %s. Kan geen log data naar FirePHP verzenden"
+
+#: \plugins\debug_kit\vendors\fire_cake.php:319
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr "Foutieve parameter aantal voor FireCake::fb()"
+
+#: \plugins\debug_kit\vendors\fire_cake.php:392
+msgid "Maximum number (99,999) of messages reached!"
+msgstr "Maximum aantal (99.999) berichten bereikt!"
+
+#: \plugins\debug_kit\views\debug.php:57
+msgid "Rendering %s"
+msgstr "%s weergeven"
+
+#: \plugins\debug_kit\views\debug.php:79
+msgid "Rendering View"
+msgstr "View weergeven"
+
+#: \plugins\debug_kit\views\elements\debug_toolbar.ctp:32
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr "Er zijn geen actieve panelen. Je moet een paneel aanzetten om de output te zien"
+
+#: \plugins\debug_kit\views\elements\log_panel.ctp:29
+msgid "Logs"
+msgstr "Logs"
+
+#: \plugins\debug_kit\views\elements\log_panel.ctp:36
+msgid "Time"
+msgstr "Tijd"
+
+#: \plugins\debug_kit\views\elements\log_panel.ctp:36
+#: \plugins\debug_kit\views\elements\timer_panel.ctp:42
+#: \views\contacts\admin_add.ctp:9
+#: \views\contacts\admin_edit.ctp:9
+#: \views\contacts\view.ctp:20
+msgid "Message"
+msgstr "Bericht"
+
+#: \plugins\debug_kit\views\elements\log_panel.ctp:45
+msgid "There were no log entries made this request"
+msgstr "Er zijn tijdens dit verzoek geen log vermeldingen gemaakt"
+
+#: \plugins\debug_kit\views\elements\memory_panel.ctp:30
+msgid "Memory"
+msgstr "Geheugen"
+
+#: \plugins\debug_kit\views\elements\memory_panel.ctp:33
+msgid "Current Memory Use"
+msgstr "Huidig geheugen gebruik"
+
+#: \plugins\debug_kit\views\elements\memory_panel.ctp:40
+msgid "Peak Memory Use"
+msgstr "Piek geheugen gebruik"
+
+#: \plugins\debug_kit\views\elements\request_panel.ctp:30
+msgid "Request"
+msgstr "Verzoek"
+
+#: \plugins\debug_kit\views\elements\request_panel.ctp:44
+msgid "Current Route"
+msgstr "Huidige route"
+
+#: \plugins\debug_kit\views\elements\session_panel.ctp:30
+msgid "Session"
+msgstr "Sessie"
+
+#: \plugins\debug_kit\views\elements\sql_log_panel.ctp:30
+msgid "Sql Logs"
+msgstr "Sql Logs"
+
+#: \plugins\debug_kit\views\elements\sql_log_panel.ctp:39
+msgid "No active database connections"
+msgstr "Geen actieve database verbindingen"
+
+#: \plugins\debug_kit\views\elements\timer_panel.ctp:31
+msgid "Timers"
+msgstr "Timers"
+
+#: \plugins\debug_kit\views\elements\timer_panel.ctp:33
+msgid "%s (seconds)"
+msgstr "%s (seconden)"
+
+#: \plugins\debug_kit\views\elements\timer_panel.ctp:34
+msgid "Total Request Time:"
+msgstr "Totaal verzoek tijd:"
+
+#: \plugins\debug_kit\views\elements\timer_panel.ctp:42
+msgid "time in seconds"
+msgstr "tijd in seconden"
+
+#: \plugins\debug_kit\views\elements\variables_panel.ctp:30
+msgid "View Variables"
+msgstr "View variabelen"
+
+#: \plugins\install\controllers\install_controller.php:56
+msgid "Installation: Welcome"
+msgstr "Installatie: Welkom"
+
+#: \plugins\install\controllers\install_controller.php:64
+msgid "Step 1: Database"
+msgstr "Stap 1: Database"
+
+#: \plugins\install\controllers\install_controller.php:85
+msgid "Could not write database.php file."
+msgstr "database.php kon niet worden weggeschreven"
+
+#: \plugins\install\controllers\install_controller.php:88;108
+msgid "Could not connect to database."
+msgstr "Kon geen verbinding maken met de database"
+
+#: \plugins\install\controllers\install_controller.php:98
+msgid "Step 2: Run SQL"
+msgstr "Stap 2: SQL uitvoeren"
+
+#: \plugins\install\controllers\install_controller.php:126
+msgid "Installation completed successfully"
+msgstr "Installatie succesvol voltooid"
+
+#: \plugins\install\controllers\install_controller.php:132
+msgid "Installataion files deleted successfully."
+msgstr "Installatie bestanden succesvol verwijderd"
+
+#: \plugins\install\controllers\install_controller.php:136
+msgid "Could not delete installation files."
+msgstr "De installatie bestanden konden niet worden verwijderd"
+
+#: \plugins\install\views\install\data.ctp:5
+msgid "Click here to build your database"
+msgstr "Klik hier om de database op te bouwen"
+
+#: \plugins\install\views\install\finish.ctp:21
+msgid "Click here to delete installation files"
+msgstr "Klik hier om de installatie bestanden te verwijderen"
+
+#: \plugins\install\views\layouts\install.ctp:5
+#: \views\layouts\admin.ctp:5
+#: \views\layouts\admin_full.ctp:5
+#: \views\layouts\admin_login.ctp:5
+msgid "Croogo"
+msgstr "Croogo"
+
+#: \plugins\install\views\layouts\install.ctp:21
+msgid "Install Croogo"
+msgstr "Croogo installeren"
+
+#: \views\attachments\admin_browse.ctp:7
+#: \views\attachments\admin_index.ctp:6
+msgid "New Attachment"
+msgstr "Nieuwe bijlage"
+
+#: \views\attachments\admin_browse.ctp:18
+#: \views\attachments\admin_index.ctp:16
+msgid "URL"
+msgstr "Url"
+
+#: \views\attachments\admin_browse.ctp:37
+msgid "Insert"
+msgstr "Invoegen"
+
+#: \views\attachments\admin_edit.ctp:9
+msgid "Attachment"
+msgstr "Bijlage"
+
+#: \views\attachments\admin_edit.ctp:10
+msgid "Info"
+msgstr "Info"
+
+#: \views\attachments\admin_edit.ctp:29
+msgid "Caption"
+msgstr "Bovenschrift"
+
+#: \views\attachments\admin_edit.ctp:36
+msgid "File URL"
+msgstr "Bestands url"
+
+#: \views\attachments\admin_edit.ctp:37
+msgid "Mime Type"
+msgstr "Mime Type"
+
+#: \views\blocks\admin_add.ctp:7
+#: \views\blocks\admin_edit.ctp:7
+msgid "Block"
+msgstr "Blok"
+
+#: \views\blocks\admin_add.ctp:8
+#: \views\blocks\admin_edit.ctp:8
+#: \views\links\admin_add.ctp:8
+#: \views\links\admin_edit.ctp:8
+msgid "Access"
+msgstr "Toegang"
+
+#: \views\blocks\admin_add.ctp:9
+#: \views\blocks\admin_edit.ctp:9
+msgid "Visibilities"
+msgstr "Zichtbaarheid"
+
+#: \views\blocks\admin_add.ctp:16
+#: \views\blocks\admin_edit.ctp:17
+msgid "unique name for your block"
+msgstr "unieke naam voor je blok"
+
+#: \views\blocks\admin_add.ctp:17
+#: \views\blocks\admin_edit.ctp:18
+msgid "if you are not sure, choose 'none'"
+msgstr "indien je het niet weet, kies dan 'geen'"
+
+#: \views\blocks\admin_add.ctp:35
+#: \views\blocks\admin_edit.ctp:36
+msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
+msgstr "Geef 1 url per regel. Leeglaten om dit blok in alle pagina weer te geven"
+
+#: \views\blocks\admin_index.ctp:6
+msgid "New Block"
+msgstr "Nieuw blok"
+
+#: \views\blocks\admin_index.ctp:51
+#: \views\comments\admin_index.ctp:68
+#: \views\links\admin_index.ctp:55
+#: \views\nodes\admin_index.ctp:75
+msgid "Publish"
+msgstr "Publiceren"
+
+#: \views\blocks\admin_index.ctp:52
+#: \views\comments\admin_index.ctp:69
+#: \views\links\admin_index.ctp:56
+#: \views\nodes\admin_index.ctp:76
+msgid "Unpublish"
+msgstr "Niet publiceren"
+
+#: \views\blocks\admin_index.ctp:57
+#: \views\comments\admin_index.ctp:74
+#: \views\links\admin_index.ctp:61
+#: \views\messages\admin_index.ctp:66
+#: \views\nodes\admin_index.ctp:83
+#: \views\terms\admin_index.ctp:59
+msgid "Submit"
+msgstr "Verzenden"
+
+#: \views\comments\admin_edit.ctp:8
+#: \views\elements\comments.ctp:5
+#: \views\elements\node_more_info.ctp:31
+msgid "Comment"
+msgstr "Commentaar"
+
+#: \views\comments\admin_edit.ctp:9
+msgid "Contact Info"
+msgstr "Contact info"
+
+#: \views\comments\rss\index.ctp:16
+msgid "Comment on"
+msgstr "Commentaar bij"
+
+#: \views\comments\rss\index.ctp:16
+#: \views\elements\node_info.ctp:9
+#: \views\themes\admin_index.ctp:15;33
+msgid "by"
+msgstr "door"
+
+#: \views\contacts\admin_add.ctp:7
+#: \views\contacts\admin_edit.ctp:7
+msgid "Contact"
+msgstr "Contact"
+
+#: \views\contacts\admin_add.ctp:8
+#: \views\contacts\admin_edit.ctp:8
+msgid "Details"
+msgstr "Details"
+
+#: \views\contacts\admin_add.ctp:39
+#: \views\contacts\admin_edit.ctp:40
+msgid "Let users leave a message"
+msgstr "De gebruikers mogen een bericht achterlaten"
+
+#: \views\contacts\admin_add.ctp:42
+#: \views\contacts\admin_edit.ctp:43
+msgid "Save messages in database"
+msgstr "Berichten opslaan in de database"
+
+#: \views\contacts\admin_add.ctp:45
+#: \views\contacts\admin_edit.ctp:46
+msgid "Notify by email instantly"
+msgstr "Direct per email op de hoogte stellen"
+
+#: \views\contacts\admin_add.ctp:48
+#: \views\contacts\admin_edit.ctp:49
+#: \views\types\admin_add.ctp:56
+msgid "Spam protection (requires Akismet API key)"
+msgstr "Spam beveiliging (benodigt een Akismet API sleutel)"
+
+#: \views\contacts\admin_add.ctp:51
+#: \views\contacts\admin_edit.ctp:52
+#: \views\types\admin_add.ctp:59
+msgid "Use captcha? (requires Recaptcha API key)"
+msgstr "Captcha gebruiken? (benodigt een Recaptcha API sleutel)"
+
+#: \views\contacts\admin_add.ctp:56
+#: \views\contacts\admin_edit.ctp:57
+#: \views\types\admin_add.ctp:65
+#: \views\types\admin_edit.ctp:66
+msgid "You can manage your API keys here."
+msgstr "Je kunt je API sleutels hier beheren"
+
+#: \views\contacts\admin_index.ctp:6
+msgid "New Contact"
+msgstr "Nieuw contactpersoon"
+
+#: \views\contacts\view.ctp:17
+msgid "Your name"
+msgstr "Jouw naam"
+
+#: \views\contacts\view.ctp:18
+msgid "Your email"
+msgstr "Jouw email"
+
+#: \views\contacts\view.ctp:19
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: \views\contacts\view.ctp:24
+msgid "Send"
+msgstr "Verzenden"
+
+#: \views\elements\comment.ctp:13
+msgid "said on"
+msgstr "zei op"
+
+#: \views\elements\comment.ctp:19
+msgid "Reply"
+msgstr "Reageer"
+
+#: \views\elements\comments_form.ctp:2
+msgid "Add new comment"
+msgstr "Commentaar toevoegen"
+
+#: \views\elements\comments_form.ctp:7
+msgid "Go back to original post"
+msgstr "Ga terug naar originele bericht"
+
+#: \views\elements\comments_form.ctp:23;39
+msgid "Name"
+msgstr "Naam"
+
+#: \views\elements\comments_form.ctp:28;40
+msgid "Email"
+msgstr "Email"
+
+#: \views\elements\comments_form.ctp:33;41
+msgid "Website"
+msgstr "Website"
+
+#: \views\elements\comments_form.ctp:48
+msgid "Post comment"
+msgstr "Commentaar schrijven"
+
+#: \views\elements\node_info.ctp:6
+msgid "Posted"
+msgstr "Geplaatst"
+
+#: \views\elements\node_info.ctp:20
+msgid "on"
+msgstr "op"
+
+#: \views\elements\node_more_info.ctp:17
+msgid "Posted in"
+msgstr "Geplaatst in"
+
+#: \views\elements\node_more_info.ctp:29
+msgid "Leave a comment"
+msgstr "Laat een commentaar achter"
+
+#: \views\elements\admin\logo.ctp:2
+msgid "Admin Panel"
+msgstr "Admin paneel"
+
+#: \views\elements\admin\logo.ctp:4
+msgid "Visit website"
+msgstr "Bezoek website"
+
+#: \views\elements\admin\navigation.ctp:6
+msgid "List"
+msgstr "Lijst"
+
+#: \views\elements\admin\navigation.ctp:8
+msgid "Content types"
+msgstr "Inhoud typen"
+
+#: \views\elements\admin\navigation.ctp:9
+#: \views\types\admin_add.ctp:8
+#: \views\types\admin_edit.ctp:9
+msgid "Taxonomy"
+msgstr "Classificatie"
+
+#: \views\elements\admin\navigation.ctp:24
+msgid "Regions"
+msgstr "Gebieden"
+
+#: \views\elements\admin\navigation.ctp:28
+msgid "Media"
+msgstr "Media"
+
+#: \views\elements\admin\navigation.ctp:31
+msgid "File Manager"
+msgstr "Bstandsbeheer"
+
+#: \views\elements\admin\nodes_filter.ctp:25
+msgid "Unpublished"
+msgstr "Niet gepubliceerd"
+
+#: \views\elements\admin\nodes_filter.ctp:35
+msgid "Promoted"
+msgstr "Opgewaardeerd"
+
+#: \views\elements\admin\nodes_filter.ctp:37
+msgid "Yes"
+msgstr "Ja"
+
+#: \views\elements\admin\nodes_filter.ctp:38
+msgid "No"
+msgstr "Nee"
+
+#: \views\elements\admin\nodes_filter.ctp:43
+#: \views\nodes\admin_index.ctp:10
+msgid "Filter"
+msgstr "Filter"
+
+#: \views\elements\admin\quick.ctp:4
+msgid "You are logged in as "
+msgstr "Je bent ingelogd als"
+
+#: \views\elements\admin\quick.ctp:5
+msgid "Log Out"
+msgstr "Uitloggen"
+
+#: \views\elements\email\text\comment.ctp:1
+msgid "A new comment has been posted under: "
+msgstr "Een nieuw commentaar is geplaatst bij:"
+
+#: \views\elements\email\text\forgot_password.ctp:1
+#: \views\elements\email\text\register.ctp:1
+msgid "Hello"
+msgstr "Hallo"
+
+#: \views\elements\email\text\forgot_password.ctp:4
+msgid "Please visit this link to reset your password"
+msgstr "Bezoek deze link om je wachtwoord te resetten"
+
+#: \views\elements\email\text\forgot_password.ctp:14
+msgid "If you did not request a password reset, then please ignore this email."
+msgstr "Indien je geen wachtwoord reset hebt verzocht, negeer deze email dan"
+
+#: \views\elements\email\text\register.ctp:4
+msgid "Please visit this link to activate your account"
+msgstr "Bezoek deze link om je account te activeren"
+
+#: \views\errors\missing_action.ctp:1
+#: \views\errors\missing_controller.ctp:1
+msgid "Page not found"
+msgstr "Pagina niet gevonden"
+
+#: \views\errors\missing_action.ctp:2
+#: \views\errors\missing_controller.ctp:2
+msgid "Error"
+msgstr "Fout"
+
+#: \views\errors\missing_action.ctp:4
+#: \views\errors\missing_controller.ctp:4
+msgid "The requested address was not found on this server."
+msgstr "The requested address was not found on this server."
+
+#: \views\filemanager\admin_browse.ctp:6
+msgid "Upload here"
+msgstr "Hier uploaden"
+
+#: \views\filemanager\admin_browse.ctp:7
+msgid "Create directory"
+msgstr "Bestandsmap aanmaken"
+
+#: \views\filemanager\admin_browse.ctp:8
+msgid "Create file"
+msgstr "Bestand aanmaken"
+
+#: \views\filemanager\admin_browse.ctp:14
+#: \views\filemanager\admin_create_directory.ctp:6
+#: \views\filemanager\admin_create_file.ctp:6
+#: \views\filemanager\admin_editfile.ctp:6
+#: \views\filemanager\admin_upload.ctp:6
+msgid "You are here:"
+msgstr "Je bent hier:"
+
+#: \views\filemanager\admin_browse.ctp:29
+msgid "Directory content"
+msgstr "Bestandsmap inhoud"
+
+#: \views\helpers\meta.php:34
+#: \views\settings\admin_view.ctp:9
+msgid "Key"
+msgstr "Sleutel"
+
+#: \views\helpers\meta.php:38
+#: \views\settings\admin_view.ctp:14
+msgid "Value"
+msgstr "Waarde"
+
+#: \views\helpers\meta.php:53
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: \views\languages\admin_index.ctp:6
+#: \views\languages\admin_select.ctp:6
+msgid "New Language"
+msgstr "Nieuwe taal"
+
+#: \views\layouts\admin_login.ctp:21
+msgid "Back to"
+msgstr "Terug naar"
+
+#: \views\layouts\maintenance.ctp:13
+msgid "Site down for maintenance."
+msgstr "Website niet beschikbaar in verband met onderhoud"
+
+#: \views\links\admin_add.ctp:7
+#: \views\links\admin_edit.ctp:7
+msgid "Link"
+msgstr "Link"
+
+#: \views\links\admin_add.ctp:9
+#: \views\links\admin_edit.ctp:9
+#: \views\menus\admin_add.ctp:8
+#: \views\menus\admin_edit.ctp:8
+#: \views\settings\admin_add.ctp:8
+#: \views\settings\admin_edit.ctp:8
+msgid "Misc."
+msgstr "Diverse"
+
+#: \views\links\admin_add.ctp:16
+#: \views\links\admin_edit.ctp:17
+msgid "Parent"
+msgstr "Parent"
+
+#: \views\links\admin_add.ctp:22
+#: \views\links\admin_edit.ctp:23
+msgid "Link to a Node"
+msgstr "Link naar een node"
+
+#: \views\links\admin_index.ctp:6
+msgid "New Link"
+msgstr "Nieuwe link"
+
+#: \views\links\admin_index.ctp:24
+#: \views\terms\admin_index.ctp:24
+msgid "Title"
+msgstr "Titel"
+
+#: \views\links\admin_index.ctp:25
+msgid "Status"
+msgstr "Status"
+
+#: \views\menus\admin_add.ctp:7
+#: \views\menus\admin_edit.ctp:7
+msgid "Menu"
+msgstr "Menu"
+
+#: \views\menus\admin_index.ctp:6
+msgid "New Menu"
+msgstr "Nieuw menu"
+
+#: \views\menus\admin_index.ctp:23
+msgid "View links"
+msgstr "Bekijk links"
+
+#: \views\messages\admin_index.ctp:60
+msgid "Mark as read"
+msgstr "Markeer als gelezen"
+
+#: \views\messages\admin_index.ctp:61
+msgid "Mark as unread"
+msgstr "Markeer als ongelezen"
+
+#: \views\nodes\admin_add.ctp:17
+#: \views\nodes\admin_edit.ctp:34
+msgid "Custom fields"
+msgstr "Eigen velden"
+
+#: \views\nodes\admin_add.ctp:18
+#: \views\nodes\admin_edit.ctp:35
+msgid "Publishing"
+msgstr "Publiceren"
+
+#: \views\nodes\admin_add.ctp:44
+#: \views\nodes\admin_edit.ctp:62
+#: \views\types\admin_add.ctp:42
+#: \views\types\admin_edit.ctp:44
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: \views\nodes\admin_add.ctp:45
+#: \views\nodes\admin_edit.ctp:63
+#: \views\types\admin_add.ctp:43
+#: \views\types\admin_edit.ctp:45
+msgid "Read only"
+msgstr "Alleen lezen"
+
+#: \views\nodes\admin_add.ctp:46
+#: \views\nodes\admin_edit.ctp:64
+#: \views\types\admin_add.ctp:44
+#: \views\types\admin_edit.ctp:46
+msgid "Read/Write"
+msgstr "Lezen/Schrijven"
+
+#: \views\nodes\admin_add.ctp:68
+#: \views\nodes\admin_edit.ctp:84
+msgid "Add another field"
+msgstr "Nieuw veld toevoegen"
+
+#: \views\nodes\admin_add.ctp:74
+#: \views\nodes\admin_edit.ctp:90
+msgid "Promoted to front page"
+msgstr "Opwaarderen naar voorpagina"
+
+#: \views\nodes\admin_edit.ctp:15
+#: \views\nodes\admin_index.ctp:43
+msgid "Translate"
+msgstr "vertaal"
+
+#: \views\nodes\admin_index.ctp:77
+msgid "Promote"
+msgstr "Opwaarderen"
+
+#: \views\nodes\admin_index.ctp:78
+msgid "Unpromote"
+msgstr "Afwaarderen"
+
+#: \views\nodes\admin_links.ctp:24
+msgid "Sort by:"
+msgstr "Sorteer op:"
+
+#: \views\nodes\index.ctp:4
+#: \views\nodes\promoted.ctp:4
+#: \views\nodes\term.ctp:6
+msgid "No items found."
+msgstr "Geen records gevonden"
+
+#: \views\nodes\term.ctp:2
+msgid "Term:"
+msgstr "Begrip:"
+
+#: \views\regions\admin_index.ctp:6
+msgid "New Region"
+msgstr "Nieuw gebied"
+
+#: \views\roles\admin_index.ctp:6
+msgid "New Role"
+msgstr "Nieuwe rol"
+
+#: \views\settings\admin_add.ctp:13
+#: \views\settings\admin_edit.ctp:14
+msgid "e.g., 'Site.title'"
+msgstr "bv. 'Site.titel'"
+
+#: \views\settings\admin_add.ctp:22
+#: \views\settings\admin_edit.ctp:23
+msgid "e.g., 'text' or 'textarea'"
+msgstr "bv. 'tekst' oder 'tekstgebied'"
+
+#: \views\settings\admin_index.ctp:6
+#: \views\settings\admin_view.ctp:46
+msgid "New Setting"
+msgstr "Nieuwe instelling"
+
+#: \views\settings\admin_view.ctp:2
+msgid "Setting"
+msgstr "Instelling"
+
+#: \views\settings\admin_view.ctp:19
+msgid "Description"
+msgstr "Beschrijving"
+
+#: \views\settings\admin_view.ctp:24
+msgid "Input Type"
+msgstr "Ingave type"
+
+#: \views\settings\admin_view.ctp:29
+msgid "Weight"
+msgstr "Gewicht"
+
+#: \views\settings\admin_view.ctp:34
+#: \views\types\admin_add.ctp:11
+#: \views\types\admin_edit.ctp:12
+msgid "Params"
+msgstr "Parameters"
+
+#: \views\settings\admin_view.ctp:43
+msgid "Edit Setting"
+msgstr "Instelling bewerken"
+
+#: \views\settings\admin_view.ctp:44
+msgid "Delete Setting"
+msgstr "Instelling verwijderen"
+
+#: \views\settings\admin_view.ctp:44
+msgid "Are you sure you want to delete # %s?"
+msgstr "Weet u zeker dat u # %s wilt verwijderen?"
+
+#: \views\settings\admin_view.ctp:45
+msgid "List Settings"
+msgstr "Lijst instellingen"
+
+#: \views\terms\admin_index.ctp:6
+msgid "New Term"
+msgstr "Nieuw begrip"
+
+#: \views\themes\admin_index.ctp:5
+msgid "Current Theme"
+msgstr "Huidig thema"
+
+#: \views\themes\admin_index.ctp:17;35
+msgid "Regions supported: "
+msgstr "Ondersteunde gebieden"
+
+#: \views\themes\admin_index.ctp:22
+msgid "Available Themes"
+msgstr "Beschikbare gebieden"
+
+#: \views\themes\admin_index.ctp:36
+msgid "Activate"
+msgstr "Activeer"
+
+#: \views\types\admin_add.ctp:9
+#: \views\types\admin_edit.ctp:10
+msgid "Format"
+msgstr "Formaat"
+
+#: \views\types\admin_add.ctp:31
+#: \views\types\admin_edit.ctp:33
+msgid "Show author's name"
+msgstr "Auteurnaam weergeven"
+
+#: \views\types\admin_add.ctp:34
+#: \views\types\admin_edit.ctp:36
+msgid "Show date"
+msgstr "Datum weergeven"
+
+#: \views\types\admin_index.ctp:6
+msgid "New Type"
+msgstr "Nieuw type"
+
+#: \views\users\admin_add.ctp:2
+msgid "Add User"
+msgstr "Gebruiker toevoegen"
+
+#: \views\users\admin_edit.ctp:2
+msgid "Edit User"
+msgstr "Gebruiker wijzigen"
+
+#: \views\users\admin_edit.ctp:6
+#: \views\users\admin_reset_password.ctp:2
+msgid "Reset password"
+msgstr "Wachtwoord resetten"
+
+#: \views\users\admin_index.ctp:6
+msgid "New User"
+msgstr "Nieuwe gebruiker"
+
+#: \views\users\admin_index.ctp:14
+msgid "Role"
+msgstr "Rol"
+
+#: \views\users\admin_login.ctp:10
+msgid "Forgot password?"
+msgstr "Wachtwoord vergeten?"
+
+#: \views\users\admin_reset_password.ctp:8
+msgid "New Password"
+msgstr "Nieuw wachtwoord"
+
+#: \views\users\index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "Je bent momenteel ingelogd als:"
+
+#: \views\users\login.ctp:2
+msgid "Login"
+msgstr "Inloggen"
+
+#: \views\users\reset.ctp:6
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#: \views\vocabularies\admin_add.ctp:8
+#: \views\vocabularies\admin_edit.ctp:9
+msgid "Options"
+msgstr "Opties"
+
+#: \views\vocabularies\admin_index.ctp:6
+msgid "New Vocabulary"
+msgstr "Nieuwe woordenlijst"
+
+#: \views\vocabularies\admin_index.ctp:22
+msgid "View terms"
+msgstr "Bekijk begrippen"
+
+#: \webroot\test.php:99
+msgid "Debug setting does not allow access to this url."
+msgstr "Debug instellingen staan toegang tot deze url niet toe"
+

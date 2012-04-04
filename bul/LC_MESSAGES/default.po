@@ -1,0 +1,2363 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-06-11 14:40+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\app_controller.php:109
+msgid "Site down for maintenance"
+msgstr "Сайтът е в процес на профилактика"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:83
+msgid "Attachments"
+msgstr "Прикачени файлове"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:96
+msgid "Add Attachment"
+msgstr "Добави прикачен файл"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:135;164
+msgid "The Attachment has been saved"
+msgstr "Прикаченият файл е запазен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:143;167
+msgid "The Attachment could not be saved. Please, try again."
+msgstr "Прикаченият файл не може да бъде запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:156
+msgid "Edit Attachment"
+msgstr "Редактирай прикачен файл"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:159
+msgid "Invalid Attachment"
+msgstr "Некоректен прикачен файл"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:184;205
+msgid "Invalid id for Attachment"
+msgstr "Некоректен id за прикачения файл"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:201
+msgid "Attachment deleted"
+msgstr "Прикаченият файл е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:52;54
+msgid "Blocks"
+msgstr "Блокове"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:2
+msgid "Add Block"
+msgstr "Добави блок"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:46;68
+msgid "The Block has been saved"
+msgstr "Блокът е запазен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:49;71
+msgid "The Block could not be saved. Please, try again."
+msgstr "Блокът не може да бъде запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:2
+msgid "Edit Block"
+msgstr "Редактирай блок"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:61
+msgid "Invalid Block"
+msgstr "Невалиден блок"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:89
+msgid "Invalid id for Block"
+msgstr "Невалиден id на блок"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:97
+msgid "Block deleted"
+msgstr "Блокът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:183
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:135
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:283
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:95
+msgid "Moved up successfully"
+msgstr "Успешно преместване нагоре"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:106
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:91
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:185
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:137
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:285
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:97
+msgid "Could not move up"
+msgstr "Невъзможност за преместване нагоре"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:114
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:99
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:203
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:145
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:316
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:105
+msgid "Moved down successfully"
+msgstr "Успешно преместване надолу"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:116
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:101
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:205
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:147
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:318
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:107
+msgid "Could not move down"
+msgstr "Невъзможност за преместване надолу"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:132
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:122
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:222
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:306
+msgid "No items selected."
+msgstr "Няма избрани елементи."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:138
+msgid "Blocks deleted."
+msgstr "Блоковете са изтрити."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:141
+msgid "Blocks published"
+msgstr "Блоковете са включени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:144
+msgid "Blocks unpublished"
+msgstr "Блоковете са изключени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:146
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:136
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:251
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:118
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:326
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:209;250;261
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:186
+msgid "An error occurred."
+msgstr "Грешка в изпълнението."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:49;143
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:11
+msgid "Comments"
+msgstr "Коментари"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:68
+msgid "Comments: Published"
+msgstr "Коментари: Публикувани"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:70
+msgid "Comments: Approval"
+msgstr "Коментари: Одобрени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:78
+msgid "Edit Comment"
+msgstr "Редактирай коментар"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:81
+msgid "Invalid Comment"
+msgstr "Невалиден коментар"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:86
+msgid "The Comment has been saved"
+msgstr "Коментарът е запазен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:89
+msgid "The Comment could not be saved. Please, try again."
+msgstr "Коментарът не може да бъде запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:99
+msgid "Invalid id for Comment"
+msgstr "Невалиден id за коментар"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:107
+msgid "Comment deleted"
+msgstr "Коментарът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:128
+msgid "Comments deleted."
+msgstr "Коментарите са изтрити"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:131
+msgid "Comments published"
+msgstr "Коментарите са записани"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:134
+msgid "Comments unpublished"
+msgstr "Коментарите са отписани"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:161;172
+msgid "Invalid Node"
+msgstr "Невалиден елемент"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:179
+msgid "Maximum level reached. You cannot reply to that comment."
+msgstr "Достигнат максимален брой. Не може да отговорите на този коментар."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:227
+msgid "Your comment has been added successfully."
+msgstr "Коментарът е добавен успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:229
+msgid "Your comment will appear after moderation."
+msgstr "Коментарът ще бъде видим след модерация."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:237
+msgid "New comment posted under"
+msgstr "Има нов коментар"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:262
+msgid "Sorry, the comment appears to be spam."
+msgstr "Вероятно коментарът е спам."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:275
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:181
+msgid "Invalid captcha entry"
+msgstr "Невалиден вход на captcha"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:89;91
+msgid "Contacts"
+msgstr "Контакти"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:50
+msgid "Add Contact"
+msgstr "Добави контакт"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:55;72
+msgid "The Contact has been saved"
+msgstr "Контактът е запазен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:58;75
+msgid "The Contact could not be saved. Please, try again."
+msgstr "Контактът не може да бъде запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:64
+msgid "Edit Contact"
+msgstr "Редактирай контакт"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:67
+msgid "Invalid Contact"
+msgstr "Невалиден контакт"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:85
+msgid "Invalid id for Contact"
+msgstr "Невалиден id за контакт"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:93
+msgid "Contact deleted"
+msgstr "Контактът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:136
+msgid "Your message has been received..."
+msgstr "Съобщението Ви е получено..."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:168
+msgid "Sorry, the message appears to be spam."
+msgstr "Вероятно коментарът е спам."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:66
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:84
+msgid "File Manager"
+msgstr "Файлов мениджър"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:81
+msgid "Edit file: %s"
+msgstr "Редакция на файл: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:92
+msgid "File saved successfully"
+msgstr "Файлът е запазен успешно"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:102
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_add.ctp:12
+msgid "Upload"
+msgstr "Качване"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:115
+msgid "File uploaded successfully."
+msgstr "Файлът е качен успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:135
+msgid "File deleted"
+msgstr "Файлът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:137;164;210;232
+msgid "An error occured"
+msgstr "Настъпи грешка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:162
+msgid "Directory deleted"
+msgstr "Директорията е изтрита"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:195
+msgid "New Directory"
+msgstr "Нова директория"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:206
+msgid "Directory created successfully."
+msgstr "Директорията е създадена успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:218
+msgid "New File"
+msgstr "Нов файл"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:228
+msgid "File created successfully."
+msgstr "Файлът е създаден успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:114
+msgid "Languages"
+msgstr "Езици"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:39
+msgid "Add Language"
+msgstr "Добави език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:44;61
+msgid "The Language has been saved"
+msgstr "Езикът е запазен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:47;64
+msgid "The Language could not be saved. Please, try again."
+msgstr "Езикът не може да бъде запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:53
+msgid "Edit Language"
+msgstr "Редакция на език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:104
+msgid "Invalid Language"
+msgstr "Невалиден език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:74
+msgid "Invalid id for Language"
+msgstr "Невалиден id за език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:82
+msgid "Language deleted"
+msgstr "Езикът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:113
+msgid "Select a language"
+msgstr "Избор на език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:56
+msgid "Links: %s"
+msgstr "Препратки: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:75
+msgid "Add Link"
+msgstr "Добави препратка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:86;118
+msgid "The Link has been saved"
+msgstr "Препратката е запазена"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:89;121
+msgid "The Link could not be saved. Please, try again."
+msgstr "Препратката не е запазена. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:101
+msgid "Edit Link"
+msgstr "Редактирай препратка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:104
+msgid "Invalid Link"
+msgstr "Невалидна препратка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:141;149;176;196
+msgid "Invalid id for Link"
+msgstr "Невалиден id за препратка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:165
+msgid "Link deleted"
+msgstr "Препратката е изтрита"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:243
+msgid "Links deleted."
+msgstr "Препратките са изтрити."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:246
+msgid "Links published"
+msgstr "Препратките са активирани"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:249
+msgid "Links unpublished"
+msgstr "Препратките са деактивирани"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:41;43
+msgid "Menus"
+msgstr "Менюта"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:39
+msgid "Add Menu"
+msgstr "Добави меню"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:44;61
+msgid "The Menu has been saved"
+msgstr "Менюто е запазено"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:47;64
+msgid "The Menu could not be saved. Please, try again."
+msgstr "Менюто не може да бъде запазено. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:53
+msgid "Edit Menu"
+msgstr "Редакция на меню"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:56
+msgid "Invalid Menu"
+msgstr "Невалидено меню"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:74
+msgid "Invalid id for Menu"
+msgstr "Некоректно id на меню"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:82
+msgid "Menu deleted"
+msgstr "Менюто е изтрито"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:92
+msgid "Messages"
+msgstr "Съобщения"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:50
+msgid "Messages: Read"
+msgstr "Съобщения: прочетени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:52
+msgid "Messages: Unread"
+msgstr "Съобщения: непрочетени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:60
+msgid "Edit Message"
+msgstr "Редакция на съобщение"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:63
+msgid "Invalid Message"
+msgstr "Невалидно съобщение"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:68
+msgid "The Message has been saved"
+msgstr "Съобщението е запазено"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:71
+msgid "The Message could not be saved. Please, try again."
+msgstr "Съобщението не може да бъде запазено. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:81
+msgid "Invalid id for Message"
+msgstr "Некоректно id за съобщение"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:89
+msgid "Message deleted"
+msgstr "Съобщението е изтрито"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:110
+msgid "Messages deleted."
+msgstr "Съобщенията са изтрити."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:113
+msgid "Messages marked as read"
+msgstr "Съобщенията са маркирани като прочетени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:116
+msgid "Messages marked as unread"
+msgstr "Съобщенията са маркирани като непрочетени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_edit.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:8
+msgid "Content"
+msgstr "Съдържание"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:9
+msgid "Create content"
+msgstr "Създай съдържание"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:102;173
+msgid "Content type does not exist."
+msgstr "Типът съдържание не съществува."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:106
+msgid "Create content: %s"
+msgstr "Създаване на съдържание: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:141;207
+msgid "%s has been saved"
+msgstr "%s е запазен успешно"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:144;210
+msgid "%s could not be saved. Please, try again."
+msgstr "% не може да бъде запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:164;647;675
+msgid "Invalid content"
+msgstr "Невалидно съдържание"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:177
+msgid "Edit content: %s"
+msgstr "Редакция на съдържание: %s"
+
+
+
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:264
+msgid "Paths updated."
+msgstr "Пътищата са обновени."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:270
+msgid "Invalid id for Node"
+msgstr "Невалиден id за елемент"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:278
+msgid "Node deleted"
+msgstr "Елементът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:312
+msgid "Nodes deleted."
+msgstr "Елементите са изтрити."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:315
+msgid "Nodes published"
+msgstr "Елементите са активирани"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:318
+msgid "Nodes unpublished"
+msgstr "Елементите са деактивирани"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:321
+msgid "Nodes promoted"
+msgstr "Елементите са добавени към началната страница"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:324
+msgid "Елементите са премахнати от началната страница"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:365;452;517;592
+msgid "Invalid content type."
+msgstr "Невалиден тип на съдъжанието."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:415
+msgid "Invalid Term."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:493
+msgid "Nodes"
+msgstr "Елементи."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:602
+msgid "Search Results: %s"
+msgstr "Резултати от търсенето: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:31
+msgid "Region"
+msgstr "Район"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:39
+msgid "Add Region"
+msgstr "Добави район"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:44;61
+msgid "The Region has been saved"
+msgstr "Районът е запазен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:47;64
+msgid "The Region could not be saved. Please, try again."
+msgstr "Районът не е запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:53
+msgid "Edit Region"
+msgstr "Промени район"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:56
+msgid "Invalid Region"
+msgstr "Невалиден район"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:74
+msgid "Invalid id for Region"
+msgstr "Невалиден id за район"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:82
+msgid "Region deleted"
+msgstr "Районът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:100
+msgid "Roles"
+msgstr "Потребителски роли"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:39
+msgid "Add Role"
+msgstr "Добави роля"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:44;61
+msgid "The Role has been saved"
+msgstr "Ролята беше запазена"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:47;64
+msgid "The Role could not be saved. Please, try again."
+msgstr "Ролята не беше запазена. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:53
+msgid "Edit Role"
+msgstr "Редактирай роля"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:56
+msgid "Invalid Role"
+msgstr "Невалидна роля"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:74
+msgid "Invalid id for Role"
+msgstr "Невалидно id за роля"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:82
+msgid "Role deleted"
+msgstr "Ролята е изтрита"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:4
+msgid "Dashboard"
+msgstr "Администрация"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:106
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:7
+msgid "Settings"
+msgstr "Настройки"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:54
+msgid "Invalid Setting."
+msgstr "Невалидна настройка."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:61
+msgid "Add Setting"
+msgstr "Добави настройка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:66;83
+msgid "The Setting has been saved"
+msgstr "Настройките бяха запазени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:69;86
+msgid "The Setting could not be saved. Please, try again."
+msgstr "Настройката не може да бъде запазена. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:75
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:43
+msgid "Edit Setting"
+msgstr "Промяна на настройка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:78
+msgid "Invalid Setting"
+msgstr "Невалидна настройка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:96
+msgid "Invalid id for Setting"
+msgstr "Невалидно id за настройка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:104
+msgid "Setting deleted"
+msgstr "Настройката е изтрита"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:110
+msgid "Settings: %s"
+msgstr "Настройка: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:113
+msgid "Settings updated successfully"
+msgstr "Настройките са променени успешно"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:127
+msgid "Invalid Setting key"
+msgstr "Невалиден ключ за настройки"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:48
+msgid "Invalid Vocabulary ID."
+msgstr "Невалидно id за речник"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:54
+msgid "Vocabulary: %s"
+msgstr "Речник"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:87
+msgid "%s: Add Term"
+msgstr "%s Добави условие"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:97;193
+msgid "Term with same slug already exists in the vocabulary."
+msgstr "Условие със същия slug съществува вече в речника."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:110;207
+msgid "Term saved successfuly."
+msgstr "Условието е запазено успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:116;213
+msgid "Term could not be added to the vocabulary. Please try again."
+msgstr "Условието не може да бъде добавено в речника. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:120;217
+msgid "Term could not be saved. Please try again."
+msgstr "Условието не може да бъде запазено. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:168
+msgid "%s: Edit Term"
+msgstr "%s: Редактирай условие"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:229;264;296
+msgid "Invalid id for Term"
+msgstr "Невалидно id за условие"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:252
+msgid "Term deleted"
+msgstr "Условието е изтрито"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:254
+msgid "Term could not be deleted. Please, try again."
+msgstr "Условието не може да бъде изтрито. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:8
+msgid "Type"
+msgstr "Тип"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:46
+msgid "Add Type"
+msgstr "Добави тип"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:51;71
+msgid "The Type has been saved"
+msgstr "Типът беше запазен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:54;74
+msgid "The Type could not be saved. Please, try again."
+msgstr "Типът не може да бъде запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:63
+msgid "Edit Type"
+msgstr "Редактирай тип"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:66
+msgid "Invalid Type"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:87
+msgid "Invalid id for Type"
+msgstr "Невалидно id за тип"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:95
+msgid "Type deleted"
+msgstr "Типът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:49
+msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
+msgstr "Достигнахте максималния брой неуспешни опити за влизане в системата. Моля, опитайте отново след няколко минути."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:69;162
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:97;99
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:2
+msgid "Users"
+msgstr "Потребители"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:80;100
+msgid "The User has been saved"
+msgstr "Потребителят е запазен успешно"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:83;103;188
+msgid "The User could not be saved. Please, try again."
+msgstr "Потребителят не беше запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:95;115
+msgid "Invalid User"
+msgstr "Невалиден потребител"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:122
+msgid "Password has been reset."
+msgstr "Паролата беше променена."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:125
+msgid "Password could not be reset. Please, try again."
+msgstr "Паролата не беше променена. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:128
+msgid "Current password did not match. Please, try again."
+msgstr "Текущата парола не съвпада. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:138
+msgid "Invalid id for User"
+msgstr "Невалиден id за потребител"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:146
+msgid "User deleted"
+msgstr "Потребителят е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:152
+msgid "Admin Login"
+msgstr "Вход като админ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:157;285
+msgid "Log out successful."
+msgstr "Успешно влизане в системата."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:166
+msgid "Register"
+msgstr "Регистрация"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:180
+msgid "["
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:185
+msgid "You have successfully registered an account. An email has been sent with further instructions."
+msgstr "Успешно създаване на профил. На електронната поща ще бъде изпратено писмо със следващите инструкции."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:207
+msgid "Account activated successfully."
+msgstr "Профилът е активиран успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:218
+msgid "Forgot Password"
+msgstr "Забравена парола"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:223
+msgid "Invalid username."
+msgstr "Невалидно потребителко име."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:235;247
+msgid "Reset Password"
+msgstr "Промяна на парола"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:238
+msgid "An email has been sent with instructions for resetting your password."
+msgstr "На електронната поща беше изпратено писмо с инструкции за промяна на паролата ви."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:241;273
+msgid "An error occurred. Please try again."
+msgstr "Възникна грешка. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:270
+msgid "Your password has been reset successfully."
+msgstr "Вашата парола беше променена успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:281
+msgid "Log in"
+msgstr "Вход"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:292
+msgid "Invalid User."
+msgstr "Невалиден потребител"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:31
+msgid "Vocabularies"
+msgstr "Речници"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:39
+msgid "Add Vocabulary"
+msgstr "Добави речник"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:44;64
+msgid "The Vocabulary has been saved"
+msgstr "Речникът е запазен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:47;67
+msgid "The Vocabulary could not be saved. Please, try again."
+msgstr "Речникът не може да бъде запазен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:56
+msgid "Edit Vocabulary"
+msgstr "Редактирай речника"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:59
+msgid "Invalid Vocabulary"
+msgstr "Невалиден речник"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:80
+msgid "Invalid id for Vocabulary"
+msgstr "Невалидно id за речник"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:88
+msgid "Vocabulary deleted"
+msgstr "Речникът е изтрит"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\models\behaviors\croogo_translate.php:73
+msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:2
+msgid "Acos"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_add.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_edit.ctp:2
+msgid "Add Aco"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:31;48
+msgid "The Aco has been saved"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:34;51
+msgid "The Aco could not be saved. Please, try again."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:40
+msgid "Edit Aco"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:43
+msgid "Invalid Aco"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:61
+msgid "Invalid id for Aco"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:69
+msgid "Aco deleted"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:16
+msgid "Actions"
+msgstr "Действия"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:32
+msgid "Add Action"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:46;49
+msgid "The "
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:72
+msgid "Edit Action"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:75
+msgid "Invalid Action"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:80
+msgid "The Action has been saved"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:83
+msgid "The Action could not be saved. Please, try again."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:110;125
+msgid "Invalid id for Action"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:118
+msgid "Action deleted"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:130
+msgid "Action moved up"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:135
+msgid "Action moved down"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:2
+msgid "Aros"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_add.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_edit.ctp:2
+msgid "Add Aro"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:31;48
+msgid "The Aro has been saved"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:34;51
+msgid "The Aro could not be saved. Please, try again."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:40
+msgid "Edit Aro"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:43
+msgid "Invalid Aro"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:61
+msgid "Invalid id for Aro"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:69
+msgid "Aro deleted"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_permissions_controller.php:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:101
+msgid "Permissions"
+msgstr "Потребителски ограничения"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:6
+msgid "New Aco"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:41
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:45
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:55
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:23
+msgid "Edit"
+msgstr "Редактирай"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:40
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:30;59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:39;75
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:38;57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:41;68
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:38;67
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:27
+msgid "Delete"
+msgstr "Изтрий"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:33
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:67
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:32
+msgid "Are you sure?"
+msgstr "Сигурни ли сте?"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:70
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:60
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:69
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:85
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:77
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:93
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:50
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:49
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Страница %page% от %pages%, показваща %current% резултата от общо %count%,  започваща от %start%, завършваща с %end%"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_edit.ctp:11
+msgid "Choose none if the Aco is a controller."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:10
+msgid "New Action"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:9
+msgid "Generate Actions"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:29
+msgid "Id"
+msgstr "Id"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:14
+msgid "Alias"
+msgstr "Роля"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:47
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:24
+msgid "Move up"
+msgstr "Преместване нагоре"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:25
+msgid "Move down"
+msgstr "Преместване надолу"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:6
+msgid "New Aro"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:10
+msgid "Edit Actions"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_toggle.ctp:9
+msgid "error"
+msgstr "грешка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\controllers\example_controller.php:31;35
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:1
+msgid "Example"
+msgstr "Пример"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:3
+msgid "Example 1"
+msgstr "Пример 1"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:4
+msgid "Example 2"
+msgstr "Пример 2"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\example\admin_index.ctp:3
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\example\index.ctp:3
+msgid "content here"
+msgstr "съдъжанието тук"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:65
+msgid "Hooks"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:76;96
+msgid "%s activated successfully."
+msgstr "%s е активиран успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:78;98
+msgid "%s could not be activated. Plugin depends on other plugins that are not available."
+msgstr "%s не може да бъде активиран. Плъгинът зависи от други плъгини, които не са на разположение."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:89
+msgid "%s deactivated successfully."
+msgstr "%s е деактивиран успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:63
+msgid "Locales"
+msgstr "Езици"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:53
+msgid "Locale does not exist."
+msgstr "Езикът не същестува."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:70
+msgid "Could not edit croogo_bootstrap.php file."
+msgstr "Файлът croogo_bootstrap.php не може да бъде редактиран"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:76
+msgid "Upload a new locale"
+msgstr "Качи нов език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:102;151
+msgid "Invalid locale."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:107
+msgid "Locale already exists."
+msgstr "Езикът вече съществува."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:148
+msgid "Edit locale: %s"
+msgstr "Редакция на език: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:156
+msgid "The file default.po does not exist."
+msgstr "Файлът default.po не съществува"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:166
+msgid "Locale updated successfully"
+msgstr "Езикът е качен успешно"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:176
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:89
+msgid "Invalid locale"
+msgstr "Невалиден език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:186
+msgid "Locale deleted successfully."
+msgstr "Езикът е изтрит успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:188
+msgid "Local could not be deleted."
+msgstr "Езикът не може да бъде изтрит."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:64
+msgid "Plugins"
+msgstr "Плъгини"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:63
+msgid "Upload a new plugin"
+msgstr "Качи нов плъгин"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:92
+msgid "Invalid plugin."
+msgstr "Невалиден плъгин."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:102
+msgid "Plugin already exists."
+msgstr "Плъгинът вече съществува."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:144
+msgid "Invalid plugin"
+msgstr "Невалиден плъгин"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:152
+msgid "You cannot delete a plugin that is currently active."
+msgstr "Не може да изтриете активиран плъгин."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:158
+msgid "Plugin deleted successfully."
+msgstr "Плъгинът е изтрит успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:160
+msgid "Plugin could not be deleted."
+msgstr "Плъгинът не може да бъде изтрит."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:62
+msgid "Themes"
+msgstr "Теми"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:62
+msgid "Theme activated."
+msgstr "Темата е активирана."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:68
+msgid "Upload a new theme"
+msgstr "Качване на нова тема"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:93
+msgid "Invalid YML file"
+msgstr "Невалиден YML файл"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:99
+msgid "Invalid zip archive"
+msgstr "Невалиден zip архив"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:104
+msgid "Directory with theme alias already exists."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:138
+msgid "Theme uploaded successfully."
+msgstr "Темата е качена успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:145
+msgid "Theme Editor"
+msgstr "Редактор на теми"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:154
+msgid "Invalid Theme."
+msgstr "Невалидна тема."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:163
+msgid "Default theme cannot be deleted."
+msgstr "Темата по подразбиране не може да бъде изтрита."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:166
+msgid "You cannot delete a theme that is currently active."
+msgstr "Не можете да изтриете тема, която е актива в момента."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:188
+msgid "Theme deleted successfully."
+msgstr "Темата е изтрита успешно."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:13
+msgid "Plugin"
+msgstr "Плъгин"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:14
+msgid "Hook"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:15
+msgid "Hook type"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:30
+msgid "Status"
+msgstr "Статус"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:38
+msgid "Deactivate"
+msgstr "Деактивиране"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:41
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:58
+msgid "Activate"
+msgstr "Активиране"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:27
+msgid "Locale"
+msgstr "Език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:15
+msgid "Default"
+msgstr "По подразбиране"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:23;39
+msgid "Name"
+msgstr "Име"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:19
+msgid "Description"
+msgstr "Описание"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:17
+msgid "Hooks Active"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:7
+msgid "Editor"
+msgstr "Редактор"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:12
+msgid "Current Theme"
+msgstr "Текуща тема"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:28;54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\rss\index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:9
+msgid "by"
+msgstr "от"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:32;56
+msgid "Regions supported: "
+msgstr "Поддържани райони: "
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:37
+msgid "Available Themes"
+msgstr "Налични теми"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:93
+msgid "Installation: Welcome"
+msgstr "Инсталиране: Добре дошли"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:108
+msgid "Step 1: Database"
+msgstr "Първа стъпка: База данни"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:124;165
+msgid "Could not connect to database."
+msgstr "Не може да се свърже с база данни."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:145
+msgid "Could not write database.php file."
+msgstr "Файлът database.php е непрезаписваем."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:157
+msgid "Step 2: Build database"
+msgstr "Стъпка 2: Създраване на база данни"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:210
+msgid "Installation completed successfully"
+msgstr "Инсталацията завърши успешно"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:215
+msgid "Installation files deleted successfully."
+msgstr "Инсталационните файлове са изтрити."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:218
+msgid "Could not delete installation files."
+msgstr "Инсталационните файлове не могат да бъдат изтрити."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\data.ctp:5
+msgid "Click here to build your database"
+msgstr "Натиснете тук за да създадете вашата база данни"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\finish.ctp:21
+msgid "Click here to delete installation files"
+msgstr "Натиснете тук за да изтриете инсталационните файлове"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:8
+msgid "Your tmp directory is writable."
+msgstr "Вашата tmp директория е презаписваема."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:11
+msgid "Your tmp directory is NOT writable."
+msgstr "Вашата tmp директория НЕ е презаписваема."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:16
+msgid "Your config directory is writable."
+msgstr "Вашата config директория е презаписваема."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:19
+msgid "Your config directory is NOT writable."
+msgstr "Вашата config директория НЕ е презаписваема."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:24
+msgid "PHP version %s > 5"
+msgstr "PHP версия %s > 5"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:27
+msgid "PHP version %s < 5"
+msgstr "PHP версия %s < 5"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:33
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr "Инсталацията не може да продължи докато минимални изисквания не са изпълнени."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\layouts\install.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_full.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_login.ctp:5
+msgid "Croogo"
+msgstr "Croogo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\layouts\install.ctp:21
+msgid "Install Croogo"
+msgstr "Инсталиране на Croogo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:35;80
+msgid "Invalid ID."
+msgstr "Невалидно ID."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:44;161
+msgid "Invalid model."
+msgstr "Невалиден модел."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:56;116;173
+msgid "Invalid record."
+msgstr "Невалиден запис."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:63
+msgid "Translations: %s"
+msgstr "Преводи: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:123
+msgid "Translate content: %s (%s)"
+msgstr "Съдържание на преводи(те): %s (%s)"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:130
+msgid "Record has been translated"
+msgstr "Записът беше преведен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:137
+msgid "Record could not be translated. Please, try again."
+msgstr "Записът не може да бъде преведен. Моля, опитайте отново."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:148
+msgid "Invalid Locale or ID"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:188
+msgid "Translation for the locale deleted successfully."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:190
+msgid "Translation for the locale could not be deleted."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_edit.ctp:15
+msgid "Record"
+msgstr "Запис"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:8
+msgid "Translate in a new language"
+msgstr "Превод на нов език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:30
+msgid "Title"
+msgstr "Потребителско име"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:52
+msgid "No translations available."
+msgstr "Няма налични преводи."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\tests\cases\controllers\languages_controller.test.php:185;216
+msgid "Could not add a new language."
+msgstr "Не може да бъде добавен нов език."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:6
+msgid "New Attachment"
+msgstr "Ново прикачване"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:16
+msgid "URL"
+msgstr "URL"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:51
+msgid "Insert"
+msgstr "Вмъкване"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:9
+msgid "Attachment"
+msgstr "Прикачване"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:10
+msgid "Info"
+msgstr "Информация"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:29
+msgid "Caption"
+msgstr "Надпис"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:36
+msgid "File URL"
+msgstr "URL на файла"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:37
+msgid "Mime Type"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:7
+msgid "Block"
+msgstr "Блок"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:13
+msgid "Access"
+msgstr "Достъп"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:9
+msgid "Visibilities"
+msgstr "Видимост"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:17
+msgid "unique name for your block"
+msgstr "уникално име за вашия блок"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:18
+msgid "if you are not sure, choose 'none'"
+msgstr "Ако не сте сигурен, изберете 'none'"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:36
+msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:6
+msgid "New Block"
+msgstr "Нов блок"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:73
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:66
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:79
+msgid "Publish"
+msgstr "Публикуван"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:67
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:80
+msgid "Unpublish"
+msgstr "Непубликуван"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:79
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:72
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:71
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:87
+msgid "Submit"
+msgstr "Добави"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:112
+msgid "Comment"
+msgstr "Коментар"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:9
+msgid "Contact Info"
+msgstr "Информация за контакт"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:33
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:84
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:85
+msgid "Published"
+msgstr "Публикувано"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:34
+msgid "Approval"
+msgstr "Одобрение"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\rss\index.ctp:16
+msgid "Comment on"
+msgstr "Коментар на"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:7
+msgid "Contact"
+msgstr "Контакт"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:8
+msgid "Details"
+msgstr "Детайли"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:20
+msgid "Message"
+msgstr "Съобщение"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:40
+msgid "Let users leave a message"
+msgstr "Позволете на потребителите да оставят съобщение"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:43
+msgid "Save messages in database"
+msgstr "Съощбението е добавено в база данни"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:45
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:46
+msgid "Notify by email instantly"
+msgstr "Незабавно уведомяване по електронната поща"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:56
+msgid "Spam protection (requires Akismet API key)"
+msgstr "Spam защита (изисква Akismet API ключ)"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:52
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:59
+msgid "Use captcha? (requires Recaptcha API key)"
+msgstr "Използва captcha? (изисква Recaptcha API ключ)"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:65
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:66
+msgid "You can manage your API keys here."
+msgstr "Можете да управлявате вашия API ключ тук."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:6
+msgid "New Contact"
+msgstr "Нов контакт"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:17
+msgid "Your name"
+msgstr "Вашето име"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:18
+msgid "Your email"
+msgstr "Вашата електронна поща"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:19
+msgid "Subject"
+msgstr "Предмет"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:24
+msgid "Send"
+msgstr "Изпрати"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comment.ctp:13
+msgid "said on %s"
+msgstr "каза в %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comment.ctp:19
+msgid "Reply"
+msgstr "Отговор"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:2
+msgid "Add new comment"
+msgstr "Добавяне на нов коментар"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:7
+msgid "Go back to original post"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:28;40
+msgid "Email"
+msgstr "Email"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:33;41
+msgid "Website"
+msgstr "Website"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:48
+msgid "Post comment"
+msgstr "Публикувай коментар"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:6
+msgid "Posted"
+msgstr "Добавен"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:20
+msgid "on"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:17
+msgid "Posted in"
+msgstr "Добавено в"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:28
+msgid "Leave a comment"
+msgstr "Добави коментар"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\search.ctp:24
+msgid "Search"
+msgstr "Търсене"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\logo.ctp:2
+msgid "Admin Panel"
+msgstr "Администраторски панел"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\logo.ctp:4
+msgid "Visit website"
+msgstr "Към сайтът"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:10;23
+msgid "List"
+msgstr "Списък"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:19
+msgid "Content types"
+msgstr "Типове на съдържанието"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:9
+msgid "Taxonomy"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:24;44
+msgid "Add new"
+msgstr "Добави нов"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:55
+msgid "Regions"
+msgstr "Райони"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:60
+msgid "Extensions"
+msgstr "Разширения"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:81
+msgid "Media"
+msgstr "Медия"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:108
+msgid "Site"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:109
+msgid "Meta"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:110
+msgid "Reading"
+msgstr "Четене"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:111
+msgid "Writing"
+msgstr "Писане"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:113
+msgid "Service"
+msgstr "Услуга"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:25
+msgid "Unpublished"
+msgstr "Непубликуван"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:35
+msgid "Promoted"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:37
+msgid "Yes"
+msgstr "Да"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:38
+msgid "No"
+msgstr "Не"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:10
+msgid "Filter"
+msgstr "Филтер"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\quick.ctp:4
+msgid "You are logged in as "
+msgstr "Влезли сте като "
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\quick.ctp:5
+msgid "Log Out"
+msgstr "Изход"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:2
+msgid "A new comment has been posted under: %s"
+msgstr "Беше добавен нов коментар в: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:8
+msgid "Name: %s"
+msgstr "Име: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:9
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:8
+msgid "Website: %s"
+msgstr "Website: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:17
+msgid "IP Address: %s"
+msgstr "IP адрес: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:10
+msgid "Comment: %s"
+
+msgstr "Коментар: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:7
+msgid "You have received a new message at: %s"
+msgstr "Получихте ново съобщение в: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:10
+msgid "Subject: %s"
+msgstr "Предмет: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:12
+msgid "Message: %s"
+msgstr "Съобщение: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\register.ctp:1
+msgid "Hello %s"
+msgstr "Здравей %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:10
+msgid "Please visit this link to reset your password: %s"
+msgstr "Моля, посете тази страница за промяна на паролата: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:14
+msgid "If you did not request a password reset, then please ignore this email."
+msgstr "Ако не сте поискали промяна на паролата, игнорирайте това писмо."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\register.ctp:10
+msgid "Please visit this link to activate your account: %s"
+msgstr "Моля, посете тази страница за да активирате профила си: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:1
+msgid "Page not found"
+msgstr "Страницата не е намерена"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:2
+msgid "Error"
+msgstr "Грешка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:4
+msgid "The requested address was not found on this server."
+msgstr "Търсеният адрес не беше намерен на този сървър."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:2
+msgid "Security Error"
+msgstr "Грешка в сигурността"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:6
+msgid "Upload here"
+msgstr "Качи тук"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:7
+msgid "Create directory"
+msgstr "Създаване на директория"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:8
+msgid "Create file"
+msgstr "Създаване на файл"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_create_directory.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_create_file.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_editfile.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_upload.ctp:6
+msgid "You are here:"
+msgstr "Вие сте тук:"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:28
+msgid "Directory content"
+msgstr "Съдържание на директорията"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:36
+msgid "Open"
+msgstr "Отвори"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:596
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:9
+msgid "Key"
+msgstr "Ключ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:600
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:14
+msgid "Value"
+msgstr "Стойност"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:615
+msgid "Remove"
+msgstr "Премахни"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_select.ctp:6
+msgid "New Language"
+msgstr "Нов език"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_login.ctp:21
+msgid "Back to"
+msgstr "Върни се на"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\maintenance.ctp:13
+msgid "Site down for maintenance."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:7
+msgid "Link"
+msgstr "Препратка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:8
+msgid "Misc."
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:17
+msgid "Parent"
+msgstr "Родител"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:23
+msgid "Link to a Node"
+msgstr "Препратка към елемент"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:6
+msgid "New Link"
+msgstr "Нова препратка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_edit.ctp:7
+msgid "Menu"
+msgstr "Меню"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:6
+msgid "New Menu"
+msgstr "Ново меню"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:23
+msgid "View links"
+msgstr "Виж препратките"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:6
+msgid "Unread"
+msgstr "Непрочетени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:7
+msgid "Read"
+msgstr "Прочетени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:65
+msgid "Mark as read"
+msgstr "Маркирай като прочетени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:66
+msgid "Mark as unread"
+msgstr "Маркирай като непрочетени"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:10
+msgid "Terms"
+msgstr "Условия"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:12
+msgid "Custom fields"
+msgstr "Потребителски полета"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:14
+msgid "Publishing"
+msgstr "Публикуване"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:52
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:44
+msgid "Disabled"
+msgstr "Деактивирани"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:45
+msgid "Read only"
+msgstr "Само за четене"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:50
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:46
+msgid "Read/Write"
+msgstr "Четене/Писане"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:72
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:74
+msgid "Add another field"
+msgstr "Добави ново поле"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:88
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:86
+msgid "Promoted to front page"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:81
+msgid "Promote"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:82
+msgid "Unpromote"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_links.ctp:24
+msgid "Sort by:"
+msgstr "Подреди по:"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\index.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\promoted.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\search.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\term.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\index_blog.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\term_2.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\term_node.ctp:7
+msgid "No items found."
+msgstr "Няма намерени елементи."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:6
+msgid "New Region"
+msgstr "Нов район"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:6
+msgid "New Role"
+msgstr "Нова роля"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:14
+msgid "e.g., 'Site.title'"
+msgstr "пр., 'Site.title'"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:23
+msgid "e.g., 'text' or 'textarea'"
+msgstr "пр., 'text' or 'textarea'"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:46
+msgid "New Setting"
+msgstr "Нова настойка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:2
+msgid "Setting"
+msgstr "Настройки"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:24
+msgid "Input Type"
+msgstr "Вид на въвеждане"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:29
+msgid "Weight"
+msgstr "Тегло"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:12
+msgid "Params"
+msgstr "Параметри"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:44
+msgid "Delete Setting"
+msgstr "Изтрий настройка"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:44
+msgid "Are you sure you want to delete # %s?"
+msgstr "Сигурени ли сте, че искате да изтриете # %s?"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:45
+msgid "List Settings"
+msgstr "Списък с настройки"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_add.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_edit.ctp:12
+msgid "Term"
+msgstr "Условия"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:6
+msgid "New Term"
+msgstr "Ново условие"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:31
+msgid "Slug"
+msgstr "Slug"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:10
+msgid "Format"
+msgstr "Формат"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:33
+msgid "Show author's name"
+msgstr "Покажи името на автора"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:36
+msgid "Show date"
+msgstr "Покажи датата"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:6
+msgid "New Type"
+msgstr "Нов тип"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_add.ctp:2
+msgid "Add User"
+msgstr "Добави потребител"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_edit.ctp:2
+msgid "Edit User"
+msgstr "Редактирай потребител"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_edit.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:2
+msgid "Reset password"
+msgstr "Промени парола"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:6
+msgid "New User"
+msgstr "Нов потребител"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:14
+msgid "Role"
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_login.ctp:10
+msgid "Forgot password?"
+msgstr "Забравена парола?"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_login.ctp:17
+msgid "Log In"
+msgstr "Вход"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:8
+msgid "Current Password"
+msgstr "Текуща парола"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:9
+msgid "New Password"
+msgstr "Нова парола"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "В момента сте влезли като"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\login.ctp:2
+msgid "Login"
+msgstr "Вход"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\reset.ctp:6
+msgid "New password"
+msgstr "Нова парола"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_edit.ctp:8
+msgid "Vocabulary"
+msgstr "Речник"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_edit.ctp:9
+msgid "Options"
+msgstr "Настройки"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:6
+msgid "New Vocabulary"
+msgstr "Нов речник"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:22
+msgid "View terms"
+msgstr "Прегледай условията"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\webroot\test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr "Настройките за debug не позволяват достъп до този url."
+
+#: End
