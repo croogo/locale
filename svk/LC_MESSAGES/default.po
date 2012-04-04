@@ -1,0 +1,2358 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+# itkariera.sk
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-06-11 14:40+0000\n"
+"PO-Revision-Date: 2010-09-01 10:10+0100\n"
+"Last-Translator: (status draft) ITKariera <support@itkariera.sk>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\app_controller.php:109
+msgid "Site down for maintenance"
+msgstr "Prebieha údržba stránky"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:82
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:83
+msgid "Attachments"
+msgstr "Prílohy"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:96
+msgid "Add Attachment"
+msgstr "Pridaj prílohu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:135;164
+msgid "The Attachment has been saved"
+msgstr "Príloha uložená"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:143;167
+msgid "The Attachment could not be saved. Please, try again."
+msgstr "Nemožno uložiť prílohu. Skúste neskôr prosím."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:156
+msgid "Edit Attachment"
+msgstr "Upraviť prílohu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:159
+msgid "Invalid Attachment"
+msgstr "Chyba v prílohe"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:184;205
+msgid "Invalid id for Attachment"
+msgstr "Nesprávne id pre prílohu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\attachments_controller.php:201
+msgid "Attachment deleted"
+msgstr "Príloha zmazaná"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:52;54
+msgid "Blocks"
+msgstr "Bloky"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:2
+msgid "Add Block"
+msgstr "Pridaj Blok"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:46;68
+msgid "The Block has been saved"
+msgstr "Blok uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:49;71
+msgid "The Block could not be saved. Please, try again."
+msgstr "Nie je možné uložiť Blok. Skúste znova prosím."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:2
+msgid "Edit Block"
+msgstr "Uprav Blok"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:61
+msgid "Invalid Block"
+msgstr "Chybný Blok"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:89
+msgid "Invalid id for Block"
+msgstr "Nesprávne id pre Blok"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:97
+msgid "Block deleted"
+msgstr "Blok zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:183
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:135
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:283
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:95
+msgid "Moved up successfully"
+msgstr "Presun nahor úspešný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:106
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:91
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:185
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:137
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:285
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:97
+msgid "Could not move up"
+msgstr "Nie je možné presunúť nahor"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:114
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:99
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:203
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:145
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:316
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:105
+msgid "Moved down successfully"
+msgstr "Presun nadol úspešný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:116
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:101
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:205
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:147
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:318
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:107
+msgid "Could not move down"
+msgstr "Nie je možné presunúť nadol"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:132
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:122
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:222
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:104
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:306
+msgid "No items selected."
+msgstr "Žiadne položky nezvolené."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:138
+msgid "Blocks deleted."
+msgstr "Bloky zmazané."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:141
+msgid "Blocks published"
+msgstr "Bloky publikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:144
+msgid "Blocks unpublished"
+msgstr "Bloky nepublikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\blocks_controller.php:146
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:136
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:251
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:118
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:326
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:209;250;261
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:186
+msgid "An error occurred."
+msgstr "Nastala chyba."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:49;143
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:11
+msgid "Comments"
+msgstr "Komentáre"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:68
+msgid "Comments: Published"
+msgstr "Komentáre: Publikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:70
+msgid "Comments: Approval"
+msgstr "Komentáre: Overenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:78
+msgid "Edit Comment"
+msgstr "Upraviť komentár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:81
+msgid "Invalid Comment"
+msgstr "Chybný Komentár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:86
+msgid "The Comment has been saved"
+msgstr "Komentár bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:89
+msgid "The Comment could not be saved. Please, try again."
+msgstr "Komentáre nie je možné uložiť. Prosím, skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:99
+msgid "Invalid id for Comment"
+msgstr "Nesprávne id pre Komentár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:107
+msgid "Comment deleted"
+msgstr "Komentár zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:128
+msgid "Comments deleted."
+msgstr "Komentáre zmazané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:131
+msgid "Comments published"
+msgstr "Komentáre publikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:134
+msgid "Comments unpublished"
+msgstr "Komentáre nepublikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:161;172
+msgid "Invalid Node"
+msgstr "Chybný Uzol"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:179
+msgid "Maximum level reached. You cannot reply to that comment."
+msgstr "Maximálna úroveň dosiahnutá. Nemôžete odpovedať na tento komentár."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:227
+msgid "Your comment has been added successfully."
+msgstr "Váš komentár bol úspešne pridaný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:229
+msgid "Your comment will appear after moderation."
+msgstr "Váš komentár bude po schválení publikovaný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:237
+msgid "New comment posted under"
+msgstr "Nový komentár pridaný pod"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:262
+msgid "Sorry, the comment appears to be spam."
+msgstr "Prepáčte, komentár vyzerá ako spam"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\comments_controller.php:275
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:181
+msgid "Invalid captcha entry"
+msgstr "Nesprávny údaj captcha"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:89;91
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:50
+msgid "Add Contact"
+msgstr "Pridaj Kontakt"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:55;72
+msgid "The Contact has been saved"
+msgstr "Kontakt bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:58;75
+msgid "The Contact could not be saved. Please, try again."
+msgstr "Kontakt nie je možné uložiť. Prosím, skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:64
+msgid "Edit Contact"
+msgstr "Upraviť Kontakt"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:67
+msgid "Invalid Contact"
+msgstr "Nesprávny Kontakt"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:85
+msgid "Invalid id for Contact"
+msgstr "Chybné id pre Kontakt"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:93
+msgid "Contact deleted"
+msgstr "Kontakt zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:136
+msgid "Your message has been received..."
+msgstr "Vaša správa bola prijatá..."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\contacts_controller.php:168
+msgid "Sorry, the message appears to be spam."
+msgstr "Prepáčte, správa vyzerá ako spam."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:66
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:84
+msgid "File Manager"
+msgstr "Správa súborov"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:81
+msgid "Edit file: %s"
+msgstr "Upraviť súbor: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:92
+msgid "File saved successfully"
+msgstr "Súbor úspešne uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:102
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_add.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_add.ctp:12
+msgid "Upload"
+msgstr "Pridať súbor"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:115
+msgid "File uploaded successfully."
+msgstr "Súbor úspešne odoslaný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:135
+msgid "File deleted"
+msgstr "Súbor zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:137;164;210;232
+msgid "An error occured"
+msgstr "Nastala chyba"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:162
+msgid "Directory deleted"
+msgstr "Adresár zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:195
+msgid "New Directory"
+msgstr "Nový adresár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:206
+msgid "Directory created successfully."
+msgstr "Adresár úspešne vytvorený."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:218
+msgid "New File"
+msgstr "Nový Súbor"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\filemanager_controller.php:228
+msgid "File created successfully."
+msgstr "Súbor úspešne vytvorený."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:114
+msgid "Languages"
+msgstr "Jazyky"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:39
+msgid "Add Language"
+msgstr "Pridaj jazyk"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:44;61
+msgid "The Language has been saved"
+msgstr "Jazyk bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:47;64
+msgid "The Language could not be saved. Please, try again."
+msgstr "Jazyk nie je možné uložiť. Prosím, skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:53
+msgid "Edit Language"
+msgstr "Upraviť jazyk"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:104
+msgid "Invalid Language"
+msgstr "Nesprávny jazyk"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:74
+msgid "Invalid id for Language"
+msgstr "Chybné id pre jazyk"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:82
+msgid "Language deleted"
+msgstr "Jazyk vymazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\languages_controller.php:113
+msgid "Select a language"
+msgstr "Vyberte jazyk"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:56
+msgid "Links: %s"
+msgstr "Odkazy: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:75
+msgid "Add Link"
+msgstr "Pridať Odkaz"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:86;118
+msgid "The Link has been saved"
+msgstr "Odkaz bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:89;121
+msgid "The Link could not be saved. Please, try again."
+msgstr "Odkaz nebol uložený. Skúste znova, prosím."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:101
+msgid "Edit Link"
+msgstr "Uprav Odkaz"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:104
+msgid "Invalid Link"
+msgstr "Nesprávny Odkaz"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:141;149;176;196
+msgid "Invalid id for Link"
+msgstr "Nesprávne id Odkazu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:165
+msgid "Link deleted"
+msgstr "Odkaz zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:243
+msgid "Links deleted."
+msgstr "Odkazy zmazané."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:246
+msgid "Links published"
+msgstr "Odkazy publikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\links_controller.php:249
+msgid "Links unpublished"
+msgstr "Odkazy nepublikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:41;43
+msgid "Menus"
+msgstr "Navigácia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:39
+msgid "Add Menu"
+msgstr "Pridaj položku"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:44;61
+msgid "The Menu has been saved"
+msgstr "Položka menu bola uložená"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:47;64
+msgid "The Menu could not be saved. Please, try again."
+msgstr "Položka menu nebola uložená. Prosím, skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:53
+msgid "Edit Menu"
+msgstr "Edituj menu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:56
+msgid "Invalid Menu"
+msgstr "Nesprávne menu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:74
+msgid "Invalid id for Menu"
+msgstr "Nesprávne id pre menu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\menus_controller.php:82
+msgid "Menu deleted"
+msgstr "Položka menu zmazaná."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:92
+msgid "Messages"
+msgstr "Správy"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:50
+msgid "Messages: Read"
+msgstr "Správy: Prečítané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:52
+msgid "Messages: Unread"
+msgstr "Správy: Neprečítané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:60
+msgid "Edit Message"
+msgstr "Uprav Správu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:63
+msgid "Invalid Message"
+msgstr "Chybná Správa"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:68
+msgid "The Message has been saved"
+msgstr "Správa bola uložená"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:71
+msgid "The Message could not be saved. Please, try again."
+msgstr "Správu nebolo možné uložiť. Prosím, skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:81
+msgid "Invalid id for Message"
+msgstr "Nesprávne id Správy"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:89
+msgid "Message deleted"
+msgstr "Správa zmazaná"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:110
+msgid "Messages deleted."
+msgstr "Správy zmazané."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:113
+msgid "Messages marked as read"
+msgstr "Správy označené ako prečítané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\messages_controller.php:116
+msgid "Messages marked as unread"
+msgstr "Správy označené ako neprečítané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_edit.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:8
+msgid "Content"
+msgstr "Obsah"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:89
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:9
+msgid "Create content"
+msgstr "Vytvoriť Obsah"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:102;173
+msgid "Content type does not exist."
+msgstr "Typ obsahu neexistuje."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:106
+msgid "Create content: %s"
+msgstr "Vytvor Obsah: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:141;207
+msgid "%s has been saved"
+msgstr "%s bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:144;210
+msgid "%s could not be saved. Please, try again."
+msgstr "%s sa nedá uložiť. Skúste ešte raz."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:164;647;675
+msgid "Invalid content"
+msgstr "Neplatný obsah"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:177
+msgid "Edit content: %s"
+msgstr "Upraviť obsah: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:264
+msgid "Paths updated."
+msgstr "Cesty aktualizované."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:270
+msgid "Invalid id for Node"
+msgstr "Chybné id pre Uzol"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:278
+msgid "Node deleted"
+msgstr "Uzol zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:312
+msgid "Nodes deleted."
+msgstr "Uzly zmazané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:315
+msgid "Nodes published"
+msgstr "Uzly publikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:318
+msgid "Nodes unpublished"
+msgstr "Uzly nepublikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:321
+msgid "Nodes promoted"
+msgstr "Propagované uzly"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:324
+msgid "Nodes unpromoted"
+msgstr "Nepropagované uzly"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:365;452;517;592
+msgid "Invalid content type."
+msgstr "Neplatný obsah"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:415
+msgid "Invalid Term."
+msgstr "Neplatný výraz"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:493
+msgid "Nodes"
+msgstr "Uzly"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\nodes_controller.php:602
+msgid "Search Results: %s"
+msgstr "Vysledok vyhľadávania: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:31
+msgid "Region"
+msgstr "Región"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:39
+msgid "Add Region"
+msgstr "Pridať región"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:44;61
+msgid "The Region has been saved"
+msgstr "Región bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:47;64
+msgid "The Region could not be saved. Please, try again."
+msgstr "Región sa nedal uložiť. Skúste prosím znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:53
+msgid "Edit Region"
+msgstr "Upraviť región"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:56
+msgid "Invalid Region"
+msgstr "Neplatný región"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:74
+msgid "Invalid id for Region"
+msgstr "Neplatné id pre región"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\regions_controller.php:82
+msgid "Region deleted"
+msgstr "Región bol zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:100
+msgid "Roles"
+msgstr "Skupiny"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:39
+msgid "Add Role"
+msgstr "Pridať Skupinu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:44;61
+msgid "The Role has been saved"
+msgstr "Skupina bola uložená"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:47;64
+msgid "The Role could not be saved. Please, try again."
+msgstr "Skupinu nebolo možné uložiť. Skúste prosím znova." 
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:53
+msgid "Edit Role"
+msgstr "Upraviť Skupinu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:56
+msgid "Invalid Role"
+msgstr "Neplatná Skupina"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:74
+msgid "Invalid id for Role"
+msgstr "Neplatné id pre Skupinu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\roles_controller.php:82
+msgid "Role deleted"
+msgstr "Skupina zmazaná"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:4
+msgid "Dashboard"
+msgstr "Nástenka"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:106
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:7
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:54
+msgid "Invalid Setting."
+msgstr "Neplatné nastavenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:61
+msgid "Add Setting"
+msgstr "Pridať nastavenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:66;83
+msgid "The Setting has been saved"
+msgstr "Nastavenie bolo uložené"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:69;86
+msgid "The Setting could not be saved. Please, try again."
+msgstr "Nastavenie sa nedalo uložiť. Skúste prosím znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:75
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:43
+msgid "Edit Setting"
+msgstr "Upraviť nastavenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:78
+msgid "Invalid Setting"
+msgstr "Neplatné nastavenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:96
+msgid "Invalid id for Setting"
+msgstr "Neplatné id pre nastavenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:104
+msgid "Setting deleted"
+msgstr "Nastavenie zmazané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:110
+msgid "Settings: %s"
+msgstr "Nastavenia: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:113
+msgid "Settings updated successfully"
+msgstr "Nastavenia boli úspešne aktualizované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\settings_controller.php:127
+msgid "Invalid Setting key"
+msgstr "Neplatný nastavovací kľúč."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:48
+msgid "Invalid Vocabulary ID."
+msgstr "Neplatné ID slovníka."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:54
+msgid "Vocabulary: %s"
+msgstr "Slovník"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:87
+msgid "%s: Add Term"
+msgstr "%s: Pridať termín"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:97;193
+msgid "Term with same slug already exists in the vocabulary."
+msgstr "Termín s rovnakým slug už existuje v slovníku."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:110;207
+msgid "Term saved successfuly."
+msgstr "Termín bol úspešne uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:116;213
+msgid "Term could not be added to the vocabulary. Please try again."
+msgstr "Termín nebolo možné pridať do slovníka. Skúste prosím znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:120;217
+msgid "Term could not be saved. Please try again."
+msgstr "Termín nebolo možné uložiť. Skúste prosím znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:168
+msgid "%s: Edit Term"
+msgstr "%s: Upraviť termín"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:229;264;296
+msgid "Invalid id for Term"
+msgstr "Neplatné id pre termín"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:252
+msgid "Term deleted"
+msgstr "Termín zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\terms_controller.php:254
+msgid "Term could not be deleted. Please, try again."
+msgstr "Termín sa nedal zmazať. Skúste prosím znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:8
+msgid "Type"
+msgstr "Typ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:46
+msgid "Add Type"
+msgstr "Pridať typ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:51;71
+msgid "The Type has been saved"
+msgstr "Typ bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:54;74
+msgid "The Type could not be saved. Please, try again."
+msgstr "Typ sa nedal uložiť. Skúste prosím znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:63
+msgid "Edit Type"
+msgstr "Upraviť typ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:66
+msgid "Invalid Type"
+msgstr "Neplatný typ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:87
+msgid "Invalid id for Type"
+msgstr "Neplatné id pre typ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\types_controller.php:95
+msgid "Type deleted"
+msgstr "Typ zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:49
+msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
+msgstr "Maximálny limit pre neúspešne prihlásenie bol dosiahnutý. Skúste prosím znova o niekoľko minút."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:69;162
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:97;99
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:2
+msgid "Users"
+msgstr "Užívatelia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:80;100
+msgid "The User has been saved"
+msgstr "Užívateľ bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:83;103;188
+msgid "The User could not be saved. Please, try again."
+msgstr "Užívateľa nie je možné uložiť. Skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:95;115
+msgid "Invalid User"
+msgstr "Neplatný užívateľ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:122
+msgid "Password has been reset."
+msgstr "Heslo bolo obnovené."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:125
+msgid "Password could not be reset. Please, try again."
+msgstr "Heslo nie je možné obnoviť. Skúste prosím znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:128
+msgid "Current password did not match. Please, try again."
+msgstr "Vaše existujúce heslo nie je správne. Skúste prosím znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:138
+msgid "Invalid id for User"
+msgstr "Neplatné id užívateľa"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:146
+msgid "User deleted"
+msgstr "Užívateľ zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:152
+msgid "Admin Login"
+msgstr "Admin Login"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:157;285
+msgid "Log out successful."
+msgstr "Odhlásenie bolo úspešné"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:166
+msgid "Register"
+msgstr "Registrovať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:180
+msgid "["
+msgstr "["
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:185
+msgid "You have successfully registered an account. An email has been sent with further instructions."
+msgstr "Registrácia prebehla úspešne. Poslali sme vám email s ďalšími inštrukciami."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:207
+msgid "Account activated successfully."
+msgstr "Účet úspešne aktivovaný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:218
+msgid "Forgot Password"
+msgstr "Zabudnuté heslo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:223
+msgid "Invalid username."
+msgstr "Neplatné užívateľské meno."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:235;247
+msgid "Reset Password"
+msgstr "Obnoviť heslo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:238
+msgid "An email has been sent with instructions for resetting your password."
+msgstr "Bol vám poslaný email s inštruktážou ako obnoviť heslo."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:241;273
+msgid "An error occurred. Please try again."
+msgstr "Chyba, skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:270
+msgid "Your password has been reset successfully."
+msgstr "Vaše heslo bolo obnovené úspešne."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:281
+msgid "Log in"
+msgstr "Prihlásenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\users_controller.php:292
+msgid "Invalid User."
+msgstr "Neplatný uživateľ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:31
+msgid "Vocabularies"
+msgstr "Slovníky"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:39
+msgid "Add Vocabulary"
+msgstr "Pridať slovník"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:44;64
+msgid "The Vocabulary has been saved"
+msgstr "Slovník bol uložený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:47;67
+msgid "The Vocabulary could not be saved. Please, try again."
+msgstr "Slovník sa nedá uložiť. Skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:56
+msgid "Edit Vocabulary"
+msgstr "Upraviť slovník"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:59
+msgid "Invalid Vocabulary"
+msgstr "Neplatný Slovník"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:80
+msgid "Invalid id for Vocabulary"
+msgstr "Neplatné id pre slovník"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\controllers\vocabularies_controller.php:88
+msgid "Vocabulary deleted"
+msgstr "Slovník zmazaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\models\behaviors\croogo_translate.php:73
+msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+msgstr "Zdroj údajov %s pre CroogoTranslateBehavior of model %s nie je pripojený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:2
+msgid "Acos"
+msgstr "Acos"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_add.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_edit.ctp:2
+msgid "Add Aco"
+msgstr "Pridať Aco"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:31;48
+msgid "The Aco has been saved"
+msgstr "Aco bolo uložené"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:34;51
+msgid "The Aco could not be saved. Please, try again."
+msgstr "Aco sa nedalo uložiť, pokúste sa znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:40
+msgid "Edit Aco"
+msgstr "Upraviť Aco"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:43
+msgid "Invalid Aco"
+msgstr "Neplatné Aco"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:61
+msgid "Invalid id for Aco"
+msgstr "Neplatné id pre Aco"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_acos_controller.php:69
+msgid "Aco deleted"
+msgstr "Aco zmazané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:16
+msgid "Actions"
+msgstr "Činnosti"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:32
+msgid "Add Action"
+msgstr "Pridať činnosť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:46;49
+msgid "The "
+msgstr ""
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:72
+msgid "Edit Action"
+msgstr "Upraviť činnosť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:75
+msgid "Invalid Action"
+msgstr "Neplatná činnosť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:80
+msgid "The Action has been saved"
+msgstr "Činnosť bola uložená."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:83
+msgid "The Action could not be saved. Please, try again."
+msgstr "Činnosť sa nedalo uložiť. Pokúste sa neskôr."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:110;125
+msgid "Invalid id for Action"
+msgstr "Neplatné id pre činnosť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:118
+msgid "Action deleted"
+msgstr "Činnosť zmazaná"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:130
+msgid "Action moved up"
+msgstr "Činnosť posunutá hore"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_actions_controller.php:135
+msgid "Action moved down"
+msgstr "Činnosť posunutá dole"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:2
+msgid "Aros"
+msgstr "Aros"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_add.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_edit.ctp:2
+msgid "Add Aro"
+msgstr "Pridať Aro"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:31;48
+msgid "The Aro has been saved"
+msgstr "Aro bolo uložené"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:34;51
+msgid "The Aro could not be saved. Please, try again."
+msgstr "Aro sa nedalo uložiť. Skúste znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:40
+msgid "Edit Aro"
+msgstr "Upraviť Aro"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:43
+msgid "Invalid Aro"
+msgstr "Neplatné Aro"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:61
+msgid "Invalid id for Aro"
+msgstr "Neplatné id pre Aro"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_aros_controller.php:69
+msgid "Aro deleted"
+msgstr "Aro zmazané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\controllers\acl_permissions_controller.php:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:101
+msgid "Permissions"
+msgstr "Pristupové práva"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:6
+msgid "New Aco"
+msgstr "Nové Aco"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:41
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:45
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:55
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:36
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:23
+msgid "Edit"
+msgstr "Upraviť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:40
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:30;59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:39;75
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:38;57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:41;68
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:38;67
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:27
+msgid "Delete"
+msgstr "Zmazať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:33
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:67
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:32
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:32
+msgid "Are you sure?"
+msgstr "Ste si istý?"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_acos\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:70
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:60
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:69
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:85
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:77
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:93
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:46
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:59
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:50
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:49
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Strana %page% of %pages%, zobrazuje %current% záznamov z %count% spolu, začínajúc s %start%, končiac na %end%"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_edit.ctp:11
+msgid "Choose none if the Aco is a controller."
+msgstr "Vyberte žiadny ak Aco je ovládač."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:10
+msgid "New Action"
+msgstr "Nová činnosť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:9
+msgid "Generate Actions"
+msgstr "Vytvoriť činnosť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:18
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:20
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:28
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:29
+msgid "Id"
+msgstr "Id"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:14
+msgid "Alias"
+msgstr "Alias"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:47
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:24
+msgid "Move up"
+msgstr "Posunúť hore"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_actions\admin_index.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:25
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:38
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:25
+msgid "Move down"
+msgstr "Posunúť dole"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_aros\admin_index.ctp:6
+msgid "New Aro"
+msgstr "Nové Aro"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_index.ctp:10
+msgid "Edit Actions"
+msgstr "Uprav činnosti"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\acl\views\acl_permissions\admin_toggle.ctp:9
+msgid "error"
+msgstr "chyba"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\controllers\example_controller.php:31;35
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:1
+msgid "Example"
+msgstr "Príklad"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:3
+msgid "Example 1"
+msgstr "Príklad 1"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\elements\admin_menu.ctp:4
+msgid "Example 2"
+msgstr "Príklad 2"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\example\admin_index.ctp:3
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\example\views\example\index.ctp:3
+msgid "content here"
+msgstr "obsah sem"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:65
+msgid "Hooks"
+msgstr "Komponenty"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:76;96
+msgid "%s activated successfully."
+msgstr "%s bol úspešne aktivovaný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:78;98
+msgid "%s could not be activated. Plugin depends on other plugins that are not available."
+msgstr "%s nebolo možné aktivovať. Plugin vyžaduje ďalší plugin, ktorý nie je k dispozícii."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_hooks_controller.php:89
+msgid "%s deactivated successfully."
+msgstr "%s bol úspešne deaktivovaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:63
+msgid "Locales"
+msgstr "Lokalizácie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:53
+msgid "Locale does not exist."
+msgstr "Lokalizácia neexistuje."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:70
+msgid "Could not edit croogo_bootstrap.php file."
+msgstr "Nie je možné upraviť súbor croogo_bootstrap.php."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:76
+msgid "Upload a new locale"
+msgstr "Nahrať novú lokalizáciu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:102;151
+msgid "Invalid locale."
+msgstr "Neplatná lokalizácia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:107
+msgid "Locale already exists."
+msgstr "Lokalizácia už existuje"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:148
+msgid "Edit locale: %s"
+msgstr "Upraviť lokalizáciu: %s "
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:156
+msgid "The file default.po does not exist."
+msgstr "Súbor default.po neexistuje."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:166
+msgid "Locale updated successfully"
+msgstr "Lokalizácia bola úspešne aktualizovaná"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:176
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:89
+msgid "Invalid locale"
+msgstr "Neplatná lokalizácia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:186
+msgid "Locale deleted successfully."
+msgstr "Lokalizácia bola úspešne zmazaná."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_locales_controller.php:188
+msgid "Local could not be deleted."
+msgstr "Lokalizáciu nie je možné zmazať."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:64
+msgid "Plugins"
+msgstr "Pluginy"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:63
+msgid "Upload a new plugin"
+msgstr "Nahrať nový plugin"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:92
+msgid "Invalid plugin."
+msgstr "Neplatný plugin."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:102
+msgid "Plugin already exists."
+msgstr "Plugin už existuje."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:144
+msgid "Invalid plugin"
+msgstr "Neplatný plugin"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:152
+msgid "You cannot delete a plugin that is currently active."
+msgstr "Aktívny plugin neviete zmazať."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:158
+msgid "Plugin deleted successfully."
+msgstr "Plugin bol úspešne zmazaný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_plugins_controller.php:160
+msgid "Plugin could not be deleted."
+msgstr "Plugin nie je možné zmazať."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:37
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:62
+msgid "Themes"
+msgstr "Šablóny"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:62
+msgid "Theme activated."
+msgstr "Šablóna aktivovaná"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:68
+msgid "Upload a new theme"
+msgstr "Nahrať novú šablónu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:93
+msgid "Invalid YML file"
+msgstr "Chybný YML súbor"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:99
+msgid "Invalid zip archive"
+msgstr "Chybný ZIP súbor."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:104
+msgid "Directory with theme alias already exists."
+msgstr "Adresár so zadaným názvom šablóny už existuje"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:138
+msgid "Theme uploaded successfully."
+msgstr "Šablóna bola úspešne nahraná"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:145
+msgid "Theme Editor"
+msgstr "Editor Šablón"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:154
+msgid "Invalid Theme."
+msgstr "Neplatná šablóna"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:163
+msgid "Default theme cannot be deleted."
+msgstr "Predvolenú šablónu neviete zmazať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:166
+msgid "You cannot delete a theme that is currently active."
+msgstr "Aktívnu tému neviete zmazať."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\controllers\extensions_themes_controller.php:188
+msgid "Theme deleted successfully."
+msgstr "Šablóna úspešne zmazaná."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:13
+msgid "Plugin"
+msgstr "Plugin"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:14
+msgid "Hook"
+msgstr "Komponenty"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:15
+msgid "Hook type"
+msgstr "Typ Komponentu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:30
+msgid "Status"
+msgstr "Stav"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:38
+msgid "Deactivate"
+msgstr "Deaktivovať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_hooks\admin_index.ctp:41
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:23
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:58
+msgid "Activate"
+msgstr "Aktivovať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:27
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:27
+msgid "Locale"
+msgstr "Lokalizácia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_locales\admin_index.ctp:15
+msgid "Default"
+msgstr "Predvolený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:23;39
+msgid "Name"
+msgstr "Meno"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:19
+msgid "Description"
+msgstr "Popis"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_plugins\admin_index.ctp:17
+msgid "Hooks Active"
+msgstr "Aktívne Komponenty"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:7
+msgid "Editor"
+msgstr "Editor"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:12
+msgid "Current Theme"
+msgstr "Aktuálna Šablóna"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:28;54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\rss\index.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:9
+msgid "by"
+msgstr "od"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:32;56
+msgid "Regions supported: "
+msgstr "Podporované regióny: "
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\extensions\views\extensions_themes\admin_index.ctp:37
+msgid "Available Themes"
+msgstr "Dostupné šablóny"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:93
+msgid "Installation: Welcome"
+msgstr "Vítajte v inštalácii."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:108
+msgid "Step 1: Database"
+msgstr "Krok 1: Databáza"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:124;165
+msgid "Could not connect to database."
+msgstr "Nie je možné pripojiť sa k databáze"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:145
+msgid "Could not write database.php file."
+msgstr "Nie je možné zapísať do súboru database.php"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:157
+msgid "Step 2: Build database"
+msgstr "Krok 2: Vytvorenie databázy"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:210
+msgid "Installation completed successfully"
+msgstr "Inštalácia prebehla v poriadku."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:215
+msgid "Installation files deleted successfully."
+msgstr "Inštalačné súbory boli vymazané."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\controllers\install_controller.php:218
+msgid "Could not delete installation files."
+msgstr "Inštalačné súbory nebolo možné vymazať."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\data.ctp:5
+msgid "Click here to build your database"
+msgstr "Kliknite sem pre naplnenie vašej databázy"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\finish.ctp:21
+msgid "Click here to delete installation files"
+msgstr "Kliknite sem pre zmazanie inštalačných súborov"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:8
+msgid "Your tmp directory is writable."
+msgstr "Váš tmp adresár je zapisovateľný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:11
+msgid "Your tmp directory is NOT writable."
+msgstr "Váš tmp adresár NIE je zapisovateľný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:16
+msgid "Your config directory is writable."
+msgstr "Váš konfiguračný adresár je zapisovateľný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:19
+msgid "Your config directory is NOT writable."
+msgstr "Váš konfiguračný adresár NIE je zapisovateľný."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:24
+msgid "PHP version %s > 5"
+msgstr "PHP verzia %s > 5"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:27
+msgid "PHP version %s < 5"
+msgstr "PHP verzia %s < 5"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\install\index.ctp:33
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr "V inštalácii nie je možné pokračovať, keďže nie sú splnené minimálne požiadavky."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\layouts\install.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_full.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_login.ctp:5
+msgid "Croogo"
+msgstr "Croogo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\install\views\layouts\install.ctp:21
+msgid "Install Croogo"
+msgstr "Inštaluj Croogo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:35;80
+msgid "Invalid ID."
+msgstr "Chybné ID"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:44;161
+msgid "Invalid model."
+msgstr "Neplatný model."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:56;116;173
+msgid "Invalid record."
+msgstr "Neplatný záznam."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:63
+msgid "Translations: %s"
+msgstr "Preklady: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:123
+msgid "Translate content: %s (%s)"
+msgstr "Prelož obsah: %s (%s)"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:130
+msgid "Record has been translated"
+msgstr "Záznam bol preložený."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:137
+msgid "Record could not be translated. Please, try again."
+msgstr "Záznam sa nedá preložiť. Pokúste sa znova."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:148
+msgid "Invalid Locale or ID"
+msgstr "Chybný Locale alebo ID"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:188
+msgid "Translation for the locale deleted successfully."
+msgstr "Lokalizácia bola úspešne zmazaná."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\controllers\translate_controller.php:190
+msgid "Translation for the locale could not be deleted."
+msgstr "Lokalizácia sa nedá zmazať."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_edit.ctp:15
+msgid "Record"
+msgstr "Záznam"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:8
+msgid "Translate in a new language"
+msgstr "Prelož do nového jazyka"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:29
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:26
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:30
+msgid "Title"
+msgstr "Názov"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\plugins\translate\views\translate\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_translations.ctp:52
+msgid "No translations available."
+msgstr "Preklady nie sú k dispozícii"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\tests\cases\controllers\languages_controller.test.php:185;216
+msgid "Could not add a new language."
+msgstr "Nevedel som pridať nový jazyk"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:6
+msgid "New Attachment"
+msgstr "Nová príloha"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_index.ctp:16
+msgid "URL"
+msgstr "URL"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_browse.ctp:51
+msgid "Insert"
+msgstr "Pridať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:9
+msgid "Attachment"
+msgstr "Príloha"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:10
+msgid "Info"
+msgstr "Info"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:29
+msgid "Caption"
+msgstr "Hlavička"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:36
+msgid "File URL"
+msgstr "URL súboru"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\attachments\admin_edit.ctp:37
+msgid "Mime Type"
+msgstr "Mime typ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:7
+msgid "Block"
+msgstr "Blok"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:12
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:13
+msgid "Access"
+msgstr "Prístup"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:9
+msgid "Visibilities"
+msgstr "Dohladnosť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:17
+msgid "unique name for your block"
+msgstr "unikátne meno pre váš blok"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:18
+msgid "if you are not sure, choose 'none'"
+msgstr "ak si nie ste istý, vyberte si 'žiadny' "
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_add.ctp:35
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_edit.ctp:36
+msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
+msgstr "Zadajte jedno URL na riadok. Nechajte prázdny ak chcete aby sa tento blok zobrazil na všetkých stránkách."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:6
+msgid "New Block"
+msgstr "Nový blok"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:73
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:66
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:79
+msgid "Publish"
+msgstr "Zverejniť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:58
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:74
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:67
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:80
+msgid "Unpublish"
+msgstr "Zrušiť zverejnenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\blocks\admin_index.ctp:63
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:79
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:72
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:71
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:87
+msgid "Submit"
+msgstr "Pošli"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments.ctp:5
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:30
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:112
+msgid "Comment"
+msgstr "Komentár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:9
+msgid "Contact Info"
+msgstr "Kontaktné info"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_edit.ctp:17
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:33
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:24
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:84
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:85
+msgid "Published"
+msgstr "Publikované"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\admin_index.ctp:15
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:34
+msgid "Approval"
+msgstr "Schválenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\comments\rss\index.ctp:16
+msgid "Comment on"
+msgstr "Komentár na"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:7
+msgid "Contact"
+msgstr "Kontakt"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:8
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:20
+msgid "Message"
+msgstr "Správa"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:39
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:40
+msgid "Let users leave a message"
+msgstr "Uživatelia môžu zanechať komentár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:43
+msgid "Save messages in database"
+msgstr "Uložiť správy do databázy"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:45
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:46
+msgid "Notify by email instantly"
+msgstr "Okamžité ohlásenie emailom"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:56
+msgid "Spam protection (requires Akismet API key)"
+msgstr "Spam ochrana (je potrebný Akismet API kľúč)"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:51
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:52
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:59
+msgid "Use captcha? (requires Recaptcha API key)"
+msgstr "Použiť captcha? (je potrebný recaptcha API kľúč)"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_add.ctp:56
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_edit.ctp:57
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:65
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:66
+msgid "You can manage your API keys here."
+msgstr "Tu môžete spravovať vaše API kľúče"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\admin_index.ctp:6
+msgid "New Contact"
+msgstr "Nový kontakt"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:17
+msgid "Your name"
+msgstr "Vaše meno"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:18
+msgid "Your email"
+msgstr "Váš email"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:19
+msgid "Subject"
+msgstr "Predmet"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\contacts\view.ctp:24
+msgid "Send"
+msgstr "Poslať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comment.ctp:13
+msgid "said on %s"
+msgstr "povedané na %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comment.ctp:19
+msgid "Reply"
+msgstr "Odpovedať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:2
+msgid "Add new comment"
+msgstr "Pridať nový komentár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:7
+msgid "Go back to original post"
+msgstr "Návrat k pôvodnému obsahu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:28;40
+msgid "Email"
+msgstr "Email"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:33;41
+msgid "Website"
+msgstr "Webová stránka"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\comments_form.ctp:48
+msgid "Post comment"
+msgstr "Pridať komentár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:6
+msgid "Posted"
+msgstr "Pridané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_info.ctp:20
+msgid "on"
+msgstr "dňa"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:17
+msgid "Posted in"
+msgstr "Pridané v"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\node_more_info.ctp:28
+msgid "Leave a comment"
+msgstr "Pridajte komentár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\search.ctp:24
+msgid "Search"
+msgstr "Hľadať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\logo.ctp:2
+msgid "Admin Panel"
+msgstr "Admin rozhranie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\logo.ctp:4
+msgid "Visit website"
+msgstr "Zobraziť stránku"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:10;23
+msgid "List"
+msgstr "Zoznam"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:19
+msgid "Content types"
+msgstr "Typy obsahu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:21
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:9
+msgid "Taxonomy"
+msgstr "Taxonómia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:24;44
+msgid "Add new"
+msgstr "Pridaj nový"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:55
+msgid "Regions"
+msgstr "Regióny"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:60
+msgid "Extensions"
+msgstr "Rozšírenia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:81
+msgid "Media"
+msgstr "Médiá"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:108
+msgid "Site"
+msgstr "Stránka"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:109
+msgid "Meta"
+msgstr "Meta"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:110
+msgid "Reading"
+msgstr "Čítanie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:111
+msgid "Writing"
+msgstr "Písanie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\navigation.ctp:113
+msgid "Service"
+msgstr "Služba"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:25
+msgid "Unpublished"
+msgstr "Nepublikovaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:35
+msgid "Promoted"
+msgstr "Propagovaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:37
+msgid "Yes"
+msgstr "Ano"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:38
+msgid "No"
+msgstr "Nie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\nodes_filter.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:10
+msgid "Filter"
+msgstr "Filter"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\quick.ctp:4
+msgid "You are logged in as "
+msgstr "Prihlásený ako "
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\admin\quick.ctp:5
+msgid "Log Out"
+msgstr "Odhlásiť"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:2
+msgid "A new comment has been posted under: %s"
+msgstr "Nový komentár bol zadaný pod: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:8
+msgid "Name: %s"
+msgstr "Meno: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:9
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:8
+msgid "Website: %s"
+msgstr "Webstránka: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:17
+msgid "IP Address: %s"
+msgstr "IP Adresa: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\comment.ctp:10
+msgid "Comment: %s"
+msgstr "Komentár: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:7
+msgid "You have received a new message at: %s"
+msgstr "Máte novú správu na: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:10
+msgid "Subject: %s"
+msgstr "Predmet: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\contact.ctp:12
+msgid "Message: %s"
+msgstr "Správa: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\register.ctp:1
+msgid "Hello %s"
+msgstr "Dobrý deň %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:10
+msgid "Please visit this link to reset your password: %s"
+msgstr "Pre nové heslo navštívte tento link: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\forgot_password.ctp:14
+msgid "If you did not request a password reset, then please ignore this email."
+msgstr "Ak ste nežiadali nové heslo, prosím ignorujte tento email."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\elements\email\text\register.ctp:10
+msgid "Please visit this link to activate your account: %s"
+msgstr "Pre aktiváciu konta kliknite na tento link: %s"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:1
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:1
+msgid "Page not found"
+msgstr "Stránka nebola nájdená"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:2
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:2
+msgid "Error"
+msgstr "Chyba"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_action.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\missing_controller.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:4
+msgid "The requested address was not found on this server."
+msgstr "Požadovaná adresa nebola na serveri nájdená"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\errors\security.ctp:2
+msgid "Security Error"
+msgstr "Bezpečnostná chyba"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:6
+msgid "Upload here"
+msgstr "Nahrať sem"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:7
+msgid "Create directory"
+msgstr "Vytvoriť adresár"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:8
+msgid "Create file"
+msgstr "Vytvoriť súbor"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:14
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_create_directory.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_create_file.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_editfile.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_upload.ctp:6
+msgid "You are here:"
+msgstr "Nachádzate sa tu:"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:28
+msgid "Directory content"
+msgstr "Obsah adresára"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\filemanager\admin_browse.ctp:36
+msgid "Open"
+msgstr "Otvorený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:596
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:9
+msgid "Key"
+msgstr "Kľúč"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:600
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:14
+msgid "Value"
+msgstr "Hodnota"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\helpers\layout.php:615
+msgid "Remove"
+msgstr "Odobrať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\languages\admin_select.ctp:6
+msgid "New Language"
+msgstr "Nová Lokalizácia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\admin_login.ctp:21
+msgid "Back to"
+msgstr "Späť na"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\layouts\maintenance.ctp:13
+msgid "Site down for maintenance."
+msgstr "Na stránke práve prebieha údržba."
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:7
+msgid "Link"
+msgstr "Link"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_edit.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:8
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:8
+msgid "Misc."
+msgstr "Iné"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:16
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:17
+msgid "Parent"
+msgstr "Nadradený"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_add.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_edit.ctp:23
+msgid "Link to a Node"
+msgstr "Link na Uzol"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\links\admin_index.ctp:6
+msgid "New Link"
+msgstr "Nový Link"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_add.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_edit.ctp:7
+msgid "Menu"
+msgstr "Menu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:6
+msgid "New Menu"
+msgstr "Nové menu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\menus\admin_index.ctp:23
+msgid "View links"
+msgstr "Pozri linky"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:6
+msgid "Unread"
+msgstr "Neprečítané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:7
+msgid "Read"
+msgstr "Prečitané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:65
+msgid "Mark as read"
+msgstr "Označ ako prečítané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\messages\admin_index.ctp:66
+msgid "Mark as unread"
+msgstr "Označ ako neprečítané"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:10
+msgid "Terms"
+msgstr "Podmienky"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:12
+msgid "Custom fields"
+msgstr "Vlastné polia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:14
+msgid "Publishing"
+msgstr "Zverejnenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:48
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:52
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:42
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:44
+msgid "Disabled"
+msgstr "Zablokovaný"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:49
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:53
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:43
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:45
+msgid "Read only"
+msgstr "Len na čítanie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:50
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:54
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:44
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:46
+msgid "Read/Write"
+msgstr "Čítať/Zapísať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:72
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:74
+msgid "Add another field"
+msgstr "Pridať ďalšie pole"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_add.ctp:88
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_edit.ctp:86
+msgid "Promoted to front page"
+msgstr "Propagované na úvodnej stránke"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:81
+msgid "Promote"
+msgstr "Propagovať"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_index.ctp:82
+msgid "Unpromote"
+msgstr "Zrušiť propagáciu"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\admin_links.ctp:24
+msgid "Sort by:"
+msgstr "Usporiadať podľa:"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\index.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\promoted.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\search.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\nodes\term.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\index_blog.ctp:4
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\term_2.ctp:7
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\themed\minimal\nodes\term_node.ctp:7
+msgid "No items found."
+msgstr "Žiadne položky nenájdené"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\regions\admin_index.ctp:6
+msgid "New Region"
+msgstr "Nový Región"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\roles\admin_index.ctp:6
+msgid "New Role"
+msgstr "Nová Skupina"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:13
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:14
+msgid "e.g., 'Site.title'"
+msgstr "napríklad, 'Site.title'"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_add.ctp:22
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_edit.ctp:23
+msgid "e.g., 'text' or 'textarea'"
+msgstr "napríklad, 'text' alebo 'textarea'"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_index.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:46
+msgid "New Setting"
+msgstr "Nové nastavenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:2
+msgid "Setting"
+msgstr "Nastavenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:24
+msgid "Input Type"
+msgstr "Zadaj Typ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:29
+msgid "Weight"
+msgstr "Váha"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:12
+msgid "Params"
+msgstr "Parametre"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:44
+msgid "Delete Setting"
+msgstr "Zmaž nastavenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:44
+msgid "Are you sure you want to delete # %s?"
+msgstr "Naozaj chcete zmazať # %s?"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\settings\admin_view.ctp:45
+msgid "List Settings"
+msgstr "Zobraz nastavenia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_add.ctp:19
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_edit.ctp:12
+msgid "Term"
+msgstr "Kľúčové slovo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:6
+msgid "New Term"
+msgstr "Nové kľúčové slovo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\terms\admin_index.ctp:31
+msgid "Slug"
+msgstr "Označenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:9
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:10
+msgid "Format"
+msgstr "Formát"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:31
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:33
+msgid "Show author's name"
+msgstr "Zobraz meno autora"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_add.ctp:34
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_edit.ctp:36
+msgid "Show date"
+msgstr "Zobraz dátum"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\types\admin_index.ctp:6
+msgid "New Type"
+msgstr "Nový typ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_add.ctp:2
+msgid "Add User"
+msgstr "Pridať užívateľa"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_edit.ctp:2
+msgid "Edit User"
+msgstr "Editovať užívateľa"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_edit.ctp:6
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:2
+msgid "Reset password"
+msgstr "Vygenerovať heslo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:6
+msgid "New User"
+msgstr "Nový užívateľ"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_index.ctp:14
+msgid "Role"
+msgstr "Skupiny"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_login.ctp:10
+msgid "Forgot password?"
+msgstr "Zabudnuté heslo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_login.ctp:17
+msgid "Log In"
+msgstr "Prihlásiť sa"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:8
+msgid "Current Password"
+msgstr "Súčasné heslo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\admin_reset_password.ctp:9
+msgid "New Password"
+msgstr "Nové heslo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "Prihlásený ako:"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\login.ctp:2
+msgid "Login"
+msgstr "Prihlásenie"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\users\reset.ctp:6
+msgid "New password"
+msgstr "Nové heslo"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_add.ctp:10
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_edit.ctp:8
+msgid "Vocabulary"
+msgstr "Slovník"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_add.ctp:11
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_edit.ctp:9
+msgid "Options"
+msgstr "Nastavenia"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:6
+msgid "New Vocabulary"
+msgstr "Nový slovník"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\views\vocabularies\admin_index.ctp:22
+msgid "View terms"
+msgstr "Zobraziť pojmy"
+
+#: E:\xampp\htdocs\p\croogo_croogo\app\webroot\test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr "Nastavenie debug nepovoľujú prístup k tejto url adrese"
+
