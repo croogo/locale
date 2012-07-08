@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-04-22 18:56+0700\n"
+"POT-Creation-Date: 2012-07-08 17:30+0700\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: Config/croogo_menus.php:4
-#: Controller/NodesController.php:56
+#: Controller/NodesController.php:68
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:18
 msgid "Content"
 msgstr ""
@@ -45,7 +45,7 @@ msgid "Add new"
 msgstr ""
 
 #: Config/croogo_menus.php:82
-#: Controller/CommentsController.php:52;142
+#: Controller/CommentsController.php:64;180
 #: View/Elements/comments.ctp:7
 #: View/Elements/node_more_info.ctp:32
 #: View/Nodes/admin_add.ctp:9
@@ -70,12 +70,12 @@ msgid "Approval"
 msgstr ""
 
 #: Config/croogo_menus.php:118;128
-#: Controller/MenusController.php:33
+#: Controller/MenusController.php:39
 msgid "Menus"
 msgstr ""
 
 #: Config/croogo_menus.php:152;162
-#: Controller/BlocksController.php:33
+#: Controller/BlocksController.php:39
 msgid "Blocks"
 msgstr ""
 
@@ -93,32 +93,32 @@ msgid "Attachments"
 msgstr ""
 
 #: Config/croogo_menus.php:202
-#: Controller/FilemanagerController.php:100
+#: Controller/FilemanagerController.php:124
 msgid "File Manager"
 msgstr ""
 
 #: Config/croogo_menus.php:214;224
-#: Controller/ContactsController.php:45
+#: Controller/ContactsController.php:51
 msgid "Contacts"
 msgstr ""
 
 #: Config/croogo_menus.php:233
-#: Controller/MessagesController.php:33
+#: Controller/MessagesController.php:39
 msgid "Messages"
 msgstr ""
 
 #: Config/croogo_menus.php:245;255
-#: Controller/UsersController.php:72;172
+#: Controller/UsersController.php:90;230
 msgid "Users"
 msgstr ""
 
 #: Config/croogo_menus.php:265
-#: Controller/RolesController.php:33
+#: Controller/RolesController.php:39
 msgid "Roles"
 msgstr ""
 
 #: Config/croogo_menus.php:278
-#: Controller/SettingsController.php:45
+#: Controller/SettingsController.php:57
 #: View/Settings/admin_add.ctp:6
 #: View/Settings/admin_edit.ctp:6
 msgid "Settings"
@@ -152,7 +152,7 @@ msgid "Service"
 msgstr ""
 
 #: Config/croogo_menus.php:361
-#: Controller/LanguagesController.php:33
+#: Controller/LanguagesController.php:39
 msgid "Languages"
 msgstr ""
 
@@ -173,7 +173,7 @@ msgid "Method to perform"
 msgstr ""
 
 #: Console/Command/ExtShell.php:116
-#: Console/Command/InstallShell.php:77
+#: Console/Command/InstallShell.php:134
 msgid "Extension type"
 msgstr ""
 
@@ -182,65 +182,81 @@ msgid "Name of extension"
 msgstr ""
 
 #: Console/Command/ExtShell.php:135
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:129
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:153
 msgid "Plugin \"%s\" activated successfully."
 msgstr ""
 
-#: Console/Command/ExtShell.php:139
+#: Console/Command/ExtShell.php:140
 #: Plugin/Extensions/Lib/CroogoPlugin.php:313
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr ""
 
-#: Console/Command/ExtShell.php:153
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:120
+#: Console/Command/ExtShell.php:154
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:144
 msgid "Plugin \"%s\" deactivated successfully."
 msgstr ""
 
-#: Console/Command/ExtShell.php:158
+#: Console/Command/ExtShell.php:159
 msgid "Plugin \"%s\" could not be deactivated. Please, try again."
 msgstr ""
 
-#: Console/Command/ExtShell.php:172
+#: Console/Command/ExtShell.php:173
 msgid "Theme deactivated successfully."
 msgstr ""
 
-#: Console/Command/ExtShell.php:174
+#: Console/Command/ExtShell.php:175
 msgid "Theme \"%s\" activated successfully."
 msgstr ""
 
-#: Console/Command/ExtShell.php:177
+#: Console/Command/ExtShell.php:178
 msgid "Theme \"%s\" activation failed."
 msgstr ""
 
-#: Console/Command/InstallShell.php:63
+#: Console/Command/InstallShell.php:79
+msgid "Installing with Composer..."
+msgstr ""
+
+#: Console/Command/InstallShell.php:87
+msgid "Unexpected composerInstall return value"
+msgstr ""
+
+#: Console/Command/InstallShell.php:100
+msgid "Package installed and activated."
+msgstr ""
+
+#: Console/Command/InstallShell.php:102
+msgid "Package installed but not activated."
+msgstr ""
+
+#: Console/Command/InstallShell.php:119
 msgid "Extension installed and activated."
 msgstr ""
 
-#: Console/Command/InstallShell.php:74
+#: Console/Command/InstallShell.php:131
 msgid "Download, Install & Activate Plugins & Themes"
 msgstr ""
 
-#: Console/Command/InstallShell.php:82
+#: Console/Command/InstallShell.php:139
 msgid "URL to zip file OR github user name"
 msgstr ""
 
-#: Console/Command/InstallShell.php:86
+#: Console/Command/InstallShell.php:143
 msgid "Github repo name"
 msgstr ""
 
-#: Console/Command/InstallShell.php:117
+#: Console/Command/InstallShell.php:174
 msgid "Installing extension..."
 msgstr ""
 
-#: Console/Command/InstallShell.php:136
+#: Console/Command/InstallShell.php:193
 msgid "Please specify a URL to a zipball extension"
 msgstr ""
 
-#: Console/Command/InstallShell.php:138
-msgid "Downloading extension..."
+#: Console/Command/InstallShell.php:198
+msgid "Downloading extension to %s..."
 msgstr ""
 
-#: Controller/AppController.php:148
+#: Controller/AppController.php:142
 msgid "Site down for maintenance"
 msgstr ""
 
@@ -276,222 +292,231 @@ msgstr ""
 msgid "Attachment deleted"
 msgstr ""
 
-#: Controller/BlocksController.php:41
+#: Controller/BlocksController.php:53
 msgid "Add Block"
 msgstr ""
 
-#: Controller/BlocksController.php:48;74
+#: Controller/BlocksController.php:60;93
 msgid "The Block has been saved"
 msgstr ""
 
-#: Controller/BlocksController.php:55;81
+#: Controller/BlocksController.php:67;100
 msgid "The Block could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/BlocksController.php:64
+#: Controller/BlocksController.php:83
 msgid "Edit Block"
 msgstr ""
 
-#: Controller/BlocksController.php:67
+#: Controller/BlocksController.php:86
 msgid "Invalid Block"
 msgstr ""
 
-#: Controller/BlocksController.php:99
+#: Controller/BlocksController.php:125
 msgid "Invalid id for Block"
 msgstr ""
 
-#: Controller/BlocksController.php:103
+#: Controller/BlocksController.php:129
 msgid "Block deleted"
 msgstr ""
 
-#: Controller/BlocksController.php:110
-#: Controller/LanguagesController.php:87
-#: Controller/LinksController.php:189
-#: Controller/SettingsController.php:133
-#: Controller/TermsController.php:281
-#: Controller/VocabulariesController.php:93
+#: Controller/BlocksController.php:144
+#: Controller/LanguagesController.php:121
+#: Controller/LinksController.php:225
+#: Controller/SettingsController.php:187
+#: Controller/TermsController.php:326
+#: Controller/VocabulariesController.php:127
 msgid "Moved up successfully"
 msgstr ""
 
-#: Controller/BlocksController.php:112
-#: Controller/LanguagesController.php:89
-#: Controller/LinksController.php:191
-#: Controller/SettingsController.php:135
-#: Controller/TermsController.php:283
-#: Controller/VocabulariesController.php:95
+#: Controller/BlocksController.php:146
+#: Controller/LanguagesController.php:123
+#: Controller/LinksController.php:227
+#: Controller/SettingsController.php:189
+#: Controller/TermsController.php:328
+#: Controller/VocabulariesController.php:129
 msgid "Could not move up"
 msgstr ""
 
-#: Controller/BlocksController.php:120
-#: Controller/LanguagesController.php:97
-#: Controller/LinksController.php:214
-#: Controller/SettingsController.php:143
-#: Controller/TermsController.php:314
-#: Controller/VocabulariesController.php:103
+#: Controller/BlocksController.php:162
+#: Controller/LanguagesController.php:139
+#: Controller/LinksController.php:258
+#: Controller/SettingsController.php:205
+#: Controller/TermsController.php:368
+#: Controller/VocabulariesController.php:145
 msgid "Moved down successfully"
 msgstr ""
 
-#: Controller/BlocksController.php:122
-#: Controller/LanguagesController.php:99
-#: Controller/LinksController.php:216
-#: Controller/SettingsController.php:145
-#: Controller/TermsController.php:316
-#: Controller/VocabulariesController.php:105
+#: Controller/BlocksController.php:164
+#: Controller/LanguagesController.php:141
+#: Controller/LinksController.php:260
+#: Controller/SettingsController.php:207
+#: Controller/TermsController.php:370
+#: Controller/VocabulariesController.php:147
 msgid "Could not move down"
 msgstr ""
 
-#: Controller/BlocksController.php:138
-#: Controller/CommentsController.php:121
-#: Controller/LinksController.php:233
-#: Controller/MessagesController.php:102
-#: Controller/NodesController.php:309
+#: Controller/BlocksController.php:186
+#: Controller/CommentsController.php:153
+#: Controller/LinksController.php:284
+#: Controller/MessagesController.php:128
+#: Controller/NodesController.php:373
 msgid "No items selected."
 msgstr ""
 
-#: Controller/BlocksController.php:144
+#: Controller/BlocksController.php:192
 msgid "Blocks deleted."
 msgstr ""
 
-#: Controller/BlocksController.php:147
+#: Controller/BlocksController.php:195
 msgid "Blocks published"
 msgstr ""
 
-#: Controller/BlocksController.php:150
+#: Controller/BlocksController.php:198
 msgid "Blocks unpublished"
 msgstr ""
 
-#: Controller/BlocksController.php:152
-#: Controller/CommentsController.php:135
-#: Controller/LinksController.php:262
-#: Controller/MessagesController.php:116
-#: Controller/NodesController.php:334
-#: Controller/UsersController.php:223;265;276
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:132
+#: Controller/BlocksController.php:200
+#: Controller/CommentsController.php:167
+#: Controller/LinksController.php:313
+#: Controller/MessagesController.php:142
+#: Controller/NodesController.php:398
+#: Controller/UsersController.php:295;357;368
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:161
+#: Test/Case/Controller/UsersControllerTest.php:314
 msgid "An error occurred."
 msgstr ""
 
-#: Controller/CommentsController.php:71
+#: Controller/CakeErrorController.php:47
+msgid "Errors in CakeErrorController: %s"
+msgstr ""
+
+#: Controller/CommentsController.php:83
 msgid "Comments: Published"
 msgstr ""
 
-#: Controller/CommentsController.php:73
+#: Controller/CommentsController.php:85
 msgid "Comments: Approval"
 msgstr ""
 
-#: Controller/CommentsController.php:81
+#: Controller/CommentsController.php:100
 msgid "Edit Comment"
 msgstr ""
 
-#: Controller/CommentsController.php:84
+#: Controller/CommentsController.php:103
 msgid "Invalid Comment"
 msgstr ""
 
-#: Controller/CommentsController.php:89
+#: Controller/CommentsController.php:108
 msgid "The Comment has been saved"
 msgstr ""
 
-#: Controller/CommentsController.php:92
+#: Controller/CommentsController.php:111
 msgid "The Comment could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/CommentsController.php:102
+#: Controller/CommentsController.php:128
 msgid "Invalid id for Comment"
 msgstr ""
 
-#: Controller/CommentsController.php:106
+#: Controller/CommentsController.php:132
 msgid "Comment deleted"
 msgstr ""
 
-#: Controller/CommentsController.php:127
+#: Controller/CommentsController.php:159
 msgid "Comments deleted."
 msgstr ""
 
-#: Controller/CommentsController.php:130
+#: Controller/CommentsController.php:162
 msgid "Comments published"
 msgstr ""
 
-#: Controller/CommentsController.php:133
+#: Controller/CommentsController.php:165
 msgid "Comments unpublished"
 msgstr ""
 
-#: Controller/CommentsController.php:160;171
+#: Controller/CommentsController.php:206;217
 msgid "Invalid Node"
 msgstr ""
 
-#: Controller/CommentsController.php:178
+#: Controller/CommentsController.php:224
 msgid "Maximum level reached. You cannot reply to that comment."
 msgstr ""
 
-#: Controller/CommentsController.php:226
+#: Controller/CommentsController.php:233
+msgid "Comments are not allowed."
+msgstr ""
+
+#: Controller/CommentsController.php:280
 msgid "Your comment has been added successfully."
 msgstr ""
 
-#: Controller/CommentsController.php:228
+#: Controller/CommentsController.php:282
 msgid "Your comment will appear after moderation."
 msgstr ""
 
-#: Controller/CommentsController.php:237
+#: Controller/CommentsController.php:291
 msgid "New comment posted under"
 msgstr ""
 
-#: Controller/CommentsController.php:263
+#: Controller/CommentsController.php:326
 msgid "Sorry, the comment appears to be spam."
 msgstr ""
 
-#: Controller/CommentsController.php:276
-#: Controller/ContactsController.php:181
+#: Controller/CommentsController.php:348
+#: Controller/ContactsController.php:238
 msgid "Invalid captcha entry"
 msgstr ""
 
-#: Controller/ContactsController.php:54
+#: Controller/ContactsController.php:66
 msgid "Add Contact"
 msgstr ""
 
-#: Controller/ContactsController.php:59;76
+#: Controller/ContactsController.php:71;95
 msgid "The Contact has been saved"
 msgstr ""
 
-#: Controller/ContactsController.php:62;79
+#: Controller/ContactsController.php:74;98
 msgid "The Contact could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/ContactsController.php:68
+#: Controller/ContactsController.php:87
 msgid "Edit Contact"
 msgstr ""
 
-#: Controller/ContactsController.php:71
+#: Controller/ContactsController.php:90
 msgid "Invalid Contact"
 msgstr ""
 
-#: Controller/ContactsController.php:89
+#: Controller/ContactsController.php:115
 msgid "Invalid id for Contact"
 msgstr ""
 
-#: Controller/ContactsController.php:93
+#: Controller/ContactsController.php:119
 msgid "Contact deleted"
 msgstr ""
 
-#: Controller/ContactsController.php:136
+#: Controller/ContactsController.php:169
 msgid "Your message has been received..."
 msgstr ""
 
-#: Controller/ContactsController.php:168
+#: Controller/ContactsController.php:217
 msgid "Sorry, the message appears to be spam."
 msgstr ""
 
-#: Controller/ContactsController.php:193
+#: Controller/ContactsController.php:258
 msgid "[%s] %s"
 msgstr ""
 
-#: Controller/FilemanagerController.php:135
+#: Controller/FilemanagerController.php:164
 msgid "Edit file: %s"
 msgstr ""
 
-#: Controller/FilemanagerController.php:146
+#: Controller/FilemanagerController.php:175
 msgid "File saved successfully"
 msgstr ""
 
-#: Controller/FilemanagerController.php:156
+#: Controller/FilemanagerController.php:191
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:15;21
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:6
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:15;21
@@ -503,579 +528,579 @@ msgstr ""
 msgid "Upload"
 msgstr ""
 
-#: Controller/FilemanagerController.php:169
+#: Controller/FilemanagerController.php:204
 msgid "File uploaded successfully."
 msgstr ""
 
-#: Controller/FilemanagerController.php:189
+#: Controller/FilemanagerController.php:230
 msgid "File deleted"
 msgstr ""
 
-#: Controller/FilemanagerController.php:191;213;259;281
+#: Controller/FilemanagerController.php:232;260;318;346
 msgid "An error occured"
 msgstr ""
 
-#: Controller/FilemanagerController.php:211
+#: Controller/FilemanagerController.php:258
 msgid "Directory deleted"
 msgstr ""
 
-#: Controller/FilemanagerController.php:244
+#: Controller/FilemanagerController.php:303
 msgid "New Directory"
 msgstr ""
 
-#: Controller/FilemanagerController.php:255
+#: Controller/FilemanagerController.php:314
 msgid "Directory created successfully."
 msgstr ""
 
-#: Controller/FilemanagerController.php:267
+#: Controller/FilemanagerController.php:332
 msgid "New File"
 msgstr ""
 
-#: Controller/FilemanagerController.php:277
+#: Controller/FilemanagerController.php:342
 msgid "File created successfully."
 msgstr ""
 
-#: Controller/LanguagesController.php:41
+#: Controller/LanguagesController.php:53
 msgid "Add Language"
 msgstr ""
 
-#: Controller/LanguagesController.php:46;63
+#: Controller/LanguagesController.php:58;82
 msgid "The Language has been saved"
 msgstr ""
 
-#: Controller/LanguagesController.php:49;66
+#: Controller/LanguagesController.php:61;85
 msgid "The Language could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/LanguagesController.php:55
+#: Controller/LanguagesController.php:74
 msgid "Edit Language"
 msgstr ""
 
-#: Controller/LanguagesController.php:58
-#: Plugin/Translate/Controller/TranslateController.php:105
+#: Controller/LanguagesController.php:77
+#: Plugin/Translate/Controller/TranslateController.php:119
 msgid "Invalid Language"
 msgstr ""
 
-#: Controller/LanguagesController.php:76
+#: Controller/LanguagesController.php:102
 msgid "Invalid id for Language"
 msgstr ""
 
-#: Controller/LanguagesController.php:80
+#: Controller/LanguagesController.php:106
 msgid "Language deleted"
 msgstr ""
 
-#: Controller/LanguagesController.php:111
+#: Controller/LanguagesController.php:161
 msgid "Select a language"
 msgstr ""
 
-#: Controller/LinksController.php:61
+#: Controller/LinksController.php:68
 msgid "Links: %s"
 msgstr ""
 
-#: Controller/LinksController.php:80
+#: Controller/LinksController.php:94
 msgid "Add Link"
 msgstr ""
 
-#: Controller/LinksController.php:91;123
+#: Controller/LinksController.php:105;144
 msgid "The Link has been saved"
 msgstr ""
 
-#: Controller/LinksController.php:94;126
+#: Controller/LinksController.php:108;147
 msgid "The Link could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/LinksController.php:106
+#: Controller/LinksController.php:127
 msgid "Edit Link"
 msgstr ""
 
-#: Controller/LinksController.php:109
+#: Controller/LinksController.php:130
 msgid "Invalid Link"
 msgstr ""
 
-#: Controller/LinksController.php:146;154;177;202
+#: Controller/LinksController.php:174;182;213;246
 msgid "Invalid id for Link"
 msgstr ""
 
-#: Controller/LinksController.php:166
+#: Controller/LinksController.php:194
 msgid "Link deleted"
 msgstr ""
 
-#: Controller/LinksController.php:254
+#: Controller/LinksController.php:305
 msgid "Links deleted."
 msgstr ""
 
-#: Controller/LinksController.php:257
+#: Controller/LinksController.php:308
 msgid "Links published"
 msgstr ""
 
-#: Controller/LinksController.php:260
+#: Controller/LinksController.php:311
 msgid "Links unpublished"
 msgstr ""
 
-#: Controller/MenusController.php:41
+#: Controller/MenusController.php:53
 msgid "Add Menu"
 msgstr ""
 
-#: Controller/MenusController.php:46;63
+#: Controller/MenusController.php:58;82
 msgid "The Menu has been saved"
 msgstr ""
 
-#: Controller/MenusController.php:49;66
+#: Controller/MenusController.php:61;85
 msgid "The Menu could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/MenusController.php:55
+#: Controller/MenusController.php:74
 msgid "Edit Menu"
 msgstr ""
 
-#: Controller/MenusController.php:58
+#: Controller/MenusController.php:77
 msgid "Invalid Menu"
 msgstr ""
 
-#: Controller/MenusController.php:76
+#: Controller/MenusController.php:102
 msgid "Invalid id for Menu"
 msgstr ""
 
-#: Controller/MenusController.php:80
+#: Controller/MenusController.php:106
 msgid "Menu deleted"
 msgstr ""
 
-#: Controller/MessagesController.php:52
+#: Controller/MessagesController.php:58
 msgid "Messages: Read"
 msgstr ""
 
-#: Controller/MessagesController.php:54
+#: Controller/MessagesController.php:60
 msgid "Messages: Unread"
 msgstr ""
 
-#: Controller/MessagesController.php:62
+#: Controller/MessagesController.php:75
 msgid "Edit Message"
 msgstr ""
 
-#: Controller/MessagesController.php:65
+#: Controller/MessagesController.php:78
 msgid "Invalid Message"
 msgstr ""
 
-#: Controller/MessagesController.php:70
+#: Controller/MessagesController.php:83
 msgid "The Message has been saved"
 msgstr ""
 
-#: Controller/MessagesController.php:73
+#: Controller/MessagesController.php:86
 msgid "The Message could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/MessagesController.php:83
+#: Controller/MessagesController.php:103
 msgid "Invalid id for Message"
 msgstr ""
 
-#: Controller/MessagesController.php:87
+#: Controller/MessagesController.php:107
 msgid "Message deleted"
 msgstr ""
 
-#: Controller/MessagesController.php:108
+#: Controller/MessagesController.php:134
 msgid "Messages deleted."
 msgstr ""
 
-#: Controller/MessagesController.php:111
+#: Controller/MessagesController.php:137
 msgid "Messages marked as read"
 msgstr ""
 
-#: Controller/MessagesController.php:114
+#: Controller/MessagesController.php:140
 msgid "Messages marked as unread"
 msgstr ""
 
-#: Controller/NodesController.php:98
+#: Controller/NodesController.php:116
 #: View/Nodes/admin_index.ctp:6
 msgid "Create content"
 msgstr ""
 
-#: Controller/NodesController.php:111;181
+#: Controller/NodesController.php:136;213
 msgid "Content type does not exist."
 msgstr ""
 
-#: Controller/NodesController.php:115
+#: Controller/NodesController.php:140
 msgid "Create content: %s"
 msgstr ""
 
-#: Controller/NodesController.php:145;210
+#: Controller/NodesController.php:170;242
 msgid "%s has been saved"
 msgstr ""
 
-#: Controller/NodesController.php:152;217
+#: Controller/NodesController.php:177;249
 msgid "%s could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/NodesController.php:172;655;693
+#: Controller/NodesController.php:204;751;789
 msgid "Invalid content"
 msgstr ""
 
-#: Controller/NodesController.php:185
+#: Controller/NodesController.php:217
 msgid "Edit content: %s"
 msgstr ""
 
-#: Controller/NodesController.php:271
+#: Controller/NodesController.php:309
 msgid "Paths updated."
 msgstr ""
 
-#: Controller/NodesController.php:277
+#: Controller/NodesController.php:322
 msgid "Invalid id for Node"
 msgstr ""
 
-#: Controller/NodesController.php:281
+#: Controller/NodesController.php:326
 msgid "Node deleted"
 msgstr ""
 
-#: Controller/NodesController.php:316
+#: Controller/NodesController.php:380
 msgid "Nodes deleted."
 msgstr ""
 
-#: Controller/NodesController.php:320
+#: Controller/NodesController.php:384
 msgid "Nodes published"
 msgstr ""
 
-#: Controller/NodesController.php:324
+#: Controller/NodesController.php:388
 msgid "Nodes unpublished"
 msgstr ""
 
-#: Controller/NodesController.php:328
+#: Controller/NodesController.php:392
 msgid "Nodes promoted"
 msgstr ""
 
-#: Controller/NodesController.php:332
+#: Controller/NodesController.php:396
 msgid "Nodes unpromoted"
 msgstr ""
 
-#: Controller/NodesController.php:373;460;525;600
+#: Controller/NodesController.php:443;536;607;689
 msgid "Invalid content type."
 msgstr ""
 
-#: Controller/NodesController.php:423
+#: Controller/NodesController.php:499
 msgid "Invalid Term."
 msgstr ""
 
-#: Controller/NodesController.php:501
+#: Controller/NodesController.php:583
 msgid "Nodes"
 msgstr ""
 
-#: Controller/NodesController.php:610
+#: Controller/NodesController.php:699
 msgid "Search Results: %s"
 msgstr ""
 
-#: Controller/RegionsController.php:33
+#: Controller/RegionsController.php:39
 #: View/Regions/admin_add.ctp:6
 #: View/Regions/admin_edit.ctp:6
 msgid "Region"
 msgstr ""
 
-#: Controller/RegionsController.php:42
+#: Controller/RegionsController.php:54
 msgid "Add Region"
 msgstr ""
 
-#: Controller/RegionsController.php:47;64
+#: Controller/RegionsController.php:59;83
 msgid "The Region has been saved"
 msgstr ""
 
-#: Controller/RegionsController.php:50;67
+#: Controller/RegionsController.php:62;86
 msgid "The Region could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/RegionsController.php:56
+#: Controller/RegionsController.php:75
 msgid "Edit Region"
 msgstr ""
 
-#: Controller/RegionsController.php:59
+#: Controller/RegionsController.php:78
 msgid "Invalid Region"
 msgstr ""
 
-#: Controller/RegionsController.php:77
+#: Controller/RegionsController.php:103
 msgid "Invalid id for Region"
 msgstr ""
 
-#: Controller/RegionsController.php:81
+#: Controller/RegionsController.php:107
 msgid "Region deleted"
 msgstr ""
 
-#: Controller/RolesController.php:42
+#: Controller/RolesController.php:54
 msgid "Add Role"
 msgstr ""
 
-#: Controller/RolesController.php:47;64
+#: Controller/RolesController.php:59;83
 msgid "The Role has been saved"
 msgstr ""
 
-#: Controller/RolesController.php:50;67
+#: Controller/RolesController.php:62;86
 msgid "The Role could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/RolesController.php:56
+#: Controller/RolesController.php:75
 msgid "Edit Role"
 msgstr ""
 
-#: Controller/RolesController.php:59
+#: Controller/RolesController.php:78
 msgid "Invalid Role"
 msgstr ""
 
-#: Controller/RolesController.php:77
+#: Controller/RolesController.php:103
 msgid "Invalid id for Role"
 msgstr ""
 
-#: Controller/RolesController.php:81
+#: Controller/RolesController.php:107
 msgid "Role deleted"
 msgstr ""
 
-#: Controller/SettingsController.php:41
+#: Controller/SettingsController.php:47
 #: View/Elements/admin/header.ctp:5
 msgid "Dashboard"
 msgstr ""
 
-#: Controller/SettingsController.php:57
+#: Controller/SettingsController.php:76
 msgid "Invalid Setting."
 msgstr ""
 
-#: Controller/SettingsController.php:64
+#: Controller/SettingsController.php:89
 msgid "Add Setting"
 msgstr ""
 
-#: Controller/SettingsController.php:69;86
+#: Controller/SettingsController.php:94;118
 msgid "The Setting has been saved"
 msgstr ""
 
-#: Controller/SettingsController.php:72;89
+#: Controller/SettingsController.php:97;121
 msgid "The Setting could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/SettingsController.php:78
+#: Controller/SettingsController.php:110
 #: View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr ""
 
-#: Controller/SettingsController.php:81
+#: Controller/SettingsController.php:113
 msgid "Invalid Setting"
 msgstr ""
 
-#: Controller/SettingsController.php:99
+#: Controller/SettingsController.php:138
 msgid "Invalid id for Setting"
 msgstr ""
 
-#: Controller/SettingsController.php:103
+#: Controller/SettingsController.php:142
 msgid "Setting deleted"
 msgstr ""
 
-#: Controller/SettingsController.php:109
+#: Controller/SettingsController.php:155
 msgid "Settings: %s"
 msgstr ""
 
-#: Controller/SettingsController.php:112
+#: Controller/SettingsController.php:158
 msgid "Settings updated successfully"
 msgstr ""
 
-#: Controller/SettingsController.php:125
+#: Controller/SettingsController.php:171
 msgid "Invalid Setting key"
 msgstr ""
 
-#: Controller/TermsController.php:50
+#: Controller/TermsController.php:63
 msgid "Invalid Vocabulary ID."
 msgstr ""
 
-#: Controller/TermsController.php:56
+#: Controller/TermsController.php:69
 msgid "Vocabulary: %s"
 msgstr ""
 
-#: Controller/TermsController.php:89
+#: Controller/TermsController.php:109
 msgid "%s: Add Term"
 msgstr ""
 
-#: Controller/TermsController.php:99;195
+#: Controller/TermsController.php:119;223
 msgid "Term with same slug already exists in the vocabulary."
 msgstr ""
 
-#: Controller/TermsController.php:112;209
+#: Controller/TermsController.php:132;237
 msgid "Term saved successfuly."
 msgstr ""
 
-#: Controller/TermsController.php:118;215
+#: Controller/TermsController.php:138;243
 msgid "Term could not be added to the vocabulary. Please try again."
 msgstr ""
 
-#: Controller/TermsController.php:122;219
+#: Controller/TermsController.php:142;247
 msgid "Term could not be saved. Please try again."
 msgstr ""
 
-#: Controller/TermsController.php:170
+#: Controller/TermsController.php:198
 msgid "%s: Edit Term"
 msgstr ""
 
-#: Controller/TermsController.php:231;262;294
+#: Controller/TermsController.php:267;307;348
 msgid "Invalid id for Term"
 msgstr ""
 
-#: Controller/TermsController.php:250
+#: Controller/TermsController.php:286
 msgid "Term deleted"
 msgstr ""
 
-#: Controller/TermsController.php:252
+#: Controller/TermsController.php:288
 msgid "Term could not be deleted. Please, try again."
 msgstr ""
 
-#: Controller/TypesController.php:40
+#: Controller/TypesController.php:52
 #: View/Types/admin_add.ctp:6
 #: View/Types/admin_edit.ctp:6
 msgid "Type"
 msgstr ""
 
-#: Controller/TypesController.php:49
+#: Controller/TypesController.php:67
 msgid "Add Type"
 msgstr ""
 
-#: Controller/TypesController.php:54;74
+#: Controller/TypesController.php:72;99
 msgid "The Type has been saved"
 msgstr ""
 
-#: Controller/TypesController.php:57;77
+#: Controller/TypesController.php:75;102
 msgid "The Type could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/TypesController.php:66
+#: Controller/TypesController.php:91
 msgid "Edit Type"
 msgstr ""
 
-#: Controller/TypesController.php:69
+#: Controller/TypesController.php:94
 msgid "Invalid Type"
 msgstr ""
 
-#: Controller/TypesController.php:90
+#: Controller/TypesController.php:122
 msgid "Invalid id for Type"
 msgstr ""
 
-#: Controller/TypesController.php:94
+#: Controller/TypesController.php:126
 msgid "Type deleted"
 msgstr ""
 
-#: Controller/UsersController.php:52
+#: Controller/UsersController.php:58
 msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
 msgstr ""
 
-#: Controller/UsersController.php:84;105
+#: Controller/UsersController.php:108;131
 msgid "The User has been saved"
 msgstr ""
 
-#: Controller/UsersController.php:87;108;200
+#: Controller/UsersController.php:111;134;264
 msgid "The User could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:120
+#: Controller/UsersController.php:153
 msgid "Invalid User"
 msgstr ""
 
-#: Controller/UsersController.php:125
+#: Controller/UsersController.php:158
 msgid "Password has been reset."
 msgstr ""
 
-#: Controller/UsersController.php:128
+#: Controller/UsersController.php:161
 msgid "Password could not be reset. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:138
+#: Controller/UsersController.php:178
 msgid "Invalid id for User"
 msgstr ""
 
-#: Controller/UsersController.php:142
+#: Controller/UsersController.php:182
 msgid "User deleted"
 msgstr ""
 
-#: Controller/UsersController.php:145
+#: Controller/UsersController.php:185
 msgid "User cannot be deleted"
 msgstr ""
 
-#: Controller/UsersController.php:151
+#: Controller/UsersController.php:197
 msgid "Admin Login"
 msgstr ""
 
-#: Controller/UsersController.php:167;312
+#: Controller/UsersController.php:219;418
 msgid "Log out successful."
 msgstr ""
 
-#: Controller/UsersController.php:176
+#: Controller/UsersController.php:240
 msgid "Register"
 msgstr ""
 
-#: Controller/UsersController.php:191
+#: Controller/UsersController.php:255
 msgid "[%s] Please activate your account"
 msgstr ""
 
-#: Controller/UsersController.php:196
+#: Controller/UsersController.php:260
 msgid "You have successfully registered an account. An email has been sent with further instructions."
 msgstr ""
 
-#: Controller/UsersController.php:220
+#: Controller/UsersController.php:292
 msgid "Account activated successfully."
 msgstr ""
 
-#: Controller/UsersController.php:233
+#: Controller/UsersController.php:317
 msgid "Forgot Password"
 msgstr ""
 
-#: Controller/UsersController.php:238
+#: Controller/UsersController.php:322
 msgid "Invalid username."
 msgstr ""
 
-#: Controller/UsersController.php:250
+#: Controller/UsersController.php:334
 msgid "[%s] Reset Password"
 msgstr ""
 
-#: Controller/UsersController.php:253
+#: Controller/UsersController.php:337
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 
-#: Controller/UsersController.php:256;288
+#: Controller/UsersController.php:340;382
 msgid "An error occurred. Please try again."
 msgstr ""
 
-#: Controller/UsersController.php:262
+#: Controller/UsersController.php:354
 msgid "Reset Password"
 msgstr ""
 
-#: Controller/UsersController.php:285
+#: Controller/UsersController.php:379
 msgid "Your password has been reset successfully."
 msgstr ""
 
-#: Controller/UsersController.php:296
+#: Controller/UsersController.php:396
 msgid "Log in"
 msgstr ""
 
-#: Controller/UsersController.php:320
+#: Controller/UsersController.php:433
 msgid "Invalid User."
 msgstr ""
 
-#: Controller/VocabulariesController.php:33
+#: Controller/VocabulariesController.php:39
 msgid "Vocabularies"
 msgstr ""
 
-#: Controller/VocabulariesController.php:41
+#: Controller/VocabulariesController.php:53
 msgid "Add Vocabulary"
 msgstr ""
 
-#: Controller/VocabulariesController.php:46;66
+#: Controller/VocabulariesController.php:58;85
 msgid "The Vocabulary has been saved"
 msgstr ""
 
-#: Controller/VocabulariesController.php:49;69
+#: Controller/VocabulariesController.php:61;88
 msgid "The Vocabulary could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/VocabulariesController.php:58
+#: Controller/VocabulariesController.php:77
 msgid "Edit Vocabulary"
 msgstr ""
 
-#: Controller/VocabulariesController.php:61
+#: Controller/VocabulariesController.php:80
 msgid "Invalid Vocabulary"
 msgstr ""
 
-#: Controller/VocabulariesController.php:82
+#: Controller/VocabulariesController.php:108
 msgid "Invalid id for Vocabulary"
 msgstr ""
 
-#: Controller/VocabulariesController.php:86
+#: Controller/VocabulariesController.php:112
 msgid "Vocabulary deleted"
 msgstr ""
 
@@ -1083,20 +1108,24 @@ msgstr ""
 msgid "EventHandler %s not found in plugin %s"
 msgstr ""
 
-#: Model/User.php:152
+#: Lib/CroogoRouter.php:109
+msgid "Unable to get routeable content types: %s"
+msgstr ""
+
+#: Model/User.php:208
 msgid "Passwords do not match. Please, try again."
 msgstr ""
 
-#: Model/Behavior/CroogoTranslateBehavior.php:75
+#: Model/Behavior/CroogoTranslateBehavior.php:52
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
 msgstr ""
 
 #: Plugin/Acl/Config/bootstrap.php:19
-#: Plugin/Acl/Controller/AclPermissionsController.php:46
+#: Plugin/Acl/Controller/AclPermissionsController.php:56
 msgid "Permissions"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:33
+#: Plugin/Acl/Controller/AclActionsController.php:53
 #: Plugin/Acl/View/AclActions/admin_index.ctp:18
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:16
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:18
@@ -1119,51 +1148,51 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:48
+#: Plugin/Acl/Controller/AclActionsController.php:68
 msgid "Add Action"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:62
+#: Plugin/Acl/Controller/AclActionsController.php:82
 msgid "The %s has been saved"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:65
+#: Plugin/Acl/Controller/AclActionsController.php:85
 msgid "The %s could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:93
+#: Plugin/Acl/Controller/AclActionsController.php:113
 msgid "Edit Action"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:96
+#: Plugin/Acl/Controller/AclActionsController.php:116
 msgid "Invalid Action"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:101
+#: Plugin/Acl/Controller/AclActionsController.php:121
 msgid "The Action has been saved"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:104
+#: Plugin/Acl/Controller/AclActionsController.php:124
 msgid "The Action could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:136;154
+#: Plugin/Acl/Controller/AclActionsController.php:156;174
 msgid "Invalid id for Action"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:140
+#: Plugin/Acl/Controller/AclActionsController.php:160
 msgid "Action deleted"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:159
+#: Plugin/Acl/Controller/AclActionsController.php:179
 msgid "Action moved up"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:164
+#: Plugin/Acl/Controller/AclActionsController.php:184
 msgid "Action moved down"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:221
+#: Plugin/Acl/Controller/AclActionsController.php:241
 msgid "Created %d new permissions"
 msgstr ""
 
@@ -1292,7 +1321,7 @@ msgid "error"
 msgstr ""
 
 #: Plugin/Example/Config/bootstrap.php:34
-#: Plugin/Example/Controller/ExampleController.php:32;36
+#: Plugin/Example/Controller/ExampleController.php:39;48
 msgid "Example"
 msgstr ""
 
@@ -1304,7 +1333,7 @@ msgstr ""
 msgid "Example 2"
 msgstr ""
 
-#: Plugin/Example/Event/ExampleEventHandler.php:21
+#: Plugin/Example/Event/ExampleEventHandler.php:43
 msgid "Welcome %s.  Have a nice day"
 msgstr ""
 
@@ -1318,132 +1347,132 @@ msgid "content here"
 msgstr ""
 
 #: Plugin/Extensions/Config/bootstrap.php:13
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:51
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:56
 msgid "Themes"
 msgstr ""
 
 #: Plugin/Extensions/Config/bootstrap.php:22
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:37
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:42
 msgid "Locales"
 msgstr ""
 
 #: Plugin/Extensions/Config/bootstrap.php:31
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:57
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:67
 msgid "Plugins"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:53
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:64
 msgid "Locale does not exist."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:59
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:70
 msgid "Locale '%s' set as default"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:61
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:72
 msgid "Could not save Locale setting."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:67
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:83
 msgid "Upload a new locale"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:93;142
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:109;164
 msgid "Invalid locale."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:98
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:114
 msgid "Locale already exists."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:139
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:161
 msgid "Edit locale: %s"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:147
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:169
 msgid "The file default.po does not exist."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:157
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:179
 msgid "Locale updated successfully"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:167
-#: Plugin/Translate/Controller/TranslateController.php:90
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:195
+#: Plugin/Translate/Controller/TranslateController.php:104
 msgid "Invalid locale"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:173
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:201
 msgid "Locale deleted successfully."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:175
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:203
 msgid "Local could not be deleted."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:72
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:84
 msgid "Upload a new plugin"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:91;113
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:72
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:109;137
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:87
 msgid "Invalid plugin"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:95
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:113
 msgid "You cannot delete a plugin that is currently active."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:101
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:119
 msgid "Plugin \"%s\" deleted successfully."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:105
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:123
 msgid "Plugin could not be deleted."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:124
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:148
 #: Plugin/Extensions/Lib/CroogoPlugin.php:338
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:133
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:157
 msgid "Plugin could not be activated. Please, try again."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:66
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:77
 msgid "Theme activated."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:68
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:79
 msgid "Theme activation failed."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:78
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:91
 msgid "Upload a new theme"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:87
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:100
 msgid "Theme uploaded successfully."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:96
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:114
 msgid "Theme Editor"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:104
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:133
 msgid "Invalid Theme."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:109
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:138
 msgid "Default theme cannot be deleted."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:112
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:141
 msgid "You cannot delete a theme that is currently active."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:134
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:163
 msgid "Theme deleted successfully."
 msgstr ""
 
@@ -1459,48 +1488,56 @@ msgstr ""
 msgid "Plugin \"%s\" is not active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:46
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:61
 msgid "Invalid plugin path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:77;160
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:92;176
 msgid "Invalid zip archive"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:92
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:107
 msgid "Invalid plugin file path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:102
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:118
 msgid "Plugin already exists"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:118
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:134
 msgid "Failed to extract plugin"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:131
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:147
 msgid "Invalid theme path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:146
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:162
 msgid "Invalid YML file"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:155
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:171
 msgid "Invalid theme"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:175
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:191
 msgid "Invalid theme file path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:185
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:202
 msgid "Theme already exists"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:201
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:218
 msgid "Failed to extract theme"
+msgstr ""
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:237
+msgid "Must specify a valid package name: vendor/name."
+msgstr ""
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:241
+msgid "Themes installed via composer are not yet supported."
 msgstr ""
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:22
@@ -1510,7 +1547,7 @@ msgstr ""
 #: Plugin/Install/View/Install/adminuser.ctp:15
 #: View/Attachments/admin_add.ctp:30
 #: View/Attachments/admin_edit.ctp:45
-#: View/Blocks/admin_add.ctp:56
+#: View/Blocks/admin_add.ctp:57
 #: View/Blocks/admin_edit.ctp:59
 #: View/Comments/admin_edit.ctp:35
 #: View/Common/admin_edit.ctp:57
@@ -1551,7 +1588,7 @@ msgstr ""
 #: Plugin/Translate/View/Translate/admin_edit.ctp:32
 #: View/Attachments/admin_add.ctp:29
 #: View/Attachments/admin_edit.ctp:44
-#: View/Blocks/admin_add.ctp:55
+#: View/Blocks/admin_add.ctp:56
 #: View/Blocks/admin_edit.ctp:58
 #: View/Comments/admin_edit.ctp:34
 #: View/Common/admin_edit.ctp:56
@@ -1691,6 +1728,7 @@ msgstr ""
 
 #: Plugin/Install/View/Install/adminuser.ctp:8
 #: View/Users/admin_reset_password.ctp:9
+#: View/Users/reset.ctp:7
 msgid "Verify Password"
 msgstr ""
 
@@ -1761,43 +1799,43 @@ msgstr ""
 msgid "Install Croogo"
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:37;81
+#: Plugin/Translate/Controller/TranslateController.php:44;95
 msgid "Invalid ID."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:46;157
+#: Plugin/Translate/Controller/TranslateController.php:53;179
 msgid "Invalid model."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:57;116;168
+#: Plugin/Translate/Controller/TranslateController.php:64;130;190
 msgid "Invalid record."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:64
+#: Plugin/Translate/Controller/TranslateController.php:71
 msgid "Translations: %s"
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:123
+#: Plugin/Translate/Controller/TranslateController.php:137
 msgid "Translate content: %s (%s)"
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:130
+#: Plugin/Translate/Controller/TranslateController.php:144
 msgid "Record has been translated"
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:137
+#: Plugin/Translate/Controller/TranslateController.php:151
 msgid "Record could not be translated. Please, try again."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:148
+#: Plugin/Translate/Controller/TranslateController.php:170
 msgid "Invalid Locale or ID"
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:183
+#: Plugin/Translate/Controller/TranslateController.php:205
 msgid "Translation for the locale deleted successfully."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:185
+#: Plugin/Translate/Controller/TranslateController.php:207
 msgid "Translation for the locale could not be deleted."
 msgstr ""
 
@@ -1822,7 +1860,7 @@ msgstr ""
 msgid "No translations available."
 msgstr ""
 
-#: Test/Case/Controller/LanguagesControllerTest.php:207;238
+#: Test/Case/Controller/LanguagesControllerTest.php:208;239
 msgid "Could not add a new language."
 msgstr ""
 
@@ -1906,7 +1944,7 @@ msgstr ""
 msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
 msgstr ""
 
-#: View/Blocks/admin_add.ctp:54
+#: View/Blocks/admin_add.ctp:55
 #: View/Blocks/admin_edit.ctp:57
 #: View/Nodes/admin_add.ctp:105
 #: View/Nodes/admin_edit.ctp:100
@@ -2485,7 +2523,6 @@ msgstr ""
 #: Model/Link.php:validation for field title
 #: Model/Menu.php:validation for field title
 #: Model/Region.php:validation for field title
-#: Model/Role.php:validation for field title
 #: Model/Type.php:validation for field title
 #: Model/Vocabulary.php:validation for field title
 msgid "Title cannot be empty."
@@ -2507,7 +2544,7 @@ msgstr ""
 #: Model/Language.php:validation for field alias
 #: Model/Menu.php:validation for field alias
 #: Model/Region.php:validation for field alias
-#: Model/Role.php:validation for field alias
+#: Model/Role.php:validation for field title;validation for field alias
 #: Model/Type.php:validation for field alias
 #: Model/Vocabulary.php:validation for field alias
 msgid "Alias cannot be empty."
@@ -2545,6 +2582,11 @@ msgstr ""
 msgid "Slug cannot be empty."
 msgstr ""
 
+#: Model/Role.php:validation for field title;validation for field alias
+#: Model/User.php:validation for field username;validation for field name
+msgid "This field must be alphanumeric"
+msgstr ""
+
 #: Model/Setting.php:validation for field key
 msgid "This key has already been taken."
 msgstr ""
@@ -2563,6 +2605,10 @@ msgstr ""
 
 #: Model/User.php:validation for field password
 msgid "Passwords must be at least 6 characters long."
+msgstr ""
+
+#: Model/User.php:validation for field website
+msgid "This field must be a valid URL"
 msgstr ""
 
 #: webroot/test.php:87
