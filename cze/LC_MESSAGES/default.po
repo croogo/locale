@@ -514,3 +514,65 @@ msgstr "Komentář se objeví po schválení"
 msgid "Your message has been received..."
 msgstr "Vaše zpráva byla přijata"
 
+msgid "Translate"
+msgstr "Přeložit"
+
+msgid "Edit"
+msgstr "Upravit"
+
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Extensions"
+msgstr "Doplňky"
+
+msgid "List"
+msgstr "Procházet"
+
+msgid "Create"
+msgstr "Vytvořit"
+
+msgid "Add new"
+msgstr "Přidat nový"
+
+msgid "Regions"
+msgstr "Oblasti"
+
+msgid "Themes"
+msgstr "Témata"
+
+msgid "Locales"
+msgstr "Jazyky"
+
+msgid "Plugins"
+msgstr "Rozšíření"
+
+msgid "Title"
+msgstr "Nadpis"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Promote"
+msgstr "Zveřejnit"
+
+msgid "Actions"
+msgstr "Akce"
+
+msgid "You are logged in as: %s"
+msgstr "Jste přihlášeni jako: %s"
+
+msgid "Deactivate"
+msgstr "Deaktivovat"
+
+msgid "Activate"
+msgstr "Aktivovat"
+
+msgid "Visit website"
+msgstr "Jít na stránky"
