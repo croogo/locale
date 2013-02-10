@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2013-02-10 01:13-0500\n"
+"PO-Revision-Date: 2013-02-10 01:55-0500\n"
 "Last-Translator: Mario Yepes <mario.yepes@iapropiada.com>\n"
 "Language-Team: ESPAÑOL <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -882,19 +882,18 @@ msgid "Term saved successfuly."
 msgstr "Térmio guardado exitosamente."
 
 #: Controller/TermsController.php:141;246
-#, fuzzy
 msgid "Term could not be added to the vocabulary. Please try again."
-msgstr "El término no ha podido ser guardado. Por favor intente de nuevo."
+msgstr ""
+"El término no ha podido ser adicionado al vocabulario. Por favor intente de "
+"nuevo."
 
 #: Controller/TermsController.php:145;250
-#, fuzzy
 msgid "Term could not be saved. Please try again."
-msgstr "El término no ha podido ser guardado. Por favor intente de nuevo."
+msgstr "El término no pudo ser guardado. Por favor intente de nuevo."
 
 #: Controller/TermsController.php:201
-#, fuzzy
 msgid "%s: Edit Term"
-msgstr "Editar término"
+msgstr "%s: Editar término"
 
 #: Controller/TermsController.php:270;310;351
 msgid "Invalid id for Term"
@@ -905,9 +904,8 @@ msgid "Term deleted"
 msgstr "Término borrado"
 
 #: Controller/TermsController.php:291
-#, fuzzy
 msgid "Term could not be deleted. Please, try again."
-msgstr "El término no ha podido ser guardado. Por favor intente de nuevo."
+msgstr "El término no pudo ser eliminado. Por favor intente de nuevo."
 
 #: Controller/TypesController.php:55 View/Types/admin_add.ctp:6
 #: View/Types/admin_edit.ctp:6
@@ -980,9 +978,8 @@ msgid "User deleted"
 msgstr "Usuario borrado"
 
 #: Controller/UsersController.php:188
-#, fuzzy
 msgid "User cannot be deleted"
-msgstr "Usuario borrado"
+msgstr "El usuario no pudo ser borrado"
 
 #: Controller/UsersController.php:200
 msgid "Admin Login"
@@ -997,9 +994,8 @@ msgid "Register"
 msgstr "Registro"
 
 #: Controller/UsersController.php:258
-#, fuzzy
 msgid "[%s] Please activate your account"
-msgstr "Por favor visite este enlace para activar su cuenta: %s"
+msgstr "[%s] Por favor active su cuenta"
 
 #: Controller/UsersController.php:263
 msgid ""
@@ -1020,9 +1016,8 @@ msgid "Invalid username."
 msgstr "Nombre de usuario no válido"
 
 #: Controller/UsersController.php:337
-#, fuzzy
 msgid "[%s] Reset Password"
-msgstr "Reestablecer contraseña"
+msgstr "[%s] Reinicio de Contraseña"
 
 #: Controller/UsersController.php:340
 msgid "An email has been sent with instructions for resetting your password."
@@ -1050,9 +1045,8 @@ msgid "Invalid User."
 msgstr "Usuario no válido."
 
 #: Controller/VocabulariesController.php:42
-#, fuzzy
 msgid "Vocabularies"
-msgstr "Vocabulario"
+msgstr "Vocabularios"
 
 #: Controller/VocabulariesController.php:56
 msgid "Add Vocabulary"
@@ -1091,10 +1085,8 @@ msgid "Unable to get routeable content types: %s"
 msgstr "No se pudieron obtener tipos de contenidos enrutables: %s"
 
 #: Model/User.php:209
-#, fuzzy
 msgid "Passwords do not match. Please, try again."
-msgstr ""
-"La contraseña no ha podido ser reestablecida. Por favor intente de nuevo."
+msgstr "La contraseñas no coinciden. Por favor intente de nuevo."
 
 #: Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
@@ -1128,14 +1120,12 @@ msgid "Add Action"
 msgstr "Añadir acción"
 
 #: Plugin/Acl/Controller/AclActionsController.php:85
-#, fuzzy
 msgid "The %s has been saved"
-msgstr "El usuario ha sido guardado"
+msgstr "El %s ha sido guardado"
 
 #: Plugin/Acl/Controller/AclActionsController.php:88
-#, fuzzy
 msgid "The %s could not be saved. Please, try again."
-msgstr "El usuario no ha podido ser guardado. Por favor intente de nuevo."
+msgstr "El %s no pudo ser guardado. Por favor intente de nuevo."
 
 #: Plugin/Acl/Controller/AclActionsController.php:116
 msgid "Edit Action"
@@ -1286,9 +1276,8 @@ msgid "Welcome %s.  Have a nice day"
 msgstr "Bienvenido a %s. Tenga un buen día"
 
 #: Plugin/Example/View/Example/admin_index.ctp:4
-#, fuzzy
 msgid "New Tab"
-msgstr "Nuevo término"
+msgstr "Nueva pestaña"
 
 #: Plugin/Example/View/Example/admin_index.ctp:7
 #: Plugin/Example/View/Example/index.ctp:3
@@ -1319,9 +1308,8 @@ msgid "Locale '%s' set as default"
 msgstr "Locale '%s' activado como por defecto"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:73
-#, fuzzy
 msgid "Could not save Locale setting."
-msgstr "%s no ha podido ser guardado. Por favor intente de nuevo."
+msgstr "No pudieron ser guardadas las opciones de locale"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:84
 msgid "Upload a new locale"
@@ -1336,9 +1324,8 @@ msgid "Locale already exists."
 msgstr "Locale ya existe."
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:162
-#, fuzzy
 msgid "Edit locale: %s"
-msgstr "Editar contenido: %s"
+msgstr "Editar locale: %s"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:170
 msgid "The file default.po does not exist."
@@ -1375,9 +1362,8 @@ msgid "You cannot delete a plugin that is currently active."
 msgstr "Usted no puede borrar un plugin que está actualmente activo."
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:121
-#, fuzzy
 msgid "Plugin \"%s\" deleted successfully."
-msgstr "Plugin borrado con éxito."
+msgstr "Plugin \"%s\" borrado exitosamente."
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:125
 msgid "Plugin could not be deleted."
@@ -1385,32 +1371,28 @@ msgstr "El plugin no ha podido ser borrado."
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:150
 #: Plugin/Extensions/Lib/CroogoPlugin.php:340
-#, fuzzy
 msgid "Plugin could not be deactivated. Please, try again."
-msgstr "%s no ha podido ser guardado. Por favor intente de nuevo."
+msgstr "El plugin no pudo ser desactivado. Por favor intente de nuevo."
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:159
-#, fuzzy
 msgid "Plugin could not be activated. Please, try again."
-msgstr "%s no ha podido ser guardado. Por favor intente de nuevo."
+msgstr "El plugin no pudo ser activado. Por favor intente de nuevo."
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:79
 msgid "Theme activated."
 msgstr "Tema activado."
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:81
-#, fuzzy
 msgid "Theme activation failed."
-msgstr "Tema activado."
+msgstr "Activación del tema falló."
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:93
 msgid "Upload a new theme"
 msgstr "Cargar un nuevo tema"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:102
-#, fuzzy
 msgid "Theme uploaded successfully."
-msgstr "Archivo cargado con éxito."
+msgstr "Tema cargado exitosamente."
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:116
 msgid "Theme Editor"
@@ -1433,9 +1415,8 @@ msgid "Theme deleted successfully."
 msgstr "Tema borrado con éxito."
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:287
-#, fuzzy
 msgid "Plugin \"%s\" is already active."
-msgstr "Plugin ya existe."
+msgstr "El plugin \"%s\" ya está activo."
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:313
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
@@ -1446,22 +1427,18 @@ msgid "Plugin \"%s\" is not active."
 msgstr "Plugin \"%s\" no está activo."
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:62
-#, fuzzy
 msgid "Invalid plugin path"
-msgstr "Plugin no válido"
+msgstr "Ruta al plugin inválida"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:72;104;185
-#, fuzzy
 msgid "Invalid zip archive"
-msgstr "Id de acción no válido"
+msgstr "Archivo zip inválido"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:119
-#, fuzzy
 msgid "Invalid plugin file path"
-msgstr "Plugin no válido"
+msgstr "Ruta al archivo del plugin inválida"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:130
-#, fuzzy
 msgid "Plugin already exists"
 msgstr "Plugin ya existe."
 
@@ -1470,24 +1447,20 @@ msgid "Failed to extract plugin"
 msgstr "Falló al extraer el plugin"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:159
-#, fuzzy
 msgid "Invalid theme path"
-msgstr "Tema no válido."
+msgstr "Ruta al tema inválida"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:180
-#, fuzzy
 msgid "Invalid theme"
-msgstr "Tema no válido."
+msgstr "Tema inválido"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:200
-#, fuzzy
 msgid "Invalid theme file path"
-msgstr "Archivo XML no válido"
+msgstr "Ruta al archivo del tema inválida"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:211
-#, fuzzy
 msgid "Theme already exists"
-msgstr "Locale ya existe."
+msgstr "El tema ya existe"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:227
 msgid "Failed to extract theme"
@@ -1577,14 +1550,12 @@ msgid "Description"
 msgstr "Descripción"
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:17
-#, fuzzy
 msgid "Active"
-msgstr "Activar"
+msgstr "Activo"
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:30
-#, fuzzy
 msgid "Deactivate"
-msgstr "Activar"
+msgstr "Desactivar"
 
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Editor"
@@ -1620,9 +1591,8 @@ msgid "Step 1: Database"
 msgstr "Paso 1: Base de datos"
 
 #: Plugin/Install/Controller/InstallController.php:143
-#, fuzzy
 msgid "Could not connect to database: %s"
-msgstr "No se pudo conectar a la base de datos."
+msgstr "No se pudo conectar a la base de datos: %s"
 
 #: Plugin/Install/Controller/InstallController.php:147;201
 msgid "Could not connect to database."
@@ -1633,19 +1603,16 @@ msgid "Could not write database.php file."
 msgstr "No se pudo escribir el archivo database.php."
 
 #: Plugin/Install/Controller/InstallController.php:167
-#, fuzzy
 msgid "Could not write croogo.php file."
-msgstr "No se pudo editar el archivo croogo_bootstrap.php."
+msgstr "No se pudo escribir el archivo croogo.php."
 
 #: Plugin/Install/Controller/InstallController.php:192
-#, fuzzy
 msgid "Step 2: Build database"
-msgstr "Paso 1: Base de datos"
+msgstr "Paso 2: Construir base de datos"
 
 #: Plugin/Install/Controller/InstallController.php:211
-#, fuzzy
 msgid "Could not create table: %s"
-msgstr "No se pudo conectar a la base de datos."
+msgstr "No se pudo crear la tabla: %s"
 
 #: Plugin/Install/Controller/InstallController.php:273
 msgid "Installation completed successfully"
@@ -1662,9 +1629,8 @@ msgstr "Nueva contraseña"
 
 #: Plugin/Install/View/Install/adminuser.ctp:8
 #: View/Users/admin_reset_password.ctp:9 View/Users/reset.ctp:7
-#, fuzzy
 msgid "Verify Password"
-msgstr "Nueva contraseña"
+msgstr "Verificar Contraseña"
 
 #: Plugin/Install/View/Install/data.ctp:5
 msgid "Click here to build your database"
@@ -1679,9 +1645,8 @@ msgstr ""
 "\t\tEl usuario %s ha sido creado con derechos administrativos."
 
 #: Plugin/Install/View/Install/finish.ctp:12
-#, fuzzy
 msgid "Admin panel: %s"
-msgstr "Panel de administración"
+msgstr "Panel de administración: %s"
 
 #: Plugin/Install/View/Install/finish.ctp:17
 msgid "You can start with %s or jump in and %s."
@@ -1759,14 +1724,12 @@ msgid "Invalid record."
 msgstr "Registro no válido."
 
 #: Plugin/Translate/Controller/TranslateController.php:74
-#, fuzzy
 msgid "Translations: %s"
-msgstr "Traducciones:"
+msgstr "Traducciones: %s"
 
 #: Plugin/Translate/Controller/TranslateController.php:140
-#, fuzzy
 msgid "Translate content: %s (%s)"
-msgstr "Traducir contenido:"
+msgstr "Traducir contenido: %s (%s)"
 
 #: Plugin/Translate/Controller/TranslateController.php:147
 msgid "Record has been translated"
@@ -1809,9 +1772,8 @@ msgid "No translations available."
 msgstr "No hay traducciones disponibles."
 
 #: Test/Case/Controller/LanguagesControllerTest.php:208;239
-#, fuzzy
 msgid "Could not add a new language."
-msgstr "Traducir a un nuevo idioma"
+msgstr "No se pudo adicionar un nuevo lenguaje."
 
 #: View/Attachments/admin_browse.ctp:6
 msgid "New Attachment"
@@ -1901,7 +1863,6 @@ msgstr "Publicar"
 
 #: View/Blocks/admin_index.ctp:48 View/Comments/admin_index.ctp:71
 #: View/Links/admin_index.ctp:64 View/Nodes/admin_index.ctp:72
-#, fuzzy
 msgid "Unpublish"
 msgstr "Despublicar"
 
@@ -1920,14 +1881,12 @@ msgid "Comment on"
 msgstr "Comentar"
 
 #: View/Common/admin_edit.ctp:8
-#, fuzzy
 msgid "Add"
-msgstr "Añadir Aco"
+msgstr "Adicionar"
 
 #: View/Common/admin_index.ctp:25 View/Links/admin_index.ctp:4
-#, fuzzy
 msgid "New %s"
-msgstr "Nuevo usuario"
+msgstr "Nuevo %s"
 
 #: View/Common/admin_index.ctp:92
 msgid "first"
@@ -2050,23 +2009,20 @@ msgid "Search"
 msgstr "Búsqueda"
 
 #: View/Elements/admin/footer.ctp:2
-#, fuzzy
 msgid "Croogo %s"
-msgstr "Croogo"
+msgstr "Croogo %s"
 
 #: View/Elements/admin/header.ctp:7
 msgid "Visit website"
 msgstr "Visitar sitio web"
 
 #: View/Elements/admin/header.ctp:13
-#, fuzzy
 msgid "You are logged in as: %s"
-msgstr "Está conectado como "
+msgstr "Está conectado como: %s"
 
 #: View/Elements/admin/header.ctp:15
-#, fuzzy
 msgid "Log out"
-msgstr "Desconectar"
+msgstr "Salir"
 
 #: View/Elements/admin/nodes_filter.ctp:27
 msgid "Unpublished"
@@ -2201,9 +2157,8 @@ msgid "Remove"
 msgstr "Eliminar"
 
 #: View/Languages/admin_add.ctp:6 View/Languages/admin_edit.ctp:6
-#, fuzzy
 msgid "Language"
-msgstr "Idiomas"
+msgstr "Idioma"
 
 #: View/Languages/admin_select.ctp:6
 msgid "New Language"
@@ -2224,7 +2179,6 @@ msgstr "Enlace"
 #: View/Links/admin_add.ctp:9 View/Links/admin_edit.ctp:9
 #: View/Menus/admin_add.ctp:7 View/Menus/admin_edit.ctp:7
 #: View/Settings/admin_add.ctp:7 View/Settings/admin_edit.ctp:7
-#, fuzzy
 msgid "Misc."
 msgstr "Misc."
 
@@ -2361,9 +2315,8 @@ msgid "New Setting"
 msgstr "Nueva configuración"
 
 #: View/Terms/admin_add.ctp:15 View/Terms/admin_edit.ctp:10
-#, fuzzy
 msgid "Term"
-msgstr "Términos"
+msgstr "Término"
 
 #: View/Terms/admin_index.ctp:4
 msgid "New Term"
@@ -2386,9 +2339,8 @@ msgid "Show date"
 msgstr "Mostrar fecha"
 
 #: View/Users/admin_add.ctp:6
-#, fuzzy
 msgid "User"
-msgstr "Usuarios"
+msgstr "Usuario"
 
 #: View/Users/admin_edit.ctp:3 View/Users/admin_reset_password.ctp:2
 msgid "Reset password"
@@ -2399,7 +2351,6 @@ msgid "Forgot password?"
 msgstr "¿Olvidó su contraseña?"
 
 #: View/Users/admin_login.ctp:17
-#, fuzzy
 msgid "Log In"
 msgstr "Login"
 
@@ -2477,9 +2428,8 @@ msgid "This slug has already been taken."
 msgstr "Este slug ya ha sido tomado"
 
 #: Model/Node.php:validation for field slug Model/Term.php:validation
-#, fuzzy
 msgid "Slug cannot be empty."
-msgstr "El plugin no ha podido ser borrado."
+msgstr "El slug no puede estar vacio."
 
 #: Model/Role.php:validation for field title;validation alias
 #: Model/User.php:validation username;validation name
@@ -2495,9 +2445,8 @@ msgid "Key cannot be empty."
 msgstr "La llave no puede ser vacia."
 
 #: Model/User.php:validation for field username
-#, fuzzy
 msgid "The username has already been taken."
-msgstr "El término ha sido guardado"
+msgstr "El nombre de usuario ya ha sido tomado."
 
 #: Model/User.php:validation for field email
 msgid "Email address already in use."
