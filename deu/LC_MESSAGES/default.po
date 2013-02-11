@@ -90,7 +90,7 @@ msgstr "Medien"
 #: Config/croogo_menus.php:193
 #: Controller/AttachmentsController.php:94
 msgid "Attachments"
-msgstr "Anhänge"
+msgstr "Anlagen"
 
 #: Config/croogo_menus.php:202
 #: Controller/FilemanagerController.php:125
@@ -262,7 +262,7 @@ msgstr "Seite offline wegen Wartungsarbeiten"
 
 #: Controller/AttachmentsController.php:108
 msgid "Add Attachment"
-msgstr "Anhang hinzufügen"
+msgstr "Anlage hinzufügen"
 
 #: Controller/AttachmentsController.php:117
 msgid "Upload failed. Please ensure size does not exceed the server limit."
@@ -270,27 +270,27 @@ msgstr "Hochladen fehlgeschlagen. Bitte stellen Sie sicher, dass die Dateigröß
 
 #: Controller/AttachmentsController.php:154;183
 msgid "The Attachment has been saved"
-msgstr "Anhang wurde gespeichert"
+msgstr "Anlage wurde gespeichert"
 
 #: Controller/AttachmentsController.php:162;186
 msgid "The Attachment could not be saved. Please, try again."
-msgstr "Anhang konnte nicht gespeichert werden. Bitte versuchen Sie es nochmal."
+msgstr "Anlage konnte nicht gespeichert werden. Bitte versuchen Sie es nochmal."
 
 #: Controller/AttachmentsController.php:175
 msgid "Edit Attachment"
-msgstr "Anhang bearbeiten"
+msgstr "Anlage bearbeiten"
 
 #: Controller/AttachmentsController.php:178
 msgid "Invalid Attachment"
-msgstr "Ungültige Anhang"
+msgstr "Ungültige Anlage"
 
 #: Controller/AttachmentsController.php:203;220
 msgid "Invalid id for Attachment"
-msgstr "Ungültige ID für Anhang"
+msgstr "Ungültige ID für Anlage"
 
 #: Controller/AttachmentsController.php:216
 msgid "Attachment deleted"
-msgstr "Anhang gelöscht"
+msgstr "Anlage gelöscht"
 
 #: Controller/BlocksController.php:56
 msgid "Add Block"
@@ -1300,7 +1300,7 @@ msgstr "Sind Sie Sicher?"
 #: View/Terms/admin_index.ctp:35
 #: View/Vocabularies/admin_index.ctp:17
 msgid "Move up"
-msgstr "Nach oben bewegen"
+msgstr "Nach oben"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:45
 #: View/Blocks/admin_index.ctp:20
@@ -1310,7 +1310,7 @@ msgstr "Nach oben bewegen"
 #: View/Terms/admin_index.ctp:40
 #: View/Vocabularies/admin_index.ctp:18
 msgid "Move down"
-msgstr "Nach unten bewegen"
+msgstr "Nach unten"
 
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
 msgid "Edit Actions"
@@ -1872,7 +1872,7 @@ msgstr "Neue Sprache konnte nicht hinzugefügt werden."
 
 #: View/Attachments/admin_browse.ctp:6
 msgid "New Attachment"
-msgstr "Neuer Anhang"
+msgstr "Neue Anlage"
 
 #: View/Attachments/admin_browse.ctp:17
 #: View/Attachments/admin_index.ctp:9
@@ -1890,7 +1890,7 @@ msgstr "Seite %page% von %pages%, zeigt %current% Eintrag von ingesamt  %count%,
 
 #: View/Attachments/admin_edit.ctp:6
 msgid "Attachment"
-msgstr "Anhang"
+msgstr "Anlage"
 
 #: View/Attachments/admin_edit.ctp:7
 msgid "Info"
@@ -1925,7 +1925,7 @@ msgstr "Zugriff"
 #: View/Blocks/admin_add.ctp:8
 #: View/Blocks/admin_edit.ctp:8
 msgid "Visibilities"
-msgstr "Sichbarkeit"
+msgstr "Sichtbarkeit"
 
 #: View/Blocks/admin_add.ctp:9
 #: View/Blocks/admin_edit.ctp:9
@@ -1994,7 +1994,7 @@ msgstr "Hinzufügen"
 #: View/Common/admin_index.ctp:25
 #: View/Links/admin_index.ctp:4
 msgid "New %s"
-msgstr "Neu %s"
+msgstr "%s hinzufügen"
 
 #: View/Common/admin_index.ctp:92
 msgid "first"
@@ -2002,7 +2002,7 @@ msgstr "Anfang"
 
 #: View/Common/admin_index.ctp:93
 msgid "prev"
-msgstr "Vorher"
+msgstr "Zurück"
 
 #: View/Common/admin_index.ctp:95
 msgid "next"
@@ -2392,7 +2392,7 @@ msgstr "Lesen/Schreiben"
 #: View/Nodes/admin_add.ctp:73
 #: View/Nodes/admin_edit.ctp:74
 msgid "Add another field"
-msgstr "Neues Felde hinzufügen"
+msgstr "Neues Feld hinzufügen"
 
 #: View/Nodes/admin_add.ctp:92
 #: View/Nodes/admin_edit.ctp:89
