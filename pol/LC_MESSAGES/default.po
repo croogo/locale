@@ -2377,7 +2377,7 @@ msgid "Posted in"
 msgstr "Opublikowano w"
 
 msgid "Body"
-usgstr "Zawartość"
+msgstr "Zawartość"
 
 msgid "Taxonomy"
 msgstr "Taksonomia"
