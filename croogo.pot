@@ -4,9 +4,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.5.1\n"
+"Project-Id-Version: 1.5.2\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2013-04-07 19:58+0700\n"
+"PO-Revision-Date: 2013-05-26 19:11+0700\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -143,7 +143,7 @@ msgstr ""
 msgid "ACL database has been upgraded successfully"
 msgstr ""
 
-#: Plugin/Acl/Controller/Component/AclAccessComponent.php:53
+#: Plugin/Acl/Controller/Component/AclAccessComponent.php:54
 msgid "Parent Role"
 msgstr ""
 
@@ -155,15 +155,15 @@ msgstr ""
 msgid "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller \"%2$s\""
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:150
+#: Plugin/Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:173
+#: Plugin/Acl/Lib/AclExtras.php:172
 msgid "Created Aco node: %s"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:193
+#: Plugin/Acl/Lib/AclExtras.php:192
 msgid "<error>Plugin %s not found or not activated</error>"
 msgstr ""
 
@@ -203,34 +203,34 @@ msgstr ""
 msgid "<error>Tree recovery failed.</error>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:62
+#: Plugin/Acl/Lib/AclUpgrade.php:67
 msgid "No root node found"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:70
+#: Plugin/Acl/Lib/AclUpgrade.php:75
 msgid "<warning>ACL Database seems to have already been upgraded</warning>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:110
+#: Plugin/Acl/Lib/AclUpgrade.php:115
 msgid "%s not found"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:134
+#: Plugin/Acl/Lib/AclUpgrade.php:139
 msgid "Role: Public not found"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:140
+#: Plugin/Acl/Lib/AclUpgrade.php:145
 msgid "Role: Registered not found"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:146
+#: Plugin/Acl/Lib/AclUpgrade.php:151
 msgid "Role: Admin not found"
 msgstr ""
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:6
 #: Plugin/Acl/View/AclActions/admin_index.ctp:10
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
-#: Plugin/Users/Config/bootstrap.php:5;15
+#: Plugin/Users/Config/bootstrap.php:22;32
 #: Plugin/Users/Controller/UsersController.php:110;262
 #: Plugin/Users/View/Roles/admin_form.ctp:5
 #: Plugin/Users/View/Roles/admin_index.ctp:6
@@ -492,11 +492,11 @@ msgstr ""
 msgid "Edit Permissions"
 msgstr ""
 
-#: Plugin/Acl/View/Helper/AclHelper.php:42
+#: Plugin/Acl/View/Helper/AclHelper.php:34
 msgid "Upgrade Acl database"
 msgstr ""
 
-#: Plugin/Blocks/Config/bootstrap.php:14;24
+#: Plugin/Blocks/Config/bootstrap.php:18;28
 #: Plugin/Blocks/Controller/BlocksController.php:100
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:7
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:7
@@ -505,7 +505,7 @@ msgstr ""
 msgid "Blocks"
 msgstr ""
 
-#: Plugin/Blocks/Config/bootstrap.php:33
+#: Plugin/Blocks/Config/bootstrap.php:37
 #: Plugin/Blocks/View/Regions/admin_form.ctp:9
 #: Plugin/Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
@@ -579,7 +579,7 @@ msgstr ""
 #: Plugin/Comments/Controller/CommentsController.php:161
 #: Plugin/Contacts/Controller/MessagesController.php:140
 #: Plugin/Menus/Controller/LinksController.php:343
-#: Plugin/Nodes/Controller/NodesController.php:305
+#: Plugin/Nodes/Controller/NodesController.php:309
 msgid "No items selected."
 msgstr ""
 
@@ -598,10 +598,10 @@ msgstr ""
 #: Plugin/Blocks/Controller/BlocksController.php:261
 #: Plugin/Comments/Controller/CommentsController.php:175
 #: Plugin/Contacts/Controller/MessagesController.php:154
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:167
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:158
 #: Plugin/Menus/Controller/LinksController.php:372
-#: Plugin/Nodes/Controller/NodesController.php:333
-#: Plugin/Users/Controller/UsersController.php:329;392;403
+#: Plugin/Nodes/Controller/NodesController.php:337
+#: Plugin/Users/Controller/UsersController.php:364;431;442
 msgid "An error occurred."
 msgstr ""
 
@@ -800,7 +800,7 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: Plugin/Comments/Config/bootstrap.php:6
+#: Plugin/Comments/Config/bootstrap.php:11
 #: Plugin/Comments/Controller/CommentsController.php:82;188
 #: Plugin/Comments/View/Comments/admin_form.ctp:8
 #: Plugin/Comments/View/Comments/admin_index.ctp:12
@@ -811,7 +811,7 @@ msgstr ""
 msgid "Comments"
 msgstr ""
 
-#: Plugin/Comments/Config/bootstrap.php:15
+#: Plugin/Comments/Config/bootstrap.php:20
 #: Plugin/Comments/View/Comments/admin_form.ctp:55
 #: Plugin/Comments/View/Comments/admin_index.ctp:16;33
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:144
@@ -820,7 +820,7 @@ msgstr ""
 msgid "Published"
 msgstr ""
 
-#: Plugin/Comments/Config/bootstrap.php:27
+#: Plugin/Comments/Config/bootstrap.php:32
 #: Plugin/Comments/View/Comments/admin_index.ctp:19;37
 msgid "Approval"
 msgstr ""
@@ -890,22 +890,22 @@ msgstr ""
 msgid "Invalid captcha entry"
 msgstr ""
 
-#: Plugin/Comments/Controller/CommentsController.php:338
+#: Plugin/Comments/Controller/CommentsController.php:339
 msgid "New comment posted under"
 msgstr ""
 
-#: Plugin/Comments/Model/Comment.php:118
+#: Plugin/Comments/Model/Comment.php:117
 msgid "Invalid Node id"
 msgstr ""
 
-#: Plugin/Comments/Model/Comment.php:177
+#: Plugin/Comments/Model/Comment.php:176
 msgid "Invalid Comment id"
 msgstr ""
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:7
 #: Plugin/Comments/View/Comments/admin_index.ctp:11
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:28;38
-#: Plugin/Nodes/Config/bootstrap.php:28
+#: Plugin/Nodes/Config/bootstrap.php:38
 #: Plugin/Nodes/Controller/NodesController.php:109
 #: Plugin/Nodes/View/Nodes/admin_create.ctp:5
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:8
@@ -922,7 +922,7 @@ msgstr ""
 #: Plugin/Comments/View/Comments/admin_form.ctp:19
 #: Plugin/Comments/View/Elements/comments.ctp:5
 #: Plugin/Nodes/View/Elements/node_more_info.ctp:31
-#: Plugin/Settings/Config/bootstrap.php:66
+#: Plugin/Settings/Config/bootstrap.php:71
 msgid "Comment"
 msgstr ""
 
@@ -1040,7 +1040,7 @@ msgstr ""
 msgid "Comment: %s"
 msgstr ""
 
-#: Plugin/Contacts/Config/bootstrap.php:5;15
+#: Plugin/Contacts/Config/bootstrap.php:10;20
 #: Plugin/Contacts/Controller/ContactsController.php:54
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:7
 #: Plugin/Contacts/View/Contacts/admin_index.ctp:3
@@ -1049,7 +1049,7 @@ msgstr ""
 msgid "Contacts"
 msgstr ""
 
-#: Plugin/Contacts/Config/bootstrap.php:24
+#: Plugin/Contacts/Config/bootstrap.php:29
 #: Plugin/Contacts/Controller/MessagesController.php:65
 #: Plugin/Contacts/View/Messages/admin_form.ctp:8
 #: Plugin/Contacts/View/Messages/admin_index.ctp:8
@@ -1092,7 +1092,7 @@ msgstr ""
 msgid "Sorry, the message appears to be spam."
 msgstr ""
 
-#: Plugin/Contacts/Controller/ContactsController.php:261
+#: Plugin/Contacts/Controller/ContactsController.php:265
 msgid "[%s] %s"
 msgstr ""
 
@@ -1393,7 +1393,7 @@ msgid "Upgrade ACL database for core controllers."
 msgstr ""
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:64
-msgid "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior in normal CakePHP applications. The primary difference is that plugin controllers now are stored underneath its own Plugin ACO record, whereas previous version assumes all Controllers belongs to the root 'controllers' node."
+msgid "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior in normal CakePHP applications. The primary difference is plugin controllers now are stored underneath its own Plugin ACO record, whereas previous version assumes all Controllers belongs to the root 'controllers' node.%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos table before upgrading.</warning>"
 msgstr ""
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:76
@@ -1462,16 +1462,16 @@ msgstr ""
 msgid "Errors in CakeErrorController: %s"
 msgstr ""
 
-#: Plugin/Croogo/Controller/Component/CroogoComponent.php:203
-#: Plugin/Nodes/Controller/NodesController.php:196;673;711
+#: Plugin/Croogo/Controller/Component/CroogoComponent.php:201
+#: Plugin/Nodes/Controller/NodesController.php:200;677;715
 msgid "Invalid content"
 msgstr ""
 
-#: Plugin/Croogo/Controller/Component/CroogoComponent.php:212
+#: Plugin/Croogo/Controller/Component/CroogoComponent.php:210
 msgid "Failed toggling field %s to %s"
 msgstr ""
 
-#: Plugin/Croogo/Event/CroogoEventManager.php:72
+#: Plugin/Croogo/Event/CroogoEventManager.php:73
 msgid "EventHandler %s not found in plugin %s"
 msgstr ""
 
@@ -1680,6 +1680,7 @@ msgid "Upload a new plugin"
 msgstr ""
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:110;138;171;192;216
+#: Plugin/Extensions/Lib/CroogoPlugin.php:594
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:78;93;99
 msgid "Invalid plugin"
 msgstr ""
@@ -1753,7 +1754,7 @@ msgstr ""
 msgid "You cannot delete a theme that is currently active."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:169
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:154
 msgid "Theme deleted successfully."
 msgstr ""
 
@@ -1769,24 +1770,33 @@ msgstr ""
 msgid "Plugin \"%s\" is not active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:617
+#: Plugin/Extensions/Lib/CroogoPlugin.php:624
 msgid "%s is already at the first position"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:623;635
+#: Plugin/Extensions/Lib/CroogoPlugin.php:630;642
 msgid "Plugin %s depends on %s"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:628
+#: Plugin/Extensions/Lib/CroogoPlugin.php:635
 msgid "%s is already at the last position"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:639
+#: Plugin/Extensions/Lib/CroogoPlugin.php:646
 msgid "Invalid direction"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:644
+#: Plugin/Extensions/Lib/CroogoPlugin.php:651
 msgid "Plugin %s cannot be reordered"
+msgstr ""
+
+#: Plugin/Extensions/Lib/CroogoTheme.php:122
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:180
+msgid "Invalid theme"
+msgstr ""
+
+#: Plugin/Extensions/Lib/CroogoTheme.php:143
+msgid "Theme %s not found"
 msgstr ""
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:62
@@ -1813,10 +1823,6 @@ msgstr ""
 msgid "Invalid theme path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:180
-msgid "Invalid theme"
-msgstr ""
-
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:200
 msgid "Invalid theme file path"
 msgstr ""
@@ -1833,7 +1839,7 @@ msgstr ""
 msgid "Must specify a valid package name: vendor/name."
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:250
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:249
 msgid "Themes installed via composer are not yet supported."
 msgstr ""
 
@@ -2089,7 +2095,7 @@ msgid "Directory name"
 msgstr ""
 
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:53
-#: Plugin/Nodes/Config/bootstrap.php:50
+#: Plugin/Nodes/Config/bootstrap.php:60
 #: Plugin/Nodes/View/Nodes/admin_create.ctp:6
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:13
 msgid "Create"
@@ -2345,7 +2351,7 @@ msgstr ""
 msgid "Install Croogo"
 msgstr ""
 
-#: Plugin/Menus/Config/bootstrap.php:9;19
+#: Plugin/Menus/Config/bootstrap.php:14;24
 #: Plugin/Menus/Controller/MenusController.php:50
 #: Plugin/Menus/View/Links/admin_form.ctp:8
 #: Plugin/Menus/View/Links/admin_index.ctp:7
@@ -2354,8 +2360,8 @@ msgstr ""
 msgid "Menus"
 msgstr ""
 
-#: Plugin/Menus/Config/bootstrap.php:29
-#: Plugin/Taxonomy/Config/bootstrap.php:39
+#: Plugin/Menus/Config/bootstrap.php:34
+#: Plugin/Taxonomy/Config/bootstrap.php:46
 msgid "Add new"
 msgstr ""
 
@@ -2464,7 +2470,7 @@ msgstr ""
 msgid "View links"
 msgstr ""
 
-#: Plugin/Meta/Controller/Component/MetaComponent.php:40
+#: Plugin/Meta/Controller/Component/MetaComponent.php:45
 msgid "Custom Fields"
 msgstr ""
 
@@ -2488,8 +2494,8 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: Plugin/Nodes/Config/bootstrap.php:39
-#: Plugin/Taxonomy/Config/bootstrap.php:29
+#: Plugin/Nodes/Config/bootstrap.php:49
+#: Plugin/Taxonomy/Config/bootstrap.php:36
 msgid "List"
 msgstr ""
 
@@ -2502,80 +2508,84 @@ msgstr ""
 msgid "Content type does not exist."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:164
-msgid "Create content: %s"
-msgstr ""
-
-#: Plugin/Nodes/Controller/NodesController.php:175;206
+#: Plugin/Nodes/Controller/NodesController.php:171;210
 msgid "%s has been saved"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:178;209
+#: Plugin/Nodes/Controller/NodesController.php:174;213
 msgid "%s could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:218
+#: Plugin/Nodes/Controller/NodesController.php:179
+msgid "Create content: %s"
+msgstr ""
+
+#: Plugin/Nodes/Controller/NodesController.php:222
 msgid "Edit %s: %s"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:230
+#: Plugin/Nodes/Controller/NodesController.php:234
 msgid "Paths updated."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:233
+#: Plugin/Nodes/Controller/NodesController.php:237
 msgid "Something went wrong while updating paths.\nPlease try again"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:250
+#: Plugin/Nodes/Controller/NodesController.php:254
 msgid "Invalid id for Node"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:254
+#: Plugin/Nodes/Controller/NodesController.php:258
 msgid "Node deleted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:315
+#: Plugin/Nodes/Controller/NodesController.php:319
 msgid "Nodes deleted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:318
+#: Plugin/Nodes/Controller/NodesController.php:322
 msgid "Nodes published"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:321
+#: Plugin/Nodes/Controller/NodesController.php:325
 msgid "Nodes unpublished"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:324
+#: Plugin/Nodes/Controller/NodesController.php:328
 msgid "Nodes promoted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:327
+#: Plugin/Nodes/Controller/NodesController.php:331
 msgid "Nodes unpromoted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:378;470;529;611
+#: Plugin/Nodes/Controller/NodesController.php:382;474;533;615
 msgid "Invalid content type."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:433
+#: Plugin/Nodes/Controller/NodesController.php:437
 msgid "Invalid Term."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:516
+#: Plugin/Nodes/Controller/NodesController.php:520
 msgid "Nodes"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:621
+#: Plugin/Nodes/Controller/NodesController.php:625
 msgid "Search Results: %s"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:395
+#: Plugin/Nodes/Model/Node.php:393
 msgid "Invalid action to perform"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:399
+#: Plugin/Nodes/Model/Node.php:397
 msgid "No target to process action upon"
+msgstr ""
+
+#: Plugin/Nodes/Model/Node.php:428
+msgid "Invalid Content Type"
 msgstr ""
 
 #: Plugin/Nodes/View/Elements/node_info.ctp:6
@@ -2690,7 +2700,7 @@ msgstr ""
 msgid "No items found."
 msgstr ""
 
-#: Plugin/Settings/Config/bootstrap.php:7
+#: Plugin/Settings/Config/bootstrap.php:12
 #: Plugin/Settings/Controller/SettingsController.php:60
 #: Plugin/Settings/View/Languages/admin_form.ctp:7
 #: Plugin/Settings/View/Languages/admin_index.ctp:6
@@ -2701,27 +2711,27 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: Plugin/Settings/Config/bootstrap.php:18
+#: Plugin/Settings/Config/bootstrap.php:23
 msgid "Site"
 msgstr ""
 
-#: Plugin/Settings/Config/bootstrap.php:30
+#: Plugin/Settings/Config/bootstrap.php:35
 msgid "Meta"
 msgstr ""
 
-#: Plugin/Settings/Config/bootstrap.php:42
+#: Plugin/Settings/Config/bootstrap.php:47
 msgid "Reading"
 msgstr ""
 
-#: Plugin/Settings/Config/bootstrap.php:54
+#: Plugin/Settings/Config/bootstrap.php:59
 msgid "Writing"
 msgstr ""
 
-#: Plugin/Settings/Config/bootstrap.php:78
+#: Plugin/Settings/Config/bootstrap.php:83
 msgid "Service"
 msgstr ""
 
-#: Plugin/Settings/Config/bootstrap.php:90
+#: Plugin/Settings/Config/bootstrap.php:95
 #: Plugin/Settings/Controller/LanguagesController.php:42
 #: Plugin/Settings/View/Languages/admin_index.ctp:7
 #: Plugin/Settings/View/Languages/admin_select.ctp:6
@@ -2928,11 +2938,11 @@ msgstr ""
 msgid "New Setting"
 msgstr ""
 
-#: Plugin/Taxonomy/Config/bootstrap.php:8
+#: Plugin/Taxonomy/Config/bootstrap.php:15
 msgid "Content Types"
 msgstr ""
 
-#: Plugin/Taxonomy/Config/bootstrap.php:19
+#: Plugin/Taxonomy/Config/bootstrap.php:26
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:26
 msgid "Taxonomy"
 msgstr ""
@@ -3143,30 +3153,30 @@ msgstr ""
 msgid "Translate"
 msgstr ""
 
-#: Plugin/Users/Config/bootstrap.php:25
+#: Plugin/Users/Config/bootstrap.php:42
 #: Plugin/Users/Controller/RolesController.php:42
 #: Plugin/Users/View/Roles/admin_form.ctp:6
 #: Plugin/Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:15
+#: Plugin/Users/Console/Command/UsersShell.php:20
 msgid "Reset user password"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:20
+#: Plugin/Users/Console/Command/UsersShell.php:25
 msgid "Username to reset"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:24
+#: Plugin/Users/Console/Command/UsersShell.php:29
 msgid "New user password"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:40
+#: Plugin/Users/Console/Command/UsersShell.php:45
 msgid "User '%s' not found"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:45
+#: Plugin/Users/Console/Command/UsersShell.php:50
 msgid "Password for '%s' has been changed"
 msgstr ""
 
@@ -3206,7 +3216,7 @@ msgstr ""
 msgid "The User has been saved"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:141;164;298
+#: Plugin/Users/Controller/UsersController.php:141;164;333
 msgid "The User could not be saved. Please, try again."
 msgstr ""
 
@@ -3242,60 +3252,60 @@ msgstr ""
 msgid "Incorrect username or password"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:251;453
+#: Plugin/Users/Controller/UsersController.php:251;492
 msgid "Log out successful."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:272
+#: Plugin/Users/Controller/UsersController.php:306
 msgid "Register"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:288
+#: Plugin/Users/Controller/UsersController.php:322
 msgid "[%s] Please activate your account"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:294
+#: Plugin/Users/Controller/UsersController.php:329
 msgid "You have successfully registered an account. An email has been sent with further instructions."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:326
+#: Plugin/Users/Controller/UsersController.php:361
 msgid "Account activated successfully."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:351
+#: Plugin/Users/Controller/UsersController.php:386
 msgid "Forgot Password"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:356
+#: Plugin/Users/Controller/UsersController.php:391
 msgid "Invalid username."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:368
+#: Plugin/Users/Controller/UsersController.php:403
 msgid "[%s] Reset Password"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:372
+#: Plugin/Users/Controller/UsersController.php:411
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:375;417
+#: Plugin/Users/Controller/UsersController.php:414;456
 msgid "An error occurred. Please try again."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:389
+#: Plugin/Users/Controller/UsersController.php:428
 #: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
 msgid "Reset Password"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:414
+#: Plugin/Users/Controller/UsersController.php:453
 msgid "Your password has been reset successfully."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:431
+#: Plugin/Users/Controller/UsersController.php:470
 msgid "Log in"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:468
+#: Plugin/Users/Controller/UsersController.php:510
 msgid "Invalid User."
 msgstr ""
 
