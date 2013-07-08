@@ -1851,12 +1851,6 @@ msgstr "Lista"
 msgid "Content types"
 msgstr "Typy treści"
 
-#: /views/elements/admin/navigation.ctp:21;21
-#: /views/types/admin_add.ctp:8;8
-#: /views/types/admin_edit.ctp:9;9
-msgid "Taxonomy"
-msgstr ""
-
 #: /views/elements/admin/navigation.ctp:24;44;24;44
 msgid "Add new"
 msgstr "Dodaj"
