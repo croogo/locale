@@ -1,3 +1,8 @@
 # Locale
 
-Translations are available in different branches for each language.
+Each locale now resides in its own directory.
+
+# Tools
+
+- Poedit (http://www.poedit.net/)
+- Others http://www.gnu.org/software/gettext/manual/html_node/Editing.html#Editing
