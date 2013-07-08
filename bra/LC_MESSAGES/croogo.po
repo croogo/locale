@@ -1,17 +1,13 @@
-                                                                     
-                                                                     
-                                                                     
-                                             
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
 #, fuzzy
-
-
+msgid ""
+msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2010-06-11 14:40+0000\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-07-08 15:08+0700\n"
+"Last-Translator: Rachman Chavik <rchavik@gmail.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -450,14 +446,8 @@ msgstr "Tipo de Conteúdo não existe."
 msgid "Create content: %s"
 msgstr "Criar conteúdo: %s"
 
-
-msgstr "% foi salvo"
-msgstr "%s foi salvo"
-
 msgid "%s has been saved"
-msgstr "%s foi salvo com sucesso"
-
-
+msgstr "% foi salvo"
 
 msgid "%s could not be saved. Please, try again."
 msgstr "%s não pode ser salvo. Por favor, tente novamente."
@@ -967,11 +957,11 @@ msgid "error"
 msgstr "erro"
 
 msgid "Example"
-msgid "Example 1"
+msgstr "Example 1"
 
 
 
-msgstr "Exemplo"
+msgid "Exemplo"
 msgstr "Exemplo 1"
 
 msgid "Example 2"
@@ -1024,9 +1014,6 @@ msgstr "Editar local: %s"
 
 msgid "The file default.po does not exist."
 msgstr "O arquivo default.po não existe."
-
-msgid "Invalid locale"
-msgstr "Local atualizado com sucesso "
 
 
 msgid "Invalid locale"
@@ -1266,7 +1253,7 @@ msgstr "Registro Inválido."
 msgid "Translations: %s"
 msgstr "Traduções: %s"
 
-msgid "Translate content: %s (%s)"123
+msgid "Translate content: %s (%s)"
 msgstr "Traduzir conteúdo: %s (%s)"
 
 
@@ -1644,9 +1631,6 @@ msgstr "Upload aqui"
 msgid "Create directory"
 msgstr "Criar diretório"
 
-msgid "Create directory"
-msgstr "Criar arquivo "
-
 
 msgid "You are here:"
 msgstr "Você está aqui :"
@@ -1919,4 +1903,3 @@ msgstr "Ver termos"
 
 msgid "Debug setting does not allow access to this url."
 msgstr "Configuração Debug não permite o acesso a este url"
-
