@@ -4,9 +4,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.5.2\n"
+"Project-Id-Version: 1.5.3\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2013-05-26 19:11+0700\n"
+"PO-Revision-Date: 2013-07-08 13:56+0700\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -71,10 +71,10 @@ msgstr ""
 #: Plugin/Acl/View/AclActions/admin_form.ctp:8
 #: Plugin/Acl/View/AclActions/admin_index.ctp:14;72
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:26
-#: Plugin/Comments/View/Comments/admin_index.ctp:55
+#: Plugin/Comments/View/Comments/admin_index.ctp:54
 #: Plugin/Contacts/View/Messages/admin_index.ctp:70
 #: Plugin/Croogo/View/Common/admin_index.ctp:59
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:51
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:50
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:25
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:28
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:26
@@ -82,12 +82,12 @@ msgstr ""
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:45
 #: Plugin/Menus/View/Links/admin_index.ctp:44
 #: Plugin/Menus/View/Menus/admin_index.ctp:19
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:28
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:27
 #: Plugin/Settings/View/Languages/admin_index.ctp:20
 #: Plugin/Settings/View/Settings/admin_index.ctp:24
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:43
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:17
-#: Plugin/Translate/View/Translate/admin_index.ctp:39
+#: Plugin/Translate/View/Translate/admin_index.ctp:37
 msgid "Actions"
 msgstr ""
 
@@ -275,13 +275,17 @@ msgstr ""
 #: Plugin/Acl/View/AclActions/admin_index.ctp:71
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:72
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:46
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:23
 #: Plugin/Blocks/View/Regions/admin_form.ctp:48
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:44
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:42
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:24
-#: Plugin/Menus/View/Menus/admin_form.ctp:45
-#: Plugin/Settings/View/Languages/admin_form.ctp:47
+#: Plugin/Menus/View/Menus/admin_form.ctp:43
+#: Plugin/Menus/View/Menus/admin_index.ctp:17
+#: Plugin/Settings/View/Languages/admin_form.ctp:44
+#: Plugin/Settings/View/Languages/admin_index.ctp:18
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:45
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:49
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:16
 #: Plugin/Users/View/Roles/admin_form.ctp:40
 msgid "Alias"
 msgstr ""
@@ -290,18 +294,18 @@ msgstr ""
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:96
 #: Plugin/Blocks/View/Regions/admin_form.ctp:59
 #: Plugin/Comments/View/Comments/admin_form.ctp:47
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:136
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:123
 #: Plugin/Contacts/View/Messages/admin_form.ctp:61
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:45
-#: Plugin/FileManager/View/Attachments/admin_add.ctp:45
+#: Plugin/FileManager/View/Attachments/admin_add.ctp:44
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:74
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:52
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:53
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:52
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:48
-#: Plugin/Menus/View/Links/admin_form.ctp:129
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:76
-#: Plugin/Settings/View/Languages/admin_form.ctp:58
+#: Plugin/Menus/View/Links/admin_form.ctp:122
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:73
+#: Plugin/Settings/View/Languages/admin_form.ctp:55
 #: Plugin/Settings/View/Settings/admin_form.ctp:79
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:70
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:110
@@ -315,7 +319,7 @@ msgstr ""
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:59
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:106
-#: Plugin/Comments/View/Comments/admin_index.ctp:124
+#: Plugin/Comments/View/Comments/admin_index.ctp:123
 #: Plugin/Contacts/View/Messages/admin_index.ctp:134
 #: Plugin/Menus/View/Links/admin_index.ctp:112
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:126
@@ -326,24 +330,24 @@ msgstr ""
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:99
 #: Plugin/Blocks/View/Regions/admin_form.ctp:62
 #: Plugin/Comments/View/Comments/admin_form.ctp:50
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:140
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:127
 #: Plugin/Contacts/View/Messages/admin_form.ctp:64
 #: Plugin/Croogo/View/Common/admin_edit.ctp:84
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:48
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:53
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:52
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:45
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:50
-#: Plugin/FileManager/View/Attachments/admin_add.ctp:48
+#: Plugin/FileManager/View/Attachments/admin_add.ctp:47
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:77
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:54
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:55
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:54
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:50
 #: Plugin/Install/View/Install/adminuser.ctp:35
-#: Plugin/Menus/View/Links/admin_form.ctp:132
-#: Plugin/Menus/View/Menus/admin_form.ctp:72
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:79
-#: Plugin/Settings/View/Languages/admin_form.ctp:61
+#: Plugin/Menus/View/Links/admin_form.ctp:125
+#: Plugin/Menus/View/Menus/admin_form.ctp:68
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:76
+#: Plugin/Settings/View/Languages/admin_form.ctp:58
 #: Plugin/Settings/View/Settings/admin_form.ctp:81
 #: Plugin/Settings/View/Settings/admin_prefix.ctp:65
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:73
@@ -388,10 +392,20 @@ msgstr ""
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:70
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:71
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:21
+#: Plugin/Comments/View/Comments/admin_index.ctp:48
+#: Plugin/Contacts/View/Messages/admin_index.ctp:65
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:21
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:14
 #: Plugin/Menus/View/Links/admin_index.ctp:41
+#: Plugin/Menus/View/Menus/admin_index.ctp:15
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:5
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:38
+#: Plugin/Settings/View/Languages/admin_index.ctp:15
+#: Plugin/Settings/View/Settings/admin_index.ctp:20
 #: Plugin/Settings/View/Settings/admin_view.ctp:4
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:40
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:14
 msgid "Id"
 msgstr ""
 
@@ -422,7 +436,7 @@ msgstr ""
 #: Plugin/Acl/View/AclActions/admin_index.ctp:115
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:15
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:48
-#: Plugin/Comments/View/Comments/admin_index.ctp:69
+#: Plugin/Comments/View/Comments/admin_index.ctp:68
 #: Plugin/Contacts/View/Messages/admin_index.ctp:85
 #: Plugin/Croogo/View/Common/admin_index.ctp:77
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:43
@@ -434,14 +448,14 @@ msgstr ""
 #: Plugin/Settings/View/Settings/admin_index.ctp:44
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:64
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:43
-#: Plugin/Translate/View/Translate/admin_index.ctp:56
+#: Plugin/Translate/View/Translate/admin_index.ctp:54
 msgid "Edit this item"
 msgstr ""
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:119
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:19
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:52
-#: Plugin/Comments/View/Comments/admin_index.ctp:73
+#: Plugin/Comments/View/Comments/admin_index.ctp:72
 #: Plugin/Contacts/View/Messages/admin_index.ctp:89
 #: Plugin/Croogo/View/Common/admin_index.ctp:87
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:47
@@ -452,14 +466,14 @@ msgstr ""
 #: Plugin/Settings/View/Settings/admin_index.ctp:49
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:68
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:47
-#: Plugin/Translate/View/Translate/admin_index.ctp:65
+#: Plugin/Translate/View/Translate/admin_index.ctp:63
 msgid "Remove this item"
 msgstr ""
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:120
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:20
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:53
-#: Plugin/Comments/View/Comments/admin_index.ctp:74
+#: Plugin/Comments/View/Comments/admin_index.ctp:73
 #: Plugin/Contacts/View/Messages/admin_index.ctp:90
 #: Plugin/Croogo/View/Common/admin_index.ctp:89
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:48
@@ -471,12 +485,12 @@ msgstr ""
 #: Plugin/Menus/View/Links/admin_index.ctp:78
 #: Plugin/Menus/View/Menus/admin_index.ctp:45
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:96
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:35
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
 #: Plugin/Settings/View/Languages/admin_index.ctp:47
 #: Plugin/Settings/View/Settings/admin_index.ctp:50
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:69
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:48
-#: Plugin/Translate/View/Translate/admin_index.ctp:66
+#: Plugin/Translate/View/Translate/admin_index.ctp:64
 msgid "Are you sure?"
 msgstr ""
 
@@ -607,6 +621,7 @@ msgstr ""
 
 #: Plugin/Blocks/Controller/RegionsController.php:68
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:50
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:24
 #: Plugin/Blocks/View/Regions/admin_form.ctp:31
 msgid "Region"
 msgstr ""
@@ -654,8 +669,8 @@ msgid "Visibilities"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:27;85
-#: Plugin/Menus/View/Links/admin_form.ctp:117
-#: Plugin/Menus/View/Menus/admin_form.ctp:58
+#: Plugin/Menus/View/Links/admin_form.ctp:110
+#: Plugin/Menus/View/Menus/admin_form.ctp:54
 #: Plugin/Settings/View/Settings/admin_form.ctp:68
 #: Plugin/Settings/View/Settings/admin_view.ctp:34
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:28;99
@@ -663,24 +678,32 @@ msgid "Params"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:42
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:22
 #: Plugin/Blocks/View/Regions/admin_form.ctp:45
 #: Plugin/Comments/View/Comments/admin_form.ctp:33
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:40
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:39
 #: Plugin/Contacts/View/Messages/admin_form.ctp:41
+#: Plugin/Contacts/View/Messages/admin_index.ctp:69
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:23
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:43
-#: Plugin/Menus/View/Links/admin_form.ctp:65
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:16
+#: Plugin/Menus/View/Links/admin_form.ctp:64
 #: Plugin/Menus/View/Links/admin_index.ctp:42
-#: Plugin/Menus/View/Menus/admin_form.ctp:41
+#: Plugin/Menus/View/Menus/admin_form.ctp:40
+#: Plugin/Menus/View/Menus/admin_index.ctp:16
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:6
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:47
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:26
-#: Plugin/Settings/View/Languages/admin_form.ctp:39
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:46
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:39
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:25
+#: Plugin/Settings/View/Languages/admin_form.ctp:38
+#: Plugin/Settings/View/Languages/admin_index.ctp:16
 #: Plugin/Settings/View/Settings/admin_form.ctp:54
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:52
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:41
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:42
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:45
-#: Plugin/Translate/View/Translate/admin_index.ctp:37
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:15
+#: Plugin/Translate/View/Translate/admin_index.ctp:35
 #: Plugin/Users/View/Roles/admin_form.ctp:37
 msgid "Title"
 msgstr ""
@@ -695,14 +718,14 @@ msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:54
 #: Plugin/Comments/View/Comments/admin_form.ctp:36
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:52
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:48
 #: Plugin/Contacts/View/Messages/admin_form.ctp:44
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:59
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:56
 msgid "Body"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:57
-#: Plugin/Menus/View/Links/admin_form.ctp:101
+#: Plugin/Menus/View/Links/admin_form.ctp:98
 msgid "Class"
 msgstr ""
 
@@ -720,29 +743,29 @@ msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:97
 #: Plugin/Blocks/View/Regions/admin_form.ctp:60
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:137
-#: Plugin/Menus/View/Links/admin_form.ctp:130
-#: Plugin/Menus/View/Menus/admin_form.ctp:70
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:77
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:124
+#: Plugin/Menus/View/Links/admin_form.ctp:123
+#: Plugin/Menus/View/Menus/admin_form.ctp:66
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:74
 msgid "Apply"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:98
 #: Plugin/Blocks/View/Regions/admin_form.ctp:61
 #: Plugin/Comments/View/Comments/admin_form.ctp:48
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:138
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:125
 #: Plugin/Contacts/View/Messages/admin_form.ctp:62
 #: Plugin/Croogo/View/Common/admin_edit.ctp:83
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:52
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:51
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:75
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:54
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:53
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:49
 #: Plugin/Install/View/Install/adminuser.ctp:34
-#: Plugin/Menus/View/Links/admin_form.ctp:131
-#: Plugin/Menus/View/Menus/admin_form.ctp:71
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:78
-#: Plugin/Settings/View/Languages/admin_form.ctp:59
+#: Plugin/Menus/View/Links/admin_form.ctp:124
+#: Plugin/Menus/View/Menus/admin_form.ctp:67
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:75
+#: Plugin/Settings/View/Languages/admin_form.ctp:56
 #: Plugin/Settings/View/Settings/admin_form.ctp:80
 #: Plugin/Settings/View/Settings/admin_prefix.ctp:64
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:71
@@ -755,11 +778,14 @@ msgid "Save"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:101
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:25
 #: Plugin/Croogo/Console/Command/ExtShell.php:222;248
-#: Plugin/Menus/View/Links/admin_form.ctp:134
+#: Plugin/Menus/View/Links/admin_form.ctp:127
 #: Plugin/Menus/View/Links/admin_index.ctp:43
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:41
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:48
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:42
+#: Plugin/Settings/View/Languages/admin_index.ctp:19
 #: Plugin/Users/View/Users/admin_form.ctp:78
 msgid "Status"
 msgstr ""
@@ -774,21 +800,21 @@ msgid "Choose"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:98
-#: Plugin/Comments/View/Comments/admin_index.ctp:116
+#: Plugin/Comments/View/Comments/admin_index.ctp:115
 #: Plugin/Menus/View/Links/admin_index.ctp:104
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:114
 msgid "Publish"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:99
-#: Plugin/Comments/View/Comments/admin_index.ctp:117
+#: Plugin/Comments/View/Comments/admin_index.ctp:116
 #: Plugin/Menus/View/Links/admin_index.ctp:105
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:115
 msgid "Unpublish"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:100
-#: Plugin/Comments/View/Comments/admin_index.ctp:118
+#: Plugin/Comments/View/Comments/admin_index.ctp:117
 #: Plugin/Contacts/View/Messages/admin_index.ctp:128
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:55
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:99
@@ -796,7 +822,7 @@ msgstr ""
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:59;100
 #: Plugin/Menus/View/Links/admin_index.ctp:106
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:118
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:35
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
 msgstr ""
 
@@ -814,9 +840,9 @@ msgstr ""
 #: Plugin/Comments/Config/bootstrap.php:20
 #: Plugin/Comments/View/Comments/admin_form.ctp:55
 #: Plugin/Comments/View/Comments/admin_index.ctp:16;33
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:144
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:131
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:38
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:81
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:78
 msgid "Published"
 msgstr ""
 
@@ -904,7 +930,7 @@ msgstr ""
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:7
 #: Plugin/Comments/View/Comments/admin_index.ctp:11
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:28;38
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:28;37
 #: Plugin/Nodes/Config/bootstrap.php:38
 #: Plugin/Nodes/Controller/NodesController.php:109
 #: Plugin/Nodes/View/Nodes/admin_create.ctp:5
@@ -928,13 +954,16 @@ msgstr ""
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:60
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:25
+#: Plugin/Contacts/View/Messages/admin_index.ctp:66
 msgid "Contact"
 msgstr ""
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:61
+#: Plugin/Comments/View/Comments/admin_index.ctp:49
 #: Plugin/Comments/View/Elements/comments_form.ctp:24;40
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:61
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:56
 #: Plugin/Contacts/View/Messages/admin_form.ctp:35
+#: Plugin/Contacts/View/Messages/admin_index.ctp:67
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:25
 #: Plugin/Install/View/Install/database.ctp:52
 #: Plugin/Users/View/Users/admin_form.ctp:54
@@ -942,9 +971,11 @@ msgid "Name"
 msgstr ""
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:62
+#: Plugin/Comments/View/Comments/admin_index.ctp:50
 #: Plugin/Comments/View/Elements/comments_form.ctp:29;41
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:48
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:45
 #: Plugin/Contacts/View/Messages/admin_form.ctp:38
+#: Plugin/Contacts/View/Messages/admin_index.ctp:68
 #: Plugin/Users/View/Users/admin_form.ctp:57
 msgid "Email"
 msgstr ""
@@ -965,6 +996,15 @@ msgstr ""
 
 #: Plugin/Comments/View/Comments/admin_index.ctp:20
 msgid "Comments: Approval"
+msgstr ""
+
+#: Plugin/Comments/View/Comments/admin_index.ctp:51
+msgid "Node"
+msgstr ""
+
+#: Plugin/Comments/View/Comments/admin_index.ctp:53
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:7;49
+msgid "Created"
 msgstr ""
 
 #: Plugin/Comments/View/Comments/rss/index.ctp:17
@@ -1147,63 +1187,63 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:65
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:59
 msgid "Position"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:69
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:62
 #: Plugin/Contacts/View/Messages/admin_form.ctp:50
 msgid "Address"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:73
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:65
 msgid "Address2"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:77
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:68
 msgid "State"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:81
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:71
 msgid "Country"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:85
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:74
 msgid "Post Code"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:89
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:77
 #: Plugin/Contacts/View/Messages/admin_form.ctp:47
 msgid "Phone"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:93
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:80
 msgid "Fax"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:101
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:88
 msgid "Let users leave a message"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:105
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:92
 msgid "Save messages in database"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:109
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:96
 msgid "Notify by email instantly"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:113
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:100
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:80
 msgid "Spam protection (requires Akismet API key)"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:117
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:104
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:84
 msgid "Use captcha? (requires Recaptcha API key)"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:121
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:108
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:87
 msgid "You can manage your API keys here."
 msgstr ""
@@ -1491,7 +1531,7 @@ msgstr ""
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:35
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:91
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:31
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
 msgstr ""
 
@@ -1860,14 +1900,14 @@ msgstr ""
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:7;27;48
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:14
 #: Plugin/FileManager/Controller/FileManagerController.php:182
-#: Plugin/FileManager/View/Attachments/admin_add.ctp:8;23;31;46
+#: Plugin/FileManager/View/Attachments/admin_add.ctp:8;22;30;45
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:5;31
 msgid "Upload"
 msgstr ""
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:23
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:27
-#: Plugin/Translate/View/Translate/admin_index.ctp:38
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:26
+#: Plugin/Translate/View/Translate/admin_index.ctp:36
 msgid "Locale"
 msgstr ""
 
@@ -1882,8 +1922,8 @@ msgid "Activate"
 msgstr ""
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:26
-#: Plugin/Menus/View/Links/admin_form.ctp:105
-#: Plugin/Menus/View/Menus/admin_form.ctp:49
+#: Plugin/Menus/View/Links/admin_form.ctp:101
+#: Plugin/Menus/View/Menus/admin_form.ctp:46
 #: Plugin/Settings/View/Settings/admin_form.ctp:57
 #: Plugin/Settings/View/Settings/admin_view.ctp:19
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:59
@@ -2437,7 +2477,7 @@ msgstr ""
 msgid "Menu deleted"
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_form.ctp:41;69
+#: Plugin/Menus/View/Links/admin_form.ctp:41;67
 msgid "Link"
 msgstr ""
 
@@ -2446,15 +2486,15 @@ msgstr ""
 msgid "Misc."
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_form.ctp:71
+#: Plugin/Menus/View/Links/admin_form.ctp:69
 msgid "Link to a Node"
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_form.ctp:109
+#: Plugin/Menus/View/Links/admin_form.ctp:104
 msgid "Rel"
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_form.ctp:113
+#: Plugin/Menus/View/Links/admin_form.ctp:107
 msgid "Target"
 msgstr ""
 
@@ -2464,6 +2504,10 @@ msgstr ""
 
 #: Plugin/Menus/View/Menus/admin_form.ctp:25
 msgid "Menu"
+msgstr ""
+
+#: Plugin/Menus/View/Menus/admin_index.ctp:18
+msgid "Link Count"
 msgstr ""
 
 #: Plugin/Menus/View/Menus/admin_index.ctp:33
@@ -2480,12 +2524,14 @@ msgstr ""
 
 #: Plugin/Meta/View/Helper/MetaHelper.php:70
 #: Plugin/Settings/View/Settings/admin_form.ctp:43
+#: Plugin/Settings/View/Settings/admin_index.ctp:21
 #: Plugin/Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
 msgstr ""
 
 #: Plugin/Meta/View/Helper/MetaHelper.php:75
 #: Plugin/Settings/View/Settings/admin_form.ctp:46
+#: Plugin/Settings/View/Settings/admin_index.ctp:22
 #: Plugin/Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
 msgstr ""
@@ -2604,7 +2650,7 @@ msgstr ""
 msgid "Leave a comment"
 msgstr ""
 
-#: Plugin/Nodes/View/Elements/search.ctp:24
+#: Plugin/Nodes/View/Elements/search.ctp:12
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:24
 msgid "Search"
 msgstr ""
@@ -2614,6 +2660,7 @@ msgid "Search..."
 msgstr ""
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:32
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:40
 #: Plugin/Taxonomy/Controller/TypesController.php:55
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:25
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:55
@@ -2641,26 +2688,27 @@ msgstr ""
 msgid "Sort by:"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:7;49
-msgid "Created"
-msgstr ""
-
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:52
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:50
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:55
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:42
 msgid "Slug"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:56
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:53
 msgid "Excerpt"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:85
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:82
 msgid "Promoted to front page"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:89
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:86
 msgid "Publish as "
+msgstr ""
+
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:41
+#: Plugin/Users/View/Users/admin_form.ctp:35
+msgid "User"
 msgstr ""
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:68
@@ -2684,12 +2732,12 @@ msgid "%s selected items?"
 msgstr ""
 
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:8
-#: Plugin/Translate/View/Translate/admin_index.ctp:16
+#: Plugin/Translate/View/Translate/admin_index.ctp:15
 msgid "Translate in a new language"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:51
-#: Plugin/Translate/View/Translate/admin_index.ctp:81
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:49
+#: Plugin/Translate/View/Translate/admin_index.ctp:79
 msgid "No translations available."
 msgstr ""
 
@@ -2885,11 +2933,12 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: Plugin/Settings/View/Languages/admin_form.ctp:43
+#: Plugin/Settings/View/Languages/admin_form.ctp:41
+#: Plugin/Settings/View/Languages/admin_index.ctp:17
 msgid "Native"
 msgstr ""
 
-#: Plugin/Settings/View/Languages/admin_select.ctp:17
+#: Plugin/Settings/View/Languages/admin_select.ctp:16
 msgid "New Language"
 msgstr ""
 
@@ -2911,6 +2960,7 @@ msgid "e.g., 'text' or 'textarea'"
 msgstr ""
 
 #: Plugin/Settings/View/Settings/admin_form.ctp:64
+#: Plugin/Settings/View/Settings/admin_index.ctp:23
 msgid "Editable"
 msgstr ""
 
@@ -3149,7 +3199,7 @@ msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
 msgstr ""
 
 #: Plugin/Translate/View/Translate/admin_edit.ctp:7;24
-#: Plugin/Translate/View/Translate/admin_index.ctp:8
+#: Plugin/Translate/View/Translate/admin_index.ctp:7
 msgid "Translate"
 msgstr ""
 
@@ -3340,10 +3390,6 @@ msgstr ""
 msgid "Reset password"
 msgstr ""
 
-#: Plugin/Users/View/Users/admin_form.ctp:35
-msgid "User"
-msgstr ""
-
 #: Plugin/Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
 msgstr ""
@@ -3368,3 +3414,98 @@ msgstr ""
 msgid "New password"
 msgstr ""
 
+#: Plugin/Blocks/Model/Block.php:validation for field title
+#: Plugin/Blocks/Model/Region.php:validation for field title
+#: Plugin/Menus/Model/Link.php:validation for field title
+#: Plugin/Menus/Model/Menu.php:validation for field title
+#: Plugin/Settings/Model/Language.php:validation for field title
+#: Plugin/Taxonomy/Model/Type.php:validation for field title
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation for field title
+msgid "Title cannot be empty."
+msgstr ""
+
+#: Plugin/Blocks/Model/Block.php:validation for field alias
+#: Plugin/Blocks/Model/Region.php:validation for field alias
+#: Plugin/Contacts/Model/Contact.php:validation for field alias
+#: Plugin/Menus/Model/Menu.php:validation for field alias
+#: Plugin/Settings/Model/Language.php:validation for field alias
+#: Plugin/Taxonomy/Model/Type.php:validation for field alias
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation for field alias
+#: Plugin/Users/Model/Role.php:validation for field alias
+msgid "This alias has already been taken."
+msgstr ""
+
+#: Plugin/Blocks/Model/Block.php:validation for field alias
+#: Plugin/Blocks/Model/Region.php:validation for field alias
+#: Plugin/Contacts/Model/Contact.php:validation for field alias
+#: Plugin/Menus/Model/Menu.php:validation for field alias
+#: Plugin/Settings/Model/Language.php:validation for field alias
+#: Plugin/Taxonomy/Model/Type.php:validation for field alias
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation for field alias
+#: Plugin/Users/Model/Role.php:validation for field title;validation for field alias
+msgid "Alias cannot be empty."
+msgstr ""
+
+#: Plugin/Comments/Model/Comment.php:validation for field body;validation for field name
+#: Plugin/Contacts/Model/Contact.php:validation for field title
+#: Plugin/Contacts/Model/Message.php:validation for field name;validation for field title;validation for field body
+#: Plugin/FileManager/Model/Attachment.php:validation for field title
+#: Plugin/Nodes/Model/Node.php:validation for field title
+#: Plugin/Users/Model/User.php:validation for field username;validation for field name
+msgid "This field cannot be left blank."
+msgstr ""
+
+#: Plugin/Comments/Model/Comment.php:validation for field email
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: Plugin/Contacts/Model/Contact.php:validation for field email
+#: Plugin/Contacts/Model/Message.php:validation for field email
+#: Plugin/Users/Model/User.php:validation for field email
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: Plugin/FileManager/Model/Attachment.php:validation for field slug
+#: Plugin/Nodes/Model/Node.php:validation for field slug
+#: Plugin/Taxonomy/Model/Term.php:validation for field slug
+msgid "This slug has already been taken."
+msgstr ""
+
+#: Plugin/FileManager/Model/Attachment.php:validation for field slug
+#: Plugin/Nodes/Model/Node.php:validation for field slug
+#: Plugin/Taxonomy/Model/Term.php:validation for field slug
+msgid "Slug cannot be empty."
+msgstr ""
+
+#: Plugin/Menus/Model/Link.php:validation for field link
+msgid "Link cannot be empty."
+msgstr ""
+
+#: Plugin/Settings/Model/Setting.php:validation for field key
+msgid "This key has already been taken."
+msgstr ""
+
+#: Plugin/Settings/Model/Setting.php:validation for field key
+msgid "Key cannot be empty."
+msgstr ""
+
+#: Plugin/Users/Model/Role.php:validation for field title;validation for field alias
+#: Plugin/Users/Model/User.php:validation for field username;validation for field name
+msgid "This field must be alphanumeric"
+msgstr ""
+
+#: Plugin/Users/Model/User.php:validation for field username
+msgid "The username has already been taken."
+msgstr ""
+
+#: Plugin/Users/Model/User.php:validation for field email
+msgid "Email address already in use."
+msgstr ""
+
+#: Plugin/Users/Model/User.php:validation for field password
+msgid "Passwords must be at least 6 characters long."
+msgstr ""
+
+#: Plugin/Users/Model/User.php:validation for field website
+msgid "This field must be a valid URL"
+msgstr ""
