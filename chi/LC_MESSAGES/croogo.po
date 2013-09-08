@@ -1,18 +1,18 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.5.3\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2013-07-08 13:56+0700\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-09-08 23:19+0800\n"
+"Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: Plugin/Acl/Config/bootstrap.php:19
 #: Plugin/Acl/Controller/AclPermissionsController.php:60
@@ -21,11 +21,11 @@ msgstr ""
 #: Plugin/Acl/View/AclActions/admin_index.ctp:11
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:10
 msgid "Permissions"
-msgstr ""
+msgstr "权限"
 
 #: Plugin/Acl/Config/bootstrap.php:30
 msgid "Access Control"
-msgstr ""
+msgstr "访问控制"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:94
 msgid "Plugin to process"
@@ -36,15 +36,23 @@ msgid "Better manage, and easily synchronize you application's ACO tree"
 msgstr ""
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:102
-msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
-msgstr ""
+msgid ""
+"Add new ACOs for new controllers and actions. Does not remove nodes from the "
+"ACO table."
+msgstr "为新的控制器和动作添加新的ACO。不要从ACO表移除节点。"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:108
-msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+msgid ""
+"Perform a full sync on the ACO table.Will create new ACOs or missing "
+"controllers and actions.Will also remove orphaned entries that no longer "
+"have a matching controller/action"
 msgstr ""
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:113
-msgid "Perform a full content sync on the ACO table.Will create new ACOs or missing contents.Will also remove orphaned entries that no longer have a matching contents"
+msgid ""
+"Perform a full content sync on the ACO table.Will create new ACOs or missing "
+"contents.Will also remove orphaned entries that no longer have a matching "
+"contents"
 msgstr ""
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:120
@@ -125,47 +133,50 @@ msgstr ""
 
 #: Plugin/Acl/Controller/AclActionsController.php:130
 msgid "Action deleted"
-msgstr ""
+msgstr "动作已删除"
 
 #: Plugin/Acl/Controller/AclActionsController.php:149
 msgid "Action moved up"
-msgstr ""
+msgstr "动作上移"
 
 #: Plugin/Acl/Controller/AclActionsController.php:154
 msgid "Action moved down"
-msgstr ""
+msgstr "动作下移"
 
 #: Plugin/Acl/Controller/AclActionsController.php:176
 msgid "Created %d new permissions"
-msgstr ""
+msgstr "创建 %d 的新权限"
 
 #: Plugin/Acl/Controller/AclPermissionsController.php:142
 msgid "ACL database has been upgraded successfully"
-msgstr ""
+msgstr "ACL数据库已成功升级"
 
 #: Plugin/Acl/Controller/Component/AclAccessComponent.php:54
 msgid "Parent Role"
-msgstr ""
+msgstr "父角色"
 
 #: Plugin/Acl/Controller/Component/AclFilterComponent.php:84
-msgid "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
+msgid ""
+"\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
 
 #: Plugin/Acl/Controller/Component/Auth/AclCachedAuthorize.php:156
-msgid "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller \"%2$s\""
+msgid ""
+"_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
+"\"%2$s\""
 msgstr ""
 
 #: Plugin/Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
-msgstr ""
+msgstr " %s 模型未找到"
 
 #: Plugin/Acl/Lib/AclExtras.php:172
 msgid "Created Aco node: %s"
-msgstr ""
+msgstr "创建Aco节点：%s "
 
 #: Plugin/Acl/Lib/AclExtras.php:192
 msgid "<error>Plugin %s not found or not activated</error>"
-msgstr ""
+msgstr "<error> %s 插件未找到或未激活</error>"
 
 #: Plugin/Acl/Lib/AclExtras.php:207
 msgid "<success>Aco Sync Complete</success>"
@@ -173,23 +184,23 @@ msgstr ""
 
 #: Plugin/Acl/Lib/AclExtras.php:209
 msgid "<success>Aco Update Complete</success>"
-msgstr ""
+msgstr "<success>Aco 完成更新</success>"
 
 #: Plugin/Acl/Lib/AclExtras.php:240
 msgid "Skipped Aco node: <warning>%s</warning>"
-msgstr ""
+msgstr "被跳过的Aco节点: <warning>%s</warning>"
 
 #: Plugin/Acl/Lib/AclExtras.php:260
 msgid "Deleted %s and all children"
-msgstr ""
+msgstr "删除 %s 和它的所有孩子"
 
 #: Plugin/Acl/Lib/AclExtras.php:304
 msgid "Created Aco node: <success>%s</success>"
-msgstr ""
+msgstr "创建Aco节点: <success>%s</success>"
 
 #: Plugin/Acl/Lib/AclExtras.php:367
 msgid "Deleted Aco node: <warning>%s</warning>"
-msgstr ""
+msgstr "删除Aco节点: <warning>%s</warning>"
 
 #: Plugin/Acl/Lib/AclExtras.php:386
 msgid "<success>Tree is valid and strong</success>"
@@ -238,7 +249,7 @@ msgstr ""
 #: Plugin/Users/View/Users/admin_index.ctp:6
 #: Plugin/Users/View/Users/admin_reset_password.ctp:5
 msgid "Users"
-msgstr ""
+msgstr "用户"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:15
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:13
@@ -255,21 +266,21 @@ msgstr ""
 #: Plugin/Users/View/Roles/admin_form.ctp:13
 #: Plugin/Users/View/Users/admin_form.ctp:17
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:27
 msgid "Action"
-msgstr ""
+msgstr "动作"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:39
 #: Plugin/Menus/View/Links/admin_form.ctp:56
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:45
 msgid "Parent"
-msgstr ""
+msgstr "父"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:40
 msgid "Choose none if the Aco is a controller."
-msgstr ""
+msgstr "如果Aco是个控制器，选择none"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:47
 #: Plugin/Acl/View/AclActions/admin_index.ctp:71
@@ -288,7 +299,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:16
 #: Plugin/Users/View/Roles/admin_form.ctp:40
 msgid "Alias"
-msgstr ""
+msgstr "昵称"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:58
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:96
@@ -315,7 +326,7 @@ msgstr ""
 #: Plugin/Users/View/Users/admin_form.ctp:71
 #: Plugin/Users/View/Users/admin_reset_password.ctp:35
 msgid "Publishing"
-msgstr ""
+msgstr "发布中"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:59
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:106
@@ -324,7 +335,7 @@ msgstr ""
 #: Plugin/Menus/View/Links/admin_index.ctp:112
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:126
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:60
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:99
@@ -358,17 +369,17 @@ msgstr ""
 #: Plugin/Users/View/Users/admin_form.ctp:74
 #: Plugin/Users/View/Users/admin_reset_password.ctp:38
 msgid "Cancel"
-msgstr ""
+msgstr "删除"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:21
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:19
 msgid "Tools"
-msgstr ""
+msgstr "工具"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:35
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:33
 msgid "Generate"
-msgstr ""
+msgstr "生成"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:41
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:39
@@ -388,7 +399,7 @@ msgstr ""
 #: Plugin/Acl/View/AclActions/admin_index.ctp:61
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:59
 msgid "Edit Actions"
-msgstr ""
+msgstr "编辑动作"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:70
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:71
@@ -419,7 +430,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:56
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
-msgstr ""
+msgstr "上移"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:110
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:11
@@ -431,7 +442,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:60
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
-msgstr ""
+msgstr "下移"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:115
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:15
@@ -450,7 +461,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:43
 #: Plugin/Translate/View/Translate/admin_index.ctp:54
 msgid "Edit this item"
-msgstr ""
+msgstr "编辑这一项目"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:119
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:19
@@ -468,7 +479,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:47
 #: Plugin/Translate/View/Translate/admin_index.ctp:63
 msgid "Remove this item"
-msgstr ""
+msgstr "移除这一项目"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:120
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:20
@@ -492,23 +503,23 @@ msgstr ""
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:48
 #: Plugin/Translate/View/Translate/admin_index.ctp:64
 msgid "Are you sure?"
-msgstr ""
+msgstr "你确定吗？"
 
 #: Plugin/Acl/View/AclPermissions/admin_toggle.ctp:18
 msgid "error"
-msgstr ""
+msgstr "错误"
 
 #: Plugin/Acl/View/Elements/admin/parent_role.ctp:4
 msgid "When set, permissions from parent role are inherited"
-msgstr ""
+msgstr "设置时，继承父角色的权限"
 
 #: Plugin/Acl/View/Elements/admin/row_acl.ctp:4
 msgid "Edit Permissions"
-msgstr ""
+msgstr "编辑权限"
 
 #: Plugin/Acl/View/Helper/AclHelper.php:34
 msgid "Upgrade Acl database"
-msgstr ""
+msgstr "升级Acl数据库"
 
 #: Plugin/Blocks/Config/bootstrap.php:18;28
 #: Plugin/Blocks/Controller/BlocksController.php:100
@@ -517,41 +528,41 @@ msgstr ""
 #: Plugin/Blocks/View/Regions/admin_form.ctp:7
 #: Plugin/Blocks/View/Regions/admin_index.ctp:5
 msgid "Blocks"
-msgstr ""
+msgstr "块"
 
 #: Plugin/Blocks/Config/bootstrap.php:37
 #: Plugin/Blocks/View/Regions/admin_form.ctp:9
 #: Plugin/Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
-msgstr ""
+msgstr "域"
 
 #: Plugin/Blocks/Controller/BlocksController.php:122
 msgid "Add Block"
-msgstr ""
+msgstr "添加块"
 
 #: Plugin/Blocks/Controller/BlocksController.php:129;158
 msgid "The Block has been saved"
-msgstr ""
+msgstr "块已保存"
 
 #: Plugin/Blocks/Controller/BlocksController.php:132;161
 msgid "The Block could not be saved. Please, try again."
-msgstr ""
+msgstr "这个块无法保存。请重试。"
 
 #: Plugin/Blocks/Controller/BlocksController.php:148
 msgid "Edit Block"
-msgstr ""
+msgstr "编辑块"
 
 #: Plugin/Blocks/Controller/BlocksController.php:151
 msgid "Invalid Block"
-msgstr ""
+msgstr "无效的块"
 
 #: Plugin/Blocks/Controller/BlocksController.php:186
 msgid "Invalid id for Block"
-msgstr ""
+msgstr "无效的块id"
 
 #: Plugin/Blocks/Controller/BlocksController.php:190
 msgid "Block deleted"
-msgstr ""
+msgstr "块已删除"
 
 #: Plugin/Blocks/Controller/BlocksController.php:205
 #: Plugin/Menus/Controller/LinksController.php:280
@@ -560,7 +571,7 @@ msgstr ""
 #: Plugin/Taxonomy/Controller/TermsController.php:329
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:130
 msgid "Moved up successfully"
-msgstr ""
+msgstr "成功上移"
 
 #: Plugin/Blocks/Controller/BlocksController.php:207
 #: Plugin/Menus/Controller/LinksController.php:282
@@ -569,7 +580,7 @@ msgstr ""
 #: Plugin/Taxonomy/Controller/TermsController.php:331
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:132
 msgid "Could not move up"
-msgstr ""
+msgstr "不能上移"
 
 #: Plugin/Blocks/Controller/BlocksController.php:223
 #: Plugin/Menus/Controller/LinksController.php:315
@@ -578,7 +589,7 @@ msgstr ""
 #: Plugin/Taxonomy/Controller/TermsController.php:371
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:148
 msgid "Moved down successfully"
-msgstr ""
+msgstr "成功下移"
 
 #: Plugin/Blocks/Controller/BlocksController.php:225
 #: Plugin/Menus/Controller/LinksController.php:317
@@ -587,7 +598,7 @@ msgstr ""
 #: Plugin/Taxonomy/Controller/TermsController.php:373
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:150
 msgid "Could not move down"
-msgstr ""
+msgstr "不能下移"
 
 #: Plugin/Blocks/Controller/BlocksController.php:247
 #: Plugin/Comments/Controller/CommentsController.php:161
@@ -595,19 +606,19 @@ msgstr ""
 #: Plugin/Menus/Controller/LinksController.php:343
 #: Plugin/Nodes/Controller/NodesController.php:309
 msgid "No items selected."
-msgstr ""
+msgstr "没有选择项目"
 
 #: Plugin/Blocks/Controller/BlocksController.php:253
 msgid "Blocks deleted"
-msgstr ""
+msgstr "块已删除"
 
 #: Plugin/Blocks/Controller/BlocksController.php:256
 msgid "Blocks published"
-msgstr ""
+msgstr "块已发布"
 
 #: Plugin/Blocks/Controller/BlocksController.php:259
 msgid "Blocks unpublished"
-msgstr ""
+msgstr "块未发布"
 
 #: Plugin/Blocks/Controller/BlocksController.php:261
 #: Plugin/Comments/Controller/CommentsController.php:175
@@ -617,56 +628,56 @@ msgstr ""
 #: Plugin/Nodes/Controller/NodesController.php:337
 #: Plugin/Users/Controller/UsersController.php:364;431;442
 msgid "An error occurred."
-msgstr ""
+msgstr "发生错误"
 
 #: Plugin/Blocks/Controller/RegionsController.php:68
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:50
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:24
 #: Plugin/Blocks/View/Regions/admin_form.ctp:31
 msgid "Region"
-msgstr ""
+msgstr "域"
 
 #: Plugin/Blocks/Controller/RegionsController.php:86
 msgid "Add Region"
-msgstr ""
+msgstr "添加域"
 
 #: Plugin/Blocks/Controller/RegionsController.php:91;115
 msgid "The Region has been saved"
-msgstr ""
+msgstr "域已保存"
 
 #: Plugin/Blocks/Controller/RegionsController.php:94;118
 msgid "The Region could not be saved. Please, try again."
-msgstr ""
+msgstr "这个域无法保存。请重试。"
 
 #: Plugin/Blocks/Controller/RegionsController.php:107
 msgid "Edit Region"
-msgstr ""
+msgstr "编辑域"
 
 #: Plugin/Blocks/Controller/RegionsController.php:110
 msgid "Invalid Region"
-msgstr ""
+msgstr "无效的域"
 
 #: Plugin/Blocks/Controller/RegionsController.php:135
 msgid "Invalid id for Region"
-msgstr ""
+msgstr "无效的域id"
 
 #: Plugin/Blocks/Controller/RegionsController.php:139
 msgid "Region deleted"
-msgstr ""
+msgstr "域已删除"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:24
 msgid "Block"
-msgstr ""
+msgstr "块"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:25
 #: Plugin/Menus/View/Links/admin_form.ctp:42
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:31
 msgid "Access"
-msgstr ""
+msgstr "访问"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:26
 msgid "Visibilities"
-msgstr ""
+msgstr "可见性"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:27;85
 #: Plugin/Menus/View/Links/admin_form.ctp:110
@@ -675,7 +686,7 @@ msgstr ""
 #: Plugin/Settings/View/Settings/admin_view.ctp:34
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:28;99
 msgid "Params"
-msgstr ""
+msgstr "参数"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:42
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:22
@@ -706,7 +717,7 @@ msgstr ""
 #: Plugin/Translate/View/Translate/admin_index.ctp:35
 #: Plugin/Users/View/Roles/admin_form.ctp:37
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:47
 msgid "unique name for your block"
@@ -714,7 +725,7 @@ msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:51
 msgid "if you are not sure, choose 'none'"
-msgstr ""
+msgstr "如果你不确定，选择“none”"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:54
 #: Plugin/Comments/View/Comments/admin_form.ctp:36
@@ -727,7 +738,7 @@ msgstr ""
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:57
 #: Plugin/Menus/View/Links/admin_form.ctp:98
 msgid "Class"
-msgstr ""
+msgstr "类"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:60
 msgid "Element"
@@ -738,7 +749,9 @@ msgid "Visibility Paths"
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:77
-msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
+msgid ""
+"Enter one URL per line. Leave blank if you want this Block to appear in all "
+"pages."
 msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:97
@@ -748,7 +761,7 @@ msgstr ""
 #: Plugin/Menus/View/Menus/admin_form.ctp:66
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:74
 msgid "Apply"
-msgstr ""
+msgstr "应用"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:98
 #: Plugin/Blocks/View/Regions/admin_form.ctp:61
@@ -775,7 +788,7 @@ msgstr ""
 #: Plugin/Users/View/Roles/admin_form.ctp:51
 #: Plugin/Users/View/Users/admin_form.ctp:72
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:101
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:25
@@ -788,30 +801,30 @@ msgstr ""
 #: Plugin/Settings/View/Languages/admin_index.ctp:19
 #: Plugin/Users/View/Users/admin_form.ctp:78
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:105
 msgid "Show title ?"
-msgstr ""
+msgstr "显示标题？"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:59
 #: Plugin/Croogo/View/Common/admin_index.ctp:69
 msgid "Choose"
-msgstr ""
+msgstr "选择"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:98
 #: Plugin/Comments/View/Comments/admin_index.ctp:115
 #: Plugin/Menus/View/Links/admin_index.ctp:104
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:114
 msgid "Publish"
-msgstr ""
+msgstr "发布"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:99
 #: Plugin/Comments/View/Comments/admin_index.ctp:116
 #: Plugin/Menus/View/Links/admin_index.ctp:105
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:115
 msgid "Unpublish"
-msgstr ""
+msgstr "未发布"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:100
 #: Plugin/Comments/View/Comments/admin_index.ctp:117
@@ -824,7 +837,7 @@ msgstr ""
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:118
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: Plugin/Comments/Config/bootstrap.php:11
 #: Plugin/Comments/Controller/CommentsController.php:82;188
@@ -835,7 +848,7 @@ msgstr ""
 #: Plugin/Nodes/View/Elements/node_more_info.ctp:33
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:27
 msgid "Comments"
-msgstr ""
+msgstr "评论"
 
 #: Plugin/Comments/Config/bootstrap.php:20
 #: Plugin/Comments/View/Comments/admin_form.ctp:55
@@ -844,28 +857,28 @@ msgstr ""
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:38
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:78
 msgid "Published"
-msgstr ""
+msgstr "已发布"
 
 #: Plugin/Comments/Config/bootstrap.php:32
 #: Plugin/Comments/View/Comments/admin_index.ctp:19;37
 msgid "Approval"
-msgstr ""
+msgstr "认可"
 
 #: Plugin/Comments/Controller/CommentsController.php:108
 msgid "Edit Comment"
-msgstr ""
+msgstr "编辑评论"
 
 #: Plugin/Comments/Controller/CommentsController.php:111
 msgid "Invalid Comment"
-msgstr ""
+msgstr "无效的评论"
 
 #: Plugin/Comments/Controller/CommentsController.php:116
 msgid "The Comment has been saved"
-msgstr ""
+msgstr "评论已保存"
 
 #: Plugin/Comments/Controller/CommentsController.php:119
 msgid "The Comment could not be saved. Please, try again."
-msgstr ""
+msgstr "评论无法保存。请重试。"
 
 #: Plugin/Comments/Controller/CommentsController.php:136
 msgid "Invalid id for Comment"
@@ -873,19 +886,19 @@ msgstr ""
 
 #: Plugin/Comments/Controller/CommentsController.php:140
 msgid "Comment deleted"
-msgstr ""
+msgstr "评论已删除"
 
 #: Plugin/Comments/Controller/CommentsController.php:167
 msgid "Comments deleted"
-msgstr ""
+msgstr "多条评论已删除"
 
 #: Plugin/Comments/Controller/CommentsController.php:170
 msgid "Comments published"
-msgstr ""
+msgstr "评论已发布"
 
 #: Plugin/Comments/Controller/CommentsController.php:173
 msgid "Comments unpublished"
-msgstr ""
+msgstr "评论未发布"
 
 #: Plugin/Comments/Controller/CommentsController.php:214
 msgid "Invalid Node"
@@ -893,15 +906,15 @@ msgstr ""
 
 #: Plugin/Comments/Controller/CommentsController.php:226
 msgid "Maximum level reached. You cannot reply to that comment."
-msgstr ""
+msgstr "评论已经达到最高层次，不能回复该评论。"
 
 #: Plugin/Comments/Controller/CommentsController.php:234
 msgid "Comments are not allowed."
-msgstr ""
+msgstr "不允许评论"
 
 #: Plugin/Comments/Controller/CommentsController.php:258
 msgid "Your comment has been added successfully."
-msgstr ""
+msgstr "你的评论已经成功添加"
 
 #: Plugin/Comments/Controller/CommentsController.php:260
 msgid "Your comment will appear after moderation."
@@ -909,7 +922,7 @@ msgstr ""
 
 #: Plugin/Comments/Controller/CommentsController.php:295
 msgid "Sorry, the comment appears to be spam."
-msgstr ""
+msgstr "对不起，该评论是垃圾信息"
 
 #: Plugin/Comments/Controller/CommentsController.php:317
 #: Plugin/Contacts/Controller/ContactsController.php:241
@@ -918,15 +931,15 @@ msgstr ""
 
 #: Plugin/Comments/Controller/CommentsController.php:339
 msgid "New comment posted under"
-msgstr ""
+msgstr "新评论发布在下方"
 
 #: Plugin/Comments/Model/Comment.php:117
 msgid "Invalid Node id"
-msgstr ""
+msgstr "无效的节点id"
 
 #: Plugin/Comments/Model/Comment.php:176
 msgid "Invalid Comment id"
-msgstr ""
+msgstr "无效的评论id"
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:7
 #: Plugin/Comments/View/Comments/admin_index.ctp:11
@@ -943,20 +956,20 @@ msgstr ""
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:7
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
-msgstr ""
+msgstr "内容"
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:19
 #: Plugin/Comments/View/Elements/comments.ctp:5
 #: Plugin/Nodes/View/Elements/node_more_info.ctp:31
 #: Plugin/Settings/Config/bootstrap.php:71
 msgid "Comment"
-msgstr ""
+msgstr "评论"
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:60
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:25
 #: Plugin/Contacts/View/Messages/admin_index.ctp:66
 msgid "Contact"
-msgstr ""
+msgstr "联系人"
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:61
 #: Plugin/Comments/View/Comments/admin_index.ctp:49
@@ -968,7 +981,7 @@ msgstr ""
 #: Plugin/Install/View/Install/database.ctp:52
 #: Plugin/Users/View/Users/admin_form.ctp:54
 msgid "Name"
-msgstr ""
+msgstr "姓名"
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:62
 #: Plugin/Comments/View/Comments/admin_index.ctp:50
@@ -978,34 +991,34 @@ msgstr ""
 #: Plugin/Contacts/View/Messages/admin_index.ctp:68
 #: Plugin/Users/View/Users/admin_form.ctp:57
 msgid "Email"
-msgstr ""
+msgstr "邮箱"
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:63
 #: Plugin/Comments/View/Elements/comments_form.ctp:34;42
 #: Plugin/Users/View/Users/admin_form.ctp:60
 msgid "Website"
-msgstr ""
+msgstr "网站"
 
 #: Plugin/Comments/View/Comments/admin_form.ctp:64
 msgid "Ip"
-msgstr ""
+msgstr "Ip"
 
 #: Plugin/Comments/View/Comments/admin_index.ctp:17
 msgid "Comments: Published"
-msgstr ""
+msgstr "评论：已发布"
 
 #: Plugin/Comments/View/Comments/admin_index.ctp:20
 msgid "Comments: Approval"
-msgstr ""
+msgstr "评论：已批准"
 
 #: Plugin/Comments/View/Comments/admin_index.ctp:51
 msgid "Node"
-msgstr ""
+msgstr "节点"
 
 #: Plugin/Comments/View/Comments/admin_index.ctp:53
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:7;49
 msgid "Created"
-msgstr ""
+msgstr "已创建"
 
 #: Plugin/Comments/View/Comments/rss/index.ctp:17
 msgid "Comment on"
@@ -1023,11 +1036,11 @@ msgstr ""
 
 #: Plugin/Comments/View/Elements/comment.ctp:19
 msgid "Reply"
-msgstr ""
+msgstr "回复"
 
 #: Plugin/Comments/View/Elements/comments_form.ctp:2
 msgid "Add new comment"
-msgstr ""
+msgstr "添加新评论"
 
 #: Plugin/Comments/View/Elements/comments_form.ctp:7
 msgid "Go back to original post"
@@ -1035,22 +1048,22 @@ msgstr ""
 
 #: Plugin/Comments/View/Elements/comments_form.ctp:49
 msgid "Post comment"
-msgstr ""
+msgstr "公布评论"
 
 #: Plugin/Comments/View/Elements/admin/comments_tab.ctp:6
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:66
 msgid "Disabled"
-msgstr ""
+msgstr "禁用"
 
 #: Plugin/Comments/View/Elements/admin/comments_tab.ctp:7
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:67
 msgid "Read only"
-msgstr ""
+msgstr "只读"
 
 #: Plugin/Comments/View/Elements/admin/comments_tab.ctp:8
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:68
 msgid "Read/Write"
-msgstr ""
+msgstr "读/写"
 
 #: Plugin/Comments/View/Emails/text/comment.ctp:2
 msgid "A new comment has been posted under: %s"
@@ -1059,26 +1072,26 @@ msgstr ""
 #: Plugin/Comments/View/Emails/text/comment.ctp:6
 #: Plugin/Contacts/View/Emails/text/contact.ctp:8
 msgid "Name: %s"
-msgstr ""
+msgstr "姓名: %s"
 
 #: Plugin/Comments/View/Emails/text/comment.ctp:7
 #: Plugin/Contacts/View/Emails/text/contact.ctp:9
 msgid "Email: %s"
-msgstr ""
+msgstr "邮箱: %s"
 
 #: Plugin/Comments/View/Emails/text/comment.ctp:8
 msgid "Website: %s"
-msgstr ""
+msgstr "网站: %s"
 
 #: Plugin/Comments/View/Emails/text/comment.ctp:9
 #: Plugin/Contacts/View/Emails/text/contact.ctp:11
 #: Plugin/Users/View/Emails/text/forgot_password.ctp:17
 msgid "IP Address: %s"
-msgstr ""
+msgstr "IP地址: %s"
 
 #: Plugin/Comments/View/Emails/text/comment.ctp:10
 msgid "Comment: %s"
-msgstr ""
+msgstr "评论: %s"
 
 #: Plugin/Contacts/Config/bootstrap.php:10;20
 #: Plugin/Contacts/Controller/ContactsController.php:54
@@ -1087,105 +1100,105 @@ msgstr ""
 #: Plugin/Contacts/View/Messages/admin_form.ctp:7
 #: Plugin/Contacts/View/Messages/admin_index.ctp:7
 msgid "Contacts"
-msgstr ""
+msgstr "联系人"
 
 #: Plugin/Contacts/Config/bootstrap.php:29
 #: Plugin/Contacts/Controller/MessagesController.php:65
 #: Plugin/Contacts/View/Messages/admin_form.ctp:8
 #: Plugin/Contacts/View/Messages/admin_index.ctp:8
 msgid "Messages"
-msgstr ""
+msgstr "消息"
 
 #: Plugin/Contacts/Controller/ContactsController.php:69
 msgid "Add Contact"
-msgstr ""
+msgstr "添加联系人"
 
 #: Plugin/Contacts/Controller/ContactsController.php:74;98
 msgid "The Contact has been saved"
-msgstr ""
+msgstr "联系人信息已保存"
 
 #: Plugin/Contacts/Controller/ContactsController.php:77;101
 msgid "The Contact could not be saved. Please, try again."
-msgstr ""
+msgstr "联系人信息并无法保存。请重试。"
 
 #: Plugin/Contacts/Controller/ContactsController.php:90
 msgid "Edit Contact"
-msgstr ""
+msgstr "编辑联系人"
 
 #: Plugin/Contacts/Controller/ContactsController.php:93
 msgid "Invalid Contact"
-msgstr ""
+msgstr "无效的联系人"
 
 #: Plugin/Contacts/Controller/ContactsController.php:118
 msgid "Invalid id for Contact"
-msgstr ""
+msgstr "联系人的无效id"
 
 #: Plugin/Contacts/Controller/ContactsController.php:122
 msgid "Contact deleted"
-msgstr ""
+msgstr "联系人已删除"
 
 #: Plugin/Contacts/Controller/ContactsController.php:172
 msgid "Your message has been received..."
-msgstr ""
+msgstr "你的信息已接收..."
 
 #: Plugin/Contacts/Controller/ContactsController.php:220
 msgid "Sorry, the message appears to be spam."
-msgstr ""
+msgstr "对不起，该信息为垃圾信息。"
 
 #: Plugin/Contacts/Controller/ContactsController.php:265
 msgid "[%s] %s"
-msgstr ""
+msgstr "[%s] %s"
 
 #: Plugin/Contacts/Controller/MessagesController.php:73
 #: Plugin/Contacts/View/Messages/admin_index.ctp:12;47
 msgid "Read"
-msgstr ""
+msgstr "读"
 
 #: Plugin/Contacts/Controller/MessagesController.php:87
 msgid "Edit Message"
-msgstr ""
+msgstr "编辑信息"
 
 #: Plugin/Contacts/Controller/MessagesController.php:90
 msgid "Invalid Message"
-msgstr ""
+msgstr "无效的信息"
 
 #: Plugin/Contacts/Controller/MessagesController.php:95
 msgid "The Message has been saved"
-msgstr ""
+msgstr "信息已保存"
 
 #: Plugin/Contacts/Controller/MessagesController.php:98
 msgid "The Message could not be saved. Please, try again."
-msgstr ""
+msgstr "信息无法保存。请重试。"
 
 #: Plugin/Contacts/Controller/MessagesController.php:115
 msgid "Invalid id for Message"
-msgstr ""
+msgstr "信息的无效id"
 
 #: Plugin/Contacts/Controller/MessagesController.php:119
 msgid "Message deleted"
-msgstr ""
+msgstr "信息已删除"
 
 #: Plugin/Contacts/Controller/MessagesController.php:146
 msgid "Messages deleted."
-msgstr ""
+msgstr "多条信息已删除"
 
 #: Plugin/Contacts/Controller/MessagesController.php:149
 msgid "Messages marked as read"
-msgstr ""
+msgstr "信息被标记为可读"
 
 #: Plugin/Contacts/Controller/MessagesController.php:152
 msgid "Messages marked as unread"
-msgstr ""
+msgstr "信息被标记为不可读"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:26
 msgid "Details"
-msgstr ""
+msgstr "详细信息"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:27
 #: Plugin/Contacts/View/Contacts/view.ctp:21
 #: Plugin/Contacts/View/Messages/admin_form.ctp:21
 msgid "Message"
-msgstr ""
+msgstr "信息"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:59
 msgid "Position"
@@ -1194,107 +1207,107 @@ msgstr ""
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:62
 #: Plugin/Contacts/View/Messages/admin_form.ctp:50
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:65
 msgid "Address2"
-msgstr ""
+msgstr "地址2"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:68
 msgid "State"
-msgstr ""
+msgstr "州"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:71
 msgid "Country"
-msgstr ""
+msgstr "国家"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:74
 msgid "Post Code"
-msgstr ""
+msgstr "邮编"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:77
 #: Plugin/Contacts/View/Messages/admin_form.ctp:47
 msgid "Phone"
-msgstr ""
+msgstr "电话"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:80
 msgid "Fax"
-msgstr ""
+msgstr "传真"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:88
 msgid "Let users leave a message"
-msgstr ""
+msgstr "让用户留下一条信息"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:92
 msgid "Save messages in database"
-msgstr ""
+msgstr "将信息存储进数据库"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:96
 msgid "Notify by email instantly"
-msgstr ""
+msgstr "立即通过邮件通知"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:100
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:80
 msgid "Spam protection (requires Akismet API key)"
-msgstr ""
+msgstr "垃圾信息过滤（需要Akismet API key）"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:104
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:84
 msgid "Use captcha? (requires Recaptcha API key)"
-msgstr ""
+msgstr "使用captcha？（需要Recaptcha API key）"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:108
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:87
 msgid "You can manage your API keys here."
-msgstr ""
+msgstr "在此处管理你的API keys"
 
 #: Plugin/Contacts/View/Contacts/view.ctp:18
 msgid "Your name"
-msgstr ""
+msgstr "你的名字"
 
 #: Plugin/Contacts/View/Contacts/view.ctp:19
 msgid "Your email"
-msgstr ""
+msgstr "你的邮箱"
 
 #: Plugin/Contacts/View/Contacts/view.ctp:20
 msgid "Subject"
-msgstr ""
+msgstr "主题"
 
 #: Plugin/Contacts/View/Contacts/view.ctp:25
 msgid "Send"
-msgstr ""
+msgstr "发送"
 
 #: Plugin/Contacts/View/Emails/text/contact.ctp:7
 msgid "You have received a new message at: %s"
-msgstr ""
+msgstr "您在 %s 收到一条新信息"
 
 #: Plugin/Contacts/View/Emails/text/contact.ctp:10
 msgid "Subject: %s"
-msgstr ""
+msgstr "主题：%s"
 
 #: Plugin/Contacts/View/Emails/text/contact.ctp:12
 msgid "Message: %s"
-msgstr ""
+msgstr "信息：%s"
 
 #: Plugin/Contacts/View/Messages/admin_index.ctp:13
 msgid "Messages: Read"
-msgstr ""
+msgstr "信息：读"
 
 #: Plugin/Contacts/View/Messages/admin_index.ctp:15;41
 msgid "Unread"
-msgstr ""
+msgstr "未读"
 
 #: Plugin/Contacts/View/Messages/admin_index.ctp:16
 msgid "Messages: Unread"
-msgstr ""
+msgstr "信息：未读"
 
 #: Plugin/Contacts/View/Messages/admin_index.ctp:126
 msgid "Mark as read"
-msgstr ""
+msgstr "标记为已读"
 
 #: Plugin/Contacts/View/Messages/admin_index.ctp:127
 msgid "Mark as unread"
-msgstr ""
+msgstr "标记为未读"
 
 #: Plugin/Croogo/Console/Command/CroogoShell.php:29
 msgid "Croogo Utilities"
@@ -1310,79 +1323,79 @@ msgstr ""
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:103
 msgid "Theme cannot be deactivated, instead activate another theme."
-msgstr ""
+msgstr "主题无法禁用，除非启用了另一个主题"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:107
 msgid "%s \"%s\" not found."
-msgstr ""
+msgstr "%s \"%s\"没有找到"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:116
 msgid "%s name must be provided."
-msgstr ""
+msgstr "姓名%s已经被提供"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:128
 msgid "Activate Plugins & Themes"
-msgstr ""
+msgstr "激活插件&主题"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:131
 msgid "Method to perform"
-msgstr ""
+msgstr "执行方法"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:136
 #: Plugin/Croogo/Console/Command/InstallShell.php:136
 msgid "Extension type"
-msgstr ""
+msgstr "扩展类型"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:141
 msgid "Name of extension"
-msgstr ""
+msgstr "扩展名"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:165
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:154
 msgid "Plugin \"%s\" activated successfully."
-msgstr ""
+msgstr " \"%s\" 插件启用成功"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:170
 #: Plugin/Extensions/Lib/CroogoPlugin.php:507
 msgid "Plugin \"%s\" could not be activated. Please, try again."
-msgstr ""
+msgstr " \"%s\" 插件无法启用。请重试。"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:184
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:145
 msgid "Plugin \"%s\" deactivated successfully."
-msgstr ""
+msgstr " \"%s\" 插件已禁用"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:189
 msgid "Plugin \"%s\" could not be deactivated. Please, try again."
-msgstr ""
+msgstr " \"%s\" 插件无法禁用。请重试。"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:205
 msgid "Theme \"%s\" activated successfully."
-msgstr ""
+msgstr " \"%s\" 主题启用成功"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:207
 msgid "Theme \"%s\" activation failed."
-msgstr ""
+msgstr " \"%s\" 主题启用失败"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:221
 msgid "Plugins:"
-msgstr ""
+msgstr "插件："
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:222;234;248;258
 msgid "%-20s%-50s%s"
-msgstr ""
+msgstr "%-20s%-50s%s"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:222
 msgid "Plugin"
-msgstr ""
+msgstr "插件"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:222;248
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:248
 msgid "Theme"
-msgstr ""
+msgstr "主题"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:81
 msgid "Installing with Composer..."
@@ -1394,19 +1407,19 @@ msgstr ""
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:102
 msgid "Package installed and activated."
-msgstr ""
+msgstr "包已安装并启用"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:104
 msgid "Package installed but not activated."
-msgstr ""
+msgstr "包已安装但未启用"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:121
 msgid "Extension installed and activated."
-msgstr ""
+msgstr "扩展已安装并启用"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:133
 msgid "Download, Install & Activate Plugins & Themes"
-msgstr ""
+msgstr "下载，安装并启用插件和主题"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:141
 msgid "URL to zip file OR github user name"
@@ -1418,7 +1431,7 @@ msgstr ""
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:176
 msgid "Installing extension..."
-msgstr ""
+msgstr "安装扩展中..."
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:195
 msgid "Please specify a URL to a zipball extension"
@@ -1426,31 +1439,37 @@ msgstr ""
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:200
 msgid "Downloading extension to %s..."
-msgstr ""
+msgstr "正在下载扩展到%s..."
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:62
 msgid "Upgrade ACL database for core controllers."
-msgstr ""
+msgstr "为核心控制器升级ACL数据库"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:64
-msgid "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior in normal CakePHP applications. The primary difference is plugin controllers now are stored underneath its own Plugin ACO record, whereas previous version assumes all Controllers belongs to the root 'controllers' node.%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos table before upgrading.</warning>"
+msgid ""
+"Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
+"in normal CakePHP applications. The primary difference is plugin controllers "
+"now are stored underneath its own Plugin ACO record, whereas previous "
+"version assumes all Controllers belongs to the root 'controllers' node."
+"%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"table before upgrading.</warning>"
 msgstr ""
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:76
 msgid "Create settings.json from database"
-msgstr ""
+msgstr "从数据库创建settings.json"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:79
 msgid "Update Hook.bootstrap settings"
-msgstr ""
+msgstr "更新Hook.bootstrap设置"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:82
 msgid "Update Links in database"
-msgstr ""
+msgstr "更新数据库里的连接"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:85
 msgid "Create first migration records"
-msgstr ""
+msgstr "创建第一条迁移记录"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:88
 msgid "Run all upgrade tasks"
@@ -1458,41 +1477,42 @@ msgstr ""
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:98
 msgid "<warning>Config/settings.json already exist</warning>"
-msgstr ""
+msgstr "<warning>Config/settings.json已经存在</warning>"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:139
-msgid "<success>Config/settings.yml created based on `settings` table</success>"
-msgstr ""
+msgid ""
+"<success>Config/settings.yml created based on `settings` table</success>"
+msgstr "<success>Config/settings.yml 基于'settings'表已创建</success>"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:184
 msgid "Updating Link %s"
-msgstr ""
+msgstr "正在更新连接 %s"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:185
 #: Plugin/Settings/Console/Command/SettingsShell.php:155
 msgid "- %s"
-msgstr ""
+msgstr "- %s"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:186
 #: Plugin/Settings/Console/Command/SettingsShell.php:158
 msgid "+ %s"
-msgstr ""
+msgstr "+ %s"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:191
 msgid "Links updated: %d rows"
-msgstr ""
+msgstr "连接已更新： %d行"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:207
 msgid "Hook.bootstraps updated"
-msgstr ""
+msgstr "Hook.bootstraps已更新"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:318
 msgid "Upgrade \"%s\""
-msgstr ""
+msgstr "升级\"%s\""
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:332
 msgid "Command not recognized"
-msgstr ""
+msgstr "命令未被识别"
 
 #: Plugin/Croogo/Controller/CroogoAppController.php:162
 msgid "Site down for maintenance"
@@ -1500,12 +1520,12 @@ msgstr ""
 
 #: Plugin/Croogo/Controller/CroogoErrorController.php:57
 msgid "Errors in CakeErrorController: %s"
-msgstr ""
+msgstr "CakeErrorController有错误: %s"
 
 #: Plugin/Croogo/Controller/Component/CroogoComponent.php:201
 #: Plugin/Nodes/Controller/NodesController.php:200;677;715
 msgid "Invalid content"
-msgstr ""
+msgstr "无效的内容"
 
 #: Plugin/Croogo/Controller/Component/CroogoComponent.php:210
 msgid "Failed toggling field %s to %s"
@@ -1513,7 +1533,7 @@ msgstr ""
 
 #: Plugin/Croogo/Event/CroogoEventManager.php:73
 msgid "EventHandler %s not found in plugin %s"
-msgstr ""
+msgstr "%s 事件处理器未在插件 %s 中找到"
 
 #: Plugin/Croogo/Lib/CroogoRouter.php:123
 msgid "Unable to get routeable content types: %s"
@@ -1525,7 +1545,7 @@ msgstr ""
 
 #: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:55
 msgid "Could not load configuration files: %s or %s"
-msgstr ""
+msgstr "无法加载配置文件: %s 或 %s"
 
 #: Plugin/Croogo/View/Common/admin_edit.ctp:8
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:35
@@ -1533,7 +1553,7 @@ msgstr ""
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:31
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:31
 #: Plugin/Menus/View/Links/admin_index.ctp:16
@@ -1541,80 +1561,82 @@ msgid "New %s"
 msgstr ""
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:128
-msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
 msgstr ""
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:133
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:90
 msgid "first"
-msgstr ""
+msgstr "第一个"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:134
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:91
 msgid "prev"
-msgstr ""
+msgstr "前一个"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:136
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:93
 msgid "next"
-msgstr ""
+msgstr "下一个"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:137
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:94
 msgid "last"
-msgstr ""
+msgstr "最后一个"
 
 #: Plugin/Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
-msgstr ""
+msgstr "Croogo %s"
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:22
 #: Plugin/Settings/Controller/SettingsController.php:50
 #: Plugin/Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
-msgstr ""
+msgstr "仪表盘"
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:27
 msgid "Visit website"
-msgstr ""
+msgstr "访问网站"
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:34
 msgid "You are logged in as: %s"
-msgstr ""
+msgstr "您已作为 %s 登陆"
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:38
 msgid "Log out"
-msgstr ""
+msgstr "退出登陆"
 
 #: Plugin/Croogo/View/Elements/admin/modal.ctp:19
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: Plugin/Croogo/View/Elements/admin/search.ctp:39
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:53
 msgid "Filter"
-msgstr ""
+msgstr "过滤器"
 
 #: Plugin/Croogo/View/Errors/missing_action.ctp:1
 #: Plugin/Croogo/View/Errors/missing_controller.ctp:1
 #: Plugin/Croogo/View/Errors/security.ctp:1
 msgid "Page not found"
-msgstr ""
+msgstr "页面无法找到"
 
 #: Plugin/Croogo/View/Errors/missing_action.ctp:2
 #: Plugin/Croogo/View/Errors/missing_controller.ctp:2
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: Plugin/Croogo/View/Errors/missing_action.ctp:4
 #: Plugin/Croogo/View/Errors/missing_controller.ctp:4
 #: Plugin/Croogo/View/Errors/security.ctp:4
 msgid "The requested address was not found on this server."
-msgstr ""
+msgstr "请求地址在该服务器上未找到"
 
 #: Plugin/Croogo/View/Errors/security.ctp:2
 msgid "Security Error"
-msgstr ""
+msgstr "安全错误"
 
 #: Plugin/Croogo/View/Errors/security.ctp:8
 msgid "Request blackholed due to \"%s\" violation."
@@ -1622,7 +1644,7 @@ msgstr ""
 
 #: Plugin/Croogo/View/Helper/LayoutHelper.php:96
 msgid "Method %1$s::%2$s does not exist"
-msgstr ""
+msgstr "方法 %1$s::%2$s 不存在"
 
 #: Plugin/Croogo/View/Layouts/admin.ctp:6
 #: Plugin/Croogo/View/Layouts/admin_full.ctp:6
@@ -1634,7 +1656,7 @@ msgstr ""
 
 #: Plugin/Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
-msgstr ""
+msgstr "返回到"
 
 #: Plugin/Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
@@ -1649,7 +1671,7 @@ msgstr ""
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:6
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Themes"
-msgstr ""
+msgstr "主题"
 
 #: Plugin/Extensions/Config/bootstrap.php:23
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:46
@@ -1657,191 +1679,191 @@ msgstr ""
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:10
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:8
 msgid "Locales"
-msgstr ""
+msgstr "本地化"
 
 #: Plugin/Extensions/Config/bootstrap.php:32
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:71
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:8
 msgid "Plugins"
-msgstr ""
+msgstr "插件"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:68
 msgid "Locale does not exist."
-msgstr ""
+msgstr "本地化环境不存在"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:74
 msgid "Locale '%s' set as default"
-msgstr ""
+msgstr "本地化 '%s' 设置为默认"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:76
 msgid "Could not save Locale setting."
-msgstr ""
+msgstr "本地化设置无法保存"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:87
 msgid "Upload a new locale"
-msgstr ""
+msgstr "上传一个新的本地化"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:113;168
 msgid "Invalid locale."
-msgstr ""
+msgstr "无效的本地化"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:118
 msgid "Locale already exists."
-msgstr ""
+msgstr "本地化已存在"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:165
 msgid "Edit locale: %s"
-msgstr ""
+msgstr "编辑本地化： %s"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:175
 msgid "The file %s does not exist."
-msgstr ""
+msgstr " %s 文件不存在"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:185
 msgid "Locale updated successfully"
-msgstr ""
+msgstr "本地化已成功更新"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:201
 #: Plugin/Translate/Controller/TranslateController.php:110
 msgid "Invalid locale"
-msgstr ""
+msgstr "无效的本地化"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:207
 msgid "Locale deleted successfully."
-msgstr ""
+msgstr "本地化删除成功"
 
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:209
 msgid "Local could not be deleted."
-msgstr ""
+msgstr "本地化不能删除"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:85
 msgid "Upload a new plugin"
-msgstr ""
+msgstr "上传一个新的插件"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:110;138;171;192;216
 #: Plugin/Extensions/Lib/CroogoPlugin.php:594
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:78;93;99
 msgid "Invalid plugin"
-msgstr ""
+msgstr "无效的插件"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:114
 msgid "You cannot delete a plugin that is currently active."
-msgstr ""
+msgstr "不能删除当前再用的插件"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:120
 msgid "Plugin \"%s\" deleted successfully."
-msgstr ""
+msgstr " \"%s\" 插件成功删除"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:124
 msgid "Plugin could not be deleted."
-msgstr ""
+msgstr "插件不能被删除"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:149
 #: Plugin/Extensions/Lib/CroogoPlugin.php:532
 msgid "Plugin could not be deactivated. Please, try again."
-msgstr ""
+msgstr "插件不能启用。请重试。"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:158
 msgid "Plugin could not be activated. Please, try again."
-msgstr ""
+msgstr "插件不能激活。请重试。"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:173
 msgid "Plugin \"%s\" migrated successfully."
-msgstr ""
+msgstr "\"%s\" 插件迁移成功"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:176
 msgid "Plugin \"%s\" could not be migrated. Error: %s"
-msgstr ""
+msgstr "\"%s\" 插件不能迁移。错误: %s"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:198
 msgid "Plugin %s has been moved up"
-msgstr ""
+msgstr " %s 插件已上移"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:222
 msgid "Plugin %s has been moved down"
-msgstr ""
+msgstr " %s 插件已下移"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:83
 msgid "Theme activated."
-msgstr ""
+msgstr "主题已激活"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:85
 msgid "Theme activation failed."
-msgstr ""
+msgstr "主题激活失败"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:97
 msgid "Upload a new theme"
-msgstr ""
+msgstr "上传新主题"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:106
 msgid "Theme uploaded successfully."
-msgstr ""
+msgstr "主题上传成功"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:120
 msgid "Theme Editor"
-msgstr ""
+msgstr "主题编辑器"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:139
 msgid "Invalid Theme."
-msgstr ""
+msgstr "无效的主题"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:144
 msgid "Default theme cannot be deleted."
-msgstr ""
+msgstr "不能删除默认主题"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:147
 msgid "You cannot delete a theme that is currently active."
-msgstr ""
+msgstr "不能删除当前在用主题"
 
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:154
 msgid "Theme deleted successfully."
-msgstr ""
+msgstr "主题删除成功"
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:479
 msgid "Plugin \"%s\" is already active."
-msgstr ""
+msgstr " \"%s\" 主题已启用"
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:505
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
-msgstr ""
+msgstr " \"%s\" 插件基于 \"%s\" 插件"
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:519
 msgid "Plugin \"%s\" is not active."
-msgstr ""
+msgstr " \"%s\" 插件未启用"
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:624
 msgid "%s is already at the first position"
-msgstr ""
+msgstr "%s 已在首位"
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:630;642
 msgid "Plugin %s depends on %s"
-msgstr ""
+msgstr "%s 插件基于 %s"
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:635
 msgid "%s is already at the last position"
-msgstr ""
+msgstr "%s 已在末位"
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:646
 msgid "Invalid direction"
-msgstr ""
+msgstr "无效的方向"
 
 #: Plugin/Extensions/Lib/CroogoPlugin.php:651
 msgid "Plugin %s cannot be reordered"
-msgstr ""
+msgstr " %s 插件不能重排序"
 
 #: Plugin/Extensions/Lib/CroogoTheme.php:122
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:180
 msgid "Invalid theme"
-msgstr ""
+msgstr "无效的主题"
 
 #: Plugin/Extensions/Lib/CroogoTheme.php:143
 msgid "Theme %s not found"
-msgstr ""
+msgstr "%s 主题未找到"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:62
 msgid "Invalid plugin path"
-msgstr ""
+msgstr "无效的插件路径"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:72;104;185
 msgid "Invalid zip archive"
@@ -1849,39 +1871,39 @@ msgstr ""
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:119
 msgid "Invalid plugin file path"
-msgstr ""
+msgstr "无效的插件文件路径"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:130
 msgid "Plugin already exists"
-msgstr ""
+msgstr "插件已存在"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:146
 msgid "Failed to extract plugin"
-msgstr ""
+msgstr "抽取插件失败"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:159
 msgid "Invalid theme path"
-msgstr ""
+msgstr "无效的主题路径"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:200
 msgid "Invalid theme file path"
-msgstr ""
+msgstr "无效的主题文件路径"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:211
 msgid "Theme already exists"
-msgstr ""
+msgstr "主题已存在"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:227
 msgid "Failed to extract theme"
-msgstr ""
+msgstr "处提取主题失败"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:246
 msgid "Must specify a valid package name: vendor/name."
-msgstr ""
+msgstr "必须制定有效的包名: vendor/name."
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:249
 msgid "Themes installed via composer are not yet supported."
-msgstr ""
+msgstr "暂不支持通过组合器安装主题"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:4
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:9
@@ -1891,7 +1913,7 @@ msgstr ""
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:6
 msgid "Extensions"
-msgstr ""
+msgstr "扩展"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:6;25;46
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:13
@@ -1903,23 +1925,23 @@ msgstr ""
 #: Plugin/FileManager/View/Attachments/admin_add.ctp:8;22;30;45
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:5;31
 msgid "Upload"
-msgstr ""
+msgstr "上传"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:23
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:26
 #: Plugin/Translate/View/Translate/admin_index.ctp:36
 msgid "Locale"
-msgstr ""
+msgstr "本地化"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:24
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:39
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:43
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:92
 msgid "Activate"
-msgstr ""
+msgstr "激活"
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:26
 #: Plugin/Menus/View/Links/admin_form.ctp:101
@@ -1930,7 +1952,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:48
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:27
 msgid "Active"
@@ -1942,23 +1964,23 @@ msgstr ""
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:75
 msgid "Migrate"
-msgstr ""
+msgstr "移植"
 
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:25
 msgid "Current Theme"
-msgstr ""
+msgstr "当前主题"
 
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:56;89
 msgid "Regions supported: "
-msgstr ""
+msgstr "支持领域："
 
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:62
 msgid "Available Themes"
-msgstr ""
+msgstr "可用主题"
 
 #: Plugin/FileManager/Config/bootstrap.php:5
 msgid "Media"
-msgstr ""
+msgstr "meticulously"
 
 #: Plugin/FileManager/Config/bootstrap.php:15
 #: Plugin/FileManager/Controller/AttachmentsController.php:101
@@ -1966,7 +1988,7 @@ msgstr ""
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:7
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:7
 msgid "Attachments"
-msgstr ""
+msgstr "附件"
 
 #: Plugin/FileManager/Config/bootstrap.php:24
 #: Plugin/FileManager/Controller/FileManagerController.php:115
@@ -1976,135 +1998,137 @@ msgstr ""
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:4
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:4
 msgid "File Manager"
-msgstr ""
+msgstr "文件管理器"
 
 #: Plugin/FileManager/Controller/AttachmentsController.php:115
 msgid "Add Attachment"
-msgstr ""
+msgstr "添加附件"
 
 #: Plugin/FileManager/Controller/AttachmentsController.php:124
 msgid "Upload failed. Please ensure size does not exceed the server limit."
-msgstr ""
+msgstr "上传失败。请确认文件大小未超过服务器限制。"
 
 #: Plugin/FileManager/Controller/AttachmentsController.php:131;164
 msgid "The Attachment has been saved"
-msgstr ""
+msgstr "附件已保存"
 
 #: Plugin/FileManager/Controller/AttachmentsController.php:139;167
 msgid "The Attachment could not be saved. Please, try again."
-msgstr ""
+msgstr "附件无法保存。请重试。"
 
 #: Plugin/FileManager/Controller/AttachmentsController.php:152
 msgid "Edit Attachment"
-msgstr ""
+msgstr "编辑附件"
 
 #: Plugin/FileManager/Controller/AttachmentsController.php:159
 msgid "Invalid Attachment"
-msgstr ""
+msgstr "无效的附件"
 
 #: Plugin/FileManager/Controller/AttachmentsController.php:184;192
 msgid "Invalid id for Attachment"
-msgstr ""
+msgstr "无效的附件id"
 
 #: Plugin/FileManager/Controller/AttachmentsController.php:189
 msgid "Attachment deleted"
-msgstr ""
+msgstr "附件已删除"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:120;152;216
 msgid "Path %s is restricted"
-msgstr ""
+msgstr "%s 路径受限"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:155
 msgid "Edit file: %s"
-msgstr ""
+msgstr "编辑文件: %s"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:166
 msgid "File saved successfully"
-msgstr ""
+msgstr "文件保存成功"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:195
 msgid "File uploaded successfully."
-msgstr ""
+msgstr "文件上传成功"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:221
 msgid "File deleted"
-msgstr ""
+msgstr "文件已删除"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:223;251;309;337
 msgid "An error occured"
-msgstr ""
+msgstr "发生一个错误"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:249
 msgid "Directory deleted"
-msgstr ""
+msgstr "目录已删除"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:294
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:5;14
 msgid "Create Directory"
-msgstr ""
+msgstr "创建目录"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:305
 msgid "Directory created successfully."
-msgstr ""
+msgstr "目录已成功创建"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:323
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:5
 msgid "Create File"
-msgstr ""
+msgstr "创建文件"
 
 #: Plugin/FileManager/Controller/FileManagerController.php:333
 msgid "File created successfully."
-msgstr ""
+msgstr "文件已成功创建"
 
 #: Plugin/FileManager/Model/Attachment.php:96
 msgid "Error during file upload"
-msgstr ""
+msgstr "上传文件出错"
 
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:10
 msgid "New Attachment"
-msgstr ""
+msgstr "新附件"
 
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:25
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:17
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:64
 msgid "Insert"
-msgstr ""
+msgstr "插入"
 
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:97
-msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
 msgstr ""
 
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
-msgstr ""
+msgstr "附件"
 
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:46
 msgid "Caption"
-msgstr ""
+msgstr "标题栏"
 
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:50
 msgid "File URL"
-msgstr ""
+msgstr "文件URL"
 
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:56
 msgid "Mime Type"
-msgstr ""
+msgstr "Mime型式"
 
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:13
 msgid "Upload here"
-msgstr ""
+msgstr "在此处上传"
 
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:17
 msgid "Create directory"
-msgstr ""
+msgstr "创建目录"
 
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:21
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:15
 msgid "Create file"
-msgstr ""
+msgstr "创建文件"
 
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:29
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:16
@@ -2112,103 +2136,103 @@ msgstr ""
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:16
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:17
 msgid "You are here"
-msgstr ""
+msgstr "你在这"
 
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:44
 msgid "Directory content"
-msgstr ""
+msgstr "目录内容"
 
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:57
 msgid "Open"
-msgstr ""
+msgstr "打开"
 
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:85
 msgid "View"
-msgstr ""
+msgstr "查看"
 
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:31
 msgid "Directory"
-msgstr ""
+msgstr "目录"
 
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:41
 msgid "Directory name"
-msgstr ""
+msgstr "目录名"
 
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:53
 #: Plugin/Nodes/Config/bootstrap.php:60
 #: Plugin/Nodes/View/Nodes/admin_create.ctp:6
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:13
 msgid "Create"
-msgstr ""
+msgstr "创建"
 
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:32
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:42
 msgid "Filename"
-msgstr ""
+msgstr "文件名"
 
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:14
 msgid "Edit file"
-msgstr ""
+msgstr "编辑文件"
 
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:15
 msgid "Upload file"
-msgstr ""
+msgstr "上传文件"
 
 #: Plugin/Install/Console/Command/InstallShell.php:28
 msgid "Install Utilities"
-msgstr ""
+msgstr "安装工具"
 
 #: Plugin/Install/Console/Command/InstallShell.php:59
 msgid "DataSource"
-msgstr ""
+msgstr "数据源"
 
 #: Plugin/Install/Console/Command/InstallShell.php:66
 #: Plugin/Install/View/Install/database.ctp:32
 msgid "Host"
-msgstr ""
+msgstr "主机"
 
 #: Plugin/Install/Console/Command/InstallShell.php:67
 #: Plugin/Install/View/Install/database.ctp:39
 #: Plugin/Users/View/Users/login.ctp:2
 msgid "Login"
-msgstr ""
+msgstr "登陆"
 
 #: Plugin/Install/Console/Command/InstallShell.php:68;98
 #: Plugin/Install/View/Install/database.ctp:46
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: Plugin/Install/Console/Command/InstallShell.php:69
 #: Plugin/Install/View/Install/database.ctp:20
 msgid "Database"
-msgstr ""
+msgstr "数据库"
 
 #: Plugin/Install/Console/Command/InstallShell.php:70
 #: Plugin/Install/View/Install/database.ctp:59
 msgid "Prefix"
-msgstr ""
+msgstr "前缀"
 
 #: Plugin/Install/Console/Command/InstallShell.php:71
 #: Plugin/Install/View/Install/database.ctp:65
 msgid "Port"
-msgstr ""
+msgstr "端口"
 
 #: Plugin/Install/Console/Command/InstallShell.php:91
 #: Plugin/Install/View/Install/adminuser.ctp:14
 #: Plugin/Users/View/Users/admin_form.ctp:51
 #: Plugin/Users/View/Users/admin_login.ctp:9
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: Plugin/Install/Console/Command/InstallShell.php:99
 #: Plugin/Install/View/Install/adminuser.ctp:25
 #: Plugin/Users/View/Users/admin_reset_password.ctp:26
 #: Plugin/Users/View/Users/reset.ctp:7
 msgid "Verify Password"
-msgstr ""
+msgstr "验证码"
 
 #: Plugin/Install/Console/Command/InstallShell.php:207
 msgid "Permission %s granted to %s"
@@ -2216,116 +2240,118 @@ msgstr ""
 
 #: Plugin/Install/Controller/InstallController.php:97
 msgid "Installation: Welcome"
-msgstr ""
+msgstr "安装：欢迎你"
 
 #: Plugin/Install/Controller/InstallController.php:112
 msgid "Step 1: Database"
-msgstr ""
+msgstr "第1步：数据库"
 
 #: Plugin/Install/Controller/InstallController.php:139
 msgid "Step 2: Build database"
-msgstr ""
+msgstr "第2步：创建数据库"
 
 #: Plugin/Install/Controller/InstallController.php:147
 msgid "Warning: Database \"%s\" is not empty."
-msgstr ""
+msgstr "警告： \"%s\" 数据库非空"
 
 #: Plugin/Install/Controller/InstallController.php:195
 msgid "Installation successful"
-msgstr ""
+msgstr "安装成功"
 
 #: Plugin/Install/Controller/InstallController.php:203
 msgid "Installation failed: Unable to create settings file"
-msgstr ""
+msgstr "安装失败：无法创建设置文件"
 
 #: Plugin/Install/Lib/AssetGenerator.php:100
 msgid "CSS : %s created"
-msgstr ""
+msgstr "CSS：%s 已创建"
 
 #: Plugin/Install/Lib/AssetGenerator.php:103
 msgid "CSS : %s failed"
-msgstr ""
+msgstr "CSS : %s 失败"
 
 #: Plugin/Install/Lib/AssetGenerator.php:120
 msgid "JS  : %s created"
-msgstr ""
+msgstr "JS  : %s 已创建"
 
 #: Plugin/Install/Lib/AssetGenerator.php:123
 msgid "JS  : %s failed"
-msgstr ""
+msgstr "JS  : %s 失败"
 
 #: Plugin/Install/Lib/AssetGenerator.php:165
 msgid "Font: %s copied"
-msgstr ""
+msgstr "字体：%s 已复制"
 
 #: Plugin/Install/Lib/AssetGenerator.php:168
 msgid "File: %s not copied"
-msgstr ""
+msgstr "文件: %s 未复制"
 
 #: Plugin/Install/Lib/InstallManager.php:45
 msgid "Could not write database.php file."
-msgstr ""
+msgstr "database.php文件不可写"
 
 #: Plugin/Install/Lib/InstallManager.php:53
 msgid "Could not connect to database: "
-msgstr ""
+msgstr "无法连接到数据库："
 
 #: Plugin/Install/Lib/InstallManager.php:56
 msgid "Could not connect to database."
-msgstr ""
+msgstr "无法连接到数据库"
 
 #: Plugin/Install/View/Install/adminuser.ctp:7
 msgid "Step 3: Create Admin User"
-msgstr ""
+msgstr "第3步：创建管理员"
 
 #: Plugin/Install/View/Install/adminuser.ctp:19
 #: Plugin/Users/View/Users/admin_reset_password.ctp:25
 msgid "New Password"
-msgstr ""
+msgstr "新密码"
 
 #: Plugin/Install/View/Install/data.ctp:6
 msgid "Create tables and load initial data"
-msgstr ""
+msgstr "创建表和导入初始数据"
 
 #: Plugin/Install/View/Install/data.ctp:12
 msgid "Build database"
-msgstr ""
+msgstr "创建数据库"
 
 #: Plugin/Install/View/Install/data.ctp:19
 msgid "Click here to build your database"
-msgstr ""
+msgstr "点击此处创建数据库"
 
 #: Plugin/Install/View/Install/database.ctp:34
 msgid "Database hostname or IP Address"
-msgstr ""
+msgstr "数据库主机名或IP地址"
 
 #: Plugin/Install/View/Install/database.ctp:41
 msgid "Database login/username"
-msgstr ""
+msgstr "数据库 登录/用户名"
 
 #: Plugin/Install/View/Install/database.ctp:47
 msgid "Database password"
-msgstr ""
+msgstr "数据库密码"
 
 #: Plugin/Install/View/Install/database.ctp:54
 msgid "Database name"
-msgstr ""
+msgstr "数据库名"
 
 #: Plugin/Install/View/Install/database.ctp:60
 msgid "Table prefix (leave blank if unknown)"
-msgstr ""
+msgstr "表前缀（如果不知道就不填）"
 
 #: Plugin/Install/View/Install/database.ctp:66
 msgid "Database port (leave blank if unknown)"
-msgstr ""
+msgstr "数据库接口（如果不知道就不填）"
 
 #: Plugin/Install/View/Install/finish.ctp:5
-msgid "\n\t\tThe user %s has been created with administrative rights."
+msgid ""
+"\n"
+"\t\tThe user %s has been created with administrative rights."
 msgstr ""
 
 #: Plugin/Install/View/Install/finish.ctp:12
 msgid "Admin panel: %s"
-msgstr ""
+msgstr "管理面板: %s"
 
 #: Plugin/Install/View/Install/finish.ctp:17
 msgid "You can start with %s or jump in and %s."
@@ -2333,63 +2359,63 @@ msgstr ""
 
 #: Plugin/Install/View/Install/finish.ctp:18
 msgid "configuring your site"
-msgstr ""
+msgstr "配置你的网站"
 
 #: Plugin/Install/View/Install/finish.ctp:19
 msgid "create a blog post"
-msgstr ""
+msgstr "新建一条博客文章"
 
 #: Plugin/Install/View/Install/finish.ctp:25
 msgid "Resources"
-msgstr ""
+msgstr "源"
 
 #: Plugin/Install/View/Install/index.ctp:8
 msgid "Your tmp directory is writable."
-msgstr ""
+msgstr "你的tmp目录可写"
 
 #: Plugin/Install/View/Install/index.ctp:11
 msgid "Your tmp directory is NOT writable."
-msgstr ""
+msgstr "你的tmp目录不可写"
 
 #: Plugin/Install/View/Install/index.ctp:16
 msgid "Your config directory is writable."
-msgstr ""
+msgstr "你的配置目录可写"
 
 #: Plugin/Install/View/Install/index.ctp:19
 msgid "Your config directory is NOT writable."
-msgstr ""
+msgstr "你的配置目录不可写"
 
 #: Plugin/Install/View/Install/index.ctp:25
 msgid "PHP version %s >= %s"
-msgstr ""
+msgstr "PHP 版本 %s >= %s"
 
 #: Plugin/Install/View/Install/index.ctp:28
 msgid "PHP version %s < %s"
-msgstr ""
+msgstr "PHP 版本 %s < %s"
 
 #: Plugin/Install/View/Install/index.ctp:35
 msgid "CakePhp version %s >= %s"
-msgstr ""
+msgstr "CakePhp 版本 %s >= %s"
 
 #: Plugin/Install/View/Install/index.ctp:38
 msgid "CakePHP version %s < %s"
-msgstr ""
+msgstr "CakePHP 版本 %s < %s"
 
 #: Plugin/Install/View/Install/index.ctp:45
 msgid "Install"
-msgstr ""
+msgstr "安装"
 
 #: Plugin/Install/View/Install/index.ctp:50
 msgid "Click here to begin installation"
-msgstr ""
+msgstr "点击此处开始安装"
 
 #: Plugin/Install/View/Install/index.ctp:55
 msgid "Installation cannot continue as minimum requirements are not met."
-msgstr ""
+msgstr "未达到最小配置要求无法继续安装"
 
 #: Plugin/Install/View/Layouts/install.ctp:27
 msgid "Install Croogo"
-msgstr ""
+msgstr "安装Croogo"
 
 #: Plugin/Menus/Config/bootstrap.php:14;24
 #: Plugin/Menus/Controller/MenusController.php:50
@@ -2398,88 +2424,88 @@ msgstr ""
 #: Plugin/Menus/View/Menus/admin_form.ctp:7
 #: Plugin/Menus/View/Menus/admin_index.ctp:7
 msgid "Menus"
-msgstr ""
+msgstr "菜单"
 
 #: Plugin/Menus/Config/bootstrap.php:34
 #: Plugin/Taxonomy/Config/bootstrap.php:46
 msgid "Add new"
-msgstr ""
+msgstr "添加"
 
 #: Plugin/Menus/Controller/LinksController.php:103
 msgid "Links: %s"
-msgstr ""
+msgstr "链接: %s"
 
 #: Plugin/Menus/Controller/LinksController.php:129
 msgid "Add Link"
-msgstr ""
+msgstr "添加链接"
 
 #: Plugin/Menus/Controller/LinksController.php:140;188
 msgid "The Link has been saved"
-msgstr ""
+msgstr "链接已保存"
 
 #: Plugin/Menus/Controller/LinksController.php:152;200
 msgid "The Link could not be saved. Please, try again."
-msgstr ""
+msgstr "链接无法保存。请重试。"
 
 #: Plugin/Menus/Controller/LinksController.php:171
 msgid "Edit Link"
-msgstr ""
+msgstr "编辑链接"
 
 #: Plugin/Menus/Controller/LinksController.php:174
 msgid "Invalid Link"
-msgstr ""
+msgstr "无效的链接"
 
 #: Plugin/Menus/Controller/LinksController.php:227;235;268;303
 msgid "Invalid id for Link"
-msgstr ""
+msgstr "无效的链接id"
 
 #: Plugin/Menus/Controller/LinksController.php:247
 msgid "Link deleted"
-msgstr ""
+msgstr "链接已删除"
 
 #: Plugin/Menus/Controller/LinksController.php:364
 msgid "Links deleted."
-msgstr ""
+msgstr "多条链接已删除"
 
 #: Plugin/Menus/Controller/LinksController.php:367
 msgid "Links published"
-msgstr ""
+msgstr "链接已发布"
 
 #: Plugin/Menus/Controller/LinksController.php:370
 msgid "Links unpublished"
-msgstr ""
+msgstr "链接未发布"
 
 #: Plugin/Menus/Controller/MenusController.php:64
 msgid "Add Menu"
-msgstr ""
+msgstr "添加菜单"
 
 #: Plugin/Menus/Controller/MenusController.php:69;93
 msgid "The Menu has been saved"
-msgstr ""
+msgstr "菜单已保存"
 
 #: Plugin/Menus/Controller/MenusController.php:72;96
 msgid "The Menu could not be saved. Please, try again."
-msgstr ""
+msgstr "菜单无法保存。请重试。"
 
 #: Plugin/Menus/Controller/MenusController.php:85
 msgid "Edit Menu"
-msgstr ""
+msgstr "编辑菜单"
 
 #: Plugin/Menus/Controller/MenusController.php:88
 msgid "Invalid Menu"
-msgstr ""
+msgstr "无效的菜单"
 
 #: Plugin/Menus/Controller/MenusController.php:113
 msgid "Invalid id for Menu"
-msgstr ""
+msgstr "无效的菜单id"
 
 #: Plugin/Menus/Controller/MenusController.php:117
 msgid "Menu deleted"
-msgstr ""
+msgstr "菜单已删除"
 
 #: Plugin/Menus/View/Links/admin_form.ctp:41;67
 msgid "Link"
-msgstr ""
+msgstr "链接"
 
 #: Plugin/Menus/View/Links/admin_form.ctp:43
 #: Plugin/Menus/View/Menus/admin_form.ctp:26
@@ -2488,7 +2514,7 @@ msgstr ""
 
 #: Plugin/Menus/View/Links/admin_form.ctp:69
 msgid "Link to a Node"
-msgstr ""
+msgstr "作为一个节点进行链接"
 
 #: Plugin/Menus/View/Links/admin_form.ctp:104
 msgid "Rel"
@@ -2496,15 +2522,15 @@ msgstr ""
 
 #: Plugin/Menus/View/Links/admin_form.ctp:107
 msgid "Target"
-msgstr ""
+msgstr "目标"
 
 #: Plugin/Menus/View/Links/admin_index.ctp:75
 msgid "Delete this item"
-msgstr ""
+msgstr "删除这已项"
 
 #: Plugin/Menus/View/Menus/admin_form.ctp:25
 msgid "Menu"
-msgstr ""
+msgstr "菜单"
 
 #: Plugin/Menus/View/Menus/admin_index.ctp:18
 msgid "Link Count"
@@ -2512,7 +2538,7 @@ msgstr ""
 
 #: Plugin/Menus/View/Menus/admin_index.ctp:33
 msgid "View links"
-msgstr ""
+msgstr "查看链接"
 
 #: Plugin/Meta/Controller/Component/MetaComponent.php:45
 msgid "Custom Fields"
@@ -2520,83 +2546,87 @@ msgstr ""
 
 #: Plugin/Meta/View/Elements/admin/meta_tab.ctp:19
 msgid "Add another field"
-msgstr ""
+msgstr "添加另一个域"
 
 #: Plugin/Meta/View/Helper/MetaHelper.php:70
 #: Plugin/Settings/View/Settings/admin_form.ctp:43
 #: Plugin/Settings/View/Settings/admin_index.ctp:21
 #: Plugin/Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
-msgstr ""
+msgstr "Key"
 
 #: Plugin/Meta/View/Helper/MetaHelper.php:75
 #: Plugin/Settings/View/Settings/admin_form.ctp:46
 #: Plugin/Settings/View/Settings/admin_index.ctp:22
 #: Plugin/Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
-msgstr ""
+msgstr "Value"
 
 #: Plugin/Meta/View/Helper/MetaHelper.php:105
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: Plugin/Nodes/Config/bootstrap.php:49
 #: Plugin/Taxonomy/Config/bootstrap.php:36
 msgid "List"
-msgstr ""
+msgstr "列表"
 
 #: Plugin/Nodes/Controller/NodesController.php:140
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:13
 msgid "Create content"
-msgstr ""
+msgstr "创建内容"
 
 #: Plugin/Nodes/Controller/NodesController.php:160
 msgid "Content type does not exist."
-msgstr ""
+msgstr "内容类型不村爱"
 
 #: Plugin/Nodes/Controller/NodesController.php:171;210
 msgid "%s has been saved"
-msgstr ""
+msgstr "%s 已保存"
 
 #: Plugin/Nodes/Controller/NodesController.php:174;213
 msgid "%s could not be saved. Please, try again."
-msgstr ""
+msgstr "%s 无法保存。请重试。"
 
 #: Plugin/Nodes/Controller/NodesController.php:179
 msgid "Create content: %s"
-msgstr ""
+msgstr "创建内容：%s "
 
 #: Plugin/Nodes/Controller/NodesController.php:222
 msgid "Edit %s: %s"
-msgstr ""
+msgstr "编辑 %s: %s"
 
 #: Plugin/Nodes/Controller/NodesController.php:234
 msgid "Paths updated."
-msgstr ""
+msgstr "路径已更新"
 
 #: Plugin/Nodes/Controller/NodesController.php:237
-msgid "Something went wrong while updating paths.\nPlease try again"
+msgid ""
+"Something went wrong while updating paths.\n"
+"Please try again"
 msgstr ""
+"更新路径时出错\n"
+"请重试"
 
 #: Plugin/Nodes/Controller/NodesController.php:254
 msgid "Invalid id for Node"
-msgstr ""
+msgstr "无效的节点id"
 
 #: Plugin/Nodes/Controller/NodesController.php:258
 msgid "Node deleted"
-msgstr ""
+msgstr "节点已删除"
 
 #: Plugin/Nodes/Controller/NodesController.php:319
 msgid "Nodes deleted"
-msgstr ""
+msgstr "多个节点已删除"
 
 #: Plugin/Nodes/Controller/NodesController.php:322
 msgid "Nodes published"
-msgstr ""
+msgstr "节点已发布"
 
 #: Plugin/Nodes/Controller/NodesController.php:325
 msgid "Nodes unpublished"
-msgstr ""
+msgstr "节点未发布"
 
 #: Plugin/Nodes/Controller/NodesController.php:328
 msgid "Nodes promoted"
@@ -2608,23 +2638,23 @@ msgstr ""
 
 #: Plugin/Nodes/Controller/NodesController.php:382;474;533;615
 msgid "Invalid content type."
-msgstr ""
+msgstr "无效的内容类型"
 
 #: Plugin/Nodes/Controller/NodesController.php:437
 msgid "Invalid Term."
-msgstr ""
+msgstr "无效的术语"
 
 #: Plugin/Nodes/Controller/NodesController.php:520
 msgid "Nodes"
-msgstr ""
+msgstr "节点"
 
 #: Plugin/Nodes/Controller/NodesController.php:625
 msgid "Search Results: %s"
-msgstr ""
+msgstr "搜索结果: %s"
 
 #: Plugin/Nodes/Model/Node.php:393
 msgid "Invalid action to perform"
-msgstr ""
+msgstr "无效的动作"
 
 #: Plugin/Nodes/Model/Node.php:397
 msgid "No target to process action upon"
@@ -2632,7 +2662,7 @@ msgstr ""
 
 #: Plugin/Nodes/Model/Node.php:428
 msgid "Invalid Content Type"
-msgstr ""
+msgstr "无效的内容类型"
 
 #: Plugin/Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
@@ -2648,16 +2678,16 @@ msgstr ""
 
 #: Plugin/Nodes/View/Elements/node_more_info.ctp:29
 msgid "Leave a comment"
-msgstr ""
+msgstr "写评论"
 
 #: Plugin/Nodes/View/Elements/search.ctp:12
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:24
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:25
 msgid "Search..."
-msgstr ""
+msgstr "搜索..."
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:32
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:40
@@ -2665,19 +2695,19 @@ msgstr ""
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:25
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:39
 msgid "Unpublished"
-msgstr ""
+msgstr "未发布"
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:47
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:48
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:50
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:46
@@ -2692,7 +2722,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:55
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:42
 msgid "Slug"
-msgstr ""
+msgstr "Slug"
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:53
 msgid "Excerpt"
@@ -2700,16 +2730,16 @@ msgstr ""
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:82
 msgid "Promoted to front page"
-msgstr ""
+msgstr "置顶"
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:86
 msgid "Publish as "
-msgstr ""
+msgstr "发布为"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:41
 #: Plugin/Users/View/Users/admin_form.ctp:35
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:68
 msgid "promoted"
@@ -2734,19 +2764,17 @@ msgstr ""
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:8
 #: Plugin/Translate/View/Translate/admin_index.ctp:15
 msgid "Translate in a new language"
-msgstr ""
+msgstr "翻译为新语言"
 
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:49
 #: Plugin/Translate/View/Translate/admin_index.ctp:79
 msgid "No translations available."
-msgstr ""
+msgstr "无可用翻译"
 
-#: Plugin/Nodes/View/Nodes/index.ctp:4
-#: Plugin/Nodes/View/Nodes/promoted.ctp:4
-#: Plugin/Nodes/View/Nodes/search.ctp:6
-#: Plugin/Nodes/View/Nodes/term.ctp:6
+#: Plugin/Nodes/View/Nodes/index.ctp:4 Plugin/Nodes/View/Nodes/promoted.ctp:4
+#: Plugin/Nodes/View/Nodes/search.ctp:6 Plugin/Nodes/View/Nodes/term.ctp:6
 msgid "No items found."
-msgstr ""
+msgstr "没找到项目"
 
 #: Plugin/Settings/Config/bootstrap.php:12
 #: Plugin/Settings/Controller/SettingsController.php:60
@@ -2757,11 +2785,11 @@ msgstr ""
 #: Plugin/Settings/View/Settings/admin_index.ctp:7
 #: Plugin/Settings/View/Settings/admin_prefix.ctp:4
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: Plugin/Settings/Config/bootstrap.php:23
 msgid "Site"
-msgstr ""
+msgstr "站点"
 
 #: Plugin/Settings/Config/bootstrap.php:35
 msgid "Meta"
@@ -2769,26 +2797,26 @@ msgstr ""
 
 #: Plugin/Settings/Config/bootstrap.php:47
 msgid "Reading"
-msgstr ""
+msgstr "正在读"
 
 #: Plugin/Settings/Config/bootstrap.php:59
 msgid "Writing"
-msgstr ""
+msgstr "正在写"
 
 #: Plugin/Settings/Config/bootstrap.php:83
 msgid "Service"
-msgstr ""
+msgstr "服务"
 
 #: Plugin/Settings/Config/bootstrap.php:95
 #: Plugin/Settings/Controller/LanguagesController.php:42
 #: Plugin/Settings/View/Languages/admin_index.ctp:7
 #: Plugin/Settings/View/Languages/admin_select.ctp:6
 msgid "Languages"
-msgstr ""
+msgstr "语言"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:33
 msgid "Displays setting values"
-msgstr ""
+msgstr "显示设定值"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:37;55;93
 msgid "Setting key"
@@ -2796,7 +2824,7 @@ msgstr ""
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:43
 msgid "List all settings"
-msgstr ""
+msgstr "列出所有设置"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:51
 msgid "Write setting value for a given key"
@@ -2804,11 +2832,11 @@ msgstr ""
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:59
 msgid "Setting value"
-msgstr ""
+msgstr "设定值"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:89
 msgid "Delete setting based on key"
-msgstr ""
+msgstr "基于key删除设置"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:100
 msgid "Update version string from git tag information"
@@ -2816,11 +2844,11 @@ msgstr ""
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:129
 msgid "    %-30s: %s"
-msgstr ""
+msgstr "    %-30s: %s"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:150
 msgid "Updating %s"
-msgstr ""
+msgstr "正在更新 %s"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:151
 msgid "Confirm update"
@@ -2828,98 +2856,98 @@ msgstr ""
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:166
 msgid "Setting updated"
-msgstr ""
+msgstr "设置已更新"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:168;196
 msgid "Cancelled"
-msgstr ""
+msgstr "已取消"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:171;199
 msgid "Key: %s not found"
-msgstr ""
+msgstr "Key: %s 未找到"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:189
 msgid "Deleting %s"
-msgstr ""
+msgstr "正在删除 %s"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:190
 msgid "Delete?"
-msgstr ""
+msgstr "删除？"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:194
 #: Plugin/Settings/Controller/SettingsController.php:145
 msgid "Setting deleted"
-msgstr ""
+msgstr "设置已删除"
 
 #: Plugin/Settings/Controller/LanguagesController.php:56
 msgid "Add Language"
-msgstr ""
+msgstr "添加语言"
 
 #: Plugin/Settings/Controller/LanguagesController.php:61;85
 msgid "The Language has been saved"
-msgstr ""
+msgstr "语言已保存"
 
 #: Plugin/Settings/Controller/LanguagesController.php:64;88
 msgid "The Language could not be saved. Please, try again."
-msgstr ""
+msgstr "语言无法保存。请重试。"
 
 #: Plugin/Settings/Controller/LanguagesController.php:77
 msgid "Edit Language"
-msgstr ""
+msgstr "编辑语言"
 
 #: Plugin/Settings/Controller/LanguagesController.php:80
 #: Plugin/Translate/Controller/TranslateController.php:128
 msgid "Invalid Language"
-msgstr ""
+msgstr "无效的语言"
 
 #: Plugin/Settings/Controller/LanguagesController.php:105
 msgid "Invalid id for Language"
-msgstr ""
+msgstr "无效的语言id"
 
 #: Plugin/Settings/Controller/LanguagesController.php:109
 msgid "Language deleted"
-msgstr ""
+msgstr "语言已删除"
 
 #: Plugin/Settings/Controller/LanguagesController.php:164
 msgid "Select a language"
-msgstr ""
+msgstr "选择一种语言"
 
 #: Plugin/Settings/Controller/SettingsController.php:79
 msgid "Invalid Setting."
-msgstr ""
+msgstr "无效的设置"
 
 #: Plugin/Settings/Controller/SettingsController.php:92
 msgid "Add Setting"
-msgstr ""
+msgstr "添加设置"
 
 #: Plugin/Settings/Controller/SettingsController.php:97;121
 msgid "The Setting has been saved"
-msgstr ""
+msgstr "设置已保存"
 
 #: Plugin/Settings/Controller/SettingsController.php:100;124
 msgid "The Setting could not be saved. Please, try again."
-msgstr ""
+msgstr "设置无法保存。请重试。"
 
 #: Plugin/Settings/Controller/SettingsController.php:113
 #: Plugin/Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
-msgstr ""
+msgstr "编辑设置"
 
 #: Plugin/Settings/Controller/SettingsController.php:116
 msgid "Invalid Setting"
-msgstr ""
+msgstr "无效的设置"
 
 #: Plugin/Settings/Controller/SettingsController.php:141
 msgid "Invalid id for Setting"
-msgstr ""
+msgstr "无效的设置id"
 
 #: Plugin/Settings/Controller/SettingsController.php:158
 msgid "Settings: %s"
-msgstr ""
+msgstr "设置： %s "
 
 #: Plugin/Settings/Controller/SettingsController.php:162
 msgid "Settings updated successfully"
-msgstr ""
+msgstr "设置已成功更新"
 
 #: Plugin/Settings/Controller/SettingsController.php:176
 msgid "Invalid Setting key"
@@ -2927,20 +2955,20 @@ msgstr ""
 
 #: Plugin/Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
 msgid "Could not add a new language."
-msgstr ""
+msgstr "无法添加新语言"
 
 #: Plugin/Settings/View/Languages/admin_form.ctp:8;25
 msgid "Language"
-msgstr ""
+msgstr "语言"
 
 #: Plugin/Settings/View/Languages/admin_form.ctp:41
 #: Plugin/Settings/View/Languages/admin_index.ctp:17
 msgid "Native"
-msgstr ""
+msgstr "本地"
 
 #: Plugin/Settings/View/Languages/admin_select.ctp:16
 msgid "New Language"
-msgstr ""
+msgstr "新语言"
 
 #: Plugin/Settings/View/Settings/admin_form.ctp:29
 msgid "Misc"
@@ -2948,126 +2976,126 @@ msgstr ""
 
 #: Plugin/Settings/View/Settings/admin_form.ctp:42
 msgid "e.g., 'Site.title'"
-msgstr ""
+msgstr "e.g., 'Site.title'"
 
 #: Plugin/Settings/View/Settings/admin_form.ctp:60
 #: Plugin/Settings/View/Settings/admin_view.ctp:24
 msgid "Input Type"
-msgstr ""
+msgstr "输入类型"
 
 #: Plugin/Settings/View/Settings/admin_form.ctp:61
 msgid "e.g., 'text' or 'textarea'"
-msgstr ""
+msgstr "e.g., 'text' or 'textarea'"
 
 #: Plugin/Settings/View/Settings/admin_form.ctp:64
 #: Plugin/Settings/View/Settings/admin_index.ctp:23
 msgid "Editable"
-msgstr ""
+msgstr "可编辑"
 
 #: Plugin/Settings/View/Settings/admin_view.ctp:2
 msgid "Setting"
-msgstr ""
+msgstr "设置"
 
 #: Plugin/Settings/View/Settings/admin_view.ctp:29
 msgid "Weight"
-msgstr ""
+msgstr "权重"
 
 #: Plugin/Settings/View/Settings/admin_view.ctp:44
 msgid "Delete Setting"
-msgstr ""
+msgstr "删除设置"
 
 #: Plugin/Settings/View/Settings/admin_view.ctp:44
 msgid "Are you sure you want to delete # %s?"
-msgstr ""
+msgstr "你确定要删除# %s?"
 
 #: Plugin/Settings/View/Settings/admin_view.ctp:45
 msgid "List Settings"
-msgstr ""
+msgstr "列出设置"
 
 #: Plugin/Settings/View/Settings/admin_view.ctp:46
 msgid "New Setting"
-msgstr ""
+msgstr "新设置"
 
 #: Plugin/Taxonomy/Config/bootstrap.php:15
 msgid "Content Types"
-msgstr ""
+msgstr "内容类型"
 
 #: Plugin/Taxonomy/Config/bootstrap.php:26
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:26
 msgid "Taxonomy"
-msgstr ""
+msgstr "分类"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:66
 msgid "Invalid Vocabulary ID."
-msgstr ""
+msgstr "无效的词汇表id"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:72
 msgid "Vocabulary: %s"
-msgstr ""
+msgstr "词汇表： %s"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:112
 msgid "%s: Add Term"
-msgstr ""
+msgstr " %s: 添加术语"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:122;226
 msgid "Term with same slug already exists in the vocabulary."
-msgstr ""
+msgstr "词汇表里已有该术语"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:135;240
 msgid "Term saved successfuly."
-msgstr ""
+msgstr "术语保存成功"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:141;246
 msgid "Term could not be added to the vocabulary. Please try again."
-msgstr ""
+msgstr "术语无法加入词汇表。请重试。"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:145;250
 msgid "Term could not be saved. Please try again."
-msgstr ""
+msgstr "术语无法保存。请重试。"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:201
 msgid "%s: Edit Term"
-msgstr ""
+msgstr "%s: 编辑术语"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:270;310;351
 msgid "Invalid id for Term"
-msgstr ""
+msgstr "无效的术语id"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:289
 msgid "Term deleted"
-msgstr ""
+msgstr "术语已删除"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:291
 msgid "Term could not be deleted. Please, try again."
-msgstr ""
+msgstr "术语无法删除。请重试。"
 
 #: Plugin/Taxonomy/Controller/TypesController.php:70
 msgid "Add Type"
-msgstr ""
+msgstr "添加类型"
 
 #: Plugin/Taxonomy/Controller/TypesController.php:75;102
 msgid "The Type has been saved"
-msgstr ""
+msgstr "类型已保存"
 
 #: Plugin/Taxonomy/Controller/TypesController.php:78;105
 msgid "The Type could not be saved. Please, try again."
-msgstr ""
+msgstr "类型无法保存。请重试。"
 
 #: Plugin/Taxonomy/Controller/TypesController.php:94
 msgid "Edit Type"
-msgstr ""
+msgstr "编辑类型"
 
 #: Plugin/Taxonomy/Controller/TypesController.php:97
 msgid "Invalid Type"
-msgstr ""
+msgstr "无效的类型"
 
 #: Plugin/Taxonomy/Controller/TypesController.php:125
 msgid "Invalid id for Type"
-msgstr ""
+msgstr "无效的类型id"
 
 #: Plugin/Taxonomy/Controller/TypesController.php:129
 msgid "Type deleted"
-msgstr ""
+msgstr "类型已删除"
 
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:42
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:12;19
@@ -3075,124 +3103,124 @@ msgstr ""
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:11;17
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:8
 msgid "Vocabularies"
-msgstr ""
+msgstr "词汇表"
 
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:56
 msgid "Add Vocabulary"
-msgstr ""
+msgstr "添加词汇表"
 
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:61;88
 msgid "The Vocabulary has been saved"
-msgstr ""
+msgstr "词汇表已保存"
 
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:64;91
 msgid "The Vocabulary could not be saved. Please, try again."
-msgstr ""
+msgstr "词汇表无法保存。请重试。"
 
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:80
 msgid "Edit Vocabulary"
-msgstr ""
+msgstr "编辑词汇表"
 
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:83
 msgid "Invalid Vocabulary"
-msgstr ""
+msgstr "无效的词汇表"
 
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:111
 msgid "Invalid id for Vocabulary"
-msgstr ""
+msgstr "无效的词汇表id"
 
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:115
 msgid "Vocabulary deleted"
-msgstr ""
+msgstr "词汇表已删除"
 
 #: Plugin/Taxonomy/View/Helper/TaxonomiesHelper.php:105
 msgid "Terms"
-msgstr ""
+msgstr "术语"
 
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:34
 msgid "Term"
-msgstr ""
+msgstr "术语"
 
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:15
 msgid "New Term"
-msgstr ""
+msgstr "新术语"
 
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:7
 #: Plugin/Taxonomy/View/Types/admin_index.ctp:5
 msgid "Types"
-msgstr ""
+msgstr "类型"
 
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:118
 msgid "Show author's name"
-msgstr ""
+msgstr "显示作者名字"
 
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:122
 msgid "Show date"
-msgstr ""
+msgstr "显示日期"
 
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:29
 msgid "Vocabulary"
-msgstr ""
+msgstr "词汇表"
 
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:30
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:63
 msgid "Required"
-msgstr ""
+msgstr "已请求"
 
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:67
 msgid "Multiple"
-msgstr ""
+msgstr "多个"
 
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:71
 msgid "Tags"
-msgstr ""
+msgstr "标签"
 
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:30
 msgid "View terms"
-msgstr ""
+msgstr "查看术语"
 
 #: Plugin/Translate/Controller/TranslateController.php:47;101
 msgid "Invalid ID."
-msgstr ""
+msgstr "无效的ID"
 
 #: Plugin/Translate/Controller/TranslateController.php:59;191
 msgid "Invalid model."
-msgstr ""
+msgstr "无效的模型"
 
 #: Plugin/Translate/Controller/TranslateController.php:70;139;202
 msgid "Invalid record."
-msgstr ""
+msgstr "无效的记录"
 
 #: Plugin/Translate/Controller/TranslateController.php:77
 msgid "Translations: %s"
-msgstr ""
+msgstr "翻译：%s"
 
 #: Plugin/Translate/Controller/TranslateController.php:146
 msgid "Translate content: %s (%s)"
-msgstr ""
+msgstr "翻译内容: %s (%s)"
 
 #: Plugin/Translate/Controller/TranslateController.php:153
 msgid "Record has been translated"
-msgstr ""
+msgstr "记录已翻译"
 
 #: Plugin/Translate/Controller/TranslateController.php:160
 msgid "Record could not be translated. Please, try again."
-msgstr ""
+msgstr "记录无法翻译。请重试。"
 
 #: Plugin/Translate/Controller/TranslateController.php:179
 msgid "Invalid Locale or ID"
-msgstr ""
+msgstr "无效的本地化或ID"
 
 #: Plugin/Translate/Controller/TranslateController.php:217
 msgid "Translation for the locale deleted successfully."
-msgstr ""
+msgstr "本地化的翻译已成功删除"
 
 #: Plugin/Translate/Controller/TranslateController.php:219
 msgid "Translation for the locale could not be deleted."
-msgstr ""
+msgstr "本地化的翻译无法删除"
 
 #: Plugin/Translate/Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
@@ -3201,311 +3229,315 @@ msgstr ""
 #: Plugin/Translate/View/Translate/admin_edit.ctp:7;24
 #: Plugin/Translate/View/Translate/admin_index.ctp:7
 msgid "Translate"
-msgstr ""
+msgstr "翻译"
 
 #: Plugin/Users/Config/bootstrap.php:42
 #: Plugin/Users/Controller/RolesController.php:42
 #: Plugin/Users/View/Roles/admin_form.ctp:6
 #: Plugin/Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
-msgstr ""
+msgstr "角色"
 
 #: Plugin/Users/Console/Command/UsersShell.php:20
 msgid "Reset user password"
-msgstr ""
+msgstr "重设密码"
 
 #: Plugin/Users/Console/Command/UsersShell.php:25
 msgid "Username to reset"
-msgstr ""
+msgstr "需重设的用户名"
 
 #: Plugin/Users/Console/Command/UsersShell.php:29
 msgid "New user password"
-msgstr ""
+msgstr "新用户名"
 
 #: Plugin/Users/Console/Command/UsersShell.php:45
 msgid "User '%s' not found"
-msgstr ""
+msgstr " '%s' 用户未找到"
 
 #: Plugin/Users/Console/Command/UsersShell.php:50
 msgid "Password for '%s' has been changed"
-msgstr ""
+msgstr " '%s' 的密码已修改"
 
 #: Plugin/Users/Controller/RolesController.php:57
 msgid "Add Role"
-msgstr ""
+msgstr "添加角色"
 
 #: Plugin/Users/Controller/RolesController.php:62;86
 msgid "The Role has been saved"
-msgstr ""
+msgstr "角色已保存"
 
 #: Plugin/Users/Controller/RolesController.php:65;89
 msgid "The Role could not be saved. Please, try again."
-msgstr ""
+msgstr "角色无法保存。请重试。"
 
 #: Plugin/Users/Controller/RolesController.php:78
 msgid "Edit Role"
-msgstr ""
+msgstr "编辑角色"
 
 #: Plugin/Users/Controller/RolesController.php:81
 msgid "Invalid Role"
-msgstr ""
+msgstr "无效的角色"
 
 #: Plugin/Users/Controller/RolesController.php:106
 msgid "Invalid id for Role"
-msgstr ""
+msgstr "无效的角色id"
 
 #: Plugin/Users/Controller/RolesController.php:110
 msgid "Role deleted"
-msgstr ""
+msgstr "角色已删除"
 
 #: Plugin/Users/Controller/UsersController.php:79
-msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
-msgstr ""
+msgid ""
+"You have reached maximum limit for failed login attempts. Please try again "
+"after a few minutes."
+msgstr "已达到登陆失败次数的上限。请稍后重试。"
 
 #: Plugin/Users/Controller/UsersController.php:138;161
 msgid "The User has been saved"
-msgstr ""
+msgstr "用户已保存"
 
 #: Plugin/Users/Controller/UsersController.php:141;164;333
 msgid "The User could not be saved. Please, try again."
-msgstr ""
+msgstr "用户无法保存。请重试。"
 
 #: Plugin/Users/Controller/UsersController.php:183
 msgid "Invalid User"
-msgstr ""
+msgstr "无效的用户"
 
 #: Plugin/Users/Controller/UsersController.php:188
 msgid "Password has been reset."
-msgstr ""
+msgstr "密码已重设"
 
 #: Plugin/Users/Controller/UsersController.php:191
 msgid "Password could not be reset. Please, try again."
-msgstr ""
+msgstr "密码无法重设。请重试。"
 
 #: Plugin/Users/Controller/UsersController.php:208
 msgid "Invalid id for User"
-msgstr ""
+msgstr "无效的用户id"
 
 #: Plugin/Users/Controller/UsersController.php:212
 msgid "User deleted"
-msgstr ""
+msgstr "用户已删除"
 
 #: Plugin/Users/Controller/UsersController.php:215
 msgid "User cannot be deleted"
-msgstr ""
+msgstr "用户无法删除"
 
 #: Plugin/Users/Controller/UsersController.php:227
 msgid "Admin Login"
-msgstr ""
+msgstr "管理员登陆"
 
 #: Plugin/Users/Controller/UsersController.php:236
 msgid "Incorrect username or password"
-msgstr ""
+msgstr "用户名或密码错误"
 
 #: Plugin/Users/Controller/UsersController.php:251;492
 msgid "Log out successful."
-msgstr ""
+msgstr "成功推出"
 
 #: Plugin/Users/Controller/UsersController.php:306
 msgid "Register"
-msgstr ""
+msgstr "注册"
 
 #: Plugin/Users/Controller/UsersController.php:322
 msgid "[%s] Please activate your account"
-msgstr ""
+msgstr "[%s] 请激活您的账户"
 
 #: Plugin/Users/Controller/UsersController.php:329
-msgid "You have successfully registered an account. An email has been sent with further instructions."
-msgstr ""
+msgid ""
+"You have successfully registered an account. An email has been sent with "
+"further instructions."
+msgstr "您已成功注册一个账户。一封包含更多指令的邮件已发送。"
 
 #: Plugin/Users/Controller/UsersController.php:361
 msgid "Account activated successfully."
-msgstr ""
+msgstr "账户激活成功"
 
 #: Plugin/Users/Controller/UsersController.php:386
 msgid "Forgot Password"
-msgstr ""
+msgstr "忘记密码"
 
 #: Plugin/Users/Controller/UsersController.php:391
 msgid "Invalid username."
-msgstr ""
+msgstr "无效的用户名"
 
 #: Plugin/Users/Controller/UsersController.php:403
 msgid "[%s] Reset Password"
-msgstr ""
+msgstr "[%s] 重置密码"
 
 #: Plugin/Users/Controller/UsersController.php:411
 msgid "An email has been sent with instructions for resetting your password."
-msgstr ""
+msgstr "一封重置密码说明的邮件已发送"
 
 #: Plugin/Users/Controller/UsersController.php:414;456
 msgid "An error occurred. Please try again."
-msgstr ""
+msgstr "发生一个错误。请重试。"
 
 #: Plugin/Users/Controller/UsersController.php:428
 #: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
 msgid "Reset Password"
-msgstr ""
+msgstr "重置密码"
 
 #: Plugin/Users/Controller/UsersController.php:453
 msgid "Your password has been reset successfully."
-msgstr ""
+msgstr "您的密码已成功重置"
 
 #: Plugin/Users/Controller/UsersController.php:470
 msgid "Log in"
-msgstr ""
+msgstr "登陆"
 
 #: Plugin/Users/Controller/UsersController.php:510
 msgid "Invalid User."
-msgstr ""
+msgstr "无效的用户"
 
 #: Plugin/Users/Model/User.php:222
 msgid "Passwords do not match. Please, try again."
-msgstr ""
+msgstr "密码错误。请重试。"
 
 #: Plugin/Users/View/Emails/text/forgot_password.ctp:1
 #: Plugin/Users/View/Emails/text/register.ctp:1
 msgid "Hello %s"
-msgstr ""
+msgstr "%s 你好"
 
 #: Plugin/Users/View/Emails/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
-msgstr ""
+msgstr "请访问该链接重置您的密码: %s"
 
 #: Plugin/Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
-msgstr ""
+msgstr "如果您未申请重置密码，请忽略该邮件。"
 
 #: Plugin/Users/View/Emails/text/register.ctp:10
 msgid "Please visit this link to activate your account: %s"
-msgstr ""
+msgstr "请访问该链接以激活您的账户: %s"
 
 #: Plugin/Users/View/Roles/admin_form.ctp:23
 #: Plugin/Users/View/Users/admin_form.ctp:45
 msgid "Role"
-msgstr ""
+msgstr "角色"
 
 #: Plugin/Users/View/Users/admin_form.ctp:23
 #: Plugin/Users/View/Users/admin_reset_password.ctp:1
 msgid "Reset password"
-msgstr ""
+msgstr "重置密码"
 
 #: Plugin/Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
-msgstr ""
+msgstr "记住我？"
 
 #: Plugin/Users/View/Users/admin_login.ctp:27
 msgid "Log In"
-msgstr ""
+msgstr "登陆"
 
 #: Plugin/Users/View/Users/admin_login.ctp:28
 msgid "Forgot password?"
-msgstr ""
+msgstr "忘记密码？"
 
 #: Plugin/Users/View/Users/admin_reset_password.ctp:36
 msgid "Reset"
-msgstr ""
+msgstr "重置"
 
 #: Plugin/Users/View/Users/index.ctp:4
 msgid "You are currently logged in as:"
-msgstr ""
+msgstr "欢迎您："
 
 #: Plugin/Users/View/Users/reset.ctp:6
 msgid "New password"
-msgstr ""
+msgstr "新密码"
 
 #: Plugin/Blocks/Model/Block.php:validation for field title
-#: Plugin/Blocks/Model/Region.php:validation for field title
-#: Plugin/Menus/Model/Link.php:validation for field title
-#: Plugin/Menus/Model/Menu.php:validation for field title
-#: Plugin/Settings/Model/Language.php:validation for field title
-#: Plugin/Taxonomy/Model/Type.php:validation for field title
-#: Plugin/Taxonomy/Model/Vocabulary.php:validation for field title
+#: Plugin/Blocks/Model/Region.php:validation
+#: Plugin/Menus/Model/Link.php:validation
+#: Plugin/Menus/Model/Menu.php:validation
+#: Plugin/Settings/Model/Language.php:validation
+#: Plugin/Taxonomy/Model/Type.php:validation
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation
 msgid "Title cannot be empty."
-msgstr ""
+msgstr "标题不能为空"
 
 #: Plugin/Blocks/Model/Block.php:validation for field alias
-#: Plugin/Blocks/Model/Region.php:validation for field alias
-#: Plugin/Contacts/Model/Contact.php:validation for field alias
-#: Plugin/Menus/Model/Menu.php:validation for field alias
-#: Plugin/Settings/Model/Language.php:validation for field alias
-#: Plugin/Taxonomy/Model/Type.php:validation for field alias
-#: Plugin/Taxonomy/Model/Vocabulary.php:validation for field alias
-#: Plugin/Users/Model/Role.php:validation for field alias
+#: Plugin/Blocks/Model/Region.php:validation
+#: Plugin/Contacts/Model/Contact.php:validation
+#: Plugin/Menus/Model/Menu.php:validation
+#: Plugin/Settings/Model/Language.php:validation
+#: Plugin/Taxonomy/Model/Type.php:validation
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation
+#: Plugin/Users/Model/Role.php:validation
 msgid "This alias has already been taken."
-msgstr ""
+msgstr "这个昵称已被占用"
 
 #: Plugin/Blocks/Model/Block.php:validation for field alias
-#: Plugin/Blocks/Model/Region.php:validation for field alias
-#: Plugin/Contacts/Model/Contact.php:validation for field alias
-#: Plugin/Menus/Model/Menu.php:validation for field alias
-#: Plugin/Settings/Model/Language.php:validation for field alias
-#: Plugin/Taxonomy/Model/Type.php:validation for field alias
-#: Plugin/Taxonomy/Model/Vocabulary.php:validation for field alias
-#: Plugin/Users/Model/Role.php:validation for field title;validation for field alias
+#: Plugin/Blocks/Model/Region.php:validation
+#: Plugin/Contacts/Model/Contact.php:validation
+#: Plugin/Menus/Model/Menu.php:validation
+#: Plugin/Settings/Model/Language.php:validation
+#: Plugin/Taxonomy/Model/Type.php:validation
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation
+#: Plugin/Users/Model/Role.php:validation title;validation
 msgid "Alias cannot be empty."
-msgstr ""
+msgstr "昵称不能为空"
 
-#: Plugin/Comments/Model/Comment.php:validation for field body;validation for field name
-#: Plugin/Contacts/Model/Contact.php:validation for field title
-#: Plugin/Contacts/Model/Message.php:validation for field name;validation for field title;validation for field body
-#: Plugin/FileManager/Model/Attachment.php:validation for field title
-#: Plugin/Nodes/Model/Node.php:validation for field title
-#: Plugin/Users/Model/User.php:validation for field username;validation for field name
+#: Plugin/Comments/Model/Comment.php:validation for field body;validation name
+#: Plugin/Contacts/Model/Contact.php:validation title
+#: Plugin/Contacts/Model/Message.php:validation name;validation
+#: title;validation body Plugin/FileManager/Model/Attachment.php:validation
+#: Plugin/Nodes/Model/Node.php:validation
+#: Plugin/Users/Model/User.php:validation username;validation
 msgid "This field cannot be left blank."
-msgstr ""
+msgstr "这个域不能为空"
 
 #: Plugin/Comments/Model/Comment.php:validation for field email
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "请输入一个有效的邮箱地址"
 
 #: Plugin/Contacts/Model/Contact.php:validation for field email
-#: Plugin/Contacts/Model/Message.php:validation for field email
-#: Plugin/Users/Model/User.php:validation for field email
+#: Plugin/Contacts/Model/Message.php:validation
+#: Plugin/Users/Model/User.php:validation
 msgid "Please provide a valid email address."
-msgstr ""
+msgstr "请提供一个有效的邮箱地址"
 
 #: Plugin/FileManager/Model/Attachment.php:validation for field slug
-#: Plugin/Nodes/Model/Node.php:validation for field slug
-#: Plugin/Taxonomy/Model/Term.php:validation for field slug
+#: Plugin/Nodes/Model/Node.php:validation
+#: Plugin/Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
-msgstr ""
+msgstr "这个slug已被占用"
 
 #: Plugin/FileManager/Model/Attachment.php:validation for field slug
-#: Plugin/Nodes/Model/Node.php:validation for field slug
-#: Plugin/Taxonomy/Model/Term.php:validation for field slug
+#: Plugin/Nodes/Model/Node.php:validation
+#: Plugin/Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
-msgstr ""
+msgstr "slug不能为空"
 
 #: Plugin/Menus/Model/Link.php:validation for field link
 msgid "Link cannot be empty."
-msgstr ""
+msgstr "链接不能未空"
 
 #: Plugin/Settings/Model/Setting.php:validation for field key
 msgid "This key has already been taken."
-msgstr ""
+msgstr "这个key已被占用"
 
 #: Plugin/Settings/Model/Setting.php:validation for field key
 msgid "Key cannot be empty."
-msgstr ""
+msgstr "key不能为空"
 
-#: Plugin/Users/Model/Role.php:validation for field title;validation for field alias
-#: Plugin/Users/Model/User.php:validation for field username;validation for field name
+#: Plugin/Users/Model/Role.php:validation for field title;validation alias
+#: Plugin/Users/Model/User.php:validation username;validation name
 msgid "This field must be alphanumeric"
-msgstr ""
+msgstr "这个域必须是字母数字的"
 
 #: Plugin/Users/Model/User.php:validation for field username
 msgid "The username has already been taken."
-msgstr ""
+msgstr "这个用户名已被占用"
 
 #: Plugin/Users/Model/User.php:validation for field email
 msgid "Email address already in use."
-msgstr ""
+msgstr "邮箱地址已使用"
 
 #: Plugin/Users/Model/User.php:validation for field password
 msgid "Passwords must be at least 6 characters long."
-msgstr ""
+msgstr "密码必须大于6位字符"
 
 #: Plugin/Users/Model/User.php:validation for field website
 msgid "This field must be a valid URL"
-msgstr ""
+msgstr "这个域必须是一个有效的URL"
