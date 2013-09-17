@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Croogo\n"
-"POT-Creation-Date: 2009-12-28 19:45+0700\n"
+"POT-Creation-Date: 2012-07-08 17:30+0700\n"
 "PO-Revision-Date: 2010-03-09 22:17-0300\n"
 "Last-Translator: Juan Basso <jrbasso@gmail.com>\n"
 "Language-Team: Juan Basso <jrbasso@gmail.com>\n"
@@ -160,7 +160,7 @@ msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
 
-#: Plugin/Acl/Controller/Component/Auth/AclCachedAuthorize.php:156
+#: Plugin/Acl/Controller/Component/Auth/AclCachedAuthorize.php:183
 msgid ""
 "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
 "\"%2$s\""
@@ -198,19 +198,19 @@ msgstr ""
 msgid "Created Aco node: <success>%s</success>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:367
+#: Plugin/Acl/Lib/AclExtras.php:373
 msgid "Deleted Aco node: <warning>%s</warning>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:386
+#: Plugin/Acl/Lib/AclExtras.php:392
 msgid "<success>Tree is valid and strong</success>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:404
+#: Plugin/Acl/Lib/AclExtras.php:410
 msgid "Tree has been recovered, or tree did not need recovery."
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:406
+#: Plugin/Acl/Lib/AclExtras.php:412
 msgid "<error>Tree recovery failed.</error>"
 msgstr ""
 
@@ -305,7 +305,7 @@ msgstr "Apelido"
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:96
 #: Plugin/Blocks/View/Regions/admin_form.ctp:59
 #: Plugin/Comments/View/Comments/admin_form.ctp:47
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:123
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:124
 #: Plugin/Contacts/View/Messages/admin_form.ctp:61
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:45
 #: Plugin/FileManager/View/Attachments/admin_add.ctp:44
@@ -341,7 +341,7 @@ msgstr "Enviar"
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:99
 #: Plugin/Blocks/View/Regions/admin_form.ctp:62
 #: Plugin/Comments/View/Comments/admin_form.ctp:50
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:127
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:128
 #: Plugin/Contacts/View/Messages/admin_form.ctp:64
 #: Plugin/Croogo/View/Common/admin_edit.ctp:84
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:48
@@ -423,7 +423,7 @@ msgstr "Id"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:106
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:7
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:38
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:63
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:59
 #: Plugin/Menus/View/Links/admin_index.ctp:58
 #: Plugin/Settings/View/Languages/admin_index.ctp:34
 #: Plugin/Settings/View/Settings/admin_index.ctp:36
@@ -435,7 +435,7 @@ msgstr "Mover para cima"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:110
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:11
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:42
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:69
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:65
 #: Plugin/Menus/View/Links/admin_index.ctp:64
 #: Plugin/Settings/View/Languages/admin_index.ctp:38
 #: Plugin/Settings/View/Settings/admin_index.ctp:40
@@ -488,7 +488,7 @@ msgstr ""
 #: Plugin/Contacts/View/Messages/admin_index.ctp:90
 #: Plugin/Croogo/View/Common/admin_index.ctp:89
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:48
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:56;64;70;78
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:105
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:38
@@ -758,7 +758,7 @@ msgstr ""
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:97
 #: Plugin/Blocks/View/Regions/admin_form.ctp:60
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:124
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:125
 #: Plugin/Menus/View/Links/admin_form.ctp:123
 #: Plugin/Menus/View/Menus/admin_form.ctp:66
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:74
@@ -768,7 +768,7 @@ msgstr ""
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:98
 #: Plugin/Blocks/View/Regions/admin_form.ctp:61
 #: Plugin/Comments/View/Comments/admin_form.ctp:48
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:125
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:126
 #: Plugin/Contacts/View/Messages/admin_form.ctp:62
 #: Plugin/Croogo/View/Common/admin_edit.ctp:83
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:51
@@ -831,7 +831,7 @@ msgstr "Remover publicação"
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:100
 #: Plugin/Comments/View/Comments/admin_index.ctp:117
 #: Plugin/Contacts/View/Messages/admin_index.ctp:128
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:55
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:51
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:99
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:59;100
@@ -855,7 +855,7 @@ msgstr "Comentários"
 #: Plugin/Comments/Config/bootstrap.php:20
 #: Plugin/Comments/View/Comments/admin_form.ctp:55
 #: Plugin/Comments/View/Comments/admin_index.ctp:16;33
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:131
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:132
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:38
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:78
 msgid "Published"
@@ -1358,7 +1358,7 @@ msgid "Plugin \"%s\" activated successfully."
 msgstr ""
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:170
-#: Plugin/Extensions/Lib/CroogoPlugin.php:507
+#: Plugin/Extensions/Lib/CroogoPlugin.php:505
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr ""
 
@@ -1524,12 +1524,12 @@ msgstr "Site em manutenção"
 msgid "Errors in CakeErrorController: %s"
 msgstr ""
 
-#: Plugin/Croogo/Controller/Component/CroogoComponent.php:201
-#: Plugin/Nodes/Controller/NodesController.php:200;677;715
+#: Plugin/Croogo/Controller/Component/CroogoComponent.php:202
+#: Plugin/Nodes/Controller/NodesController.php:200;682;720
 msgid "Invalid content"
 msgstr "Conteúdo inválido"
 
-#: Plugin/Croogo/Controller/Component/CroogoComponent.php:210
+#: Plugin/Croogo/Controller/Component/CroogoComponent.php:211
 msgid "Failed toggling field %s to %s"
 msgstr ""
 
@@ -1744,8 +1744,8 @@ msgid "Upload a new plugin"
 msgstr "Enviar um novo plugin"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:110;138;171;192;216
-#: Plugin/Extensions/Lib/CroogoPlugin.php:594
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:78;93;99
+#: Plugin/Extensions/Lib/CroogoPlugin.php:592
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
 msgstr "Plugin inválido"
 
@@ -1762,7 +1762,7 @@ msgid "Plugin could not be deleted."
 msgstr "Plugin não pode ser excluído."
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:149
-#: Plugin/Extensions/Lib/CroogoPlugin.php:532
+#: Plugin/Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr ""
 
@@ -1822,40 +1822,40 @@ msgstr ""
 msgid "Theme deleted successfully."
 msgstr "Tema excluído com sucesso."
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:479
+#: Plugin/Extensions/Lib/CroogoPlugin.php:477
 msgid "Plugin \"%s\" is already active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:505
+#: Plugin/Extensions/Lib/CroogoPlugin.php:503
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:519
+#: Plugin/Extensions/Lib/CroogoPlugin.php:517
 msgid "Plugin \"%s\" is not active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:624
+#: Plugin/Extensions/Lib/CroogoPlugin.php:622
 msgid "%s is already at the first position"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:630;642
+#: Plugin/Extensions/Lib/CroogoPlugin.php:628;640
 msgid "Plugin %s depends on %s"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:635
+#: Plugin/Extensions/Lib/CroogoPlugin.php:633
 msgid "%s is already at the last position"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:646
+#: Plugin/Extensions/Lib/CroogoPlugin.php:644
 msgid "Invalid direction"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:651
+#: Plugin/Extensions/Lib/CroogoPlugin.php:649
 msgid "Plugin %s cannot be reordered"
 msgstr ""
 
 #: Plugin/Extensions/Lib/CroogoTheme.php:122
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:180
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr ""
 
@@ -1867,43 +1867,55 @@ msgstr ""
 msgid "Invalid plugin path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:72;104;185
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:72;110;191
 msgid "Invalid zip archive"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:119
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:78
+msgid "Invalid plugin.json or missing plugin name"
+msgstr ""
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:99
+msgid "Missing expected files: %s in: %s"
+msgstr ""
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:100
+msgid "Invalid plugin or missing expected files"
+msgstr ""
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:125
 msgid "Invalid plugin file path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:130
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:136
 msgid "Plugin already exists"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:146
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:152
 msgid "Failed to extract plugin"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:159
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:165
 msgid "Invalid theme path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:200
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:206
 msgid "Invalid theme file path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:211
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:217
 msgid "Theme already exists"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:227
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:233
 msgid "Failed to extract theme"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:246
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:252
 msgid "Must specify a valid package name: vendor/name."
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:249
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:255
 msgid "Themes installed via composer are not yet supported."
 msgstr ""
 
@@ -1940,7 +1952,7 @@ msgid "Default"
 msgstr "Padrão"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:39
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:43
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:92
 msgid "Activate"
 msgstr "Ativar"
@@ -1960,11 +1972,11 @@ msgstr "Descrição"
 msgid "Active"
 msgstr ""
 
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:43
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
 msgid "Deactivate"
 msgstr ""
 
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:75
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:71
 msgid "Migrate"
 msgstr ""
 
@@ -2389,31 +2401,31 @@ msgstr ""
 msgid "Your config directory is NOT writable."
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:25
-msgid "PHP version %s >= %s"
+#: Plugin/Install/View/Install/index.ctp:26
+msgid "PHP version %s %s %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:28
+#: Plugin/Install/View/Install/index.ctp:29
 msgid "PHP version %s < %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:35
-msgid "CakePhp version %s >= %s"
+#: Plugin/Install/View/Install/index.ctp:37
+msgid "CakePhp version %s %s %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:38
+#: Plugin/Install/View/Install/index.ctp:40
 msgid "CakePHP version %s < %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:45
+#: Plugin/Install/View/Install/index.ctp:47
 msgid "Install"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:50
+#: Plugin/Install/View/Install/index.ctp:52
 msgid "Click here to begin installation"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:55
+#: Plugin/Install/View/Install/index.ctp:57
 msgid "Installation cannot continue as minimum requirements are not met."
 msgstr ""
 
@@ -2638,7 +2650,7 @@ msgstr "Nós publicados"
 msgid "Nodes unpromoted"
 msgstr "Nós despublicados"
 
-#: Plugin/Nodes/Controller/NodesController.php:382;474;533;615
+#: Plugin/Nodes/Controller/NodesController.php:382;474;538;620
 msgid "Invalid content type."
 msgstr "Tipo de conteúdo inválido."
 
@@ -2650,7 +2662,7 @@ msgstr "Termo Inválido."
 msgid "Nodes"
 msgstr "Nós"
 
-#: Plugin/Nodes/Controller/NodesController.php:625
+#: Plugin/Nodes/Controller/NodesController.php:630
 msgid "Search Results: %s"
 msgstr "Resultado da Busca: %s"
 
