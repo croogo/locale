@@ -5,15 +5,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.5.3\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2013-09-08 23:19+0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2013-09-19 22:29+0800\n"
+"Last-Translator: zzdjk6 <zzdjk6@126.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: Plugin/Acl/Config/bootstrap.php:19
 #: Plugin/Acl/Controller/AclPermissionsController.php:60
@@ -30,11 +30,11 @@ msgstr "访问控制"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:94
 msgid "Plugin to process"
-msgstr ""
+msgstr "插入到程序中"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:97
 msgid "Better manage, and easily synchronize you application's ACO tree"
-msgstr ""
+msgstr "更好的管理和简单的同步你的程序的ACO树"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:102
 msgid ""
@@ -48,33 +48,35 @@ msgid ""
 "controllers and actions.Will also remove orphaned entries that no longer "
 "have a matching controller/action"
 msgstr ""
+"在ACO表上执行一个全同步。这会创建一个新的ACO或者略过控制器和动作。同时也会删"
+"除孤立的没有匹配控制器的入口。"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:113
 msgid ""
 "Perform a full content sync on the ACO table.Will create new ACOs or missing "
 "contents.Will also remove orphaned entries that no longer have a matching "
 "contents"
-msgstr ""
+msgstr "在ACO表上执行一个全同步。同时也会删除孤立的没有匹配控制器的入口。"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:120
 msgid "The content model name "
-msgstr ""
+msgstr "内容模型名字"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:126
 msgid "Verify the tree structure of either your Aco or Aro Trees"
-msgstr ""
+msgstr "检查你的ACO或ARO的树结构"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:131
 msgid "The type of tree to verify"
-msgstr ""
+msgstr "将要检查的树类型"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:138
 msgid "Recover a corrupted Tree"
-msgstr ""
+msgstr "恢复一个不正确的树"
 
 #: Plugin/Acl/Console/Command/ExtrasShell.php:143
 msgid "The type of tree to recover"
-msgstr ""
+msgstr "将要恢复的树类型"
 
 #: Plugin/Acl/Controller/AclActionsController.php:49
 #: Plugin/Acl/View/AclActions/admin_form.ctp:8
@@ -98,39 +100,39 @@ msgstr ""
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:17
 #: Plugin/Translate/View/Translate/admin_index.ctp:37
 msgid "Actions"
-msgstr ""
+msgstr "动作"
 
 #: Plugin/Acl/Controller/AclActionsController.php:66
 msgid "Add Action"
-msgstr ""
+msgstr "添加动作"
 
 #: Plugin/Acl/Controller/AclActionsController.php:80
 msgid "The %s has been saved"
-msgstr ""
+msgstr "%s 已经被保存"
 
 #: Plugin/Acl/Controller/AclActionsController.php:83
 msgid "The %s could not be saved. Please, try again."
-msgstr ""
+msgstr "%s 不能被保存，请重试。"
 
 #: Plugin/Acl/Controller/AclActionsController.php:97
 msgid "Edit Action"
-msgstr ""
+msgstr "编辑动作"
 
 #: Plugin/Acl/Controller/AclActionsController.php:100
 msgid "Invalid Action"
-msgstr ""
+msgstr "不合法的动作"
 
 #: Plugin/Acl/Controller/AclActionsController.php:105
 msgid "The Action has been saved"
-msgstr ""
+msgstr "动作已被保存"
 
 #: Plugin/Acl/Controller/AclActionsController.php:108
 msgid "The Action could not be saved. Please, try again."
-msgstr ""
+msgstr "动作不能被保存，请重试。"
 
 #: Plugin/Acl/Controller/AclActionsController.php:126;144
 msgid "Invalid id for Action"
-msgstr ""
+msgstr "动作的id不合法"
 
 #: Plugin/Acl/Controller/AclActionsController.php:130
 msgid "Action deleted"
@@ -159,13 +161,13 @@ msgstr "父角色"
 #: Plugin/Acl/Controller/Component/AclFilterComponent.php:84
 msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
-msgstr ""
+msgstr "\"自动登录\" (记住我) 被禁用了，因为mcrypt_encrypt不可用"
 
 #: Plugin/Acl/Controller/Component/Auth/AclCachedAuthorize.php:183
 msgid ""
 "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
 "\"%2$s\""
-msgstr ""
+msgstr "_authorizeByContent() - 访问控制器 \"%2$s\" 里未映射的动作 \"%1$s\""
 
 #: Plugin/Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
@@ -181,7 +183,7 @@ msgstr "<error> %s 插件未找到或未激活</error>"
 
 #: Plugin/Acl/Lib/AclExtras.php:207
 msgid "<success>Aco Sync Complete</success>"
-msgstr ""
+msgstr "<success>Aco同步完成</success>"
 
 #: Plugin/Acl/Lib/AclExtras.php:209
 msgid "<success>Aco Update Complete</success>"
@@ -205,39 +207,39 @@ msgstr "删除Aco节点: <warning>%s</warning>"
 
 #: Plugin/Acl/Lib/AclExtras.php:392
 msgid "<success>Tree is valid and strong</success>"
-msgstr ""
+msgstr "<success>树已被验证</success>"
 
 #: Plugin/Acl/Lib/AclExtras.php:410
 msgid "Tree has been recovered, or tree did not need recovery."
-msgstr ""
+msgstr "树已被删除，或者树不需要恢复。"
 
 #: Plugin/Acl/Lib/AclExtras.php:412
 msgid "<error>Tree recovery failed.</error>"
-msgstr ""
+msgstr "<error>恢复树失败。</error>"
 
 #: Plugin/Acl/Lib/AclUpgrade.php:67
 msgid "No root node found"
-msgstr ""
+msgstr "根节点未找到"
 
 #: Plugin/Acl/Lib/AclUpgrade.php:75
 msgid "<warning>ACL Database seems to have already been upgraded</warning>"
-msgstr ""
+msgstr "<warning>ACL数据库已经被升级了</warning>"
 
 #: Plugin/Acl/Lib/AclUpgrade.php:115
 msgid "%s not found"
-msgstr ""
+msgstr "%s 没有找到"
 
 #: Plugin/Acl/Lib/AclUpgrade.php:139
 msgid "Role: Public not found"
-msgstr ""
+msgstr "角色：Public 没有找到"
 
 #: Plugin/Acl/Lib/AclUpgrade.php:145
 msgid "Role: Registered not found"
-msgstr ""
+msgstr "角色：Registered 没有找到"
 
 #: Plugin/Acl/Lib/AclUpgrade.php:151
 msgid "Role: Admin not found"
-msgstr ""
+msgstr "角色：Admin 没有找到"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:6
 #: Plugin/Acl/View/AclActions/admin_index.ctp:10
@@ -385,17 +387,17 @@ msgstr "生成"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:41
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:39
 msgid "Create new actions (no removal)"
-msgstr ""
+msgstr "新建动作（不调动）"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:46
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:44
 msgid "Synchronize"
-msgstr ""
+msgstr "同步"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:52
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:50
 msgid "Create new & remove orphaned actions"
-msgstr ""
+msgstr "新建 或 删除 孤立的动作"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:61
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:59
@@ -419,7 +421,7 @@ msgstr "编辑动作"
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:40
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:14
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:106
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:7
@@ -722,7 +724,7 @@ msgstr "标题"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:47
 msgid "unique name for your block"
-msgstr ""
+msgstr "您的区块的独特名称"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:51
 msgid "if you are not sure, choose 'none'"
@@ -734,7 +736,7 @@ msgstr "如果你不确定，选择“none”"
 #: Plugin/Contacts/View/Messages/admin_form.ctp:44
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:56
 msgid "Body"
-msgstr ""
+msgstr "内容主体"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:57
 #: Plugin/Menus/View/Links/admin_form.ctp:98
@@ -743,17 +745,17 @@ msgstr "类"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:60
 msgid "Element"
-msgstr ""
+msgstr "元素"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:76
 msgid "Visibility Paths"
-msgstr ""
+msgstr "可见路径"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:77
 msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
-msgstr ""
+msgstr "每行输入一个URL。如果您想让这个区块在所有页面都显示的话，请留空。"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:97
 #: Plugin/Blocks/View/Regions/admin_form.ctp:60
@@ -883,7 +885,7 @@ msgstr "评论无法保存。请重试。"
 
 #: Plugin/Comments/Controller/CommentsController.php:136
 msgid "Invalid id for Comment"
-msgstr ""
+msgstr "留言的id不合法"
 
 #: Plugin/Comments/Controller/CommentsController.php:140
 msgid "Comment deleted"
@@ -903,7 +905,7 @@ msgstr "评论未发布"
 
 #: Plugin/Comments/Controller/CommentsController.php:214
 msgid "Invalid Node"
-msgstr ""
+msgstr "不合法的节点"
 
 #: Plugin/Comments/Controller/CommentsController.php:226
 msgid "Maximum level reached. You cannot reply to that comment."
@@ -919,7 +921,7 @@ msgstr "你的评论已经成功添加"
 
 #: Plugin/Comments/Controller/CommentsController.php:260
 msgid "Your comment will appear after moderation."
-msgstr ""
+msgstr "您的留言会稍后显示。"
 
 #: Plugin/Comments/Controller/CommentsController.php:295
 msgid "Sorry, the comment appears to be spam."
@@ -928,7 +930,7 @@ msgstr "对不起，该评论是垃圾信息"
 #: Plugin/Comments/Controller/CommentsController.php:317
 #: Plugin/Contacts/Controller/ContactsController.php:241
 msgid "Invalid captcha entry"
-msgstr ""
+msgstr "不合法的验证码入口"
 
 #: Plugin/Comments/Controller/CommentsController.php:339
 msgid "New comment posted under"
@@ -1023,17 +1025,17 @@ msgstr "已创建"
 
 #: Plugin/Comments/View/Comments/rss/index.ctp:17
 msgid "Comment on"
-msgstr ""
+msgstr "留言于"
 
 #: Plugin/Comments/View/Comments/rss/index.ctp:17
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:50;86
 #: Plugin/Nodes/View/Elements/node_info.ctp:9
 msgid "by"
-msgstr ""
+msgstr "于"
 
 #: Plugin/Comments/View/Elements/comment.ctp:13
 msgid "said on %s"
-msgstr ""
+msgstr "%s 说的"
 
 #: Plugin/Comments/View/Elements/comment.ctp:19
 msgid "Reply"
@@ -1045,7 +1047,7 @@ msgstr "添加新评论"
 
 #: Plugin/Comments/View/Elements/comments_form.ctp:7
 msgid "Go back to original post"
-msgstr ""
+msgstr "返回原始帖子"
 
 #: Plugin/Comments/View/Elements/comments_form.ctp:49
 msgid "Post comment"
@@ -1068,7 +1070,7 @@ msgstr "读/写"
 
 #: Plugin/Comments/View/Emails/text/comment.ctp:2
 msgid "A new comment has been posted under: %s"
-msgstr ""
+msgstr "%s 有一条新留言"
 
 #: Plugin/Comments/View/Emails/text/comment.ctp:6
 #: Plugin/Contacts/View/Emails/text/contact.ctp:8
@@ -1203,7 +1205,7 @@ msgstr "信息"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:59
 msgid "Position"
-msgstr ""
+msgstr "位置"
 
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:62
 #: Plugin/Contacts/View/Messages/admin_form.ctp:50
@@ -1312,15 +1314,15 @@ msgstr "标记为未读"
 
 #: Plugin/Croogo/Console/Command/CroogoShell.php:29
 msgid "Croogo Utilities"
-msgstr ""
+msgstr "Croogo工具包"
 
 #: Plugin/Croogo/Console/Command/CroogoShell.php:31
 msgid "Compile/Generate CSS"
-msgstr ""
+msgstr "编译/生成 CSS"
 
 #: Plugin/Croogo/Console/Command/CroogoShell.php:34
 msgid "Upgrade Croogo"
-msgstr ""
+msgstr "升级Croogo"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:103
 msgid "Theme cannot be deactivated, instead activate another theme."
@@ -1400,11 +1402,11 @@ msgstr "主题"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:81
 msgid "Installing with Composer..."
-msgstr ""
+msgstr "用Composer安装..."
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:89
 msgid "Unexpected composerInstall return value"
-msgstr ""
+msgstr "意外的Composer安装返回值"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:102
 msgid "Package installed and activated."
@@ -1424,11 +1426,11 @@ msgstr "下载，安装并启用插件和主题"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:141
 msgid "URL to zip file OR github user name"
-msgstr ""
+msgstr "压缩文件的URL或者github用户名"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:145
 msgid "Github repo name"
-msgstr ""
+msgstr "Github仓库名"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:176
 msgid "Installing extension..."
@@ -1436,7 +1438,7 @@ msgstr "安装扩展中..."
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:195
 msgid "Please specify a URL to a zipball extension"
-msgstr ""
+msgstr "请为zipball扩展确立一个URL"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:200
 msgid "Downloading extension to %s..."
@@ -1455,6 +1457,9 @@ msgid ""
 "%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
+"ACO继承结构从1.3/1.4升级了，所以它遵守普通CakePHP程序的表现。主要的区别是插件"
+"控制器现在被储存到它自己的插件ACO记录里，而先前的版本假设所有控制器属于根控制"
+"器。%s<warning>请在升级前确保你的ARO和ACO和ARO_ACO表有备份。</warning>"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:76
 msgid "Create settings.json from database"
@@ -1474,7 +1479,7 @@ msgstr "创建第一条迁移记录"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:88
 msgid "Run all upgrade tasks"
-msgstr ""
+msgstr "执行所有升级任务"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:98
 msgid "<warning>Config/settings.json already exist</warning>"
@@ -1517,7 +1522,7 @@ msgstr "命令未被识别"
 
 #: Plugin/Croogo/Controller/CroogoAppController.php:162
 msgid "Site down for maintenance"
-msgstr ""
+msgstr "网站临时维护"
 
 #: Plugin/Croogo/Controller/CroogoErrorController.php:57
 msgid "Errors in CakeErrorController: %s"
@@ -1530,7 +1535,7 @@ msgstr "无效的内容"
 
 #: Plugin/Croogo/Controller/Component/CroogoComponent.php:211
 msgid "Failed toggling field %s to %s"
-msgstr ""
+msgstr "域 %s 到 %s 的转换失败"
 
 #: Plugin/Croogo/Event/CroogoEventManager.php:73
 msgid "EventHandler %s not found in plugin %s"
@@ -1538,11 +1543,11 @@ msgstr "%s 事件处理器未在插件 %s 中找到"
 
 #: Plugin/Croogo/Lib/CroogoRouter.php:123
 msgid "Unable to get routeable content types: %s"
-msgstr ""
+msgstr "无法获得可路由的内容类型 %s"
 
 #: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:40
 msgid "Cannot load configuration files with ../ in them."
-msgstr ""
+msgstr "无法加载有 \"../\" 的配置文件"
 
 #: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:55
 msgid "Could not load configuration files: %s or %s"
@@ -1559,13 +1564,15 @@ msgstr "编辑"
 #: Plugin/Croogo/View/Common/admin_index.ctp:31
 #: Plugin/Menus/View/Links/admin_index.ctp:16
 msgid "New %s"
-msgstr ""
+msgstr "新的 %s"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:128
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
+"第 {:page} 页，共 {:pages} 页, 本页显示 {:current} 条记录，共 {:count} 条记"
+"录, 本页显示从 {:start} 到 {:end} 的记录。"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:133
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:90
@@ -1641,7 +1648,7 @@ msgstr "安全错误"
 
 #: Plugin/Croogo/View/Errors/security.ctp:8
 msgid "Request blackholed due to \"%s\" violation."
-msgstr ""
+msgstr "请求因为 \"%s\"  失败"
 
 #: Plugin/Croogo/View/Helper/LayoutHelper.php:96
 msgid "Method %1$s::%2$s does not exist"
@@ -1653,7 +1660,7 @@ msgstr "方法 %1$s::%2$s 不存在"
 #: Plugin/Croogo/View/Layouts/admin_popup.ctp:6
 #: Plugin/Install/View/Layouts/install.ctp:6
 msgid "Croogo"
-msgstr ""
+msgstr "Croogo"
 
 #: Plugin/Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
@@ -1661,11 +1668,11 @@ msgstr "返回到"
 
 #: Plugin/Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
-msgstr ""
+msgstr "网站维护中"
 
 #: Plugin/Example/View/Example/index.ctp:3
 msgid "content here"
-msgstr ""
+msgstr "这里是内容"
 
 #: Plugin/Extensions/Config/bootstrap.php:14
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:62
@@ -1868,7 +1875,7 @@ msgstr "无效的插件路径"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:72;110;191
 msgid "Invalid zip archive"
-msgstr ""
+msgstr "无效的zip压缩"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:78
 msgid "Invalid plugin.json or missing plugin name"
@@ -1969,11 +1976,11 @@ msgstr "描述"
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:27
 msgid "Active"
-msgstr ""
+msgstr "激活"
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
 msgid "Deactivate"
-msgstr ""
+msgstr "禁用"
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:71
 msgid "Migrate"
@@ -2113,6 +2120,8 @@ msgid ""
 "Page %page% of %pages%, showing %current% records out of %count% total, "
 "starting on record %start%, ending on %end%"
 msgstr ""
+"第 %page% 页，共 %pages% 页，本页显示 %current% 条记录，共  %count% 条记录，"
+"从第 %start% 到 %end%"
 
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
@@ -2249,7 +2258,7 @@ msgstr "验证码"
 
 #: Plugin/Install/Console/Command/InstallShell.php:207
 msgid "Permission %s granted to %s"
-msgstr ""
+msgstr "权限 %s 被赋予 %s"
 
 #: Plugin/Install/Controller/InstallController.php:97
 msgid "Installation: Welcome"
@@ -2361,6 +2370,8 @@ msgid ""
 "\n"
 "\t\tThe user %s has been created with administrative rights."
 msgstr ""
+"\n"
+"\t\t 用户 %s 已经被创建，并被赋予管理员权限。"
 
 #: Plugin/Install/View/Install/finish.ctp:12
 msgid "Admin panel: %s"
@@ -2368,7 +2379,7 @@ msgstr "管理面板: %s"
 
 #: Plugin/Install/View/Install/finish.ctp:17
 msgid "You can start with %s or jump in and %s."
-msgstr ""
+msgstr "您可以以 %s 开始或者跳到 %s。"
 
 #: Plugin/Install/View/Install/finish.ctp:18
 msgid "configuring your site"
@@ -2523,7 +2534,7 @@ msgstr "链接"
 #: Plugin/Menus/View/Links/admin_form.ctp:43
 #: Plugin/Menus/View/Menus/admin_form.ctp:26
 msgid "Misc."
-msgstr ""
+msgstr "杂项。"
 
 #: Plugin/Menus/View/Links/admin_form.ctp:69
 msgid "Link to a Node"
@@ -2531,7 +2542,7 @@ msgstr "作为一个节点进行链接"
 
 #: Plugin/Menus/View/Links/admin_form.ctp:104
 msgid "Rel"
-msgstr ""
+msgstr "关联"
 
 #: Plugin/Menus/View/Links/admin_form.ctp:107
 msgid "Target"
@@ -2547,7 +2558,7 @@ msgstr "菜单"
 
 #: Plugin/Menus/View/Menus/admin_index.ctp:18
 msgid "Link Count"
-msgstr ""
+msgstr "链接统计"
 
 #: Plugin/Menus/View/Menus/admin_index.ctp:33
 msgid "View links"
@@ -2555,7 +2566,7 @@ msgstr "查看链接"
 
 #: Plugin/Meta/Controller/Component/MetaComponent.php:45
 msgid "Custom Fields"
-msgstr ""
+msgstr "自定义字段"
 
 #: Plugin/Meta/View/Elements/admin/meta_tab.ctp:19
 msgid "Add another field"
@@ -2643,11 +2654,11 @@ msgstr "节点未发布"
 
 #: Plugin/Nodes/Controller/NodesController.php:328
 msgid "Nodes promoted"
-msgstr ""
+msgstr "节点置顶"
 
 #: Plugin/Nodes/Controller/NodesController.php:331
 msgid "Nodes unpromoted"
-msgstr ""
+msgstr "取消节点置顶"
 
 #: Plugin/Nodes/Controller/NodesController.php:382;474;538;620
 msgid "Invalid content type."
@@ -2671,7 +2682,7 @@ msgstr "无效的动作"
 
 #: Plugin/Nodes/Model/Node.php:397
 msgid "No target to process action upon"
-msgstr ""
+msgstr "正在执行的动作没有目标"
 
 #: Plugin/Nodes/Model/Node.php:428
 msgid "Invalid Content Type"
@@ -2679,15 +2690,15 @@ msgstr "无效的内容类型"
 
 #: Plugin/Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
-msgstr ""
+msgstr "已发布"
 
 #: Plugin/Nodes/View/Elements/node_info.ctp:20
 msgid "on"
-msgstr ""
+msgstr "在"
 
 #: Plugin/Nodes/View/Elements/node_more_info.ctp:18
 msgid "Posted in"
-msgstr ""
+msgstr "发布于"
 
 #: Plugin/Nodes/View/Elements/node_more_info.ctp:29
 msgid "Leave a comment"
@@ -2725,11 +2736,11 @@ msgstr "否"
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:50
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:46
 msgid "Promoted"
-msgstr ""
+msgstr "置顶"
 
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:4
 msgid "Sort by:"
-msgstr ""
+msgstr "排序以："
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:50
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:55
@@ -2739,7 +2750,7 @@ msgstr "Slug"
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:53
 msgid "Excerpt"
-msgstr ""
+msgstr "摘要"
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:82
 msgid "Promoted to front page"
@@ -2756,23 +2767,23 @@ msgstr "用户"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:68
 msgid "promoted"
-msgstr ""
+msgstr "置顶的"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:111
 msgid "Applying to selected"
-msgstr ""
+msgstr "应用到已选"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:116
 msgid "Promote"
-msgstr ""
+msgstr "置顶"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:117
 msgid "Unpromote"
-msgstr ""
+msgstr "取消置顶"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:130
 msgid "%s selected items?"
-msgstr ""
+msgstr "%s 选择的项？"
 
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:8
 #: Plugin/Translate/View/Translate/admin_index.ctp:15
@@ -2806,7 +2817,7 @@ msgstr "站点"
 
 #: Plugin/Settings/Config/bootstrap.php:35
 msgid "Meta"
-msgstr ""
+msgstr "元数据"
 
 #: Plugin/Settings/Config/bootstrap.php:47
 msgid "Reading"
@@ -2833,7 +2844,7 @@ msgstr "显示设定值"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:37;55;93
 msgid "Setting key"
-msgstr ""
+msgstr "设置key"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:43
 msgid "List all settings"
@@ -2841,7 +2852,7 @@ msgstr "列出所有设置"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:51
 msgid "Write setting value for a given key"
-msgstr ""
+msgstr "对于指定key设置值"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:59
 msgid "Setting value"
@@ -2853,7 +2864,7 @@ msgstr "基于key删除设置"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:100
 msgid "Update version string from git tag information"
-msgstr ""
+msgstr "从git标签信息升级版本数字"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:129
 msgid "    %-30s: %s"
@@ -2865,7 +2876,7 @@ msgstr "正在更新 %s"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:151
 msgid "Confirm update"
-msgstr ""
+msgstr "确认更新"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:166
 msgid "Setting updated"
@@ -2964,7 +2975,7 @@ msgstr "设置已成功更新"
 
 #: Plugin/Settings/Controller/SettingsController.php:176
 msgid "Invalid Setting key"
-msgstr ""
+msgstr "无效的设置key"
 
 #: Plugin/Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
 msgid "Could not add a new language."
@@ -2985,7 +2996,7 @@ msgstr "新语言"
 
 #: Plugin/Settings/View/Settings/admin_form.ctp:29
 msgid "Misc"
-msgstr ""
+msgstr "杂项"
 
 #: Plugin/Settings/View/Settings/admin_form.ctp:42
 msgid "e.g., 'Site.title'"
@@ -3237,7 +3248,7 @@ msgstr "本地化的翻译无法删除"
 
 #: Plugin/Translate/Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-msgstr ""
+msgstr "CroogoTranslateBehavior的数据源 %s 于 模型 %s 没有连接"
 
 #: Plugin/Translate/View/Translate/admin_edit.ctp:7;24
 #: Plugin/Translate/View/Translate/admin_index.ctp:7
