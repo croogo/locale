@@ -2000,7 +2000,7 @@ msgstr "可用主题"
 
 #: Plugin/FileManager/Config/bootstrap.php:5
 msgid "Media"
-msgstr "meticulously"
+msgstr "媒体"
 
 #: Plugin/FileManager/Config/bootstrap.php:15
 #: Plugin/FileManager/Controller/AttachmentsController.php:101
