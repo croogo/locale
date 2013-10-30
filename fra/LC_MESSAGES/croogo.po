@@ -1879,15 +1879,15 @@ msgstr "Fichier ZIP non valide"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:78
 msgid "Invalid plugin.json or missing plugin name"
-msgstr ""
+msgstr "plugin.json invalide ou nom de l'extension manquant"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:99
 msgid "Missing expected files: %s in: %s"
-msgstr ""
+msgstr "Fichiers manquants : %s dans %s"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:100
 msgid "Invalid plugin or missing expected files"
-msgstr ""
+msgstr "Extension invalide ou fichiers manquants"
 
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:125
 msgid "Invalid plugin file path"
@@ -1946,6 +1946,10 @@ msgstr "Extensions"
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:5;31
 msgid "Upload"
 msgstr "Charger"
+
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:113
+msgid "No available theme"
+msgstr "Aucun thème disponible"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:23
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:26
@@ -2812,6 +2816,10 @@ msgstr "Aucun élément trouvé."
 #: Plugin/Settings/View/Settings/admin_prefix.ctp:4
 msgid "Settings"
 msgstr "Paramètres"
+
+#: Plugin/Settings/View/Settings/admin_prefix.ctp:64
+msgid "Saving"
+msgstr "Enregistrement"
 
 #: Plugin/Settings/Config/bootstrap.php:23
 msgid "Site"
