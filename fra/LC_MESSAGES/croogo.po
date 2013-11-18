@@ -643,10 +643,6 @@ msgstr "Région"
 msgid "Add Region"
 msgstr "Ajouter une région"
 
-#: Plugin/Blocks/View/Regions/admin_index.ctp:10
-msgid "New Region"
-msgstr "Nouvelle Région"
-
 #: Plugin/Blocks/Controller/RegionsController.php:91;115
 msgid "The Region has been saved"
 msgstr "La région a été enregistrée"
