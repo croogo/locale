@@ -11,8 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: Plugin/Acl/Config/bootstrap.php:19
-#: Plugin/Acl/Controller/AclPermissionsController.php:60
-#: Plugin/Acl/Controller/Component/RowLevelAclComponent.php:69
+#: Plugin/Acl/Controller/AclPermissionsController.php:58
+#: Plugin/Acl/Controller/Component/RowLevelAclComponent.php:67
 #: Plugin/Acl/View/AclActions/admin_form.ctp:7
 #: Plugin/Acl/View/AclActions/admin_index.ctp:11
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:10
@@ -71,7 +71,7 @@ msgstr ""
 msgid "The type of tree to recover"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:49
+#: Plugin/Acl/Controller/AclActionsController.php:47
 #: Plugin/Acl/View/AclActions/admin_form.ctp:8
 #: Plugin/Acl/View/AclActions/admin_index.ctp:14;72
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:26
@@ -95,63 +95,63 @@ msgstr ""
 msgid "Actions"
 msgstr "アクション"
 
-#: Plugin/Acl/Controller/AclActionsController.php:66
+#: Plugin/Acl/Controller/AclActionsController.php:64
 msgid "Add Action"
 msgstr "アクションの追加"
 
-#: Plugin/Acl/Controller/AclActionsController.php:80
+#: Plugin/Acl/Controller/AclActionsController.php:78
 msgid "The %s has been saved"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:83
+#: Plugin/Acl/Controller/AclActionsController.php:81
 msgid "The %s could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:97
+#: Plugin/Acl/Controller/AclActionsController.php:95
 msgid "Edit Action"
 msgstr "アクションの編集"
 
-#: Plugin/Acl/Controller/AclActionsController.php:100
+#: Plugin/Acl/Controller/AclActionsController.php:98
 msgid "Invalid Action"
 msgstr "不正なアクション"
 
-#: Plugin/Acl/Controller/AclActionsController.php:105
+#: Plugin/Acl/Controller/AclActionsController.php:103
 msgid "The Action has been saved"
 msgstr "アクションを保存しました"
 
-#: Plugin/Acl/Controller/AclActionsController.php:108
+#: Plugin/Acl/Controller/AclActionsController.php:106
 msgid "The Action could not be saved. Please, try again."
 msgstr "アクションを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Acl/Controller/AclActionsController.php:126;144
+#: Plugin/Acl/Controller/AclActionsController.php:124;142
 msgid "Invalid id for Action"
 msgstr "不正なアクションID"
 
-#: Plugin/Acl/Controller/AclActionsController.php:130
+#: Plugin/Acl/Controller/AclActionsController.php:128
 msgid "Action deleted"
 msgstr "アクションを削除しました"
 
-#: Plugin/Acl/Controller/AclActionsController.php:149
+#: Plugin/Acl/Controller/AclActionsController.php:147
 msgid "Action moved up"
 msgstr "アクションを上に移動しました"
 
-#: Plugin/Acl/Controller/AclActionsController.php:154
+#: Plugin/Acl/Controller/AclActionsController.php:152
 msgid "Action moved down"
 msgstr "アクションを下に移動しました"
 
-#: Plugin/Acl/Controller/AclActionsController.php:176
+#: Plugin/Acl/Controller/AclActionsController.php:174
 msgid "Created %d new permissions"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclPermissionsController.php:142
+#: Plugin/Acl/Controller/AclPermissionsController.php:140
 msgid "ACL database has been upgraded successfully"
 msgstr ""
 
-#: Plugin/Acl/Controller/Component/AclAccessComponent.php:54
+#: Plugin/Acl/Controller/Component/AclAccessComponent.php:52
 msgid "Parent Role"
 msgstr ""
 
-#: Plugin/Acl/Controller/Component/AclFilterComponent.php:84
+#: Plugin/Acl/Controller/Component/AclFilterComponent.php:82
 msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
@@ -238,7 +238,7 @@ msgstr ""
 #: Plugin/Acl/View/AclActions/admin_index.ctp:10
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
 #: Plugin/Users/Config/bootstrap.php:22;32
-#: Plugin/Users/Controller/UsersController.php:110;262
+#: Plugin/Users/Controller/UsersController.php:108;258
 #: Plugin/Users/View/Roles/admin_form.ctp:5
 #: Plugin/Users/View/Roles/admin_index.ctp:6
 #: Plugin/Users/View/Users/admin_form.ctp:7
@@ -310,7 +310,7 @@ msgstr "エイリアス"
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:53
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:52
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:48
-#: Plugin/Menus/View/Links/admin_form.ctp:122
+#: Plugin/Menus/View/Links/admin_form.ctp:123
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:73
 #: Plugin/Settings/View/Languages/admin_form.ctp:55
 #: Plugin/Settings/View/Settings/admin_form.ctp:79
@@ -351,7 +351,7 @@ msgstr "送信"
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:54
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:50
 #: Plugin/Install/View/Install/adminuser.ctp:35
-#: Plugin/Menus/View/Links/admin_form.ctp:125
+#: Plugin/Menus/View/Links/admin_form.ctp:126
 #: Plugin/Menus/View/Menus/admin_form.ctp:68
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:76
 #: Plugin/Settings/View/Languages/admin_form.ctp:58
@@ -459,7 +459,7 @@ msgstr "下に移動"
 msgid "Edit this item"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:119
+#: Plugin/Acl/View/AclActions/admin_index.ctp:121
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:19
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:52
 #: Plugin/Comments/View/Comments/admin_index.ctp:72
@@ -477,7 +477,7 @@ msgstr ""
 msgid "Remove this item"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:120
+#: Plugin/Acl/View/AclActions/admin_index.ctp:125
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:20
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:53
 #: Plugin/Comments/View/Comments/admin_index.ctp:73
@@ -488,7 +488,7 @@ msgstr ""
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:105
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:38
-#: Plugin/FileManager/View/Helper/FileManagerHelper.php:139
+#: Plugin/FileManager/View/Helper/FileManagerHelper.php:137
 #: Plugin/Menus/View/Links/admin_index.ctp:78
 #: Plugin/Menus/View/Menus/admin_index.ctp:45
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:96
@@ -518,7 +518,7 @@ msgid "Upgrade Acl database"
 msgstr ""
 
 #: Plugin/Blocks/Config/bootstrap.php:18;28
-#: Plugin/Blocks/Controller/BlocksController.php:100
+#: Plugin/Blocks/Controller/BlocksController.php:98
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:7
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:7
 #: Plugin/Blocks/View/Regions/admin_form.ctp:7
@@ -532,33 +532,42 @@ msgstr "ブロック"
 msgid "Regions"
 msgstr "リージョン"
 
-#: Plugin/Blocks/Controller/BlocksController.php:122
+#: Plugin/Blocks/Controller/BlocksController.php:120
 msgid "Add Block"
 msgstr "ブロックを追加"
 
-#: Plugin/Blocks/Controller/BlocksController.php:129;158
+#: Plugin/Blocks/Controller/BlocksController.php:127;156
 msgid "The Block has been saved"
 msgstr "ブロックは保存されました"
 
-#: Plugin/Blocks/Controller/BlocksController.php:132;161
+#: Plugin/Blocks/Controller/BlocksController.php:130;159
 msgid "The Block could not be saved. Please, try again."
 msgstr "ブロックが保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Blocks/Controller/BlocksController.php:148
+#: Plugin/Blocks/Controller/BlocksController.php:146
 msgid "Edit Block"
 msgstr "ブロックの変更"
 
-#: Plugin/Blocks/Controller/BlocksController.php:151
+#: Plugin/Blocks/Controller/BlocksController.php:149
 msgid "Invalid Block"
 msgstr "不正なブロック"
 
-#: Plugin/Blocks/Controller/BlocksController.php:186
+#: Plugin/Blocks/Controller/BlocksController.php:184
 msgid "Invalid id for Block"
 msgstr "不正なブロックID"
 
-#: Plugin/Blocks/Controller/BlocksController.php:190
+#: Plugin/Blocks/Controller/BlocksController.php:188
 msgid "Block deleted"
 msgstr "ブロックは削除されました"
+
+#: Plugin/Blocks/Controller/BlocksController.php:203
+#: Plugin/Menus/Controller/LinksController.php:278
+#: Plugin/Settings/Controller/LanguagesController.php:122
+#: Plugin/Settings/Controller/SettingsController.php:190
+#: Plugin/Taxonomy/Controller/TermsController.php:327
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:128
+msgid "Moved up successfully"
+msgstr "正常に上に移動しました"
 
 #: Plugin/Blocks/Controller/BlocksController.php:205
 #: Plugin/Menus/Controller/LinksController.php:280
@@ -566,17 +575,17 @@ msgstr "ブロックは削除されました"
 #: Plugin/Settings/Controller/SettingsController.php:192
 #: Plugin/Taxonomy/Controller/TermsController.php:329
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:130
-msgid "Moved up successfully"
-msgstr "正常に上に移動しました"
-
-#: Plugin/Blocks/Controller/BlocksController.php:207
-#: Plugin/Menus/Controller/LinksController.php:282
-#: Plugin/Settings/Controller/LanguagesController.php:126
-#: Plugin/Settings/Controller/SettingsController.php:194
-#: Plugin/Taxonomy/Controller/TermsController.php:331
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:132
 msgid "Could not move up"
 msgstr "上に移動できませんでした"
+
+#: Plugin/Blocks/Controller/BlocksController.php:221
+#: Plugin/Menus/Controller/LinksController.php:313
+#: Plugin/Settings/Controller/LanguagesController.php:140
+#: Plugin/Settings/Controller/SettingsController.php:216
+#: Plugin/Taxonomy/Controller/TermsController.php:369
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:146
+msgid "Moved down successfully"
+msgstr "正常に下に移動しました"
 
 #: Plugin/Blocks/Controller/BlocksController.php:223
 #: Plugin/Menus/Controller/LinksController.php:315
@@ -584,80 +593,71 @@ msgstr "上に移動できませんでした"
 #: Plugin/Settings/Controller/SettingsController.php:218
 #: Plugin/Taxonomy/Controller/TermsController.php:371
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:148
-msgid "Moved down successfully"
-msgstr "正常に下に移動しました"
-
-#: Plugin/Blocks/Controller/BlocksController.php:225
-#: Plugin/Menus/Controller/LinksController.php:317
-#: Plugin/Settings/Controller/LanguagesController.php:144
-#: Plugin/Settings/Controller/SettingsController.php:220
-#: Plugin/Taxonomy/Controller/TermsController.php:373
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:150
 msgid "Could not move down"
 msgstr "下に移動できませんでした"
 
-#: Plugin/Blocks/Controller/BlocksController.php:247
-#: Plugin/Comments/Controller/CommentsController.php:161
-#: Plugin/Contacts/Controller/MessagesController.php:140
-#: Plugin/Menus/Controller/LinksController.php:343
-#: Plugin/Nodes/Controller/NodesController.php:309
+#: Plugin/Blocks/Controller/BlocksController.php:245
+#: Plugin/Comments/Controller/CommentsController.php:159
+#: Plugin/Contacts/Controller/MessagesController.php:138
+#: Plugin/Menus/Controller/LinksController.php:341
+#: Plugin/Nodes/Controller/NodesController.php:307
 msgid "No items selected."
 msgstr "アイテムが選択されていません"
 
-#: Plugin/Blocks/Controller/BlocksController.php:253
+#: Plugin/Blocks/Controller/BlocksController.php:251
 msgid "Blocks deleted"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:256
+#: Plugin/Blocks/Controller/BlocksController.php:254
 msgid "Blocks published"
 msgstr "ブロックを公開しました"
 
-#: Plugin/Blocks/Controller/BlocksController.php:259
+#: Plugin/Blocks/Controller/BlocksController.php:257
 msgid "Blocks unpublished"
 msgstr "ブロックを非公開にしました"
 
-#: Plugin/Blocks/Controller/BlocksController.php:261
-#: Plugin/Comments/Controller/CommentsController.php:175
-#: Plugin/Contacts/Controller/MessagesController.php:154
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:158
-#: Plugin/Menus/Controller/LinksController.php:372
-#: Plugin/Nodes/Controller/NodesController.php:337
-#: Plugin/Users/Controller/UsersController.php:364;431;442
+#: Plugin/Blocks/Controller/BlocksController.php:259
+#: Plugin/Comments/Controller/CommentsController.php:173
+#: Plugin/Contacts/Controller/MessagesController.php:152
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:156
+#: Plugin/Menus/Controller/LinksController.php:370
+#: Plugin/Nodes/Controller/NodesController.php:335
+#: Plugin/Users/Controller/UsersController.php:360;427;438
 msgid "An error occurred."
 msgstr "エラーが発生しました"
 
-#: Plugin/Blocks/Controller/RegionsController.php:68
+#: Plugin/Blocks/Controller/RegionsController.php:66
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:50
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:24
 #: Plugin/Blocks/View/Regions/admin_form.ctp:31
 msgid "Region"
 msgstr "リージョン"
 
-#: Plugin/Blocks/Controller/RegionsController.php:86
+#: Plugin/Blocks/Controller/RegionsController.php:84
 msgid "Add Region"
 msgstr "リージョンの追加"
 
-#: Plugin/Blocks/Controller/RegionsController.php:91;115
+#: Plugin/Blocks/Controller/RegionsController.php:89;113
 msgid "The Region has been saved"
 msgstr "リージョンを保存しました"
 
-#: Plugin/Blocks/Controller/RegionsController.php:94;118
+#: Plugin/Blocks/Controller/RegionsController.php:92;116
 msgid "The Region could not be saved. Please, try again."
 msgstr "リージョンを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Blocks/Controller/RegionsController.php:107
+#: Plugin/Blocks/Controller/RegionsController.php:105
 msgid "Edit Region"
 msgstr "リージョンの編集"
 
-#: Plugin/Blocks/Controller/RegionsController.php:110
+#: Plugin/Blocks/Controller/RegionsController.php:108
 msgid "Invalid Region"
 msgstr "不正なリージョン"
 
-#: Plugin/Blocks/Controller/RegionsController.php:135
+#: Plugin/Blocks/Controller/RegionsController.php:133
 msgid "Invalid id for Region"
 msgstr "不正なリージョンID"
 
-#: Plugin/Blocks/Controller/RegionsController.php:139
+#: Plugin/Blocks/Controller/RegionsController.php:137
 msgid "Region deleted"
 msgstr "リージョンを削除しました"
 
@@ -676,7 +676,7 @@ msgid "Visibilities"
 msgstr "可視状態"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:27;85
-#: Plugin/Menus/View/Links/admin_form.ctp:110
+#: Plugin/Menus/View/Links/admin_form.ctp:111
 #: Plugin/Menus/View/Menus/admin_form.ctp:54
 #: Plugin/Settings/View/Settings/admin_form.ctp:68
 #: Plugin/Settings/View/Settings/admin_view.ctp:34
@@ -755,7 +755,7 @@ msgstr ""
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:97
 #: Plugin/Blocks/View/Regions/admin_form.ctp:60
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:125
-#: Plugin/Menus/View/Links/admin_form.ctp:123
+#: Plugin/Menus/View/Links/admin_form.ctp:124
 #: Plugin/Menus/View/Menus/admin_form.ctp:66
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:74
 msgid "Apply"
@@ -773,7 +773,7 @@ msgstr ""
 #: Plugin/FileManager/View/FileManager/admin_editfile.ctp:53
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:49
 #: Plugin/Install/View/Install/adminuser.ctp:34
-#: Plugin/Menus/View/Links/admin_form.ctp:124
+#: Plugin/Menus/View/Links/admin_form.ctp:125
 #: Plugin/Menus/View/Menus/admin_form.ctp:67
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:75
 #: Plugin/Settings/View/Languages/admin_form.ctp:56
@@ -791,10 +791,10 @@ msgstr ""
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:101
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:25
 #: Plugin/Croogo/Console/Command/ExtShell.php:222;248
-#: Plugin/Menus/View/Links/admin_form.ctp:127
+#: Plugin/Menus/View/Links/admin_form.ctp:128
 #: Plugin/Menus/View/Links/admin_index.ctp:43
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:41
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:48
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:49
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:42
 #: Plugin/Settings/View/Languages/admin_index.ctp:19
 #: Plugin/Users/View/Users/admin_form.ctp:78
@@ -838,7 +838,7 @@ msgid "Delete"
 msgstr "削除"
 
 #: Plugin/Comments/Config/bootstrap.php:11
-#: Plugin/Comments/Controller/CommentsController.php:82;188
+#: Plugin/Comments/Controller/CommentsController.php:80;186
 #: Plugin/Comments/View/Comments/admin_form.ctp:8
 #: Plugin/Comments/View/Comments/admin_index.ctp:12
 #: Plugin/Comments/View/Elements/comments.ctp:7
@@ -862,80 +862,80 @@ msgstr "公開済み"
 msgid "Approval"
 msgstr "承認"
 
-#: Plugin/Comments/Controller/CommentsController.php:108
+#: Plugin/Comments/Controller/CommentsController.php:106
 msgid "Edit Comment"
 msgstr "コメントの編集"
 
-#: Plugin/Comments/Controller/CommentsController.php:111
+#: Plugin/Comments/Controller/CommentsController.php:109
 msgid "Invalid Comment"
 msgstr "不正なコメント"
 
-#: Plugin/Comments/Controller/CommentsController.php:116
+#: Plugin/Comments/Controller/CommentsController.php:114
 msgid "The Comment has been saved"
 msgstr "コメントは保存されました"
 
-#: Plugin/Comments/Controller/CommentsController.php:119
+#: Plugin/Comments/Controller/CommentsController.php:117
 msgid "The Comment could not be saved. Please, try again."
 msgstr "コメントを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Comments/Controller/CommentsController.php:136
+#: Plugin/Comments/Controller/CommentsController.php:134
 msgid "Invalid id for Comment"
 msgstr "不正なコメントID"
 
-#: Plugin/Comments/Controller/CommentsController.php:140
+#: Plugin/Comments/Controller/CommentsController.php:138
 msgid "Comment deleted"
 msgstr "コメントを削除しました"
 
-#: Plugin/Comments/Controller/CommentsController.php:167
+#: Plugin/Comments/Controller/CommentsController.php:165
 msgid "Comments deleted"
 msgstr ""
 
-#: Plugin/Comments/Controller/CommentsController.php:170
+#: Plugin/Comments/Controller/CommentsController.php:168
 msgid "Comments published"
 msgstr "コメントを公開しました"
 
-#: Plugin/Comments/Controller/CommentsController.php:173
+#: Plugin/Comments/Controller/CommentsController.php:171
 msgid "Comments unpublished"
 msgstr "コメントを非公開にしました"
 
-#: Plugin/Comments/Controller/CommentsController.php:214
+#: Plugin/Comments/Controller/CommentsController.php:212
 msgid "Invalid Node"
 msgstr "不正なノード"
 
-#: Plugin/Comments/Controller/CommentsController.php:226
+#: Plugin/Comments/Controller/CommentsController.php:224
 msgid "Maximum level reached. You cannot reply to that comment."
 msgstr "最大階層に達しました。このコメントには返信できません。"
 
-#: Plugin/Comments/Controller/CommentsController.php:234
+#: Plugin/Comments/Controller/CommentsController.php:232
 msgid "Comments are not allowed."
 msgstr ""
 
-#: Plugin/Comments/Controller/CommentsController.php:258
+#: Plugin/Comments/Controller/CommentsController.php:256
 msgid "Your comment has been added successfully."
 msgstr "コメントは正常に追加されました。"
 
-#: Plugin/Comments/Controller/CommentsController.php:260
+#: Plugin/Comments/Controller/CommentsController.php:258
 msgid "Your comment will appear after moderation."
 msgstr "コメントは審査の後に公開されます。"
 
-#: Plugin/Comments/Controller/CommentsController.php:295
+#: Plugin/Comments/Controller/CommentsController.php:293
 msgid "Sorry, the comment appears to be spam."
 msgstr "申し訳ありませんが、このコメントはスパムのようです。"
 
-#: Plugin/Comments/Controller/CommentsController.php:317
-#: Plugin/Contacts/Controller/ContactsController.php:241
+#: Plugin/Comments/Controller/CommentsController.php:315
+#: Plugin/Contacts/Controller/ContactsController.php:239
 msgid "Invalid captcha entry"
 msgstr "不正なCAPTHA"
 
-#: Plugin/Comments/Controller/CommentsController.php:339
+#: Plugin/Comments/Controller/CommentsController.php:337
 msgid "New comment posted under"
 msgstr "新しいコメントが追加されました"
 
-#: Plugin/Comments/Model/Comment.php:117
+#: Plugin/Comments/Model/Comment.php:115
 msgid "Invalid Node id"
 msgstr ""
 
-#: Plugin/Comments/Model/Comment.php:176
+#: Plugin/Comments/Model/Comment.php:174
 msgid "Invalid Comment id"
 msgstr ""
 
@@ -943,7 +943,7 @@ msgstr ""
 #: Plugin/Comments/View/Comments/admin_index.ctp:11
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:28;37
 #: Plugin/Nodes/Config/bootstrap.php:38
-#: Plugin/Nodes/Controller/NodesController.php:109
+#: Plugin/Nodes/Controller/NodesController.php:107
 #: Plugin/Nodes/View/Nodes/admin_create.ctp:5
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:8
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:7
@@ -1014,7 +1014,7 @@ msgid "Node"
 msgstr ""
 
 #: Plugin/Comments/View/Comments/admin_index.ctp:53
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:7;49
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:7;50
 msgid "Created"
 msgstr ""
 
@@ -1092,7 +1092,7 @@ msgid "Comment: %s"
 msgstr "コメント: %s"
 
 #: Plugin/Contacts/Config/bootstrap.php:10;20
-#: Plugin/Contacts/Controller/ContactsController.php:54
+#: Plugin/Contacts/Controller/ContactsController.php:52
 #: Plugin/Contacts/View/Contacts/admin_form.ctp:7
 #: Plugin/Contacts/View/Contacts/admin_index.ctp:3
 #: Plugin/Contacts/View/Messages/admin_form.ctp:7
@@ -1101,90 +1101,90 @@ msgid "Contacts"
 msgstr "コンタクト"
 
 #: Plugin/Contacts/Config/bootstrap.php:29
-#: Plugin/Contacts/Controller/MessagesController.php:65
+#: Plugin/Contacts/Controller/MessagesController.php:63
 #: Plugin/Contacts/View/Messages/admin_form.ctp:8
 #: Plugin/Contacts/View/Messages/admin_index.ctp:8
 msgid "Messages"
 msgstr "メッセージ"
 
-#: Plugin/Contacts/Controller/ContactsController.php:69
+#: Plugin/Contacts/Controller/ContactsController.php:67
 msgid "Add Contact"
 msgstr "コンタクトの追加"
 
-#: Plugin/Contacts/Controller/ContactsController.php:74;98
+#: Plugin/Contacts/Controller/ContactsController.php:72;96
 msgid "The Contact has been saved"
 msgstr "コンタクトは保存されました"
 
-#: Plugin/Contacts/Controller/ContactsController.php:77;101
+#: Plugin/Contacts/Controller/ContactsController.php:75;99
 msgid "The Contact could not be saved. Please, try again."
 msgstr "コンタクトを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Contacts/Controller/ContactsController.php:90
+#: Plugin/Contacts/Controller/ContactsController.php:88
 msgid "Edit Contact"
 msgstr "コンタクトの編集"
 
-#: Plugin/Contacts/Controller/ContactsController.php:93
+#: Plugin/Contacts/Controller/ContactsController.php:91
 msgid "Invalid Contact"
 msgstr "不正なコンタクト"
 
-#: Plugin/Contacts/Controller/ContactsController.php:118
+#: Plugin/Contacts/Controller/ContactsController.php:116
 msgid "Invalid id for Contact"
 msgstr "不正なコンタクトID"
 
-#: Plugin/Contacts/Controller/ContactsController.php:122
+#: Plugin/Contacts/Controller/ContactsController.php:120
 msgid "Contact deleted"
 msgstr "コンタクトを削除しました"
 
-#: Plugin/Contacts/Controller/ContactsController.php:172
+#: Plugin/Contacts/Controller/ContactsController.php:170
 msgid "Your message has been received..."
 msgstr "メッセージを受信しました。"
 
-#: Plugin/Contacts/Controller/ContactsController.php:220
+#: Plugin/Contacts/Controller/ContactsController.php:218
 msgid "Sorry, the message appears to be spam."
 msgstr "申し訳ありません。このメッセージはスパムのようです。"
 
-#: Plugin/Contacts/Controller/ContactsController.php:265
+#: Plugin/Contacts/Controller/ContactsController.php:263
 msgid "[%s] %s"
 msgstr ""
 
-#: Plugin/Contacts/Controller/MessagesController.php:73
+#: Plugin/Contacts/Controller/MessagesController.php:71
 #: Plugin/Contacts/View/Messages/admin_index.ctp:12;47
 msgid "Read"
 msgstr "既読"
 
-#: Plugin/Contacts/Controller/MessagesController.php:87
+#: Plugin/Contacts/Controller/MessagesController.php:85
 msgid "Edit Message"
 msgstr "メッセージの編集"
 
-#: Plugin/Contacts/Controller/MessagesController.php:90
+#: Plugin/Contacts/Controller/MessagesController.php:88
 msgid "Invalid Message"
 msgstr "不正なメッセージ"
 
-#: Plugin/Contacts/Controller/MessagesController.php:95
+#: Plugin/Contacts/Controller/MessagesController.php:93
 msgid "The Message has been saved"
 msgstr "メッセージを保存しました"
 
-#: Plugin/Contacts/Controller/MessagesController.php:98
+#: Plugin/Contacts/Controller/MessagesController.php:96
 msgid "The Message could not be saved. Please, try again."
 msgstr "メッセージを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Contacts/Controller/MessagesController.php:115
+#: Plugin/Contacts/Controller/MessagesController.php:113
 msgid "Invalid id for Message"
 msgstr "不正なメッセージID"
 
-#: Plugin/Contacts/Controller/MessagesController.php:119
+#: Plugin/Contacts/Controller/MessagesController.php:117
 msgid "Message deleted"
 msgstr "メッセージを削除しました"
 
-#: Plugin/Contacts/Controller/MessagesController.php:146
+#: Plugin/Contacts/Controller/MessagesController.php:144
 msgid "Messages deleted."
 msgstr "複数のメッセージを削除しました"
 
-#: Plugin/Contacts/Controller/MessagesController.php:149
+#: Plugin/Contacts/Controller/MessagesController.php:147
 msgid "Messages marked as read"
 msgstr "メッセージを既読にしました"
 
-#: Plugin/Contacts/Controller/MessagesController.php:152
+#: Plugin/Contacts/Controller/MessagesController.php:150
 msgid "Messages marked as unread"
 msgstr "メッセージを未読にしました"
 
@@ -1307,15 +1307,15 @@ msgstr "既読にする"
 msgid "Mark as unread"
 msgstr "未読にする"
 
-#: Plugin/Croogo/Console/Command/CroogoShell.php:29
+#: Plugin/Croogo/Console/Command/CroogoShell.php:27
 msgid "Croogo Utilities"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/CroogoShell.php:31
+#: Plugin/Croogo/Console/Command/CroogoShell.php:29
 msgid "Compile/Generate CSS"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/CroogoShell.php:34
+#: Plugin/Croogo/Console/Command/CroogoShell.php:32
 msgid "Upgrade Croogo"
 msgstr ""
 
@@ -1349,17 +1349,17 @@ msgid "Name of extension"
 msgstr ""
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:165
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:154
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:152
 msgid "Plugin \"%s\" activated successfully."
 msgstr ""
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:170
-#: Plugin/Extensions/Lib/CroogoPlugin.php:505
+#: Plugin/Extensions/Lib/CroogoPlugin.php:506
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr ""
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:184
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:145
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:143
 msgid "Plugin \"%s\" deactivated successfully."
 msgstr ""
 
@@ -1512,20 +1512,20 @@ msgstr ""
 msgid "Command not recognized"
 msgstr ""
 
-#: Plugin/Croogo/Controller/CroogoAppController.php:162
+#: Plugin/Croogo/Controller/CroogoAppController.php:160
 msgid "Site down for maintenance"
 msgstr "サイトはメンテナンス中です"
 
-#: Plugin/Croogo/Controller/CroogoErrorController.php:57
+#: Plugin/Croogo/Controller/CroogoErrorController.php:55
 msgid "Errors in CakeErrorController: %s"
 msgstr ""
 
-#: Plugin/Croogo/Controller/Component/CroogoComponent.php:202
-#: Plugin/Nodes/Controller/NodesController.php:200;682;720
+#: Plugin/Croogo/Controller/Component/CroogoComponent.php:200
+#: Plugin/Nodes/Controller/NodesController.php:198;680;718
 msgid "Invalid content"
 msgstr "不正なコンテンツ"
 
-#: Plugin/Croogo/Controller/Component/CroogoComponent.php:211
+#: Plugin/Croogo/Controller/Component/CroogoComponent.php:209
 msgid "Failed toggling field %s to %s"
 msgstr ""
 
@@ -1589,7 +1589,7 @@ msgid "Croogo %s"
 msgstr ""
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:22
-#: Plugin/Settings/Controller/SettingsController.php:50
+#: Plugin/Settings/Controller/SettingsController.php:48
 #: Plugin/Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
 msgstr "ダッシュボード"
@@ -1640,7 +1640,7 @@ msgstr "セキュリティエラー"
 msgid "Request blackholed due to \"%s\" violation."
 msgstr ""
 
-#: Plugin/Croogo/View/Helper/LayoutHelper.php:96
+#: Plugin/Croogo/View/Helper/LayoutHelper.php:94
 msgid "Method %1$s::%2$s does not exist"
 msgstr ""
 
@@ -1664,15 +1664,26 @@ msgstr "サイトはメンテナンス中です。"
 msgid "content here"
 msgstr "本文"
 
+#: Plugin/Extensions/Config/bootstrap.php:5
+#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:4
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:9
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:7
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:4
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:7
+#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:5
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:6
+msgid "Extensions"
+msgstr "拡張"
+
 #: Plugin/Extensions/Config/bootstrap.php:14
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:62
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:60
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:6
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Themes"
 msgstr "テーマ"
 
 #: Plugin/Extensions/Config/bootstrap.php:23
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:46
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:44
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:10
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:8
@@ -1680,141 +1691,141 @@ msgid "Locales"
 msgstr "ロケール"
 
 #: Plugin/Extensions/Config/bootstrap.php:32
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:71
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:69
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:8
 msgid "Plugins"
 msgstr "プラグイン"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:68
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:66
 msgid "Locale does not exist."
 msgstr "ロケールが存在しません。"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:74
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:72
 msgid "Locale '%s' set as default"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:76
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:74
 msgid "Could not save Locale setting."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:87
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:85
 msgid "Upload a new locale"
 msgstr "新しいロケールのアップロード"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:113;168
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:111;166
 msgid "Invalid locale."
 msgstr "不正なロケール。"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:118
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:116
 msgid "Locale already exists."
 msgstr "ロケールが既に存在します。"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:165
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:163
 msgid "Edit locale: %s"
 msgstr "ロケールの編集: %s"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:175
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "The file %s does not exist."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:185
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:183
 msgid "Locale updated successfully"
 msgstr "ロケールをアップロードしました"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:201
-#: Plugin/Translate/Controller/TranslateController.php:110
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:199
+#: Plugin/Translate/Controller/TranslateController.php:108
 msgid "Invalid locale"
 msgstr "不正なロケール"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:207
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:205
 msgid "Locale deleted successfully."
 msgstr "ロケールを削除しました。"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:209
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:207
 msgid "Local could not be deleted."
 msgstr "ロケールを削除できませんでした。"
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:85
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:83
 msgid "Upload a new plugin"
 msgstr "新しいプラグインのアップロード"
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:110;138;171;192;216
-#: Plugin/Extensions/Lib/CroogoPlugin.php:592
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:108;136;169;190;214
+#: Plugin/Extensions/Lib/CroogoPlugin.php:594
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
 msgstr "不正なプラグイン"
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:114
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:112
 msgid "You cannot delete a plugin that is currently active."
 msgstr "現在有効になっているプラグインは削除できません。"
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:120
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:118
 msgid "Plugin \"%s\" deleted successfully."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:124
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:122
 msgid "Plugin could not be deleted."
 msgstr "プラグインを削除できませんでした。"
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:149
-#: Plugin/Extensions/Lib/CroogoPlugin.php:530
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:147
+#: Plugin/Extensions/Lib/CroogoPlugin.php:532
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:158
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:156
 msgid "Plugin could not be activated. Please, try again."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:173
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:171
 msgid "Plugin \"%s\" migrated successfully."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:176
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:174
 msgid "Plugin \"%s\" could not be migrated. Error: %s"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:198
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:196
 msgid "Plugin %s has been moved up"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:222
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:220
 msgid "Plugin %s has been moved down"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:83
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:81
 msgid "Theme activated."
 msgstr "テーマを有効にしました。"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:85
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:83
 msgid "Theme activation failed."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:97
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:95
 msgid "Upload a new theme"
 msgstr "新しいテーマのアップロード"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:106
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:104
 msgid "Theme uploaded successfully."
 msgstr "テーマをアップロードしました。"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:120
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:118
 msgid "Theme Editor"
 msgstr "テーマエディタ"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:139
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:137
 msgid "Invalid Theme."
 msgstr "不正なテーマ"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:144
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:142
 msgid "Default theme cannot be deleted."
 msgstr "デフォルトテーマは削除できません。"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:147
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:145
 msgid "You cannot delete a theme that is currently active."
 msgstr "現在有効になっているテーマは編集できません。"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:154
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:152
 msgid "Theme deleted successfully."
 msgstr "テーマを削除しました。"
 
@@ -1822,40 +1833,40 @@ msgstr "テーマを削除しました。"
 msgid "Plugin \"%s\" is already active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:503
+#: Plugin/Extensions/Lib/CroogoPlugin.php:504
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:517
+#: Plugin/Extensions/Lib/CroogoPlugin.php:518
 msgid "Plugin \"%s\" is not active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:622
+#: Plugin/Extensions/Lib/CroogoPlugin.php:624
 msgid "%s is already at the first position"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:628;640
+#: Plugin/Extensions/Lib/CroogoPlugin.php:630;642
 msgid "Plugin %s depends on %s"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:633
+#: Plugin/Extensions/Lib/CroogoPlugin.php:635
 msgid "%s is already at the last position"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:644
+#: Plugin/Extensions/Lib/CroogoPlugin.php:646
 msgid "Invalid direction"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:649
+#: Plugin/Extensions/Lib/CroogoPlugin.php:651
 msgid "Plugin %s cannot be reordered"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoTheme.php:122
+#: Plugin/Extensions/Lib/CroogoTheme.php:127
 #: Plugin/Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoTheme.php:143
+#: Plugin/Extensions/Lib/CroogoTheme.php:148
 msgid "Theme %s not found"
 msgstr ""
 
@@ -1915,23 +1926,13 @@ msgstr ""
 msgid "Themes installed via composer are not yet supported."
 msgstr ""
 
-#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:4
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:9
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:7
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:4
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:7
-#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:5
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:6
-msgid "Extensions"
-msgstr "拡張"
-
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:6;25;46
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:13
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:6;24;43
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:14
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:7;27;48
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:14
-#: Plugin/FileManager/Controller/FileManagerController.php:182
+#: Plugin/FileManager/Controller/FileManagerController.php:180
 #: Plugin/FileManager/View/Attachments/admin_add.ctp:8;22;30;45
 #: Plugin/FileManager/View/FileManager/admin_upload.ctp:5;31
 msgid "Upload"
@@ -1954,7 +1955,7 @@ msgid "Activate"
 msgstr "有効化"
 
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:26
-#: Plugin/Menus/View/Links/admin_form.ctp:101
+#: Plugin/Menus/View/Links/admin_form.ctp:102
 #: Plugin/Menus/View/Menus/admin_form.ctp:46
 #: Plugin/Settings/View/Settings/admin_form.ctp:57
 #: Plugin/Settings/View/Settings/admin_view.ctp:19
@@ -1988,20 +1989,24 @@ msgstr "サポートするリージョン:"
 msgid "Available Themes"
 msgstr "利用可能なテーマ"
 
-#: Plugin/FileManager/Config/bootstrap.php:5
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:113
+msgid "No available theme"
+msgstr ""
+
+#: Plugin/FileManager/Config/bootstrap.php:15
 msgid "Media"
 msgstr "メディア"
 
-#: Plugin/FileManager/Config/bootstrap.php:15
-#: Plugin/FileManager/Controller/AttachmentsController.php:101
+#: Plugin/FileManager/Config/bootstrap.php:25
+#: Plugin/FileManager/Controller/AttachmentsController.php:99
 #: Plugin/FileManager/View/Attachments/admin_add.ctp:7
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:7
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:7
 msgid "Attachments"
 msgstr "添付ファイル"
 
-#: Plugin/FileManager/Config/bootstrap.php:24
-#: Plugin/FileManager/Controller/FileManagerController.php:115
+#: Plugin/FileManager/Config/bootstrap.php:34
+#: Plugin/FileManager/Controller/FileManagerController.php:113
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:7
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:4
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:4
@@ -2010,85 +2015,85 @@ msgstr "添付ファイル"
 msgid "File Manager"
 msgstr "ファイルマネージャ"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:115
+#: Plugin/FileManager/Controller/AttachmentsController.php:113
 msgid "Add Attachment"
 msgstr "ファイルを添付"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:124
+#: Plugin/FileManager/Controller/AttachmentsController.php:122
 msgid "Upload failed. Please ensure size does not exceed the server limit."
 msgstr ""
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:131;164
+#: Plugin/FileManager/Controller/AttachmentsController.php:129;162
 msgid "The Attachment has been saved"
 msgstr "添付ファイルは保存されました"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:139;167
+#: Plugin/FileManager/Controller/AttachmentsController.php:137;165
 msgid "The Attachment could not be saved. Please, try again."
 msgstr "添付ファイルは保存されませんでした。もう一度試してみてください。"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:152
+#: Plugin/FileManager/Controller/AttachmentsController.php:150
 msgid "Edit Attachment"
 msgstr "添付ファイルを変更"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:159
+#: Plugin/FileManager/Controller/AttachmentsController.php:157
 msgid "Invalid Attachment"
 msgstr "不正な添付ファイル"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:184;192
+#: Plugin/FileManager/Controller/AttachmentsController.php:182;190
 msgid "Invalid id for Attachment"
 msgstr "不正な添付ファイルID"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:189
+#: Plugin/FileManager/Controller/AttachmentsController.php:187
 msgid "Attachment deleted"
 msgstr "添付ファイルは削除されました"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:120;152;216
+#: Plugin/FileManager/Controller/FileManagerController.php:118;150;214
 msgid "Path %s is restricted"
 msgstr ""
 
-#: Plugin/FileManager/Controller/FileManagerController.php:155
+#: Plugin/FileManager/Controller/FileManagerController.php:153
 msgid "Edit file: %s"
 msgstr "ファイルの編集: %s"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:166
+#: Plugin/FileManager/Controller/FileManagerController.php:164
 msgid "File saved successfully"
 msgstr "ファイルを保存しました"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:195
+#: Plugin/FileManager/Controller/FileManagerController.php:193
 msgid "File uploaded successfully."
 msgstr "ファイルをアップロードしました"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:221
+#: Plugin/FileManager/Controller/FileManagerController.php:219
 msgid "File deleted"
 msgstr "ファイルを削除しました"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:223;251;309;337
+#: Plugin/FileManager/Controller/FileManagerController.php:221;249;307;335
 msgid "An error occured"
 msgstr "エラーが発生しました"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:249
+#: Plugin/FileManager/Controller/FileManagerController.php:247
 msgid "Directory deleted"
 msgstr "ディレクトリを削除しました"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:294
+#: Plugin/FileManager/Controller/FileManagerController.php:292
 #: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:5;14
 msgid "Create Directory"
 msgstr ""
 
-#: Plugin/FileManager/Controller/FileManagerController.php:305
+#: Plugin/FileManager/Controller/FileManagerController.php:303
 msgid "Directory created successfully."
 msgstr "ディレクトリを作成しました"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:323
+#: Plugin/FileManager/Controller/FileManagerController.php:321
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:5
 msgid "Create File"
 msgstr ""
 
-#: Plugin/FileManager/Controller/FileManagerController.php:333
+#: Plugin/FileManager/Controller/FileManagerController.php:331
 msgid "File created successfully."
 msgstr "ファイルを作成しました"
 
-#: Plugin/FileManager/Model/Attachment.php:96
+#: Plugin/FileManager/Model/Attachment.php:94
 msgid "Error during file upload"
 msgstr ""
 
@@ -2191,84 +2196,85 @@ msgstr ""
 msgid "Upload file"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:28
+#: Plugin/Install/Console/Command/InstallShell.php:26
 msgid "Install Utilities"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:59
+#: Plugin/Install/Console/Command/InstallShell.php:57
 msgid "DataSource"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:66
+#: Plugin/Install/Console/Command/InstallShell.php:64
 #: Plugin/Install/View/Install/database.ctp:32
 msgid "Host"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:67
+#: Plugin/Install/Console/Command/InstallShell.php:65
 #: Plugin/Install/View/Install/database.ctp:39
 #: Plugin/Users/View/Users/login.ctp:2
 msgid "Login"
 msgstr "ログイン"
 
-#: Plugin/Install/Console/Command/InstallShell.php:68;98
+#: Plugin/Install/Console/Command/InstallShell.php:66;96
 #: Plugin/Install/View/Install/database.ctp:46
+#: Plugin/Users/View/Users/admin_login.ctp:15
 msgid "Password"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:69
+#: Plugin/Install/Console/Command/InstallShell.php:67
 #: Plugin/Install/View/Install/database.ctp:20
 msgid "Database"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:70
+#: Plugin/Install/Console/Command/InstallShell.php:68
 #: Plugin/Install/View/Install/database.ctp:59
 msgid "Prefix"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:71
+#: Plugin/Install/Console/Command/InstallShell.php:69
 #: Plugin/Install/View/Install/database.ctp:65
 msgid "Port"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:91
+#: Plugin/Install/Console/Command/InstallShell.php:89
 #: Plugin/Install/View/Install/adminuser.ctp:14
 #: Plugin/Users/View/Users/admin_form.ctp:51
 #: Plugin/Users/View/Users/admin_login.ctp:9
 msgid "Username"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:99
+#: Plugin/Install/Console/Command/InstallShell.php:97
 #: Plugin/Install/View/Install/adminuser.ctp:25
 #: Plugin/Users/View/Users/admin_reset_password.ctp:26
 #: Plugin/Users/View/Users/reset.ctp:7
 msgid "Verify Password"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:207
+#: Plugin/Install/Console/Command/InstallShell.php:205
 msgid "Permission %s granted to %s"
 msgstr ""
 
-#: Plugin/Install/Controller/InstallController.php:97
+#: Plugin/Install/Controller/InstallController.php:95
 msgid "Installation: Welcome"
 msgstr "インストール: ようこそ"
 
-#: Plugin/Install/Controller/InstallController.php:112
+#: Plugin/Install/Controller/InstallController.php:110
 msgid "Step 1: Database"
 msgstr "ステップ1: データベース"
 
-#: Plugin/Install/Controller/InstallController.php:139
+#: Plugin/Install/Controller/InstallController.php:137
 msgid "Step 2: Build database"
 msgstr "ステップ2: データベースの構築"
 
-#: Plugin/Install/Controller/InstallController.php:147
+#: Plugin/Install/Controller/InstallController.php:145
 msgid "Warning: Database \"%s\" is not empty."
 msgstr ""
 
-#: Plugin/Install/Controller/InstallController.php:195
+#: Plugin/Install/Controller/InstallController.php:193
 msgid "Installation successful"
 msgstr ""
 
-#: Plugin/Install/Controller/InstallController.php:203
+#: Plugin/Install/Controller/InstallController.php:201
 msgid "Installation failed: Unable to create settings file"
 msgstr ""
 
@@ -2428,7 +2434,7 @@ msgid "Install Croogo"
 msgstr "Croogoをインストール"
 
 #: Plugin/Menus/Config/bootstrap.php:14;24
-#: Plugin/Menus/Controller/MenusController.php:50
+#: Plugin/Menus/Controller/MenusController.php:48
 #: Plugin/Menus/View/Links/admin_form.ctp:8
 #: Plugin/Menus/View/Links/admin_index.ctp:7
 #: Plugin/Menus/View/Menus/admin_form.ctp:7
@@ -2441,75 +2447,75 @@ msgstr "メニュー"
 msgid "Add new"
 msgstr "新規追加"
 
-#: Plugin/Menus/Controller/LinksController.php:103
+#: Plugin/Menus/Controller/LinksController.php:101
 msgid "Links: %s"
 msgstr "リンク: %s"
 
-#: Plugin/Menus/Controller/LinksController.php:129
+#: Plugin/Menus/Controller/LinksController.php:127
 msgid "Add Link"
 msgstr "リンクの追加"
 
-#: Plugin/Menus/Controller/LinksController.php:140;188
+#: Plugin/Menus/Controller/LinksController.php:138;186
 msgid "The Link has been saved"
 msgstr "リンクを保存しました"
 
-#: Plugin/Menus/Controller/LinksController.php:152;200
+#: Plugin/Menus/Controller/LinksController.php:150;198
 msgid "The Link could not be saved. Please, try again."
 msgstr "リンクを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Menus/Controller/LinksController.php:171
+#: Plugin/Menus/Controller/LinksController.php:169
 msgid "Edit Link"
 msgstr "リンクの編集"
 
-#: Plugin/Menus/Controller/LinksController.php:174
+#: Plugin/Menus/Controller/LinksController.php:172
 msgid "Invalid Link"
 msgstr "不正なリンク"
 
-#: Plugin/Menus/Controller/LinksController.php:227;235;268;303
+#: Plugin/Menus/Controller/LinksController.php:225;233;266;301
 msgid "Invalid id for Link"
 msgstr "不正なリンクID"
 
-#: Plugin/Menus/Controller/LinksController.php:247
+#: Plugin/Menus/Controller/LinksController.php:245
 msgid "Link deleted"
 msgstr "リンクを削除しました"
 
-#: Plugin/Menus/Controller/LinksController.php:364
+#: Plugin/Menus/Controller/LinksController.php:362
 msgid "Links deleted."
 msgstr "複数のリンクを削除しました"
 
-#: Plugin/Menus/Controller/LinksController.php:367
+#: Plugin/Menus/Controller/LinksController.php:365
 msgid "Links published"
 msgstr "リンクを公開しました"
 
-#: Plugin/Menus/Controller/LinksController.php:370
+#: Plugin/Menus/Controller/LinksController.php:368
 msgid "Links unpublished"
 msgstr "リンクを非公開にしました"
 
-#: Plugin/Menus/Controller/MenusController.php:64
+#: Plugin/Menus/Controller/MenusController.php:62
 msgid "Add Menu"
 msgstr "メニューの追加"
 
-#: Plugin/Menus/Controller/MenusController.php:69;93
+#: Plugin/Menus/Controller/MenusController.php:67;91
 msgid "The Menu has been saved"
 msgstr "メニューを保存しました"
 
-#: Plugin/Menus/Controller/MenusController.php:72;96
+#: Plugin/Menus/Controller/MenusController.php:70;94
 msgid "The Menu could not be saved. Please, try again."
 msgstr "メニューを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Menus/Controller/MenusController.php:85
+#: Plugin/Menus/Controller/MenusController.php:83
 msgid "Edit Menu"
 msgstr "メニューの編集"
 
-#: Plugin/Menus/Controller/MenusController.php:88
+#: Plugin/Menus/Controller/MenusController.php:86
 msgid "Invalid Menu"
 msgstr "不正なメニュー"
 
-#: Plugin/Menus/Controller/MenusController.php:113
+#: Plugin/Menus/Controller/MenusController.php:111
 msgid "Invalid id for Menu"
 msgstr "不正なメニューID"
 
-#: Plugin/Menus/Controller/MenusController.php:117
+#: Plugin/Menus/Controller/MenusController.php:115
 msgid "Menu deleted"
 msgstr "メニューを削除しました"
 
@@ -2526,11 +2532,11 @@ msgstr "その他"
 msgid "Link to a Node"
 msgstr "ノードへのリンク"
 
-#: Plugin/Menus/View/Links/admin_form.ctp:104
+#: Plugin/Menus/View/Links/admin_form.ctp:105
 msgid "Rel"
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_form.ctp:107
+#: Plugin/Menus/View/Links/admin_form.ctp:108
 msgid "Target"
 msgstr ""
 
@@ -2550,7 +2556,7 @@ msgstr ""
 msgid "View links"
 msgstr "リンクを見る"
 
-#: Plugin/Meta/Controller/Component/MetaComponent.php:45
+#: Plugin/Meta/Controller/Component/MetaComponent.php:47
 msgid "Custom Fields"
 msgstr ""
 
@@ -2581,94 +2587,94 @@ msgstr "除去"
 msgid "List"
 msgstr "リスト"
 
-#: Plugin/Nodes/Controller/NodesController.php:140
+#: Plugin/Nodes/Controller/NodesController.php:138
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:13
 msgid "Create content"
 msgstr "コンテンツの作成"
 
-#: Plugin/Nodes/Controller/NodesController.php:160
+#: Plugin/Nodes/Controller/NodesController.php:158
 msgid "Content type does not exist."
 msgstr "コンテントタイプがありません"
 
-#: Plugin/Nodes/Controller/NodesController.php:171;210
+#: Plugin/Nodes/Controller/NodesController.php:169;208
 msgid "%s has been saved"
 msgstr "%s を保存しました"
 
-#: Plugin/Nodes/Controller/NodesController.php:174;213
+#: Plugin/Nodes/Controller/NodesController.php:172;211
 msgid "%s could not be saved. Please, try again."
 msgstr "%s を保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Nodes/Controller/NodesController.php:179
+#: Plugin/Nodes/Controller/NodesController.php:178
 msgid "Create content: %s"
 msgstr "コンテンツの作成: %s"
 
-#: Plugin/Nodes/Controller/NodesController.php:222
+#: Plugin/Nodes/Controller/NodesController.php:220
 msgid "Edit %s: %s"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:234
+#: Plugin/Nodes/Controller/NodesController.php:232
 msgid "Paths updated."
 msgstr "パスを更新しました"
 
-#: Plugin/Nodes/Controller/NodesController.php:237
+#: Plugin/Nodes/Controller/NodesController.php:235
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:254
+#: Plugin/Nodes/Controller/NodesController.php:252
 msgid "Invalid id for Node"
 msgstr "不正なノードID"
 
-#: Plugin/Nodes/Controller/NodesController.php:258
+#: Plugin/Nodes/Controller/NodesController.php:256
 msgid "Node deleted"
 msgstr "ノードを削除しました"
 
-#: Plugin/Nodes/Controller/NodesController.php:319
+#: Plugin/Nodes/Controller/NodesController.php:317
 msgid "Nodes deleted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:322
+#: Plugin/Nodes/Controller/NodesController.php:320
 msgid "Nodes published"
 msgstr "ノードを公開しました"
 
-#: Plugin/Nodes/Controller/NodesController.php:325
+#: Plugin/Nodes/Controller/NodesController.php:323
 msgid "Nodes unpublished"
 msgstr "ノードを非公開にしました"
 
-#: Plugin/Nodes/Controller/NodesController.php:328
+#: Plugin/Nodes/Controller/NodesController.php:326
 msgid "Nodes promoted"
 msgstr "ノードを昇格しました"
 
-#: Plugin/Nodes/Controller/NodesController.php:331
+#: Plugin/Nodes/Controller/NodesController.php:329
 msgid "Nodes unpromoted"
 msgstr "ノードを降格しました"
 
-#: Plugin/Nodes/Controller/NodesController.php:382;474;538;620
+#: Plugin/Nodes/Controller/NodesController.php:380;472;536;618
 msgid "Invalid content type."
 msgstr "不正なコンテントタイプ"
 
-#: Plugin/Nodes/Controller/NodesController.php:437
+#: Plugin/Nodes/Controller/NodesController.php:435
 msgid "Invalid Term."
 msgstr "不正な期間"
 
-#: Plugin/Nodes/Controller/NodesController.php:520
+#: Plugin/Nodes/Controller/NodesController.php:518
 msgid "Nodes"
 msgstr "ノード"
 
-#: Plugin/Nodes/Controller/NodesController.php:630
+#: Plugin/Nodes/Controller/NodesController.php:628
 msgid "Search Results: %s"
 msgstr "検索結果: %s"
 
-#: Plugin/Nodes/Model/Node.php:393
+#: Plugin/Nodes/Model/Node.php:391
 msgid "Invalid action to perform"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:397
+#: Plugin/Nodes/Model/Node.php:395
 msgid "No target to process action upon"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:428
+#: Plugin/Nodes/Model/Node.php:426
 msgid "Invalid Content Type"
 msgstr ""
 
@@ -2699,7 +2705,7 @@ msgstr ""
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:32
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:40
-#: Plugin/Taxonomy/Controller/TypesController.php:55
+#: Plugin/Taxonomy/Controller/TypesController.php:53
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:25
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Type"
@@ -2718,7 +2724,7 @@ msgid "No"
 msgstr "いいえ"
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:50
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:46
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:47
 msgid "Promoted"
 msgstr "昇格済み"
 
@@ -2785,7 +2791,7 @@ msgid "No items found."
 msgstr "アイテムが見つかりません。"
 
 #: Plugin/Settings/Config/bootstrap.php:12
-#: Plugin/Settings/Controller/SettingsController.php:60
+#: Plugin/Settings/Controller/SettingsController.php:58
 #: Plugin/Settings/View/Languages/admin_form.ctp:7
 #: Plugin/Settings/View/Languages/admin_index.ctp:6
 #: Plugin/Settings/View/Languages/admin_select.ctp:5
@@ -2816,7 +2822,7 @@ msgid "Service"
 msgstr "サービス"
 
 #: Plugin/Settings/Config/bootstrap.php:95
-#: Plugin/Settings/Controller/LanguagesController.php:42
+#: Plugin/Settings/Controller/LanguagesController.php:40
 #: Plugin/Settings/View/Languages/admin_index.ctp:7
 #: Plugin/Settings/View/Languages/admin_select.ctp:6
 msgid "Languages"
@@ -2883,81 +2889,81 @@ msgid "Delete?"
 msgstr ""
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:194
-#: Plugin/Settings/Controller/SettingsController.php:145
+#: Plugin/Settings/Controller/SettingsController.php:143
 msgid "Setting deleted"
 msgstr "設定を削除しました"
 
-#: Plugin/Settings/Controller/LanguagesController.php:56
+#: Plugin/Settings/Controller/LanguagesController.php:54
 msgid "Add Language"
 msgstr "言語の追加"
 
-#: Plugin/Settings/Controller/LanguagesController.php:61;85
+#: Plugin/Settings/Controller/LanguagesController.php:59;83
 msgid "The Language has been saved"
 msgstr "言語を保存しました"
 
-#: Plugin/Settings/Controller/LanguagesController.php:64;88
+#: Plugin/Settings/Controller/LanguagesController.php:62;86
 msgid "The Language could not be saved. Please, try again."
 msgstr "言語を保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Settings/Controller/LanguagesController.php:77
+#: Plugin/Settings/Controller/LanguagesController.php:75
 msgid "Edit Language"
 msgstr "言語の編集"
 
-#: Plugin/Settings/Controller/LanguagesController.php:80
-#: Plugin/Translate/Controller/TranslateController.php:128
+#: Plugin/Settings/Controller/LanguagesController.php:78
+#: Plugin/Translate/Controller/TranslateController.php:126
 msgid "Invalid Language"
 msgstr "不正な言語"
 
-#: Plugin/Settings/Controller/LanguagesController.php:105
+#: Plugin/Settings/Controller/LanguagesController.php:103
 msgid "Invalid id for Language"
 msgstr "不正な言語ID"
 
-#: Plugin/Settings/Controller/LanguagesController.php:109
+#: Plugin/Settings/Controller/LanguagesController.php:107
 msgid "Language deleted"
 msgstr "言語を削除しました"
 
-#: Plugin/Settings/Controller/LanguagesController.php:164
+#: Plugin/Settings/Controller/LanguagesController.php:162
 msgid "Select a language"
 msgstr "言語を選択してください"
 
-#: Plugin/Settings/Controller/SettingsController.php:79
+#: Plugin/Settings/Controller/SettingsController.php:77
 msgid "Invalid Setting."
 msgstr "不正な設定"
 
-#: Plugin/Settings/Controller/SettingsController.php:92
+#: Plugin/Settings/Controller/SettingsController.php:90
 msgid "Add Setting"
 msgstr "設定の追加"
 
-#: Plugin/Settings/Controller/SettingsController.php:97;121
+#: Plugin/Settings/Controller/SettingsController.php:95;119
 msgid "The Setting has been saved"
 msgstr "設定を保存しました"
 
-#: Plugin/Settings/Controller/SettingsController.php:100;124
+#: Plugin/Settings/Controller/SettingsController.php:98;122
 msgid "The Setting could not be saved. Please, try again."
 msgstr "設定を保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Settings/Controller/SettingsController.php:113
+#: Plugin/Settings/Controller/SettingsController.php:111
 #: Plugin/Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr "設定の編集"
 
-#: Plugin/Settings/Controller/SettingsController.php:116
+#: Plugin/Settings/Controller/SettingsController.php:114
 msgid "Invalid Setting"
 msgstr "不正な設定"
 
-#: Plugin/Settings/Controller/SettingsController.php:141
+#: Plugin/Settings/Controller/SettingsController.php:139
 msgid "Invalid id for Setting"
 msgstr "不正な設定ID"
 
-#: Plugin/Settings/Controller/SettingsController.php:158
+#: Plugin/Settings/Controller/SettingsController.php:156
 msgid "Settings: %s"
 msgstr "設定: %s"
 
-#: Plugin/Settings/Controller/SettingsController.php:162
+#: Plugin/Settings/Controller/SettingsController.php:160
 msgid "Settings updated successfully"
 msgstr "設定を更新しました"
 
-#: Plugin/Settings/Controller/SettingsController.php:176
+#: Plugin/Settings/Controller/SettingsController.php:174
 msgid "Invalid Setting key"
 msgstr "不正な設定キー"
 
@@ -3000,6 +3006,10 @@ msgstr "例. text or textarea"
 msgid "Editable"
 msgstr ""
 
+#: Plugin/Settings/View/Settings/admin_prefix.ctp:63
+msgid "Saving"
+msgstr ""
+
 #: Plugin/Settings/View/Settings/admin_view.ctp:2
 msgid "Setting"
 msgstr "設定"
@@ -3033,79 +3043,79 @@ msgstr ""
 msgid "Taxonomy"
 msgstr "分類"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:66
+#: Plugin/Taxonomy/Controller/TermsController.php:64
 msgid "Invalid Vocabulary ID."
 msgstr "不正なボキャブラリID"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:72
+#: Plugin/Taxonomy/Controller/TermsController.php:70
 msgid "Vocabulary: %s"
 msgstr "ボキャブラリ: %s"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:112
+#: Plugin/Taxonomy/Controller/TermsController.php:110
 msgid "%s: Add Term"
 msgstr "%s: 用語の追加"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:122;226
+#: Plugin/Taxonomy/Controller/TermsController.php:120;224
 msgid "Term with same slug already exists in the vocabulary."
 msgstr "このボキャブラリには同じスラグが存在しています。"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:135;240
+#: Plugin/Taxonomy/Controller/TermsController.php:133;238
 msgid "Term saved successfuly."
 msgstr "用語を保存しました"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:141;246
+#: Plugin/Taxonomy/Controller/TermsController.php:139;244
 msgid "Term could not be added to the vocabulary. Please try again."
 msgstr "用語をボキャブラリに保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:145;250
+#: Plugin/Taxonomy/Controller/TermsController.php:143;248
 msgid "Term could not be saved. Please try again."
 msgstr "用語を保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:201
+#: Plugin/Taxonomy/Controller/TermsController.php:199
 msgid "%s: Edit Term"
 msgstr "%s: 用語の編集"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:270;310;351
+#: Plugin/Taxonomy/Controller/TermsController.php:268;308;349
 msgid "Invalid id for Term"
 msgstr "不正な用語ID"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:289
+#: Plugin/Taxonomy/Controller/TermsController.php:287
 msgid "Term deleted"
 msgstr "用語を削除しました"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:291
+#: Plugin/Taxonomy/Controller/TermsController.php:289
 msgid "Term could not be deleted. Please, try again."
 msgstr "用語を削除できませんでした。もう一度試してみてください。"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:70
+#: Plugin/Taxonomy/Controller/TypesController.php:68
 msgid "Add Type"
 msgstr "タイプの追加"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:75;102
+#: Plugin/Taxonomy/Controller/TypesController.php:73;100
 msgid "The Type has been saved"
 msgstr "タイプを保存しました"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:78;105
+#: Plugin/Taxonomy/Controller/TypesController.php:76;103
 msgid "The Type could not be saved. Please, try again."
 msgstr "タイプを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:94
+#: Plugin/Taxonomy/Controller/TypesController.php:92
 msgid "Edit Type"
 msgstr "タイプの編集"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:97
+#: Plugin/Taxonomy/Controller/TypesController.php:95
 msgid "Invalid Type"
 msgstr "不正なタイプ"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:125
+#: Plugin/Taxonomy/Controller/TypesController.php:123
 msgid "Invalid id for Type"
 msgstr "不正なタイプID"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:129
+#: Plugin/Taxonomy/Controller/TypesController.php:127
 msgid "Type deleted"
 msgstr "タイプを削除しました"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:42
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:40
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:12;19
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:8
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:11;17
@@ -3113,31 +3123,31 @@ msgstr "タイプを削除しました"
 msgid "Vocabularies"
 msgstr "ボキャブラリ"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:56
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:54
 msgid "Add Vocabulary"
 msgstr "ボキャブラリを追加"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:61;88
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:59;86
 msgid "The Vocabulary has been saved"
 msgstr "ボキャブラリを保存しました"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:64;91
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:62;89
 msgid "The Vocabulary could not be saved. Please, try again."
 msgstr "ボキャブラリを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:80
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:78
 msgid "Edit Vocabulary"
 msgstr "ボキャブラリを編集"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:83
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:81
 msgid "Invalid Vocabulary"
 msgstr "不正なボキャブラリ"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:111
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:109
 msgid "Invalid id for Vocabulary"
 msgstr "不正なボキャブラリID"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:115
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:113
 msgid "Vocabulary deleted"
 msgstr "ボキャブラリを削除しました"
 
@@ -3190,43 +3200,43 @@ msgstr ""
 msgid "View terms"
 msgstr "用語を見る"
 
-#: Plugin/Translate/Controller/TranslateController.php:47;101
+#: Plugin/Translate/Controller/TranslateController.php:45;99
 msgid "Invalid ID."
 msgstr "不正なID"
 
-#: Plugin/Translate/Controller/TranslateController.php:59;191
+#: Plugin/Translate/Controller/TranslateController.php:57;189
 msgid "Invalid model."
 msgstr "不正なモデル"
 
-#: Plugin/Translate/Controller/TranslateController.php:70;139;202
+#: Plugin/Translate/Controller/TranslateController.php:68;137;200
 msgid "Invalid record."
 msgstr "不正なレコード"
 
-#: Plugin/Translate/Controller/TranslateController.php:77
+#: Plugin/Translate/Controller/TranslateController.php:75
 msgid "Translations: %s"
 msgstr "翻訳: %s"
 
-#: Plugin/Translate/Controller/TranslateController.php:146
+#: Plugin/Translate/Controller/TranslateController.php:144
 msgid "Translate content: %s (%s)"
 msgstr "コンテンツの翻訳: %s (%s)"
 
-#: Plugin/Translate/Controller/TranslateController.php:153
+#: Plugin/Translate/Controller/TranslateController.php:151
 msgid "Record has been translated"
 msgstr "レコードを翻訳しました"
 
-#: Plugin/Translate/Controller/TranslateController.php:160
+#: Plugin/Translate/Controller/TranslateController.php:158
 msgid "Record could not be translated. Please, try again."
 msgstr "レコードを翻訳できませんでした。もう一度試してみてください。"
 
-#: Plugin/Translate/Controller/TranslateController.php:179
+#: Plugin/Translate/Controller/TranslateController.php:177
 msgid "Invalid Locale or ID"
 msgstr "不正なロケールまたはID"
 
-#: Plugin/Translate/Controller/TranslateController.php:217
+#: Plugin/Translate/Controller/TranslateController.php:215
 msgid "Translation for the locale deleted successfully."
 msgstr "このロケールの翻訳を削除しました。"
 
-#: Plugin/Translate/Controller/TranslateController.php:219
+#: Plugin/Translate/Controller/TranslateController.php:217
 msgid "Translation for the locale could not be deleted."
 msgstr "このロケールの翻訳を削除できませんでした。"
 
@@ -3241,7 +3251,7 @@ msgid "Translate"
 msgstr ""
 
 #: Plugin/Users/Config/bootstrap.php:42
-#: Plugin/Users/Controller/RolesController.php:42
+#: Plugin/Users/Controller/RolesController.php:40
 #: Plugin/Users/View/Roles/admin_form.ctp:6
 #: Plugin/Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
@@ -3267,141 +3277,141 @@ msgstr ""
 msgid "Password for '%s' has been changed"
 msgstr ""
 
-#: Plugin/Users/Controller/RolesController.php:57
+#: Plugin/Users/Controller/RolesController.php:55
 msgid "Add Role"
 msgstr "ロールの追加"
 
-#: Plugin/Users/Controller/RolesController.php:62;86
+#: Plugin/Users/Controller/RolesController.php:60;84
 msgid "The Role has been saved"
 msgstr "ロールを保存しました"
 
-#: Plugin/Users/Controller/RolesController.php:65;89
+#: Plugin/Users/Controller/RolesController.php:63;87
 msgid "The Role could not be saved. Please, try again."
 msgstr "ロールを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Users/Controller/RolesController.php:78
+#: Plugin/Users/Controller/RolesController.php:76
 msgid "Edit Role"
 msgstr "ロールの編集"
 
-#: Plugin/Users/Controller/RolesController.php:81
+#: Plugin/Users/Controller/RolesController.php:79
 msgid "Invalid Role"
 msgstr "不正なロール"
 
-#: Plugin/Users/Controller/RolesController.php:106
+#: Plugin/Users/Controller/RolesController.php:104
 msgid "Invalid id for Role"
 msgstr "不正なロールID"
 
-#: Plugin/Users/Controller/RolesController.php:110
+#: Plugin/Users/Controller/RolesController.php:108
 msgid "Role deleted"
 msgstr "ロールを削除しました"
 
-#: Plugin/Users/Controller/UsersController.php:79
+#: Plugin/Users/Controller/UsersController.php:77
 msgid ""
 "You have reached maximum limit for failed login attempts. Please try again "
 "after a few minutes."
 msgstr ""
 "ログイン試行回数が制限に達しました。数分後にもう一度試してみてください。"
 
-#: Plugin/Users/Controller/UsersController.php:138;161
+#: Plugin/Users/Controller/UsersController.php:136;159
 msgid "The User has been saved"
 msgstr "ユーザーを保存しました"
 
-#: Plugin/Users/Controller/UsersController.php:141;164;333
+#: Plugin/Users/Controller/UsersController.php:139;162;329
 msgid "The User could not be saved. Please, try again."
 msgstr "ユーザーを保存できませんでした。もう一度試してみてください。"
 
-#: Plugin/Users/Controller/UsersController.php:183
+#: Plugin/Users/Controller/UsersController.php:181
 msgid "Invalid User"
 msgstr "不正なユーザー"
 
-#: Plugin/Users/Controller/UsersController.php:188
+#: Plugin/Users/Controller/UsersController.php:186
 msgid "Password has been reset."
 msgstr "パスワードをリセットしました。"
 
-#: Plugin/Users/Controller/UsersController.php:191
+#: Plugin/Users/Controller/UsersController.php:189
 msgid "Password could not be reset. Please, try again."
 msgstr "パスワードをリセットできませんでした。もう一度試してみてください。"
 
-#: Plugin/Users/Controller/UsersController.php:208
+#: Plugin/Users/Controller/UsersController.php:204
 msgid "Invalid id for User"
 msgstr "不正なユーザーID"
 
-#: Plugin/Users/Controller/UsersController.php:212
+#: Plugin/Users/Controller/UsersController.php:208
 msgid "User deleted"
 msgstr "ユーザーを削除しました"
 
-#: Plugin/Users/Controller/UsersController.php:215
+#: Plugin/Users/Controller/UsersController.php:211
 msgid "User cannot be deleted"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:227
+#: Plugin/Users/Controller/UsersController.php:223
 msgid "Admin Login"
 msgstr "管理者ログイン"
 
-#: Plugin/Users/Controller/UsersController.php:236
+#: Plugin/Users/Controller/UsersController.php:232
 msgid "Incorrect username or password"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:251;492
+#: Plugin/Users/Controller/UsersController.php:247;488
 msgid "Log out successful."
 msgstr "ログアウトしました。"
 
-#: Plugin/Users/Controller/UsersController.php:306
+#: Plugin/Users/Controller/UsersController.php:302
 msgid "Register"
 msgstr "登録"
 
-#: Plugin/Users/Controller/UsersController.php:322
+#: Plugin/Users/Controller/UsersController.php:318
 msgid "[%s] Please activate your account"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:329
+#: Plugin/Users/Controller/UsersController.php:325
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
 msgstr "あなたのアカウントを登録しました。説明のメールを送信しました。"
 
-#: Plugin/Users/Controller/UsersController.php:361
+#: Plugin/Users/Controller/UsersController.php:357
 msgid "Account activated successfully."
 msgstr "アカウントを有効にしました。"
 
-#: Plugin/Users/Controller/UsersController.php:386
+#: Plugin/Users/Controller/UsersController.php:382
 msgid "Forgot Password"
 msgstr "パスワードを忘れた"
 
-#: Plugin/Users/Controller/UsersController.php:391
+#: Plugin/Users/Controller/UsersController.php:387
 msgid "Invalid username."
 msgstr "不正なユーザー名"
 
-#: Plugin/Users/Controller/UsersController.php:403
+#: Plugin/Users/Controller/UsersController.php:399
 msgid "[%s] Reset Password"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:411
+#: Plugin/Users/Controller/UsersController.php:407
 msgid "An email has been sent with instructions for resetting your password."
 msgstr "パスワードをリセットする手順をメールしました"
 
-#: Plugin/Users/Controller/UsersController.php:414;456
+#: Plugin/Users/Controller/UsersController.php:410;452
 msgid "An error occurred. Please try again."
 msgstr "エラーが発生しました。もう一度試してみてください。"
 
-#: Plugin/Users/Controller/UsersController.php:428
+#: Plugin/Users/Controller/UsersController.php:424
 #: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
 msgid "Reset Password"
 msgstr "パスワードをリセット"
 
-#: Plugin/Users/Controller/UsersController.php:453
+#: Plugin/Users/Controller/UsersController.php:449
 msgid "Your password has been reset successfully."
 msgstr "あなたのパスワードをリセットしました。"
 
-#: Plugin/Users/Controller/UsersController.php:470
+#: Plugin/Users/Controller/UsersController.php:466
 msgid "Log in"
 msgstr "ログイン"
 
-#: Plugin/Users/Controller/UsersController.php:510
+#: Plugin/Users/Controller/UsersController.php:506
 msgid "Invalid User."
 msgstr "不正なユーザー"
 
-#: Plugin/Users/Model/User.php:222
+#: Plugin/Users/Model/User.php:220
 msgid "Passwords do not match. Please, try again."
 msgstr ""
 
