@@ -202,7 +202,7 @@ msgstr "<success>Actualizacion Aco Completa</success>"
 
 #: Plugin/Acl/Lib/AclExtras.php:240
 msgid "Skipped Aco node: <warning>%s</warning>"
-msgstr "Se paso por alto el nodo: <warning>%s</warning>
+msgstr "Se paso por alto el nodo: <warning>%s</warning>"
 
 #: Plugin/Acl/Lib/AclExtras.php:260
 msgid "Deleted %s and all children"
