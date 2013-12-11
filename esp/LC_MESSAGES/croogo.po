@@ -2797,7 +2797,7 @@ msgstr "Usuario"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:68
 msgid "promoted"
-msgstr "prmovido"
+msgstr "promovido"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:111
 msgid "Applying to selected"
