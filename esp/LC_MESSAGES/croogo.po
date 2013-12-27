@@ -62,7 +62,7 @@ msgid ""
 "contents.Will also remove orphaned entries that no longer have a matching "
 "contents"
 msgstr ""
-"Ejecuta una sincronizacion completa d ela tabla ACO. Esto creara nuevos ACOs "
+"Ejecuta una sincronizacion completa de la tabla ACO. Esto creara nuevos ACOs "
 "o contenidos faltantes. Tambien removera entradas huerfanas que no tengan "
 "contenido existente"
 
