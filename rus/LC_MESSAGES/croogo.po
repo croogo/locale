@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Croogo\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
 "PO-Revision-Date: 2010-08-06 20:35+0300\n"
-"Last-Translator: Black Sea Group <bs@bs-group.zip>\n"
+"Last-Translator: Sitex <gsitex@gmail.com>\n"
 "Language-Team: BS-Group <bs@bs-group.biz>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -268,7 +268,7 @@ msgstr "Пользователи"
 #: Plugin/Users/View/Roles/admin_form.ctp:13
 #: Plugin/Users/View/Users/admin_form.ctp:17
 msgid "Add"
-msgstr ""
+msgstr "Добавление"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:27
 msgid "Action"
@@ -371,7 +371,7 @@ msgstr "OK"
 #: Plugin/Users/View/Users/admin_form.ctp:74
 #: Plugin/Users/View/Users/admin_reset_password.ctp:38
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:21
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:19
@@ -420,7 +420,7 @@ msgstr "Редактировать Actions"
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:40
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:14
 msgid "Id"
-msgstr ""
+msgstr "#"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:106
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:7
@@ -463,7 +463,7 @@ msgstr "Вниз"
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:43
 #: Plugin/Translate/View/Translate/admin_index.ctp:54
 msgid "Edit this item"
-msgstr ""
+msgstr "Править"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:121
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:19
@@ -481,7 +481,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:47
 #: Plugin/Translate/View/Translate/admin_index.ctp:63
 msgid "Remove this item"
-msgstr ""
+msgstr "Удалить"
 
 #: Plugin/Acl/View/AclActions/admin_index.ctp:125
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:20
@@ -735,7 +735,7 @@ msgstr "если вы не уверены, выберите 'Нет'"
 #: Plugin/Contacts/View/Messages/admin_form.ctp:44
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:56
 msgid "Body"
-msgstr ""
+msgstr "Текст"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:57
 #: Plugin/Menus/View/Links/admin_form.ctp:98
@@ -765,7 +765,7 @@ msgstr ""
 #: Plugin/Menus/View/Menus/admin_form.ctp:66
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:74
 msgid "Apply"
-msgstr ""
+msgstr "Применить"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:98
 #: Plugin/Blocks/View/Regions/admin_form.ctp:61
@@ -792,7 +792,7 @@ msgstr ""
 #: Plugin/Users/View/Roles/admin_form.ctp:51
 #: Plugin/Users/View/Users/admin_form.ctp:72
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: Plugin/Blocks/View/Blocks/admin_form.ctp:101
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:25
@@ -1023,7 +1023,7 @@ msgstr ""
 #: Plugin/Comments/View/Comments/admin_index.ctp:53
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:7;50
 msgid "Created"
-msgstr ""
+msgstr "Дата"
 
 #: Plugin/Comments/View/Comments/rss/index.ctp:17
 msgid "Comment on"
@@ -1396,11 +1396,11 @@ msgstr "Плагин"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:222;248
 msgid "Author"
-msgstr ""
+msgstr "Автор"
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:248
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:81
 msgid "Installing with Composer..."
@@ -1566,30 +1566,28 @@ msgid "New %s"
 msgstr ""
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:128
-msgid ""
-"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
-"starting on record {:start}, ending on {:end}"
-msgstr ""
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Страница {:page} из {:pages}, записи с {:start} по {:end}, всего записей: {:count}"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:133
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:90
 msgid "first"
-msgstr ""
+msgstr "вначало"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:134
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:91
 msgid "prev"
-msgstr ""
+msgstr "назад"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:136
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:93
 msgid "next"
-msgstr ""
+msgstr "вперед"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:137
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:94
 msgid "last"
-msgstr ""
+msgstr "вконец"
 
 #: Plugin/Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
@@ -1607,15 +1605,15 @@ msgstr "На сайт"
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:34
 msgid "You are logged in as: %s"
-msgstr ""
+msgstr "Вы зашли как: %s"
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:38
 msgid "Log out"
-msgstr ""
+msgstr "Выход"
 
 #: Plugin/Croogo/View/Elements/admin/modal.ctp:19
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: Plugin/Croogo/View/Elements/admin/search.ctp:39
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:53
@@ -2187,7 +2185,7 @@ msgstr ""
 #: Plugin/Nodes/View/Nodes/admin_create.ctp:6
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:13
 msgid "Create"
-msgstr ""
+msgstr "Добавить"
 
 #: Plugin/FileManager/View/FileManager/admin_create_file.ctp:32
 msgid "File"
@@ -2228,7 +2226,7 @@ msgstr "Войти"
 #: Plugin/Install/View/Install/database.ctp:46
 #: Plugin/Users/View/Users/admin_login.ctp:15
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: Plugin/Install/Console/Command/InstallShell.php:67
 #: Plugin/Install/View/Install/database.ctp:20
@@ -2250,14 +2248,14 @@ msgstr ""
 #: Plugin/Users/View/Users/admin_form.ctp:51
 #: Plugin/Users/View/Users/admin_login.ctp:9
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 #: Plugin/Install/Console/Command/InstallShell.php:97
 #: Plugin/Install/View/Install/adminuser.ctp:25
 #: Plugin/Users/View/Users/admin_reset_password.ctp:26
 #: Plugin/Users/View/Users/reset.ctp:7
 msgid "Verify Password"
-msgstr ""
+msgstr "Повтор пароля"
 
 #: Plugin/Install/Console/Command/InstallShell.php:205
 msgid "Permission %s granted to %s"
@@ -2559,7 +2557,7 @@ msgstr "Меню"
 
 #: Plugin/Menus/View/Menus/admin_index.ctp:18
 msgid "Link Count"
-msgstr ""
+msgstr "Кол-во ссылок"
 
 #: Plugin/Menus/View/Menus/admin_index.ctp:33
 msgid "View links"
@@ -2567,7 +2565,7 @@ msgstr "Открыть ссылки"
 
 #: Plugin/Meta/Controller/Component/MetaComponent.php:47
 msgid "Custom Fields"
-msgstr ""
+msgstr "Пользовательские поля"
 
 #: Plugin/Meta/View/Elements/admin/meta_tab.ctp:19
 msgid "Add another field"
@@ -2710,7 +2708,7 @@ msgstr "Поиск"
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:25
 msgid "Search..."
-msgstr ""
+msgstr "Поиск..."
 
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:32
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:40
@@ -2735,7 +2733,7 @@ msgstr "Нет"
 #: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:50
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:47
 msgid "Promoted"
-msgstr "Повышен"
+msgstr "На главной"
 
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:4
 msgid "Sort by:"
@@ -2745,11 +2743,11 @@ msgstr "Сортировать по:"
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:55
 #: Plugin/Taxonomy/View/Terms/admin_index.ctp:42
 msgid "Slug"
-msgstr ""
+msgstr "Идентификатор"
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:53
 msgid "Excerpt"
-msgstr ""
+msgstr "Отрывок"
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:82
 msgid "Promoted to front page"
@@ -2757,28 +2755,28 @@ msgstr " На Главной "
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:86
 msgid "Publish as "
-msgstr ""
+msgstr	"Автор: "
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:41
 #: Plugin/Users/View/Users/admin_form.ctp:35
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:68
 msgid "promoted"
-msgstr ""
+msgstr "на главной"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:111
 msgid "Applying to selected"
-msgstr ""
+msgstr "Применить к выбранным"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:116
 msgid "Promote"
-msgstr "Продвигать"
+msgstr "Поместить на главной"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:117
 msgid "Unpromote"
-msgstr "Убирать"
+msgstr "Снять с главной"
 
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:130
 msgid "%s selected items?"
@@ -3045,12 +3043,12 @@ msgstr "Новая настройка"
 
 #: Plugin/Taxonomy/Config/bootstrap.php:15
 msgid "Content Types"
-msgstr ""
+msgstr "Типы контента"
 
 #: Plugin/Taxonomy/Config/bootstrap.php:26
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:26
 msgid "Taxonomy"
-msgstr "Таксономия"
+msgstr "Классификация"
 
 #: Plugin/Taxonomy/Controller/TermsController.php:64
 msgid "Invalid Vocabulary ID."
@@ -3357,7 +3355,7 @@ msgstr ""
 
 #: Plugin/Users/Controller/UsersController.php:232
 msgid "Incorrect username or password"
-msgstr ""
+msgstr "Неверное имя пользователя или пароль"
 
 #: Plugin/Users/Controller/UsersController.php:247;488
 msgid "Log out successful."
@@ -3365,11 +3363,11 @@ msgstr "Вы вышли из системы."
 
 #: Plugin/Users/Controller/UsersController.php:302
 msgid "Register"
-msgstr "Регистрация"
+msgstr "Зарегистрироваться"
 
 #: Plugin/Users/Controller/UsersController.php:318
 msgid "[%s] Please activate your account"
-msgstr ""
+msgstr "[%s] Активация учетной записи"
 
 #: Plugin/Users/Controller/UsersController.php:325
 msgid ""
@@ -3393,12 +3391,11 @@ msgstr "Неверное имя пользователя"
 
 #: Plugin/Users/Controller/UsersController.php:399
 msgid "[%s] Reset Password"
-msgstr ""
+msgstr "[%s] Сброс пароля"
 
 #: Plugin/Users/Controller/UsersController.php:407
 msgid "An email has been sent with instructions for resetting your password."
-msgstr ""
-"На ваш электронный адрес выслано письмо с инструкциями восстановления пароля"
+msgstr На ваш электронный адрес выслано письмо с инструкциями восстановления пароля"
 
 #: Plugin/Users/Controller/UsersController.php:410;452
 msgid "An error occurred. Please try again."
@@ -3423,7 +3420,7 @@ msgstr "Неверный пользователь"
 
 #: Plugin/Users/Model/User.php:220
 msgid "Passwords do not match. Please, try again."
-msgstr ""
+msgstr "Пароли не совпадают"
 
 #: Plugin/Users/View/Emails/text/forgot_password.ctp:1
 #: Plugin/Users/View/Emails/text/register.ctp:1
@@ -3517,7 +3514,7 @@ msgstr ""
 #: Plugin/Nodes/Model/Node.php:validation
 #: Plugin/Users/Model/User.php:validation username;validation
 msgid "This field cannot be left blank."
-msgstr ""
+msgstr "Это обязательное поле"
 
 #: Plugin/Comments/Model/Comment.php:validation for field email
 msgid "Please enter a valid email address."
@@ -3527,19 +3524,19 @@ msgstr ""
 #: Plugin/Contacts/Model/Message.php:validation
 #: Plugin/Users/Model/User.php:validation
 msgid "Please provide a valid email address."
-msgstr ""
+msgstr "Укажите верный почтовый ящик."
 
 #: Plugin/FileManager/Model/Attachment.php:validation for field slug
 #: Plugin/Nodes/Model/Node.php:validation
 #: Plugin/Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
-msgstr ""
+msgstr "Идентификатор уже использован"
 
 #: Plugin/FileManager/Model/Attachment.php:validation for field slug
 #: Plugin/Nodes/Model/Node.php:validation
 #: Plugin/Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
-msgstr ""
+msgstr "Идентификатор не может быть пустым"
 
 #: Plugin/Menus/Model/Link.php:validation for field link
 msgid "Link cannot be empty."
@@ -3556,23 +3553,23 @@ msgstr ""
 #: Plugin/Users/Model/Role.php:validation for field title;validation alias
 #: Plugin/Users/Model/User.php:validation username;validation name
 msgid "This field must be alphanumeric"
-msgstr ""
+msgstr "Только латинские буквы"
 
 #: Plugin/Users/Model/User.php:validation for field username
 msgid "The username has already been taken."
-msgstr ""
+msgstr "К сожалению, выбранный логин уже занят"
 
 #: Plugin/Users/Model/User.php:validation for field email
 msgid "Email address already in use."
-msgstr ""
+msgstr "Адрес электронной почты уже используется"
 
 #: Plugin/Users/Model/User.php:validation for field password
 msgid "Passwords must be at least 6 characters long."
-msgstr ""
+msgstr "Пароль должен быть не меньше 6 символов"
 
 #: Plugin/Users/Model/User.php:validation for field website
 msgid "This field must be a valid URL"
-msgstr ""
+msgstr "Неправильный адрес"
 
 #~ msgid "Blocks deleted."
 #~ msgstr "Блоки удалены."
