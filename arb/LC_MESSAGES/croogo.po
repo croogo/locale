@@ -93,7 +93,7 @@ msgstr ""
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:27
 #: Plugin/Settings/View/Languages/admin_index.ctp:20
 #: Plugin/Settings/View/Settings/admin_index.ctp:24
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:43
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:35
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:17
 #: Plugin/Translate/View/Translate/admin_index.ctp:37
 msgid "Actions"
@@ -198,19 +198,19 @@ msgstr ""
 msgid "Created Aco node: <success>%s</success>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:373
+#: Plugin/Acl/Lib/AclExtras.php:376
 msgid "Deleted Aco node: <warning>%s</warning>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:392
+#: Plugin/Acl/Lib/AclExtras.php:395
 msgid "<success>Tree is valid and strong</success>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:410
+#: Plugin/Acl/Lib/AclExtras.php:413
 msgid "Tree has been recovered, or tree did not need recovery."
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:412
+#: Plugin/Acl/Lib/AclExtras.php:415
 msgid "<error>Tree recovery failed.</error>"
 msgstr ""
 
@@ -242,7 +242,7 @@ msgstr ""
 #: Plugin/Acl/View/AclActions/admin_index.ctp:10
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
 #: Plugin/Users/Config/bootstrap.php:22;32
-#: Plugin/Users/Controller/UsersController.php:108;258
+#: Plugin/Users/Controller/UsersController.php:108;259
 #: Plugin/Users/View/Roles/admin_form.ctp:5
 #: Plugin/Users/View/Roles/admin_index.ctp:6
 #: Plugin/Users/View/Users/admin_form.ctp:7
@@ -330,10 +330,10 @@ msgstr "النشر"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:59
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:106
-#: Plugin/Comments/View/Comments/admin_index.ctp:123
-#: Plugin/Contacts/View/Messages/admin_index.ctp:134
-#: Plugin/Menus/View/Links/admin_index.ctp:112
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:126
+#: Plugin/Comments/View/Comments/admin_index.ctp:128
+#: Plugin/Contacts/View/Messages/admin_index.ctp:139
+#: Plugin/Menus/View/Links/admin_index.ctp:113
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:131
 msgid "Submit"
 msgstr ""
 
@@ -364,7 +364,7 @@ msgstr ""
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:73
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:113
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:86
-#: Plugin/Translate/View/Translate/admin_edit.ctp:47
+#: Plugin/Translate/View/Translate/admin_edit.ctp:48
 #: Plugin/Users/View/Roles/admin_form.ctp:53
 #: Plugin/Users/View/Users/admin_form.ctp:74
 #: Plugin/Users/View/Users/admin_reset_password.ctp:38
@@ -415,7 +415,7 @@ msgstr ""
 #: Plugin/Settings/View/Languages/admin_index.ctp:15
 #: Plugin/Settings/View/Settings/admin_index.ctp:20
 #: Plugin/Settings/View/Settings/admin_view.ctp:4
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:40
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:32
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:14
 msgid "Id"
 msgstr ""
@@ -427,7 +427,7 @@ msgstr ""
 #: Plugin/Menus/View/Links/admin_index.ctp:58
 #: Plugin/Settings/View/Languages/admin_index.ctp:34
 #: Plugin/Settings/View/Settings/admin_index.ctp:36
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:56
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:48
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
 msgstr "إنتقال نحو الأعلى"
@@ -439,7 +439,7 @@ msgstr "إنتقال نحو الأعلى"
 #: Plugin/Menus/View/Links/admin_index.ctp:64
 #: Plugin/Settings/View/Languages/admin_index.ctp:38
 #: Plugin/Settings/View/Settings/admin_index.ctp:40
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:60
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:52
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
 msgstr "إنتقال نحو الأسفل"
@@ -457,7 +457,7 @@ msgstr "إنتقال نحو الأسفل"
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:91
 #: Plugin/Settings/View/Languages/admin_index.ctp:42
 #: Plugin/Settings/View/Settings/admin_index.ctp:44
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:64
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:56
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:43
 #: Plugin/Translate/View/Translate/admin_index.ctp:54
 msgid "Edit this item"
@@ -466,16 +466,16 @@ msgstr "عدل هذا العنصر"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:121
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:19
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:52
-#: Plugin/Comments/View/Comments/admin_index.ctp:72
-#: Plugin/Contacts/View/Messages/admin_index.ctp:89
+#: Plugin/Comments/View/Comments/admin_index.ctp:75
+#: Plugin/Contacts/View/Messages/admin_index.ctp:92
 #: Plugin/Croogo/View/Common/admin_index.ctp:87
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:47
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:37
 #: Plugin/Menus/View/Menus/admin_index.ctp:44
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:95
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:98
 #: Plugin/Settings/View/Languages/admin_index.ctp:46
 #: Plugin/Settings/View/Settings/admin_index.ctp:49
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:68
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:60
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:47
 #: Plugin/Translate/View/Translate/admin_index.ctp:63
 msgid "Remove this item"
@@ -484,8 +484,8 @@ msgstr "حذف هذا العنصر"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:125
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:20
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:53
-#: Plugin/Comments/View/Comments/admin_index.ctp:73
-#: Plugin/Contacts/View/Messages/admin_index.ctp:90
+#: Plugin/Comments/View/Comments/admin_index.ctp:78
+#: Plugin/Contacts/View/Messages/admin_index.ctp:95
 #: Plugin/Croogo/View/Common/admin_index.ctp:89
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:48
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
@@ -493,13 +493,13 @@ msgstr "حذف هذا العنصر"
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:38
 #: Plugin/FileManager/View/Helper/FileManagerHelper.php:137
-#: Plugin/Menus/View/Links/admin_index.ctp:78
+#: Plugin/Menus/View/Links/admin_index.ctp:79
 #: Plugin/Menus/View/Menus/admin_index.ctp:45
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:96
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:101
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
 #: Plugin/Settings/View/Languages/admin_index.ctp:47
 #: Plugin/Settings/View/Settings/admin_index.ctp:50
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:69
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:61
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:48
 #: Plugin/Translate/View/Translate/admin_index.ctp:64
 msgid "Are you sure?"
@@ -536,97 +536,97 @@ msgstr ""
 msgid "Regions"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:120
+#: Plugin/Blocks/Controller/BlocksController.php:121
 msgid "Add Block"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:127;156
+#: Plugin/Blocks/Controller/BlocksController.php:128;157
 msgid "The Block has been saved"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:130;159
+#: Plugin/Blocks/Controller/BlocksController.php:131;160
 msgid "The Block could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:146
+#: Plugin/Blocks/Controller/BlocksController.php:147
 msgid "Edit Block"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:149
+#: Plugin/Blocks/Controller/BlocksController.php:150
 msgid "Invalid Block"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:184
+#: Plugin/Blocks/Controller/BlocksController.php:185
 msgid "Invalid id for Block"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:188
+#: Plugin/Blocks/Controller/BlocksController.php:189
 msgid "Block deleted"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:203
-#: Plugin/Menus/Controller/LinksController.php:278
+#: Plugin/Blocks/Controller/BlocksController.php:204
+#: Plugin/Menus/Controller/LinksController.php:289
 #: Plugin/Settings/Controller/LanguagesController.php:122
 #: Plugin/Settings/Controller/SettingsController.php:190
-#: Plugin/Taxonomy/Controller/TermsController.php:327
+#: Plugin/Taxonomy/Controller/TermsController.php:331
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:128
 msgid "Moved up successfully"
 msgstr "تم الإنتقال نحو الأعلى بنجاح"
 
-#: Plugin/Blocks/Controller/BlocksController.php:205
-#: Plugin/Menus/Controller/LinksController.php:280
+#: Plugin/Blocks/Controller/BlocksController.php:206
+#: Plugin/Menus/Controller/LinksController.php:291
 #: Plugin/Settings/Controller/LanguagesController.php:124
 #: Plugin/Settings/Controller/SettingsController.php:192
-#: Plugin/Taxonomy/Controller/TermsController.php:329
+#: Plugin/Taxonomy/Controller/TermsController.php:333
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:130
 msgid "Could not move up"
 msgstr "لا يمكن الإنتقال نحو الأعلى"
 
-#: Plugin/Blocks/Controller/BlocksController.php:221
-#: Plugin/Menus/Controller/LinksController.php:313
+#: Plugin/Blocks/Controller/BlocksController.php:222
+#: Plugin/Menus/Controller/LinksController.php:320
 #: Plugin/Settings/Controller/LanguagesController.php:140
 #: Plugin/Settings/Controller/SettingsController.php:216
-#: Plugin/Taxonomy/Controller/TermsController.php:369
+#: Plugin/Taxonomy/Controller/TermsController.php:373
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:146
 msgid "Moved down successfully"
 msgstr "تم النزول نحو الأسفل بنجاح"
 
-#: Plugin/Blocks/Controller/BlocksController.php:223
-#: Plugin/Menus/Controller/LinksController.php:315
+#: Plugin/Blocks/Controller/BlocksController.php:224
+#: Plugin/Menus/Controller/LinksController.php:322
 #: Plugin/Settings/Controller/LanguagesController.php:142
 #: Plugin/Settings/Controller/SettingsController.php:218
-#: Plugin/Taxonomy/Controller/TermsController.php:371
+#: Plugin/Taxonomy/Controller/TermsController.php:375
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:148
 msgid "Could not move down"
 msgstr "لا يمكن النزول نحول الأسفل"
 
-#: Plugin/Blocks/Controller/BlocksController.php:245
+#: Plugin/Blocks/Controller/BlocksController.php:246
 #: Plugin/Comments/Controller/CommentsController.php:159
 #: Plugin/Contacts/Controller/MessagesController.php:138
-#: Plugin/Menus/Controller/LinksController.php:341
-#: Plugin/Nodes/Controller/NodesController.php:307
+#: Plugin/Menus/Controller/LinksController.php:348
+#: Plugin/Nodes/Controller/NodesController.php:308
 msgid "No items selected."
 msgstr "لم يتم إختيار أي عنصر"
 
-#: Plugin/Blocks/Controller/BlocksController.php:251
+#: Plugin/Blocks/Controller/BlocksController.php:252
 msgid "Blocks deleted"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:254
+#: Plugin/Blocks/Controller/BlocksController.php:255
 msgid "Blocks published"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:257
+#: Plugin/Blocks/Controller/BlocksController.php:258
 msgid "Blocks unpublished"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:259
+#: Plugin/Blocks/Controller/BlocksController.php:260
 #: Plugin/Comments/Controller/CommentsController.php:173
 #: Plugin/Contacts/Controller/MessagesController.php:152
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:156
-#: Plugin/Menus/Controller/LinksController.php:370
-#: Plugin/Nodes/Controller/NodesController.php:335
-#: Plugin/Users/Controller/UsersController.php:360;427;438
+#: Plugin/Menus/Controller/LinksController.php:373
+#: Plugin/Nodes/Controller/NodesController.php:336
+#: Plugin/Users/Controller/UsersController.php:361;428;439
 msgid "An error occurred."
 msgstr "حدث خطأ"
 
@@ -637,31 +637,31 @@ msgstr "حدث خطأ"
 msgid "Region"
 msgstr ""
 
-#: Plugin/Blocks/Controller/RegionsController.php:84
+#: Plugin/Blocks/Controller/RegionsController.php:85
 msgid "Add Region"
 msgstr ""
 
-#: Plugin/Blocks/Controller/RegionsController.php:89;113
+#: Plugin/Blocks/Controller/RegionsController.php:90;114
 msgid "The Region has been saved"
 msgstr ""
 
-#: Plugin/Blocks/Controller/RegionsController.php:92;116
+#: Plugin/Blocks/Controller/RegionsController.php:93;117
 msgid "The Region could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Blocks/Controller/RegionsController.php:105
+#: Plugin/Blocks/Controller/RegionsController.php:106
 msgid "Edit Region"
 msgstr ""
 
-#: Plugin/Blocks/Controller/RegionsController.php:108
+#: Plugin/Blocks/Controller/RegionsController.php:109
 msgid "Invalid Region"
 msgstr ""
 
-#: Plugin/Blocks/Controller/RegionsController.php:133
+#: Plugin/Blocks/Controller/RegionsController.php:134
 msgid "Invalid id for Region"
 msgstr ""
 
-#: Plugin/Blocks/Controller/RegionsController.php:137
+#: Plugin/Blocks/Controller/RegionsController.php:138
 msgid "Region deleted"
 msgstr ""
 
@@ -710,7 +710,7 @@ msgstr "إعدادات"
 #: Plugin/Settings/View/Languages/admin_index.ctp:16
 #: Plugin/Settings/View/Settings/admin_form.ctp:54
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:52
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:41
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:33
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:42
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:45
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:15
@@ -760,6 +760,7 @@ msgstr ""
 #: Plugin/Menus/View/Links/admin_form.ctp:124
 #: Plugin/Menus/View/Menus/admin_form.ctp:66
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:74
+#: Plugin/Translate/View/Translate/admin_edit.ctp:46
 msgid "Apply"
 msgstr "حفظ"
 
@@ -784,7 +785,7 @@ msgstr "حفظ"
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:71
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:111
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:84
-#: Plugin/Translate/View/Translate/admin_edit.ctp:46
+#: Plugin/Translate/View/Translate/admin_edit.ctp:47
 #: Plugin/Users/View/Roles/admin_form.ctp:51
 #: Plugin/Users/View/Users/admin_form.ctp:72
 msgid "Save"
@@ -813,28 +814,28 @@ msgid "Choose"
 msgstr "إختر"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:98
-#: Plugin/Comments/View/Comments/admin_index.ctp:115
-#: Plugin/Menus/View/Links/admin_index.ctp:104
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:114
+#: Plugin/Comments/View/Comments/admin_index.ctp:120
+#: Plugin/Menus/View/Links/admin_index.ctp:105
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:119
 msgid "Publish"
 msgstr "نشر"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:99
-#: Plugin/Comments/View/Comments/admin_index.ctp:116
-#: Plugin/Menus/View/Links/admin_index.ctp:105
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:115
+#: Plugin/Comments/View/Comments/admin_index.ctp:121
+#: Plugin/Menus/View/Links/admin_index.ctp:106
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:120
 msgid "Unpublish"
 msgstr "غير منشور"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:100
-#: Plugin/Comments/View/Comments/admin_index.ctp:117
-#: Plugin/Contacts/View/Messages/admin_index.ctp:128
+#: Plugin/Comments/View/Comments/admin_index.ctp:122
+#: Plugin/Contacts/View/Messages/admin_index.ctp:133
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:51
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:99
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:59;100
-#: Plugin/Menus/View/Links/admin_index.ctp:106
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:118
+#: Plugin/Menus/View/Links/admin_index.ctp:107
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:123
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
 msgstr "حذف"
@@ -1020,11 +1021,11 @@ msgstr ""
 msgid "Created"
 msgstr "تاريخ الإنشاء"
 
-#: Plugin/Comments/View/Comments/rss/index.ctp:17
+#: Plugin/Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
 msgstr ""
 
-#: Plugin/Comments/View/Comments/rss/index.ctp:17
+#: Plugin/Comments/View/Comments/rss/index.ctp:18
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:50;86
 #: Plugin/Nodes/View/Elements/node_info.ctp:9
 msgid "by"
@@ -1301,11 +1302,11 @@ msgstr "غير مقروءة"
 msgid "Messages: Unread"
 msgstr "رسائل: غير مقروءة"
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:126
+#: Plugin/Contacts/View/Messages/admin_index.ctp:131
 msgid "Mark as read"
 msgstr ""
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:127
+#: Plugin/Contacts/View/Messages/admin_index.ctp:132
 msgid "Mark as unread"
 msgstr ""
 
@@ -1356,7 +1357,7 @@ msgid "Plugin \"%s\" activated successfully."
 msgstr ""
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:170
-#: Plugin/Extensions/Lib/CroogoPlugin.php:506
+#: Plugin/Extensions/Lib/CroogoPlugin.php:505
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr ""
 
@@ -1523,7 +1524,7 @@ msgid "Errors in CakeErrorController: %s"
 msgstr ""
 
 #: Plugin/Croogo/Controller/Component/CroogoComponent.php:200
-#: Plugin/Nodes/Controller/NodesController.php:198;680;718
+#: Plugin/Nodes/Controller/NodesController.php:199;681;719
 msgid "Invalid content"
 msgstr ""
 
@@ -1567,22 +1568,22 @@ msgid ""
 msgstr ""
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:133
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:90
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:91
 msgid "first"
 msgstr "الأول"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:134
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:91
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:92
 msgid "prev"
 msgstr "السابق"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:136
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:93
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:94
 msgid "next"
 msgstr "التالي"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:137
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:94
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:95
 msgid "last"
 msgstr "الأخير"
 
@@ -1771,7 +1772,7 @@ msgid "Plugin could not be deleted."
 msgstr ""
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:147
-#: Plugin/Extensions/Lib/CroogoPlugin.php:532
+#: Plugin/Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr ""
 
@@ -1835,11 +1836,11 @@ msgstr ""
 msgid "Plugin \"%s\" is already active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:504
+#: Plugin/Extensions/Lib/CroogoPlugin.php:503
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:518
+#: Plugin/Extensions/Lib/CroogoPlugin.php:517
 msgid "Plugin \"%s\" is not active."
 msgstr ""
 
@@ -2108,11 +2109,11 @@ msgstr "مرفق جديد"
 msgid "URL"
 msgstr ""
 
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:64
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:65
 msgid "Insert"
 msgstr ""
 
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:97
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:98
 msgid ""
 "Page %page% of %pages%, showing %current% records out of %count% total, "
 "starting on record %start%, ending on %end%"
@@ -2445,51 +2446,51 @@ msgid "Menus"
 msgstr "القوائم"
 
 #: Plugin/Menus/Config/bootstrap.php:34
-#: Plugin/Taxonomy/Config/bootstrap.php:46
+#: Plugin/Taxonomy/Config/bootstrap.php:54
 msgid "Add new"
 msgstr "إضافة جديد"
 
-#: Plugin/Menus/Controller/LinksController.php:101
+#: Plugin/Menus/Controller/LinksController.php:117
 msgid "Links: %s"
 msgstr "روابط: %s"
 
-#: Plugin/Menus/Controller/LinksController.php:127
+#: Plugin/Menus/Controller/LinksController.php:143
 msgid "Add Link"
 msgstr "إضافة رابط"
 
-#: Plugin/Menus/Controller/LinksController.php:138;186
+#: Plugin/Menus/Controller/LinksController.php:150;205
 msgid "The Link has been saved"
 msgstr "تم حفظ الرابط"
 
-#: Plugin/Menus/Controller/LinksController.php:150;198
+#: Plugin/Menus/Controller/LinksController.php:162;217
 msgid "The Link could not be saved. Please, try again."
 msgstr "لم يتم حفظ الرابط، المرجوا المحاولة من جديد"
 
-#: Plugin/Menus/Controller/LinksController.php:169
+#: Plugin/Menus/Controller/LinksController.php:181
 msgid "Edit Link"
 msgstr "تعديل الرابط"
 
-#: Plugin/Menus/Controller/LinksController.php:172
+#: Plugin/Menus/Controller/LinksController.php:184
 msgid "Invalid Link"
 msgstr "رابط غير صالح"
 
-#: Plugin/Menus/Controller/LinksController.php:225;233;266;301
+#: Plugin/Menus/Controller/LinksController.php:244;252;281;312
 msgid "Invalid id for Link"
 msgstr ""
 
-#: Plugin/Menus/Controller/LinksController.php:245
+#: Plugin/Menus/Controller/LinksController.php:260
 msgid "Link deleted"
 msgstr ""
 
-#: Plugin/Menus/Controller/LinksController.php:362
+#: Plugin/Menus/Controller/LinksController.php:365
 msgid "Links deleted."
 msgstr ""
 
-#: Plugin/Menus/Controller/LinksController.php:365
+#: Plugin/Menus/Controller/LinksController.php:368
 msgid "Links published"
 msgstr "روابط منشورة"
 
-#: Plugin/Menus/Controller/LinksController.php:368
+#: Plugin/Menus/Controller/LinksController.php:371
 msgid "Links unpublished"
 msgstr "روابط غير منشورة"
 
@@ -2542,7 +2543,7 @@ msgstr ""
 msgid "Target"
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_index.ctp:75
+#: Plugin/Menus/View/Links/admin_index.ctp:76
 msgid "Delete this item"
 msgstr ""
 
@@ -2585,86 +2586,86 @@ msgid "Remove"
 msgstr "إزالة"
 
 #: Plugin/Nodes/Config/bootstrap.php:49
-#: Plugin/Taxonomy/Config/bootstrap.php:36
+#: Plugin/Taxonomy/Config/bootstrap.php:44
 msgid "List"
 msgstr "اللائحة"
 
-#: Plugin/Nodes/Controller/NodesController.php:138
+#: Plugin/Nodes/Controller/NodesController.php:139
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:13
 msgid "Create content"
 msgstr "إنشاء محتوى"
 
-#: Plugin/Nodes/Controller/NodesController.php:158
+#: Plugin/Nodes/Controller/NodesController.php:159
 msgid "Content type does not exist."
 msgstr "نوع المحتوى غير موجود"
 
-#: Plugin/Nodes/Controller/NodesController.php:169;208
+#: Plugin/Nodes/Controller/NodesController.php:170;209
 msgid "%s has been saved"
 msgstr "تم حفظ %s"
 
-#: Plugin/Nodes/Controller/NodesController.php:172;211
+#: Plugin/Nodes/Controller/NodesController.php:173;212
 msgid "%s could not be saved. Please, try again."
 msgstr "لم يتم حفظ %s ، المرجوا المحاولة من جديد"
 
-#: Plugin/Nodes/Controller/NodesController.php:178
+#: Plugin/Nodes/Controller/NodesController.php:179
 msgid "Create content: %s"
 msgstr "إنشاء محتوى: %s"
 
-#: Plugin/Nodes/Controller/NodesController.php:220
+#: Plugin/Nodes/Controller/NodesController.php:221
 msgid "Edit %s: %s"
 msgstr "تعديل %s: %s"
 
-#: Plugin/Nodes/Controller/NodesController.php:232
+#: Plugin/Nodes/Controller/NodesController.php:233
 msgid "Paths updated."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:235
+#: Plugin/Nodes/Controller/NodesController.php:236
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:252
+#: Plugin/Nodes/Controller/NodesController.php:253
 msgid "Invalid id for Node"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:256
+#: Plugin/Nodes/Controller/NodesController.php:257
 msgid "Node deleted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:317
+#: Plugin/Nodes/Controller/NodesController.php:318
 msgid "Nodes deleted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:320
+#: Plugin/Nodes/Controller/NodesController.php:321
 msgid "Nodes published"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:323
+#: Plugin/Nodes/Controller/NodesController.php:324
 msgid "Nodes unpublished"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:326
+#: Plugin/Nodes/Controller/NodesController.php:327
 msgid "Nodes promoted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:329
+#: Plugin/Nodes/Controller/NodesController.php:330
 msgid "Nodes unpromoted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:380;472;536;618
+#: Plugin/Nodes/Controller/NodesController.php:381;473;537;619
 msgid "Invalid content type."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:435
+#: Plugin/Nodes/Controller/NodesController.php:436
 msgid "Invalid Term."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:518
+#: Plugin/Nodes/Controller/NodesController.php:519
 msgid "Nodes"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:628
+#: Plugin/Nodes/Controller/NodesController.php:629
 msgid "Search Results: %s"
 msgstr "نتيجة البحث: %s"
 
@@ -2736,7 +2737,7 @@ msgstr ""
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:50
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:55
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:42
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:34
 msgid "Slug"
 msgstr "الإسم المستعار"
 
@@ -2761,19 +2762,19 @@ msgstr "مستخدم"
 msgid "promoted"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:111
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:116
 msgid "Applying to selected"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:116
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:121
 msgid "Promote"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:117
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:122
 msgid "Unpromote"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:130
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:135
 msgid "%s selected items?"
 msgstr ""
 
@@ -3036,11 +3037,11 @@ msgstr "لائحة الإعدادات"
 msgid "New Setting"
 msgstr "إعداد جديد"
 
-#: Plugin/Taxonomy/Config/bootstrap.php:15
+#: Plugin/Taxonomy/Config/bootstrap.php:23
 msgid "Content Types"
 msgstr "أنواع المحتوى"
 
-#: Plugin/Taxonomy/Config/bootstrap.php:26
+#: Plugin/Taxonomy/Config/bootstrap.php:34
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:26
 msgid "Taxonomy"
 msgstr ""
@@ -3077,15 +3078,19 @@ msgstr "لم يتم حفظ الصنف، المرجوا المحاولة من ج�
 msgid "%s: Edit Term"
 msgstr "%s: تعديل الصنف"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:268;308;349
+#: Plugin/Taxonomy/Controller/TermsController.php:268;312;353
 msgid "Invalid id for Term"
 msgstr ""
 
-#: Plugin/Taxonomy/Controller/TermsController.php:287
+#: Plugin/Taxonomy/Controller/TermsController.php:288
 msgid "Term deleted"
 msgstr ""
 
-#: Plugin/Taxonomy/Controller/TermsController.php:289
+#: Plugin/Taxonomy/Controller/TermsController.php:290
+msgid "Term in Vocabulary deleted"
+msgstr ""
+
+#: Plugin/Taxonomy/Controller/TermsController.php:293
 msgid "Term could not be deleted. Please, try again."
 msgstr ""
 
@@ -3206,11 +3211,11 @@ msgstr ""
 msgid "Invalid ID."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:57;189
+#: Plugin/Translate/Controller/TranslateController.php:57;194
 msgid "Invalid model."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:68;137;200
+#: Plugin/Translate/Controller/TranslateController.php:68;137;205
 msgid "Invalid record."
 msgstr ""
 
@@ -3226,19 +3231,19 @@ msgstr "ترجمة المحتوى: %s (%s)"
 msgid "Record has been translated"
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:158
+#: Plugin/Translate/Controller/TranslateController.php:163
 msgid "Record could not be translated. Please, try again."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:177
+#: Plugin/Translate/Controller/TranslateController.php:182
 msgid "Invalid Locale or ID"
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:215
+#: Plugin/Translate/Controller/TranslateController.php:220
 msgid "Translation for the locale deleted successfully."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:217
+#: Plugin/Translate/Controller/TranslateController.php:222
 msgid "Translation for the locale could not be deleted."
 msgstr ""
 
@@ -3312,106 +3317,106 @@ msgid ""
 "after a few minutes."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:136;159
+#: Plugin/Users/Controller/UsersController.php:137;160
 msgid "The User has been saved"
 msgstr "تم حفظ المستخدم"
 
-#: Plugin/Users/Controller/UsersController.php:139;162;329
+#: Plugin/Users/Controller/UsersController.php:140;163;330
 msgid "The User could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:181
+#: Plugin/Users/Controller/UsersController.php:182
 msgid "Invalid User"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:186
+#: Plugin/Users/Controller/UsersController.php:187
 msgid "Password has been reset."
 msgstr "لقد تمت إعادة تعيين كلمة المرور بنجاح"
 
-#: Plugin/Users/Controller/UsersController.php:189
+#: Plugin/Users/Controller/UsersController.php:190
 msgid "Password could not be reset. Please, try again."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:204
+#: Plugin/Users/Controller/UsersController.php:205
 msgid "Invalid id for User"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:208
+#: Plugin/Users/Controller/UsersController.php:209
 msgid "User deleted"
 msgstr "تم حذف المستخدم"
 
-#: Plugin/Users/Controller/UsersController.php:211
+#: Plugin/Users/Controller/UsersController.php:212
 msgid "User cannot be deleted"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:223
+#: Plugin/Users/Controller/UsersController.php:224
 msgid "Admin Login"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:232
+#: Plugin/Users/Controller/UsersController.php:233
 msgid "Incorrect username or password"
 msgstr "كلمة المرور أو إسم المستخدم غير صحيح"
 
-#: Plugin/Users/Controller/UsersController.php:247;488
+#: Plugin/Users/Controller/UsersController.php:248;489
 msgid "Log out successful."
 msgstr "تم تسجيل الخروج بنجاح"
 
-#: Plugin/Users/Controller/UsersController.php:302
+#: Plugin/Users/Controller/UsersController.php:303
 msgid "Register"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:318
+#: Plugin/Users/Controller/UsersController.php:319
 msgid "[%s] Please activate your account"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:325
+#: Plugin/Users/Controller/UsersController.php:326
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:357
+#: Plugin/Users/Controller/UsersController.php:358
 msgid "Account activated successfully."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:382
+#: Plugin/Users/Controller/UsersController.php:383
 msgid "Forgot Password"
 msgstr "نسيت كلمة المرور"
 
-#: Plugin/Users/Controller/UsersController.php:387
+#: Plugin/Users/Controller/UsersController.php:388
 msgid "Invalid username."
 msgstr "إسم مستخدم غير صحيح"
 
-#: Plugin/Users/Controller/UsersController.php:399
+#: Plugin/Users/Controller/UsersController.php:400
 msgid "[%s] Reset Password"
 msgstr "[%s] إعادة تعيين كلمة المرور "
 
-#: Plugin/Users/Controller/UsersController.php:407
+#: Plugin/Users/Controller/UsersController.php:408
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:410;452
+#: Plugin/Users/Controller/UsersController.php:411;453
 msgid "An error occurred. Please try again."
 msgstr "لقد تم حوث خطأ، المرجوا المحاولة من جديد"
 
-#: Plugin/Users/Controller/UsersController.php:424
+#: Plugin/Users/Controller/UsersController.php:425
 #: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
 msgid "Reset Password"
 msgstr "إعادة تعيين كلمة المرور "
 
-#: Plugin/Users/Controller/UsersController.php:449
+#: Plugin/Users/Controller/UsersController.php:450
 msgid "Your password has been reset successfully."
 msgstr "لقد تمت إعادة تعيين كلمة مرورك بنجاح."
 
-#: Plugin/Users/Controller/UsersController.php:466
+#: Plugin/Users/Controller/UsersController.php:467
 msgid "Log in"
 msgstr "تسجيل الدخول"
 
-#: Plugin/Users/Controller/UsersController.php:506
+#: Plugin/Users/Controller/UsersController.php:507
 msgid "Invalid User."
 msgstr "مستخدم غير صحيح"
 
-#: Plugin/Users/Model/User.php:220
+#: Plugin/Users/Model/User.php:219
 msgid "Passwords do not match. Please, try again."
 msgstr "كلمتا المرور غير متطابقتان، المرجوا المحاولة من جديد"
 
