@@ -15,1439 +15,1395 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Plugin/Acl/Config/bootstrap.php:19
-#: Plugin/Acl/Controller/AclPermissionsController.php:58
-#: Plugin/Acl/Controller/Component/RowLevelAclComponent.php:67
-#: Plugin/Acl/View/AclActions/admin_form.ctp:7
-#: Plugin/Acl/View/AclActions/admin_index.ctp:11
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:10
+#: Acl/Config/admin_menu.php:4 Acl/Controller/AclPermissionsController.php:58
+#: Acl/Controller/Component/RowLevelAclComponent.php:67
+#: Acl/View/AclActions/admin_form.ctp:7 Acl/View/AclActions/admin_index.ctp:11
+#: Acl/View/AclPermissions/admin_index.ctp:10
 msgid "Permissions"
 msgstr "Потребителски ограничения"
 
-#: Plugin/Acl/Config/bootstrap.php:30
+#: Acl/Config/admin_menu.php:15
 msgid "Access Control"
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:94
+#: Acl/Console/Command/ExtrasShell.php:94
 msgid "Plugin to process"
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:97
+#: Acl/Console/Command/ExtrasShell.php:97
 msgid "Better manage, and easily synchronize you application's ACO tree"
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:102
+#: Acl/Console/Command/ExtrasShell.php:102
 msgid ""
 "Add new ACOs for new controllers and actions. Does not remove nodes from the "
 "ACO table."
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:108
+#: Acl/Console/Command/ExtrasShell.php:108
 msgid ""
 "Perform a full sync on the ACO table.Will create new ACOs or missing "
 "controllers and actions.Will also remove orphaned entries that no longer "
 "have a matching controller/action"
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:113
+#: Acl/Console/Command/ExtrasShell.php:113
 msgid ""
 "Perform a full content sync on the ACO table.Will create new ACOs or missing "
 "contents.Will also remove orphaned entries that no longer have a matching "
 "contents"
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:120
+#: Acl/Console/Command/ExtrasShell.php:120
 msgid "The content model name "
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:126
+#: Acl/Console/Command/ExtrasShell.php:126
 msgid "Verify the tree structure of either your Aco or Aro Trees"
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:131
+#: Acl/Console/Command/ExtrasShell.php:131
 msgid "The type of tree to verify"
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:138
+#: Acl/Console/Command/ExtrasShell.php:138
 msgid "Recover a corrupted Tree"
 msgstr ""
 
-#: Plugin/Acl/Console/Command/ExtrasShell.php:143
+#: Acl/Console/Command/ExtrasShell.php:143
 msgid "The type of tree to recover"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:47
-#: Plugin/Acl/View/AclActions/admin_form.ctp:8
-#: Plugin/Acl/View/AclActions/admin_index.ctp:14;72
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:26
-#: Plugin/Comments/View/Comments/admin_index.ctp:54
-#: Plugin/Contacts/View/Messages/admin_index.ctp:70
-#: Plugin/Croogo/View/Common/admin_index.ctp:59
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:50
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:25
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:28
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:26
-#: Plugin/FileManager/View/Attachments/admin_index.ctp:18
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:45
-#: Plugin/Menus/View/Links/admin_index.ctp:44
-#: Plugin/Menus/View/Menus/admin_index.ctp:19
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:27
-#: Plugin/Settings/View/Languages/admin_index.ctp:20
-#: Plugin/Settings/View/Settings/admin_index.ctp:24
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:35
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:17
-#: Plugin/Translate/View/Translate/admin_index.ctp:37
+#: Acl/Controller/AclActionsController.php:47
+#: Acl/View/AclActions/admin_form.ctp:8
+#: Acl/View/AclActions/admin_index.ctp:14;72
+#: Blocks/View/Blocks/admin_index.ctp:28
+#: Comments/View/Comments/admin_index.ctp:52
+#: Contacts/View/Messages/admin_index.ctp:72
+#: Croogo/View/Common/admin_index.ctp:59
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:50
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:25
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
+#: FileManager/View/Attachments/admin_browse.ctp:26
+#: FileManager/View/Attachments/admin_index.ctp:18
+#: FileManager/View/FileManager/admin_browse.ctp:45
+#: Menus/View/Links/admin_index.ctp:46 Menus/View/Menus/admin_index.ctp:20
+#: Nodes/View/Nodes/admin_translations.ctp:27
+#: Settings/View/Languages/admin_index.ctp:20
+#: Settings/View/Settings/admin_index.ctp:24
+#: Taxonomy/View/Terms/admin_index.ctp:35
+#: Taxonomy/View/Vocabularies/admin_index.ctp:18
+#: Translate/View/Translate/admin_index.ctp:43
 msgid "Actions"
 msgstr "Действия"
 
-#: Plugin/Acl/Controller/AclActionsController.php:64
+#: Acl/Controller/AclActionsController.php:64
 msgid "Add Action"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:78
+#: Acl/Controller/AclActionsController.php:78
 msgid "The %s has been saved"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:81
+#: Acl/Controller/AclActionsController.php:81
 msgid "The %s could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:95
+#: Acl/Controller/AclActionsController.php:95
 msgid "Edit Action"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:98
+#: Acl/Controller/AclActionsController.php:98
 msgid "Invalid Action"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:103
+#: Acl/Controller/AclActionsController.php:103
 msgid "The Action has been saved"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:106
+#: Acl/Controller/AclActionsController.php:106
 msgid "The Action could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:124;142
+#: Acl/Controller/AclActionsController.php:124;142
 msgid "Invalid id for Action"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:128
+#: Acl/Controller/AclActionsController.php:128
 msgid "Action deleted"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:147
+#: Acl/Controller/AclActionsController.php:147
 msgid "Action moved up"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:152
+#: Acl/Controller/AclActionsController.php:152
 msgid "Action moved down"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclActionsController.php:174
+#: Acl/Controller/AclActionsController.php:174
 msgid "Created %d new permissions"
 msgstr ""
 
-#: Plugin/Acl/Controller/AclPermissionsController.php:140
+#: Acl/Controller/AclPermissionsController.php:168
 msgid "ACL database has been upgraded successfully"
 msgstr ""
 
-#: Plugin/Acl/Controller/Component/AclAccessComponent.php:52
+#: Acl/Controller/Component/AclAccessComponent.php:52
 msgid "Parent Role"
 msgstr ""
 
-#: Plugin/Acl/Controller/Component/AclFilterComponent.php:82
+#: Acl/Controller/Component/AclFilterComponent.php:82
 msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
 
-#: Plugin/Acl/Controller/Component/Auth/AclCachedAuthorize.php:183
+#: Acl/Controller/Component/Auth/AclCachedAuthorize.php:223
 msgid ""
 "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
 "\"%2$s\""
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:149
+#: Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:172
+#: Acl/Lib/AclExtras.php:172
 msgid "Created Aco node: %s"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:192
+#: Acl/Lib/AclExtras.php:192
 msgid "<error>Plugin %s not found or not activated</error>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:207
+#: Acl/Lib/AclExtras.php:208
 msgid "<success>Aco Sync Complete</success>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:209
+#: Acl/Lib/AclExtras.php:210
 msgid "<success>Aco Update Complete</success>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:240
+#: Acl/Lib/AclExtras.php:241
 msgid "Skipped Aco node: <warning>%s</warning>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:260
+#: Acl/Lib/AclExtras.php:261
 msgid "Deleted %s and all children"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:304
+#: Acl/Lib/AclExtras.php:291;366
 msgid "Created Aco node: <success>%s</success>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:376
+#: Acl/Lib/AclExtras.php:307;438
 msgid "Deleted Aco node: <warning>%s</warning>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:395
+#: Acl/Lib/AclExtras.php:457
 msgid "<success>Tree is valid and strong</success>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:413
+#: Acl/Lib/AclExtras.php:475
 msgid "Tree has been recovered, or tree did not need recovery."
 msgstr ""
 
-#: Plugin/Acl/Lib/AclExtras.php:415
+#: Acl/Lib/AclExtras.php:477
 msgid "<error>Tree recovery failed.</error>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:67
+#: Acl/Lib/AclUpgrade.php:67
 msgid "No root node found"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:75
+#: Acl/Lib/AclUpgrade.php:75
 msgid "<warning>ACL Database seems to have already been upgraded</warning>"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:115
+#: Acl/Lib/AclUpgrade.php:115
 msgid "%s not found"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:139
+#: Acl/Lib/AclUpgrade.php:139
 msgid "Role: Public not found"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:145
+#: Acl/Lib/AclUpgrade.php:145
 msgid "Role: Registered not found"
 msgstr ""
 
-#: Plugin/Acl/Lib/AclUpgrade.php:151
+#: Acl/Lib/AclUpgrade.php:151
 msgid "Role: Admin not found"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:6
-#: Plugin/Acl/View/AclActions/admin_index.ctp:10
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
-#: Plugin/Users/Config/bootstrap.php:22;32
-#: Plugin/Users/Controller/UsersController.php:108;259
-#: Plugin/Users/View/Roles/admin_form.ctp:5
-#: Plugin/Users/View/Roles/admin_index.ctp:6
-#: Plugin/Users/View/Users/admin_form.ctp:7
-#: Plugin/Users/View/Users/admin_index.ctp:6
-#: Plugin/Users/View/Users/admin_reset_password.ctp:5
+#: Acl/Model/AclAco.php:173
+msgid "API"
+msgstr ""
+
+#: Acl/View/AclActions/admin_form.ctp:6 Acl/View/AclActions/admin_index.ctp:10
+#: Acl/View/AclPermissions/admin_index.ctp:9 Users/Config/admin_menu.php:5;15
+#: Users/Controller/UsersController.php:108;302
+#: Users/View/Roles/admin_form.ctp:5 Users/View/Roles/admin_index.ctp:6
+#: Users/View/Users/admin_form.ctp:7 Users/View/Users/admin_index.ctp:6
+#: Users/View/Users/admin_reset_password.ctp:5
 msgid "Users"
 msgstr "Потребители"
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:15
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:13
-#: Plugin/Blocks/View/Regions/admin_form.ctp:20
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:14
-#: Plugin/Croogo/View/Common/admin_edit.ctp:8
-#: Plugin/Menus/View/Links/admin_form.ctp:16
-#: Plugin/Menus/View/Menus/admin_form.ctp:14
-#: Plugin/Settings/View/Languages/admin_form.ctp:15
-#: Plugin/Settings/View/Settings/admin_form.ctp:18
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:21
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:14
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:18
-#: Plugin/Users/View/Roles/admin_form.ctp:13
-#: Plugin/Users/View/Users/admin_form.ctp:17
+#: Acl/View/AclActions/admin_form.ctp:15 Blocks/View/Blocks/admin_form.ctp:13
+#: Blocks/View/Regions/admin_form.ctp:20
+#: Contacts/View/Contacts/admin_form.ctp:14
+#: Croogo/View/Common/admin_edit.ctp:8 Menus/View/Links/admin_form.ctp:16
+#: Menus/View/Menus/admin_form.ctp:14
+#: Settings/View/Languages/admin_form.ctp:15
+#: Settings/View/Settings/admin_form.ctp:18
+#: Taxonomy/View/Terms/admin_form.ctp:21 Taxonomy/View/Types/admin_form.ctp:14
+#: Taxonomy/View/Vocabularies/admin_form.ctp:18
+#: Users/View/Roles/admin_form.ctp:13 Users/View/Users/admin_form.ctp:20
 msgid "Add"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:27
+#: Acl/View/AclActions/admin_form.ctp:27
 msgid "Action"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:39
-#: Plugin/Menus/View/Links/admin_form.ctp:56
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:45
+#: Acl/View/AclActions/admin_form.ctp:39 Menus/View/Links/admin_form.ctp:63
+#: Taxonomy/View/Terms/admin_form.ctp:45
 msgid "Parent"
 msgstr "Родител"
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:40
+#: Acl/View/AclActions/admin_form.ctp:40
 msgid "Choose none if the Aco is a controller."
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:47
-#: Plugin/Acl/View/AclActions/admin_index.ctp:71
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:72
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:46
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:23
-#: Plugin/Blocks/View/Regions/admin_form.ctp:48
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:42
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:24
-#: Plugin/Menus/View/Menus/admin_form.ctp:43
-#: Plugin/Menus/View/Menus/admin_index.ctp:17
-#: Plugin/Settings/View/Languages/admin_form.ctp:44
-#: Plugin/Settings/View/Languages/admin_index.ctp:18
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:45
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:49
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:16
-#: Plugin/Users/View/Roles/admin_form.ctp:40
+#: Acl/View/AclActions/admin_form.ctp:47
+#: Acl/View/AclActions/admin_index.ctp:71
+#: Acl/View/Elements/admin/acl_permissions_table.ctp:8
+#: Blocks/View/Blocks/admin_form.ctp:46 Blocks/View/Blocks/admin_index.ctp:25
+#: Blocks/View/Regions/admin_form.ctp:48
+#: Contacts/View/Contacts/admin_form.ctp:42
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:24
+#: Menus/View/Menus/admin_form.ctp:43 Menus/View/Menus/admin_index.ctp:17
+#: Settings/View/Languages/admin_form.ctp:44
+#: Settings/View/Languages/admin_index.ctp:18
+#: Taxonomy/View/Types/admin_form.ctp:45
+#: Taxonomy/View/Vocabularies/admin_form.ctp:49
+#: Taxonomy/View/Vocabularies/admin_index.ctp:16
+#: Users/View/Roles/admin_form.ctp:40
 msgid "Alias"
 msgstr "Роля"
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:58
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:96
-#: Plugin/Blocks/View/Regions/admin_form.ctp:59
-#: Plugin/Comments/View/Comments/admin_form.ctp:47
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:124
-#: Plugin/Contacts/View/Messages/admin_form.ctp:61
-#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:45
-#: Plugin/FileManager/View/Attachments/admin_add.ctp:44
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:74
-#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:52
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:53
-#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:52
-#: Plugin/FileManager/View/FileManager/admin_upload.ctp:48
-#: Plugin/Menus/View/Links/admin_form.ctp:123
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:73
-#: Plugin/Settings/View/Languages/admin_form.ctp:55
-#: Plugin/Settings/View/Settings/admin_form.ctp:79
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:70
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:110
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:83
-#: Plugin/Translate/View/Translate/admin_edit.ctp:45
-#: Plugin/Users/View/Roles/admin_form.ctp:50
-#: Plugin/Users/View/Users/admin_form.ctp:71
-#: Plugin/Users/View/Users/admin_reset_password.ctp:35
+#: Acl/View/AclActions/admin_form.ctp:58 Blocks/View/Blocks/admin_form.ctp:96
+#: Blocks/View/Regions/admin_form.ctp:59
+#: Comments/View/Comments/admin_form.ctp:47
+#: Contacts/View/Contacts/admin_form.ctp:124
+#: Contacts/View/Messages/admin_form.ctp:61
+#: Croogo/View/Common/admin_edit.ctp:82
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:45
+#: FileManager/View/Attachments/admin_add.ctp:44
+#: FileManager/View/Attachments/admin_edit.ctp:74
+#: FileManager/View/FileManager/admin_create_directory.ctp:52
+#: FileManager/View/FileManager/admin_create_file.ctp:53
+#: FileManager/View/FileManager/admin_editfile.ctp:52
+#: FileManager/View/FileManager/admin_upload.ctp:48
+#: Menus/View/Links/admin_form.ctp:125 Nodes/View/Nodes/admin_form.ctp:76
+#: Settings/View/Languages/admin_form.ctp:55
+#: Settings/View/Settings/admin_form.ctp:79
+#: Taxonomy/View/Terms/admin_form.ctp:72
+#: Taxonomy/View/Types/admin_form.ctp:110
+#: Taxonomy/View/Vocabularies/admin_form.ctp:83
+#: Translate/View/Translate/admin_edit.ctp:45
+#: Users/View/Roles/admin_form.ctp:50 Users/View/Users/admin_form.ctp:80
+#: Users/View/Users/admin_reset_password.ctp:37
 msgid "Publishing"
 msgstr "Публикуване"
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:59
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:106
-#: Plugin/Comments/View/Comments/admin_index.ctp:128
-#: Plugin/Contacts/View/Messages/admin_index.ctp:139
-#: Plugin/Menus/View/Links/admin_index.ctp:113
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:131
-msgid "Submit"
-msgstr "Добави"
+#: Acl/View/AclActions/admin_form.ctp:59 Blocks/View/Blocks/admin_form.ctp:97
+#: Blocks/View/Regions/admin_form.ctp:60
+#: Contacts/View/Contacts/admin_form.ctp:125
+#: FileManager/View/Attachments/admin_edit.ctp:75
+#: Menus/View/Links/admin_form.ctp:126 Menus/View/Menus/admin_form.ctp:66
+#: Nodes/View/Nodes/admin_form.ctp:77 Taxonomy/View/Terms/admin_form.ctp:73
+#: Taxonomy/View/Types/admin_form.ctp:111
+#: Taxonomy/View/Vocabularies/admin_form.ctp:84
+#: Translate/View/Translate/admin_edit.ctp:46
+#: Users/View/Roles/admin_form.ctp:51 Users/View/Users/admin_form.ctp:81
+msgid "Apply"
+msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_form.ctp:60
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:99
-#: Plugin/Blocks/View/Regions/admin_form.ctp:62
-#: Plugin/Comments/View/Comments/admin_form.ctp:50
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:128
-#: Plugin/Contacts/View/Messages/admin_form.ctp:64
-#: Plugin/Croogo/View/Common/admin_edit.ctp:84
-#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:48
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:52
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:45
-#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:50
-#: Plugin/FileManager/View/Attachments/admin_add.ctp:47
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:77
-#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:54
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:55
-#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:54
-#: Plugin/FileManager/View/FileManager/admin_upload.ctp:50
-#: Plugin/Install/View/Install/adminuser.ctp:35
-#: Plugin/Menus/View/Links/admin_form.ctp:126
-#: Plugin/Menus/View/Menus/admin_form.ctp:68
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:76
-#: Plugin/Settings/View/Languages/admin_form.ctp:58
-#: Plugin/Settings/View/Settings/admin_form.ctp:81
-#: Plugin/Settings/View/Settings/admin_prefix.ctp:65
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:73
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:113
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:86
-#: Plugin/Translate/View/Translate/admin_edit.ctp:48
-#: Plugin/Users/View/Roles/admin_form.ctp:53
-#: Plugin/Users/View/Users/admin_form.ctp:74
-#: Plugin/Users/View/Users/admin_reset_password.ctp:38
+#: Acl/View/AclActions/admin_form.ctp:60 Blocks/View/Blocks/admin_form.ctp:98
+#: Blocks/View/Regions/admin_form.ctp:61
+#: Comments/View/Comments/admin_form.ctp:48
+#: Contacts/View/Contacts/admin_form.ctp:126
+#: Contacts/View/Messages/admin_form.ctp:62
+#: Croogo/View/Common/admin_edit.ctp:83
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:51
+#: FileManager/View/Attachments/admin_edit.ctp:76
+#: FileManager/View/FileManager/admin_create_file.ctp:54
+#: FileManager/View/FileManager/admin_editfile.ctp:53
+#: FileManager/View/FileManager/admin_upload.ctp:49
+#: Install/View/Install/adminuser.ctp:34 Menus/View/Links/admin_form.ctp:127
+#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:78
+#: Settings/View/Languages/admin_form.ctp:56
+#: Settings/View/Settings/admin_form.ctp:80
+#: Settings/View/Settings/admin_prefix.ctp:64
+#: Taxonomy/View/Terms/admin_form.ctp:74
+#: Taxonomy/View/Types/admin_form.ctp:112
+#: Taxonomy/View/Vocabularies/admin_form.ctp:85
+#: Translate/View/Translate/admin_edit.ctp:47
+#: Users/View/Roles/admin_form.ctp:52 Users/View/Users/admin_form.ctp:82
+msgid "Save"
+msgstr ""
+
+#: Acl/View/AclActions/admin_form.ctp:61 Blocks/View/Blocks/admin_form.ctp:99
+#: Blocks/View/Regions/admin_form.ctp:62
+#: Comments/View/Comments/admin_form.ctp:50
+#: Contacts/View/Contacts/admin_form.ctp:128
+#: Contacts/View/Messages/admin_form.ctp:64
+#: Croogo/View/Common/admin_edit.ctp:84
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:48
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:52
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:45
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:50
+#: FileManager/View/Attachments/admin_add.ctp:47
+#: FileManager/View/Attachments/admin_edit.ctp:78
+#: FileManager/View/FileManager/admin_create_directory.ctp:54
+#: FileManager/View/FileManager/admin_create_file.ctp:55
+#: FileManager/View/FileManager/admin_editfile.ctp:54
+#: FileManager/View/FileManager/admin_upload.ctp:50
+#: Install/View/Install/adminuser.ctp:35 Menus/View/Links/admin_form.ctp:128
+#: Menus/View/Menus/admin_form.ctp:68 Nodes/View/Nodes/admin_form.ctp:79
+#: Settings/View/Languages/admin_form.ctp:58
+#: Settings/View/Settings/admin_form.ctp:81
+#: Settings/View/Settings/admin_prefix.ctp:65
+#: Taxonomy/View/Terms/admin_form.ctp:76
+#: Taxonomy/View/Types/admin_form.ctp:114
+#: Taxonomy/View/Vocabularies/admin_form.ctp:87
+#: Translate/View/Translate/admin_edit.ctp:48
+#: Users/View/Roles/admin_form.ctp:54 Users/View/Users/admin_form.ctp:84
+#: Users/View/Users/admin_reset_password.ctp:40
 msgid "Cancel"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:21
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:19
+#: Acl/View/AclActions/admin_index.ctp:21
+#: Acl/View/AclPermissions/admin_index.ctp:19
 msgid "Tools"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:35
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:33
+#: Acl/View/AclActions/admin_index.ctp:35
+#: Acl/View/AclPermissions/admin_index.ctp:33
 msgid "Generate"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:41
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:39
+#: Acl/View/AclActions/admin_index.ctp:41
+#: Acl/View/AclPermissions/admin_index.ctp:39
 msgid "Create new actions (no removal)"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:46
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:44
+#: Acl/View/AclActions/admin_index.ctp:46
+#: Acl/View/AclPermissions/admin_index.ctp:44
 msgid "Synchronize"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:52
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:50
+#: Acl/View/AclActions/admin_index.ctp:52
+#: Acl/View/AclPermissions/admin_index.ctp:50
 msgid "Create new & remove orphaned actions"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:61
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:59
+#: Acl/View/AclActions/admin_index.ctp:61
+#: Acl/View/AclPermissions/admin_index.ctp:59
 msgid "Edit Actions"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:70
-#: Plugin/Acl/View/AclPermissions/admin_index.ctp:71
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:21
-#: Plugin/Comments/View/Comments/admin_index.ctp:48
-#: Plugin/Contacts/View/Messages/admin_index.ctp:65
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:21
-#: Plugin/FileManager/View/Attachments/admin_index.ctp:14
-#: Plugin/Menus/View/Links/admin_index.ctp:41
-#: Plugin/Menus/View/Menus/admin_index.ctp:15
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:5
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:38
-#: Plugin/Settings/View/Languages/admin_index.ctp:15
-#: Plugin/Settings/View/Settings/admin_index.ctp:20
-#: Plugin/Settings/View/Settings/admin_view.ctp:4
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:32
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:14
+#: Acl/View/AclActions/admin_index.ctp:70
+#: Acl/View/Elements/admin/acl_permissions_table.ctp:7
+#: Blocks/View/Blocks/admin_index.ctp:23
+#: Comments/View/Comments/admin_index.ctp:46
+#: Contacts/View/Messages/admin_index.ctp:67
+#: FileManager/View/Attachments/admin_browse.ctp:21
+#: FileManager/View/Attachments/admin_index.ctp:14
+#: Menus/View/Links/admin_index.ctp:43 Menus/View/Menus/admin_index.ctp:15
+#: Nodes/View/Nodes/admin_chooser.ctp:5 Nodes/View/Nodes/admin_index.ctp:38
+#: Settings/View/Languages/admin_index.ctp:15
+#: Settings/View/Settings/admin_index.ctp:20
+#: Settings/View/Settings/admin_view.ctp:4
+#: Taxonomy/View/Terms/admin_chooser.ctp:5
+#: Taxonomy/View/Terms/admin_index.ctp:32
+#: Taxonomy/View/Vocabularies/admin_index.ctp:14
 msgid "Id"
 msgstr "Id"
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:106
-#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:7
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:38
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:59
-#: Plugin/Menus/View/Links/admin_index.ctp:58
-#: Plugin/Settings/View/Languages/admin_index.ctp:34
-#: Plugin/Settings/View/Settings/admin_index.ctp:36
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:48
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:34
+#: Acl/View/AclActions/admin_index.ctp:106
+#: Acl/View/AclPermissions/json/admin_index.ctp:7
+#: Blocks/View/Blocks/admin_index.ctp:40
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:59
+#: Menus/View/Links/admin_index.ctp:60
+#: Settings/View/Languages/admin_index.ctp:34
+#: Settings/View/Settings/admin_index.ctp:36
+#: Taxonomy/View/Terms/admin_index.ctp:49
+#: Taxonomy/View/Vocabularies/admin_index.ctp:35
 msgid "Move up"
 msgstr "Преместване нагоре"
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:110
-#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:11
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:42
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:65
-#: Plugin/Menus/View/Links/admin_index.ctp:64
-#: Plugin/Settings/View/Languages/admin_index.ctp:38
-#: Plugin/Settings/View/Settings/admin_index.ctp:40
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:52
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:38
+#: Acl/View/AclActions/admin_index.ctp:110
+#: Acl/View/AclPermissions/json/admin_index.ctp:11
+#: Blocks/View/Blocks/admin_index.ctp:44
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:65
+#: Menus/View/Links/admin_index.ctp:66
+#: Settings/View/Languages/admin_index.ctp:38
+#: Settings/View/Settings/admin_index.ctp:40
+#: Taxonomy/View/Terms/admin_index.ctp:53
+#: Taxonomy/View/Vocabularies/admin_index.ctp:39
 msgid "Move down"
 msgstr "Преместване надолу"
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:115
-#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:15
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:48
-#: Plugin/Comments/View/Comments/admin_index.ctp:68
-#: Plugin/Contacts/View/Messages/admin_index.ctp:85
-#: Plugin/Croogo/View/Common/admin_index.ctp:77
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:43
-#: Plugin/FileManager/View/Attachments/admin_index.ctp:33
-#: Plugin/Menus/View/Links/admin_index.ctp:70
-#: Plugin/Menus/View/Menus/admin_index.ctp:39
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:91
-#: Plugin/Settings/View/Languages/admin_index.ctp:42
-#: Plugin/Settings/View/Settings/admin_index.ctp:44
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:56
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:43
-#: Plugin/Translate/View/Translate/admin_index.ctp:54
+#: Acl/View/AclActions/admin_index.ctp:115
+#: Acl/View/AclPermissions/json/admin_index.ctp:15
+#: Blocks/View/Blocks/admin_index.ctp:50
+#: Comments/View/Comments/admin_index.ctp:66
+#: Contacts/View/Messages/admin_index.ctp:87
+#: Croogo/View/Common/admin_index.ctp:77
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:43
+#: FileManager/View/Attachments/admin_index.ctp:33
+#: Menus/View/Links/admin_index.ctp:72 Menus/View/Menus/admin_index.ctp:40
+#: Nodes/View/Nodes/admin_index.ctp:94
+#: Settings/View/Languages/admin_index.ctp:42
+#: Settings/View/Settings/admin_index.ctp:44
+#: Taxonomy/View/Terms/admin_index.ctp:57
+#: Taxonomy/View/Vocabularies/admin_index.ctp:44
+#: Translate/View/Translate/admin_index.ctp:60
 msgid "Edit this item"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:121
-#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:19
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:52
-#: Plugin/Comments/View/Comments/admin_index.ctp:75
-#: Plugin/Contacts/View/Messages/admin_index.ctp:92
-#: Plugin/Croogo/View/Common/admin_index.ctp:87
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:47
-#: Plugin/FileManager/View/Attachments/admin_index.ctp:37
-#: Plugin/Menus/View/Menus/admin_index.ctp:44
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:98
-#: Plugin/Settings/View/Languages/admin_index.ctp:46
-#: Plugin/Settings/View/Settings/admin_index.ctp:49
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:60
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:47
-#: Plugin/Translate/View/Translate/admin_index.ctp:63
+#: Acl/View/AclActions/admin_index.ctp:121
+#: Acl/View/AclPermissions/json/admin_index.ctp:19
+#: Blocks/View/Blocks/admin_index.ctp:54
+#: Comments/View/Comments/admin_index.ctp:73
+#: Contacts/View/Messages/admin_index.ctp:94
+#: Croogo/View/Common/admin_index.ctp:87
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:47
+#: FileManager/View/Attachments/admin_index.ctp:37
+#: Menus/View/Menus/admin_index.ctp:45 Nodes/View/Nodes/admin_index.ctp:101
+#: Settings/View/Languages/admin_index.ctp:46
+#: Settings/View/Settings/admin_index.ctp:49
+#: Taxonomy/View/Terms/admin_index.ctp:61
+#: Taxonomy/View/Vocabularies/admin_index.ctp:48
+#: Translate/View/Translate/admin_index.ctp:69
 msgid "Remove this item"
 msgstr ""
 
-#: Plugin/Acl/View/AclActions/admin_index.ctp:125
-#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:20
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:53
-#: Plugin/Comments/View/Comments/admin_index.ctp:78
-#: Plugin/Contacts/View/Messages/admin_index.ctp:95
-#: Plugin/Croogo/View/Common/admin_index.ctp:89
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:48
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:105
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
-#: Plugin/FileManager/View/Attachments/admin_index.ctp:38
-#: Plugin/FileManager/View/Helper/FileManagerHelper.php:137
-#: Plugin/Menus/View/Links/admin_index.ctp:79
-#: Plugin/Menus/View/Menus/admin_index.ctp:45
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:101
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
-#: Plugin/Settings/View/Languages/admin_index.ctp:47
-#: Plugin/Settings/View/Settings/admin_index.ctp:50
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:61
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:48
-#: Plugin/Translate/View/Translate/admin_index.ctp:64
+#: Acl/View/AclActions/admin_index.ctp:125
+#: Acl/View/AclPermissions/json/admin_index.ctp:20
+#: Blocks/View/Blocks/admin_index.ctp:55
+#: Comments/View/Comments/admin_index.ctp:76
+#: Contacts/View/Messages/admin_index.ctp:97
+#: Croogo/View/Common/admin_index.ctp:89
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:48
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:122
+#: FileManager/View/Attachments/admin_browse.ctp:42
+#: FileManager/View/Attachments/admin_index.ctp:38
+#: FileManager/View/Helper/FileManagerHelper.php:137
+#: Menus/View/Links/admin_index.ctp:81 Menus/View/Menus/admin_index.ctp:46
+#: Nodes/View/Nodes/admin_index.ctp:104
+#: Nodes/View/Nodes/admin_translations.ctp:34
+#: Settings/View/Languages/admin_index.ctp:47
+#: Settings/View/Settings/admin_index.ctp:50
+#: Taxonomy/View/Terms/admin_index.ctp:62
+#: Taxonomy/View/Vocabularies/admin_index.ctp:49
+#: Translate/View/Translate/admin_index.ctp:70
 msgid "Are you sure?"
 msgstr "Сигурни ли сте?"
 
-#: Plugin/Acl/View/AclPermissions/admin_toggle.ctp:18
+#: Acl/View/AclPermissions/admin_toggle.ctp:18
 msgid "error"
 msgstr "грешка"
 
-#: Plugin/Acl/View/Elements/admin/parent_role.ctp:4
+#: Acl/View/Elements/admin/parent_role.ctp:4
 msgid "When set, permissions from parent role are inherited"
 msgstr ""
 
-#: Plugin/Acl/View/Elements/admin/row_acl.ctp:4
+#: Acl/View/Elements/admin/row_acl.ctp:4
 msgid "Edit Permissions"
 msgstr ""
 
-#: Plugin/Acl/View/Helper/AclHelper.php:34
+#: Acl/View/Helper/AclHelper.php:34
 msgid "Upgrade Acl database"
 msgstr ""
 
-#: Plugin/Blocks/Config/bootstrap.php:18;28
-#: Plugin/Blocks/Controller/BlocksController.php:98
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:7
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:7
-#: Plugin/Blocks/View/Regions/admin_form.ctp:7
-#: Plugin/Blocks/View/Regions/admin_index.ctp:5
+#: Blocks/Config/admin_menu.php:5;15 Blocks/Controller/BlocksController.php:98
+#: Blocks/View/Blocks/admin_form.ctp:7 Blocks/View/Blocks/admin_index.ctp:9
+#: Blocks/View/Regions/admin_form.ctp:7 Blocks/View/Regions/admin_index.ctp:5
 msgid "Blocks"
 msgstr "Блокове"
 
-#: Plugin/Blocks/Config/bootstrap.php:37
-#: Plugin/Blocks/View/Regions/admin_form.ctp:9
-#: Plugin/Blocks/View/Regions/admin_index.ctp:6
+#: Blocks/Config/admin_menu.php:24 Blocks/View/Regions/admin_form.ctp:9
+#: Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
 msgstr "Райони"
 
-#: Plugin/Blocks/Controller/BlocksController.php:121
+#: Blocks/Controller/BlocksController.php:121
 msgid "Add Block"
 msgstr "Добави блок"
 
-#: Plugin/Blocks/Controller/BlocksController.php:128;157
+#: Blocks/Controller/BlocksController.php:128;157
 msgid "The Block has been saved"
 msgstr "Блокът е запазен"
 
-#: Plugin/Blocks/Controller/BlocksController.php:131;160
+#: Blocks/Controller/BlocksController.php:131;160
 msgid "The Block could not be saved. Please, try again."
 msgstr "Блокът не може да бъде запазен. Моля, опитайте отново."
 
-#: Plugin/Blocks/Controller/BlocksController.php:147
+#: Blocks/Controller/BlocksController.php:147
 msgid "Edit Block"
 msgstr "Редактирай блок"
 
-#: Plugin/Blocks/Controller/BlocksController.php:150
+#: Blocks/Controller/BlocksController.php:150
 msgid "Invalid Block"
 msgstr "Невалиден блок"
 
-#: Plugin/Blocks/Controller/BlocksController.php:185
+#: Blocks/Controller/BlocksController.php:185
 msgid "Invalid id for Block"
 msgstr "Невалиден id на блок"
 
-#: Plugin/Blocks/Controller/BlocksController.php:189
+#: Blocks/Controller/BlocksController.php:189
 msgid "Block deleted"
 msgstr "Блокът е изтрит"
 
-#: Plugin/Blocks/Controller/BlocksController.php:204
-#: Plugin/Menus/Controller/LinksController.php:289
-#: Plugin/Settings/Controller/LanguagesController.php:122
-#: Plugin/Settings/Controller/SettingsController.php:190
-#: Plugin/Taxonomy/Controller/TermsController.php:331
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:128
+#: Blocks/Controller/BlocksController.php:204
+#: Menus/Controller/LinksController.php:264
+#: Settings/Controller/LanguagesController.php:122
+#: Settings/Controller/SettingsController.php:210
+#: Taxonomy/Controller/VocabulariesController.php:132
 msgid "Moved up successfully"
 msgstr "Успешно преместване нагоре"
 
-#: Plugin/Blocks/Controller/BlocksController.php:206
-#: Plugin/Menus/Controller/LinksController.php:291
-#: Plugin/Settings/Controller/LanguagesController.php:124
-#: Plugin/Settings/Controller/SettingsController.php:192
-#: Plugin/Taxonomy/Controller/TermsController.php:333
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:130
+#: Blocks/Controller/BlocksController.php:206
+#: Menus/Controller/LinksController.php:266
+#: Settings/Controller/LanguagesController.php:124
+#: Settings/Controller/SettingsController.php:212
+#: Taxonomy/Controller/VocabulariesController.php:134
 msgid "Could not move up"
 msgstr "Невъзможност за преместване нагоре"
 
-#: Plugin/Blocks/Controller/BlocksController.php:222
-#: Plugin/Menus/Controller/LinksController.php:320
-#: Plugin/Settings/Controller/LanguagesController.php:140
-#: Plugin/Settings/Controller/SettingsController.php:216
-#: Plugin/Taxonomy/Controller/TermsController.php:373
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:146
+#: Blocks/Controller/BlocksController.php:222
+#: Menus/Controller/LinksController.php:296
+#: Settings/Controller/LanguagesController.php:140
+#: Settings/Controller/SettingsController.php:236
+#: Taxonomy/Controller/VocabulariesController.php:150
 msgid "Moved down successfully"
 msgstr "Успешно преместване надолу"
 
-#: Plugin/Blocks/Controller/BlocksController.php:224
-#: Plugin/Menus/Controller/LinksController.php:322
-#: Plugin/Settings/Controller/LanguagesController.php:142
-#: Plugin/Settings/Controller/SettingsController.php:218
-#: Plugin/Taxonomy/Controller/TermsController.php:375
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:148
+#: Blocks/Controller/BlocksController.php:224
+#: Menus/Controller/LinksController.php:298
+#: Settings/Controller/LanguagesController.php:142
+#: Settings/Controller/SettingsController.php:238
+#: Taxonomy/Controller/VocabulariesController.php:152
 msgid "Could not move down"
 msgstr "Невъзможност за преместване надолу"
 
-#: Plugin/Blocks/Controller/BlocksController.php:246
-#: Plugin/Comments/Controller/CommentsController.php:159
-#: Plugin/Contacts/Controller/MessagesController.php:138
-#: Plugin/Menus/Controller/LinksController.php:348
-#: Plugin/Nodes/Controller/NodesController.php:308
+#: Blocks/Controller/BlocksController.php:246
+#: Comments/Controller/CommentsController.php:159
+#: Contacts/Controller/MessagesController.php:138
+#: Menus/Controller/LinksController.php:324
+#: Nodes/Controller/NodesController.php:312
 msgid "No items selected."
 msgstr "Няма избрани елементи."
 
-#: Plugin/Blocks/Controller/BlocksController.php:252
+#: Blocks/Controller/BlocksController.php:252
 msgid "Blocks deleted"
 msgstr ""
 
-#: Plugin/Blocks/Controller/BlocksController.php:255
+#: Blocks/Controller/BlocksController.php:255
 msgid "Blocks published"
 msgstr "Блоковете са включени"
 
-#: Plugin/Blocks/Controller/BlocksController.php:258
+#: Blocks/Controller/BlocksController.php:258
 msgid "Blocks unpublished"
 msgstr "Блоковете са изключени"
 
-#: Plugin/Blocks/Controller/BlocksController.php:260
-#: Plugin/Comments/Controller/CommentsController.php:173
-#: Plugin/Contacts/Controller/MessagesController.php:152
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:156
-#: Plugin/Menus/Controller/LinksController.php:373
-#: Plugin/Nodes/Controller/NodesController.php:336
-#: Plugin/Users/Controller/UsersController.php:361;428;439
+#: Blocks/Controller/BlocksController.php:260
+#: Comments/Controller/CommentsController.php:173
+#: Contacts/Controller/MessagesController.php:152
+#: Extensions/Controller/ExtensionsThemesController.php:156
+#: Menus/Controller/LinksController.php:349
+#: Nodes/Controller/NodesController.php:340
+#: Users/Controller/UsersController.php:427;496;507
 msgid "An error occurred."
 msgstr "Грешка в изпълнението."
 
-#: Plugin/Blocks/Controller/RegionsController.php:66
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:50
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:24
-#: Plugin/Blocks/View/Regions/admin_form.ctp:31
+#: Blocks/Controller/RegionsController.php:66
+#: Blocks/View/Blocks/admin_form.ctp:50 Blocks/View/Blocks/admin_index.ctp:26
+#: Blocks/View/Regions/admin_form.ctp:31
 msgid "Region"
 msgstr "Район"
 
-#: Plugin/Blocks/Controller/RegionsController.php:85
+#: Blocks/Controller/RegionsController.php:85
 msgid "Add Region"
 msgstr "Добави район"
 
-#: Plugin/Blocks/Controller/RegionsController.php:90;114
+#: Blocks/Controller/RegionsController.php:90;114
 msgid "The Region has been saved"
 msgstr "Районът е запазен"
 
-#: Plugin/Blocks/Controller/RegionsController.php:93;117
+#: Blocks/Controller/RegionsController.php:93;117
 msgid "The Region could not be saved. Please, try again."
 msgstr "Районът не е запазен. Моля, опитайте отново."
 
-#: Plugin/Blocks/Controller/RegionsController.php:106
+#: Blocks/Controller/RegionsController.php:106
 msgid "Edit Region"
 msgstr "Промени район"
 
-#: Plugin/Blocks/Controller/RegionsController.php:109
+#: Blocks/Controller/RegionsController.php:109
 msgid "Invalid Region"
 msgstr "Невалиден район"
 
-#: Plugin/Blocks/Controller/RegionsController.php:134
+#: Blocks/Controller/RegionsController.php:134
 msgid "Invalid id for Region"
 msgstr "Невалиден id за район"
 
-#: Plugin/Blocks/Controller/RegionsController.php:138
+#: Blocks/Controller/RegionsController.php:138
 msgid "Region deleted"
 msgstr "Районът е изтрит"
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:24
+#: Blocks/View/Blocks/admin_form.ctp:24
 msgid "Block"
 msgstr "Блок"
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:25
-#: Plugin/Menus/View/Links/admin_form.ctp:42
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:31
+#: Blocks/View/Blocks/admin_form.ctp:25 Menus/View/Links/admin_form.ctp:49
+#: Nodes/View/Nodes/admin_form.ctp:31
 msgid "Access"
 msgstr "Достъп"
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:26
+#: Blocks/View/Blocks/admin_form.ctp:26
 msgid "Visibilities"
 msgstr "Видимост"
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:27;85
-#: Plugin/Menus/View/Links/admin_form.ctp:111
-#: Plugin/Menus/View/Menus/admin_form.ctp:54
-#: Plugin/Settings/View/Settings/admin_form.ctp:68
-#: Plugin/Settings/View/Settings/admin_view.ctp:34
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:28;99
+#: Blocks/View/Blocks/admin_form.ctp:27;85 Menus/View/Links/admin_form.ctp:113
+#: Menus/View/Menus/admin_form.ctp:54 Settings/View/Settings/admin_form.ctp:68
+#: Settings/View/Settings/admin_view.ctp:34
+#: Taxonomy/View/Types/admin_form.ctp:28;99
 msgid "Params"
 msgstr "Параметри"
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:42
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:22
-#: Plugin/Blocks/View/Regions/admin_form.ctp:45
-#: Plugin/Comments/View/Comments/admin_form.ctp:33
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:39
-#: Plugin/Contacts/View/Messages/admin_form.ctp:41
-#: Plugin/Contacts/View/Messages/admin_index.ctp:69
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:23
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:43
-#: Plugin/FileManager/View/Attachments/admin_index.ctp:16
-#: Plugin/Menus/View/Links/admin_form.ctp:64
-#: Plugin/Menus/View/Links/admin_index.ctp:42
-#: Plugin/Menus/View/Menus/admin_form.ctp:40
-#: Plugin/Menus/View/Menus/admin_index.ctp:16
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:6
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:46
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:39
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:25
-#: Plugin/Settings/View/Languages/admin_form.ctp:38
-#: Plugin/Settings/View/Languages/admin_index.ctp:16
-#: Plugin/Settings/View/Settings/admin_form.ctp:54
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:52
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:33
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:42
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:45
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:15
-#: Plugin/Translate/View/Translate/admin_index.ctp:35
-#: Plugin/Users/View/Roles/admin_form.ctp:37
+#: Blocks/View/Blocks/admin_form.ctp:42 Blocks/View/Blocks/admin_index.ctp:24
+#: Blocks/View/Regions/admin_form.ctp:45
+#: Comments/View/Comments/admin_form.ctp:33
+#: Contacts/View/Contacts/admin_form.ctp:39
+#: Contacts/View/Messages/admin_form.ctp:41
+#: Contacts/View/Messages/admin_index.ctp:71
+#: FileManager/View/Attachments/admin_browse.ctp:23
+#: FileManager/View/Attachments/admin_edit.ctp:43
+#: FileManager/View/Attachments/admin_index.ctp:16
+#: Menus/View/Links/admin_form.ctp:71 Menus/View/Links/admin_index.ctp:44
+#: Menus/View/Menus/admin_form.ctp:40 Menus/View/Menus/admin_index.ctp:16
+#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:46
+#: Nodes/View/Nodes/admin_index.ctp:39
+#: Nodes/View/Nodes/admin_translations.ctp:25
+#: Settings/View/Languages/admin_form.ctp:38
+#: Settings/View/Languages/admin_index.ctp:16
+#: Settings/View/Settings/admin_form.ctp:54
+#: Taxonomy/View/Terms/admin_chooser.ctp:6
+#: Taxonomy/View/Terms/admin_form.ctp:54
+#: Taxonomy/View/Terms/admin_index.ctp:33
+#: Taxonomy/View/Types/admin_form.ctp:42
+#: Taxonomy/View/Vocabularies/admin_form.ctp:45
+#: Taxonomy/View/Vocabularies/admin_index.ctp:15
+#: Translate/View/Translate/admin_index.ctp:41
+#: Users/View/Roles/admin_form.ctp:37
 msgid "Title"
 msgstr "Потребителско име"
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:47
+#: Blocks/View/Blocks/admin_form.ctp:47
 msgid "unique name for your block"
 msgstr "уникално име за вашия блок"
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:51
+#: Blocks/View/Blocks/admin_form.ctp:51
 msgid "if you are not sure, choose 'none'"
 msgstr "Ако не сте сигурен, изберете 'none'"
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:54
-#: Plugin/Comments/View/Comments/admin_form.ctp:36
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:48
-#: Plugin/Contacts/View/Messages/admin_form.ctp:44
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:56
+#: Blocks/View/Blocks/admin_form.ctp:54
+#: Comments/View/Comments/admin_form.ctp:36
+#: Contacts/View/Contacts/admin_form.ctp:48
+#: Contacts/View/Messages/admin_form.ctp:44 Nodes/View/Nodes/admin_form.ctp:56
 msgid "Body"
 msgstr ""
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:57
-#: Plugin/Menus/View/Links/admin_form.ctp:98
+#: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:100
 msgid "Class"
 msgstr ""
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:60
+#: Blocks/View/Blocks/admin_form.ctp:60
 msgid "Element"
 msgstr ""
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:76
+#: Blocks/View/Blocks/admin_form.ctp:76
 msgid "Visibility Paths"
 msgstr ""
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:77
+#: Blocks/View/Blocks/admin_form.ctp:77
 msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
 msgstr ""
 
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:97
-#: Plugin/Blocks/View/Regions/admin_form.ctp:60
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:125
-#: Plugin/Menus/View/Links/admin_form.ctp:124
-#: Plugin/Menus/View/Menus/admin_form.ctp:66
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:74
-#: Plugin/Translate/View/Translate/admin_edit.ctp:46
-msgid "Apply"
-msgstr ""
-
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:98
-#: Plugin/Blocks/View/Regions/admin_form.ctp:61
-#: Plugin/Comments/View/Comments/admin_form.ctp:48
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:126
-#: Plugin/Contacts/View/Messages/admin_form.ctp:62
-#: Plugin/Croogo/View/Common/admin_edit.ctp:83
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:51
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:75
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:54
-#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:53
-#: Plugin/FileManager/View/FileManager/admin_upload.ctp:49
-#: Plugin/Install/View/Install/adminuser.ctp:34
-#: Plugin/Menus/View/Links/admin_form.ctp:125
-#: Plugin/Menus/View/Menus/admin_form.ctp:67
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:75
-#: Plugin/Settings/View/Languages/admin_form.ctp:56
-#: Plugin/Settings/View/Settings/admin_form.ctp:80
-#: Plugin/Settings/View/Settings/admin_prefix.ctp:64
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:71
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:111
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:84
-#: Plugin/Translate/View/Translate/admin_edit.ctp:47
-#: Plugin/Users/View/Roles/admin_form.ctp:51
-#: Plugin/Users/View/Users/admin_form.ctp:72
-msgid "Save"
-msgstr ""
-
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:101
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:25
-#: Plugin/Croogo/Console/Command/ExtShell.php:222;248
-#: Plugin/Menus/View/Links/admin_form.ctp:128
-#: Plugin/Menus/View/Links/admin_index.ctp:43
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:41
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:49
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:42
-#: Plugin/Settings/View/Languages/admin_index.ctp:19
-#: Plugin/Users/View/Users/admin_form.ctp:78
-msgid "Status"
-msgstr "Статус"
-
-#: Plugin/Blocks/View/Blocks/admin_form.ctp:105
+#: Blocks/View/Blocks/admin_form.ctp:109
 msgid "Show title ?"
 msgstr ""
 
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:59
-#: Plugin/Croogo/View/Common/admin_index.ctp:69
+#: Blocks/View/Blocks/admin_index.ctp:27
+#: Croogo/Console/Command/ExtShell.php:236;262
+#: Menus/View/Links/admin_index.ctp:45 Menus/View/Menus/admin_index.ctp:19
+#: Nodes/View/Elements/admin/nodes_search.ctp:43
+#: Nodes/View/Nodes/admin_chooser.ctp:49 Nodes/View/Nodes/admin_index.ctp:42
+#: Settings/View/Languages/admin_index.ctp:19
+#: Users/View/Users/admin_form.ctp:96
+msgid "Status"
+msgstr "Статус"
+
+#: Blocks/View/Blocks/admin_index.ctp:61 Croogo/View/Common/admin_index.ctp:69
 msgid "Choose"
 msgstr ""
 
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:98
-#: Plugin/Comments/View/Comments/admin_index.ctp:120
-#: Plugin/Menus/View/Links/admin_index.ctp:105
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:119
+#: Blocks/View/Blocks/admin_index.ctp:80 Menus/View/Links/admin_index.ctp:86
+#: Menus/View/Menus/admin_index.ctp:57 Nodes/View/Nodes/admin_index.ctp:71
+msgid "preview"
+msgstr ""
+
+#: Blocks/View/Blocks/admin_index.ctp:111
+#: Comments/View/Comments/admin_index.ctp:118
+#: Menus/View/Links/admin_index.ctp:114 Nodes/View/Nodes/admin_index.ctp:122
 msgid "Publish"
 msgstr "Публикуван"
 
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:99
-#: Plugin/Comments/View/Comments/admin_index.ctp:121
-#: Plugin/Menus/View/Links/admin_index.ctp:106
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:120
+#: Blocks/View/Blocks/admin_index.ctp:112
+#: Comments/View/Comments/admin_index.ctp:119
+#: Menus/View/Links/admin_index.ctp:115 Nodes/View/Nodes/admin_index.ctp:123
 msgid "Unpublish"
 msgstr "Непубликуван"
 
-#: Plugin/Blocks/View/Blocks/admin_index.ctp:100
-#: Plugin/Comments/View/Comments/admin_index.ctp:122
-#: Plugin/Contacts/View/Messages/admin_index.ctp:133
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:51
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:99
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:59;100
-#: Plugin/Menus/View/Links/admin_index.ctp:107
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:123
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
+#: Blocks/View/Blocks/admin_index.ctp:113
+#: Comments/View/Comments/admin_index.ctp:120
+#: Contacts/View/Messages/admin_index.ctp:135
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:51
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:116
+#: FileManager/View/Attachments/admin_browse.ctp:42
+#: FileManager/View/FileManager/admin_browse.ctp:59;100
+#: Menus/View/Links/admin_index.ctp:116 Nodes/View/Nodes/admin_index.ctp:126
+#: Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
 msgstr "Изтрий"
 
-#: Plugin/Comments/Config/bootstrap.php:11
-#: Plugin/Comments/Controller/CommentsController.php:80;186
-#: Plugin/Comments/View/Comments/admin_form.ctp:8
-#: Plugin/Comments/View/Comments/admin_index.ctp:12
-#: Plugin/Comments/View/Elements/comments.ctp:7
-#: Plugin/Comments/View/Helper/CommentsHelper.php:34
-#: Plugin/Nodes/View/Elements/node_more_info.ctp:33
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:27
+#: Blocks/View/Blocks/admin_index.ctp:119
+#: Comments/View/Comments/admin_index.ctp:126
+#: Contacts/View/Messages/admin_index.ctp:141
+#: Menus/View/Links/admin_index.ctp:122 Nodes/View/Nodes/admin_index.ctp:134
+#: Users/View/Users/forgot.ctp:9
+msgid "Submit"
+msgstr "Добави"
+
+#: Comments/Config/admin_menu.php:4
+#: Comments/Controller/CommentsController.php:80;186
+#: Comments/View/Comments/admin_form.ctp:8
+#: Comments/View/Comments/admin_index.ctp:10
+#: Comments/View/Elements/comments.ctp:7
+#: Comments/View/Helper/CommentsHelper.php:34
+#: Nodes/View/Elements/node_more_info.ctp:33
+#: Taxonomy/View/Types/admin_form.ctp:27
 msgid "Comments"
 msgstr "Коментари"
 
-#: Plugin/Comments/Config/bootstrap.php:20
-#: Plugin/Comments/View/Comments/admin_form.ctp:55
-#: Plugin/Comments/View/Comments/admin_index.ctp:16;33
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:132
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:38
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:78
+#: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:55
+#: Comments/View/Comments/admin_index.ctp:14;31
+#: Contacts/View/Contacts/admin_form.ctp:132 Croogo/Lib/CroogoStatus.php:36
+#: Nodes/View/Elements/admin/nodes_search.ctp:40
 msgid "Published"
 msgstr "Публикувано"
 
-#: Plugin/Comments/Config/bootstrap.php:32
-#: Plugin/Comments/View/Comments/admin_index.ctp:19;37
+#: Comments/Config/admin_menu.php:25
+#: Comments/View/Comments/admin_index.ctp:17;35
 msgid "Approval"
 msgstr "Одобрение"
 
-#: Plugin/Comments/Controller/CommentsController.php:106
+#: Comments/Controller/CommentsController.php:106
 msgid "Edit Comment"
 msgstr "Редактирай коментар"
 
-#: Plugin/Comments/Controller/CommentsController.php:109
+#: Comments/Controller/CommentsController.php:109
 msgid "Invalid Comment"
 msgstr "Невалиден коментар"
 
-#: Plugin/Comments/Controller/CommentsController.php:114
+#: Comments/Controller/CommentsController.php:114
 msgid "The Comment has been saved"
 msgstr "Коментарът е запазен"
 
-#: Plugin/Comments/Controller/CommentsController.php:117
+#: Comments/Controller/CommentsController.php:117
 msgid "The Comment could not be saved. Please, try again."
 msgstr "Коментарът не може да бъде запазен. Моля, опитайте отново."
 
-#: Plugin/Comments/Controller/CommentsController.php:134
+#: Comments/Controller/CommentsController.php:134
 msgid "Invalid id for Comment"
 msgstr "Невалиден id за коментар"
 
-#: Plugin/Comments/Controller/CommentsController.php:138
+#: Comments/Controller/CommentsController.php:138
 msgid "Comment deleted"
 msgstr "Коментарът е изтрит"
 
-#: Plugin/Comments/Controller/CommentsController.php:165
+#: Comments/Controller/CommentsController.php:165
 msgid "Comments deleted"
 msgstr ""
 
-#: Plugin/Comments/Controller/CommentsController.php:168
+#: Comments/Controller/CommentsController.php:168
 msgid "Comments published"
 msgstr "Коментарите са записани"
 
-#: Plugin/Comments/Controller/CommentsController.php:171
+#: Comments/Controller/CommentsController.php:171
 msgid "Comments unpublished"
 msgstr "Коментарите са отписани"
 
-#: Plugin/Comments/Controller/CommentsController.php:212
-msgid "Invalid Node"
-msgstr "Невалиден елемент"
+#: Comments/Controller/CommentsController.php:213
+msgid "Invalid id"
+msgstr ""
 
-#: Plugin/Comments/Controller/CommentsController.php:224
+#: Comments/Controller/CommentsController.php:238
 msgid "Maximum level reached. You cannot reply to that comment."
 msgstr "Достигнат максимален брой. Не може да отговорите на този коментар."
 
-#: Plugin/Comments/Controller/CommentsController.php:232
+#: Comments/Controller/CommentsController.php:253
 msgid "Comments are not allowed."
 msgstr ""
 
-#: Plugin/Comments/Controller/CommentsController.php:256
+#: Comments/Controller/CommentsController.php:277
 msgid "Your comment has been added successfully."
 msgstr "Коментарът е добавен успешно."
 
-#: Plugin/Comments/Controller/CommentsController.php:258
+#: Comments/Controller/CommentsController.php:279
 msgid "Your comment will appear after moderation."
 msgstr "Коментарът ще бъде видим след модерация."
 
-#: Plugin/Comments/Controller/CommentsController.php:293
+#: Comments/Controller/CommentsController.php:314
 msgid "Sorry, the comment appears to be spam."
 msgstr "Вероятно коментарът е спам."
 
-#: Plugin/Comments/Controller/CommentsController.php:315
-#: Plugin/Contacts/Controller/ContactsController.php:239
+#: Comments/Controller/CommentsController.php:336
+#: Contacts/Controller/ContactsController.php:244
 msgid "Invalid captcha entry"
 msgstr "Невалиден вход на captcha"
 
-#: Plugin/Comments/Controller/CommentsController.php:337
+#: Comments/Controller/CommentsController.php:358
 msgid "New comment posted under"
 msgstr "Има нов коментар"
 
-#: Plugin/Comments/Model/Comment.php:115
+#: Comments/Model/Comment.php:130
 msgid "Invalid Node id"
 msgstr ""
 
-#: Plugin/Comments/Model/Comment.php:174
+#: Comments/Model/Comment.php:199
 msgid "Invalid Comment id"
 msgstr ""
 
-#: Plugin/Comments/View/Comments/admin_form.ctp:7
-#: Plugin/Comments/View/Comments/admin_index.ctp:11
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:28;37
-#: Plugin/Nodes/Config/bootstrap.php:38
-#: Plugin/Nodes/Controller/NodesController.php:107
-#: Plugin/Nodes/View/Nodes/admin_create.ctp:5
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:8
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:7
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:8
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:7
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:6
-#: Plugin/Taxonomy/View/Types/admin_index.ctp:4
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:7
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:7
+#: Comments/View/Comments/admin_form.ctp:7
+#: Comments/View/Comments/admin_index.ctp:9
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:28;37
+#: Nodes/Config/admin_menu.php:5 Nodes/Controller/NodesController.php:107
+#: Nodes/View/Nodes/admin_create.ctp:5 Nodes/View/Nodes/admin_form.ctp:8
+#: Nodes/View/Nodes/admin_index.ctp:7 Taxonomy/View/Terms/admin_form.ctp:8
+#: Taxonomy/View/Terms/admin_index.ctp:7 Taxonomy/View/Types/admin_form.ctp:6
+#: Taxonomy/View/Types/admin_index.ctp:4
+#: Taxonomy/View/Vocabularies/admin_form.ctp:7
+#: Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
 msgstr "Съдържание"
 
-#: Plugin/Comments/View/Comments/admin_form.ctp:19
-#: Plugin/Comments/View/Elements/comments.ctp:5
-#: Plugin/Nodes/View/Elements/node_more_info.ctp:31
-#: Plugin/Settings/Config/bootstrap.php:71
+#: Comments/View/Comments/admin_form.ctp:19
+#: Comments/View/Elements/comments.ctp:5
+#: Nodes/View/Elements/node_more_info.ctp:31
 msgid "Comment"
 msgstr "Коментар"
 
-#: Plugin/Comments/View/Comments/admin_form.ctp:60
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:25
-#: Plugin/Contacts/View/Messages/admin_index.ctp:66
+#: Comments/View/Comments/admin_form.ctp:60
+#: Contacts/View/Contacts/admin_form.ctp:25
+#: Contacts/View/Messages/admin_index.ctp:68
 msgid "Contact"
 msgstr "Контакт"
 
-#: Plugin/Comments/View/Comments/admin_form.ctp:61
-#: Plugin/Comments/View/Comments/admin_index.ctp:49
-#: Plugin/Comments/View/Elements/comments_form.ctp:24;40
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:56
-#: Plugin/Contacts/View/Messages/admin_form.ctp:35
-#: Plugin/Contacts/View/Messages/admin_index.ctp:67
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:25
-#: Plugin/Install/View/Install/database.ctp:52
-#: Plugin/Users/View/Users/admin_form.ctp:54
+#: Comments/View/Comments/admin_form.ctp:61
+#: Comments/View/Comments/admin_index.ctp:47
+#: Comments/View/Elements/comments_form.ctp:25;41
+#: Contacts/View/Contacts/admin_form.ctp:56
+#: Contacts/View/Messages/admin_form.ctp:35
+#: Contacts/View/Messages/admin_index.ctp:69
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:25
+#: Install/View/Install/database.ctp:80 Users/View/Users/admin_form.ctp:57
 msgid "Name"
 msgstr "Име"
 
-#: Plugin/Comments/View/Comments/admin_form.ctp:62
-#: Plugin/Comments/View/Comments/admin_index.ctp:50
-#: Plugin/Comments/View/Elements/comments_form.ctp:29;41
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:45
-#: Plugin/Contacts/View/Messages/admin_form.ctp:38
-#: Plugin/Contacts/View/Messages/admin_index.ctp:68
-#: Plugin/Users/View/Users/admin_form.ctp:57
+#: Comments/View/Comments/admin_form.ctp:62
+#: Comments/View/Comments/admin_index.ctp:48
+#: Comments/View/Elements/comments_form.ctp:30;42
+#: Contacts/View/Contacts/admin_form.ctp:45
+#: Contacts/View/Messages/admin_form.ctp:38
+#: Contacts/View/Messages/admin_index.ctp:70
+#: Users/View/Users/admin_form.ctp:60
 msgid "Email"
 msgstr "Email"
 
-#: Plugin/Comments/View/Comments/admin_form.ctp:63
-#: Plugin/Comments/View/Elements/comments_form.ctp:34;42
-#: Plugin/Users/View/Users/admin_form.ctp:60
+#: Comments/View/Comments/admin_form.ctp:63
+#: Comments/View/Elements/comments_form.ctp:35;43
+#: Users/View/Users/admin_form.ctp:63
 msgid "Website"
 msgstr "Website"
 
-#: Plugin/Comments/View/Comments/admin_form.ctp:64
+#: Comments/View/Comments/admin_form.ctp:64
 msgid "Ip"
 msgstr ""
 
-#: Plugin/Comments/View/Comments/admin_index.ctp:17
+#: Comments/View/Comments/admin_index.ctp:15
 msgid "Comments: Published"
 msgstr "Коментари: Публикувани"
 
-#: Plugin/Comments/View/Comments/admin_index.ctp:20
+#: Comments/View/Comments/admin_index.ctp:18
 msgid "Comments: Approval"
 msgstr "Коментари: Одобрени"
 
-#: Plugin/Comments/View/Comments/admin_index.ctp:51
+#: Comments/View/Comments/admin_index.ctp:49
 msgid "Node"
 msgstr ""
 
-#: Plugin/Comments/View/Comments/admin_index.ctp:53
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:7;50
+#: Comments/View/Comments/admin_index.ctp:51
+#: Nodes/View/Nodes/admin_chooser.ctp:7;50
 msgid "Created"
 msgstr ""
 
-#: Plugin/Comments/View/Comments/rss/index.ctp:18
+#: Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
 msgstr "Коментар на"
 
-#: Plugin/Comments/View/Comments/rss/index.ctp:18
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:50;86
-#: Plugin/Nodes/View/Elements/node_info.ctp:9
+#: Comments/View/Comments/rss/index.ctp:18
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:53;103
+#: Nodes/View/Elements/node_info.ctp:9
 msgid "by"
 msgstr "от"
 
-#: Plugin/Comments/View/Elements/comment.ctp:13
+#: Comments/View/Elements/comment.ctp:13
 msgid "said on %s"
 msgstr "каза в %s"
 
-#: Plugin/Comments/View/Elements/comment.ctp:19
+#: Comments/View/Elements/comment.ctp:19
 msgid "Reply"
 msgstr "Отговор"
 
-#: Plugin/Comments/View/Elements/comments_form.ctp:2
+#: Comments/View/Elements/comments_form.ctp:2
 msgid "Add new comment"
 msgstr "Добавяне на нов коментар"
 
-#: Plugin/Comments/View/Elements/comments_form.ctp:7
+#: Comments/View/Elements/comments_form.ctp:7
 msgid "Go back to original post"
 msgstr ""
 
-#: Plugin/Comments/View/Elements/comments_form.ctp:49
+#: Comments/View/Elements/comments_form.ctp:50
 msgid "Post comment"
 msgstr "Публикувай коментар"
 
-#: Plugin/Comments/View/Elements/admin/comments_tab.ctp:6
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:66
+#: Comments/View/Elements/admin/comments_tab.ctp:6
+#: Taxonomy/View/Types/admin_form.ctp:66
 msgid "Disabled"
 msgstr "Деактивирани"
 
-#: Plugin/Comments/View/Elements/admin/comments_tab.ctp:7
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:67
+#: Comments/View/Elements/admin/comments_tab.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:67
 msgid "Read only"
 msgstr "Само за четене"
 
-#: Plugin/Comments/View/Elements/admin/comments_tab.ctp:8
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:68
+#: Comments/View/Elements/admin/comments_tab.ctp:8
+#: Taxonomy/View/Types/admin_form.ctp:68
 msgid "Read/Write"
 msgstr "Четене/Писане"
 
-#: Plugin/Comments/View/Emails/text/comment.ctp:2
+#: Comments/View/Emails/text/comment.ctp:2
 msgid "A new comment has been posted under: %s"
 msgstr "Беше добавен нов коментар в: %s"
 
-#: Plugin/Comments/View/Emails/text/comment.ctp:6
-#: Plugin/Contacts/View/Emails/text/contact.ctp:8
+#: Comments/View/Emails/text/comment.ctp:6
+#: Contacts/View/Emails/text/contact.ctp:8
 msgid "Name: %s"
 msgstr "Име: %s"
 
-#: Plugin/Comments/View/Emails/text/comment.ctp:7
-#: Plugin/Contacts/View/Emails/text/contact.ctp:9
+#: Comments/View/Emails/text/comment.ctp:7
+#: Contacts/View/Emails/text/contact.ctp:9
 msgid "Email: %s"
 msgstr "Email: %s"
 
-#: Plugin/Comments/View/Emails/text/comment.ctp:8
+#: Comments/View/Emails/text/comment.ctp:8
 msgid "Website: %s"
 msgstr "Website: %s"
 
-#: Plugin/Comments/View/Emails/text/comment.ctp:9
-#: Plugin/Contacts/View/Emails/text/contact.ctp:11
-#: Plugin/Users/View/Emails/text/forgot_password.ctp:17
+#: Comments/View/Emails/text/comment.ctp:9
+#: Contacts/View/Emails/text/contact.ctp:11
+#: Users/View/Emails/text/forgot_password.ctp:17
 msgid "IP Address: %s"
 msgstr "IP адрес: %s"
 
-#: Plugin/Comments/View/Emails/text/comment.ctp:10
+#: Comments/View/Emails/text/comment.ctp:10
 msgid "Comment: %s"
 msgstr "Коментар: %s"
 
-#: Plugin/Contacts/Config/bootstrap.php:10;20
-#: Plugin/Contacts/Controller/ContactsController.php:52
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:7
-#: Plugin/Contacts/View/Contacts/admin_index.ctp:3
-#: Plugin/Contacts/View/Messages/admin_form.ctp:7
-#: Plugin/Contacts/View/Messages/admin_index.ctp:7
+#: Contacts/Config/admin_menu.php:5;15
+#: Contacts/Controller/ContactsController.php:52
+#: Contacts/View/Contacts/admin_form.ctp:7
+#: Contacts/View/Contacts/admin_index.ctp:3
+#: Contacts/View/Messages/admin_form.ctp:7
+#: Contacts/View/Messages/admin_index.ctp:9
 msgid "Contacts"
 msgstr "Контакти"
 
-#: Plugin/Contacts/Config/bootstrap.php:29
-#: Plugin/Contacts/Controller/MessagesController.php:63
-#: Plugin/Contacts/View/Messages/admin_form.ctp:8
-#: Plugin/Contacts/View/Messages/admin_index.ctp:8
+#: Contacts/Config/admin_menu.php:24
+#: Contacts/Controller/MessagesController.php:63
+#: Contacts/View/Messages/admin_form.ctp:8
+#: Contacts/View/Messages/admin_index.ctp:10
 msgid "Messages"
 msgstr "Съобщения"
 
-#: Plugin/Contacts/Controller/ContactsController.php:67
+#: Contacts/Controller/ContactsController.php:67
 msgid "Add Contact"
 msgstr "Добави контакт"
 
-#: Plugin/Contacts/Controller/ContactsController.php:72;96
+#: Contacts/Controller/ContactsController.php:72;96
 msgid "The Contact has been saved"
 msgstr "Контактът е запазен"
 
-#: Plugin/Contacts/Controller/ContactsController.php:75;99
+#: Contacts/Controller/ContactsController.php:75;99
 msgid "The Contact could not be saved. Please, try again."
 msgstr "Контактът не може да бъде запазен. Моля, опитайте отново."
 
-#: Plugin/Contacts/Controller/ContactsController.php:88
+#: Contacts/Controller/ContactsController.php:88
 msgid "Edit Contact"
 msgstr "Редактирай контакт"
 
-#: Plugin/Contacts/Controller/ContactsController.php:91
+#: Contacts/Controller/ContactsController.php:91
 msgid "Invalid Contact"
 msgstr "Невалиден контакт"
 
-#: Plugin/Contacts/Controller/ContactsController.php:116
+#: Contacts/Controller/ContactsController.php:116
 msgid "Invalid id for Contact"
 msgstr "Невалиден id за контакт"
 
-#: Plugin/Contacts/Controller/ContactsController.php:120
+#: Contacts/Controller/ContactsController.php:120
 msgid "Contact deleted"
 msgstr "Контактът е изтрит"
 
-#: Plugin/Contacts/Controller/ContactsController.php:170
+#: Contacts/Controller/ContactsController.php:169
 msgid "Your message has been received..."
 msgstr "Съобщението Ви е получено..."
 
-#: Plugin/Contacts/Controller/ContactsController.php:218
+#: Contacts/Controller/ContactsController.php:223
 msgid "Sorry, the message appears to be spam."
 msgstr "Вероятно коментарът е спам."
 
-#: Plugin/Contacts/Controller/ContactsController.php:263
+#: Contacts/Controller/ContactsController.php:268
 msgid "[%s] %s"
 msgstr ""
 
-#: Plugin/Contacts/Controller/MessagesController.php:71
-#: Plugin/Contacts/View/Messages/admin_index.ctp:12;47
+#: Contacts/Controller/MessagesController.php:71
+#: Contacts/View/Messages/admin_index.ctp:14;49
 msgid "Read"
 msgstr "Прочетени"
 
-#: Plugin/Contacts/Controller/MessagesController.php:85
+#: Contacts/Controller/MessagesController.php:85
 msgid "Edit Message"
 msgstr "Редакция на съобщение"
 
-#: Plugin/Contacts/Controller/MessagesController.php:88
+#: Contacts/Controller/MessagesController.php:88
 msgid "Invalid Message"
 msgstr "Невалидно съобщение"
 
-#: Plugin/Contacts/Controller/MessagesController.php:93
+#: Contacts/Controller/MessagesController.php:93
 msgid "The Message has been saved"
 msgstr "Съобщението е запазено"
 
-#: Plugin/Contacts/Controller/MessagesController.php:96
+#: Contacts/Controller/MessagesController.php:96
 msgid "The Message could not be saved. Please, try again."
 msgstr "Съобщението не може да бъде запазено. Моля, опитайте отново."
 
-#: Plugin/Contacts/Controller/MessagesController.php:113
+#: Contacts/Controller/MessagesController.php:113
 msgid "Invalid id for Message"
 msgstr "Некоректно id за съобщение"
 
-#: Plugin/Contacts/Controller/MessagesController.php:117
+#: Contacts/Controller/MessagesController.php:117
 msgid "Message deleted"
 msgstr "Съобщението е изтрито"
 
-#: Plugin/Contacts/Controller/MessagesController.php:144
+#: Contacts/Controller/MessagesController.php:144
 msgid "Messages deleted."
 msgstr "Съобщенията са изтрити."
 
-#: Plugin/Contacts/Controller/MessagesController.php:147
+#: Contacts/Controller/MessagesController.php:147
 msgid "Messages marked as read"
 msgstr "Съобщенията са маркирани като прочетени"
 
-#: Plugin/Contacts/Controller/MessagesController.php:150
+#: Contacts/Controller/MessagesController.php:150
 msgid "Messages marked as unread"
 msgstr "Съобщенията са маркирани като непрочетени"
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:26
+#: Contacts/View/Contacts/admin_form.ctp:26
 msgid "Details"
 msgstr "Детайли"
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:27
-#: Plugin/Contacts/View/Contacts/view.ctp:21
-#: Plugin/Contacts/View/Messages/admin_form.ctp:21
+#: Contacts/View/Contacts/admin_form.ctp:27 Contacts/View/Contacts/view.ctp:21
+#: Contacts/View/Messages/admin_form.ctp:21
 msgid "Message"
 msgstr "Съобщение"
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:59
+#: Contacts/View/Contacts/admin_form.ctp:59
 msgid "Position"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:62
-#: Plugin/Contacts/View/Messages/admin_form.ctp:50
+#: Contacts/View/Contacts/admin_form.ctp:62
+#: Contacts/View/Messages/admin_form.ctp:50
 msgid "Address"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:65
+#: Contacts/View/Contacts/admin_form.ctp:65
 msgid "Address2"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:68
+#: Contacts/View/Contacts/admin_form.ctp:68
 msgid "State"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:71
+#: Contacts/View/Contacts/admin_form.ctp:71
 msgid "Country"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:74
+#: Contacts/View/Contacts/admin_form.ctp:74
 msgid "Post Code"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:77
-#: Plugin/Contacts/View/Messages/admin_form.ctp:47
+#: Contacts/View/Contacts/admin_form.ctp:77
+#: Contacts/View/Messages/admin_form.ctp:47
 msgid "Phone"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:80
+#: Contacts/View/Contacts/admin_form.ctp:80
 msgid "Fax"
 msgstr ""
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:88
+#: Contacts/View/Contacts/admin_form.ctp:88
 msgid "Let users leave a message"
 msgstr "Позволете на потребителите да оставят съобщение"
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:92
+#: Contacts/View/Contacts/admin_form.ctp:92
 msgid "Save messages in database"
 msgstr "Съощбението е добавено в база данни"
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:96
+#: Contacts/View/Contacts/admin_form.ctp:96
 msgid "Notify by email instantly"
 msgstr "Незабавно уведомяване по електронната поща"
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:100
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:80
+#: Contacts/View/Contacts/admin_form.ctp:100
+#: Taxonomy/View/Types/admin_form.ctp:80
 msgid "Spam protection (requires Akismet API key)"
 msgstr "Spam защита (изисква Akismet API ключ)"
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:104
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:84
+#: Contacts/View/Contacts/admin_form.ctp:104
+#: Taxonomy/View/Types/admin_form.ctp:84
 msgid "Use captcha? (requires Recaptcha API key)"
 msgstr "Използва captcha? (изисква Recaptcha API ключ)"
 
-#: Plugin/Contacts/View/Contacts/admin_form.ctp:108
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:87
+#: Contacts/View/Contacts/admin_form.ctp:108
+#: Taxonomy/View/Types/admin_form.ctp:87
 msgid "You can manage your API keys here."
 msgstr "Можете да управлявате вашия API ключ тук."
 
-#: Plugin/Contacts/View/Contacts/view.ctp:18
+#: Contacts/View/Contacts/view.ctp:18
 msgid "Your name"
 msgstr "Вашето име"
 
-#: Plugin/Contacts/View/Contacts/view.ctp:19
+#: Contacts/View/Contacts/view.ctp:19
 msgid "Your email"
 msgstr "Вашата електронна поща"
 
-#: Plugin/Contacts/View/Contacts/view.ctp:20
+#: Contacts/View/Contacts/view.ctp:20
 msgid "Subject"
 msgstr "Предмет"
 
-#: Plugin/Contacts/View/Contacts/view.ctp:25
+#: Contacts/View/Contacts/view.ctp:25
 msgid "Send"
 msgstr "Изпрати"
 
-#: Plugin/Contacts/View/Emails/text/contact.ctp:7
+#: Contacts/View/Emails/text/contact.ctp:7
 msgid "You have received a new message at: %s"
 msgstr "Получихте ново съобщение в: %s"
 
-#: Plugin/Contacts/View/Emails/text/contact.ctp:10
+#: Contacts/View/Emails/text/contact.ctp:10
 msgid "Subject: %s"
 msgstr "Предмет: %s"
 
-#: Plugin/Contacts/View/Emails/text/contact.ctp:12
+#: Contacts/View/Emails/text/contact.ctp:12
 msgid "Message: %s"
 msgstr "Съобщение: %s"
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:13
+#: Contacts/View/Messages/admin_index.ctp:15
 msgid "Messages: Read"
 msgstr "Съобщения: прочетени"
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:15;41
+#: Contacts/View/Messages/admin_index.ctp:17;43
 msgid "Unread"
 msgstr "Непрочетени"
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:16
+#: Contacts/View/Messages/admin_index.ctp:18
 msgid "Messages: Unread"
 msgstr "Съобщения: непрочетени"
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:131
+#: Contacts/View/Messages/admin_index.ctp:133
 msgid "Mark as read"
 msgstr "Маркирай като прочетени"
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:132
+#: Contacts/View/Messages/admin_index.ctp:134
 msgid "Mark as unread"
 msgstr "Маркирай като непрочетени"
 
-#: Plugin/Croogo/Console/Command/CroogoShell.php:27
+#: Croogo/Console/Command/CroogoShell.php:27
 msgid "Croogo Utilities"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/CroogoShell.php:29
+#: Croogo/Console/Command/CroogoShell.php:29
 msgid "Compile/Generate CSS"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/CroogoShell.php:32
+#: Croogo/Console/Command/CroogoShell.php:32
 msgid "Upgrade Croogo"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:103
+#: Croogo/Console/Command/ExtShell.php:103
 msgid "Theme cannot be deactivated, instead activate another theme."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:107
+#: Croogo/Console/Command/ExtShell.php:107
 msgid "%s \"%s\" not found."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:116
+#: Croogo/Console/Command/ExtShell.php:116
 msgid "%s name must be provided."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:128
+#: Croogo/Console/Command/ExtShell.php:128
 msgid "Activate Plugins & Themes"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:131
+#: Croogo/Console/Command/ExtShell.php:131
 msgid "Method to perform"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:136
-#: Plugin/Croogo/Console/Command/InstallShell.php:136
+#: Croogo/Console/Command/ExtShell.php:136
+#: Croogo/Console/Command/InstallShell.php:136
 msgid "Extension type"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:141
+#: Croogo/Console/Command/ExtShell.php:141
 msgid "Name of extension"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:165
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:152
+#: Croogo/Console/Command/ExtShell.php:165
+#: Extensions/Controller/ExtensionsPluginsController.php:157
 msgid "Plugin \"%s\" activated successfully."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:170
-#: Plugin/Extensions/Lib/CroogoPlugin.php:505
+#: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:520
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:184
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:143
-msgid "Plugin \"%s\" deactivated successfully."
-msgstr ""
-
-#: Plugin/Croogo/Console/Command/ExtShell.php:189
+#: Croogo/Console/Command/ExtShell.php:186
 msgid "Plugin \"%s\" could not be deactivated. Please, try again."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:205
+#: Croogo/Console/Command/ExtShell.php:194
+#: Extensions/Controller/ExtensionsPluginsController.php:143
+msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
+msgstr ""
+
+#: Croogo/Console/Command/ExtShell.php:205
+#: Extensions/Controller/ExtensionsPluginsController.php:148
+msgid "Plugin \"%s\" deactivated successfully."
+msgstr ""
+
+#: Croogo/Console/Command/ExtShell.php:219
 msgid "Theme \"%s\" activated successfully."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:207
+#: Croogo/Console/Command/ExtShell.php:221
 msgid "Theme \"%s\" activation failed."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:221
+#: Croogo/Console/Command/ExtShell.php:235
 msgid "Plugins:"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:222;234;248;258
+#: Croogo/Console/Command/ExtShell.php:236;248;262;272
 msgid "%-20s%-50s%s"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:222
+#: Croogo/Console/Command/ExtShell.php:236
+#: Taxonomy/View/Vocabularies/admin_index.ctp:17
 msgid "Plugin"
 msgstr "Плъгин"
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:222;248
+#: Croogo/Console/Command/ExtShell.php:236;262
 msgid "Author"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/ExtShell.php:248
+#: Croogo/Console/Command/ExtShell.php:262
 msgid "Theme"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:81
+#: Croogo/Console/Command/InstallShell.php:81
 msgid "Installing with Composer..."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:89
+#: Croogo/Console/Command/InstallShell.php:89
 msgid "Unexpected composerInstall return value"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:102
+#: Croogo/Console/Command/InstallShell.php:102
 msgid "Package installed and activated."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:104
+#: Croogo/Console/Command/InstallShell.php:104
 msgid "Package installed but not activated."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:121
+#: Croogo/Console/Command/InstallShell.php:121
 msgid "Extension installed and activated."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:133
+#: Croogo/Console/Command/InstallShell.php:133
 msgid "Download, Install & Activate Plugins & Themes"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:141
+#: Croogo/Console/Command/InstallShell.php:141
 msgid "URL to zip file OR github user name"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:145
+#: Croogo/Console/Command/InstallShell.php:145
 msgid "Github repo name"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:176
+#: Croogo/Console/Command/InstallShell.php:176
 msgid "Installing extension..."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:195
+#: Croogo/Console/Command/InstallShell.php:195
 msgid "Please specify a URL to a zipball extension"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/InstallShell.php:200
+#: Croogo/Console/Command/InstallShell.php:200
 msgid "Downloading extension to %s..."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:62
+#: Croogo/Console/Command/Task/UpgradeTask.php:62
 msgid "Upgrade ACL database for core controllers."
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:64
+#: Croogo/Console/Command/Task/UpgradeTask.php:64
 msgid ""
 "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
 "in normal CakePHP applications. The primary difference is plugin controllers "
@@ -1457,664 +1413,682 @@ msgid ""
 "table before upgrading.</warning>"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:76
+#: Croogo/Console/Command/Task/UpgradeTask.php:76
 msgid "Create settings.json from database"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:79
+#: Croogo/Console/Command/Task/UpgradeTask.php:79
 msgid "Update Hook.bootstrap settings"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:82
+#: Croogo/Console/Command/Task/UpgradeTask.php:82
 msgid "Update Links in database"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:85
+#: Croogo/Console/Command/Task/UpgradeTask.php:85
 msgid "Create first migration records"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:88
+#: Croogo/Console/Command/Task/UpgradeTask.php:88
+msgid "Run all pending migrations for core plugins"
+msgstr ""
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:91
 msgid "Run all upgrade tasks"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:98
+#: Croogo/Console/Command/Task/UpgradeTask.php:101
 msgid "<warning>Config/settings.json already exist</warning>"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:139
+#: Croogo/Console/Command/Task/UpgradeTask.php:142
 msgid ""
 "<success>Config/settings.yml created based on `settings` table</success>"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:184
+#: Croogo/Console/Command/Task/UpgradeTask.php:187
 msgid "Updating Link %s"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:185
-#: Plugin/Settings/Console/Command/SettingsShell.php:155
+#: Croogo/Console/Command/Task/UpgradeTask.php:188
+#: Settings/Console/Command/SettingsShell.php:155
 msgid "- %s"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:186
-#: Plugin/Settings/Console/Command/SettingsShell.php:158
+#: Croogo/Console/Command/Task/UpgradeTask.php:189
+#: Settings/Console/Command/SettingsShell.php:158
 msgid "+ %s"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:191
+#: Croogo/Console/Command/Task/UpgradeTask.php:194
 msgid "Links updated: %d rows"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:207
+#: Croogo/Console/Command/Task/UpgradeTask.php:210
 msgid "Hook.bootstraps updated"
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:318
+#: Croogo/Console/Command/Task/UpgradeTask.php:334
 msgid "Upgrade \"%s\""
 msgstr ""
 
-#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:332
+#: Croogo/Console/Command/Task/UpgradeTask.php:348
 msgid "Command not recognized"
 msgstr ""
 
-#: Plugin/Croogo/Controller/CroogoAppController.php:160
+#: Croogo/Controller/CroogoAppController.php:253
 msgid "Site down for maintenance"
 msgstr "Сайтът е в процес на профилактика"
 
-#: Plugin/Croogo/Controller/CroogoErrorController.php:55
+#: Croogo/Controller/CroogoErrorController.php:55
 msgid "Errors in CakeErrorController: %s"
 msgstr ""
 
-#: Plugin/Croogo/Controller/Component/CroogoComponent.php:200
-#: Plugin/Nodes/Controller/NodesController.php:199;681;719
+#: Croogo/Controller/Component/CroogoComponent.php:128
+msgid "Visit website"
+msgstr "Към сайтът"
+
+#: Croogo/Controller/Component/CroogoComponent.php:145
+msgid "Profile"
+msgstr ""
+
+#: Croogo/Controller/Component/CroogoComponent.php:291
+#: Nodes/Controller/NodesController.php:200;685;705
 msgid "Invalid content"
 msgstr "Невалидно съдържание"
 
-#: Plugin/Croogo/Controller/Component/CroogoComponent.php:209
+#: Croogo/Controller/Component/CroogoComponent.php:300
 msgid "Failed toggling field %s to %s"
 msgstr ""
 
-#: Plugin/Croogo/Event/CroogoEventManager.php:73
+#: Croogo/Event/CroogoEventManager.php:77
 msgid "EventHandler %s not found in plugin %s"
 msgstr ""
 
-#: Plugin/Croogo/Lib/CroogoRouter.php:123
+#: Croogo/Lib/CroogoRouter.php:184
 msgid "Unable to get routeable content types: %s"
 msgstr ""
 
-#: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:40
+#: Croogo/Lib/CroogoStatus.php:35
+#: Nodes/View/Elements/admin/nodes_search.ctp:41
+msgid "Unpublished"
+msgstr "Непубликуван"
+
+#: Croogo/Lib/CroogoStatus.php:37
+msgid "Preview"
+msgstr ""
+
+#: Croogo/Lib/CroogoStatus.php:40
+msgid "Approved"
+msgstr ""
+
+#: Croogo/Lib/CroogoStatus.php:41
+msgid "Pending"
+msgstr ""
+
+#: Croogo/Lib/Configure/CroogoJsonReader.php:40
 msgid "Cannot load configuration files with ../ in them."
 msgstr ""
 
-#: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:55
+#: Croogo/Lib/Configure/CroogoJsonReader.php:55
 msgid "Could not load configuration files: %s or %s"
 msgstr ""
 
-#: Plugin/Croogo/View/Common/admin_edit.ctp:8
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:35
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:91
-#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:31
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:33
+#: Croogo/View/Common/admin_edit.ctp:8
+#: FileManager/View/Attachments/admin_browse.ctp:35
+#: FileManager/View/FileManager/admin_browse.ctp:91
+#: FileManager/View/FileManager/admin_editfile.ctp:31
+#: Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
 msgstr "Редактирай"
 
-#: Plugin/Croogo/View/Common/admin_index.ctp:31
-#: Plugin/Menus/View/Links/admin_index.ctp:16
+#: Croogo/View/Common/admin_index.ctp:31 Menus/View/Links/admin_index.ctp:18
 msgid "New %s"
 msgstr ""
 
-#: Plugin/Croogo/View/Common/admin_index.ctp:128
+#: Croogo/View/Common/admin_index.ctp:128
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
 
-#: Plugin/Croogo/View/Common/admin_index.ctp:133
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:91
+#: Croogo/View/Common/admin_index.ctp:133
+#: FileManager/View/Attachments/admin_browse.ctp:93
 msgid "first"
 msgstr ""
 
-#: Plugin/Croogo/View/Common/admin_index.ctp:134
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:92
+#: Croogo/View/Common/admin_index.ctp:134
+#: FileManager/View/Attachments/admin_browse.ctp:94
 msgid "prev"
 msgstr ""
 
-#: Plugin/Croogo/View/Common/admin_index.ctp:136
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:94
+#: Croogo/View/Common/admin_index.ctp:136
+#: FileManager/View/Attachments/admin_browse.ctp:96
 msgid "next"
 msgstr ""
 
-#: Plugin/Croogo/View/Common/admin_index.ctp:137
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:95
+#: Croogo/View/Common/admin_index.ctp:137
+#: FileManager/View/Attachments/admin_browse.ctp:97
 msgid "last"
 msgstr ""
 
-#: Plugin/Croogo/View/Elements/admin/footer.ctp:7
+#: Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
 msgstr ""
 
-#: Plugin/Croogo/View/Elements/admin/header.ctp:22
-#: Plugin/Settings/Controller/SettingsController.php:48
-#: Plugin/Settings/View/Settings/admin_dashboard.ctp:5
+#: Croogo/View/Elements/admin/header.ctp:18
+#: Extensions/Controller/ExtensionsDashboardController.php:11
+#: Extensions/View/ExtensionsDashboard/admin_index.ctp:5
+#: Settings/Controller/SettingsController.php:69
+#: Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
 msgstr "Администрация"
 
-#: Plugin/Croogo/View/Elements/admin/header.ctp:27
-msgid "Visit website"
-msgstr "Към сайтът"
-
-#: Plugin/Croogo/View/Elements/admin/header.ctp:34
-msgid "You are logged in as: %s"
-msgstr ""
-
-#: Plugin/Croogo/View/Elements/admin/header.ctp:38
-msgid "Log out"
-msgstr ""
-
-#: Plugin/Croogo/View/Elements/admin/modal.ctp:19
+#: Croogo/View/Elements/admin/modal.ctp:20
 msgid "Close"
 msgstr ""
 
-#: Plugin/Croogo/View/Elements/admin/search.ctp:39
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:53
+#: Croogo/View/Elements/admin/search.ctp:38
+#: Nodes/View/Elements/admin/nodes_search.ctp:58
 msgid "Filter"
 msgstr "Филтер"
 
-#: Plugin/Croogo/View/Errors/missing_action.ctp:1
-#: Plugin/Croogo/View/Errors/missing_controller.ctp:1
-#: Plugin/Croogo/View/Errors/security.ctp:1
+#: Croogo/View/Errors/missing_action.ctp:1
+#: Croogo/View/Errors/missing_controller.ctp:1
+#: Croogo/View/Errors/security.ctp:1
 msgid "Page not found"
 msgstr "Страницата не е намерена"
 
-#: Plugin/Croogo/View/Errors/missing_action.ctp:2
-#: Plugin/Croogo/View/Errors/missing_controller.ctp:2
+#: Croogo/View/Errors/missing_action.ctp:2
+#: Croogo/View/Errors/missing_controller.ctp:2
 msgid "Error"
 msgstr "Грешка"
 
-#: Plugin/Croogo/View/Errors/missing_action.ctp:4
-#: Plugin/Croogo/View/Errors/missing_controller.ctp:4
-#: Plugin/Croogo/View/Errors/security.ctp:4
+#: Croogo/View/Errors/missing_action.ctp:4
+#: Croogo/View/Errors/missing_controller.ctp:4
+#: Croogo/View/Errors/security.ctp:4
 msgid "The requested address was not found on this server."
 msgstr "Търсеният адрес не беше намерен на този сървър."
 
-#: Plugin/Croogo/View/Errors/security.ctp:2
+#: Croogo/View/Errors/security.ctp:2
 msgid "Security Error"
 msgstr "Грешка в сигурността"
 
-#: Plugin/Croogo/View/Errors/security.ctp:8
+#: Croogo/View/Errors/security.ctp:8
 msgid "Request blackholed due to \"%s\" violation."
 msgstr ""
 
-#: Plugin/Croogo/View/Helper/LayoutHelper.php:94
+#: Croogo/View/Helper/LayoutHelper.php:94
 msgid "Method %1$s::%2$s does not exist"
 msgstr ""
 
-#: Plugin/Croogo/View/Layouts/admin.ctp:6
-#: Plugin/Croogo/View/Layouts/admin_full.ctp:6
-#: Plugin/Croogo/View/Layouts/admin_login.ctp:6
-#: Plugin/Croogo/View/Layouts/admin_popup.ctp:6
-#: Plugin/Install/View/Layouts/install.ctp:6
+#: Croogo/View/Layouts/admin.ctp:6 Croogo/View/Layouts/admin_full.ctp:6
+#: Croogo/View/Layouts/admin_login.ctp:6 Croogo/View/Layouts/admin_popup.ctp:6
+#: Install/View/Layouts/install.ctp:6
 msgid "Croogo"
 msgstr "Croogo"
 
-#: Plugin/Croogo/View/Layouts/admin_login.ctp:28
+#: Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
 msgstr "Върни се на"
 
-#: Plugin/Croogo/View/Layouts/maintenance.ctp:13
+#: Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
 msgstr ""
 
-#: Plugin/Example/View/Example/index.ctp:3
+#: Example/View/Example/index.ctp:3
 msgid "content here"
 msgstr "съдъжанието тук"
 
-#: Plugin/Extensions/Config/bootstrap.php:5
-#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:4
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:9
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:7
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:4
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:7
-#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:5
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:6
+#: Extensions/Config/admin_menu.ctp:5
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:4
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:9
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:7
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:4
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:7
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:5
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:6
 msgid "Extensions"
 msgstr "Разширения"
 
-#: Plugin/Extensions/Config/bootstrap.php:14
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:60
-#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:6
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:7
+#: Extensions/Config/admin_menu.ctp:14
+#: Extensions/Controller/ExtensionsThemesController.php:60
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:6
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Themes"
 msgstr "Теми"
 
-#: Plugin/Extensions/Config/bootstrap.php:23
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:44
-#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:5
-#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:10
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:8
+#: Extensions/Config/admin_menu.ctp:23
+#: Extensions/Controller/ExtensionsLocalesController.php:44
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:5
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:10
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:8
 msgid "Locales"
 msgstr "Езици"
 
-#: Plugin/Extensions/Config/bootstrap.php:32
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:69
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:5
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:8
+#: Extensions/Config/admin_menu.ctp:32
+#: Extensions/Controller/ExtensionsPluginsController.php:69
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:5
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:8
 msgid "Plugins"
 msgstr "Плъгини"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:66
+#: Extensions/Console/Command/DataMigrationShell.php:23
+msgid "Data Migration Utility"
+msgstr ""
+
+#: Extensions/Controller/ExtensionsLocalesController.php:66
 msgid "Locale does not exist."
 msgstr "Езикът не същестува."
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:72
+#: Extensions/Controller/ExtensionsLocalesController.php:72
 msgid "Locale '%s' set as default"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:74
+#: Extensions/Controller/ExtensionsLocalesController.php:74
 msgid "Could not save Locale setting."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:85
+#: Extensions/Controller/ExtensionsLocalesController.php:85
 msgid "Upload a new locale"
 msgstr "Качи нов език"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:111;166
+#: Extensions/Controller/ExtensionsLocalesController.php:111;166
 msgid "Invalid locale."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:116
+#: Extensions/Controller/ExtensionsLocalesController.php:116
 msgid "Locale already exists."
 msgstr "Езикът вече съществува."
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:163
+#: Extensions/Controller/ExtensionsLocalesController.php:163
 msgid "Edit locale: %s"
 msgstr "Редакция на език: %s"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:173
+#: Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "The file %s does not exist."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:183
+#: Extensions/Controller/ExtensionsLocalesController.php:183
 msgid "Locale updated successfully"
 msgstr "Езикът е качен успешно"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:199
-#: Plugin/Translate/Controller/TranslateController.php:108
+#: Extensions/Controller/ExtensionsLocalesController.php:199
+#: Translate/Controller/TranslateController.php:109
 msgid "Invalid locale"
 msgstr "Невалиден език"
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:205
+#: Extensions/Controller/ExtensionsLocalesController.php:205
 msgid "Locale deleted successfully."
 msgstr "Езикът е изтрит успешно."
 
-#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:207
+#: Extensions/Controller/ExtensionsLocalesController.php:207
 msgid "Local could not be deleted."
 msgstr "Езикът не може да бъде изтрит."
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:83
+#: Extensions/Controller/ExtensionsPluginsController.php:83
 msgid "Upload a new plugin"
 msgstr "Качи нов плъгин"
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:108;136;169;190;214
-#: Plugin/Extensions/Lib/CroogoPlugin.php:594
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:105
+#: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
+#: Extensions/Lib/CroogoPlugin.php:647
+#: Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
 msgstr "Невалиден плъгин"
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:112
+#: Extensions/Controller/ExtensionsPluginsController.php:112
 msgid "You cannot delete a plugin that is currently active."
 msgstr "Не може да изтриете активиран плъгин."
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:118
+#: Extensions/Controller/ExtensionsPluginsController.php:118
 msgid "Plugin \"%s\" deleted successfully."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:122
+#: Extensions/Controller/ExtensionsPluginsController.php:122
 msgid "Plugin could not be deleted."
 msgstr "Плъгинът не може да бъде изтрит."
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:147
-#: Plugin/Extensions/Lib/CroogoPlugin.php:530
+#: Extensions/Controller/ExtensionsPluginsController.php:152
+#: Extensions/Lib/CroogoPlugin.php:562
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:156
+#: Extensions/Controller/ExtensionsPluginsController.php:161
 msgid "Plugin could not be activated. Please, try again."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:171
+#: Extensions/Controller/ExtensionsPluginsController.php:176
 msgid "Plugin \"%s\" migrated successfully."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:174
+#: Extensions/Controller/ExtensionsPluginsController.php:179
 msgid "Plugin \"%s\" could not be migrated. Error: %s"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:196
+#: Extensions/Controller/ExtensionsPluginsController.php:201
 msgid "Plugin %s has been moved up"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:220
+#: Extensions/Controller/ExtensionsPluginsController.php:225
 msgid "Plugin %s has been moved down"
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:81
+#: Extensions/Controller/ExtensionsThemesController.php:81
 msgid "Theme activated."
 msgstr "Темата е активирана."
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:83
+#: Extensions/Controller/ExtensionsThemesController.php:83
 msgid "Theme activation failed."
 msgstr ""
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:95
+#: Extensions/Controller/ExtensionsThemesController.php:95
 msgid "Upload a new theme"
 msgstr "Качване на нова тема"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:104
+#: Extensions/Controller/ExtensionsThemesController.php:104
 msgid "Theme uploaded successfully."
 msgstr "Темата е качена успешно."
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:118
+#: Extensions/Controller/ExtensionsThemesController.php:118
 msgid "Theme Editor"
 msgstr "Редактор на теми"
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:137
+#: Extensions/Controller/ExtensionsThemesController.php:137
 msgid "Invalid Theme."
 msgstr "Невалидна тема."
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:142
+#: Extensions/Controller/ExtensionsThemesController.php:142
 msgid "Default theme cannot be deleted."
 msgstr "Темата по подразбиране не може да бъде изтрита."
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:145
+#: Extensions/Controller/ExtensionsThemesController.php:145
 msgid "You cannot delete a theme that is currently active."
 msgstr "Не можете да изтриете тема, която е актива в момента."
 
-#: Plugin/Extensions/Controller/ExtensionsThemesController.php:152
+#: Extensions/Controller/ExtensionsThemesController.php:152
 msgid "Theme deleted successfully."
 msgstr "Темата е изтрита успешно."
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:477
+#: Extensions/Lib/CroogoPlugin.php:492
 msgid "Plugin \"%s\" is already active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:503
+#: Extensions/Lib/CroogoPlugin.php:518
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:517
+#: Extensions/Lib/CroogoPlugin.php:549
 msgid "Plugin \"%s\" is not active."
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:624
+#: Extensions/Lib/CroogoPlugin.php:677
 msgid "%s is already at the first position"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:630;642
+#: Extensions/Lib/CroogoPlugin.php:683;695
 msgid "Plugin %s depends on %s"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:635
+#: Extensions/Lib/CroogoPlugin.php:688
 msgid "%s is already at the last position"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:646
+#: Extensions/Lib/CroogoPlugin.php:699
 msgid "Invalid direction"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:651
+#: Extensions/Lib/CroogoPlugin.php:704
 msgid "Plugin %s cannot be reordered"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoTheme.php:127
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:186
+#: Extensions/Lib/CroogoTheme.php:127
+#: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr ""
 
-#: Plugin/Extensions/Lib/CroogoTheme.php:148
+#: Extensions/Lib/CroogoTheme.php:148
 msgid "Theme %s not found"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:62
+#: Extensions/Lib/ExtensionsInstaller.php:62
 msgid "Invalid plugin path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:72;110;191
+#: Extensions/Lib/ExtensionsInstaller.php:72;110;191
 msgid "Invalid zip archive"
 msgstr "Невалиден zip архив"
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:78
+#: Extensions/Lib/ExtensionsInstaller.php:78
 msgid "Invalid plugin.json or missing plugin name"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:99
+#: Extensions/Lib/ExtensionsInstaller.php:99
 msgid "Missing expected files: %s in: %s"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:100
+#: Extensions/Lib/ExtensionsInstaller.php:100
 msgid "Invalid plugin or missing expected files"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:125
+#: Extensions/Lib/ExtensionsInstaller.php:125
 msgid "Invalid plugin file path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:136
+#: Extensions/Lib/ExtensionsInstaller.php:136
 msgid "Plugin already exists"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:152
+#: Extensions/Lib/ExtensionsInstaller.php:152
 msgid "Failed to extract plugin"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:165
+#: Extensions/Lib/ExtensionsInstaller.php:165
 msgid "Invalid theme path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:206
+#: Extensions/Lib/ExtensionsInstaller.php:206
 msgid "Invalid theme file path"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:217
+#: Extensions/Lib/ExtensionsInstaller.php:217
 msgid "Theme already exists"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:233
+#: Extensions/Lib/ExtensionsInstaller.php:233
 msgid "Failed to extract theme"
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:252
+#: Extensions/Lib/ExtensionsInstaller.php:252
 msgid "Must specify a valid package name: vendor/name."
 msgstr ""
 
-#: Plugin/Extensions/Lib/ExtensionsInstaller.php:255
+#: Extensions/Lib/ExtensionsInstaller.php:255
 msgid "Themes installed via composer are not yet supported."
 msgstr ""
 
-#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:6;25;46
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:13
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:6;24;43
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:14
-#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:7;27;48
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:14
-#: Plugin/FileManager/Controller/FileManagerController.php:180
-#: Plugin/FileManager/View/Attachments/admin_add.ctp:8;22;30;45
-#: Plugin/FileManager/View/FileManager/admin_upload.ctp:5;31
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:6;25;46
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:13
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:6;24;43
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:14
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:7;27;48
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:14
+#: FileManager/Controller/FileManagerController.php:180
+#: FileManager/View/Attachments/admin_add.ctp:8;22;30;45
+#: FileManager/View/FileManager/admin_upload.ctp:5;31
 msgid "Upload"
 msgstr "Качване"
 
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:23
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:26
-#: Plugin/Translate/View/Translate/admin_index.ctp:36
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:23
+#: Nodes/View/Nodes/admin_translations.ctp:26
+#: Translate/View/Translate/admin_index.ctp:42
 msgid "Locale"
 msgstr "Език"
 
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:24
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:24
 msgid "Default"
 msgstr "По подразбиране"
 
-#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:39
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:92
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:39
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:39
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:109
 msgid "Activate"
 msgstr "Активиране"
 
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:26
-#: Plugin/Menus/View/Links/admin_form.ctp:102
-#: Plugin/Menus/View/Menus/admin_form.ctp:46
-#: Plugin/Settings/View/Settings/admin_form.ctp:57
-#: Plugin/Settings/View/Settings/admin_view.ctp:19
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:59
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:48
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:52
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:26
+#: Menus/View/Links/admin_form.ctp:104 Menus/View/Menus/admin_form.ctp:46
+#: Settings/View/Settings/admin_form.ctp:57
+#: Settings/View/Settings/admin_view.ctp:19
+#: Taxonomy/View/Terms/admin_form.ctp:61 Taxonomy/View/Types/admin_form.ctp:48
+#: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Description"
 msgstr "Описание"
 
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:27
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
 msgid "Active"
 msgstr ""
 
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:39
 msgid "Deactivate"
 msgstr "Деактивиране"
 
-#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:71
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:71
 msgid "Migrate"
 msgstr ""
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:25
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:25
 msgid "Current Theme"
 msgstr "Текуща тема"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:56;89
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:59;106
 msgid "Regions supported: "
 msgstr "Поддържани райони: "
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:62
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:65
 msgid "Available Themes"
 msgstr "Налични теми"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:113
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:130
 msgid "No available theme"
 msgstr ""
 
-#: Plugin/FileManager/Config/bootstrap.php:15
+#: FileManager/Config/admin_menu.php:5
 msgid "Media"
 msgstr "Медия"
 
-#: Plugin/FileManager/Config/bootstrap.php:25
-#: Plugin/FileManager/Controller/AttachmentsController.php:99
-#: Plugin/FileManager/View/Attachments/admin_add.ctp:7
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:7
-#: Plugin/FileManager/View/Attachments/admin_index.ctp:7
+#: FileManager/Config/admin_menu.php:15
+#: FileManager/Controller/AttachmentsController.php:99
+#: FileManager/View/Attachments/admin_add.ctp:7
+#: FileManager/View/Attachments/admin_edit.ctp:7
+#: FileManager/View/Attachments/admin_index.ctp:7
 msgid "Attachments"
 msgstr "Прикачени файлове"
 
-#: Plugin/FileManager/Config/bootstrap.php:34
-#: Plugin/FileManager/Controller/FileManagerController.php:113
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:7
-#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:4
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:4
-#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:4
-#: Plugin/FileManager/View/FileManager/admin_upload.ctp:4
+#: FileManager/Config/admin_menu.php:24
+#: FileManager/Controller/FileManagerController.php:113
+#: FileManager/View/FileManager/admin_browse.ctp:7
+#: FileManager/View/FileManager/admin_create_directory.ctp:4
+#: FileManager/View/FileManager/admin_create_file.ctp:4
+#: FileManager/View/FileManager/admin_editfile.ctp:4
+#: FileManager/View/FileManager/admin_upload.ctp:4
 msgid "File Manager"
 msgstr "Файлов мениджър"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:113
+#: FileManager/Controller/AttachmentsController.php:113
 msgid "Add Attachment"
 msgstr "Добави прикачен файл"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:122
+#: FileManager/Controller/AttachmentsController.php:122
 msgid "Upload failed. Please ensure size does not exceed the server limit."
 msgstr ""
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:129;162
+#: FileManager/Controller/AttachmentsController.php:129;162
 msgid "The Attachment has been saved"
 msgstr "Прикаченият файл е запазен"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:137;165
+#: FileManager/Controller/AttachmentsController.php:137;165
 msgid "The Attachment could not be saved. Please, try again."
 msgstr "Прикаченият файл не може да бъде запазен. Моля, опитайте отново."
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:150
+#: FileManager/Controller/AttachmentsController.php:150
 msgid "Edit Attachment"
 msgstr "Редактирай прикачен файл"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:157
+#: FileManager/Controller/AttachmentsController.php:157
 msgid "Invalid Attachment"
 msgstr "Некоректен прикачен файл"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:182;190
+#: FileManager/Controller/AttachmentsController.php:182;190
 msgid "Invalid id for Attachment"
 msgstr "Некоректен id за прикачения файл"
 
-#: Plugin/FileManager/Controller/AttachmentsController.php:187
+#: FileManager/Controller/AttachmentsController.php:187
 msgid "Attachment deleted"
 msgstr "Прикаченият файл е изтрит"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:118;150;214
+#: FileManager/Controller/FileManagerController.php:118;150;214
 msgid "Path %s is restricted"
 msgstr ""
 
-#: Plugin/FileManager/Controller/FileManagerController.php:153
+#: FileManager/Controller/FileManagerController.php:153
 msgid "Edit file: %s"
 msgstr "Редакция на файл: %s"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:164
+#: FileManager/Controller/FileManagerController.php:164
 msgid "File saved successfully"
 msgstr "Файлът е запазен успешно"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:193
+#: FileManager/Controller/FileManagerController.php:193
 msgid "File uploaded successfully."
 msgstr "Файлът е качен успешно."
 
-#: Plugin/FileManager/Controller/FileManagerController.php:219
+#: FileManager/Controller/FileManagerController.php:219
 msgid "File deleted"
 msgstr "Файлът е изтрит"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:221;249;307;335
+#: FileManager/Controller/FileManagerController.php:221;249;307;335
 msgid "An error occured"
 msgstr "Настъпи грешка"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:247
+#: FileManager/Controller/FileManagerController.php:247
 msgid "Directory deleted"
 msgstr "Директорията е изтрита"
 
-#: Plugin/FileManager/Controller/FileManagerController.php:292
-#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:5;14
+#: FileManager/Controller/FileManagerController.php:292
+#: FileManager/View/FileManager/admin_create_directory.ctp:5;14
 msgid "Create Directory"
 msgstr ""
 
-#: Plugin/FileManager/Controller/FileManagerController.php:303
+#: FileManager/Controller/FileManagerController.php:303
 msgid "Directory created successfully."
 msgstr "Директорията е създадена успешно."
 
-#: Plugin/FileManager/Controller/FileManagerController.php:321
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:5
+#: FileManager/Controller/FileManagerController.php:321
+#: FileManager/View/FileManager/admin_create_file.ctp:5
 msgid "Create File"
 msgstr ""
 
-#: Plugin/FileManager/Controller/FileManagerController.php:331
+#: FileManager/Controller/FileManagerController.php:331
 msgid "File created successfully."
 msgstr "Файлът е създаден успешно."
 
-#: Plugin/FileManager/Model/Attachment.php:94
+#: FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
 msgstr ""
 
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:10
+#: FileManager/View/Attachments/admin_browse.ctp:10
 msgid "New Attachment"
 msgstr "Ново прикачване"
 
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:25
-#: Plugin/FileManager/View/Attachments/admin_index.ctp:17
+#: FileManager/View/Attachments/admin_browse.ctp:25
+#: FileManager/View/Attachments/admin_index.ctp:17
 msgid "URL"
 msgstr "URL"
 
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:65
+#: FileManager/View/Attachments/admin_browse.ctp:67
 msgid "Insert"
 msgstr "Вмъкване"
 
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:98
+#: FileManager/View/Attachments/admin_browse.ctp:100
 msgid ""
 "Page %page% of %pages%, showing %current% records out of %count% total, "
 "starting on record %start%, ending on %end%"
@@ -2122,1200 +2096,1211 @@ msgstr ""
 "Страница %page% от %pages%, показваща %current% резултата от общо %count%,  "
 "започваща от %start%, завършваща с %end%"
 
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:18
+#: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
 msgstr "Прикачване"
 
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:46
+#: FileManager/View/Attachments/admin_edit.ctp:46
 msgid "Caption"
 msgstr "Надпис"
 
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:50
+#: FileManager/View/Attachments/admin_edit.ctp:50
 msgid "File URL"
 msgstr "URL на файла"
 
-#: Plugin/FileManager/View/Attachments/admin_edit.ctp:56
+#: FileManager/View/Attachments/admin_edit.ctp:56
 msgid "Mime Type"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:13
+#: FileManager/View/FileManager/admin_browse.ctp:13
 msgid "Upload here"
 msgstr "Качи тук"
 
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:17
+#: FileManager/View/FileManager/admin_browse.ctp:17
 msgid "Create directory"
 msgstr "Създаване на директория"
 
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:21
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:15
+#: FileManager/View/FileManager/admin_browse.ctp:21
+#: FileManager/View/FileManager/admin_create_file.ctp:15
 msgid "Create file"
 msgstr "Създаване на файл"
 
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:29
-#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:16
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:17
-#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:16
-#: Plugin/FileManager/View/FileManager/admin_upload.ctp:17
+#: FileManager/View/FileManager/admin_browse.ctp:29
+#: FileManager/View/FileManager/admin_create_directory.ctp:16
+#: FileManager/View/FileManager/admin_create_file.ctp:17
+#: FileManager/View/FileManager/admin_editfile.ctp:16
+#: FileManager/View/FileManager/admin_upload.ctp:17
 msgid "You are here"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:44
+#: FileManager/View/FileManager/admin_browse.ctp:44
 msgid "Directory content"
 msgstr "Съдържание на директорията"
 
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:57
+#: FileManager/View/FileManager/admin_browse.ctp:57
 msgid "Open"
 msgstr "Отвори"
 
-#: Plugin/FileManager/View/FileManager/admin_browse.ctp:85
+#: FileManager/View/FileManager/admin_browse.ctp:85
 msgid "View"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:31
+#: FileManager/View/FileManager/admin_create_directory.ctp:31
 msgid "Directory"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:41
+#: FileManager/View/FileManager/admin_create_directory.ctp:41
 msgid "Directory name"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:53
-#: Plugin/Nodes/Config/bootstrap.php:60
-#: Plugin/Nodes/View/Nodes/admin_create.ctp:6
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:13
+#: FileManager/View/FileManager/admin_create_directory.ctp:53
+#: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
+#: Nodes/View/Nodes/admin_form.ctp:13
 msgid "Create"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:32
+#: FileManager/View/FileManager/admin_create_file.ctp:32
 msgid "File"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:42
+#: FileManager/View/FileManager/admin_create_file.ctp:42
 msgid "Filename"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:14
+#: FileManager/View/FileManager/admin_editfile.ctp:14
 msgid "Edit file"
 msgstr ""
 
-#: Plugin/FileManager/View/FileManager/admin_upload.ctp:15
+#: FileManager/View/FileManager/admin_upload.ctp:15
 msgid "Upload file"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:26
+#: Install/Console/Command/InstallShell.php:27
 msgid "Install Utilities"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:57
+#: Install/Console/Command/InstallShell.php:108
 msgid "DataSource"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:64
-#: Plugin/Install/View/Install/database.ctp:32
+#: Install/Console/Command/InstallShell.php:115
+#: Install/View/Install/database.ctp:60
 msgid "Host"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:65
-#: Plugin/Install/View/Install/database.ctp:39
-#: Plugin/Users/View/Users/login.ctp:2
+#: Install/Console/Command/InstallShell.php:116
+#: Install/View/Install/database.ctp:67 Users/View/Users/login.ctp:2
 msgid "Login"
 msgstr "Вход"
 
-#: Plugin/Install/Console/Command/InstallShell.php:66;96
-#: Plugin/Install/View/Install/database.ctp:46
-#: Plugin/Users/View/Users/admin_login.ctp:15
+#: Install/Console/Command/InstallShell.php:117;153
+#: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:103
+#: Users/View/Users/admin_login.ctp:15
 msgid "Password"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:67
-#: Plugin/Install/View/Install/database.ctp:20
+#: Install/Console/Command/InstallShell.php:118
+#: Install/View/Install/database.ctp:48
 msgid "Database"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:68
-#: Plugin/Install/View/Install/database.ctp:59
+#: Install/Console/Command/InstallShell.php:119
+#: Install/View/Install/database.ctp:87
 msgid "Prefix"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:69
-#: Plugin/Install/View/Install/database.ctp:65
+#: Install/Console/Command/InstallShell.php:120
+#: Install/View/Install/database.ctp:93
 msgid "Port"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:89
-#: Plugin/Install/View/Install/adminuser.ctp:14
-#: Plugin/Users/View/Users/admin_form.ctp:51
-#: Plugin/Users/View/Users/admin_login.ctp:9
+#: Install/Console/Command/InstallShell.php:146
+#: Install/View/Install/adminuser.ctp:14 Users/View/Users/admin_form.ctp:54
+#: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
 msgid "Username"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:97
-#: Plugin/Install/View/Install/adminuser.ctp:25
-#: Plugin/Users/View/Users/admin_reset_password.ctp:26
-#: Plugin/Users/View/Users/reset.ctp:7
+#: Install/Console/Command/InstallShell.php:155
+#: Install/View/Install/adminuser.ctp:25 Users/View/Users/admin_form.ctp:108
+#: Users/View/Users/admin_reset_password.ctp:28 Users/View/Users/reset.ctp:7
 msgid "Verify Password"
 msgstr ""
 
-#: Plugin/Install/Console/Command/InstallShell.php:205
+#: Install/Console/Command/InstallShell.php:217
 msgid "Permission %s granted to %s"
 msgstr ""
 
-#: Plugin/Install/Controller/InstallController.php:95
+#: Install/Controller/InstallController.php:95
 msgid "Installation: Welcome"
 msgstr "Инсталиране: Добре дошли"
 
-#: Plugin/Install/Controller/InstallController.php:110
+#: Install/Controller/InstallController.php:110
 msgid "Step 1: Database"
 msgstr "Първа стъпка: База данни"
 
-#: Plugin/Install/Controller/InstallController.php:137
+#: Install/Controller/InstallController.php:156
 msgid "Step 2: Build database"
 msgstr "Стъпка 2: Създраване на база данни"
 
-#: Plugin/Install/Controller/InstallController.php:145
+#: Install/Controller/InstallController.php:164
 msgid "Warning: Database \"%s\" is not empty."
 msgstr ""
 
-#: Plugin/Install/Controller/InstallController.php:193
+#: Install/Controller/InstallController.php:216
 msgid "Installation successful"
 msgstr ""
 
-#: Plugin/Install/Controller/InstallController.php:201
+#: Install/Controller/InstallController.php:224
+msgid "Installation failed"
+msgstr ""
+
+#: Install/Controller/InstallController.php:225
 msgid "Installation failed: Unable to create settings file"
 msgstr ""
 
-#: Plugin/Install/Lib/AssetGenerator.php:100
+#: Install/Lib/AssetGenerator.php:100
 msgid "CSS : %s created"
 msgstr ""
 
-#: Plugin/Install/Lib/AssetGenerator.php:103
+#: Install/Lib/AssetGenerator.php:103
 msgid "CSS : %s failed"
 msgstr ""
 
-#: Plugin/Install/Lib/AssetGenerator.php:120
+#: Install/Lib/AssetGenerator.php:120
 msgid "JS  : %s created"
 msgstr ""
 
-#: Plugin/Install/Lib/AssetGenerator.php:123
+#: Install/Lib/AssetGenerator.php:123
 msgid "JS  : %s failed"
 msgstr ""
 
-#: Plugin/Install/Lib/AssetGenerator.php:165
+#: Install/Lib/AssetGenerator.php:165
 msgid "Font: %s copied"
 msgstr ""
 
-#: Plugin/Install/Lib/AssetGenerator.php:168
+#: Install/Lib/AssetGenerator.php:168
 msgid "File: %s not copied"
 msgstr ""
 
-#: Plugin/Install/Lib/InstallManager.php:45
+#: Install/Lib/InstallManager.php:38
+msgid "Could not copy database.php file."
+msgstr ""
+
+#: Install/Lib/InstallManager.php:48
 msgid "Could not write database.php file."
 msgstr "Файлът database.php е непрезаписваем."
 
-#: Plugin/Install/Lib/InstallManager.php:53
+#: Install/Lib/InstallManager.php:56
 msgid "Could not connect to database: "
 msgstr ""
 
-#: Plugin/Install/Lib/InstallManager.php:56
+#: Install/Lib/InstallManager.php:59
 msgid "Could not connect to database."
 msgstr "Не може да се свърже с база данни."
 
-#: Plugin/Install/View/Install/adminuser.ctp:7
+#: Install/View/Install/adminuser.ctp:7
 msgid "Step 3: Create Admin User"
 msgstr ""
 
-#: Plugin/Install/View/Install/adminuser.ctp:19
-#: Plugin/Users/View/Users/admin_reset_password.ctp:25
+#: Install/View/Install/adminuser.ctp:19
+#: Users/View/Users/admin_reset_password.ctp:27
 msgid "New Password"
 msgstr "Нова парола"
 
-#: Plugin/Install/View/Install/data.ctp:6
+#: Install/View/Install/data.ctp:6
 msgid "Create tables and load initial data"
 msgstr ""
 
-#: Plugin/Install/View/Install/data.ctp:12
+#: Install/View/Install/data.ctp:12
 msgid "Build database"
 msgstr ""
 
-#: Plugin/Install/View/Install/data.ctp:19
+#: Install/View/Install/data.ctp:19
 msgid "Click here to build your database"
 msgstr "Натиснете тук за да създадете вашата база данни"
 
-#: Plugin/Install/View/Install/database.ctp:34
+#: Install/View/Install/database.ctp:17
+msgid "Warning"
+msgstr ""
+
+#: Install/View/Install/database.ctp:18
+msgid "A `database.php` file already exists."
+msgstr ""
+
+#: Install/View/Install/database.ctp:21
+msgid "Valid"
+msgstr ""
+
+#: Install/View/Install/database.ctp:24
+msgid "Invalid"
+msgstr ""
+
+#: Install/View/Install/database.ctp:27
+msgid "This file is %s."
+msgstr ""
+
+#: Install/View/Install/database.ctp:32
+msgid "Reuse this file and proceed."
+msgstr ""
+
+#: Install/View/Install/database.ctp:37
+msgid "This file will be replaced."
+msgstr ""
+
+#: Install/View/Install/database.ctp:62
 msgid "Database hostname or IP Address"
 msgstr ""
 
-#: Plugin/Install/View/Install/database.ctp:41
+#: Install/View/Install/database.ctp:69
 msgid "Database login/username"
 msgstr ""
 
-#: Plugin/Install/View/Install/database.ctp:47
+#: Install/View/Install/database.ctp:75
 msgid "Database password"
 msgstr ""
 
-#: Plugin/Install/View/Install/database.ctp:54
+#: Install/View/Install/database.ctp:82
 msgid "Database name"
 msgstr ""
 
-#: Plugin/Install/View/Install/database.ctp:60
+#: Install/View/Install/database.ctp:88
 msgid "Table prefix (leave blank if unknown)"
 msgstr ""
 
-#: Plugin/Install/View/Install/database.ctp:66
+#: Install/View/Install/database.ctp:94
 msgid "Database port (leave blank if unknown)"
 msgstr ""
 
-#: Plugin/Install/View/Install/finish.ctp:5
+#: Install/View/Install/finish.ctp:6
 msgid ""
 "\n"
 "\t\tThe user %s has been created with administrative rights."
 msgstr ""
 
-#: Plugin/Install/View/Install/finish.ctp:12
+#: Install/View/Install/finish.ctp:13
 msgid "Admin panel: %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/finish.ctp:17
+#: Install/View/Install/finish.ctp:18
 msgid "You can start with %s or jump in and %s."
 msgstr ""
 
-#: Plugin/Install/View/Install/finish.ctp:18
+#: Install/View/Install/finish.ctp:19
 msgid "configuring your site"
 msgstr ""
 
-#: Plugin/Install/View/Install/finish.ctp:19
+#: Install/View/Install/finish.ctp:20
 msgid "create a blog post"
 msgstr ""
 
-#: Plugin/Install/View/Install/finish.ctp:25
+#: Install/View/Install/finish.ctp:27
 msgid "Resources"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:8
+#: Install/View/Install/index.ctp:8
 msgid "Your tmp directory is writable."
 msgstr "Вашата tmp директория е презаписваема."
 
-#: Plugin/Install/View/Install/index.ctp:11
+#: Install/View/Install/index.ctp:11
 msgid "Your tmp directory is NOT writable."
 msgstr "Вашата tmp директория НЕ е презаписваема."
 
-#: Plugin/Install/View/Install/index.ctp:16
+#: Install/View/Install/index.ctp:16
 msgid "Your config directory is writable."
 msgstr "Вашата config директория е презаписваема."
 
-#: Plugin/Install/View/Install/index.ctp:19
+#: Install/View/Install/index.ctp:19
 msgid "Your config directory is NOT writable."
 msgstr "Вашата config директория НЕ е презаписваема."
 
-#: Plugin/Install/View/Install/index.ctp:26
+#: Install/View/Install/index.ctp:26
 msgid "PHP version %s %s %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:29
+#: Install/View/Install/index.ctp:29
 msgid "PHP version %s < %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:37
+#: Install/View/Install/index.ctp:37
 msgid "CakePhp version %s %s %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:40
+#: Install/View/Install/index.ctp:40
 msgid "CakePHP version %s < %s"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:47
+#: Install/View/Install/index.ctp:47
 msgid "Install"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:52
+#: Install/View/Install/index.ctp:52
 msgid "Click here to begin installation"
 msgstr ""
 
-#: Plugin/Install/View/Install/index.ctp:57
+#: Install/View/Install/index.ctp:57
 msgid "Installation cannot continue as minimum requirements are not met."
 msgstr ""
 "Инсталацията не може да продължи докато минимални изисквания не са изпълнени."
 
-#: Plugin/Install/View/Layouts/install.ctp:27
+#: Install/View/Layouts/install.ctp:27
 msgid "Install Croogo"
 msgstr "Инсталиране на Croogo"
 
-#: Plugin/Menus/Config/bootstrap.php:14;24
-#: Plugin/Menus/Controller/MenusController.php:48
-#: Plugin/Menus/View/Links/admin_form.ctp:8
-#: Plugin/Menus/View/Links/admin_index.ctp:7
-#: Plugin/Menus/View/Menus/admin_form.ctp:7
-#: Plugin/Menus/View/Menus/admin_index.ctp:7
+#: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
+#: Menus/View/Links/admin_form.ctp:8 Menus/View/Links/admin_index.ctp:9
+#: Menus/View/Menus/admin_form.ctp:7 Menus/View/Menus/admin_index.ctp:7
 msgid "Menus"
 msgstr "Менюта"
 
-#: Plugin/Menus/Config/bootstrap.php:34
-#: Plugin/Taxonomy/Config/bootstrap.php:54
-msgid "Add new"
-msgstr "Добави нов"
-
-#: Plugin/Menus/Controller/LinksController.php:117
+#: Menus/Controller/LinksController.php:99
 msgid "Links: %s"
 msgstr "Препратки: %s"
 
-#: Plugin/Menus/Controller/LinksController.php:143
+#: Menus/Controller/LinksController.php:128
 msgid "Add Link"
 msgstr "Добави препратка"
 
-#: Plugin/Menus/Controller/LinksController.php:150;205
+#: Menus/Controller/LinksController.php:135;179
 msgid "The Link has been saved"
 msgstr "Препратката е запазена"
 
-#: Plugin/Menus/Controller/LinksController.php:162;217
+#: Menus/Controller/LinksController.php:147;191
 msgid "The Link could not be saved. Please, try again."
 msgstr "Препратката не е запазена. Моля, опитайте отново."
 
-#: Plugin/Menus/Controller/LinksController.php:181
+#: Menus/Controller/LinksController.php:166
 msgid "Edit Link"
 msgstr "Редактирай препратка"
 
-#: Plugin/Menus/Controller/LinksController.php:184
+#: Menus/Controller/LinksController.php:169
 msgid "Invalid Link"
 msgstr "Невалидна препратка"
 
-#: Plugin/Menus/Controller/LinksController.php:244;252;281;312
+#: Menus/Controller/LinksController.php:218;226;255;287
 msgid "Invalid id for Link"
 msgstr "Невалиден id за препратка"
 
-#: Plugin/Menus/Controller/LinksController.php:260
+#: Menus/Controller/LinksController.php:234
 msgid "Link deleted"
 msgstr "Препратката е изтрита"
 
-#: Plugin/Menus/Controller/LinksController.php:365
+#: Menus/Controller/LinksController.php:341
 msgid "Links deleted."
 msgstr "Препратките са изтрити."
 
-#: Plugin/Menus/Controller/LinksController.php:368
+#: Menus/Controller/LinksController.php:344
 msgid "Links published"
 msgstr "Препратките са активирани"
 
-#: Plugin/Menus/Controller/LinksController.php:371
+#: Menus/Controller/LinksController.php:347
 msgid "Links unpublished"
 msgstr "Препратките са деактивирани"
 
-#: Plugin/Menus/Controller/MenusController.php:62
+#: Menus/Controller/MenusController.php:82
 msgid "Add Menu"
 msgstr "Добави меню"
 
-#: Plugin/Menus/Controller/MenusController.php:67;91
+#: Menus/Controller/MenusController.php:87;111
 msgid "The Menu has been saved"
 msgstr "Менюто е запазено"
 
-#: Plugin/Menus/Controller/MenusController.php:70;94
+#: Menus/Controller/MenusController.php:90;114
 msgid "The Menu could not be saved. Please, try again."
 msgstr "Менюто не може да бъде запазено. Моля, опитайте отново."
 
-#: Plugin/Menus/Controller/MenusController.php:83
+#: Menus/Controller/MenusController.php:103
 msgid "Edit Menu"
 msgstr "Редакция на меню"
 
-#: Plugin/Menus/Controller/MenusController.php:86
+#: Menus/Controller/MenusController.php:106
 msgid "Invalid Menu"
 msgstr "Невалидено меню"
 
-#: Plugin/Menus/Controller/MenusController.php:111
+#: Menus/Controller/MenusController.php:131
 msgid "Invalid id for Menu"
 msgstr "Некоректно id на меню"
 
-#: Plugin/Menus/Controller/MenusController.php:115
+#: Menus/Controller/MenusController.php:135
 msgid "Menu deleted"
 msgstr "Менюто е изтрито"
 
-#: Plugin/Menus/View/Links/admin_form.ctp:41;67
+#: Menus/View/Links/admin_form.ctp:48;75
 msgid "Link"
 msgstr "Препратка"
 
-#: Plugin/Menus/View/Links/admin_form.ctp:43
-#: Plugin/Menus/View/Menus/admin_form.ctp:26
+#: Menus/View/Links/admin_form.ctp:50 Menus/View/Menus/admin_form.ctp:26
 msgid "Misc."
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_form.ctp:69
-msgid "Link to a Node"
-msgstr "Препратка към елемент"
-
-#: Plugin/Menus/View/Links/admin_form.ctp:105
+#: Menus/View/Links/admin_form.ctp:107
 msgid "Rel"
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_form.ctp:108
+#: Menus/View/Links/admin_form.ctp:110
 msgid "Target"
 msgstr ""
 
-#: Plugin/Menus/View/Links/admin_index.ctp:76
+#: Menus/View/Links/admin_form.ctp:146
+msgid "Choose Link"
+msgstr ""
+
+#: Menus/View/Links/admin_index.ctp:78
 msgid "Delete this item"
 msgstr ""
 
-#: Plugin/Menus/View/Menus/admin_form.ctp:25
+#: Menus/View/Links/admin_link_chooser.ctp:11
+msgid "Link to %s"
+msgstr ""
+
+#: Menus/View/Menus/admin_form.ctp:25
 msgid "Menu"
 msgstr "Меню"
 
-#: Plugin/Menus/View/Menus/admin_index.ctp:18
+#: Menus/View/Menus/admin_index.ctp:18
 msgid "Link Count"
 msgstr ""
 
-#: Plugin/Menus/View/Menus/admin_index.ctp:33
+#: Menus/View/Menus/admin_index.ctp:34
 msgid "View links"
 msgstr "Виж препратките"
 
-#: Plugin/Meta/Controller/Component/MetaComponent.php:47
+#: Meta/Controller/Component/MetaComponent.php:47
 msgid "Custom Fields"
 msgstr ""
 
-#: Plugin/Meta/View/Elements/admin/meta_tab.ctp:19
+#: Meta/View/Elements/admin/meta_tab.ctp:19
 msgid "Add another field"
 msgstr "Добави ново поле"
 
-#: Plugin/Meta/View/Helper/MetaHelper.php:70
-#: Plugin/Settings/View/Settings/admin_form.ctp:43
-#: Plugin/Settings/View/Settings/admin_index.ctp:21
-#: Plugin/Settings/View/Settings/admin_view.ctp:9
+#: Meta/View/Helper/MetaHelper.php:79 Settings/View/Settings/admin_form.ctp:43
+#: Settings/View/Settings/admin_index.ctp:21
+#: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
 msgstr "Ключ"
 
-#: Plugin/Meta/View/Helper/MetaHelper.php:75
-#: Plugin/Settings/View/Settings/admin_form.ctp:46
-#: Plugin/Settings/View/Settings/admin_index.ctp:22
-#: Plugin/Settings/View/Settings/admin_view.ctp:14
+#: Meta/View/Helper/MetaHelper.php:84 Settings/View/Settings/admin_form.ctp:46
+#: Settings/View/Settings/admin_index.ctp:22
+#: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
 msgstr "Стойност"
 
-#: Plugin/Meta/View/Helper/MetaHelper.php:105
+#: Meta/View/Helper/MetaHelper.php:114
 msgid "Remove"
 msgstr "Премахни"
 
-#: Plugin/Nodes/Config/bootstrap.php:49
-#: Plugin/Taxonomy/Config/bootstrap.php:44
+#: Nodes/Config/admin_menu.php:15
 msgid "List"
 msgstr "Списък"
 
-#: Plugin/Nodes/Controller/NodesController.php:139
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:13
+#: Nodes/Controller/NodesController.php:139
+#: Nodes/View/Nodes/admin_index.ctp:13
 msgid "Create content"
 msgstr "Създай съдържание"
 
-#: Plugin/Nodes/Controller/NodesController.php:159
+#: Nodes/Controller/NodesController.php:159
 msgid "Content type does not exist."
 msgstr "Типът съдържание не съществува."
 
-#: Plugin/Nodes/Controller/NodesController.php:170;209
+#: Nodes/Controller/NodesController.php:170;210
 msgid "%s has been saved"
 msgstr "%s е запазен успешно"
 
-#: Plugin/Nodes/Controller/NodesController.php:173;212
+#: Nodes/Controller/NodesController.php:173;213
 msgid "%s could not be saved. Please, try again."
 msgstr "% не може да бъде запазен. Моля, опитайте отново."
 
-#: Plugin/Nodes/Controller/NodesController.php:179
+#: Nodes/Controller/NodesController.php:180
 msgid "Create content: %s"
 msgstr "Създаване на съдържание: %s"
 
-#: Plugin/Nodes/Controller/NodesController.php:221
+#: Nodes/Controller/NodesController.php:223
 msgid "Edit %s: %s"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:233
+#: Nodes/Controller/NodesController.php:235
 msgid "Paths updated."
 msgstr "Пътищата са обновени."
 
-#: Plugin/Nodes/Controller/NodesController.php:236
+#: Nodes/Controller/NodesController.php:238
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:253
+#: Nodes/Controller/NodesController.php:255
 msgid "Invalid id for Node"
 msgstr "Невалиден id за елемент"
 
-#: Plugin/Nodes/Controller/NodesController.php:257
+#: Nodes/Controller/NodesController.php:259
 msgid "Node deleted"
 msgstr "Елементът е изтрит"
 
-#: Plugin/Nodes/Controller/NodesController.php:318
+#: Nodes/Controller/NodesController.php:322
 msgid "Nodes deleted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:321
+#: Nodes/Controller/NodesController.php:325
 msgid "Nodes published"
 msgstr "Елементите са активирани"
 
-#: Plugin/Nodes/Controller/NodesController.php:324
+#: Nodes/Controller/NodesController.php:328
 msgid "Nodes unpublished"
 msgstr "Елементите са деактивирани"
 
-#: Plugin/Nodes/Controller/NodesController.php:327
+#: Nodes/Controller/NodesController.php:331
 msgid "Nodes promoted"
 msgstr "Елементите са добавени към началната страница"
 
-#: Plugin/Nodes/Controller/NodesController.php:330
+#: Nodes/Controller/NodesController.php:334
 msgid "Nodes unpromoted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:381;473;537;619
+#: Nodes/Controller/NodesController.php:391;490;558;641
 msgid "Invalid content type."
 msgstr "Невалиден тип на съдъжанието."
 
-#: Plugin/Nodes/Controller/NodesController.php:436
+#: Nodes/Controller/NodesController.php:448
 msgid "Invalid Term."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:519
-msgid "Nodes"
-msgstr "Елементи."
+#: Nodes/Controller/NodesController.php:538
+msgid "Home"
+msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:629
+#: Nodes/Controller/NodesController.php:651
 msgid "Search Results: %s"
 msgstr "Резултати от търсенето: %s"
 
-#: Plugin/Nodes/Model/Node.php:391
+#: Nodes/Model/Node.php:299
 msgid "Invalid action to perform"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:395
+#: Nodes/Model/Node.php:303
 msgid "No target to process action upon"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:426
-msgid "Invalid Content Type"
-msgstr ""
-
-#: Plugin/Nodes/View/Elements/node_info.ctp:6
+#: Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
 msgstr "Добавен"
 
-#: Plugin/Nodes/View/Elements/node_info.ctp:20
+#: Nodes/View/Elements/node_info.ctp:20
 msgid "on"
 msgstr ""
 
-#: Plugin/Nodes/View/Elements/node_more_info.ctp:18
+#: Nodes/View/Elements/node_more_info.ctp:18
 msgid "Posted in"
 msgstr "Добавено в"
 
-#: Plugin/Nodes/View/Elements/node_more_info.ctp:29
+#: Nodes/View/Elements/node_more_info.ctp:29
 msgid "Leave a comment"
 msgstr "Добави коментар"
 
-#: Plugin/Nodes/View/Elements/search.ctp:12
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:24
+#: Nodes/View/Elements/search.ctp:12
+#: Nodes/View/Elements/admin/nodes_search.ctp:24
 msgid "Search"
 msgstr "Търсене"
 
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:25
+#: Nodes/View/Elements/admin/nodes_search.ctp:25
 msgid "Search..."
 msgstr ""
 
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:32
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:40
-#: Plugin/Taxonomy/Controller/TypesController.php:53
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:25
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:55
+#: Nodes/View/Elements/admin/nodes_search.ctp:34
+#: Nodes/View/Nodes/admin_index.ctp:40
+#: Taxonomy/Controller/TypesController.php:53
+#: Taxonomy/View/Types/admin_form.ctp:25
+#: Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Type"
 msgstr "Тип"
 
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:39
-msgid "Unpublished"
-msgstr "Непубликуван"
-
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:47
+#: Nodes/View/Elements/admin/nodes_search.ctp:49
 msgid "Yes"
 msgstr "Да"
 
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:48
+#: Nodes/View/Elements/admin/nodes_search.ctp:50
 msgid "No"
 msgstr "Не"
 
-#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:50
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:47
+#: Nodes/View/Elements/admin/nodes_search.ctp:52
+#: Nodes/View/Nodes/admin_chooser.ctp:47
 msgid "Promoted"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:4
+#: Nodes/View/Nodes/admin_chooser.ctp:4
 msgid "Sort by:"
 msgstr "Подреди по:"
 
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:50
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:55
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:34
+#: Nodes/View/Nodes/admin_form.ctp:50 Taxonomy/View/Terms/admin_chooser.ctp:7
+#: Taxonomy/View/Terms/admin_form.ctp:57
+#: Taxonomy/View/Terms/admin_index.ctp:34
 msgid "Slug"
 msgstr "Slug"
 
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:53
+#: Nodes/View/Nodes/admin_form.ctp:53
 msgid "Excerpt"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:82
+#: Nodes/View/Nodes/admin_form.ctp:88
 msgid "Promoted to front page"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_form.ctp:86
+#: Nodes/View/Nodes/admin_form.ctp:93
 msgid "Publish as "
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:41
-#: Plugin/Users/View/Users/admin_form.ctp:35
+#: Nodes/View/Nodes/admin_index.ctp:41 Users/View/Users/admin_form.ctp:38
 msgid "User"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:68
+#: Nodes/View/Nodes/admin_index.ctp:68
 msgid "promoted"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:116
+#: Nodes/View/Nodes/admin_index.ctp:119
 msgid "Applying to selected"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:121
+#: Nodes/View/Nodes/admin_index.ctp:124
 msgid "Promote"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:122
+#: Nodes/View/Nodes/admin_index.ctp:125
 msgid "Unpromote"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:135
+#: Nodes/View/Nodes/admin_index.ctp:138
 msgid "%s selected items?"
 msgstr ""
 
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:8
-#: Plugin/Translate/View/Translate/admin_index.ctp:15
+#: Nodes/View/Nodes/admin_translations.ctp:8
+#: Translate/View/Translate/admin_index.ctp:21
 msgid "Translate in a new language"
 msgstr "Превод на нов език"
 
-#: Plugin/Nodes/View/Nodes/admin_translations.ctp:49
-#: Plugin/Translate/View/Translate/admin_index.ctp:79
+#: Nodes/View/Nodes/admin_translations.ctp:49
+#: Translate/View/Translate/admin_index.ctp:85
 msgid "No translations available."
 msgstr "Няма налични преводи."
 
-#: Plugin/Nodes/View/Nodes/index.ctp:4 Plugin/Nodes/View/Nodes/promoted.ctp:4
-#: Plugin/Nodes/View/Nodes/search.ctp:6 Plugin/Nodes/View/Nodes/term.ctp:6
+#: Nodes/View/Nodes/index.ctp:4 Nodes/View/Nodes/promoted.ctp:4
+#: Nodes/View/Nodes/search.ctp:6 Nodes/View/Nodes/term.ctp:6
 msgid "No items found."
 msgstr "Няма намерени елементи."
 
-#: Plugin/Settings/Config/bootstrap.php:12
-#: Plugin/Settings/Controller/SettingsController.php:58
-#: Plugin/Settings/View/Languages/admin_form.ctp:7
-#: Plugin/Settings/View/Languages/admin_index.ctp:6
-#: Plugin/Settings/View/Languages/admin_select.ctp:5
-#: Plugin/Settings/View/Settings/admin_form.ctp:6;28
-#: Plugin/Settings/View/Settings/admin_index.ctp:7
-#: Plugin/Settings/View/Settings/admin_prefix.ctp:4
-msgid "Settings"
-msgstr "Настройки"
-
-#: Plugin/Settings/Config/bootstrap.php:23
-msgid "Site"
-msgstr ""
-
-#: Plugin/Settings/Config/bootstrap.php:35
-msgid "Meta"
-msgstr ""
-
-#: Plugin/Settings/Config/bootstrap.php:47
-msgid "Reading"
-msgstr "Четене"
-
-#: Plugin/Settings/Config/bootstrap.php:59
-msgid "Writing"
-msgstr "Писане"
-
-#: Plugin/Settings/Config/bootstrap.php:83
-msgid "Service"
-msgstr "Услуга"
-
-#: Plugin/Settings/Config/bootstrap.php:95
-#: Plugin/Settings/Controller/LanguagesController.php:40
-#: Plugin/Settings/View/Languages/admin_index.ctp:7
-#: Plugin/Settings/View/Languages/admin_select.ctp:6
-msgid "Languages"
-msgstr "Езици"
-
-#: Plugin/Settings/Console/Command/SettingsShell.php:33
+#: Settings/Console/Command/SettingsShell.php:33
 msgid "Displays setting values"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:37;55;93
+#: Settings/Console/Command/SettingsShell.php:37;55;93
 msgid "Setting key"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:43
+#: Settings/Console/Command/SettingsShell.php:43
 msgid "List all settings"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:51
+#: Settings/Console/Command/SettingsShell.php:51
 msgid "Write setting value for a given key"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:59
+#: Settings/Console/Command/SettingsShell.php:59
 msgid "Setting value"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:89
+#: Settings/Console/Command/SettingsShell.php:89
 msgid "Delete setting based on key"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:100
+#: Settings/Console/Command/SettingsShell.php:100
 msgid "Update version string from git tag information"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:129
+#: Settings/Console/Command/SettingsShell.php:129
 msgid "    %-30s: %s"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:150
+#: Settings/Console/Command/SettingsShell.php:150
 msgid "Updating %s"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:151
+#: Settings/Console/Command/SettingsShell.php:151
 msgid "Confirm update"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:166
+#: Settings/Console/Command/SettingsShell.php:166
 msgid "Setting updated"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:168;196
+#: Settings/Console/Command/SettingsShell.php:168;196
 msgid "Cancelled"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:171;199
+#: Settings/Console/Command/SettingsShell.php:171;199
 msgid "Key: %s not found"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:189
+#: Settings/Console/Command/SettingsShell.php:189
 msgid "Deleting %s"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:190
+#: Settings/Console/Command/SettingsShell.php:190
 msgid "Delete?"
 msgstr ""
 
-#: Plugin/Settings/Console/Command/SettingsShell.php:194
-#: Plugin/Settings/Controller/SettingsController.php:143
+#: Settings/Console/Command/SettingsShell.php:194
+#: Settings/Controller/SettingsController.php:163
 msgid "Setting deleted"
 msgstr "Настройката е изтрита"
 
-#: Plugin/Settings/Controller/LanguagesController.php:54
+#: Settings/Controller/LanguagesController.php:40
+#: Settings/View/Languages/admin_index.ctp:7
+#: Settings/View/Languages/admin_select.ctp:6
+msgid "Languages"
+msgstr "Езици"
+
+#: Settings/Controller/LanguagesController.php:54
 msgid "Add Language"
 msgstr "Добави език"
 
-#: Plugin/Settings/Controller/LanguagesController.php:59;83
+#: Settings/Controller/LanguagesController.php:59;83
 msgid "The Language has been saved"
 msgstr "Езикът е запазен"
 
-#: Plugin/Settings/Controller/LanguagesController.php:62;86
+#: Settings/Controller/LanguagesController.php:62;86
 msgid "The Language could not be saved. Please, try again."
 msgstr "Езикът не може да бъде запазен. Моля, опитайте отново."
 
-#: Plugin/Settings/Controller/LanguagesController.php:75
+#: Settings/Controller/LanguagesController.php:75
 msgid "Edit Language"
 msgstr "Редакция на език"
 
-#: Plugin/Settings/Controller/LanguagesController.php:78
-#: Plugin/Translate/Controller/TranslateController.php:126
+#: Settings/Controller/LanguagesController.php:78
+#: Translate/Controller/TranslateController.php:127
 msgid "Invalid Language"
 msgstr "Невалиден език"
 
-#: Plugin/Settings/Controller/LanguagesController.php:103
+#: Settings/Controller/LanguagesController.php:103
 msgid "Invalid id for Language"
 msgstr "Невалиден id за език"
 
-#: Plugin/Settings/Controller/LanguagesController.php:107
+#: Settings/Controller/LanguagesController.php:107
 msgid "Language deleted"
 msgstr "Езикът е изтрит"
 
-#: Plugin/Settings/Controller/LanguagesController.php:162
+#: Settings/Controller/LanguagesController.php:162
 msgid "Select a language"
 msgstr "Избор на език"
 
-#: Plugin/Settings/Controller/SettingsController.php:77
+#: Settings/Controller/SettingsController.php:79
+#: Settings/View/Languages/admin_form.ctp:7
+#: Settings/View/Languages/admin_index.ctp:6
+#: Settings/View/Languages/admin_select.ctp:5
+#: Settings/View/Settings/admin_form.ctp:6;28
+#: Settings/View/Settings/admin_index.ctp:7
+#: Settings/View/Settings/admin_prefix.ctp:4
+msgid "Settings"
+msgstr "Настройки"
+
+#: Settings/Controller/SettingsController.php:97
 msgid "Invalid Setting."
 msgstr "Невалидна настройка."
 
-#: Plugin/Settings/Controller/SettingsController.php:90
+#: Settings/Controller/SettingsController.php:110
 msgid "Add Setting"
 msgstr "Добави настройка"
 
-#: Plugin/Settings/Controller/SettingsController.php:95;119
+#: Settings/Controller/SettingsController.php:115;139
 msgid "The Setting has been saved"
 msgstr "Настройките бяха запазени"
 
-#: Plugin/Settings/Controller/SettingsController.php:98;122
+#: Settings/Controller/SettingsController.php:118;142
 msgid "The Setting could not be saved. Please, try again."
 msgstr "Настройката не може да бъде запазена. Моля, опитайте отново."
 
-#: Plugin/Settings/Controller/SettingsController.php:111
-#: Plugin/Settings/View/Settings/admin_view.ctp:43
+#: Settings/Controller/SettingsController.php:131
+#: Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr "Промяна на настройка"
 
-#: Plugin/Settings/Controller/SettingsController.php:114
+#: Settings/Controller/SettingsController.php:134
 msgid "Invalid Setting"
 msgstr "Невалидна настройка"
 
-#: Plugin/Settings/Controller/SettingsController.php:139
+#: Settings/Controller/SettingsController.php:159
 msgid "Invalid id for Setting"
 msgstr "Невалидно id за настройка"
 
-#: Plugin/Settings/Controller/SettingsController.php:156
+#: Settings/Controller/SettingsController.php:176
 msgid "Settings: %s"
 msgstr "Настройка: %s"
 
-#: Plugin/Settings/Controller/SettingsController.php:160
+#: Settings/Controller/SettingsController.php:180
 msgid "Settings updated successfully"
 msgstr "Настройките са променени успешно"
 
-#: Plugin/Settings/Controller/SettingsController.php:174
+#: Settings/Controller/SettingsController.php:194
 msgid "Invalid Setting key"
 msgstr "Невалиден ключ за настройки"
 
-#: Plugin/Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
+#: Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
 msgid "Could not add a new language."
 msgstr "Не може да бъде добавен нов език."
 
-#: Plugin/Settings/View/Languages/admin_form.ctp:8;25
+#: Settings/View/Languages/admin_form.ctp:8;25
 msgid "Language"
 msgstr ""
 
-#: Plugin/Settings/View/Languages/admin_form.ctp:41
-#: Plugin/Settings/View/Languages/admin_index.ctp:17
+#: Settings/View/Languages/admin_form.ctp:41
+#: Settings/View/Languages/admin_index.ctp:17
 msgid "Native"
 msgstr ""
 
-#: Plugin/Settings/View/Languages/admin_select.ctp:16
+#: Settings/View/Languages/admin_select.ctp:16
 msgid "New Language"
 msgstr "Нов език"
 
-#: Plugin/Settings/View/Settings/admin_form.ctp:29
+#: Settings/View/Settings/admin_form.ctp:29
 msgid "Misc"
 msgstr ""
 
-#: Plugin/Settings/View/Settings/admin_form.ctp:42
+#: Settings/View/Settings/admin_form.ctp:42
 msgid "e.g., 'Site.title'"
 msgstr "пр., 'Site.title'"
 
-#: Plugin/Settings/View/Settings/admin_form.ctp:60
-#: Plugin/Settings/View/Settings/admin_view.ctp:24
+#: Settings/View/Settings/admin_form.ctp:60
+#: Settings/View/Settings/admin_view.ctp:24
 msgid "Input Type"
 msgstr "Вид на въвеждане"
 
-#: Plugin/Settings/View/Settings/admin_form.ctp:61
+#: Settings/View/Settings/admin_form.ctp:61
 msgid "e.g., 'text' or 'textarea'"
 msgstr "пр., 'text' or 'textarea'"
 
-#: Plugin/Settings/View/Settings/admin_form.ctp:64
-#: Plugin/Settings/View/Settings/admin_index.ctp:23
+#: Settings/View/Settings/admin_form.ctp:64
+#: Settings/View/Settings/admin_index.ctp:23
 msgid "Editable"
 msgstr ""
 
-#: Plugin/Settings/View/Settings/admin_prefix.ctp:63
+#: Settings/View/Settings/admin_prefix.ctp:63
 msgid "Saving"
 msgstr ""
 
-#: Plugin/Settings/View/Settings/admin_view.ctp:2
+#: Settings/View/Settings/admin_view.ctp:2
 msgid "Setting"
 msgstr "Настройки"
 
-#: Plugin/Settings/View/Settings/admin_view.ctp:29
+#: Settings/View/Settings/admin_view.ctp:29
 msgid "Weight"
 msgstr "Тегло"
 
-#: Plugin/Settings/View/Settings/admin_view.ctp:44
+#: Settings/View/Settings/admin_view.ctp:44
 msgid "Delete Setting"
 msgstr "Изтрий настройка"
 
-#: Plugin/Settings/View/Settings/admin_view.ctp:44
+#: Settings/View/Settings/admin_view.ctp:44
 msgid "Are you sure you want to delete # %s?"
 msgstr "Сигурени ли сте, че искате да изтриете # %s?"
 
-#: Plugin/Settings/View/Settings/admin_view.ctp:45
+#: Settings/View/Settings/admin_view.ctp:45
 msgid "List Settings"
 msgstr "Списък с настройки"
 
-#: Plugin/Settings/View/Settings/admin_view.ctp:46
+#: Settings/View/Settings/admin_view.ctp:46
 msgid "New Setting"
 msgstr "Нова настойка"
 
-#: Plugin/Taxonomy/Config/bootstrap.php:23
-msgid "Content Types"
-msgstr ""
-
-#: Plugin/Taxonomy/Config/bootstrap.php:34
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:26
-msgid "Taxonomy"
-msgstr ""
-
-#: Plugin/Taxonomy/Controller/TermsController.php:64
-msgid "Invalid Vocabulary ID."
-msgstr "Невалидно id за речник"
-
-#: Plugin/Taxonomy/Controller/TermsController.php:70
+#: Taxonomy/Controller/TermsController.php:67
 msgid "Vocabulary: %s"
 msgstr "Речник"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:110
+#: Taxonomy/Controller/TermsController.php:89
 msgid "%s: Add Term"
 msgstr "%s Добави условие"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:120;224
-msgid "Term with same slug already exists in the vocabulary."
-msgstr "Условие със същия slug съществува вече в речника."
-
-#: Plugin/Taxonomy/Controller/TermsController.php:133;238
+#: Taxonomy/Controller/TermsController.php:93;136
 msgid "Term saved successfuly."
 msgstr "Условието е запазено успешно."
 
-#: Plugin/Taxonomy/Controller/TermsController.php:139;244
+#: Taxonomy/Controller/TermsController.php:99;142
 msgid "Term could not be added to the vocabulary. Please try again."
 msgstr "Условието не може да бъде добавено в речника. Моля, опитайте отново."
 
-#: Plugin/Taxonomy/Controller/TermsController.php:143;248
-msgid "Term could not be saved. Please try again."
-msgstr "Условието не може да бъде запазено. Моля, опитайте отново."
-
-#: Plugin/Taxonomy/Controller/TermsController.php:199
+#: Taxonomy/Controller/TermsController.php:132
 msgid "%s: Edit Term"
 msgstr "%s: Редактирай условие"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:268;312;353
-msgid "Invalid id for Term"
-msgstr "Невалидно id за условие"
-
-#: Plugin/Taxonomy/Controller/TermsController.php:288
+#: Taxonomy/Controller/TermsController.php:168
 msgid "Term deleted"
 msgstr "Условието е изтрито"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:290
-msgid "Term in Vocabulary deleted"
-msgstr ""
-
-#: Plugin/Taxonomy/Controller/TermsController.php:293
+#: Taxonomy/Controller/TermsController.php:171
 msgid "Term could not be deleted. Please, try again."
 msgstr "Условието не може да бъде изтрито. Моля, опитайте отново."
 
-#: Plugin/Taxonomy/Controller/TypesController.php:68
+#: Taxonomy/Controller/TermsController.php:225
+msgid "Moved %s successfully"
+msgstr ""
+
+#: Taxonomy/Controller/TermsController.php:228
+msgid "Could not move %s"
+msgstr ""
+
+#: Taxonomy/Controller/TermsController.php:261
+msgid "Invalid Term ID."
+msgstr ""
+
+#: Taxonomy/Controller/TermsController.php:277
+msgid "Invalid Taxonomy."
+msgstr ""
+
+#: Taxonomy/Controller/TermsController.php:296
+msgid "Invalid Vocabulary ID."
+msgstr "Невалидно id за речник"
+
+#: Taxonomy/Controller/TypesController.php:68
 msgid "Add Type"
 msgstr "Добави тип"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:73;100
+#: Taxonomy/Controller/TypesController.php:73;100
 msgid "The Type has been saved"
 msgstr "Типът беше запазен"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:76;103
+#: Taxonomy/Controller/TypesController.php:76;103
 msgid "The Type could not be saved. Please, try again."
 msgstr "Типът не може да бъде запазен. Моля, опитайте отново."
 
-#: Plugin/Taxonomy/Controller/TypesController.php:92
+#: Taxonomy/Controller/TypesController.php:92
 msgid "Edit Type"
 msgstr "Редактирай тип"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:95
+#: Taxonomy/Controller/TypesController.php:95
 msgid "Invalid Type"
 msgstr ""
 
-#: Plugin/Taxonomy/Controller/TypesController.php:123
+#: Taxonomy/Controller/TypesController.php:123
 msgid "Invalid id for Type"
 msgstr "Невалидно id за тип"
 
-#: Plugin/Taxonomy/Controller/TypesController.php:127
+#: Taxonomy/Controller/TypesController.php:127
 msgid "Type deleted"
 msgstr "Типът е изтрит"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:40
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:12;19
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:8
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:11;17
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:8
+#: Taxonomy/Controller/VocabulariesController.php:40
+#: Taxonomy/View/Terms/admin_form.ctp:12;19
+#: Taxonomy/View/Terms/admin_index.ctp:8
+#: Taxonomy/View/Vocabularies/admin_form.ctp:11;17
+#: Taxonomy/View/Vocabularies/admin_index.ctp:8
 msgid "Vocabularies"
 msgstr "Речници"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:54
+#: Taxonomy/Controller/VocabulariesController.php:54
 msgid "Add Vocabulary"
 msgstr "Добави речник"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:59;86
+#: Taxonomy/Controller/VocabulariesController.php:59;86
 msgid "The Vocabulary has been saved"
 msgstr "Речникът е запазен"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:62;89
+#: Taxonomy/Controller/VocabulariesController.php:62;89
 msgid "The Vocabulary could not be saved. Please, try again."
 msgstr "Речникът не може да бъде запазен. Моля, опитайте отново."
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:78
+#: Taxonomy/Controller/VocabulariesController.php:78
 msgid "Edit Vocabulary"
 msgstr "Редактирай речника"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:81
+#: Taxonomy/Controller/VocabulariesController.php:81
 msgid "Invalid Vocabulary"
 msgstr "Невалиден речник"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:109
+#: Taxonomy/Controller/VocabulariesController.php:113
 msgid "Invalid id for Vocabulary"
 msgstr "Невалидно id за речник"
 
-#: Plugin/Taxonomy/Controller/VocabulariesController.php:113
+#: Taxonomy/Controller/VocabulariesController.php:117
 msgid "Vocabulary deleted"
 msgstr "Речникът е изтрит"
 
-#: Plugin/Taxonomy/View/Helper/TaxonomiesHelper.php:105
+#: Taxonomy/Model/Term.php:186
+msgid "Invalid Term Id"
+msgstr ""
+
+#: Taxonomy/Model/Term.php:242
+msgid "\"vocabulary_id\" key not found"
+msgstr ""
+
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:133
+msgid "Please select at least 1 value"
+msgstr ""
+
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:134
+msgid "Please select at most 1 value"
+msgstr ""
+
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:173
+msgid "Invalid Content Type"
+msgstr ""
+
+#: Taxonomy/View/Helper/TaxonomiesHelper.php:61
 msgid "Terms"
 msgstr "Условия"
 
-#: Plugin/Taxonomy/View/Terms/admin_form.ctp:34
+#: Taxonomy/View/Terms/admin_form.ctp:34
 msgid "Term"
 msgstr "Условия"
 
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:15
+#: Taxonomy/View/Terms/admin_index.ctp:15
 msgid "New Term"
 msgstr "Ново условие"
 
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:7
-#: Plugin/Taxonomy/View/Types/admin_index.ctp:5
+#: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:5
 msgid "Types"
 msgstr ""
 
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:118
+#: Taxonomy/View/Types/admin_form.ctp:26
+msgid "Taxonomy"
+msgstr ""
+
+#: Taxonomy/View/Types/admin_form.ctp:119
 msgid "Show author's name"
 msgstr "Покажи името на автора"
 
-#: Plugin/Taxonomy/View/Types/admin_form.ctp:122
+#: Taxonomy/View/Types/admin_form.ctp:123
 msgid "Show date"
 msgstr "Покажи датата"
 
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:29
+#: Taxonomy/View/Vocabularies/admin_form.ctp:29
 msgid "Vocabulary"
 msgstr "Речник"
 
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:30
+#: Taxonomy/View/Vocabularies/admin_form.ctp:30
 msgid "Options"
 msgstr "Настройки"
 
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:63
+#: Taxonomy/View/Vocabularies/admin_form.ctp:63
 msgid "Required"
 msgstr ""
 
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:67
+#: Taxonomy/View/Vocabularies/admin_form.ctp:67
 msgid "Multiple"
 msgstr ""
 
-#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:71
+#: Taxonomy/View/Vocabularies/admin_form.ctp:71
 msgid "Tags"
 msgstr ""
 
-#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:30
+#: Taxonomy/View/Vocabularies/admin_index.ctp:31
 msgid "View terms"
 msgstr "Прегледай условията"
 
-#: Plugin/Translate/Controller/TranslateController.php:45;99
+#: Translate/Controller/TranslateController.php:45;100
 msgid "Invalid ID."
 msgstr "Невалидно ID."
 
-#: Plugin/Translate/Controller/TranslateController.php:57;194
+#: Translate/Controller/TranslateController.php:57;196
 msgid "Invalid model."
 msgstr "Невалиден модел."
 
-#: Plugin/Translate/Controller/TranslateController.php:68;137;205
+#: Translate/Controller/TranslateController.php:69;139;207
 msgid "Invalid record."
 msgstr "Невалиден запис."
 
-#: Plugin/Translate/Controller/TranslateController.php:75
+#: Translate/Controller/TranslateController.php:76
 msgid "Translations: %s"
 msgstr "Преводи: %s"
 
-#: Plugin/Translate/Controller/TranslateController.php:144
+#: Translate/Controller/TranslateController.php:146
 msgid "Translate content: %s (%s)"
 msgstr "Съдържание на преводи(те): %s (%s)"
 
-#: Plugin/Translate/Controller/TranslateController.php:151
+#: Translate/Controller/TranslateController.php:153
 msgid "Record has been translated"
 msgstr "Записът беше преведен"
 
-#: Plugin/Translate/Controller/TranslateController.php:163
+#: Translate/Controller/TranslateController.php:165
 msgid "Record could not be translated. Please, try again."
 msgstr "Записът не може да бъде преведен. Моля, опитайте отново."
 
-#: Plugin/Translate/Controller/TranslateController.php:182
+#: Translate/Controller/TranslateController.php:184
 msgid "Invalid Locale or ID"
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:220
+#: Translate/Controller/TranslateController.php:222
 msgid "Translation for the locale deleted successfully."
 msgstr ""
 
-#: Plugin/Translate/Controller/TranslateController.php:222
+#: Translate/Controller/TranslateController.php:224
 msgid "Translation for the locale could not be deleted."
 msgstr ""
 
-#: Plugin/Translate/Model/Behavior/CroogoTranslateBehavior.php:56
-msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-msgstr ""
-
-#: Plugin/Translate/View/Translate/admin_edit.ctp:7;24
-#: Plugin/Translate/View/Translate/admin_index.ctp:7
+#: Translate/Lib/Translations.php:22
+#: Translate/View/Translate/admin_edit.ctp:7;24
+#: Translate/View/Translate/admin_index.ctp:13
 msgid "Translate"
 msgstr ""
 
-#: Plugin/Users/Config/bootstrap.php:42
-#: Plugin/Users/Controller/RolesController.php:40
-#: Plugin/Users/View/Roles/admin_form.ctp:6
-#: Plugin/Users/View/Roles/admin_index.ctp:7
+#: Translate/Model/Behavior/CroogoTranslateBehavior.php:56
+msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+msgstr ""
+
+#: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
+#: Users/View/Roles/admin_form.ctp:6 Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
 msgstr "Потребителски роли"
 
-#: Plugin/Users/Console/Command/UsersShell.php:20
+#: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:26
+#: Users/View/Users/admin_reset_password.ctp:1
+msgid "Reset password"
+msgstr "Промени парола"
+
+#: Users/Console/Command/UsersShell.php:20
 msgid "Reset user password"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:25
+#: Users/Console/Command/UsersShell.php:25
 msgid "Username to reset"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:29
+#: Users/Console/Command/UsersShell.php:29
 msgid "New user password"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:45
+#: Users/Console/Command/UsersShell.php:45
 msgid "User '%s' not found"
 msgstr ""
 
-#: Plugin/Users/Console/Command/UsersShell.php:50
+#: Users/Console/Command/UsersShell.php:50
 msgid "Password for '%s' has been changed"
 msgstr ""
 
-#: Plugin/Users/Controller/RolesController.php:55
+#: Users/Controller/RolesController.php:55
 msgid "Add Role"
 msgstr "Добави роля"
 
-#: Plugin/Users/Controller/RolesController.php:60;84
+#: Users/Controller/RolesController.php:60;84
 msgid "The Role has been saved"
 msgstr "Ролята беше запазена"
 
-#: Plugin/Users/Controller/RolesController.php:63;87
+#: Users/Controller/RolesController.php:63;87
 msgid "The Role could not be saved. Please, try again."
 msgstr "Ролята не беше запазена. Моля, опитайте отново."
 
-#: Plugin/Users/Controller/RolesController.php:76
+#: Users/Controller/RolesController.php:76
 msgid "Edit Role"
 msgstr "Редактирай роля"
 
-#: Plugin/Users/Controller/RolesController.php:79
+#: Users/Controller/RolesController.php:79
 msgid "Invalid Role"
 msgstr "Невалидна роля"
 
-#: Plugin/Users/Controller/RolesController.php:104
+#: Users/Controller/RolesController.php:104
 msgid "Invalid id for Role"
 msgstr "Невалидно id за роля"
 
-#: Plugin/Users/Controller/RolesController.php:108
+#: Users/Controller/RolesController.php:108
 msgid "Role deleted"
 msgstr "Ролята е изтрита"
 
-#: Plugin/Users/Controller/UsersController.php:77
+#: Users/Controller/UsersController.php:77
 msgid ""
 "You have reached maximum limit for failed login attempts. Please try again "
 "after a few minutes."
@@ -3323,59 +3308,63 @@ msgstr ""
 "Достигнахте максималния брой неуспешни опити за влизане в системата. Моля, "
 "опитайте отново след няколко минути."
 
-#: Plugin/Users/Controller/UsersController.php:137;160
-msgid "The User has been saved"
-msgstr "Потребителят е запазен успешно"
-
-#: Plugin/Users/Controller/UsersController.php:140;163;330
-msgid "The User could not be saved. Please, try again."
-msgstr "Потребителят не беше запазен. Моля, опитайте отново."
-
-#: Plugin/Users/Controller/UsersController.php:182
-msgid "Invalid User"
-msgstr "Невалиден потребител"
-
-#: Plugin/Users/Controller/UsersController.php:187
-msgid "Password has been reset."
-msgstr "Паролата беше променена."
-
-#: Plugin/Users/Controller/UsersController.php:190
-msgid "Password could not be reset. Please, try again."
-msgstr "Паролата не беше променена. Моля, опитайте отново."
-
-#: Plugin/Users/Controller/UsersController.php:205
-msgid "Invalid id for User"
-msgstr "Невалиден id за потребител"
-
-#: Plugin/Users/Controller/UsersController.php:209
-msgid "User deleted"
-msgstr "Потребителят е изтрит"
-
-#: Plugin/Users/Controller/UsersController.php:212
-msgid "User cannot be deleted"
-msgstr ""
-
-#: Plugin/Users/Controller/UsersController.php:224
-msgid "Admin Login"
-msgstr "Вход като админ"
-
-#: Plugin/Users/Controller/UsersController.php:233
-msgid "Incorrect username or password"
-msgstr ""
-
-#: Plugin/Users/Controller/UsersController.php:248;489
-msgid "Log out successful."
-msgstr "Успешно влизане в системата."
-
-#: Plugin/Users/Controller/UsersController.php:303
-msgid "Register"
-msgstr "Регистрация"
-
-#: Plugin/Users/Controller/UsersController.php:319
+#: Users/Controller/UsersController.php:146;362
 msgid "[%s] Please activate your account"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:326
+#: Users/Controller/UsersController.php:171;194
+msgid "The User has been saved"
+msgstr "Потребителят е запазен успешно"
+
+#: Users/Controller/UsersController.php:174;197;373
+msgid "The User could not be saved. Please, try again."
+msgstr "Потребителят не беше запазен. Моля, опитайте отново."
+
+#: Users/Controller/UsersController.php:216
+msgid "Invalid User"
+msgstr "Невалиден потребител"
+
+#: Users/Controller/UsersController.php:221
+msgid "Password has been reset."
+msgstr "Паролата беше променена."
+
+#: Users/Controller/UsersController.php:224
+msgid "Password could not be reset. Please, try again."
+msgstr "Паролата не беше променена. Моля, опитайте отново."
+
+#: Users/Controller/UsersController.php:239
+msgid "Invalid id for User"
+msgstr "Невалиден id за потребител"
+
+#: Users/Controller/UsersController.php:243
+msgid "User deleted"
+msgstr "Потребителят е изтрит"
+
+#: Users/Controller/UsersController.php:246
+msgid "User cannot be deleted"
+msgstr ""
+
+#: Users/Controller/UsersController.php:258
+msgid "Admin Login"
+msgstr "Вход като админ"
+
+#: Users/Controller/UsersController.php:263
+msgid "You are already logged in"
+msgstr ""
+
+#: Users/Controller/UsersController.php:276
+msgid "Incorrect username or password"
+msgstr ""
+
+#: Users/Controller/UsersController.php:291;557
+msgid "Log out successful."
+msgstr "Успешно влизане в системата."
+
+#: Users/Controller/UsersController.php:346
+msgid "Register"
+msgstr "Регистрация"
+
+#: Users/Controller/UsersController.php:369
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
@@ -3383,199 +3372,147 @@ msgstr ""
 "Успешно създаване на профил. На електронната поща ще бъде изпратено писмо "
 "със следващите инструкции."
 
-#: Plugin/Users/Controller/UsersController.php:358
+#: Users/Controller/UsersController.php:393 Users/View/Users/index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "В момента сте влезли като"
+
+#: Users/Controller/UsersController.php:424
 msgid "Account activated successfully."
 msgstr "Профилът е активиран успешно."
 
-#: Plugin/Users/Controller/UsersController.php:383
+#: Users/Controller/UsersController.php:451
 msgid "Forgot Password"
 msgstr "Забравена парола"
 
-#: Plugin/Users/Controller/UsersController.php:388
+#: Users/Controller/UsersController.php:456
 msgid "Invalid username."
 msgstr "Невалидно потребителко име."
 
-#: Plugin/Users/Controller/UsersController.php:400
+#: Users/Controller/UsersController.php:468
 msgid "[%s] Reset Password"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:408
+#: Users/Controller/UsersController.php:476
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "На електронната поща беше изпратено писмо с инструкции за промяна на "
 "паролата ви."
 
-#: Plugin/Users/Controller/UsersController.php:411;453
+#: Users/Controller/UsersController.php:479;521
 msgid "An error occurred. Please try again."
 msgstr "Възникна грешка. Моля, опитайте отново."
 
-#: Plugin/Users/Controller/UsersController.php:425
-#: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
+#: Users/Controller/UsersController.php:493
+#: Users/View/Users/admin_reset_password.ctp:9;18
 msgid "Reset Password"
 msgstr "Промяна на парола"
 
-#: Plugin/Users/Controller/UsersController.php:450
+#: Users/Controller/UsersController.php:518
 msgid "Your password has been reset successfully."
 msgstr "Вашата парола беше променена успешно."
 
-#: Plugin/Users/Controller/UsersController.php:467
+#: Users/Controller/UsersController.php:535
 msgid "Log in"
 msgstr "Вход"
 
-#: Plugin/Users/Controller/UsersController.php:507
+#: Users/Controller/UsersController.php:576
 msgid "Invalid User."
 msgstr "Невалиден потребител"
 
-#: Plugin/Users/Model/User.php:219
+#: Users/Model/User.php:220
 msgid "Passwords do not match. Please, try again."
 msgstr ""
 
-#: Plugin/Users/View/Emails/text/forgot_password.ctp:1
-#: Plugin/Users/View/Emails/text/register.ctp:1
+#: Users/View/Emails/text/forgot_password.ctp:1
+#: Users/View/Emails/text/register.ctp:1
 msgid "Hello %s"
 msgstr "Здравей %s"
 
-#: Plugin/Users/View/Emails/text/forgot_password.ctp:10
+#: Users/View/Emails/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
 msgstr "Моля, посете тази страница за промяна на паролата: %s"
 
-#: Plugin/Users/View/Emails/text/forgot_password.ctp:14
+#: Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
 msgstr "Ако не сте поискали промяна на паролата, игнорирайте това писмо."
 
-#: Plugin/Users/View/Emails/text/register.ctp:10
+#: Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
 msgstr "Моля, посете тази страница за да активирате профила си: %s"
 
-#: Plugin/Users/View/Roles/admin_form.ctp:23
-#: Plugin/Users/View/Users/admin_form.ctp:45
+#: Users/View/Roles/admin_form.ctp:23 Users/View/Users/admin_form.ctp:48
 msgid "Role"
 msgstr ""
 
-#: Plugin/Users/View/Users/admin_form.ctp:23
-#: Plugin/Users/View/Users/admin_reset_password.ctp:1
-msgid "Reset password"
-msgstr "Промени парола"
+#: Users/View/Users/admin_form.ctp:14
+msgid "Edit user %s"
+msgstr ""
 
-#: Plugin/Users/View/Users/admin_login.ctp:22
+#: Users/View/Users/admin_form.ctp:16
+msgid "New user"
+msgstr ""
+
+#: Users/View/Users/admin_form.ctp:69
+msgid "Timezone"
+msgstr ""
+
+#: Users/View/Users/admin_form.ctp:89
+msgid "Send Activation Email"
+msgstr ""
+
+#: Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
 msgstr ""
 
-#: Plugin/Users/View/Users/admin_login.ctp:27
+#: Users/View/Users/admin_login.ctp:27
 msgid "Log In"
 msgstr "Вход"
 
-#: Plugin/Users/View/Users/admin_login.ctp:28
+#: Users/View/Users/admin_login.ctp:28
 msgid "Forgot password?"
 msgstr "Забравена парола?"
 
-#: Plugin/Users/View/Users/admin_reset_password.ctp:36
+#: Users/View/Users/admin_reset_password.ctp:11
+msgid "Reset Password for %s"
+msgstr ""
+
+#: Users/View/Users/admin_reset_password.ctp:38
 msgid "Reset"
 msgstr ""
 
-#: Plugin/Users/View/Users/index.ctp:4
-msgid "You are currently logged in as:"
-msgstr "В момента сте влезли като"
-
-#: Plugin/Users/View/Users/reset.ctp:6
+#: Users/View/Users/reset.ctp:6
 msgid "New password"
 msgstr "Нова парола"
 
-#: Plugin/Blocks/Model/Block.php:validation for field title
-#: Plugin/Blocks/Model/Region.php:validation
-#: Plugin/Menus/Model/Link.php:validation
-#: Plugin/Menus/Model/Menu.php:validation
-#: Plugin/Settings/Model/Language.php:validation
-#: Plugin/Taxonomy/Model/Type.php:validation
-#: Plugin/Taxonomy/Model/Vocabulary.php:validation
-msgid "Title cannot be empty."
-msgstr ""
+#~ msgid "Invalid Node"
+#~ msgstr "Невалиден елемент"
 
-#: Plugin/Blocks/Model/Block.php:validation for field alias
-#: Plugin/Blocks/Model/Region.php:validation
-#: Plugin/Contacts/Model/Contact.php:validation
-#: Plugin/Menus/Model/Menu.php:validation
-#: Plugin/Settings/Model/Language.php:validation
-#: Plugin/Taxonomy/Model/Type.php:validation
-#: Plugin/Taxonomy/Model/Vocabulary.php:validation
-#: Plugin/Users/Model/Role.php:validation
-msgid "This alias has already been taken."
-msgstr ""
+#~ msgid "Add new"
+#~ msgstr "Добави нов"
 
-#: Plugin/Blocks/Model/Block.php:validation for field alias
-#: Plugin/Blocks/Model/Region.php:validation
-#: Plugin/Contacts/Model/Contact.php:validation
-#: Plugin/Menus/Model/Menu.php:validation
-#: Plugin/Settings/Model/Language.php:validation
-#: Plugin/Taxonomy/Model/Type.php:validation
-#: Plugin/Taxonomy/Model/Vocabulary.php:validation
-#: Plugin/Users/Model/Role.php:validation title;validation
-msgid "Alias cannot be empty."
-msgstr ""
+#~ msgid "Link to a Node"
+#~ msgstr "Препратка към елемент"
 
-#: Plugin/Comments/Model/Comment.php:validation for field body;validation name
-#: Plugin/Contacts/Model/Contact.php:validation title
-#: Plugin/Contacts/Model/Message.php:validation name;validation
-#: title;validation body Plugin/FileManager/Model/Attachment.php:validation
-#: Plugin/Nodes/Model/Node.php:validation
-#: Plugin/Users/Model/User.php:validation username;validation
-msgid "This field cannot be left blank."
-msgstr ""
+#~ msgid "Nodes"
+#~ msgstr "Елементи."
 
-#: Plugin/Comments/Model/Comment.php:validation for field email
-msgid "Please enter a valid email address."
-msgstr ""
+#~ msgid "Reading"
+#~ msgstr "Четене"
 
-#: Plugin/Contacts/Model/Contact.php:validation for field email
-#: Plugin/Contacts/Model/Message.php:validation
-#: Plugin/Users/Model/User.php:validation
-msgid "Please provide a valid email address."
-msgstr ""
+#~ msgid "Writing"
+#~ msgstr "Писане"
 
-#: Plugin/FileManager/Model/Attachment.php:validation for field slug
-#: Plugin/Nodes/Model/Node.php:validation
-#: Plugin/Taxonomy/Model/Term.php:validation
-msgid "This slug has already been taken."
-msgstr ""
+#~ msgid "Service"
+#~ msgstr "Услуга"
 
-#: Plugin/FileManager/Model/Attachment.php:validation for field slug
-#: Plugin/Nodes/Model/Node.php:validation
-#: Plugin/Taxonomy/Model/Term.php:validation
-msgid "Slug cannot be empty."
-msgstr ""
+#~ msgid "Term with same slug already exists in the vocabulary."
+#~ msgstr "Условие със същия slug съществува вече в речника."
 
-#: Plugin/Menus/Model/Link.php:validation for field link
-msgid "Link cannot be empty."
-msgstr ""
+#~ msgid "Term could not be saved. Please try again."
+#~ msgstr "Условието не може да бъде запазено. Моля, опитайте отново."
 
-#: Plugin/Settings/Model/Setting.php:validation for field key
-msgid "This key has already been taken."
-msgstr ""
-
-#: Plugin/Settings/Model/Setting.php:validation for field key
-msgid "Key cannot be empty."
-msgstr ""
-
-#: Plugin/Users/Model/Role.php:validation for field title;validation alias
-#: Plugin/Users/Model/User.php:validation username;validation name
-msgid "This field must be alphanumeric"
-msgstr ""
-
-#: Plugin/Users/Model/User.php:validation for field username
-msgid "The username has already been taken."
-msgstr ""
-
-#: Plugin/Users/Model/User.php:validation for field email
-msgid "Email address already in use."
-msgstr ""
-
-#: Plugin/Users/Model/User.php:validation for field password
-msgid "Passwords must be at least 6 characters long."
-msgstr ""
-
-#: Plugin/Users/Model/User.php:validation for field website
-msgid "This field must be a valid URL"
-msgstr ""
+#~ msgid "Invalid id for Term"
+#~ msgstr "Невалидно id за условие"
 
 #~ msgid "Blocks deleted."
 #~ msgstr "Блоковете са изтрити."
