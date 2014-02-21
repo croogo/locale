@@ -3400,7 +3400,7 @@ msgstr "[%s] Сброс пароля"
 
 #: Plugin/Users/Controller/UsersController.php:408
 msgid "An email has been sent with instructions for resetting your password."
-msgstr На ваш электронный адрес выслано письмо с инструкциями восстановления пароля"
+msgstr "На ваш электронный адрес выслано письмо с инструкциями восстановления пароля"
 
 #: Plugin/Users/Controller/UsersController.php:411;453
 msgid "An error occurred. Please try again."
