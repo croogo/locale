@@ -243,7 +243,7 @@ msgstr ""
 #: Plugin/Acl/View/AclActions/admin_index.ctp:10
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
 #: Plugin/Users/Config/bootstrap.php:22;32
-#: Plugin/Users/Controller/UsersController.php:108;259
+#: Plugin/Users/Controller/UsersController.php:108;293
 #: Plugin/Users/View/Roles/admin_form.ctp:5
 #: Plugin/Users/View/Roles/admin_index.ctp:6
 #: Plugin/Users/View/Users/admin_form.ctp:7
@@ -490,7 +490,7 @@ msgstr ""
 #: Plugin/Croogo/View/Common/admin_index.ctp:89
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:48
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:105
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:122
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:38
 #: Plugin/FileManager/View/Helper/FileManagerHelper.php:137
@@ -566,36 +566,36 @@ msgid "Block deleted"
 msgstr "Блокът е изтрит"
 
 #: Plugin/Blocks/Controller/BlocksController.php:204
-#: Plugin/Menus/Controller/LinksController.php:289
+#: Plugin/Menus/Controller/LinksController.php:290
 #: Plugin/Settings/Controller/LanguagesController.php:122
-#: Plugin/Settings/Controller/SettingsController.php:190
+#: Plugin/Settings/Controller/SettingsController.php:191
 #: Plugin/Taxonomy/Controller/TermsController.php:331
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:128
 msgid "Moved up successfully"
 msgstr "Успешно преместване нагоре"
 
 #: Plugin/Blocks/Controller/BlocksController.php:206
-#: Plugin/Menus/Controller/LinksController.php:291
+#: Plugin/Menus/Controller/LinksController.php:292
 #: Plugin/Settings/Controller/LanguagesController.php:124
-#: Plugin/Settings/Controller/SettingsController.php:192
+#: Plugin/Settings/Controller/SettingsController.php:193
 #: Plugin/Taxonomy/Controller/TermsController.php:333
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:130
 msgid "Could not move up"
 msgstr "Невъзможност за преместване нагоре"
 
 #: Plugin/Blocks/Controller/BlocksController.php:222
-#: Plugin/Menus/Controller/LinksController.php:320
+#: Plugin/Menus/Controller/LinksController.php:322
 #: Plugin/Settings/Controller/LanguagesController.php:140
-#: Plugin/Settings/Controller/SettingsController.php:216
+#: Plugin/Settings/Controller/SettingsController.php:217
 #: Plugin/Taxonomy/Controller/TermsController.php:373
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:146
 msgid "Moved down successfully"
 msgstr "Успешно преместване надолу"
 
 #: Plugin/Blocks/Controller/BlocksController.php:224
-#: Plugin/Menus/Controller/LinksController.php:322
+#: Plugin/Menus/Controller/LinksController.php:324
 #: Plugin/Settings/Controller/LanguagesController.php:142
-#: Plugin/Settings/Controller/SettingsController.php:218
+#: Plugin/Settings/Controller/SettingsController.php:219
 #: Plugin/Taxonomy/Controller/TermsController.php:375
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:148
 msgid "Could not move down"
@@ -604,8 +604,8 @@ msgstr "Невъзможност за преместване надолу"
 #: Plugin/Blocks/Controller/BlocksController.php:246
 #: Plugin/Comments/Controller/CommentsController.php:159
 #: Plugin/Contacts/Controller/MessagesController.php:138
-#: Plugin/Menus/Controller/LinksController.php:348
-#: Plugin/Nodes/Controller/NodesController.php:308
+#: Plugin/Menus/Controller/LinksController.php:350
+#: Plugin/Nodes/Controller/NodesController.php:310
 msgid "No items selected."
 msgstr "Няма избрани елементи."
 
@@ -625,9 +625,9 @@ msgstr "Блоковете са изключени"
 #: Plugin/Comments/Controller/CommentsController.php:173
 #: Plugin/Contacts/Controller/MessagesController.php:152
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:156
-#: Plugin/Menus/Controller/LinksController.php:373
-#: Plugin/Nodes/Controller/NodesController.php:336
-#: Plugin/Users/Controller/UsersController.php:361;428;439
+#: Plugin/Menus/Controller/LinksController.php:375
+#: Plugin/Nodes/Controller/NodesController.php:338
+#: Plugin/Users/Controller/UsersController.php:418;487;498
 msgid "An error occurred."
 msgstr "Грешка в изпълнението."
 
@@ -801,7 +801,7 @@ msgstr ""
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:49
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:42
 #: Plugin/Settings/View/Languages/admin_index.ctp:19
-#: Plugin/Users/View/Users/admin_form.ctp:78
+#: Plugin/Users/View/Users/admin_form.ctp:86
 msgid "Status"
 msgstr "Статус"
 
@@ -832,7 +832,7 @@ msgstr "Непубликуван"
 #: Plugin/Comments/View/Comments/admin_index.ctp:122
 #: Plugin/Contacts/View/Messages/admin_index.ctp:133
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:51
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:99
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:116
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:59;100
 #: Plugin/Menus/View/Links/admin_index.ctp:107
@@ -922,24 +922,24 @@ msgstr "Коментарът е добавен успешно."
 msgid "Your comment will appear after moderation."
 msgstr "Коментарът ще бъде видим след модерация."
 
-#: Plugin/Comments/Controller/CommentsController.php:293
+#: Plugin/Comments/Controller/CommentsController.php:294
 msgid "Sorry, the comment appears to be spam."
 msgstr "Вероятно коментарът е спам."
 
-#: Plugin/Comments/Controller/CommentsController.php:315
+#: Plugin/Comments/Controller/CommentsController.php:316
 #: Plugin/Contacts/Controller/ContactsController.php:239
 msgid "Invalid captcha entry"
 msgstr "Невалиден вход на captcha"
 
-#: Plugin/Comments/Controller/CommentsController.php:337
+#: Plugin/Comments/Controller/CommentsController.php:338
 msgid "New comment posted under"
 msgstr "Има нов коментар"
 
-#: Plugin/Comments/Model/Comment.php:115
+#: Plugin/Comments/Model/Comment.php:121
 msgid "Invalid Node id"
 msgstr ""
 
-#: Plugin/Comments/Model/Comment.php:174
+#: Plugin/Comments/Model/Comment.php:180
 msgid "Invalid Comment id"
 msgstr ""
 
@@ -1027,7 +1027,7 @@ msgid "Comment on"
 msgstr "Коментар на"
 
 #: Plugin/Comments/View/Comments/rss/index.ctp:18
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:50;86
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:53;103
 #: Plugin/Nodes/View/Elements/node_info.ctp:9
 msgid "by"
 msgstr "от"
@@ -1525,7 +1525,7 @@ msgid "Errors in CakeErrorController: %s"
 msgstr ""
 
 #: Plugin/Croogo/Controller/Component/CroogoComponent.php:200
-#: Plugin/Nodes/Controller/NodesController.php:199;681;719
+#: Plugin/Nodes/Controller/NodesController.php:199;705;743
 msgid "Invalid content"
 msgstr "Невалидно съдържание"
 
@@ -1593,7 +1593,7 @@ msgid "Croogo %s"
 msgstr ""
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:22
-#: Plugin/Settings/Controller/SettingsController.php:48
+#: Plugin/Settings/Controller/SettingsController.php:49
 #: Plugin/Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
 msgstr "Администрация"
@@ -1954,7 +1954,7 @@ msgstr "По подразбиране"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:39
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:92
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:109
 msgid "Activate"
 msgstr "Активиране"
 
@@ -1985,15 +1985,15 @@ msgstr ""
 msgid "Current Theme"
 msgstr "Текуща тема"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:56;89
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:59;106
 msgid "Regions supported: "
 msgstr "Поддържани райони: "
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:62
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:65
 msgid "Available Themes"
 msgstr "Налични теми"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:113
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:130
 msgid "No available theme"
 msgstr ""
 
@@ -2097,7 +2097,7 @@ msgstr ""
 msgid "File created successfully."
 msgstr "Файлът е създаден успешно."
 
-#: Plugin/FileManager/Model/Attachment.php:94
+#: Plugin/FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
 msgstr ""
 
@@ -2223,6 +2223,7 @@ msgstr "Вход"
 
 #: Plugin/Install/Console/Command/InstallShell.php:66;96
 #: Plugin/Install/View/Install/database.ctp:46
+#: Plugin/Users/View/Users/admin_form.ctp:93
 #: Plugin/Users/View/Users/admin_login.ctp:15
 msgid "Password"
 msgstr ""
@@ -2251,6 +2252,7 @@ msgstr ""
 
 #: Plugin/Install/Console/Command/InstallShell.php:97
 #: Plugin/Install/View/Install/adminuser.ctp:25
+#: Plugin/Users/View/Users/admin_form.ctp:98
 #: Plugin/Users/View/Users/admin_reset_password.ctp:26
 #: Plugin/Users/View/Users/reset.ctp:7
 msgid "Verify Password"
@@ -2478,7 +2480,7 @@ msgstr "Редактирай препратка"
 msgid "Invalid Link"
 msgstr "Невалидна препратка"
 
-#: Plugin/Menus/Controller/LinksController.php:244;252;281;312
+#: Plugin/Menus/Controller/LinksController.php:244;252;281;313
 msgid "Invalid id for Link"
 msgstr "Невалиден id за препратка"
 
@@ -2486,15 +2488,15 @@ msgstr "Невалиден id за препратка"
 msgid "Link deleted"
 msgstr "Препратката е изтрита"
 
-#: Plugin/Menus/Controller/LinksController.php:365
+#: Plugin/Menus/Controller/LinksController.php:367
 msgid "Links deleted."
 msgstr "Препратките са изтрити."
 
-#: Plugin/Menus/Controller/LinksController.php:368
+#: Plugin/Menus/Controller/LinksController.php:370
 msgid "Links published"
 msgstr "Препратките са активирани"
 
-#: Plugin/Menus/Controller/LinksController.php:371
+#: Plugin/Menus/Controller/LinksController.php:373
 msgid "Links unpublished"
 msgstr "Препратките са деактивирани"
 
@@ -2637,51 +2639,51 @@ msgstr "Невалиден id за елемент"
 msgid "Node deleted"
 msgstr "Елементът е изтрит"
 
-#: Plugin/Nodes/Controller/NodesController.php:318
+#: Plugin/Nodes/Controller/NodesController.php:320
 msgid "Nodes deleted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:321
+#: Plugin/Nodes/Controller/NodesController.php:323
 msgid "Nodes published"
 msgstr "Елементите са активирани"
 
-#: Plugin/Nodes/Controller/NodesController.php:324
+#: Plugin/Nodes/Controller/NodesController.php:326
 msgid "Nodes unpublished"
 msgstr "Елементите са деактивирани"
 
-#: Plugin/Nodes/Controller/NodesController.php:327
+#: Plugin/Nodes/Controller/NodesController.php:329
 msgid "Nodes promoted"
 msgstr "Елементите са добавени към началната страница"
 
-#: Plugin/Nodes/Controller/NodesController.php:330
+#: Plugin/Nodes/Controller/NodesController.php:332
 msgid "Nodes unpromoted"
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:381;473;537;619
+#: Plugin/Nodes/Controller/NodesController.php:389;488;560;643
 msgid "Invalid content type."
 msgstr "Невалиден тип на съдъжанието."
 
-#: Plugin/Nodes/Controller/NodesController.php:436
+#: Plugin/Nodes/Controller/NodesController.php:446
 msgid "Invalid Term."
 msgstr ""
 
-#: Plugin/Nodes/Controller/NodesController.php:519
+#: Plugin/Nodes/Controller/NodesController.php:536
 msgid "Nodes"
 msgstr "Елементи."
 
-#: Plugin/Nodes/Controller/NodesController.php:629
+#: Plugin/Nodes/Controller/NodesController.php:653
 msgid "Search Results: %s"
 msgstr "Резултати от търсенето: %s"
 
-#: Plugin/Nodes/Model/Node.php:391
+#: Plugin/Nodes/Model/Node.php:392
 msgid "Invalid action to perform"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:395
+#: Plugin/Nodes/Model/Node.php:396
 msgid "No target to process action upon"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:426
+#: Plugin/Nodes/Model/Node.php:427
 msgid "Invalid Content Type"
 msgstr ""
 
@@ -2798,7 +2800,7 @@ msgid "No items found."
 msgstr "Няма намерени елементи."
 
 #: Plugin/Settings/Config/bootstrap.php:12
-#: Plugin/Settings/Controller/SettingsController.php:58
+#: Plugin/Settings/Controller/SettingsController.php:59
 #: Plugin/Settings/View/Languages/admin_form.ctp:7
 #: Plugin/Settings/View/Languages/admin_index.ctp:6
 #: Plugin/Settings/View/Languages/admin_select.ctp:5
@@ -2896,7 +2898,7 @@ msgid "Delete?"
 msgstr ""
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:194
-#: Plugin/Settings/Controller/SettingsController.php:143
+#: Plugin/Settings/Controller/SettingsController.php:144
 msgid "Setting deleted"
 msgstr "Настройката е изтрита"
 
@@ -2933,44 +2935,44 @@ msgstr "Езикът е изтрит"
 msgid "Select a language"
 msgstr "Избор на език"
 
-#: Plugin/Settings/Controller/SettingsController.php:77
+#: Plugin/Settings/Controller/SettingsController.php:78
 msgid "Invalid Setting."
 msgstr "Невалидна настройка."
 
-#: Plugin/Settings/Controller/SettingsController.php:90
+#: Plugin/Settings/Controller/SettingsController.php:91
 msgid "Add Setting"
 msgstr "Добави настройка"
 
-#: Plugin/Settings/Controller/SettingsController.php:95;119
+#: Plugin/Settings/Controller/SettingsController.php:96;120
 msgid "The Setting has been saved"
 msgstr "Настройките бяха запазени"
 
-#: Plugin/Settings/Controller/SettingsController.php:98;122
+#: Plugin/Settings/Controller/SettingsController.php:99;123
 msgid "The Setting could not be saved. Please, try again."
 msgstr "Настройката не може да бъде запазена. Моля, опитайте отново."
 
-#: Plugin/Settings/Controller/SettingsController.php:111
+#: Plugin/Settings/Controller/SettingsController.php:112
 #: Plugin/Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr "Промяна на настройка"
 
-#: Plugin/Settings/Controller/SettingsController.php:114
+#: Plugin/Settings/Controller/SettingsController.php:115
 msgid "Invalid Setting"
 msgstr "Невалидна настройка"
 
-#: Plugin/Settings/Controller/SettingsController.php:139
+#: Plugin/Settings/Controller/SettingsController.php:140
 msgid "Invalid id for Setting"
 msgstr "Невалидно id за настройка"
 
-#: Plugin/Settings/Controller/SettingsController.php:156
+#: Plugin/Settings/Controller/SettingsController.php:157
 msgid "Settings: %s"
 msgstr "Настройка: %s"
 
-#: Plugin/Settings/Controller/SettingsController.php:160
+#: Plugin/Settings/Controller/SettingsController.php:161
 msgid "Settings updated successfully"
 msgstr "Настройките са променени успешно"
 
-#: Plugin/Settings/Controller/SettingsController.php:174
+#: Plugin/Settings/Controller/SettingsController.php:175
 msgid "Invalid Setting key"
 msgstr "Невалиден ключ за настройки"
 
@@ -3323,59 +3325,59 @@ msgstr ""
 "Достигнахте максималния брой неуспешни опити за влизане в системата. Моля, "
 "опитайте отново след няколко минути."
 
-#: Plugin/Users/Controller/UsersController.php:137;160
-msgid "The User has been saved"
-msgstr "Потребителят е запазен успешно"
-
-#: Plugin/Users/Controller/UsersController.php:140;163;330
-msgid "The User could not be saved. Please, try again."
-msgstr "Потребителят не беше запазен. Моля, опитайте отново."
-
-#: Plugin/Users/Controller/UsersController.php:182
-msgid "Invalid User"
-msgstr "Невалиден потребител"
-
-#: Plugin/Users/Controller/UsersController.php:187
-msgid "Password has been reset."
-msgstr "Паролата беше променена."
-
-#: Plugin/Users/Controller/UsersController.php:190
-msgid "Password could not be reset. Please, try again."
-msgstr "Паролата не беше променена. Моля, опитайте отново."
-
-#: Plugin/Users/Controller/UsersController.php:205
-msgid "Invalid id for User"
-msgstr "Невалиден id за потребител"
-
-#: Plugin/Users/Controller/UsersController.php:209
-msgid "User deleted"
-msgstr "Потребителят е изтрит"
-
-#: Plugin/Users/Controller/UsersController.php:212
-msgid "User cannot be deleted"
-msgstr ""
-
-#: Plugin/Users/Controller/UsersController.php:224
-msgid "Admin Login"
-msgstr "Вход като админ"
-
-#: Plugin/Users/Controller/UsersController.php:233
-msgid "Incorrect username or password"
-msgstr ""
-
-#: Plugin/Users/Controller/UsersController.php:248;489
-msgid "Log out successful."
-msgstr "Успешно влизане в системата."
-
-#: Plugin/Users/Controller/UsersController.php:303
-msgid "Register"
-msgstr "Регистрация"
-
-#: Plugin/Users/Controller/UsersController.php:319
+#: Plugin/Users/Controller/UsersController.php:146;353
 msgid "[%s] Please activate your account"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:326
+#: Plugin/Users/Controller/UsersController.php:171;194
+msgid "The User has been saved"
+msgstr "Потребителят е запазен успешно"
+
+#: Plugin/Users/Controller/UsersController.php:174;197;364
+msgid "The User could not be saved. Please, try again."
+msgstr "Потребителят не беше запазен. Моля, опитайте отново."
+
+#: Plugin/Users/Controller/UsersController.php:216
+msgid "Invalid User"
+msgstr "Невалиден потребител"
+
+#: Plugin/Users/Controller/UsersController.php:221
+msgid "Password has been reset."
+msgstr "Паролата беше променена."
+
+#: Plugin/Users/Controller/UsersController.php:224
+msgid "Password could not be reset. Please, try again."
+msgstr "Паролата не беше променена. Моля, опитайте отново."
+
+#: Plugin/Users/Controller/UsersController.php:239
+msgid "Invalid id for User"
+msgstr "Невалиден id за потребител"
+
+#: Plugin/Users/Controller/UsersController.php:243
+msgid "User deleted"
+msgstr "Потребителят е изтрит"
+
+#: Plugin/Users/Controller/UsersController.php:246
+msgid "User cannot be deleted"
+msgstr ""
+
+#: Plugin/Users/Controller/UsersController.php:258
+msgid "Admin Login"
+msgstr "Вход като админ"
+
+#: Plugin/Users/Controller/UsersController.php:267
+msgid "Incorrect username or password"
+msgstr ""
+
+#: Plugin/Users/Controller/UsersController.php:282;548
+msgid "Log out successful."
+msgstr "Успешно влизане в системата."
+
+#: Plugin/Users/Controller/UsersController.php:337
+msgid "Register"
+msgstr "Регистрация"
+
+#: Plugin/Users/Controller/UsersController.php:360
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
@@ -3383,46 +3385,51 @@ msgstr ""
 "Успешно създаване на профил. На електронната поща ще бъде изпратено писмо "
 "със следващите инструкции."
 
-#: Plugin/Users/Controller/UsersController.php:358
+#: Plugin/Users/Controller/UsersController.php:384
+#: Plugin/Users/View/Users/index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "В момента сте влезли като"
+
+#: Plugin/Users/Controller/UsersController.php:415
 msgid "Account activated successfully."
 msgstr "Профилът е активиран успешно."
 
-#: Plugin/Users/Controller/UsersController.php:383
+#: Plugin/Users/Controller/UsersController.php:442
 msgid "Forgot Password"
 msgstr "Забравена парола"
 
-#: Plugin/Users/Controller/UsersController.php:388
+#: Plugin/Users/Controller/UsersController.php:447
 msgid "Invalid username."
 msgstr "Невалидно потребителко име."
 
-#: Plugin/Users/Controller/UsersController.php:400
+#: Plugin/Users/Controller/UsersController.php:459
 msgid "[%s] Reset Password"
 msgstr ""
 
-#: Plugin/Users/Controller/UsersController.php:408
+#: Plugin/Users/Controller/UsersController.php:467
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "На електронната поща беше изпратено писмо с инструкции за промяна на "
 "паролата ви."
 
-#: Plugin/Users/Controller/UsersController.php:411;453
+#: Plugin/Users/Controller/UsersController.php:470;512
 msgid "An error occurred. Please try again."
 msgstr "Възникна грешка. Моля, опитайте отново."
 
-#: Plugin/Users/Controller/UsersController.php:425
+#: Plugin/Users/Controller/UsersController.php:484
 #: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
 msgid "Reset Password"
 msgstr "Промяна на парола"
 
-#: Plugin/Users/Controller/UsersController.php:450
+#: Plugin/Users/Controller/UsersController.php:509
 msgid "Your password has been reset successfully."
 msgstr "Вашата парола беше променена успешно."
 
-#: Plugin/Users/Controller/UsersController.php:467
+#: Plugin/Users/Controller/UsersController.php:526
 msgid "Log in"
 msgstr "Вход"
 
-#: Plugin/Users/Controller/UsersController.php:507
+#: Plugin/Users/Controller/UsersController.php:566
 msgid "Invalid User."
 msgstr "Невалиден потребител"
 
@@ -3443,7 +3450,7 @@ msgstr "Моля, посете тази страница за промяна н�
 msgid "If you did not request a password reset, then please ignore this email."
 msgstr "Ако не сте поискали промяна на паролата, игнорирайте това писмо."
 
-#: Plugin/Users/View/Emails/text/register.ctp:10
+#: Plugin/Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
 msgstr "Моля, посете тази страница за да активирате профила си: %s"
 
@@ -3456,6 +3463,10 @@ msgstr ""
 #: Plugin/Users/View/Users/admin_reset_password.ctp:1
 msgid "Reset password"
 msgstr "Промени парола"
+
+#: Plugin/Users/View/Users/admin_form.ctp:79
+msgid "Send Activation Email"
+msgstr ""
 
 #: Plugin/Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
@@ -3472,10 +3483,6 @@ msgstr "Забравена парола?"
 #: Plugin/Users/View/Users/admin_reset_password.ctp:36
 msgid "Reset"
 msgstr ""
-
-#: Plugin/Users/View/Users/index.ctp:4
-msgid "You are currently logged in as:"
-msgstr "В момента сте влезли като"
 
 #: Plugin/Users/View/Users/reset.ctp:6
 msgid "New password"

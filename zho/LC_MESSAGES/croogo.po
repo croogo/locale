@@ -245,7 +245,7 @@ msgstr "角色：Admin 没有找到"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:10
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
 #: Plugin/Users/Config/bootstrap.php:22;32
-#: Plugin/Users/Controller/UsersController.php:108;259
+#: Plugin/Users/Controller/UsersController.php:108;293
 #: Plugin/Users/View/Roles/admin_form.ctp:5
 #: Plugin/Users/View/Roles/admin_index.ctp:6
 #: Plugin/Users/View/Users/admin_form.ctp:7
@@ -492,7 +492,7 @@ msgstr "移除这一项目"
 #: Plugin/Croogo/View/Common/admin_index.ctp:89
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:48
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:105
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:122
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:38
 #: Plugin/FileManager/View/Helper/FileManagerHelper.php:137
@@ -568,36 +568,36 @@ msgid "Block deleted"
 msgstr "块已删除"
 
 #: Plugin/Blocks/Controller/BlocksController.php:204
-#: Plugin/Menus/Controller/LinksController.php:289
+#: Plugin/Menus/Controller/LinksController.php:290
 #: Plugin/Settings/Controller/LanguagesController.php:122
-#: Plugin/Settings/Controller/SettingsController.php:190
+#: Plugin/Settings/Controller/SettingsController.php:191
 #: Plugin/Taxonomy/Controller/TermsController.php:331
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:128
 msgid "Moved up successfully"
 msgstr "成功上移"
 
 #: Plugin/Blocks/Controller/BlocksController.php:206
-#: Plugin/Menus/Controller/LinksController.php:291
+#: Plugin/Menus/Controller/LinksController.php:292
 #: Plugin/Settings/Controller/LanguagesController.php:124
-#: Plugin/Settings/Controller/SettingsController.php:192
+#: Plugin/Settings/Controller/SettingsController.php:193
 #: Plugin/Taxonomy/Controller/TermsController.php:333
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:130
 msgid "Could not move up"
 msgstr "不能上移"
 
 #: Plugin/Blocks/Controller/BlocksController.php:222
-#: Plugin/Menus/Controller/LinksController.php:320
+#: Plugin/Menus/Controller/LinksController.php:322
 #: Plugin/Settings/Controller/LanguagesController.php:140
-#: Plugin/Settings/Controller/SettingsController.php:216
+#: Plugin/Settings/Controller/SettingsController.php:217
 #: Plugin/Taxonomy/Controller/TermsController.php:373
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:146
 msgid "Moved down successfully"
 msgstr "成功下移"
 
 #: Plugin/Blocks/Controller/BlocksController.php:224
-#: Plugin/Menus/Controller/LinksController.php:322
+#: Plugin/Menus/Controller/LinksController.php:324
 #: Plugin/Settings/Controller/LanguagesController.php:142
-#: Plugin/Settings/Controller/SettingsController.php:218
+#: Plugin/Settings/Controller/SettingsController.php:219
 #: Plugin/Taxonomy/Controller/TermsController.php:375
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:148
 msgid "Could not move down"
@@ -606,8 +606,8 @@ msgstr "不能下移"
 #: Plugin/Blocks/Controller/BlocksController.php:246
 #: Plugin/Comments/Controller/CommentsController.php:159
 #: Plugin/Contacts/Controller/MessagesController.php:138
-#: Plugin/Menus/Controller/LinksController.php:348
-#: Plugin/Nodes/Controller/NodesController.php:308
+#: Plugin/Menus/Controller/LinksController.php:350
+#: Plugin/Nodes/Controller/NodesController.php:310
 msgid "No items selected."
 msgstr "没有选择项目"
 
@@ -627,9 +627,9 @@ msgstr "块未发布"
 #: Plugin/Comments/Controller/CommentsController.php:173
 #: Plugin/Contacts/Controller/MessagesController.php:152
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:156
-#: Plugin/Menus/Controller/LinksController.php:373
-#: Plugin/Nodes/Controller/NodesController.php:336
-#: Plugin/Users/Controller/UsersController.php:361;428;439
+#: Plugin/Menus/Controller/LinksController.php:375
+#: Plugin/Nodes/Controller/NodesController.php:338
+#: Plugin/Users/Controller/UsersController.php:418;487;498
 msgid "An error occurred."
 msgstr "发生错误"
 
@@ -803,7 +803,7 @@ msgstr "保存"
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:49
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:42
 #: Plugin/Settings/View/Languages/admin_index.ctp:19
-#: Plugin/Users/View/Users/admin_form.ctp:78
+#: Plugin/Users/View/Users/admin_form.ctp:86
 msgid "Status"
 msgstr "状态"
 
@@ -834,7 +834,7 @@ msgstr "未发布"
 #: Plugin/Comments/View/Comments/admin_index.ctp:122
 #: Plugin/Contacts/View/Messages/admin_index.ctp:133
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:51
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:99
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:116
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:59;100
 #: Plugin/Menus/View/Links/admin_index.ctp:107
@@ -924,24 +924,24 @@ msgstr "你的评论已经成功添加"
 msgid "Your comment will appear after moderation."
 msgstr "您的留言会稍后显示。"
 
-#: Plugin/Comments/Controller/CommentsController.php:293
+#: Plugin/Comments/Controller/CommentsController.php:294
 msgid "Sorry, the comment appears to be spam."
 msgstr "对不起，该评论是垃圾信息"
 
-#: Plugin/Comments/Controller/CommentsController.php:315
+#: Plugin/Comments/Controller/CommentsController.php:316
 #: Plugin/Contacts/Controller/ContactsController.php:239
 msgid "Invalid captcha entry"
 msgstr "不合法的验证码入口"
 
-#: Plugin/Comments/Controller/CommentsController.php:337
+#: Plugin/Comments/Controller/CommentsController.php:338
 msgid "New comment posted under"
 msgstr "新评论发布在下方"
 
-#: Plugin/Comments/Model/Comment.php:115
+#: Plugin/Comments/Model/Comment.php:121
 msgid "Invalid Node id"
 msgstr "无效的节点id"
 
-#: Plugin/Comments/Model/Comment.php:174
+#: Plugin/Comments/Model/Comment.php:180
 msgid "Invalid Comment id"
 msgstr "无效的评论id"
 
@@ -1029,7 +1029,7 @@ msgid "Comment on"
 msgstr "留言于"
 
 #: Plugin/Comments/View/Comments/rss/index.ctp:18
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:50;86
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:53;103
 #: Plugin/Nodes/View/Elements/node_info.ctp:9
 msgid "by"
 msgstr "于"
@@ -1530,7 +1530,7 @@ msgid "Errors in CakeErrorController: %s"
 msgstr "CakeErrorController有错误: %s"
 
 #: Plugin/Croogo/Controller/Component/CroogoComponent.php:200
-#: Plugin/Nodes/Controller/NodesController.php:199;681;719
+#: Plugin/Nodes/Controller/NodesController.php:199;705;743
 msgid "Invalid content"
 msgstr "无效的内容"
 
@@ -1600,7 +1600,7 @@ msgid "Croogo %s"
 msgstr "Croogo %s"
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:22
-#: Plugin/Settings/Controller/SettingsController.php:48
+#: Plugin/Settings/Controller/SettingsController.php:49
 #: Plugin/Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
 msgstr "仪表盘"
@@ -1961,7 +1961,7 @@ msgstr "默认"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:39
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:92
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:109
 msgid "Activate"
 msgstr "激活"
 
@@ -1992,15 +1992,15 @@ msgstr "移植"
 msgid "Current Theme"
 msgstr "当前主题"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:56;89
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:59;106
 msgid "Regions supported: "
 msgstr "支持领域："
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:62
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:65
 msgid "Available Themes"
 msgstr "可用主题"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:113
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:130
 msgid "No available theme"
 msgstr ""
 
@@ -2104,7 +2104,7 @@ msgstr "创建文件"
 msgid "File created successfully."
 msgstr "文件已成功创建"
 
-#: Plugin/FileManager/Model/Attachment.php:94
+#: Plugin/FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
 msgstr "上传文件出错"
 
@@ -2230,6 +2230,7 @@ msgstr "登陆"
 
 #: Plugin/Install/Console/Command/InstallShell.php:66;96
 #: Plugin/Install/View/Install/database.ctp:46
+#: Plugin/Users/View/Users/admin_form.ctp:93
 #: Plugin/Users/View/Users/admin_login.ctp:15
 msgid "Password"
 msgstr "密码"
@@ -2258,6 +2259,7 @@ msgstr "用户名"
 
 #: Plugin/Install/Console/Command/InstallShell.php:97
 #: Plugin/Install/View/Install/adminuser.ctp:25
+#: Plugin/Users/View/Users/admin_form.ctp:98
 #: Plugin/Users/View/Users/admin_reset_password.ctp:26
 #: Plugin/Users/View/Users/reset.ctp:7
 msgid "Verify Password"
@@ -2486,7 +2488,7 @@ msgstr "编辑链接"
 msgid "Invalid Link"
 msgstr "无效的链接"
 
-#: Plugin/Menus/Controller/LinksController.php:244;252;281;312
+#: Plugin/Menus/Controller/LinksController.php:244;252;281;313
 msgid "Invalid id for Link"
 msgstr "无效的链接id"
 
@@ -2494,15 +2496,15 @@ msgstr "无效的链接id"
 msgid "Link deleted"
 msgstr "链接已删除"
 
-#: Plugin/Menus/Controller/LinksController.php:365
+#: Plugin/Menus/Controller/LinksController.php:367
 msgid "Links deleted."
 msgstr "多条链接已删除"
 
-#: Plugin/Menus/Controller/LinksController.php:368
+#: Plugin/Menus/Controller/LinksController.php:370
 msgid "Links published"
 msgstr "链接已发布"
 
-#: Plugin/Menus/Controller/LinksController.php:371
+#: Plugin/Menus/Controller/LinksController.php:373
 msgid "Links unpublished"
 msgstr "链接未发布"
 
@@ -2647,51 +2649,51 @@ msgstr "无效的节点id"
 msgid "Node deleted"
 msgstr "节点已删除"
 
-#: Plugin/Nodes/Controller/NodesController.php:318
+#: Plugin/Nodes/Controller/NodesController.php:320
 msgid "Nodes deleted"
 msgstr "多个节点已删除"
 
-#: Plugin/Nodes/Controller/NodesController.php:321
+#: Plugin/Nodes/Controller/NodesController.php:323
 msgid "Nodes published"
 msgstr "节点已发布"
 
-#: Plugin/Nodes/Controller/NodesController.php:324
+#: Plugin/Nodes/Controller/NodesController.php:326
 msgid "Nodes unpublished"
 msgstr "节点未发布"
 
-#: Plugin/Nodes/Controller/NodesController.php:327
+#: Plugin/Nodes/Controller/NodesController.php:329
 msgid "Nodes promoted"
 msgstr "节点置顶"
 
-#: Plugin/Nodes/Controller/NodesController.php:330
+#: Plugin/Nodes/Controller/NodesController.php:332
 msgid "Nodes unpromoted"
 msgstr "取消节点置顶"
 
-#: Plugin/Nodes/Controller/NodesController.php:381;473;537;619
+#: Plugin/Nodes/Controller/NodesController.php:389;488;560;643
 msgid "Invalid content type."
 msgstr "无效的内容类型"
 
-#: Plugin/Nodes/Controller/NodesController.php:436
+#: Plugin/Nodes/Controller/NodesController.php:446
 msgid "Invalid Term."
 msgstr "无效的术语"
 
-#: Plugin/Nodes/Controller/NodesController.php:519
+#: Plugin/Nodes/Controller/NodesController.php:536
 msgid "Nodes"
 msgstr "节点"
 
-#: Plugin/Nodes/Controller/NodesController.php:629
+#: Plugin/Nodes/Controller/NodesController.php:653
 msgid "Search Results: %s"
 msgstr "搜索结果: %s"
 
-#: Plugin/Nodes/Model/Node.php:391
+#: Plugin/Nodes/Model/Node.php:392
 msgid "Invalid action to perform"
 msgstr "无效的动作"
 
-#: Plugin/Nodes/Model/Node.php:395
+#: Plugin/Nodes/Model/Node.php:396
 msgid "No target to process action upon"
 msgstr "正在执行的动作没有目标"
 
-#: Plugin/Nodes/Model/Node.php:426
+#: Plugin/Nodes/Model/Node.php:427
 msgid "Invalid Content Type"
 msgstr "无效的内容类型"
 
@@ -2808,7 +2810,7 @@ msgid "No items found."
 msgstr "没找到项目"
 
 #: Plugin/Settings/Config/bootstrap.php:12
-#: Plugin/Settings/Controller/SettingsController.php:58
+#: Plugin/Settings/Controller/SettingsController.php:59
 #: Plugin/Settings/View/Languages/admin_form.ctp:7
 #: Plugin/Settings/View/Languages/admin_index.ctp:6
 #: Plugin/Settings/View/Languages/admin_select.ctp:5
@@ -2906,7 +2908,7 @@ msgid "Delete?"
 msgstr "删除？"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:194
-#: Plugin/Settings/Controller/SettingsController.php:143
+#: Plugin/Settings/Controller/SettingsController.php:144
 msgid "Setting deleted"
 msgstr "设置已删除"
 
@@ -2943,44 +2945,44 @@ msgstr "语言已删除"
 msgid "Select a language"
 msgstr "选择一种语言"
 
-#: Plugin/Settings/Controller/SettingsController.php:77
+#: Plugin/Settings/Controller/SettingsController.php:78
 msgid "Invalid Setting."
 msgstr "无效的设置"
 
-#: Plugin/Settings/Controller/SettingsController.php:90
+#: Plugin/Settings/Controller/SettingsController.php:91
 msgid "Add Setting"
 msgstr "添加设置"
 
-#: Plugin/Settings/Controller/SettingsController.php:95;119
+#: Plugin/Settings/Controller/SettingsController.php:96;120
 msgid "The Setting has been saved"
 msgstr "设置已保存"
 
-#: Plugin/Settings/Controller/SettingsController.php:98;122
+#: Plugin/Settings/Controller/SettingsController.php:99;123
 msgid "The Setting could not be saved. Please, try again."
 msgstr "设置无法保存。请重试。"
 
-#: Plugin/Settings/Controller/SettingsController.php:111
+#: Plugin/Settings/Controller/SettingsController.php:112
 #: Plugin/Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr "编辑设置"
 
-#: Plugin/Settings/Controller/SettingsController.php:114
+#: Plugin/Settings/Controller/SettingsController.php:115
 msgid "Invalid Setting"
 msgstr "无效的设置"
 
-#: Plugin/Settings/Controller/SettingsController.php:139
+#: Plugin/Settings/Controller/SettingsController.php:140
 msgid "Invalid id for Setting"
 msgstr "无效的设置id"
 
-#: Plugin/Settings/Controller/SettingsController.php:156
+#: Plugin/Settings/Controller/SettingsController.php:157
 msgid "Settings: %s"
 msgstr "设置： %s "
 
-#: Plugin/Settings/Controller/SettingsController.php:160
+#: Plugin/Settings/Controller/SettingsController.php:161
 msgid "Settings updated successfully"
 msgstr "设置已成功更新"
 
-#: Plugin/Settings/Controller/SettingsController.php:174
+#: Plugin/Settings/Controller/SettingsController.php:175
 msgid "Invalid Setting key"
 msgstr "无效的设置key"
 
@@ -3331,102 +3333,107 @@ msgid ""
 "after a few minutes."
 msgstr "已达到登陆失败次数的上限。请稍后重试。"
 
-#: Plugin/Users/Controller/UsersController.php:137;160
-msgid "The User has been saved"
-msgstr "用户已保存"
-
-#: Plugin/Users/Controller/UsersController.php:140;163;330
-msgid "The User could not be saved. Please, try again."
-msgstr "用户无法保存。请重试。"
-
-#: Plugin/Users/Controller/UsersController.php:182
-msgid "Invalid User"
-msgstr "无效的用户"
-
-#: Plugin/Users/Controller/UsersController.php:187
-msgid "Password has been reset."
-msgstr "密码已重设"
-
-#: Plugin/Users/Controller/UsersController.php:190
-msgid "Password could not be reset. Please, try again."
-msgstr "密码无法重设。请重试。"
-
-#: Plugin/Users/Controller/UsersController.php:205
-msgid "Invalid id for User"
-msgstr "无效的用户id"
-
-#: Plugin/Users/Controller/UsersController.php:209
-msgid "User deleted"
-msgstr "用户已删除"
-
-#: Plugin/Users/Controller/UsersController.php:212
-msgid "User cannot be deleted"
-msgstr "用户无法删除"
-
-#: Plugin/Users/Controller/UsersController.php:224
-msgid "Admin Login"
-msgstr "管理员登陆"
-
-#: Plugin/Users/Controller/UsersController.php:233
-msgid "Incorrect username or password"
-msgstr "用户名或密码错误"
-
-#: Plugin/Users/Controller/UsersController.php:248;489
-msgid "Log out successful."
-msgstr "成功推出"
-
-#: Plugin/Users/Controller/UsersController.php:303
-msgid "Register"
-msgstr "注册"
-
-#: Plugin/Users/Controller/UsersController.php:319
+#: Plugin/Users/Controller/UsersController.php:146;353
 msgid "[%s] Please activate your account"
 msgstr "[%s] 请激活您的账户"
 
-#: Plugin/Users/Controller/UsersController.php:326
+#: Plugin/Users/Controller/UsersController.php:171;194
+msgid "The User has been saved"
+msgstr "用户已保存"
+
+#: Plugin/Users/Controller/UsersController.php:174;197;364
+msgid "The User could not be saved. Please, try again."
+msgstr "用户无法保存。请重试。"
+
+#: Plugin/Users/Controller/UsersController.php:216
+msgid "Invalid User"
+msgstr "无效的用户"
+
+#: Plugin/Users/Controller/UsersController.php:221
+msgid "Password has been reset."
+msgstr "密码已重设"
+
+#: Plugin/Users/Controller/UsersController.php:224
+msgid "Password could not be reset. Please, try again."
+msgstr "密码无法重设。请重试。"
+
+#: Plugin/Users/Controller/UsersController.php:239
+msgid "Invalid id for User"
+msgstr "无效的用户id"
+
+#: Plugin/Users/Controller/UsersController.php:243
+msgid "User deleted"
+msgstr "用户已删除"
+
+#: Plugin/Users/Controller/UsersController.php:246
+msgid "User cannot be deleted"
+msgstr "用户无法删除"
+
+#: Plugin/Users/Controller/UsersController.php:258
+msgid "Admin Login"
+msgstr "管理员登陆"
+
+#: Plugin/Users/Controller/UsersController.php:267
+msgid "Incorrect username or password"
+msgstr "用户名或密码错误"
+
+#: Plugin/Users/Controller/UsersController.php:282;548
+msgid "Log out successful."
+msgstr "成功推出"
+
+#: Plugin/Users/Controller/UsersController.php:337
+msgid "Register"
+msgstr "注册"
+
+#: Plugin/Users/Controller/UsersController.php:360
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
 msgstr "您已成功注册一个账户。一封包含更多指令的邮件已发送。"
 
-#: Plugin/Users/Controller/UsersController.php:358
+#: Plugin/Users/Controller/UsersController.php:384
+#: Plugin/Users/View/Users/index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "欢迎您："
+
+#: Plugin/Users/Controller/UsersController.php:415
 msgid "Account activated successfully."
 msgstr "账户激活成功"
 
-#: Plugin/Users/Controller/UsersController.php:383
+#: Plugin/Users/Controller/UsersController.php:442
 msgid "Forgot Password"
 msgstr "忘记密码"
 
-#: Plugin/Users/Controller/UsersController.php:388
+#: Plugin/Users/Controller/UsersController.php:447
 msgid "Invalid username."
 msgstr "无效的用户名"
 
-#: Plugin/Users/Controller/UsersController.php:400
+#: Plugin/Users/Controller/UsersController.php:459
 msgid "[%s] Reset Password"
 msgstr "[%s] 重置密码"
 
-#: Plugin/Users/Controller/UsersController.php:408
+#: Plugin/Users/Controller/UsersController.php:467
 msgid "An email has been sent with instructions for resetting your password."
 msgstr "一封重置密码说明的邮件已发送"
 
-#: Plugin/Users/Controller/UsersController.php:411;453
+#: Plugin/Users/Controller/UsersController.php:470;512
 msgid "An error occurred. Please try again."
 msgstr "发生一个错误。请重试。"
 
-#: Plugin/Users/Controller/UsersController.php:425
+#: Plugin/Users/Controller/UsersController.php:484
 #: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
 msgid "Reset Password"
 msgstr "重置密码"
 
-#: Plugin/Users/Controller/UsersController.php:450
+#: Plugin/Users/Controller/UsersController.php:509
 msgid "Your password has been reset successfully."
 msgstr "您的密码已成功重置"
 
-#: Plugin/Users/Controller/UsersController.php:467
+#: Plugin/Users/Controller/UsersController.php:526
 msgid "Log in"
 msgstr "登陆"
 
-#: Plugin/Users/Controller/UsersController.php:507
+#: Plugin/Users/Controller/UsersController.php:566
 msgid "Invalid User."
 msgstr "无效的用户"
 
@@ -3447,7 +3454,7 @@ msgstr "请访问该链接重置您的密码: %s"
 msgid "If you did not request a password reset, then please ignore this email."
 msgstr "如果您未申请重置密码，请忽略该邮件。"
 
-#: Plugin/Users/View/Emails/text/register.ctp:10
+#: Plugin/Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
 msgstr "请访问该链接以激活您的账户: %s"
 
@@ -3460,6 +3467,10 @@ msgstr "角色"
 #: Plugin/Users/View/Users/admin_reset_password.ctp:1
 msgid "Reset password"
 msgstr "重置密码"
+
+#: Plugin/Users/View/Users/admin_form.ctp:79
+msgid "Send Activation Email"
+msgstr ""
 
 #: Plugin/Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
@@ -3476,10 +3487,6 @@ msgstr "忘记密码？"
 #: Plugin/Users/View/Users/admin_reset_password.ctp:36
 msgid "Reset"
 msgstr "重置"
-
-#: Plugin/Users/View/Users/index.ctp:4
-msgid "You are currently logged in as:"
-msgstr "欢迎您："
 
 #: Plugin/Users/View/Users/reset.ctp:6
 msgid "New password"
