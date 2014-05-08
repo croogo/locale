@@ -1,0 +1,3615 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.5.7\n"
+"POT-Creation-Date: 2012-07-08 17:30+0700\n"
+"PO-Revision-Date: 2014-05-08 15:40+0200\n"
+"Last-Translator: Panagiotis Kritikakos <panoskrt@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: GREEK\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Plugin/Acl/Config/bootstrap.php:19
+#: Plugin/Acl/Controller/AclPermissionsController.php:58
+#: Plugin/Acl/Controller/Component/RowLevelAclComponent.php:67
+#: Plugin/Acl/View/AclActions/admin_form.ctp:7
+#: Plugin/Acl/View/AclActions/admin_index.ctp:11
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:10
+msgid "Permissions"
+msgstr "Δικαιώματα"
+
+#: Plugin/Acl/Config/bootstrap.php:30
+msgid "Access Control"
+msgstr "Δικαιώματα Πρόσβασης"
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:94
+msgid "Plugin to process"
+msgstr "Μονάδα προς επεξεργασία"
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:97
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr "Καλύτερη διαχείριση και εύκολος συγχρονισμός του ACO της εφαρμογής"
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:102
+msgid ""
+"Add new ACOs for new controllers and actions. Does not remove nodes from the "
+"ACO table."
+msgstr ""
+"Προσθήκη νέων ACOs για νέα controllers και actions. Δεν αφαιρεί τα nodes από "
+"τον πίνακα ACO."
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:108
+msgid ""
+"Perform a full sync on the ACO table.Will create new ACOs or missing "
+"controllers and actions.Will also remove orphaned entries that no longer "
+"have a matching controller/action"
+msgstr ""
+"Πραγματοποιεί έναν συνολικό συγχρονισμό στον πίνακα ACO. Θα δημιουργήσει νέα "
+"ACOs ή controllers και actions που λείπουν. Θα αφαιρέσει ορφανές εγγραφές οι "
+"οποίες δεν ανταποκρίνονται σε κάποιο controller/action."
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:113
+msgid ""
+"Perform a full content sync on the ACO table.Will create new ACOs or missing "
+"contents.Will also remove orphaned entries that no longer have a matching "
+"contents"
+msgstr ""
+"Θα πραγματοποιήσει έναν συνολικό συγχρονισμό στον πίνακα ACO. Θα "
+"δημιουργήσει νέα ACO ή περιεχόμενου που λείπει. Θα αφαιρέσει ορφανές "
+"εγγραφές οι οποίες δεν αντιστοιχούν σε κάποιο περιεχόμενο."
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:120
+msgid "The content model name "
+msgstr "Το όνομα του content model"
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:126
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr "Επιβεβαιώστε τη δομή tree είτε του Aco είτε του Aro"
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:131
+msgid "The type of tree to verify"
+msgstr "Τύπος του tree προς επιβεβαίωση"
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:138
+msgid "Recover a corrupted Tree"
+msgstr "Ανάκτηση ενός εσφαλμένου Tree"
+
+#: Plugin/Acl/Console/Command/ExtrasShell.php:143
+msgid "The type of tree to recover"
+msgstr "Τύπος tree προς ανάκτηση"
+
+#: Plugin/Acl/Controller/AclActionsController.php:47
+#: Plugin/Acl/View/AclActions/admin_form.ctp:8
+#: Plugin/Acl/View/AclActions/admin_index.ctp:14;72
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:26
+#: Plugin/Comments/View/Comments/admin_index.ctp:54
+#: Plugin/Contacts/View/Messages/admin_index.ctp:70
+#: Plugin/Croogo/View/Common/admin_index.ctp:59
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:50
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:25
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:28
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:26
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:18
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:45
+#: Plugin/Menus/View/Links/admin_index.ctp:44
+#: Plugin/Menus/View/Menus/admin_index.ctp:19
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:27
+#: Plugin/Settings/View/Languages/admin_index.ctp:20
+#: Plugin/Settings/View/Settings/admin_index.ctp:24
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:35
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:17
+#: Plugin/Translate/View/Translate/admin_index.ctp:37
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: Plugin/Acl/Controller/AclActionsController.php:64
+msgid "Add Action"
+msgstr "Προσθήκη ενέργειας"
+
+#: Plugin/Acl/Controller/AclActionsController.php:78
+msgid "The %s has been saved"
+msgstr "Το %s αποθηκεύτηκε"
+
+#: Plugin/Acl/Controller/AclActionsController.php:81
+msgid "The %s could not be saved. Please, try again."
+msgstr "Το %s δεν μπόρεσε να αποθυκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Acl/Controller/AclActionsController.php:95
+msgid "Edit Action"
+msgstr "Επεξεργασία ενέργειας"
+
+#: Plugin/Acl/Controller/AclActionsController.php:98
+msgid "Invalid Action"
+msgstr "Άκυρη ενέργεια"
+
+#: Plugin/Acl/Controller/AclActionsController.php:103
+msgid "The Action has been saved"
+msgstr "Η Ενέργεια αποθηκεύτηκε."
+
+#: Plugin/Acl/Controller/AclActionsController.php:106
+msgid "The Action could not be saved. Please, try again."
+msgstr "Η ενέργεια δεν μπόρεσε να αποθυκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Acl/Controller/AclActionsController.php:124;142
+msgid "Invalid id for Action"
+msgstr "Λανθασμένο id για την ενέργεια"
+
+#: Plugin/Acl/Controller/AclActionsController.php:128
+msgid "Action deleted"
+msgstr "Η ενέργεια διαγράφηκε."
+
+#: Plugin/Acl/Controller/AclActionsController.php:147
+msgid "Action moved up"
+msgstr "Η ενέργεια μετακινήθηκε επάνω."
+
+#: Plugin/Acl/Controller/AclActionsController.php:152
+msgid "Action moved down"
+msgstr "Η ενέργεια μετακινήθηκε κάτω."
+
+#: Plugin/Acl/Controller/AclActionsController.php:174
+msgid "Created %d new permissions"
+msgstr "Δημιουργήθηκαν τα νέα %d δικαιώματα"
+
+#: Plugin/Acl/Controller/AclPermissionsController.php:140
+msgid "ACL database has been upgraded successfully"
+msgstr "Η βάση δεδομένων ACL αναβαθμίστηκε επιτυχώς."
+
+#: Plugin/Acl/Controller/Component/AclAccessComponent.php:52
+msgid "Parent Role"
+msgstr "Ρόλος Γονέα"
+
+#: Plugin/Acl/Controller/Component/AclFilterComponent.php:82
+msgid ""
+"\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
+msgstr ""
+"\"AutoLogin\" (Remember Me) απενεργοποιημένι λόγω του ότι το mcrypt_encrypt "
+"δεν είναι διαθέσιμο."
+
+#: Plugin/Acl/Controller/Component/Auth/AclCachedAuthorize.php:183
+msgid ""
+"_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
+"\"%2$s\""
+msgstr ""
+"_authorizeByContent() - Πρόσβαση σε λάθος ενέργεια \"%1$s\" στο controller "
+"\"%2$s\""
+
+#: Plugin/Acl/Lib/AclExtras.php:149
+msgid "Model %s cannot be found."
+msgstr "Το μοντέλο %s δεν μπορεί να βρεθεί."
+
+#: Plugin/Acl/Lib/AclExtras.php:172
+msgid "Created Aco node: %s"
+msgstr "Δημιουργία Aco node: %s"
+
+#: Plugin/Acl/Lib/AclExtras.php:192
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr "<error>To %s δεν βρέθηκε ή δεν ενεργοποιήθηκε.</error>"
+
+#: Plugin/Acl/Lib/AclExtras.php:207
+msgid "<success>Aco Sync Complete</success>"
+msgstr "<success>Ο συγχρονισμός Aco ολοκληρώθηκε</success>"
+
+#: Plugin/Acl/Lib/AclExtras.php:209
+msgid "<success>Aco Update Complete</success>"
+msgstr "<success>Η αναβάθμιση Aco ολοκληρώθηκε</success>"
+
+#: Plugin/Acl/Lib/AclExtras.php:240
+msgid "Skipped Aco node: <warning>%s</warning>"
+msgstr "Παράβλεψη Aco node: <warning>%s</warning>"
+
+#: Plugin/Acl/Lib/AclExtras.php:260
+msgid "Deleted %s and all children"
+msgstr "Διαγραφή %s και όλων των συσχετισμών του"
+
+#: Plugin/Acl/Lib/AclExtras.php:304
+msgid "Created Aco node: <success>%s</success>"
+msgstr "Δημιουργία Aco node: <success>%s</success>"
+
+#: Plugin/Acl/Lib/AclExtras.php:376
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr "Διαγραφή Aco node: <warning>%s</warning>"
+
+#: Plugin/Acl/Lib/AclExtras.php:395
+msgid "<success>Tree is valid and strong</success>"
+msgstr "<success>Το Tree είναι έγκυρο και δυνατό</success>"
+
+#: Plugin/Acl/Lib/AclExtras.php:413
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr "To Tree ανακτήθηκε ή δεν χρειάστηκε ανάκτηση."
+
+#: Plugin/Acl/Lib/AclExtras.php:415
+msgid "<error>Tree recovery failed.</error>"
+msgstr "<error>Αποτυχής ανάκτηση του δέντρου</error>"
+
+#: Plugin/Acl/Lib/AclUpgrade.php:67
+msgid "No root node found"
+msgstr "Δεν βρέθηκε root node."
+
+#: Plugin/Acl/Lib/AclUpgrade.php:75
+msgid "<warning>ACL Database seems to have already been upgraded</warning>"
+msgstr "<warning>Η βάση δεδομένων ACL έχει ήδη αναβαθμιστεί.</warning>"
+
+#: Plugin/Acl/Lib/AclUpgrade.php:115
+msgid "%s not found"
+msgstr "%s δεν βρέθηκε."
+
+#: Plugin/Acl/Lib/AclUpgrade.php:139
+msgid "Role: Public not found"
+msgstr "Ρόλος: Public δεν βρέθηκε"
+
+#: Plugin/Acl/Lib/AclUpgrade.php:145
+msgid "Role: Registered not found"
+msgstr "Ρόλος: Registered δεν βρέθηκε"
+
+#: Plugin/Acl/Lib/AclUpgrade.php:151
+msgid "Role: Admin not found"
+msgstr "Ρόλος: Admin δεν βρέθηκε"
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:6
+#: Plugin/Acl/View/AclActions/admin_index.ctp:10
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
+#: Plugin/Users/Config/bootstrap.php:22;32
+#: Plugin/Users/Controller/UsersController.php:108;293
+#: Plugin/Users/View/Roles/admin_form.ctp:5
+#: Plugin/Users/View/Roles/admin_index.ctp:6
+#: Plugin/Users/View/Users/admin_form.ctp:7
+#: Plugin/Users/View/Users/admin_index.ctp:6
+#: Plugin/Users/View/Users/admin_reset_password.ctp:5
+msgid "Users"
+msgstr "Χρήστες"
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:15
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:13
+#: Plugin/Blocks/View/Regions/admin_form.ctp:20
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:14
+#: Plugin/Croogo/View/Common/admin_edit.ctp:8
+#: Plugin/Menus/View/Links/admin_form.ctp:16
+#: Plugin/Menus/View/Menus/admin_form.ctp:14
+#: Plugin/Settings/View/Languages/admin_form.ctp:15
+#: Plugin/Settings/View/Settings/admin_form.ctp:18
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:21
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:14
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:18
+#: Plugin/Users/View/Roles/admin_form.ctp:13
+#: Plugin/Users/View/Users/admin_form.ctp:17
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:27
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:39
+#: Plugin/Menus/View/Links/admin_form.ctp:56
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:45
+msgid "Parent"
+msgstr "Γονέας"
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:40
+msgid "Choose none if the Aco is a controller."
+msgstr "Επιλέξτε none εάν το Aco είναι controller."
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:47
+#: Plugin/Acl/View/AclActions/admin_index.ctp:71
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:72
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:46
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:23
+#: Plugin/Blocks/View/Regions/admin_form.ctp:48
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:42
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:24
+#: Plugin/Menus/View/Menus/admin_form.ctp:43
+#: Plugin/Menus/View/Menus/admin_index.ctp:17
+#: Plugin/Settings/View/Languages/admin_form.ctp:44
+#: Plugin/Settings/View/Languages/admin_index.ctp:18
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:45
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:49
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:16
+#: Plugin/Users/View/Roles/admin_form.ctp:40
+msgid "Alias"
+msgstr "Alias"
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:58
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:96
+#: Plugin/Blocks/View/Regions/admin_form.ctp:59
+#: Plugin/Comments/View/Comments/admin_form.ctp:47
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:124
+#: Plugin/Contacts/View/Messages/admin_form.ctp:61
+#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:45
+#: Plugin/FileManager/View/Attachments/admin_add.ctp:44
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:74
+#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:52
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:53
+#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:52
+#: Plugin/FileManager/View/FileManager/admin_upload.ctp:48
+#: Plugin/Menus/View/Links/admin_form.ctp:123
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:73
+#: Plugin/Settings/View/Languages/admin_form.ctp:55
+#: Plugin/Settings/View/Settings/admin_form.ctp:79
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:70
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:110
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:83
+#: Plugin/Translate/View/Translate/admin_edit.ctp:45
+#: Plugin/Users/View/Roles/admin_form.ctp:50
+#: Plugin/Users/View/Users/admin_form.ctp:71
+#: Plugin/Users/View/Users/admin_reset_password.ctp:35
+msgid "Publishing"
+msgstr "Δημοσίευση"
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:59
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:106
+#: Plugin/Comments/View/Comments/admin_index.ctp:128
+#: Plugin/Contacts/View/Messages/admin_index.ctp:139
+#: Plugin/Menus/View/Links/admin_index.ctp:113
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:131
+msgid "Submit"
+msgstr "Προσθήκη"
+
+#: Plugin/Acl/View/AclActions/admin_form.ctp:60
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:99
+#: Plugin/Blocks/View/Regions/admin_form.ctp:62
+#: Plugin/Comments/View/Comments/admin_form.ctp:50
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:128
+#: Plugin/Contacts/View/Messages/admin_form.ctp:64
+#: Plugin/Croogo/View/Common/admin_edit.ctp:84
+#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:48
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:52
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:45
+#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:50
+#: Plugin/FileManager/View/Attachments/admin_add.ctp:47
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:77
+#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:54
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:55
+#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:54
+#: Plugin/FileManager/View/FileManager/admin_upload.ctp:50
+#: Plugin/Install/View/Install/adminuser.ctp:35
+#: Plugin/Menus/View/Links/admin_form.ctp:126
+#: Plugin/Menus/View/Menus/admin_form.ctp:68
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:76
+#: Plugin/Settings/View/Languages/admin_form.ctp:58
+#: Plugin/Settings/View/Settings/admin_form.ctp:81
+#: Plugin/Settings/View/Settings/admin_prefix.ctp:65
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:73
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:113
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:86
+#: Plugin/Translate/View/Translate/admin_edit.ctp:48
+#: Plugin/Users/View/Roles/admin_form.ctp:53
+#: Plugin/Users/View/Users/admin_form.ctp:74
+#: Plugin/Users/View/Users/admin_reset_password.ctp:38
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:21
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:19
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:35
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:33
+msgid "Generate"
+msgstr "Δημιουργία"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:41
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:39
+msgid "Create new actions (no removal)"
+msgstr "Δημιουργία νέων ενεργειών"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:46
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:44
+msgid "Synchronize"
+msgstr "Συγχρονισμός"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:52
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:50
+msgid "Create new & remove orphaned actions"
+msgstr "Δημιουργία νέων ενεργειών και διαγραφή ορφανών ενεργειών"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:61
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:59
+msgid "Edit Actions"
+msgstr "Επεξεργασία Ενεργειών"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:70
+#: Plugin/Acl/View/AclPermissions/admin_index.ctp:71
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:21
+#: Plugin/Comments/View/Comments/admin_index.ctp:48
+#: Plugin/Contacts/View/Messages/admin_index.ctp:65
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:21
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:14
+#: Plugin/Menus/View/Links/admin_index.ctp:41
+#: Plugin/Menus/View/Menus/admin_index.ctp:15
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:5
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:38
+#: Plugin/Settings/View/Languages/admin_index.ctp:15
+#: Plugin/Settings/View/Settings/admin_index.ctp:20
+#: Plugin/Settings/View/Settings/admin_view.ctp:4
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:32
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:14
+msgid "Id"
+msgstr "Id"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:106
+#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:7
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:38
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:59
+#: Plugin/Menus/View/Links/admin_index.ctp:58
+#: Plugin/Settings/View/Languages/admin_index.ctp:34
+#: Plugin/Settings/View/Settings/admin_index.ctp:36
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:48
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:34
+msgid "Move up"
+msgstr "Μετακίνηση επάνω"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:110
+#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:11
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:42
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:65
+#: Plugin/Menus/View/Links/admin_index.ctp:64
+#: Plugin/Settings/View/Languages/admin_index.ctp:38
+#: Plugin/Settings/View/Settings/admin_index.ctp:40
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:52
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:38
+msgid "Move down"
+msgstr "Μετακίνηση κάτω"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:115
+#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:15
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:48
+#: Plugin/Comments/View/Comments/admin_index.ctp:68
+#: Plugin/Contacts/View/Messages/admin_index.ctp:85
+#: Plugin/Croogo/View/Common/admin_index.ctp:77
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:43
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:33
+#: Plugin/Menus/View/Links/admin_index.ctp:70
+#: Plugin/Menus/View/Menus/admin_index.ctp:39
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:91
+#: Plugin/Settings/View/Languages/admin_index.ctp:42
+#: Plugin/Settings/View/Settings/admin_index.ctp:44
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:56
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:43
+#: Plugin/Translate/View/Translate/admin_index.ctp:54
+msgid "Edit this item"
+msgstr "Επεξεργασία αντικειμένου"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:121
+#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:19
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:52
+#: Plugin/Comments/View/Comments/admin_index.ctp:75
+#: Plugin/Contacts/View/Messages/admin_index.ctp:92
+#: Plugin/Croogo/View/Common/admin_index.ctp:87
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:47
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:37
+#: Plugin/Menus/View/Menus/admin_index.ctp:44
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:98
+#: Plugin/Settings/View/Languages/admin_index.ctp:46
+#: Plugin/Settings/View/Settings/admin_index.ctp:49
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:60
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:47
+#: Plugin/Translate/View/Translate/admin_index.ctp:63
+msgid "Remove this item"
+msgstr "Διαγραφή αντικειμένου"
+
+#: Plugin/Acl/View/AclActions/admin_index.ctp:125
+#: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:20
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:53
+#: Plugin/Comments/View/Comments/admin_index.ctp:78
+#: Plugin/Contacts/View/Messages/admin_index.ctp:95
+#: Plugin/Croogo/View/Common/admin_index.ctp:89
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:48
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:122
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:38
+#: Plugin/FileManager/View/Helper/FileManagerHelper.php:137
+#: Plugin/Menus/View/Links/admin_index.ctp:79
+#: Plugin/Menus/View/Menus/admin_index.ctp:45
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:101
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
+#: Plugin/Settings/View/Languages/admin_index.ctp:47
+#: Plugin/Settings/View/Settings/admin_index.ctp:50
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:61
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:48
+#: Plugin/Translate/View/Translate/admin_index.ctp:64
+msgid "Are you sure?"
+msgstr "Είστε σίγουρος;"
+
+#: Plugin/Acl/View/AclPermissions/admin_toggle.ctp:18
+msgid "error"
+msgstr "Σφάλμα"
+
+#: Plugin/Acl/View/Elements/admin/parent_role.ctp:4
+msgid "When set, permissions from parent role are inherited"
+msgstr "Όταν είναι ορισμένο, τα δικαιώματα του γονικό ρόλου κληρονομούνται"
+
+#: Plugin/Acl/View/Elements/admin/row_acl.ctp:4
+msgid "Edit Permissions"
+msgstr "Επεξεργασία Δικαιωμάτων"
+
+#: Plugin/Acl/View/Helper/AclHelper.php:34
+msgid "Upgrade Acl database"
+msgstr "Αναβάθμιση Acl βάσης δεδομένων"
+
+#: Plugin/Blocks/Config/bootstrap.php:18;28
+#: Plugin/Blocks/Controller/BlocksController.php:98
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:7
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:7
+#: Plugin/Blocks/View/Regions/admin_form.ctp:7
+#: Plugin/Blocks/View/Regions/admin_index.ctp:5
+msgid "Blocks"
+msgstr "Blocks"
+
+#: Plugin/Blocks/Config/bootstrap.php:37
+#: Plugin/Blocks/View/Regions/admin_form.ctp:9
+#: Plugin/Blocks/View/Regions/admin_index.ctp:6
+msgid "Regions"
+msgstr "Regions"
+
+#: Plugin/Blocks/Controller/BlocksController.php:121
+msgid "Add Block"
+msgstr "Προσθήκη Block"
+
+#: Plugin/Blocks/Controller/BlocksController.php:128;157
+msgid "The Block has been saved"
+msgstr "To Block αποθηκεύτηκε"
+
+#: Plugin/Blocks/Controller/BlocksController.php:131;160
+msgid "The Block could not be saved. Please, try again."
+msgstr "Το Block δεν μπόρεσε να αποθηκευτεί. Παρακαλω, δοκιμάστε ξανά."
+
+#: Plugin/Blocks/Controller/BlocksController.php:147
+msgid "Edit Block"
+msgstr "Επεξεργασία Block."
+
+#: Plugin/Blocks/Controller/BlocksController.php:150
+msgid "Invalid Block"
+msgstr "Άκυρο Block."
+
+#: Plugin/Blocks/Controller/BlocksController.php:185
+msgid "Invalid id for Block"
+msgstr "Λάθος id για το Block"
+
+#: Plugin/Blocks/Controller/BlocksController.php:189
+msgid "Block deleted"
+msgstr "To Block διαγράφηκε"
+
+#: Plugin/Blocks/Controller/BlocksController.php:204
+#: Plugin/Menus/Controller/LinksController.php:290
+#: Plugin/Settings/Controller/LanguagesController.php:122
+#: Plugin/Settings/Controller/SettingsController.php:191
+#: Plugin/Taxonomy/Controller/TermsController.php:331
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:128
+msgid "Moved up successfully"
+msgstr "Επιτυχής μετακίνηση επάνω"
+
+#: Plugin/Blocks/Controller/BlocksController.php:206
+#: Plugin/Menus/Controller/LinksController.php:292
+#: Plugin/Settings/Controller/LanguagesController.php:124
+#: Plugin/Settings/Controller/SettingsController.php:193
+#: Plugin/Taxonomy/Controller/TermsController.php:333
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:130
+msgid "Could not move up"
+msgstr "Δεν μπόρεσε να μετακινηθεί επάνω"
+
+#: Plugin/Blocks/Controller/BlocksController.php:222
+#: Plugin/Menus/Controller/LinksController.php:322
+#: Plugin/Settings/Controller/LanguagesController.php:140
+#: Plugin/Settings/Controller/SettingsController.php:217
+#: Plugin/Taxonomy/Controller/TermsController.php:373
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:146
+msgid "Moved down successfully"
+msgstr "Επιτυχής μετακίνηση κάτω"
+
+#: Plugin/Blocks/Controller/BlocksController.php:224
+#: Plugin/Menus/Controller/LinksController.php:324
+#: Plugin/Settings/Controller/LanguagesController.php:142
+#: Plugin/Settings/Controller/SettingsController.php:219
+#: Plugin/Taxonomy/Controller/TermsController.php:375
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:148
+msgid "Could not move down"
+msgstr "Δεν μπόρεσε να μετακινηθεί κάτω"
+
+#: Plugin/Blocks/Controller/BlocksController.php:246
+#: Plugin/Comments/Controller/CommentsController.php:159
+#: Plugin/Contacts/Controller/MessagesController.php:138
+#: Plugin/Menus/Controller/LinksController.php:350
+#: Plugin/Nodes/Controller/NodesController.php:310
+msgid "No items selected."
+msgstr "Δεν επιλέχτηκε κανένα αντικείμενο"
+
+#: Plugin/Blocks/Controller/BlocksController.php:252
+msgid "Blocks deleted"
+msgstr "Τα blocks διαγράφηκαν"
+
+#: Plugin/Blocks/Controller/BlocksController.php:255
+msgid "Blocks published"
+msgstr "Τα blocks δημοσιεύθηκαν"
+
+#: Plugin/Blocks/Controller/BlocksController.php:258
+msgid "Blocks unpublished"
+msgstr "Τα blocks δεν είναι πλεον δημοσιευμένα"
+
+#: Plugin/Blocks/Controller/BlocksController.php:260
+#: Plugin/Comments/Controller/CommentsController.php:173
+#: Plugin/Contacts/Controller/MessagesController.php:152
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:156
+#: Plugin/Menus/Controller/LinksController.php:375
+#: Plugin/Nodes/Controller/NodesController.php:338
+#: Plugin/Users/Controller/UsersController.php:418;487;498
+msgid "An error occurred."
+msgstr "Προέκυψε ένα σφάλμα"
+
+#: Plugin/Blocks/Controller/RegionsController.php:66
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:50
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:24
+#: Plugin/Blocks/View/Regions/admin_form.ctp:31
+msgid "Region"
+msgstr "Περιοχή"
+
+#: Plugin/Blocks/Controller/RegionsController.php:85
+msgid "Add Region"
+msgstr "Προσθήκη Περιοχής"
+
+#: Plugin/Blocks/Controller/RegionsController.php:90;114
+msgid "The Region has been saved"
+msgstr "Η Περιοχή αποθηκεύτηκε"
+
+#: Plugin/Blocks/Controller/RegionsController.php:93;117
+msgid "The Region could not be saved. Please, try again."
+msgstr "Η Περιοχή δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Blocks/Controller/RegionsController.php:106
+msgid "Edit Region"
+msgstr "Επεξεργασία περιοχής."
+
+#: Plugin/Blocks/Controller/RegionsController.php:109
+msgid "Invalid Region"
+msgstr "Λάθος περιοχή"
+
+#: Plugin/Blocks/Controller/RegionsController.php:134
+msgid "Invalid id for Region"
+msgstr "Λάθος id για τη περιοχή"
+
+#: Plugin/Blocks/Controller/RegionsController.php:138
+msgid "Region deleted"
+msgstr "Η περιοχή διαγράφηκε"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:24
+msgid "Block"
+msgstr "Block"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:25
+#: Plugin/Menus/View/Links/admin_form.ctp:42
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:31
+msgid "Access"
+msgstr "Πρόσβαση"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:26
+msgid "Visibilities"
+msgstr "Ορατότητα"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:27;85
+#: Plugin/Menus/View/Links/admin_form.ctp:111
+#: Plugin/Menus/View/Menus/admin_form.ctp:54
+#: Plugin/Settings/View/Settings/admin_form.ctp:68
+#: Plugin/Settings/View/Settings/admin_view.ctp:34
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:28;99
+msgid "Params"
+msgstr "Παράμετροι"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:42
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:22
+#: Plugin/Blocks/View/Regions/admin_form.ctp:45
+#: Plugin/Comments/View/Comments/admin_form.ctp:33
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:39
+#: Plugin/Contacts/View/Messages/admin_form.ctp:41
+#: Plugin/Contacts/View/Messages/admin_index.ctp:69
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:23
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:43
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:16
+#: Plugin/Menus/View/Links/admin_form.ctp:64
+#: Plugin/Menus/View/Links/admin_index.ctp:42
+#: Plugin/Menus/View/Menus/admin_form.ctp:40
+#: Plugin/Menus/View/Menus/admin_index.ctp:16
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:6
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:46
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:39
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:25
+#: Plugin/Settings/View/Languages/admin_form.ctp:38
+#: Plugin/Settings/View/Languages/admin_index.ctp:16
+#: Plugin/Settings/View/Settings/admin_form.ctp:54
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:52
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:33
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:42
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:45
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:15
+#: Plugin/Translate/View/Translate/admin_index.ctp:35
+#: Plugin/Users/View/Roles/admin_form.ctp:37
+msgid "Title"
+msgstr "Τίτλος"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:47
+msgid "unique name for your block"
+msgstr "μοναδικό όνομα για το block"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:51
+msgid "if you are not sure, choose 'none'"
+msgstr "εάν δεν είστε σίγουρος, επιλέξτε 'none'"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:54
+#: Plugin/Comments/View/Comments/admin_form.ctp:36
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:48
+#: Plugin/Contacts/View/Messages/admin_form.ctp:44
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:56
+msgid "Body"
+msgstr "Κυρίως μέρος"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:57
+#: Plugin/Menus/View/Links/admin_form.ctp:98
+msgid "Class"
+msgstr "Κλάση"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:60
+msgid "Element"
+msgstr "Στοιχείο"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:76
+msgid "Visibility Paths"
+msgstr "Μονοπάτι ορατότητας"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:77
+msgid ""
+"Enter one URL per line. Leave blank if you want this Block to appear in all "
+"pages."
+msgstr ""
+"Ένα URL ανά γραμμή. Αφήστε το κενό εάν θέλετε το Block αυτό να εμφανίζεται "
+"σε όλες τις σελίδες."
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:97
+#: Plugin/Blocks/View/Regions/admin_form.ctp:60
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:125
+#: Plugin/Menus/View/Links/admin_form.ctp:124
+#: Plugin/Menus/View/Menus/admin_form.ctp:66
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:74
+#: Plugin/Translate/View/Translate/admin_edit.ctp:46
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:98
+#: Plugin/Blocks/View/Regions/admin_form.ctp:61
+#: Plugin/Comments/View/Comments/admin_form.ctp:48
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:126
+#: Plugin/Contacts/View/Messages/admin_form.ctp:62
+#: Plugin/Croogo/View/Common/admin_edit.ctp:83
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:51
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:75
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:54
+#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:53
+#: Plugin/FileManager/View/FileManager/admin_upload.ctp:49
+#: Plugin/Install/View/Install/adminuser.ctp:34
+#: Plugin/Menus/View/Links/admin_form.ctp:125
+#: Plugin/Menus/View/Menus/admin_form.ctp:67
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:75
+#: Plugin/Settings/View/Languages/admin_form.ctp:56
+#: Plugin/Settings/View/Settings/admin_form.ctp:80
+#: Plugin/Settings/View/Settings/admin_prefix.ctp:64
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:71
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:111
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:84
+#: Plugin/Translate/View/Translate/admin_edit.ctp:47
+#: Plugin/Users/View/Roles/admin_form.ctp:51
+#: Plugin/Users/View/Users/admin_form.ctp:72
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:101
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:25
+#: Plugin/Croogo/Console/Command/ExtShell.php:222;248
+#: Plugin/Menus/View/Links/admin_form.ctp:128
+#: Plugin/Menus/View/Links/admin_index.ctp:43
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:41
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:49
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:42
+#: Plugin/Settings/View/Languages/admin_index.ctp:19
+#: Plugin/Users/View/Users/admin_form.ctp:86
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: Plugin/Blocks/View/Blocks/admin_form.ctp:105
+msgid "Show title ?"
+msgstr "Εμφάνιση τίτλου;"
+
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:59
+#: Plugin/Croogo/View/Common/admin_index.ctp:69
+msgid "Choose"
+msgstr "Επιλογή"
+
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:98
+#: Plugin/Comments/View/Comments/admin_index.ctp:120
+#: Plugin/Menus/View/Links/admin_index.ctp:105
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:119
+msgid "Publish"
+msgstr "Δημοσίευση"
+
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:99
+#: Plugin/Comments/View/Comments/admin_index.ctp:121
+#: Plugin/Menus/View/Links/admin_index.ctp:106
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:120
+msgid "Unpublish"
+msgstr "Κατάργηση δημοσίευσης"
+
+#: Plugin/Blocks/View/Blocks/admin_index.ctp:100
+#: Plugin/Comments/View/Comments/admin_index.ctp:122
+#: Plugin/Contacts/View/Messages/admin_index.ctp:133
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:51
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:116
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:59;100
+#: Plugin/Menus/View/Links/admin_index.ctp:107
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:123
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: Plugin/Comments/Config/bootstrap.php:11
+#: Plugin/Comments/Controller/CommentsController.php:80;186
+#: Plugin/Comments/View/Comments/admin_form.ctp:8
+#: Plugin/Comments/View/Comments/admin_index.ctp:12
+#: Plugin/Comments/View/Elements/comments.ctp:7
+#: Plugin/Comments/View/Helper/CommentsHelper.php:34
+#: Plugin/Nodes/View/Elements/node_more_info.ctp:33
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:27
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: Plugin/Comments/Config/bootstrap.php:20
+#: Plugin/Comments/View/Comments/admin_form.ctp:55
+#: Plugin/Comments/View/Comments/admin_index.ctp:16;33
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:132
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:38
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:78
+msgid "Published"
+msgstr "Δημοσιευμένο"
+
+#: Plugin/Comments/Config/bootstrap.php:32
+#: Plugin/Comments/View/Comments/admin_index.ctp:19;37
+msgid "Approval"
+msgstr "Έγκριση"
+
+#: Plugin/Comments/Controller/CommentsController.php:106
+msgid "Edit Comment"
+msgstr "Επεξεργασία Σχόλιου"
+
+#: Plugin/Comments/Controller/CommentsController.php:109
+msgid "Invalid Comment"
+msgstr "Άκυρο Σχόλιο"
+
+#: Plugin/Comments/Controller/CommentsController.php:114
+msgid "The Comment has been saved"
+msgstr "Το σχόλιο αποθηκεύτηκε"
+
+#: Plugin/Comments/Controller/CommentsController.php:117
+msgid "The Comment could not be saved. Please, try again."
+msgstr "Το σχόλιο δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Comments/Controller/CommentsController.php:134
+msgid "Invalid id for Comment"
+msgstr "Άκυρο id για το Σχόλιο"
+
+#: Plugin/Comments/Controller/CommentsController.php:138
+msgid "Comment deleted"
+msgstr "Το σχόλιο διαγράφηκε"
+
+#: Plugin/Comments/Controller/CommentsController.php:165
+msgid "Comments deleted"
+msgstr "Τα σχόλια διαγράφηκαν"
+
+#: Plugin/Comments/Controller/CommentsController.php:168
+msgid "Comments published"
+msgstr "Τα σχόλια δημοσιεύθηκαν"
+
+#: Plugin/Comments/Controller/CommentsController.php:171
+msgid "Comments unpublished"
+msgstr "Τα σχόλια δεν είναι πλέον δημοσιευμένα"
+
+#: Plugin/Comments/Controller/CommentsController.php:212
+msgid "Invalid Node"
+msgstr "Άκυρο Node"
+
+#: Plugin/Comments/Controller/CommentsController.php:224
+msgid "Maximum level reached. You cannot reply to that comment."
+msgstr "Όριο. Δεν μπορείτε να απαντήσε στο σχόλιο αυτό."
+
+#: Plugin/Comments/Controller/CommentsController.php:232
+msgid "Comments are not allowed."
+msgstr "Τα σχόλια δεν επιτρέπονται"
+
+#: Plugin/Comments/Controller/CommentsController.php:256
+msgid "Your comment has been added successfully."
+msgstr "Το σχόλιο σας προστέθηκε επιτυχώς."
+
+#: Plugin/Comments/Controller/CommentsController.php:258
+msgid "Your comment will appear after moderation."
+msgstr "Το σχόλιο σας θα εμφανιστεί μετά την έγκριση."
+
+#: Plugin/Comments/Controller/CommentsController.php:294
+msgid "Sorry, the comment appears to be spam."
+msgstr "Συγγνώμη, το σχόλια φαίνεται να είναι spam."
+
+#: Plugin/Comments/Controller/CommentsController.php:316
+#: Plugin/Contacts/Controller/ContactsController.php:239
+msgid "Invalid captcha entry"
+msgstr "Λάθος captcha"
+
+#: Plugin/Comments/Controller/CommentsController.php:338
+msgid "New comment posted under"
+msgstr "Νέο σχόλιο στο"
+
+#: Plugin/Comments/Model/Comment.php:121
+msgid "Invalid Node id"
+msgstr "Λάθος Node id"
+
+#: Plugin/Comments/Model/Comment.php:180
+msgid "Invalid Comment id"
+msgstr "Λάθος Comment id"
+
+#: Plugin/Comments/View/Comments/admin_form.ctp:7
+#: Plugin/Comments/View/Comments/admin_index.ctp:11
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:28;37
+#: Plugin/Nodes/Config/bootstrap.php:38
+#: Plugin/Nodes/Controller/NodesController.php:107
+#: Plugin/Nodes/View/Nodes/admin_create.ctp:5
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:8
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:7
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:8
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:7
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:6
+#: Plugin/Taxonomy/View/Types/admin_index.ctp:4
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:7
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:7
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: Plugin/Comments/View/Comments/admin_form.ctp:19
+#: Plugin/Comments/View/Elements/comments.ctp:5
+#: Plugin/Nodes/View/Elements/node_more_info.ctp:31
+#: Plugin/Settings/Config/bootstrap.php:71
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: Plugin/Comments/View/Comments/admin_form.ctp:60
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:25
+#: Plugin/Contacts/View/Messages/admin_index.ctp:66
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: Plugin/Comments/View/Comments/admin_form.ctp:61
+#: Plugin/Comments/View/Comments/admin_index.ctp:49
+#: Plugin/Comments/View/Elements/comments_form.ctp:24;40
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:56
+#: Plugin/Contacts/View/Messages/admin_form.ctp:35
+#: Plugin/Contacts/View/Messages/admin_index.ctp:67
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:25
+#: Plugin/Install/View/Install/database.ctp:52
+#: Plugin/Users/View/Users/admin_form.ctp:54
+msgid "Name"
+msgstr "Όνομα"
+
+#: Plugin/Comments/View/Comments/admin_form.ctp:62
+#: Plugin/Comments/View/Comments/admin_index.ctp:50
+#: Plugin/Comments/View/Elements/comments_form.ctp:29;41
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:45
+#: Plugin/Contacts/View/Messages/admin_form.ctp:38
+#: Plugin/Contacts/View/Messages/admin_index.ctp:68
+#: Plugin/Users/View/Users/admin_form.ctp:57
+msgid "Email"
+msgstr ""
+
+#: Plugin/Comments/View/Comments/admin_form.ctp:63
+#: Plugin/Comments/View/Elements/comments_form.ctp:34;42
+#: Plugin/Users/View/Users/admin_form.ctp:60
+msgid "Website"
+msgstr ""
+
+#: Plugin/Comments/View/Comments/admin_form.ctp:64
+msgid "Ip"
+msgstr ""
+
+#: Plugin/Comments/View/Comments/admin_index.ctp:17
+msgid "Comments: Published"
+msgstr "Σχόλια: Δημοσιευμένα"
+
+#: Plugin/Comments/View/Comments/admin_index.ctp:20
+msgid "Comments: Approval"
+msgstr "Σχόλια: Εγκεκριμένα"
+
+#: Plugin/Comments/View/Comments/admin_index.ctp:51
+msgid "Node"
+msgstr ""
+
+#: Plugin/Comments/View/Comments/admin_index.ctp:53
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:7;50
+msgid "Created"
+msgstr "Δημιουργημένο"
+
+#: Plugin/Comments/View/Comments/rss/index.ctp:18
+msgid "Comment on"
+msgstr "Σχόλια σε"
+
+#: Plugin/Comments/View/Comments/rss/index.ctp:18
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:53;103
+#: Plugin/Nodes/View/Elements/node_info.ctp:9
+msgid "by"
+msgstr "από"
+
+#: Plugin/Comments/View/Elements/comment.ctp:13
+msgid "said on %s"
+msgstr "γράφτηκε στις %s"
+
+#: Plugin/Comments/View/Elements/comment.ctp:19
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: Plugin/Comments/View/Elements/comments_form.ctp:2
+msgid "Add new comment"
+msgstr "Προσθήκη νέου σχολίου"
+
+#: Plugin/Comments/View/Elements/comments_form.ctp:7
+msgid "Go back to original post"
+msgstr "Πίσω στο αρχικό post"
+
+#: Plugin/Comments/View/Elements/comments_form.ctp:49
+msgid "Post comment"
+msgstr "Προσθήκη σχολίου"
+
+#: Plugin/Comments/View/Elements/admin/comments_tab.ctp:6
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:66
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: Plugin/Comments/View/Elements/admin/comments_tab.ctp:7
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:67
+msgid "Read only"
+msgstr "Ανάγνωση μόνο"
+
+#: Plugin/Comments/View/Elements/admin/comments_tab.ctp:8
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:68
+msgid "Read/Write"
+msgstr "Εγγραφή/Ανάγνωση"
+
+#: Plugin/Comments/View/Emails/text/comment.ctp:2
+msgid "A new comment has been posted under: %s"
+msgstr "Ένα νέο σχόλιο προστέθηκε στο %s"
+
+#: Plugin/Comments/View/Emails/text/comment.ctp:6
+#: Plugin/Contacts/View/Emails/text/contact.ctp:8
+msgid "Name: %s"
+msgstr "Όνομα: %s"
+
+#: Plugin/Comments/View/Emails/text/comment.ctp:7
+#: Plugin/Contacts/View/Emails/text/contact.ctp:9
+msgid "Email: %s"
+msgstr ""
+
+#: Plugin/Comments/View/Emails/text/comment.ctp:8
+msgid "Website: %s"
+msgstr ""
+
+#: Plugin/Comments/View/Emails/text/comment.ctp:9
+#: Plugin/Contacts/View/Emails/text/contact.ctp:11
+#: Plugin/Users/View/Emails/text/forgot_password.ctp:17
+msgid "IP Address: %s"
+msgstr ""
+
+#: Plugin/Comments/View/Emails/text/comment.ctp:10
+msgid "Comment: %s"
+msgstr "Σχόλιο: %s"
+
+#: Plugin/Contacts/Config/bootstrap.php:10;20
+#: Plugin/Contacts/Controller/ContactsController.php:52
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:7
+#: Plugin/Contacts/View/Contacts/admin_index.ctp:3
+#: Plugin/Contacts/View/Messages/admin_form.ctp:7
+#: Plugin/Contacts/View/Messages/admin_index.ctp:7
+msgid "Contacts"
+msgstr "Επαφές"
+
+#: Plugin/Contacts/Config/bootstrap.php:29
+#: Plugin/Contacts/Controller/MessagesController.php:63
+#: Plugin/Contacts/View/Messages/admin_form.ctp:8
+#: Plugin/Contacts/View/Messages/admin_index.ctp:8
+msgid "Messages"
+msgstr "Μηνύματα"
+
+#: Plugin/Contacts/Controller/ContactsController.php:67
+msgid "Add Contact"
+msgstr "Προσθήκη επαφής"
+
+#: Plugin/Contacts/Controller/ContactsController.php:72;96
+msgid "The Contact has been saved"
+msgstr "Η επαφή αποθηκεύτηκε"
+
+#: Plugin/Contacts/Controller/ContactsController.php:75;99
+msgid "The Contact could not be saved. Please, try again."
+msgstr "Η επαφή δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Contacts/Controller/ContactsController.php:88
+msgid "Edit Contact"
+msgstr "Επεξεργασία επαφής"
+
+#: Plugin/Contacts/Controller/ContactsController.php:91
+msgid "Invalid Contact"
+msgstr "Άκυρη επαφή"
+
+#: Plugin/Contacts/Controller/ContactsController.php:116
+msgid "Invalid id for Contact"
+msgstr "Άκυρο id για την επαφή"
+
+#: Plugin/Contacts/Controller/ContactsController.php:120
+msgid "Contact deleted"
+msgstr "Η επαφή διαγράφηκε"
+
+#: Plugin/Contacts/Controller/ContactsController.php:170
+msgid "Your message has been received..."
+msgstr "Το μήνυμα σας παραλήφθηκε..."
+
+#: Plugin/Contacts/Controller/ContactsController.php:218
+msgid "Sorry, the message appears to be spam."
+msgstr "Συγγνώμη, το μήνυμά σας φαίνεται να είναι spam."
+
+#: Plugin/Contacts/Controller/ContactsController.php:263
+msgid "[%s] %s"
+msgstr ""
+
+#: Plugin/Contacts/Controller/MessagesController.php:71
+#: Plugin/Contacts/View/Messages/admin_index.ctp:12;47
+msgid "Read"
+msgstr "Ανάγνωση"
+
+#: Plugin/Contacts/Controller/MessagesController.php:85
+msgid "Edit Message"
+msgstr "Επεξεργασία μηνύματος"
+
+#: Plugin/Contacts/Controller/MessagesController.php:88
+msgid "Invalid Message"
+msgstr "Άκυρο μήνυμα"
+
+#: Plugin/Contacts/Controller/MessagesController.php:93
+msgid "The Message has been saved"
+msgstr "Το μήνυμα αποθηκεύτηκε"
+
+#: Plugin/Contacts/Controller/MessagesController.php:96
+msgid "The Message could not be saved. Please, try again."
+msgstr "Το μήνυμα δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Contacts/Controller/MessagesController.php:113
+msgid "Invalid id for Message"
+msgstr "Άκυρο id για το μήνυμα"
+
+#: Plugin/Contacts/Controller/MessagesController.php:117
+msgid "Message deleted"
+msgstr "Το μήνυμα διαγράφηκε"
+
+#: Plugin/Contacts/Controller/MessagesController.php:144
+msgid "Messages deleted."
+msgstr "Τα μηνύματα διαγράφηκαν"
+
+#: Plugin/Contacts/Controller/MessagesController.php:147
+msgid "Messages marked as read"
+msgstr "Το μήνυμα σημειώθηκε ως αναγνωσμένο"
+
+#: Plugin/Contacts/Controller/MessagesController.php:150
+msgid "Messages marked as unread"
+msgstr "Το μήνυμα σημειώθηκε ως μη αναγνωσμένο"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:26
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:27
+#: Plugin/Contacts/View/Contacts/view.ctp:21
+#: Plugin/Contacts/View/Messages/admin_form.ctp:21
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:59
+msgid "Position"
+msgstr "Θέση"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:62
+#: Plugin/Contacts/View/Messages/admin_form.ctp:50
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:65
+msgid "Address2"
+msgstr "Διεύθυνση2"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:68
+msgid "State"
+msgstr "Περιοχή"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:71
+msgid "Country"
+msgstr "Χώρα"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:74
+msgid "Post Code"
+msgstr "Τ.Κ."
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:77
+#: Plugin/Contacts/View/Messages/admin_form.ctp:47
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:80
+msgid "Fax"
+msgstr ""
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:88
+msgid "Let users leave a message"
+msgstr "Αφήστε τους χρήστες να γράψουν ένα μήνυμα"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:92
+msgid "Save messages in database"
+msgstr "Αποθήκευση μηνυμάτων στη βάση δεδομένων"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:96
+msgid "Notify by email instantly"
+msgstr "Ενημέρωση μέσω email στιγμιαία"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:100
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:80
+msgid "Spam protection (requires Akismet API key)"
+msgstr "Προστασία spam (απαιτεί Akismet API key)"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:104
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:84
+msgid "Use captcha? (requires Recaptcha API key)"
+msgstr "Χρήση captcha; (απαιτεί Recaptcha API key)"
+
+#: Plugin/Contacts/View/Contacts/admin_form.ctp:108
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:87
+msgid "You can manage your API keys here."
+msgstr "Μπορείτε να διαχειριστείτε για API κλειδιά σας εδώ"
+
+#: Plugin/Contacts/View/Contacts/view.ctp:18
+msgid "Your name"
+msgstr "Το όνομα σας"
+
+#: Plugin/Contacts/View/Contacts/view.ctp:19
+msgid "Your email"
+msgstr "Το email σας"
+
+#: Plugin/Contacts/View/Contacts/view.ctp:20
+msgid "Subject"
+msgstr "Θέμα"
+
+#: Plugin/Contacts/View/Contacts/view.ctp:25
+msgid "Send"
+msgstr "Αποστολή"
+
+#: Plugin/Contacts/View/Emails/text/contact.ctp:7
+msgid "You have received a new message at: %s"
+msgstr "Έχετε ένα νέο μήνυμα στο: %s"
+
+#: Plugin/Contacts/View/Emails/text/contact.ctp:10
+msgid "Subject: %s"
+msgstr "Θέμα: %s"
+
+#: Plugin/Contacts/View/Emails/text/contact.ctp:12
+msgid "Message: %s"
+msgstr "Μήνυμα: %s"
+
+#: Plugin/Contacts/View/Messages/admin_index.ctp:13
+msgid "Messages: Read"
+msgstr "Μηνύματα: Ανάγνωση"
+
+#: Plugin/Contacts/View/Messages/admin_index.ctp:15;41
+msgid "Unread"
+msgstr "Μη διαβασμένα"
+
+#: Plugin/Contacts/View/Messages/admin_index.ctp:16
+msgid "Messages: Unread"
+msgstr "Μηνύματα: μη διαβασμένα"
+
+#: Plugin/Contacts/View/Messages/admin_index.ctp:131
+msgid "Mark as read"
+msgstr "Σημείωση ως διαβασμένο"
+
+#: Plugin/Contacts/View/Messages/admin_index.ctp:132
+msgid "Mark as unread"
+msgstr "Σημείωση ως μη διαβασμένο"
+
+#: Plugin/Croogo/Console/Command/CroogoShell.php:27
+msgid "Croogo Utilities"
+msgstr ""
+
+#: Plugin/Croogo/Console/Command/CroogoShell.php:29
+msgid "Compile/Generate CSS"
+msgstr "Δημιουργία CSS"
+
+#: Plugin/Croogo/Console/Command/CroogoShell.php:32
+msgid "Upgrade Croogo"
+msgstr "Αναβάθμιση Croogo"
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:103
+msgid "Theme cannot be deactivated, instead activate another theme."
+msgstr "To θέμα δεν μπορεί να επενεργοποιηθεί. Ενεργοποιείστε κάποιο άλλο."
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:107
+msgid "%s \"%s\" not found."
+msgstr "%s \"%s\" δεν βρέθηκε"
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:116
+msgid "%s name must be provided."
+msgstr "%s όνομα πρέπει να να δοθεί"
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:128
+msgid "Activate Plugins & Themes"
+msgstr "Ενεργοποίηση Plugins & Themes"
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:131
+msgid "Method to perform"
+msgstr "Μέθοδος προς ενέργεια"
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:136
+#: Plugin/Croogo/Console/Command/InstallShell.php:136
+msgid "Extension type"
+msgstr "Τύπος επέκτασης"
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:141
+msgid "Name of extension"
+msgstr "Όνομα επέκτασης"
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:165
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:152
+msgid "Plugin \"%s\" activated successfully."
+msgstr "Το \"%s\" ενεργοποιήθηκε επιτυχώς."
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:170
+#: Plugin/Extensions/Lib/CroogoPlugin.php:505
+msgid "Plugin \"%s\" could not be activated. Please, try again."
+msgstr "Το \"%s\" δεν μπόρεσε να ενεργοποιηθεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:184
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:143
+msgid "Plugin \"%s\" deactivated successfully."
+msgstr "Το \"%s\" απενεργοποιήθηκε επιτυχώς."
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:189
+msgid "Plugin \"%s\" could not be deactivated. Please, try again."
+msgstr "Το \"%s\" δεν μπόρεσε να απενεργοποιηθεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:205
+msgid "Theme \"%s\" activated successfully."
+msgstr "Το \"%s\" ενεργοποιήθηκε επιτυχώς."
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:207
+msgid "Theme \"%s\" activation failed."
+msgstr "Το \"%s\" δεν μπόρεσε να ενεργοποιηθεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:221
+msgid "Plugins:"
+msgstr ""
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:222;234;248;258
+msgid "%-20s%-50s%s"
+msgstr ""
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:222
+msgid "Plugin"
+msgstr ""
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:222;248
+msgid "Author"
+msgstr "Δημιουργός"
+
+#: Plugin/Croogo/Console/Command/ExtShell.php:248
+msgid "Theme"
+msgstr ""
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:81
+msgid "Installing with Composer..."
+msgstr "Εγκατάσταση με Composer..."
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:89
+msgid "Unexpected composerInstall return value"
+msgstr "Μη αναμενόμενη τιμή του composerInstall"
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:102
+msgid "Package installed and activated."
+msgstr "Το πακέτο εγκαταστάθηκε και ενεργοποιήθηκε."
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:104
+msgid "Package installed but not activated."
+msgstr "Το πακέτο εγκαταστάθηκε και δεν ενεργοποιήθηκε."
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:121
+msgid "Extension installed and activated."
+msgstr "Η επέκταση εγκαταστάθηκε και ενεργοποιήθηκε."
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:133
+msgid "Download, Install & Activate Plugins & Themes"
+msgstr "Κατεβάστε, Εγκαταστήστε & Ενεργοποιήστε Plugins & Themes"
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:141
+msgid "URL to zip file OR github user name"
+msgstr "URL στο αρχείο ZIP ή όνομα χρήστη στο github"
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:145
+msgid "Github repo name"
+msgstr "Όνομα αποθετηρίου Github"
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:176
+msgid "Installing extension..."
+msgstr "Εγκατάσταση επέκτασης..."
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:195
+msgid "Please specify a URL to a zipball extension"
+msgstr "Παρακαλώ δώστε URL σε ένα αρχείο zip επέκτασης"
+
+#: Plugin/Croogo/Console/Command/InstallShell.php:200
+msgid "Downloading extension to %s..."
+msgstr "Κατέβασμα επέκτασης στο %s"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:62
+msgid "Upgrade ACL database for core controllers."
+msgstr "Αναβάθμιση της βάσης δεδομένων ACL για τα core controllers."
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:64
+msgid ""
+"Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
+"in normal CakePHP applications. The primary difference is plugin controllers "
+"now are stored underneath its own Plugin ACO record, whereas previous "
+"version assumes all Controllers belongs to the root 'controllers' node."
+"%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"table before upgrading.</warning>"
+msgstr ""
+"Αναβαθμίζει την ιεραρχία ACO από 1.3/1.4 ώστε να ακολουθεί την βασική "
+"συμπεριφορά των εφαρμογών CakePHP. Η πρωταρχική διαφορά είναι ότι πλέον τα "
+"controllers αποθηκεύονται κάτω από το δικό τους Plugin ACO record, ενώ οι "
+"προηγούμενες εκδόσεις υπέθεταν πως όλα τα Controllers άνηκαν στα γονικά "
+"'controllers' node.%s<warning>Βεβαιωθείτε πως έχετε αντίγραφα ασφαλείας από "
+"τους πίνακες aros, acros και aros_acos πριν προχωρήσετε με την αναβάθμιση.</"
+"warning>"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:76
+msgid "Create settings.json from database"
+msgstr "Δημιουργία settings.json από τη βάση δεδομένων"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:79
+msgid "Update Hook.bootstrap settings"
+msgstr "Αναβάθμιση Hoot.bootstaps settings"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:82
+msgid "Update Links in database"
+msgstr "Αναβάθμιση συνδέσμων στη βάση δεδομένων"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:85
+msgid "Create first migration records"
+msgstr "Δημιουργία πρώτων εγγραφών μετακίνησης"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:88
+msgid "Run all upgrade tasks"
+msgstr "Τρέξτε όλες τις εργασίες αναβάθμισης."
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:98
+msgid "<warning>Config/settings.json already exist</warning>"
+msgstr "<warning>Το Config/settings.json υπάρχει ήδη</warning>"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:139
+msgid ""
+"<success>Config/settings.yml created based on `settings` table</success>"
+msgstr ""
+"<success>Το Config/settings.yml δημιουργήθηκε βασισμένο στον πίνακα "
+"`settings`</success>"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:184
+msgid "Updating Link %s"
+msgstr "Ανανέωση Συνδέσμου %s"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:185
+#: Plugin/Settings/Console/Command/SettingsShell.php:155
+msgid "- %s"
+msgstr ""
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:186
+#: Plugin/Settings/Console/Command/SettingsShell.php:158
+msgid "+ %s"
+msgstr ""
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:191
+msgid "Links updated: %d rows"
+msgstr "Σύνδεσμοι αναβαθμίστηκαν: %d σειρές"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:207
+msgid "Hook.bootstraps updated"
+msgstr "Hook.bootstraps αναβαθμίστηκε"
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:318
+msgid "Upgrade \"%s\""
+msgstr "Αναβάθμιση \"%s\""
+
+#: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:332
+msgid "Command not recognized"
+msgstr "Η εντολή δεν αναγνωρίσθηκε"
+
+#: Plugin/Croogo/Controller/CroogoAppController.php:160
+msgid "Site down for maintenance"
+msgstr "Η σελίδα βρίσκεται σε κατάσταση συντήρησης"
+
+#: Plugin/Croogo/Controller/CroogoErrorController.php:55
+msgid "Errors in CakeErrorController: %s"
+msgstr "Σφάλματα στο CakeErrorController: %s"
+
+#: Plugin/Croogo/Controller/Component/CroogoComponent.php:200
+#: Plugin/Nodes/Controller/NodesController.php:199;705;743
+msgid "Invalid content"
+msgstr "Άκυρο περιεχόμενο"
+
+#: Plugin/Croogo/Controller/Component/CroogoComponent.php:209
+msgid "Failed toggling field %s to %s"
+msgstr "Αποτυχία πεδίου εναλλαγής %s σε %s"
+
+#: Plugin/Croogo/Event/CroogoEventManager.php:73
+msgid "EventHandler %s not found in plugin %s"
+msgstr "EventHandler %s δεν βρέθηκε στο plugin %s"
+
+#: Plugin/Croogo/Lib/CroogoRouter.php:123
+msgid "Unable to get routeable content types: %s"
+msgstr "Αδύνατο να βρεθεί του routeable τύπου περιεχομένου: %s"
+
+#: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:40
+msgid "Cannot load configuration files with ../ in them."
+msgstr "Δεν μπόρεσαν να φορτωθούν τα αρχεία με ../ "
+
+#: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:55
+msgid "Could not load configuration files: %s or %s"
+msgstr "Δεν μπόρεσαν να φορτωθούν τα αρχεία ρυθμίσεων %s ή %s"
+
+#: Plugin/Croogo/View/Common/admin_edit.ctp:8
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:35
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:91
+#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:31
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:33
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: Plugin/Croogo/View/Common/admin_index.ctp:31
+#: Plugin/Menus/View/Links/admin_index.ctp:16
+msgid "New %s"
+msgstr "Νέο %s"
+
+#: Plugin/Croogo/View/Common/admin_index.ctp:128
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Σελίδα {:page} από {:pages}, προβολή {:current} εγγραφών από τα {:count} "
+"συνολικά, ξεκινώντας από το {:start}, τελειώνοντας στο {:end}"
+
+#: Plugin/Croogo/View/Common/admin_index.ctp:133
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:91
+msgid "first"
+msgstr "αρχή"
+
+#: Plugin/Croogo/View/Common/admin_index.ctp:134
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:92
+msgid "prev"
+msgstr "προηγούμενο"
+
+#: Plugin/Croogo/View/Common/admin_index.ctp:136
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:94
+msgid "next"
+msgstr "επόμενο"
+
+#: Plugin/Croogo/View/Common/admin_index.ctp:137
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:95
+msgid "last"
+msgstr "τέλος"
+
+#: Plugin/Croogo/View/Elements/admin/footer.ctp:7
+msgid "Croogo %s"
+msgstr ""
+
+#: Plugin/Croogo/View/Elements/admin/header.ctp:22
+#: Plugin/Settings/Controller/SettingsController.php:49
+#: Plugin/Settings/View/Settings/admin_dashboard.ctp:5
+msgid "Dashboard"
+msgstr ""
+
+#: Plugin/Croogo/View/Elements/admin/header.ctp:27
+msgid "Visit website"
+msgstr "Δείτε τη σελίδα"
+
+#: Plugin/Croogo/View/Elements/admin/header.ctp:34
+msgid "You are logged in as: %s"
+msgstr "Έχετε συνδεθεί ως: %s"
+
+#: Plugin/Croogo/View/Elements/admin/header.ctp:38
+msgid "Log out"
+msgstr "Αποσύνδεση"
+
+#: Plugin/Croogo/View/Elements/admin/modal.ctp:19
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: Plugin/Croogo/View/Elements/admin/search.ctp:39
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:53
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: Plugin/Croogo/View/Errors/missing_action.ctp:1
+#: Plugin/Croogo/View/Errors/missing_controller.ctp:1
+#: Plugin/Croogo/View/Errors/security.ctp:1
+msgid "Page not found"
+msgstr "Η σελίδα δεν βρέθηκε"
+
+#: Plugin/Croogo/View/Errors/missing_action.ctp:2
+#: Plugin/Croogo/View/Errors/missing_controller.ctp:2
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: Plugin/Croogo/View/Errors/missing_action.ctp:4
+#: Plugin/Croogo/View/Errors/missing_controller.ctp:4
+#: Plugin/Croogo/View/Errors/security.ctp:4
+msgid "The requested address was not found on this server."
+msgstr "Η διεύθυνση δεν βρέθηκε στον server."
+
+#: Plugin/Croogo/View/Errors/security.ctp:2
+msgid "Security Error"
+msgstr "Σφάλμα Ασφαλείας"
+
+#: Plugin/Croogo/View/Errors/security.ctp:8
+msgid "Request blackholed due to \"%s\" violation."
+msgstr "Η πρόσβαση δεν επιτρέπεται λόγω παραβίασης του \"%s\""
+
+#: Plugin/Croogo/View/Helper/LayoutHelper.php:94
+msgid "Method %1$s::%2$s does not exist"
+msgstr "Η μέθοδος %1$s::%2$s δεν υπάρχει"
+
+#: Plugin/Croogo/View/Layouts/admin.ctp:6
+#: Plugin/Croogo/View/Layouts/admin_full.ctp:6
+#: Plugin/Croogo/View/Layouts/admin_login.ctp:6
+#: Plugin/Croogo/View/Layouts/admin_popup.ctp:6
+#: Plugin/Install/View/Layouts/install.ctp:6
+msgid "Croogo"
+msgstr ""
+
+#: Plugin/Croogo/View/Layouts/admin_login.ctp:28
+msgid "Back to"
+msgstr "Πίσω στο"
+
+#: Plugin/Croogo/View/Layouts/maintenance.ctp:13
+msgid "Site down for maintenance."
+msgstr "Η σελίδα βρίσκεται υπό συντήρηση"
+
+#: Plugin/Example/View/Example/index.ctp:3
+msgid "content here"
+msgstr "περιεχόμενο εδώ"
+
+#: Plugin/Extensions/Config/bootstrap.php:5
+#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:4
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:9
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:7
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:4
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:7
+#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:5
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:6
+msgid "Extensions"
+msgstr ""
+
+#: Plugin/Extensions/Config/bootstrap.php:14
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:60
+#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:6
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:7
+msgid "Themes"
+msgstr ""
+
+#: Plugin/Extensions/Config/bootstrap.php:23
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:44
+#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:5
+#: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:10
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:8
+msgid "Locales"
+msgstr ""
+
+#: Plugin/Extensions/Config/bootstrap.php:32
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:69
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:5
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:8
+msgid "Plugins"
+msgstr ""
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:66
+msgid "Locale does not exist."
+msgstr "To locale δεν υπάρχει"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:72
+msgid "Locale '%s' set as default"
+msgstr "To localce '%s' ορίστικε"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:74
+msgid "Could not save Locale setting."
+msgstr "Δεν μπόρεσε να αποθηκευτούν οι ρυθμίσεις Locale"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:85
+msgid "Upload a new locale"
+msgstr "Ανέβασμα νέου locale"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:111;166
+msgid "Invalid locale."
+msgstr "Άκυρο locale"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:116
+msgid "Locale already exists."
+msgstr "To locale υπάρχει ήδη"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:163
+msgid "Edit locale: %s"
+msgstr "Επεξεργασία locale: %s"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:173
+msgid "The file %s does not exist."
+msgstr "Το αρχείο %s δεν υπάρχει"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:183
+msgid "Locale updated successfully"
+msgstr "To Locale ανανεώθηκε επιτυχώς."
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:199
+#: Plugin/Translate/Controller/TranslateController.php:108
+msgid "Invalid locale"
+msgstr "Άκυρο locale"
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:205
+msgid "Locale deleted successfully."
+msgstr "Το locale διαγράφηκε με επιτυχία."
+
+#: Plugin/Extensions/Controller/ExtensionsLocalesController.php:207
+msgid "Local could not be deleted."
+msgstr "Το locale δεν μπόρεσε να διαγραφεί."
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:83
+msgid "Upload a new plugin"
+msgstr "Ανέβασμα νέου plugin"
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:108;136;169;190;214
+#: Plugin/Extensions/Lib/CroogoPlugin.php:594
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:105
+msgid "Invalid plugin"
+msgstr "Άκυρο plugin"
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:112
+msgid "You cannot delete a plugin that is currently active."
+msgstr "Δεν μπορείτε να διαγράψετε ένα plugin που είναι ενεργό."
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:118
+msgid "Plugin \"%s\" deleted successfully."
+msgstr "Το plugin \"%s\" διαγράφηκε με επιτυχία"
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:122
+msgid "Plugin could not be deleted."
+msgstr "Το plugin δεν μπόρεσε να διαγραφεί"
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:147
+#: Plugin/Extensions/Lib/CroogoPlugin.php:530
+msgid "Plugin could not be deactivated. Please, try again."
+msgstr "Το plugin δεν μπόρεσε να απενεργοποιηθεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:156
+msgid "Plugin could not be activated. Please, try again."
+msgstr "Το plugin δεν μπόρεσε να ενεργοποιηθεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:171
+msgid "Plugin \"%s\" migrated successfully."
+msgstr "Το plugin \"%s\" μετακινήθηκε επιτυχώς."
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:174
+msgid "Plugin \"%s\" could not be migrated. Error: %s"
+msgstr "Το plugin \"%s\" δεν μπόρεσε να μετακινήθηκε επιτυχώς. Σφάλμα: %s"
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:196
+msgid "Plugin %s has been moved up"
+msgstr "Το Plugin %s μετακινήθηκε επάνω"
+
+#: Plugin/Extensions/Controller/ExtensionsPluginsController.php:220
+msgid "Plugin %s has been moved down"
+msgstr "Το Plugin %s μετακινήθηκε κάτω"
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:81
+msgid "Theme activated."
+msgstr "Το θέμα ενεργοποιήθηκε."
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:83
+msgid "Theme activation failed."
+msgstr "Το θέμα δεν ενεργοποιήθηκε."
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:95
+msgid "Upload a new theme"
+msgstr "Ανέβασμα νέου θέματος"
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:104
+msgid "Theme uploaded successfully."
+msgstr "Το θέμα ανέβηκε επιτυχώς."
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:118
+msgid "Theme Editor"
+msgstr ""
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:137
+msgid "Invalid Theme."
+msgstr "Άκυρο θέμα"
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:142
+msgid "Default theme cannot be deleted."
+msgstr "Το default θέμα δεν μπορεί να διαγραφεί"
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:145
+msgid "You cannot delete a theme that is currently active."
+msgstr "Δεν μπορείτε να διαγράψετε ένα θέμα που είναι ενεργό."
+
+#: Plugin/Extensions/Controller/ExtensionsThemesController.php:152
+msgid "Theme deleted successfully."
+msgstr "Το θέμα διαγράφημε με επιτυχία"
+
+#: Plugin/Extensions/Lib/CroogoPlugin.php:477
+msgid "Plugin \"%s\" is already active."
+msgstr "Το Plugin \"%s\" είναι ήδη ενεργό"
+
+#: Plugin/Extensions/Lib/CroogoPlugin.php:503
+msgid "Plugin \"%s\" depends on \"%s\" plugin."
+msgstr "Το Plugin \"%s\" εξαρτάται από το Plugin \"%s\""
+
+#: Plugin/Extensions/Lib/CroogoPlugin.php:517
+msgid "Plugin \"%s\" is not active."
+msgstr "Το Plugin \"%s\" δεν είναι ενεργό."
+
+#: Plugin/Extensions/Lib/CroogoPlugin.php:624
+msgid "%s is already at the first position"
+msgstr "To %s βρίσκεται ήδη στη πρώτη θέση"
+
+#: Plugin/Extensions/Lib/CroogoPlugin.php:630;642
+msgid "Plugin %s depends on %s"
+msgstr "Το Plugin %s εξαρτάται από το %s"
+
+#: Plugin/Extensions/Lib/CroogoPlugin.php:635
+msgid "%s is already at the last position"
+msgstr "To %s βρίσκεται ήδη στη τελευταία θέση"
+
+#: Plugin/Extensions/Lib/CroogoPlugin.php:646
+msgid "Invalid direction"
+msgstr "Λάθος διαδρομή"
+
+#: Plugin/Extensions/Lib/CroogoPlugin.php:651
+msgid "Plugin %s cannot be reordered"
+msgstr "To Plugin %s δεν μπορεί να αλλάξει σειρά"
+
+#: Plugin/Extensions/Lib/CroogoTheme.php:127
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:186
+msgid "Invalid theme"
+msgstr "Άκυρο θέμα"
+
+#: Plugin/Extensions/Lib/CroogoTheme.php:148
+msgid "Theme %s not found"
+msgstr "Το θέμα %s δεν βρέθηκε"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:62
+msgid "Invalid plugin path"
+msgstr "Άκυρη τοποθεσία plugin"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:72;110;191
+msgid "Invalid zip archive"
+msgstr "Άκυρο αρχείο zip"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:78
+msgid "Invalid plugin.json or missing plugin name"
+msgstr "Άκυρο plugin.json ή μη διαθέσιμο όνομα plugin"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:99
+msgid "Missing expected files: %s in: %s"
+msgstr "Δεν υπάρχουν τα απαιτούμενα αρχεία: %s στο: %s"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:100
+msgid "Invalid plugin or missing expected files"
+msgstr "Άκυρο plugin ή μη διαθέσιμα απαιτούμενα αρχεία"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:125
+msgid "Invalid plugin file path"
+msgstr "Λάθος διαδρομή του plugin"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:136
+msgid "Plugin already exists"
+msgstr "To plugin υπάρχει ήδη"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:152
+msgid "Failed to extract plugin"
+msgstr "Το plugin δεν μπόρεσε να γίνει εξαγωγή"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:165
+msgid "Invalid theme path"
+msgstr "Λάθος διαδρομή θέματος"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:206
+msgid "Invalid theme file path"
+msgstr "Λάθος διαδρομή θέματος"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:217
+msgid "Theme already exists"
+msgstr "Το θέμα υπάρχει ήδη"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:233
+msgid "Failed to extract theme"
+msgstr "Το θέμα δεν μπόρεσε να γίνει εξαγωγή"
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:252
+msgid "Must specify a valid package name: vendor/name."
+msgstr "Πρέπει να οριστεί ένα δεκτό όνομα πακέτου: vendor/name."
+
+#: Plugin/Extensions/Lib/ExtensionsInstaller.php:255
+msgid "Themes installed via composer are not yet supported."
+msgstr ""
+"Θέματα που έχουν εγκατασταηθεί μέσω του composer δεν υποστηρίζονται ακόμη"
+
+#: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:6;25;46
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:13
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:6;24;43
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:14
+#: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:7;27;48
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:14
+#: Plugin/FileManager/Controller/FileManagerController.php:180
+#: Plugin/FileManager/View/Attachments/admin_add.ctp:8;22;30;45
+#: Plugin/FileManager/View/FileManager/admin_upload.ctp:5;31
+msgid "Upload"
+msgstr "Φόρτωση"
+
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:23
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:26
+#: Plugin/Translate/View/Translate/admin_index.ctp:36
+msgid "Locale"
+msgstr ""
+
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:24
+msgid "Default"
+msgstr ""
+
+#: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:39
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:109
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:26
+#: Plugin/Menus/View/Links/admin_form.ctp:102
+#: Plugin/Menus/View/Menus/admin_form.ctp:46
+#: Plugin/Settings/View/Settings/admin_form.ctp:57
+#: Plugin/Settings/View/Settings/admin_view.ctp:19
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:59
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:48
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:52
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:27
+msgid "Active"
+msgstr "Ενεργό"
+
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:71
+msgid "Migrate"
+msgstr "Μετακίνηση"
+
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:25
+msgid "Current Theme"
+msgstr "Τρέχων θέμα"
+
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:59;106
+msgid "Regions supported: "
+msgstr "Υποστηριζόμενες περιοχές:"
+
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:65
+msgid "Available Themes"
+msgstr "Διαθέσιμα θέματα"
+
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:130
+msgid "No available theme"
+msgstr "Μη διαθέσιμο θέμα"
+
+#: Plugin/FileManager/Config/bootstrap.php:15
+msgid "Media"
+msgstr ""
+
+#: Plugin/FileManager/Config/bootstrap.php:25
+#: Plugin/FileManager/Controller/AttachmentsController.php:99
+#: Plugin/FileManager/View/Attachments/admin_add.ctp:7
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:7
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:7
+msgid "Attachments"
+msgstr "Συνημμένο"
+
+#: Plugin/FileManager/Config/bootstrap.php:34
+#: Plugin/FileManager/Controller/FileManagerController.php:113
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:7
+#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:4
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:4
+#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:4
+#: Plugin/FileManager/View/FileManager/admin_upload.ctp:4
+msgid "File Manager"
+msgstr "Διαχειριστής αρχείων"
+
+#: Plugin/FileManager/Controller/AttachmentsController.php:113
+msgid "Add Attachment"
+msgstr "Προσθήκη συνημμένων"
+
+#: Plugin/FileManager/Controller/AttachmentsController.php:122
+msgid "Upload failed. Please ensure size does not exceed the server limit."
+msgstr ""
+"Το ανέβασμα απέτυχε. Παρακαλώ επιβεβαιώστε ότι το μέγεθος δεν ξεπερνά τα "
+"όρια του server."
+
+#: Plugin/FileManager/Controller/AttachmentsController.php:129;162
+msgid "The Attachment has been saved"
+msgstr "To συνημμένο αποθηκεύτηκε."
+
+#: Plugin/FileManager/Controller/AttachmentsController.php:137;165
+msgid "The Attachment could not be saved. Please, try again."
+msgstr "Το συνημμένο δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/FileManager/Controller/AttachmentsController.php:150
+msgid "Edit Attachment"
+msgstr "Επεξεργασία συνημμένου"
+
+#: Plugin/FileManager/Controller/AttachmentsController.php:157
+msgid "Invalid Attachment"
+msgstr "Άκυρο συνημμένο"
+
+#: Plugin/FileManager/Controller/AttachmentsController.php:182;190
+msgid "Invalid id for Attachment"
+msgstr "Άκυρο id για το συνημμένο"
+
+#: Plugin/FileManager/Controller/AttachmentsController.php:187
+msgid "Attachment deleted"
+msgstr "Το συνημμένο διαγράφηκε"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:118;150;214
+msgid "Path %s is restricted"
+msgstr "Δεν επιτρέπεται η πρόσβαση στο %s"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:153
+msgid "Edit file: %s"
+msgstr "Επεξεργασία αρχείου: %s"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:164
+msgid "File saved successfully"
+msgstr "Το αρχείο αποθηκεύτηκε επιτυχώς."
+
+#: Plugin/FileManager/Controller/FileManagerController.php:193
+msgid "File uploaded successfully."
+msgstr "Το αρχείο δεν μπόρεσε να αποθηκευτεί με επιτυχία."
+
+#: Plugin/FileManager/Controller/FileManagerController.php:219
+msgid "File deleted"
+msgstr "Το αρχείο διαγράφηκε"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:221;249;307;335
+msgid "An error occured"
+msgstr "Προέκυψε ένα σφάλμα"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:247
+msgid "Directory deleted"
+msgstr "Ο κατάλογος διαγράφηκε"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:292
+#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:5;14
+msgid "Create Directory"
+msgstr "Δημιουργία καταλόγου"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:303
+msgid "Directory created successfully."
+msgstr "Ο κατάλογος δημιουρηθηκε με επιτυχία"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:321
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:5
+msgid "Create File"
+msgstr "Δημιουργία αρχείου"
+
+#: Plugin/FileManager/Controller/FileManagerController.php:331
+msgid "File created successfully."
+msgstr "Το αρχείο δημιουρηθηκε με επιτυχία"
+
+#: Plugin/FileManager/Model/Attachment.php:95
+msgid "Error during file upload"
+msgstr "Σφάλμα κατά τη διάρκεια ανεβάσματος του αρχείου"
+
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:10
+msgid "New Attachment"
+msgstr "Νέο συνημμένο"
+
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:25
+#: Plugin/FileManager/View/Attachments/admin_index.ctp:17
+msgid "URL"
+msgstr ""
+
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:65
+msgid "Insert"
+msgstr "Εισαγωγή"
+
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:98
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+msgstr ""
+"Σελίδα %page% από %pages%, προβολή %current% εγγραφών από %count% συνολικά, "
+"ξεκινώντας από %start%, και τελειώνοντας σε %end%"
+
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:18
+msgid "Attachment"
+msgstr "Συνημμένο"
+
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:46
+msgid "Caption"
+msgstr "Ετικέτα"
+
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:50
+msgid "File URL"
+msgstr ""
+
+#: Plugin/FileManager/View/Attachments/admin_edit.ctp:56
+msgid "Mime Type"
+msgstr ""
+
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:13
+msgid "Upload here"
+msgstr "Ανέβασμα εδώ"
+
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:17
+msgid "Create directory"
+msgstr "Δημιουργία καταλόγου"
+
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:21
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:15
+msgid "Create file"
+msgstr "Δημιουργία αρχείου"
+
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:29
+#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:16
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:17
+#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:16
+#: Plugin/FileManager/View/FileManager/admin_upload.ctp:17
+msgid "You are here"
+msgstr "Βρίσκεστε εδώ"
+
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:44
+msgid "Directory content"
+msgstr "Περιεχόμενο καταλόγου"
+
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:57
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: Plugin/FileManager/View/FileManager/admin_browse.ctp:85
+msgid "View"
+msgstr "Προβολή"
+
+#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:31
+msgid "Directory"
+msgstr "Κατάλογος"
+
+#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:41
+msgid "Directory name"
+msgstr "Όνομα καταλόγου"
+
+#: Plugin/FileManager/View/FileManager/admin_create_directory.ctp:53
+#: Plugin/Nodes/Config/bootstrap.php:60
+#: Plugin/Nodes/View/Nodes/admin_create.ctp:6
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:13
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:32
+msgid "File"
+msgstr "Αρχείο"
+
+#: Plugin/FileManager/View/FileManager/admin_create_file.ctp:42
+msgid "Filename"
+msgstr "Όνομα αρχείου"
+
+#: Plugin/FileManager/View/FileManager/admin_editfile.ctp:14
+msgid "Edit file"
+msgstr "Επεξεργασία αρχείου"
+
+#: Plugin/FileManager/View/FileManager/admin_upload.ctp:15
+msgid "Upload file"
+msgstr "Ανέβασμα αρχείου"
+
+#: Plugin/Install/Console/Command/InstallShell.php:26
+msgid "Install Utilities"
+msgstr ""
+
+#: Plugin/Install/Console/Command/InstallShell.php:57
+msgid "DataSource"
+msgstr ""
+
+#: Plugin/Install/Console/Command/InstallShell.php:64
+#: Plugin/Install/View/Install/database.ctp:32
+msgid "Host"
+msgstr ""
+
+#: Plugin/Install/Console/Command/InstallShell.php:65
+#: Plugin/Install/View/Install/database.ctp:39
+#: Plugin/Users/View/Users/login.ctp:2
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: Plugin/Install/Console/Command/InstallShell.php:66;96
+#: Plugin/Install/View/Install/database.ctp:46
+#: Plugin/Users/View/Users/admin_form.ctp:93
+#: Plugin/Users/View/Users/admin_login.ctp:15
+msgid "Password"
+msgstr "Κωδικός"
+
+#: Plugin/Install/Console/Command/InstallShell.php:67
+#: Plugin/Install/View/Install/database.ctp:20
+msgid "Database"
+msgstr "Βάση δεδομένων"
+
+#: Plugin/Install/Console/Command/InstallShell.php:68
+#: Plugin/Install/View/Install/database.ctp:59
+msgid "Prefix"
+msgstr "Πρόθεμα"
+
+#: Plugin/Install/Console/Command/InstallShell.php:69
+#: Plugin/Install/View/Install/database.ctp:65
+msgid "Port"
+msgstr "Θύρα"
+
+#: Plugin/Install/Console/Command/InstallShell.php:89
+#: Plugin/Install/View/Install/adminuser.ctp:14
+#: Plugin/Users/View/Users/admin_form.ctp:51
+#: Plugin/Users/View/Users/admin_login.ctp:9
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: Plugin/Install/Console/Command/InstallShell.php:97
+#: Plugin/Install/View/Install/adminuser.ctp:25
+#: Plugin/Users/View/Users/admin_form.ctp:98
+#: Plugin/Users/View/Users/admin_reset_password.ctp:26
+#: Plugin/Users/View/Users/reset.ctp:7
+msgid "Verify Password"
+msgstr "Επιβεβαίωση κωδικού"
+
+#: Plugin/Install/Console/Command/InstallShell.php:205
+msgid "Permission %s granted to %s"
+msgstr "Δικαιώματα %s δόθηκαν στο %s"
+
+#: Plugin/Install/Controller/InstallController.php:95
+msgid "Installation: Welcome"
+msgstr "Εγκατάσταση: Καλώς ήλθατε"
+
+#: Plugin/Install/Controller/InstallController.php:110
+msgid "Step 1: Database"
+msgstr "Βήμα 1: Βάση δεδομένων"
+
+#: Plugin/Install/Controller/InstallController.php:137
+msgid "Step 2: Build database"
+msgstr "Βήμα 2: Δημιουργία βάσης δεδομένων"
+
+#: Plugin/Install/Controller/InstallController.php:145
+msgid "Warning: Database \"%s\" is not empty."
+msgstr "Προσοχή: Η βάση δεδομένων \"%s\" δεν είναι άδεια"
+
+#: Plugin/Install/Controller/InstallController.php:193
+msgid "Installation successful"
+msgstr "Επιτυχής εγκατάσταση"
+
+#: Plugin/Install/Controller/InstallController.php:201
+msgid "Installation failed: Unable to create settings file"
+msgstr ""
+"Η εγκατάσταση απέτυχε: δεν ήταν δυνατόν να δημιουργήσει το αρχείο ρυθμίσεων"
+
+#: Plugin/Install/Lib/AssetGenerator.php:100
+msgid "CSS : %s created"
+msgstr "CSS : %s δημιουργήθηκε"
+
+#: Plugin/Install/Lib/AssetGenerator.php:103
+msgid "CSS : %s failed"
+msgstr "CSS : %s απέτυχε"
+
+#: Plugin/Install/Lib/AssetGenerator.php:120
+msgid "JS  : %s created"
+msgstr "JS  : %s δημιουργήθηκε"
+
+#: Plugin/Install/Lib/AssetGenerator.php:123
+msgid "JS  : %s failed"
+msgstr "JS  : %s απέτυχε"
+
+#: Plugin/Install/Lib/AssetGenerator.php:165
+msgid "Font: %s copied"
+msgstr "Font: %s αντιγράφηκε"
+
+#: Plugin/Install/Lib/AssetGenerator.php:168
+msgid "File: %s not copied"
+msgstr "File: %s δεν αντιγράφηκε"
+
+#: Plugin/Install/Lib/InstallManager.php:45
+msgid "Could not write database.php file."
+msgstr "Δεν μπόρεσε να γίνει εγγραφή στο αρχείο database.php"
+
+#: Plugin/Install/Lib/InstallManager.php:53
+msgid "Could not connect to database: "
+msgstr "Δεν μπόρεσε να γίνει η σύνδεση με τη βάση δεδομένων: "
+
+#: Plugin/Install/Lib/InstallManager.php:56
+msgid "Could not connect to database."
+msgstr "Δεν μπόρεσε να γίνει η σύνδεση με τη βάση δεδομένων."
+
+#: Plugin/Install/View/Install/adminuser.ctp:7
+msgid "Step 3: Create Admin User"
+msgstr "Βήμα 3: Δημιουργία χρήστη διαχείρησης"
+
+#: Plugin/Install/View/Install/adminuser.ctp:19
+#: Plugin/Users/View/Users/admin_reset_password.ctp:25
+msgid "New Password"
+msgstr "Νέος κωδικός"
+
+#: Plugin/Install/View/Install/data.ctp:6
+msgid "Create tables and load initial data"
+msgstr "Δημιουργία πινάκων και φόρτωση αρχικών δεδομένων"
+
+#: Plugin/Install/View/Install/data.ctp:12
+msgid "Build database"
+msgstr "Δημιουργία βάσης δεδομένων"
+
+#: Plugin/Install/View/Install/data.ctp:19
+msgid "Click here to build your database"
+msgstr "Κάντε κλικ για να δημιουργήσετε της βάση δεδομένων"
+
+#: Plugin/Install/View/Install/database.ctp:34
+msgid "Database hostname or IP Address"
+msgstr "Hostname ή IP της βάσης δεδομένων"
+
+#: Plugin/Install/View/Install/database.ctp:41
+msgid "Database login/username"
+msgstr "Όνομα χρήστη βάσης δεδομένων"
+
+#: Plugin/Install/View/Install/database.ctp:47
+msgid "Database password"
+msgstr "Κωδικός βάσης δεδομένων"
+
+#: Plugin/Install/View/Install/database.ctp:54
+msgid "Database name"
+msgstr "Όνομα βάσης δεδομένων"
+
+#: Plugin/Install/View/Install/database.ctp:60
+msgid "Table prefix (leave blank if unknown)"
+msgstr "Πρόθεμα πινάκων"
+
+#: Plugin/Install/View/Install/database.ctp:66
+msgid "Database port (leave blank if unknown)"
+msgstr "Θύρα βάσης δεδομένων"
+
+#: Plugin/Install/View/Install/finish.ctp:5
+msgid ""
+"\n"
+"\t\tThe user %s has been created with administrative rights."
+msgstr ""
+"\n"
+"\t\tΟ χρήστης %s δημιουργήθηκε με δικαιώματα διαχειριστή."
+
+#: Plugin/Install/View/Install/finish.ctp:12
+msgid "Admin panel: %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:17
+msgid "You can start with %s or jump in and %s."
+msgstr "Μπορετε να ξεκινήσετε με %s ή να μεταβείτε και να %s"
+
+#: Plugin/Install/View/Install/finish.ctp:18
+msgid "configuring your site"
+msgstr "ρυθμίζοντας το site σας"
+
+#: Plugin/Install/View/Install/finish.ctp:19
+msgid "create a blog post"
+msgstr "δημιουργία νέου blog post"
+
+#: Plugin/Install/View/Install/finish.ctp:25
+msgid "Resources"
+msgstr "Πόροι"
+
+#: Plugin/Install/View/Install/index.ctp:8
+msgid "Your tmp directory is writable."
+msgstr "Ο κατάλογος tmp είναι εγγράψιμος."
+
+#: Plugin/Install/View/Install/index.ctp:11
+msgid "Your tmp directory is NOT writable."
+msgstr "Ο κατάλογος tmp δεν είναι εγγράψιμος."
+
+#: Plugin/Install/View/Install/index.ctp:16
+msgid "Your config directory is writable."
+msgstr "Ο κατάλογος config είναι εγγράψιμος."
+
+#: Plugin/Install/View/Install/index.ctp:19
+msgid "Your config directory is NOT writable."
+msgstr "Ο κατάλογος config δεν είναι εγγράψιμος."
+
+#: Plugin/Install/View/Install/index.ctp:26
+msgid "PHP version %s %s %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:29
+msgid "PHP version %s < %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:37
+msgid "CakePhp version %s %s %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:40
+msgid "CakePHP version %s < %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:47
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: Plugin/Install/View/Install/index.ctp:52
+msgid "Click here to begin installation"
+msgstr "Κάντε κλικ εδώ για να ξεκινήσετε την εγκατάσταση"
+
+#: Plugin/Install/View/Install/index.ctp:57
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr ""
+"Η εγκατάσταση δεν μπορεί να συνεχίσει αν το σύστημα δεν πληρεί τις ελάχιστες "
+"απαιτήσεις"
+
+#: Plugin/Install/View/Layouts/install.ctp:27
+msgid "Install Croogo"
+msgstr "Εγκατάστση Croogo"
+
+#: Plugin/Menus/Config/bootstrap.php:14;24
+#: Plugin/Menus/Controller/MenusController.php:48
+#: Plugin/Menus/View/Links/admin_form.ctp:8
+#: Plugin/Menus/View/Links/admin_index.ctp:7
+#: Plugin/Menus/View/Menus/admin_form.ctp:7
+#: Plugin/Menus/View/Menus/admin_index.ctp:7
+msgid "Menus"
+msgstr ""
+
+#: Plugin/Menus/Config/bootstrap.php:34
+#: Plugin/Taxonomy/Config/bootstrap.php:54
+msgid "Add new"
+msgstr "Νέα προσθήκη"
+
+#: Plugin/Menus/Controller/LinksController.php:117
+msgid "Links: %s"
+msgstr "Σύνδεσμοι: %s"
+
+#: Plugin/Menus/Controller/LinksController.php:143
+msgid "Add Link"
+msgstr "Προσθήκη συνδέσμου"
+
+#: Plugin/Menus/Controller/LinksController.php:150;205
+msgid "The Link has been saved"
+msgstr "Ο σύνδεσμος αποθηκεύτηκε"
+
+#: Plugin/Menus/Controller/LinksController.php:162;217
+msgid "The Link could not be saved. Please, try again."
+msgstr "Ο σύνδεσμος δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Menus/Controller/LinksController.php:181
+msgid "Edit Link"
+msgstr "Επεξεργασία συνδέσμου."
+
+#: Plugin/Menus/Controller/LinksController.php:184
+msgid "Invalid Link"
+msgstr "Άκυρος σύνδεσμος"
+
+#: Plugin/Menus/Controller/LinksController.php:244;252;281;313
+msgid "Invalid id for Link"
+msgstr "Άκυρο id για τον σύνδεσμο"
+
+#: Plugin/Menus/Controller/LinksController.php:260
+msgid "Link deleted"
+msgstr "Ο σύνδεσμος διαγράφηκε"
+
+#: Plugin/Menus/Controller/LinksController.php:367
+msgid "Links deleted."
+msgstr "Οι σύνδεσμοι διαγράφηκαν"
+
+#: Plugin/Menus/Controller/LinksController.php:370
+msgid "Links published"
+msgstr "Οι σύνδεσμοι δημοσιεύθηκαν."
+
+#: Plugin/Menus/Controller/LinksController.php:373
+msgid "Links unpublished"
+msgstr "Οι σύνδεσμοι δεν είναι δημοσιευμένοι."
+
+#: Plugin/Menus/Controller/MenusController.php:62
+msgid "Add Menu"
+msgstr "Προσθήκη menu"
+
+#: Plugin/Menus/Controller/MenusController.php:67;91
+msgid "The Menu has been saved"
+msgstr "Το menu αποθηκεύτηκε."
+
+#: Plugin/Menus/Controller/MenusController.php:70;94
+msgid "The Menu could not be saved. Please, try again."
+msgstr "Το menu δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Menus/Controller/MenusController.php:83
+msgid "Edit Menu"
+msgstr "Επεξεργασία menu"
+
+#: Plugin/Menus/Controller/MenusController.php:86
+msgid "Invalid Menu"
+msgstr "Άκυρο menu"
+
+#: Plugin/Menus/Controller/MenusController.php:111
+msgid "Invalid id for Menu"
+msgstr "Άκυρο id για το menu"
+
+#: Plugin/Menus/Controller/MenusController.php:115
+msgid "Menu deleted"
+msgstr "To menu διαγράφηκε"
+
+#: Plugin/Menus/View/Links/admin_form.ctp:41;67
+msgid "Link"
+msgstr "Σύνδεσμος"
+
+#: Plugin/Menus/View/Links/admin_form.ctp:43
+#: Plugin/Menus/View/Menus/admin_form.ctp:26
+msgid "Misc."
+msgstr "Διάφορα"
+
+#: Plugin/Menus/View/Links/admin_form.ctp:69
+msgid "Link to a Node"
+msgstr "Σύνδεσμος σε Node"
+
+#: Plugin/Menus/View/Links/admin_form.ctp:105
+msgid "Rel"
+msgstr ""
+
+#: Plugin/Menus/View/Links/admin_form.ctp:108
+msgid "Target"
+msgstr ""
+
+#: Plugin/Menus/View/Links/admin_index.ctp:76
+msgid "Delete this item"
+msgstr "Διαγραφή του αντικειμένου"
+
+#: Plugin/Menus/View/Menus/admin_form.ctp:25
+msgid "Menu"
+msgstr ""
+
+#: Plugin/Menus/View/Menus/admin_index.ctp:18
+msgid "Link Count"
+msgstr "Μετρητής συνδέσμων"
+
+#: Plugin/Menus/View/Menus/admin_index.ctp:33
+msgid "View links"
+msgstr "Προβολή συνδέσμων"
+
+#: Plugin/Meta/Controller/Component/MetaComponent.php:47
+msgid "Custom Fields"
+msgstr "Προσαρμοσμένα πεδία"
+
+#: Plugin/Meta/View/Elements/admin/meta_tab.ctp:19
+msgid "Add another field"
+msgstr "Προσθήκη νέου πεδίου"
+
+#: Plugin/Meta/View/Helper/MetaHelper.php:70
+#: Plugin/Settings/View/Settings/admin_form.ctp:43
+#: Plugin/Settings/View/Settings/admin_index.ctp:21
+#: Plugin/Settings/View/Settings/admin_view.ctp:9
+msgid "Key"
+msgstr "Κλειδί"
+
+#: Plugin/Meta/View/Helper/MetaHelper.php:75
+#: Plugin/Settings/View/Settings/admin_form.ctp:46
+#: Plugin/Settings/View/Settings/admin_index.ctp:22
+#: Plugin/Settings/View/Settings/admin_view.ctp:14
+msgid "Value"
+msgstr "Τιμή"
+
+#: Plugin/Meta/View/Helper/MetaHelper.php:105
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: Plugin/Nodes/Config/bootstrap.php:49
+#: Plugin/Taxonomy/Config/bootstrap.php:44
+msgid "List"
+msgstr "Λίστα"
+
+#: Plugin/Nodes/Controller/NodesController.php:139
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:13
+msgid "Create content"
+msgstr "Δημιουργία περιεχομένου"
+
+#: Plugin/Nodes/Controller/NodesController.php:159
+msgid "Content type does not exist."
+msgstr "Ο τύπος περιεχομένου δεν υπάρχει."
+
+#: Plugin/Nodes/Controller/NodesController.php:170;209
+msgid "%s has been saved"
+msgstr "%s σώθηκε"
+
+#: Plugin/Nodes/Controller/NodesController.php:173;212
+msgid "%s could not be saved. Please, try again."
+msgstr "%s δεν μπόρεσε να σωθεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Nodes/Controller/NodesController.php:179
+msgid "Create content: %s"
+msgstr "Δημιουργία περιεχομένου: %s"
+
+#: Plugin/Nodes/Controller/NodesController.php:221
+msgid "Edit %s: %s"
+msgstr "Επεξεργασία %s: %s"
+
+#: Plugin/Nodes/Controller/NodesController.php:233
+msgid "Paths updated."
+msgstr "Τα μονοπάτια αναβαθμίστηκαν"
+
+#: Plugin/Nodes/Controller/NodesController.php:236
+msgid ""
+"Something went wrong while updating paths.\n"
+"Please try again"
+msgstr "Κάποιο σφάλμα προέκυψε. Παρακαλώ δοκιμάστε ξανά."
+
+#: Plugin/Nodes/Controller/NodesController.php:253
+msgid "Invalid id for Node"
+msgstr "Άκυρο id για Node"
+
+#: Plugin/Nodes/Controller/NodesController.php:257
+msgid "Node deleted"
+msgstr "To Node διαγράφηκε"
+
+#: Plugin/Nodes/Controller/NodesController.php:320
+msgid "Nodes deleted"
+msgstr "Τα Nodes διαγράφηκαν"
+
+#: Plugin/Nodes/Controller/NodesController.php:323
+msgid "Nodes published"
+msgstr "Τα Nodes δημοσιεύθηκαν"
+
+#: Plugin/Nodes/Controller/NodesController.php:326
+msgid "Nodes unpublished"
+msgstr "Τα Nodes δεν είναι δημοσιευμένα"
+
+#: Plugin/Nodes/Controller/NodesController.php:329
+msgid "Nodes promoted"
+msgstr "Τα nodes μπήκαν στη πρώτη σελίδα"
+
+#: Plugin/Nodes/Controller/NodesController.php:332
+msgid "Nodes unpromoted"
+msgstr "Τα nodes αφαιρέθηκαν από τη πρώτη σελίδα"
+
+#: Plugin/Nodes/Controller/NodesController.php:389;488;560;643
+msgid "Invalid content type."
+msgstr "Άκυρος τύπος περιεχομένου"
+
+#: Plugin/Nodes/Controller/NodesController.php:446
+msgid "Invalid Term."
+msgstr "Άκυρος Όρος"
+
+#: Plugin/Nodes/Controller/NodesController.php:536
+msgid "Nodes"
+msgstr ""
+
+#: Plugin/Nodes/Controller/NodesController.php:653
+msgid "Search Results: %s"
+msgstr "Αποτελέσματα Αναζήτησης: %s"
+
+#: Plugin/Nodes/Model/Node.php:392
+msgid "Invalid action to perform"
+msgstr "Άκυρη ενέργεια"
+
+#: Plugin/Nodes/Model/Node.php:396
+msgid "No target to process action upon"
+msgstr "Δεν υπάρχει δέκτης της ενέργεια αυτής"
+
+#: Plugin/Nodes/Model/Node.php:427
+msgid "Invalid Content Type"
+msgstr "Άκυρος τύπος περιεχομένου"
+
+#: Plugin/Nodes/View/Elements/node_info.ctp:6
+msgid "Posted"
+msgstr "Αναρτημένο"
+
+#: Plugin/Nodes/View/Elements/node_info.ctp:20
+msgid "on"
+msgstr "σε"
+
+#: Plugin/Nodes/View/Elements/node_more_info.ctp:18
+msgid "Posted in"
+msgstr "Αναρτημένο σε"
+
+#: Plugin/Nodes/View/Elements/node_more_info.ctp:29
+msgid "Leave a comment"
+msgstr "Αφήστε ένα σχόλιο"
+
+#: Plugin/Nodes/View/Elements/search.ctp:12
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:24
+msgid "Search"
+msgstr "Έρευνα"
+
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:25
+msgid "Search..."
+msgstr "Έρευνα..."
+
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:32
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:40
+#: Plugin/Taxonomy/Controller/TypesController.php:53
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:25
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:55
+msgid "Type"
+msgstr "Τύπος"
+
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:39
+msgid "Unpublished"
+msgstr "Αφαίρεση δημοσίευσης"
+
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:47
+msgid "Yes"
+msgstr "Ναι"
+
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:48
+msgid "No"
+msgstr "Όχι"
+
+#: Plugin/Nodes/View/Elements/admin/nodes_search.ctp:50
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:47
+msgid "Promoted"
+msgstr "Αρχική σελίδα"
+
+#: Plugin/Nodes/View/Nodes/admin_chooser.ctp:4
+msgid "Sort by:"
+msgstr "Κατανομή: "
+
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:50
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:55
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:34
+msgid "Slug"
+msgstr ""
+
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:53
+msgid "Excerpt"
+msgstr "Απόσπασμα"
+
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:82
+msgid "Promoted to front page"
+msgstr "Προώθηση στην αρχική σελίδα"
+
+#: Plugin/Nodes/View/Nodes/admin_form.ctp:86
+msgid "Publish as "
+msgstr "Δημοσίευση ως"
+
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:41
+#: Plugin/Users/View/Users/admin_form.ctp:35
+msgid "User"
+msgstr "Χρήστης"
+
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:68
+msgid "promoted"
+msgstr "προωθημένη"
+
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:116
+msgid "Applying to selected"
+msgstr "Εφαρμογή στα επιλεγμένα"
+
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:121
+msgid "Promote"
+msgstr "Προώθηση στην αρχική σελίδα"
+
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:122
+msgid "Unpromote"
+msgstr "Αφαίρεση από την αρχική σελίδα"
+
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:135
+msgid "%s selected items?"
+msgstr "%s τα επιλεγμένα αντικείμενα;"
+
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:8
+#: Plugin/Translate/View/Translate/admin_index.ctp:15
+msgid "Translate in a new language"
+msgstr "Μετάφραση σε μία νέα γλώσσα"
+
+#: Plugin/Nodes/View/Nodes/admin_translations.ctp:49
+#: Plugin/Translate/View/Translate/admin_index.ctp:79
+msgid "No translations available."
+msgstr "Δεν υπάρχουν διαθέσιμες μεταφράσεις."
+
+#: Plugin/Nodes/View/Nodes/index.ctp:4 Plugin/Nodes/View/Nodes/promoted.ctp:4
+#: Plugin/Nodes/View/Nodes/search.ctp:6 Plugin/Nodes/View/Nodes/term.ctp:6
+msgid "No items found."
+msgstr "Δεν βρέθηκαν αντικείμενα."
+
+#: Plugin/Settings/Config/bootstrap.php:12
+#: Plugin/Settings/Controller/SettingsController.php:59
+#: Plugin/Settings/View/Languages/admin_form.ctp:7
+#: Plugin/Settings/View/Languages/admin_index.ctp:6
+#: Plugin/Settings/View/Languages/admin_select.ctp:5
+#: Plugin/Settings/View/Settings/admin_form.ctp:6;28
+#: Plugin/Settings/View/Settings/admin_index.ctp:7
+#: Plugin/Settings/View/Settings/admin_prefix.ctp:4
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: Plugin/Settings/Config/bootstrap.php:23
+msgid "Site"
+msgstr ""
+
+#: Plugin/Settings/Config/bootstrap.php:35
+msgid "Meta"
+msgstr ""
+
+#: Plugin/Settings/Config/bootstrap.php:47
+msgid "Reading"
+msgstr ""
+
+#: Plugin/Settings/Config/bootstrap.php:59
+msgid "Writing"
+msgstr ""
+
+#: Plugin/Settings/Config/bootstrap.php:83
+msgid "Service"
+msgstr ""
+
+#: Plugin/Settings/Config/bootstrap.php:95
+#: Plugin/Settings/Controller/LanguagesController.php:40
+#: Plugin/Settings/View/Languages/admin_index.ctp:7
+#: Plugin/Settings/View/Languages/admin_select.ctp:6
+msgid "Languages"
+msgstr "Γλώσσες"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:33
+msgid "Displays setting values"
+msgstr "Ρυθμίσεις προβολής"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:37;55;93
+msgid "Setting key"
+msgstr ""
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:43
+msgid "List all settings"
+msgstr "Προβολή όλων των ρυθμίσεων"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:51
+msgid "Write setting value for a given key"
+msgstr "Τιμή ρύθμισης για ένα κλειδί"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:59
+msgid "Setting value"
+msgstr "Τιμή ρύθμισης"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:89
+msgid "Delete setting based on key"
+msgstr "Διαγραφή ρύθμισης βασισμένη σε κλειδί"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:100
+msgid "Update version string from git tag information"
+msgstr "Αναβάθμιση της έκδοσης από το git tag"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:129
+msgid "    %-30s: %s"
+msgstr ""
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:150
+msgid "Updating %s"
+msgstr "Αναβάθμιση %s"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:151
+msgid "Confirm update"
+msgstr "Επιβεβαίωση αναβάθμισης"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:166
+msgid "Setting updated"
+msgstr "Η ρύθμιση ανανεώθηκε"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:168;196
+msgid "Cancelled"
+msgstr "Ακυρώθηκε"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:171;199
+msgid "Key: %s not found"
+msgstr "Key: %s δεν βρέθηκε"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:189
+msgid "Deleting %s"
+msgstr "Διαγράφοντας %s"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:190
+msgid "Delete?"
+msgstr "Διαγραφή;"
+
+#: Plugin/Settings/Console/Command/SettingsShell.php:194
+#: Plugin/Settings/Controller/SettingsController.php:144
+msgid "Setting deleted"
+msgstr "Η ρύθμιση διαγράφηκε"
+
+#: Plugin/Settings/Controller/LanguagesController.php:54
+msgid "Add Language"
+msgstr "Προσθήκη γλώσσας"
+
+#: Plugin/Settings/Controller/LanguagesController.php:59;83
+msgid "The Language has been saved"
+msgstr "Η γλώσσα αποθηκεύτηκε"
+
+#: Plugin/Settings/Controller/LanguagesController.php:62;86
+msgid "The Language could not be saved. Please, try again."
+msgstr "Η γλώσσα δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Settings/Controller/LanguagesController.php:75
+msgid "Edit Language"
+msgstr "Επεξεργασία γλώσσας"
+
+#: Plugin/Settings/Controller/LanguagesController.php:78
+#: Plugin/Translate/Controller/TranslateController.php:126
+msgid "Invalid Language"
+msgstr "Άκυρη γλώσσα"
+
+#: Plugin/Settings/Controller/LanguagesController.php:103
+msgid "Invalid id for Language"
+msgstr "Άκυρο id για τη γλώσσα"
+
+#: Plugin/Settings/Controller/LanguagesController.php:107
+msgid "Language deleted"
+msgstr "Η γλώσσα διαγράφηκε"
+
+#: Plugin/Settings/Controller/LanguagesController.php:162
+msgid "Select a language"
+msgstr "Επιλογή γλώσσας"
+
+#: Plugin/Settings/Controller/SettingsController.php:78
+msgid "Invalid Setting."
+msgstr "Άκυρη ρύθμιση"
+
+#: Plugin/Settings/Controller/SettingsController.php:91
+msgid "Add Setting"
+msgstr "Προσθήκη ρύθμισης"
+
+#: Plugin/Settings/Controller/SettingsController.php:96;120
+msgid "The Setting has been saved"
+msgstr "Η ρύθμιση αποθηκεύτηκε"
+
+#: Plugin/Settings/Controller/SettingsController.php:99;123
+msgid "The Setting could not be saved. Please, try again."
+msgstr "Η ρύθμιση δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Settings/Controller/SettingsController.php:112
+#: Plugin/Settings/View/Settings/admin_view.ctp:43
+msgid "Edit Setting"
+msgstr "Επεξεργασία ρύθμισης"
+
+#: Plugin/Settings/Controller/SettingsController.php:115
+msgid "Invalid Setting"
+msgstr "Άκυρη ρύθμιση"
+
+#: Plugin/Settings/Controller/SettingsController.php:140
+msgid "Invalid id for Setting"
+msgstr "Άκυρο id για τη ρύθμιση"
+
+#: Plugin/Settings/Controller/SettingsController.php:157
+msgid "Settings: %s"
+msgstr "Ρυθμίσεις: %s"
+
+#: Plugin/Settings/Controller/SettingsController.php:161
+msgid "Settings updated successfully"
+msgstr "Οι ρυθμίσεις αναβαθμίστηκαν με επιτυχία"
+
+#: Plugin/Settings/Controller/SettingsController.php:175
+msgid "Invalid Setting key"
+msgstr "Άκυρο κλειδί ρυθμίσεων"
+
+#: Plugin/Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
+msgid "Could not add a new language."
+msgstr "Δεν μπόρεσε να προστεθεί νέα γλώσσα."
+
+#: Plugin/Settings/View/Languages/admin_form.ctp:8;25
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: Plugin/Settings/View/Languages/admin_form.ctp:41
+#: Plugin/Settings/View/Languages/admin_index.ctp:17
+msgid "Native"
+msgstr "Μητρική"
+
+#: Plugin/Settings/View/Languages/admin_select.ctp:16
+msgid "New Language"
+msgstr "Νέα γλώσσα"
+
+#: Plugin/Settings/View/Settings/admin_form.ctp:29
+msgid "Misc"
+msgstr "Διάφορα"
+
+#: Plugin/Settings/View/Settings/admin_form.ctp:42
+msgid "e.g., 'Site.title'"
+msgstr "πχ. 'Site.title'"
+
+#: Plugin/Settings/View/Settings/admin_form.ctp:60
+#: Plugin/Settings/View/Settings/admin_view.ctp:24
+msgid "Input Type"
+msgstr "Τύπος προσθήκης"
+
+#: Plugin/Settings/View/Settings/admin_form.ctp:61
+msgid "e.g., 'text' or 'textarea'"
+msgstr "πχ, 'text' ή 'textarea'"
+
+#: Plugin/Settings/View/Settings/admin_form.ctp:64
+#: Plugin/Settings/View/Settings/admin_index.ctp:23
+msgid "Editable"
+msgstr "Επεξεργάσιμο"
+
+#: Plugin/Settings/View/Settings/admin_prefix.ctp:63
+msgid "Saving"
+msgstr "Αποθήκευση"
+
+#: Plugin/Settings/View/Settings/admin_view.ctp:2
+msgid "Setting"
+msgstr "Ρύθμιση"
+
+#: Plugin/Settings/View/Settings/admin_view.ctp:29
+msgid "Weight"
+msgstr "Βάρος"
+
+#: Plugin/Settings/View/Settings/admin_view.ctp:44
+msgid "Delete Setting"
+msgstr "Διαγραφή ρύθμισης"
+
+#: Plugin/Settings/View/Settings/admin_view.ctp:44
+msgid "Are you sure you want to delete # %s?"
+msgstr "Είστε σίγουρος θέλετε να διαγράψετε το # %s;"
+
+#: Plugin/Settings/View/Settings/admin_view.ctp:45
+msgid "List Settings"
+msgstr "Λίστα ρυθμίσεων"
+
+#: Plugin/Settings/View/Settings/admin_view.ctp:46
+msgid "New Setting"
+msgstr "Νέα ρύθμιση"
+
+#: Plugin/Taxonomy/Config/bootstrap.php:23
+msgid "Content Types"
+msgstr "Τύποι Περιεχομένου"
+
+#: Plugin/Taxonomy/Config/bootstrap.php:34
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:26
+msgid "Taxonomy"
+msgstr ""
+
+#: Plugin/Taxonomy/Controller/TermsController.php:64
+msgid "Invalid Vocabulary ID."
+msgstr "Άκυρο Vocabulary ID."
+
+#: Plugin/Taxonomy/Controller/TermsController.php:70
+msgid "Vocabulary: %s"
+msgstr "Λεξιλόγιο: %s"
+
+#: Plugin/Taxonomy/Controller/TermsController.php:110
+msgid "%s: Add Term"
+msgstr "Προσθήκη όρου"
+
+#: Plugin/Taxonomy/Controller/TermsController.php:120;224
+msgid "Term with same slug already exists in the vocabulary."
+msgstr "Όρος με το ίδιο slug υπάρχει ήδη."
+
+#: Plugin/Taxonomy/Controller/TermsController.php:133;238
+msgid "Term saved successfuly."
+msgstr "Ο όρος αποθηκεύτηκε."
+
+#: Plugin/Taxonomy/Controller/TermsController.php:139;244
+msgid "Term could not be added to the vocabulary. Please try again."
+msgstr "Ο όρος δεν μπόρεσε να προστεθεί."
+
+#: Plugin/Taxonomy/Controller/TermsController.php:143;248
+msgid "Term could not be saved. Please try again."
+msgstr "Ο όρος δεν μπόρεσε να αποθηκευτεί."
+
+#: Plugin/Taxonomy/Controller/TermsController.php:199
+msgid "%s: Edit Term"
+msgstr "%s: Επεξεργασία Όρου"
+
+#: Plugin/Taxonomy/Controller/TermsController.php:268;312;353
+msgid "Invalid id for Term"
+msgstr "Άκυρο id για το ορο"
+
+#: Plugin/Taxonomy/Controller/TermsController.php:288
+msgid "Term deleted"
+msgstr "Ο όρος διαγράφηκε"
+
+#: Plugin/Taxonomy/Controller/TermsController.php:290
+msgid "Term in Vocabulary deleted"
+msgstr "Ο όρος διαγράφηκε από το λεξιλόγιο"
+
+#: Plugin/Taxonomy/Controller/TermsController.php:293
+msgid "Term could not be deleted. Please, try again."
+msgstr "Ο όρος δεν μπόρεσε να διαγραφεί."
+
+#: Plugin/Taxonomy/Controller/TypesController.php:68
+msgid "Add Type"
+msgstr "Προσθήκη τύπου."
+
+#: Plugin/Taxonomy/Controller/TypesController.php:73;100
+msgid "The Type has been saved"
+msgstr "Ο τύπος αποθηκεύτηκε"
+
+#: Plugin/Taxonomy/Controller/TypesController.php:76;103
+msgid "The Type could not be saved. Please, try again."
+msgstr "Ο τύπος δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Taxonomy/Controller/TypesController.php:92
+msgid "Edit Type"
+msgstr "Επεξεργασία τύπου."
+
+#: Plugin/Taxonomy/Controller/TypesController.php:95
+msgid "Invalid Type"
+msgstr "Άκυρος τύπος"
+
+#: Plugin/Taxonomy/Controller/TypesController.php:123
+msgid "Invalid id for Type"
+msgstr "Άκυρο id για τον τύπο"
+
+#: Plugin/Taxonomy/Controller/TypesController.php:127
+msgid "Type deleted"
+msgstr "Ο τύπος διαγράφηκε"
+
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:40
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:12;19
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:8
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:11;17
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:8
+msgid "Vocabularies"
+msgstr "Λεξιλόγια"
+
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:54
+msgid "Add Vocabulary"
+msgstr "Προσθήκη λεξιλογίου"
+
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:59;86
+msgid "The Vocabulary has been saved"
+msgstr "Το λεξιλόγιο αποθηκεύτηκε"
+
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:62;89
+msgid "The Vocabulary could not be saved. Please, try again."
+msgstr "Το λεξιλόγιο δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:78
+msgid "Edit Vocabulary"
+msgstr "Επεξεργασία λεξιλογίου."
+
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:81
+msgid "Invalid Vocabulary"
+msgstr "Άκυρο λεξιλόγιο."
+
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:109
+msgid "Invalid id for Vocabulary"
+msgstr "Άκυρο id για το λεξιλόγιο."
+
+#: Plugin/Taxonomy/Controller/VocabulariesController.php:113
+msgid "Vocabulary deleted"
+msgstr "Το λεξιλόγιο διαγράφηκε."
+
+#: Plugin/Taxonomy/View/Helper/TaxonomiesHelper.php:105
+msgid "Terms"
+msgstr "Όροι"
+
+#: Plugin/Taxonomy/View/Terms/admin_form.ctp:34
+msgid "Term"
+msgstr "Όρος"
+
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:15
+msgid "New Term"
+msgstr "Νέος όρος"
+
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:7
+#: Plugin/Taxonomy/View/Types/admin_index.ctp:5
+msgid "Types"
+msgstr "Τύποι"
+
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:118
+msgid "Show author's name"
+msgstr "Προβολής ονόματος δημιουργού"
+
+#: Plugin/Taxonomy/View/Types/admin_form.ctp:122
+msgid "Show date"
+msgstr "Προβολή ημερομηνίας"
+
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:29
+msgid "Vocabulary"
+msgstr "Λεξιλόγιο"
+
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:30
+msgid "Options"
+msgstr "Επιλογές"
+
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:63
+msgid "Required"
+msgstr "Απαιτούμενο"
+
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:67
+msgid "Multiple"
+msgstr "Πολλαπλό"
+
+#: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:71
+msgid "Tags"
+msgstr ""
+
+#: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:30
+msgid "View terms"
+msgstr "Προβολή όρων"
+
+#: Plugin/Translate/Controller/TranslateController.php:45;99
+msgid "Invalid ID."
+msgstr "Άκυρο ID"
+
+#: Plugin/Translate/Controller/TranslateController.php:57;194
+msgid "Invalid model."
+msgstr "Άκυρο μοντέλο"
+
+#: Plugin/Translate/Controller/TranslateController.php:68;137;205
+msgid "Invalid record."
+msgstr "Άκυρη εγγραφή"
+
+#: Plugin/Translate/Controller/TranslateController.php:75
+msgid "Translations: %s"
+msgstr "Μεταφράσεις: %s"
+
+#: Plugin/Translate/Controller/TranslateController.php:144
+msgid "Translate content: %s (%s)"
+msgstr "Μετάφραση περιεχομένου: %s (%s)"
+
+#: Plugin/Translate/Controller/TranslateController.php:151
+msgid "Record has been translated"
+msgstr "Η εγγραφή μεταφράστηκε"
+
+#: Plugin/Translate/Controller/TranslateController.php:163
+msgid "Record could not be translated. Please, try again."
+msgstr "Η εγγραφή δεν μπόρεσε να μεταφραστεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Translate/Controller/TranslateController.php:182
+msgid "Invalid Locale or ID"
+msgstr "Άκυρο Locale ή ID"
+
+#: Plugin/Translate/Controller/TranslateController.php:220
+msgid "Translation for the locale deleted successfully."
+msgstr "Η μετάφραση για το locale διαγράφηκε."
+
+#: Plugin/Translate/Controller/TranslateController.php:222
+msgid "Translation for the locale could not be deleted."
+msgstr "Η μετάφραση για το locale δεν διαγράφηκε."
+
+#: Plugin/Translate/Model/Behavior/CroogoTranslateBehavior.php:56
+#: Plugin/Translate/View/Translate/admin_edit.ctp:7;24
+#: Plugin/Translate/View/Translate/admin_index.ctp:7
+msgid "Translate"
+msgstr "Μετάφραση"
+
+#: Plugin/Users/Config/bootstrap.php:42
+#: Plugin/Users/Controller/RolesController.php:40
+#: Plugin/Users/View/Roles/admin_form.ctp:6
+#: Plugin/Users/View/Roles/admin_index.ctp:7
+msgid "Roles"
+msgstr "Ρόλοι"
+
+#: Plugin/Users/Console/Command/UsersShell.php:20
+msgid "Reset user password"
+msgstr "Νέος κωδικός χρήστη"
+
+#: Plugin/Users/Console/Command/UsersShell.php:25
+msgid "Username to reset"
+msgstr "Όνομα χρήστη"
+
+#: Plugin/Users/Console/Command/UsersShell.php:29
+msgid "New user password"
+msgstr "Νέο κωδικός"
+
+#: Plugin/Users/Console/Command/UsersShell.php:45
+msgid "User '%s' not found"
+msgstr "Ο χρήστης '%s' δεν βρέθηκε"
+
+#: Plugin/Users/Console/Command/UsersShell.php:50
+msgid "Password for '%s' has been changed"
+msgstr "Ο κωδικός για τον '%s' βρέθηκε"
+
+#: Plugin/Users/Controller/RolesController.php:55
+msgid "Add Role"
+msgstr "Προσθήκη ρόλου"
+
+#: Plugin/Users/Controller/RolesController.php:60;84
+msgid "The Role has been saved"
+msgstr "Ο ρόλος αποθηκεύτηκε"
+
+#: Plugin/Users/Controller/RolesController.php:63;87
+msgid "The Role could not be saved. Please, try again."
+msgstr "Ο ρόλος δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Users/Controller/RolesController.php:76
+msgid "Edit Role"
+msgstr "Επεξεργασία ρόλου."
+
+#: Plugin/Users/Controller/RolesController.php:79
+msgid "Invalid Role"
+msgstr "Άκυρος ρόλος"
+
+#: Plugin/Users/Controller/RolesController.php:104
+msgid "Invalid id for Role"
+msgstr "Άκυρο id για τον ρόλο"
+
+#: Plugin/Users/Controller/RolesController.php:108
+msgid "Role deleted"
+msgstr "Ο ρόλος διαγράφηκε"
+
+#: Plugin/Users/Controller/UsersController.php:77
+msgid ""
+"You have reached maximum limit for failed login attempts. Please try again "
+"after a few minutes."
+msgstr ""
+"Δεν επιτρέπονται άλλες προσπάθειες. Παρακαλώ δοκιμάστε ξανά σε μερικά λετπά."
+
+#: Plugin/Users/Controller/UsersController.php:146;353
+msgid "[%s] Please activate your account"
+msgstr "[%s] Παρακαλώ ενεργοποιήστε τον λογαριασμό σας"
+
+#: Plugin/Users/Controller/UsersController.php:171;194
+msgid "The User has been saved"
+msgstr "Ο Χρήστης αποθηκεύτηκε."
+
+#: Plugin/Users/Controller/UsersController.php:174;197;364
+msgid "The User could not be saved. Please, try again."
+msgstr "Ο Χρήστης δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Users/Controller/UsersController.php:216
+msgid "Invalid User"
+msgstr "Άκυρος χρήστης"
+
+#: Plugin/Users/Controller/UsersController.php:221
+msgid "Password has been reset."
+msgstr "Έγινε επαναφορά του κωδικού."
+
+#: Plugin/Users/Controller/UsersController.php:224
+msgid "Password could not be reset. Please, try again."
+msgstr "Δεν μπόρεσε να γίνει επαναφορά του κωδικού. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Users/Controller/UsersController.php:239
+msgid "Invalid id for User"
+msgstr "Άκυρο id για τον χρήστη."
+
+#: Plugin/Users/Controller/UsersController.php:243
+msgid "User deleted"
+msgstr "Ο χρήστης διαγράφηκε"
+
+#: Plugin/Users/Controller/UsersController.php:246
+msgid "User cannot be deleted"
+msgstr "Ο χρήστης δεν μπόρεσε να διαγραφεί"
+
+#: Plugin/Users/Controller/UsersController.php:258
+msgid "Admin Login"
+msgstr "Σύνδεση Διαχειριστή"
+
+#: Plugin/Users/Controller/UsersController.php:267
+msgid "Incorrect username or password"
+msgstr "Λάθος όνομα ή κωδικός"
+
+#: Plugin/Users/Controller/UsersController.php:282;548
+msgid "Log out successful."
+msgstr "Επιτυχής αποσύνδεση."
+
+#: Plugin/Users/Controller/UsersController.php:337
+msgid "Register"
+msgstr "Εγγραφή"
+
+#: Plugin/Users/Controller/UsersController.php:360
+msgid ""
+"You have successfully registered an account. An email has been sent with "
+"further instructions."
+msgstr ""
+"Επιτυχής δημιουργία λογιαριασμού. Θα σας αποσταλεί email με επιπλέον οδηγίες."
+
+#: Plugin/Users/Controller/UsersController.php:384
+#: Plugin/Users/View/Users/index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "Είστε συνδεδεμένος ως:"
+
+#: Plugin/Users/Controller/UsersController.php:415
+msgid "Account activated successfully."
+msgstr "Ο λογαριασμός ενεργοποιήθηκε με επιτυχία."
+
+#: Plugin/Users/Controller/UsersController.php:442
+msgid "Forgot Password"
+msgstr "Ξέχασα τον κωδικό"
+
+#: Plugin/Users/Controller/UsersController.php:447
+msgid "Invalid username."
+msgstr "Λάθος όνομα"
+
+#: Plugin/Users/Controller/UsersController.php:459
+msgid "[%s] Reset Password"
+msgstr "[%s] Επαναφορά Κωδικού"
+
+#: Plugin/Users/Controller/UsersController.php:467
+msgid "An email has been sent with instructions for resetting your password."
+msgstr "Στάλθηκε email με οδηγίες για την επαναφορά του κωδικού σας."
+
+#: Plugin/Users/Controller/UsersController.php:470;512
+msgid "An error occurred. Please try again."
+msgstr "Προέκυψε ένα σφάλμα. Παρακαλώ δοκιμάστε ξανά."
+
+#: Plugin/Users/Controller/UsersController.php:484
+#: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
+msgid "Reset Password"
+msgstr "Επαναφορά κωδικού."
+
+#: Plugin/Users/Controller/UsersController.php:509
+msgid "Your password has been reset successfully."
+msgstr "Ο κωδικός σας επαναφέρθηκε με επιτυχία."
+
+#: Plugin/Users/Controller/UsersController.php:526
+msgid "Log in"
+msgstr "Σύνδεση"
+
+#: Plugin/Users/Controller/UsersController.php:566
+msgid "Invalid User."
+msgstr "Άκυρος χρήστης"
+
+#: Plugin/Users/Model/User.php:219
+msgid "Passwords do not match. Please, try again."
+msgstr "Οι κωδικοί δεν ταιριάζουν. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Plugin/Users/View/Emails/text/forgot_password.ctp:1
+#: Plugin/Users/View/Emails/text/register.ctp:1
+msgid "Hello %s"
+msgstr "Γειά σου %s"
+
+#: Plugin/Users/View/Emails/text/forgot_password.ctp:10
+msgid "Please visit this link to reset your password: %s"
+msgstr ""
+"Παρακαλώ επισκεφθείτε αυτό τον σύνδεσμο για να επαναφέρετε τον κωδικό σας: %s"
+
+#: Plugin/Users/View/Emails/text/forgot_password.ctp:14
+msgid "If you did not request a password reset, then please ignore this email."
+msgstr ""
+"Εάν δεν ζητήσατε επαναφορά του κωδικού σας, παρακαλώ αγνοήστε αυτό το μήνυμα."
+
+#: Plugin/Users/View/Emails/text/register.ctp:12
+msgid "Please visit this link to activate your account: %s"
+msgstr ""
+"Παρακαλώ επισκεφθείτε αυτόν τον σύνδεσμο για να ενεργοποιήσετε το "
+"λογιαριασμό σας: %s"
+
+#: Plugin/Users/View/Roles/admin_form.ctp:23
+#: Plugin/Users/View/Users/admin_form.ctp:45
+msgid "Role"
+msgstr "Ρόλος"
+
+#: Plugin/Users/View/Users/admin_form.ctp:23
+#: Plugin/Users/View/Users/admin_reset_password.ctp:1
+msgid "Reset password"
+msgstr "Επαναφορά κωδικού"
+
+#: Plugin/Users/View/Users/admin_form.ctp:79
+msgid "Send Activation Email"
+msgstr "Αποστολή email ενεργοποίησης"
+
+#: Plugin/Users/View/Users/admin_login.ctp:22
+msgid "Remember me?"
+msgstr "Να με θυμάσαι"
+
+#: Plugin/Users/View/Users/admin_login.ctp:27
+msgid "Log In"
+msgstr "Σύνδεση"
+
+#: Plugin/Users/View/Users/admin_login.ctp:28
+msgid "Forgot password?"
+msgstr "Ξέχασα τον κωδικό"
+
+#: Plugin/Users/View/Users/admin_reset_password.ctp:36
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: Plugin/Users/View/Users/reset.ctp:6
+msgid "New password"
+msgstr "Νέος κωδικός"
+
+#: Plugin/Blocks/Model/Block.php:validation for field title
+#: Plugin/Blocks/Model/Region.php:validation
+#: Plugin/Menus/Model/Link.php:validation
+#: Plugin/Menus/Model/Menu.php:validation
+#: Plugin/Settings/Model/Language.php:validation
+#: Plugin/Taxonomy/Model/Type.php:validation
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation
+msgid "Title cannot be empty."
+msgstr "Ο τίτλος δεν μπορεί να είναι κενός."
+
+#: Plugin/Blocks/Model/Block.php:validation for field alias
+#: Plugin/Blocks/Model/Region.php:validation
+#: Plugin/Contacts/Model/Contact.php:validation
+#: Plugin/Menus/Model/Menu.php:validation
+#: Plugin/Settings/Model/Language.php:validation
+#: Plugin/Taxonomy/Model/Type.php:validation
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation
+#: Plugin/Users/Model/Role.php:validation
+msgid "This alias has already been taken."
+msgstr "Το alias είναι ήδη δεσμευμένο."
+
+#: Plugin/Blocks/Model/Block.php:validation for field alias
+#: Plugin/Blocks/Model/Region.php:validation
+#: Plugin/Contacts/Model/Contact.php:validation
+#: Plugin/Menus/Model/Menu.php:validation
+#: Plugin/Settings/Model/Language.php:validation
+#: Plugin/Taxonomy/Model/Type.php:validation
+#: Plugin/Taxonomy/Model/Vocabulary.php:validation
+#: Plugin/Users/Model/Role.php:validation title;validation
+msgid "Alias cannot be empty."
+msgstr "Το alias δεν μπορεί να είναι κενό."
+
+#: Plugin/Comments/Model/Comment.php:validation for field body;validation name
+#: Plugin/Contacts/Model/Contact.php:validation title
+#: Plugin/Contacts/Model/Message.php:validation name;validation
+#: title;validation body Plugin/FileManager/Model/Attachment.php:validation
+#: Plugin/Nodes/Model/Node.php:validation
+#: Plugin/Users/Model/User.php:validation username;validation
+msgid "This field cannot be left blank."
+msgstr "Το πεδίο δεν μπορεί να είναι κενό."
+
+#: Plugin/Comments/Model/Comment.php:validation for field email
+msgid "Please enter a valid email address."
+msgstr "Παρακαλώ δώστε μία έγκυρη διεύθυνση email."
+
+#: Plugin/Contacts/Model/Contact.php:validation for field email
+#: Plugin/Contacts/Model/Message.php:validation
+#: Plugin/Users/Model/User.php:validation
+msgid "Please provide a valid email address."
+msgstr "Παρακαλώ δώστε μία έγκυρη διεύθυνση email."
+
+#: Plugin/FileManager/Model/Attachment.php:validation for field slug
+#: Plugin/Nodes/Model/Node.php:validation
+#: Plugin/Taxonomy/Model/Term.php:validation
+msgid "This slug has already been taken."
+msgstr "To slug αυτό δεν είναι διαθέσιμο."
+
+#: Plugin/FileManager/Model/Attachment.php:validation for field slug
+#: Plugin/Nodes/Model/Node.php:validation
+#: Plugin/Taxonomy/Model/Term.php:validation
+msgid "Slug cannot be empty."
+msgstr "Τo slug δεν μπορεί να είναι κενό."
+
+#: Plugin/Menus/Model/Link.php:validation for field link
+msgid "Link cannot be empty."
+msgstr "Ο Σύνδεσμος δεν μπορεί να είναι κενός."
+
+#: Plugin/Settings/Model/Setting.php:validation for field key
+msgid "This key has already been taken."
+msgstr "Το κλειδί αυτό είναι ήδη δεσμευμένο."
+
+#: Plugin/Settings/Model/Setting.php:validation for field key
+msgid "Key cannot be empty."
+msgstr "Το κλειδί δεν μπορεί να είναι κενό."
+
+#: Plugin/Users/Model/Role.php:validation for field title;validation alias
+#: Plugin/Users/Model/User.php:validation username;validation name
+msgid "This field must be alphanumeric"
+msgstr "Το πεδίο αυτό πρέπει να είναι αλφαριθμητικό"
+
+#: Plugin/Users/Model/User.php:validation for field username
+msgid "The username has already been taken."
+msgstr "Το όνομα χρήστη δεν είναι διαθέσιμο."
+
+#: Plugin/Users/Model/User.php:validation for field email
+msgid "Email address already in use."
+msgstr "Η διεύθυνση email χρησιμοποιείται ήδη."
+
+#: Plugin/Users/Model/User.php:validation for field password
+msgid "Passwords must be at least 6 characters long."
+msgstr "Οι κωδικοί πρέπει να έχουν μήκος τουλάχιστον 6 χαρακτήρες."
+
+#: Plugin/Users/Model/User.php:validation for field website
+msgid "This field must be a valid URL"
+msgstr "Το πεδίο πρέπει να περιέχει ένα σωστό URL."
