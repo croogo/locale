@@ -1518,7 +1518,7 @@ msgstr ""
 msgid "Command not recognized"
 msgstr ""
 
-#: Plugin/Croogo/Controller/CroogoAppController.php:160
+#: Plugin/Croogo/Controller/CroogoAppController.php:165
 msgid "Site down for maintenance"
 msgstr "Prebieha údržba stránky"
 
@@ -1681,14 +1681,14 @@ msgstr "obsah sem"
 msgid "Extensions"
 msgstr "Rozšírenia"
 
-#: Plugin/Extensions/Config/bootstrap.php:14
+#: Plugin/Extensions/Config/bootstrap.php:15
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:60
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:6
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Themes"
 msgstr "Šablóny"
 
-#: Plugin/Extensions/Config/bootstrap.php:23
+#: Plugin/Extensions/Config/bootstrap.php:25
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:44
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:10
@@ -1696,7 +1696,7 @@ msgstr "Šablóny"
 msgid "Locales"
 msgstr "Lokalizácie"
 
-#: Plugin/Extensions/Config/bootstrap.php:32
+#: Plugin/Extensions/Config/bootstrap.php:35
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:69
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:8
@@ -2590,7 +2590,7 @@ msgstr "Kľúč"
 msgid "Value"
 msgstr "Hodnota"
 
-#: Plugin/Meta/View/Helper/MetaHelper.php:105
+#: Plugin/Meta/View/Helper/MetaHelper.php:104
 msgid "Remove"
 msgstr "Odobrať"
 
@@ -2678,15 +2678,15 @@ msgstr "Uzly"
 msgid "Search Results: %s"
 msgstr "Vysledok vyhľadávania: %s"
 
-#: Plugin/Nodes/Model/Node.php:392
+#: Plugin/Nodes/Model/Node.php:417
 msgid "Invalid action to perform"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:396
+#: Plugin/Nodes/Model/Node.php:421
 msgid "No target to process action upon"
 msgstr ""
 
-#: Plugin/Nodes/Model/Node.php:427
+#: Plugin/Nodes/Model/Node.php:452
 msgid "Invalid Content Type"
 msgstr ""
 

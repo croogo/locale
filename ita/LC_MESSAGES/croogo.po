@@ -105,7 +105,7 @@ msgstr "Tipo di albero da recuperare"
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:27
 #: Plugin/Settings/View/Languages/admin_index.ctp:20
 #: Plugin/Settings/View/Settings/admin_index.ctp:24
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:43
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:35
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:17
 #: Plugin/Translate/View/Translate/admin_index.ctp:37
 msgid "Actions"
@@ -213,19 +213,19 @@ msgstr "Cancellato %s e tutti i figli"
 msgid "Created Aco node: <success>%s</success>"
 msgstr "Creato nodo ACO: <success>%s</success>"
 
-#: Plugin/Acl/Lib/AclExtras.php:373
+#: Plugin/Acl/Lib/AclExtras.php:376
 msgid "Deleted Aco node: <warning>%s</warning>"
 msgstr "Eliminato nodo ACO: <warning>%s</warning>"
 
-#: Plugin/Acl/Lib/AclExtras.php:392
+#: Plugin/Acl/Lib/AclExtras.php:395
 msgid "<success>Tree is valid and strong</success>"
 msgstr "<success>L'albero è valido e solido</success>"
 
-#: Plugin/Acl/Lib/AclExtras.php:410
+#: Plugin/Acl/Lib/AclExtras.php:413
 msgid "Tree has been recovered, or tree did not need recovery."
 msgstr "L'albero è stato recuperato o non aveva necessità di essere corretto."
 
-#: Plugin/Acl/Lib/AclExtras.php:412
+#: Plugin/Acl/Lib/AclExtras.php:415
 msgid "<error>Tree recovery failed.</error>"
 msgstr "<error>Il recupero dell'albero è fallito</error>"
 
@@ -258,7 +258,7 @@ msgstr "Ruolo: Admin non trovato"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:10
 #: Plugin/Acl/View/AclPermissions/admin_index.ctp:9
 #: Plugin/Users/Config/bootstrap.php:22;32
-#: Plugin/Users/Controller/UsersController.php:108;258
+#: Plugin/Users/Controller/UsersController.php:108;293
 #: Plugin/Users/View/Roles/admin_form.ctp:5
 #: Plugin/Users/View/Roles/admin_index.ctp:6
 #: Plugin/Users/View/Users/admin_form.ctp:7
@@ -346,10 +346,10 @@ msgstr "Pubblicazione"
 
 #: Plugin/Acl/View/AclActions/admin_form.ctp:59
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:106
-#: Plugin/Comments/View/Comments/admin_index.ctp:123
-#: Plugin/Contacts/View/Messages/admin_index.ctp:134
-#: Plugin/Menus/View/Links/admin_index.ctp:112
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:126
+#: Plugin/Comments/View/Comments/admin_index.ctp:128
+#: Plugin/Contacts/View/Messages/admin_index.ctp:139
+#: Plugin/Menus/View/Links/admin_index.ctp:113
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:131
 msgid "Submit"
 msgstr "Invio"
 
@@ -380,7 +380,7 @@ msgstr "Invio"
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:73
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:113
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:86
-#: Plugin/Translate/View/Translate/admin_edit.ctp:47
+#: Plugin/Translate/View/Translate/admin_edit.ctp:48
 #: Plugin/Users/View/Roles/admin_form.ctp:53
 #: Plugin/Users/View/Users/admin_form.ctp:74
 #: Plugin/Users/View/Users/admin_reset_password.ctp:38
@@ -431,7 +431,7 @@ msgstr "Modifica azioni"
 #: Plugin/Settings/View/Languages/admin_index.ctp:15
 #: Plugin/Settings/View/Settings/admin_index.ctp:20
 #: Plugin/Settings/View/Settings/admin_view.ctp:4
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:40
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:32
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:14
 msgid "Id"
 msgstr "Id"
@@ -443,7 +443,7 @@ msgstr "Id"
 #: Plugin/Menus/View/Links/admin_index.ctp:58
 #: Plugin/Settings/View/Languages/admin_index.ctp:34
 #: Plugin/Settings/View/Settings/admin_index.ctp:36
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:56
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:48
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
 msgstr "Sposta sù"
@@ -455,7 +455,7 @@ msgstr "Sposta sù"
 #: Plugin/Menus/View/Links/admin_index.ctp:64
 #: Plugin/Settings/View/Languages/admin_index.ctp:38
 #: Plugin/Settings/View/Settings/admin_index.ctp:40
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:60
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:52
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
 msgstr "Sposta giù"
@@ -473,7 +473,7 @@ msgstr "Sposta giù"
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:91
 #: Plugin/Settings/View/Languages/admin_index.ctp:42
 #: Plugin/Settings/View/Settings/admin_index.ctp:44
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:64
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:56
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:43
 #: Plugin/Translate/View/Translate/admin_index.ctp:54
 msgid "Edit this item"
@@ -482,16 +482,16 @@ msgstr "Modifica questo elemento"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:121
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:19
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:52
-#: Plugin/Comments/View/Comments/admin_index.ctp:72
-#: Plugin/Contacts/View/Messages/admin_index.ctp:89
+#: Plugin/Comments/View/Comments/admin_index.ctp:75
+#: Plugin/Contacts/View/Messages/admin_index.ctp:92
 #: Plugin/Croogo/View/Common/admin_index.ctp:87
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:47
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:37
 #: Plugin/Menus/View/Menus/admin_index.ctp:44
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:95
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:98
 #: Plugin/Settings/View/Languages/admin_index.ctp:46
 #: Plugin/Settings/View/Settings/admin_index.ctp:49
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:68
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:60
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:47
 #: Plugin/Translate/View/Translate/admin_index.ctp:63
 msgid "Remove this item"
@@ -500,22 +500,22 @@ msgstr "Rimuovi questo elemento"
 #: Plugin/Acl/View/AclActions/admin_index.ctp:125
 #: Plugin/Acl/View/AclPermissions/json/admin_index.ctp:20
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:53
-#: Plugin/Comments/View/Comments/admin_index.ctp:73
-#: Plugin/Contacts/View/Messages/admin_index.ctp:90
+#: Plugin/Comments/View/Comments/admin_index.ctp:78
+#: Plugin/Contacts/View/Messages/admin_index.ctp:95
 #: Plugin/Croogo/View/Common/admin_index.ctp:89
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:48
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:105
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:122
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/Attachments/admin_index.ctp:38
 #: Plugin/FileManager/View/Helper/FileManagerHelper.php:137
-#: Plugin/Menus/View/Links/admin_index.ctp:78
+#: Plugin/Menus/View/Links/admin_index.ctp:79
 #: Plugin/Menus/View/Menus/admin_index.ctp:45
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:96
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:101
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
 #: Plugin/Settings/View/Languages/admin_index.ctp:47
 #: Plugin/Settings/View/Settings/admin_index.ctp:50
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:69
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:61
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:48
 #: Plugin/Translate/View/Translate/admin_index.ctp:64
 msgid "Are you sure?"
@@ -552,97 +552,97 @@ msgstr "Blocchi"
 msgid "Regions"
 msgstr "regioni"
 
-#: Plugin/Blocks/Controller/BlocksController.php:120
+#: Plugin/Blocks/Controller/BlocksController.php:121
 msgid "Add Block"
 msgstr "Aggiungi Blocco"
 
-#: Plugin/Blocks/Controller/BlocksController.php:127;156
+#: Plugin/Blocks/Controller/BlocksController.php:128;157
 msgid "The Block has been saved"
 msgstr "Il Blocco è stato salvato"
 
-#: Plugin/Blocks/Controller/BlocksController.php:130;159
+#: Plugin/Blocks/Controller/BlocksController.php:131;160
 msgid "The Block could not be saved. Please, try again."
 msgstr "Il Blocco non può essere salvato, prova di nuovo."
 
-#: Plugin/Blocks/Controller/BlocksController.php:146
+#: Plugin/Blocks/Controller/BlocksController.php:147
 msgid "Edit Block"
 msgstr "Modifica Blocco"
 
-#: Plugin/Blocks/Controller/BlocksController.php:149
+#: Plugin/Blocks/Controller/BlocksController.php:150
 msgid "Invalid Block"
 msgstr "Blocco non valido"
 
-#: Plugin/Blocks/Controller/BlocksController.php:184
+#: Plugin/Blocks/Controller/BlocksController.php:185
 msgid "Invalid id for Block"
 msgstr "Id non valido per il Blocco"
 
-#: Plugin/Blocks/Controller/BlocksController.php:188
+#: Plugin/Blocks/Controller/BlocksController.php:189
 msgid "Block deleted"
 msgstr "Blocco eliminato"
 
-#: Plugin/Blocks/Controller/BlocksController.php:203
-#: Plugin/Menus/Controller/LinksController.php:278
+#: Plugin/Blocks/Controller/BlocksController.php:204
+#: Plugin/Menus/Controller/LinksController.php:290
 #: Plugin/Settings/Controller/LanguagesController.php:122
-#: Plugin/Settings/Controller/SettingsController.php:190
-#: Plugin/Taxonomy/Controller/TermsController.php:327
+#: Plugin/Settings/Controller/SettingsController.php:191
+#: Plugin/Taxonomy/Controller/TermsController.php:331
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:128
 msgid "Moved up successfully"
 msgstr "Spostato sù correttamente"
 
-#: Plugin/Blocks/Controller/BlocksController.php:205
-#: Plugin/Menus/Controller/LinksController.php:280
+#: Plugin/Blocks/Controller/BlocksController.php:206
+#: Plugin/Menus/Controller/LinksController.php:292
 #: Plugin/Settings/Controller/LanguagesController.php:124
-#: Plugin/Settings/Controller/SettingsController.php:192
-#: Plugin/Taxonomy/Controller/TermsController.php:329
+#: Plugin/Settings/Controller/SettingsController.php:193
+#: Plugin/Taxonomy/Controller/TermsController.php:333
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:130
 msgid "Could not move up"
 msgstr "Non posso spostare sù"
 
-#: Plugin/Blocks/Controller/BlocksController.php:221
-#: Plugin/Menus/Controller/LinksController.php:313
+#: Plugin/Blocks/Controller/BlocksController.php:222
+#: Plugin/Menus/Controller/LinksController.php:322
 #: Plugin/Settings/Controller/LanguagesController.php:140
-#: Plugin/Settings/Controller/SettingsController.php:216
-#: Plugin/Taxonomy/Controller/TermsController.php:369
+#: Plugin/Settings/Controller/SettingsController.php:217
+#: Plugin/Taxonomy/Controller/TermsController.php:373
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:146
 msgid "Moved down successfully"
 msgstr "Spostato giù correttamente"
 
-#: Plugin/Blocks/Controller/BlocksController.php:223
-#: Plugin/Menus/Controller/LinksController.php:315
+#: Plugin/Blocks/Controller/BlocksController.php:224
+#: Plugin/Menus/Controller/LinksController.php:324
 #: Plugin/Settings/Controller/LanguagesController.php:142
-#: Plugin/Settings/Controller/SettingsController.php:218
-#: Plugin/Taxonomy/Controller/TermsController.php:371
+#: Plugin/Settings/Controller/SettingsController.php:219
+#: Plugin/Taxonomy/Controller/TermsController.php:375
 #: Plugin/Taxonomy/Controller/VocabulariesController.php:148
 msgid "Could not move down"
 msgstr "Non posso spostare giù"
 
-#: Plugin/Blocks/Controller/BlocksController.php:245
+#: Plugin/Blocks/Controller/BlocksController.php:246
 #: Plugin/Comments/Controller/CommentsController.php:159
 #: Plugin/Contacts/Controller/MessagesController.php:138
-#: Plugin/Menus/Controller/LinksController.php:341
-#: Plugin/Nodes/Controller/NodesController.php:307
+#: Plugin/Menus/Controller/LinksController.php:350
+#: Plugin/Nodes/Controller/NodesController.php:310
 msgid "No items selected."
 msgstr "Nessun elemento selezionato"
 
-#: Plugin/Blocks/Controller/BlocksController.php:251
+#: Plugin/Blocks/Controller/BlocksController.php:252
 msgid "Blocks deleted"
 msgstr "Blocchi cancellati"
 
-#: Plugin/Blocks/Controller/BlocksController.php:254
+#: Plugin/Blocks/Controller/BlocksController.php:255
 msgid "Blocks published"
 msgstr "Blocchi pubblicati"
 
-#: Plugin/Blocks/Controller/BlocksController.php:257
+#: Plugin/Blocks/Controller/BlocksController.php:258
 msgid "Blocks unpublished"
 msgstr "Blocchi non pubblicati"
 
-#: Plugin/Blocks/Controller/BlocksController.php:259
+#: Plugin/Blocks/Controller/BlocksController.php:260
 #: Plugin/Comments/Controller/CommentsController.php:173
 #: Plugin/Contacts/Controller/MessagesController.php:152
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:156
-#: Plugin/Menus/Controller/LinksController.php:370
-#: Plugin/Nodes/Controller/NodesController.php:335
-#: Plugin/Users/Controller/UsersController.php:360;427;438
+#: Plugin/Menus/Controller/LinksController.php:375
+#: Plugin/Nodes/Controller/NodesController.php:338
+#: Plugin/Users/Controller/UsersController.php:418;487;498
 msgid "An error occurred."
 msgstr "E' capitato un errore."
 
@@ -653,31 +653,31 @@ msgstr "E' capitato un errore."
 msgid "Region"
 msgstr "Regione"
 
-#: Plugin/Blocks/Controller/RegionsController.php:84
+#: Plugin/Blocks/Controller/RegionsController.php:85
 msgid "Add Region"
 msgstr "Aggiungi Regione"
 
-#: Plugin/Blocks/Controller/RegionsController.php:89;113
+#: Plugin/Blocks/Controller/RegionsController.php:90;114
 msgid "The Region has been saved"
 msgstr "La regione è stata salvata"
 
-#: Plugin/Blocks/Controller/RegionsController.php:92;116
+#: Plugin/Blocks/Controller/RegionsController.php:93;117
 msgid "The Region could not be saved. Please, try again."
 msgstr "La Regione non può essere salvata, riprova."
 
-#: Plugin/Blocks/Controller/RegionsController.php:105
+#: Plugin/Blocks/Controller/RegionsController.php:106
 msgid "Edit Region"
 msgstr "Modifica Regione"
 
-#: Plugin/Blocks/Controller/RegionsController.php:108
+#: Plugin/Blocks/Controller/RegionsController.php:109
 msgid "Invalid Region"
 msgstr "Regione non valida"
 
-#: Plugin/Blocks/Controller/RegionsController.php:133
+#: Plugin/Blocks/Controller/RegionsController.php:134
 msgid "Invalid id for Region"
 msgstr "Id della Regione non valido"
 
-#: Plugin/Blocks/Controller/RegionsController.php:137
+#: Plugin/Blocks/Controller/RegionsController.php:138
 msgid "Region deleted"
 msgstr "Regione cancellata"
 
@@ -726,7 +726,7 @@ msgstr "Parametri"
 #: Plugin/Settings/View/Languages/admin_index.ctp:16
 #: Plugin/Settings/View/Settings/admin_form.ctp:54
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:52
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:41
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:33
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:42
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:45
 #: Plugin/Taxonomy/View/Vocabularies/admin_index.ctp:15
@@ -778,6 +778,7 @@ msgstr ""
 #: Plugin/Menus/View/Links/admin_form.ctp:124
 #: Plugin/Menus/View/Menus/admin_form.ctp:66
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:74
+#: Plugin/Translate/View/Translate/admin_edit.ctp:46
 msgid "Apply"
 msgstr "Applica"
 
@@ -802,7 +803,7 @@ msgstr "Applica"
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:71
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:111
 #: Plugin/Taxonomy/View/Vocabularies/admin_form.ctp:84
-#: Plugin/Translate/View/Translate/admin_edit.ctp:46
+#: Plugin/Translate/View/Translate/admin_edit.ctp:47
 #: Plugin/Users/View/Roles/admin_form.ctp:51
 #: Plugin/Users/View/Users/admin_form.ctp:72
 msgid "Save"
@@ -817,7 +818,7 @@ msgstr "Salva"
 #: Plugin/Nodes/View/Nodes/admin_chooser.ctp:49
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:42
 #: Plugin/Settings/View/Languages/admin_index.ctp:19
-#: Plugin/Users/View/Users/admin_form.ctp:78
+#: Plugin/Users/View/Users/admin_form.ctp:86
 msgid "Status"
 msgstr "Stato"
 
@@ -831,28 +832,28 @@ msgid "Choose"
 msgstr "Scegli"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:98
-#: Plugin/Comments/View/Comments/admin_index.ctp:115
-#: Plugin/Menus/View/Links/admin_index.ctp:104
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:114
+#: Plugin/Comments/View/Comments/admin_index.ctp:120
+#: Plugin/Menus/View/Links/admin_index.ctp:105
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:119
 msgid "Publish"
 msgstr "Pubblica"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:99
-#: Plugin/Comments/View/Comments/admin_index.ctp:116
-#: Plugin/Menus/View/Links/admin_index.ctp:105
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:115
+#: Plugin/Comments/View/Comments/admin_index.ctp:121
+#: Plugin/Menus/View/Links/admin_index.ctp:106
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:120
 msgid "Unpublish"
 msgstr "Spubblica"
 
 #: Plugin/Blocks/View/Blocks/admin_index.ctp:100
-#: Plugin/Comments/View/Comments/admin_index.ctp:117
-#: Plugin/Contacts/View/Messages/admin_index.ctp:128
+#: Plugin/Comments/View/Comments/admin_index.ctp:122
+#: Plugin/Contacts/View/Messages/admin_index.ctp:133
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:51
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:99
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:116
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:42
 #: Plugin/FileManager/View/FileManager/admin_browse.ctp:59;100
-#: Plugin/Menus/View/Links/admin_index.ctp:106
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:118
+#: Plugin/Menus/View/Links/admin_index.ctp:107
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:123
 #: Plugin/Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
 msgstr "Elimina"
@@ -938,24 +939,24 @@ msgstr "Il tuo commento è stato aggiunto con successo."
 msgid "Your comment will appear after moderation."
 msgstr "Il tuo commento apparirà dopo la moderazione."
 
-#: Plugin/Comments/Controller/CommentsController.php:293
+#: Plugin/Comments/Controller/CommentsController.php:294
 msgid "Sorry, the comment appears to be spam."
 msgstr "Spiacente, il commento sembra essere spam,"
 
-#: Plugin/Comments/Controller/CommentsController.php:315
+#: Plugin/Comments/Controller/CommentsController.php:316
 #: Plugin/Contacts/Controller/ContactsController.php:239
 msgid "Invalid captcha entry"
 msgstr "Codice CAPTCHA non valido"
 
-#: Plugin/Comments/Controller/CommentsController.php:337
+#: Plugin/Comments/Controller/CommentsController.php:338
 msgid "New comment posted under"
 msgstr "Nuovo commento inviato sotto"
 
-#: Plugin/Comments/Model/Comment.php:115
+#: Plugin/Comments/Model/Comment.php:121
 msgid "Invalid Node id"
 msgstr "Id Nodo non valido"
 
-#: Plugin/Comments/Model/Comment.php:174
+#: Plugin/Comments/Model/Comment.php:180
 msgid "Invalid Comment id"
 msgstr "Id Commento non valido"
 
@@ -1038,12 +1039,12 @@ msgstr "Nodo"
 msgid "Created"
 msgstr "Creato"
 
-#: Plugin/Comments/View/Comments/rss/index.ctp:17
+#: Plugin/Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
 msgstr "Commentato il"
 
-#: Plugin/Comments/View/Comments/rss/index.ctp:17
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:50;86
+#: Plugin/Comments/View/Comments/rss/index.ctp:18
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:53;103
 #: Plugin/Nodes/View/Elements/node_info.ctp:9
 msgid "by"
 msgstr "da"
@@ -1319,11 +1320,11 @@ msgstr "Non letti"
 msgid "Messages: Unread"
 msgstr "Messaggi: Non letti"
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:126
+#: Plugin/Contacts/View/Messages/admin_index.ctp:131
 msgid "Mark as read"
 msgstr "Segna come letto"
 
-#: Plugin/Contacts/View/Messages/admin_index.ctp:127
+#: Plugin/Contacts/View/Messages/admin_index.ctp:132
 msgid "Mark as unread"
 msgstr "Segna come non letto"
 
@@ -1374,7 +1375,7 @@ msgid "Plugin \"%s\" activated successfully."
 msgstr "Plugin \"%s\" attivato con successo."
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:170
-#: Plugin/Extensions/Lib/CroogoPlugin.php:506
+#: Plugin/Extensions/Lib/CroogoPlugin.php:505
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr "Plugin \"%s\" non può essere attivato. Riprova."
 
@@ -1541,7 +1542,7 @@ msgstr "Aggiorna \"%s\""
 msgid "Command not recognized"
 msgstr "Comando non riconosciuto"
 
-#: Plugin/Croogo/Controller/CroogoAppController.php:160
+#: Plugin/Croogo/Controller/CroogoAppController.php:165
 msgid "Site down for maintenance"
 msgstr "Sito fuori linea per manutenzionee"
 
@@ -1550,7 +1551,7 @@ msgid "Errors in CakeErrorController: %s"
 msgstr "Errori in CakeErrorController: %s"
 
 #: Plugin/Croogo/Controller/Component/CroogoComponent.php:200
-#: Plugin/Nodes/Controller/NodesController.php:198;680;718
+#: Plugin/Nodes/Controller/NodesController.php:199;705;743
 msgid "Invalid content"
 msgstr "Contenuto non valido."
 
@@ -1596,22 +1597,22 @@ msgstr ""
 "starting on record {:start}, ending on {:end}"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:133
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:90
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:91
 msgid "first"
 msgstr "primo"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:134
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:91
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:92
 msgid "prev"
 msgstr "precedente"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:136
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:93
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:94
 msgid "next"
 msgstr "prossimo"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:137
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:94
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:95
 msgid "last"
 msgstr "ultimo"
 
@@ -1620,7 +1621,7 @@ msgid "Croogo %s"
 msgstr "Croogo %s"
 
 #: Plugin/Croogo/View/Elements/admin/header.ctp:22
-#: Plugin/Settings/Controller/SettingsController.php:48
+#: Plugin/Settings/Controller/SettingsController.php:49
 #: Plugin/Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
 msgstr "Pannello"
@@ -1706,14 +1707,14 @@ msgstr "contenuto qui"
 msgid "Extensions"
 msgstr "Estensioni"
 
-#: Plugin/Extensions/Config/bootstrap.php:14
+#: Plugin/Extensions/Config/bootstrap.php:15
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:60
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:6
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Themes"
 msgstr "Temi"
 
-#: Plugin/Extensions/Config/bootstrap.php:23
+#: Plugin/Extensions/Config/bootstrap.php:25
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:44
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:10
@@ -1721,7 +1722,7 @@ msgstr "Temi"
 msgid "Locales"
 msgstr "Traduzioni"
 
-#: Plugin/Extensions/Config/bootstrap.php:32
+#: Plugin/Extensions/Config/bootstrap.php:35
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:69
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:8
@@ -1800,7 +1801,7 @@ msgid "Plugin could not be deleted."
 msgstr "Il Plugin non può essere cancellato"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:147
-#: Plugin/Extensions/Lib/CroogoPlugin.php:532
+#: Plugin/Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr "Il Plugin non può essere disattivato. Riprova."
 
@@ -1864,11 +1865,11 @@ msgstr "Tema eliminato."
 msgid "Plugin \"%s\" is already active."
 msgstr "Il Plugin \"%s\" è già attivato."
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:504
+#: Plugin/Extensions/Lib/CroogoPlugin.php:503
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
 msgstr "Il Plugin \"%s\" dipende dal plugin \"%s\" ."
 
-#: Plugin/Extensions/Lib/CroogoPlugin.php:518
+#: Plugin/Extensions/Lib/CroogoPlugin.php:517
 msgid "Plugin \"%s\" is not active."
 msgstr "Il Plugin \"%s\" non è attivo."
 
@@ -1981,7 +1982,7 @@ msgstr "Predefinito"
 
 #: Plugin/Extensions/View/ExtensionsLocales/admin_index.ctp:39
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:39
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:92
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:109
 msgid "Activate"
 msgstr "Attiva"
 
@@ -2012,15 +2013,15 @@ msgstr "Migra"
 msgid "Current Theme"
 msgstr "Tema corrente"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:56;89
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:59;106
 msgid "Regions supported: "
 msgstr "Regioni supportate:"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:62
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:65
 msgid "Available Themes"
 msgstr "Temi disponibili"
 
-#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:113
+#: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:130
 msgid "No available theme"
 msgstr "Nessun tema disponibile"
 
@@ -2126,7 +2127,7 @@ msgstr "Crea File"
 msgid "File created successfully."
 msgstr "File creato con successo."
 
-#: Plugin/FileManager/Model/Attachment.php:94
+#: Plugin/FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
 msgstr "Errore durante il caricamento del file"
 
@@ -2139,11 +2140,11 @@ msgstr "Nuovo Allegato"
 msgid "URL"
 msgstr "URL"
 
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:64
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:65
 msgid "Insert"
 msgstr "Inserisci"
 
-#: Plugin/FileManager/View/Attachments/admin_browse.ctp:97
+#: Plugin/FileManager/View/Attachments/admin_browse.ctp:98
 msgid ""
 "Page %page% of %pages%, showing %current% records out of %count% total, "
 "starting on record %start%, ending on %end%"
@@ -2252,6 +2253,7 @@ msgstr "Login"
 
 #: Plugin/Install/Console/Command/InstallShell.php:66;96
 #: Plugin/Install/View/Install/database.ctp:46
+#: Plugin/Users/View/Users/admin_form.ctp:93
 #: Plugin/Users/View/Users/admin_login.ctp:15
 msgid "Password"
 msgstr "Password"
@@ -2280,6 +2282,7 @@ msgstr "Nome utente"
 
 #: Plugin/Install/Console/Command/InstallShell.php:97
 #: Plugin/Install/View/Install/adminuser.ctp:25
+#: Plugin/Users/View/Users/admin_form.ctp:98
 #: Plugin/Users/View/Users/admin_reset_password.ctp:26
 #: Plugin/Users/View/Users/reset.ctp:7
 msgid "Verify Password"
@@ -2482,51 +2485,51 @@ msgid "Menus"
 msgstr "Menu"
 
 #: Plugin/Menus/Config/bootstrap.php:34
-#: Plugin/Taxonomy/Config/bootstrap.php:46
+#: Plugin/Taxonomy/Config/bootstrap.php:54
 msgid "Add new"
 msgstr "Aggiungi nuovo"
 
-#: Plugin/Menus/Controller/LinksController.php:101
+#: Plugin/Menus/Controller/LinksController.php:117
 msgid "Links: %s"
 msgstr "Link: %s"
 
-#: Plugin/Menus/Controller/LinksController.php:127
+#: Plugin/Menus/Controller/LinksController.php:143
 msgid "Add Link"
 msgstr "Aggiungi Link"
 
-#: Plugin/Menus/Controller/LinksController.php:138;186
+#: Plugin/Menus/Controller/LinksController.php:150;205
 msgid "The Link has been saved"
 msgstr "Il Link è stato salvato"
 
-#: Plugin/Menus/Controller/LinksController.php:150;198
+#: Plugin/Menus/Controller/LinksController.php:162;217
 msgid "The Link could not be saved. Please, try again."
 msgstr "Il Link non può essere salvato. Riprova."
 
-#: Plugin/Menus/Controller/LinksController.php:169
+#: Plugin/Menus/Controller/LinksController.php:181
 msgid "Edit Link"
 msgstr "Modifica Link"
 
-#: Plugin/Menus/Controller/LinksController.php:172
+#: Plugin/Menus/Controller/LinksController.php:184
 msgid "Invalid Link"
 msgstr "Link non valido"
 
-#: Plugin/Menus/Controller/LinksController.php:225;233;266;301
+#: Plugin/Menus/Controller/LinksController.php:244;252;281;313
 msgid "Invalid id for Link"
 msgstr "Id non valido per il Link"
 
-#: Plugin/Menus/Controller/LinksController.php:245
+#: Plugin/Menus/Controller/LinksController.php:260
 msgid "Link deleted"
 msgstr "Link cancellato"
 
-#: Plugin/Menus/Controller/LinksController.php:362
+#: Plugin/Menus/Controller/LinksController.php:367
 msgid "Links deleted."
 msgstr "Link cancellati."
 
-#: Plugin/Menus/Controller/LinksController.php:365
+#: Plugin/Menus/Controller/LinksController.php:370
 msgid "Links published"
 msgstr "Link pubblicato"
 
-#: Plugin/Menus/Controller/LinksController.php:368
+#: Plugin/Menus/Controller/LinksController.php:373
 msgid "Links unpublished"
 msgstr "Link spubblicato"
 
@@ -2579,7 +2582,7 @@ msgstr "Rel"
 msgid "Target"
 msgstr "Target"
 
-#: Plugin/Menus/View/Links/admin_index.ctp:75
+#: Plugin/Menus/View/Links/admin_index.ctp:76
 msgid "Delete this item"
 msgstr "Cancella questo elemento"
 
@@ -2617,45 +2620,45 @@ msgstr "Chiave"
 msgid "Value"
 msgstr "Valore"
 
-#: Plugin/Meta/View/Helper/MetaHelper.php:105
+#: Plugin/Meta/View/Helper/MetaHelper.php:104
 msgid "Remove"
 msgstr "Rimuobi"
 
 #: Plugin/Nodes/Config/bootstrap.php:49
-#: Plugin/Taxonomy/Config/bootstrap.php:36
+#: Plugin/Taxonomy/Config/bootstrap.php:44
 msgid "List"
 msgstr "Lista"
 
-#: Plugin/Nodes/Controller/NodesController.php:138
+#: Plugin/Nodes/Controller/NodesController.php:139
 #: Plugin/Nodes/View/Nodes/admin_index.ctp:13
 msgid "Create content"
 msgstr "Crea contenuto"
 
-#: Plugin/Nodes/Controller/NodesController.php:158
+#: Plugin/Nodes/Controller/NodesController.php:159
 msgid "Content type does not exist."
 msgstr "Il tipo di contenuto non esiste."
 
-#: Plugin/Nodes/Controller/NodesController.php:169;208
+#: Plugin/Nodes/Controller/NodesController.php:170;209
 msgid "%s has been saved"
 msgstr "%s è stato salvato."
 
-#: Plugin/Nodes/Controller/NodesController.php:172;211
+#: Plugin/Nodes/Controller/NodesController.php:173;212
 msgid "%s could not be saved. Please, try again."
 msgstr "%s non può essere salvato. Ritenta."
 
-#: Plugin/Nodes/Controller/NodesController.php:178
+#: Plugin/Nodes/Controller/NodesController.php:179
 msgid "Create content: %s"
 msgstr "Crea contenuto: %s"
 
-#: Plugin/Nodes/Controller/NodesController.php:220
+#: Plugin/Nodes/Controller/NodesController.php:221
 msgid "Edit %s: %s"
 msgstr "Modifica %s: %s"
 
-#: Plugin/Nodes/Controller/NodesController.php:232
+#: Plugin/Nodes/Controller/NodesController.php:233
 msgid "Paths updated."
 msgstr "Percorsi aggiornati."
 
-#: Plugin/Nodes/Controller/NodesController.php:235
+#: Plugin/Nodes/Controller/NodesController.php:236
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
@@ -2663,59 +2666,59 @@ msgstr ""
 "Qualcosa non ha funzionato mentre si aggiornavano i percorsi.\n"
 "Ritenta."
 
-#: Plugin/Nodes/Controller/NodesController.php:252
+#: Plugin/Nodes/Controller/NodesController.php:253
 msgid "Invalid id for Node"
 msgstr "Id del Nodo non valido"
 
-#: Plugin/Nodes/Controller/NodesController.php:256
+#: Plugin/Nodes/Controller/NodesController.php:257
 msgid "Node deleted"
 msgstr "Nodo eliminato"
 
-#: Plugin/Nodes/Controller/NodesController.php:317
+#: Plugin/Nodes/Controller/NodesController.php:320
 msgid "Nodes deleted"
 msgstr "Nodi eliminati"
 
-#: Plugin/Nodes/Controller/NodesController.php:320
+#: Plugin/Nodes/Controller/NodesController.php:323
 msgid "Nodes published"
 msgstr "Nodi pubblicati"
 
-#: Plugin/Nodes/Controller/NodesController.php:323
+#: Plugin/Nodes/Controller/NodesController.php:326
 msgid "Nodes unpublished"
 msgstr "Nodi spubblicati"
 
-#: Plugin/Nodes/Controller/NodesController.php:326
+#: Plugin/Nodes/Controller/NodesController.php:329
 msgid "Nodes promoted"
 msgstr "Nodi promossi"
 
-#: Plugin/Nodes/Controller/NodesController.php:329
+#: Plugin/Nodes/Controller/NodesController.php:332
 msgid "Nodes unpromoted"
 msgstr "Nodi retrocessi"
 
-#: Plugin/Nodes/Controller/NodesController.php:380;472;536;618
+#: Plugin/Nodes/Controller/NodesController.php:389;488;560;643
 msgid "Invalid content type."
 msgstr "Tipo di contenuto non valido."
 
-#: Plugin/Nodes/Controller/NodesController.php:435
+#: Plugin/Nodes/Controller/NodesController.php:446
 msgid "Invalid Term."
 msgstr "Termine non valido."
 
-#: Plugin/Nodes/Controller/NodesController.php:518
+#: Plugin/Nodes/Controller/NodesController.php:536
 msgid "Nodes"
 msgstr "Nodi"
 
-#: Plugin/Nodes/Controller/NodesController.php:628
+#: Plugin/Nodes/Controller/NodesController.php:653
 msgid "Search Results: %s"
 msgstr "Risultati della ricerca: %s"
 
-#: Plugin/Nodes/Model/Node.php:391
+#: Plugin/Nodes/Model/Node.php:417
 msgid "Invalid action to perform"
 msgstr "Azione non valida"
 
-#: Plugin/Nodes/Model/Node.php:395
+#: Plugin/Nodes/Model/Node.php:421
 msgid "No target to process action upon"
 msgstr "Nessun obiettivo su cui applicare una azione"
 
-#: Plugin/Nodes/Model/Node.php:426
+#: Plugin/Nodes/Model/Node.php:452
 msgid "Invalid Content Type"
 msgstr "Tipo di contenuto non valido"
 
@@ -2775,7 +2778,7 @@ msgstr "Ordina per:"
 
 #: Plugin/Nodes/View/Nodes/admin_form.ctp:50
 #: Plugin/Taxonomy/View/Terms/admin_form.ctp:55
-#: Plugin/Taxonomy/View/Terms/admin_index.ctp:42
+#: Plugin/Taxonomy/View/Terms/admin_index.ctp:34
 msgid "Slug"
 msgstr "Slug"
 
@@ -2800,19 +2803,19 @@ msgstr "Utente"
 msgid "promoted"
 msgstr "promosso"
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:111
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:116
 msgid "Applying to selected"
 msgstr "Applica al selezionato"
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:116
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:121
 msgid "Promote"
 msgstr "Promuovi"
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:117
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:122
 msgid "Unpromote"
 msgstr "Retrocedi"
 
-#: Plugin/Nodes/View/Nodes/admin_index.ctp:130
+#: Plugin/Nodes/View/Nodes/admin_index.ctp:135
 msgid "%s selected items?"
 msgstr "%s elementi selezionati?"
 
@@ -2832,7 +2835,7 @@ msgid "No items found."
 msgstr "Nessun elemento trovato."
 
 #: Plugin/Settings/Config/bootstrap.php:12
-#: Plugin/Settings/Controller/SettingsController.php:58
+#: Plugin/Settings/Controller/SettingsController.php:59
 #: Plugin/Settings/View/Languages/admin_form.ctp:7
 #: Plugin/Settings/View/Languages/admin_index.ctp:6
 #: Plugin/Settings/View/Languages/admin_select.ctp:5
@@ -2930,7 +2933,7 @@ msgid "Delete?"
 msgstr "Elimino?"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:194
-#: Plugin/Settings/Controller/SettingsController.php:143
+#: Plugin/Settings/Controller/SettingsController.php:144
 msgid "Setting deleted"
 msgstr "Impostazione eliminata"
 
@@ -2967,44 +2970,44 @@ msgstr "Lingua eliminata"
 msgid "Select a language"
 msgstr "Scegli una lingua"
 
-#: Plugin/Settings/Controller/SettingsController.php:77
+#: Plugin/Settings/Controller/SettingsController.php:78
 msgid "Invalid Setting."
 msgstr "Impostazione non valida."
 
-#: Plugin/Settings/Controller/SettingsController.php:90
+#: Plugin/Settings/Controller/SettingsController.php:91
 msgid "Add Setting"
 msgstr "Aggiungi Impostazione"
 
-#: Plugin/Settings/Controller/SettingsController.php:95;119
+#: Plugin/Settings/Controller/SettingsController.php:96;120
 msgid "The Setting has been saved"
 msgstr "L'Impostazione è stata salvata"
 
-#: Plugin/Settings/Controller/SettingsController.php:98;122
+#: Plugin/Settings/Controller/SettingsController.php:99;123
 msgid "The Setting could not be saved. Please, try again."
 msgstr "L'impostazione non può essere salvata. Riprova."
 
-#: Plugin/Settings/Controller/SettingsController.php:111
+#: Plugin/Settings/Controller/SettingsController.php:112
 #: Plugin/Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr "Modifica Impostazione"
 
-#: Plugin/Settings/Controller/SettingsController.php:114
+#: Plugin/Settings/Controller/SettingsController.php:115
 msgid "Invalid Setting"
 msgstr "Impostazione non valida"
 
-#: Plugin/Settings/Controller/SettingsController.php:139
+#: Plugin/Settings/Controller/SettingsController.php:140
 msgid "Invalid id for Setting"
 msgstr "Id non valido per l'Impostazione"
 
-#: Plugin/Settings/Controller/SettingsController.php:156
+#: Plugin/Settings/Controller/SettingsController.php:157
 msgid "Settings: %s"
 msgstr "Impostazioni: $s"
 
-#: Plugin/Settings/Controller/SettingsController.php:160
+#: Plugin/Settings/Controller/SettingsController.php:161
 msgid "Settings updated successfully"
 msgstr "Impostazioni aggiornate con successo"
 
-#: Plugin/Settings/Controller/SettingsController.php:174
+#: Plugin/Settings/Controller/SettingsController.php:175
 msgid "Invalid Setting key"
 msgstr "Chiave Impostazione non valida"
 
@@ -3075,11 +3078,11 @@ msgstr "Lista Impostazioni"
 msgid "New Setting"
 msgstr "Nuova impostazione"
 
-#: Plugin/Taxonomy/Config/bootstrap.php:15
+#: Plugin/Taxonomy/Config/bootstrap.php:23
 msgid "Content Types"
 msgstr "Tippi di contenuto"
 
-#: Plugin/Taxonomy/Config/bootstrap.php:26
+#: Plugin/Taxonomy/Config/bootstrap.php:34
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:26
 msgid "Taxonomy"
 msgstr "Tassonomie"
@@ -3116,15 +3119,19 @@ msgstr "Il Termine non può essere salvato. Riprova."
 msgid "%s: Edit Term"
 msgstr "%s: Modifica Termine"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:268;308;349
+#: Plugin/Taxonomy/Controller/TermsController.php:268;312;353
 msgid "Invalid id for Term"
 msgstr "Id Termine non valido"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:287
+#: Plugin/Taxonomy/Controller/TermsController.php:288
 msgid "Term deleted"
 msgstr "Termine eliminato"
 
-#: Plugin/Taxonomy/Controller/TermsController.php:289
+#: Plugin/Taxonomy/Controller/TermsController.php:290
+msgid "Term in Vocabulary deleted"
+msgstr ""
+
+#: Plugin/Taxonomy/Controller/TermsController.php:293
 msgid "Term could not be deleted. Please, try again."
 msgstr "Il Termine non può essere eliminato. Riprova."
 
@@ -3245,11 +3252,11 @@ msgstr "Vedi termini"
 msgid "Invalid ID."
 msgstr "ID non valido."
 
-#: Plugin/Translate/Controller/TranslateController.php:57;189
+#: Plugin/Translate/Controller/TranslateController.php:57;194
 msgid "Invalid model."
 msgstr "Modello non valido."
 
-#: Plugin/Translate/Controller/TranslateController.php:68;137;200
+#: Plugin/Translate/Controller/TranslateController.php:68;137;205
 msgid "Invalid record."
 msgstr "Record non valido."
 
@@ -3265,19 +3272,19 @@ msgstr "Traduci contenuto: %s (%s)"
 msgid "Record has been translated"
 msgstr "Il Record è stato tradotto"
 
-#: Plugin/Translate/Controller/TranslateController.php:158
+#: Plugin/Translate/Controller/TranslateController.php:163
 msgid "Record could not be translated. Please, try again."
 msgstr "Il Record non può essere tradotto. Riprova."
 
-#: Plugin/Translate/Controller/TranslateController.php:177
+#: Plugin/Translate/Controller/TranslateController.php:182
 msgid "Invalid Locale or ID"
 msgstr "Id o traduzione non valida"
 
-#: Plugin/Translate/Controller/TranslateController.php:215
+#: Plugin/Translate/Controller/TranslateController.php:220
 msgid "Translation for the locale deleted successfully."
 msgstr "Traduzione eliminata con successo."
 
-#: Plugin/Translate/Controller/TranslateController.php:217
+#: Plugin/Translate/Controller/TranslateController.php:222
 msgid "Translation for the locale could not be deleted."
 msgstr "la Traduzione non può essere eliminata."
 
@@ -3354,59 +3361,59 @@ msgstr ""
 "Hai raggiungo il limite massimo di accessi negati. Prova di nuovo fra "
 "qualche minuto."
 
-#: Plugin/Users/Controller/UsersController.php:136;159
-msgid "The User has been saved"
-msgstr "L'utente è stato salvato"
-
-#: Plugin/Users/Controller/UsersController.php:139;162;329
-msgid "The User could not be saved. Please, try again."
-msgstr "L'utente non può essere salvato. Riprova."
-
-#: Plugin/Users/Controller/UsersController.php:181
-msgid "Invalid User"
-msgstr "Utente non valido"
-
-#: Plugin/Users/Controller/UsersController.php:186
-msgid "Password has been reset."
-msgstr "La password è stata reimpostata."
-
-#: Plugin/Users/Controller/UsersController.php:189
-msgid "Password could not be reset. Please, try again."
-msgstr "La password non può essere reimpostata. Riprova."
-
-#: Plugin/Users/Controller/UsersController.php:204
-msgid "Invalid id for User"
-msgstr "Id non valido per l'utente"
-
-#: Plugin/Users/Controller/UsersController.php:208
-msgid "User deleted"
-msgstr "Utente eliminato"
-
-#: Plugin/Users/Controller/UsersController.php:211
-msgid "User cannot be deleted"
-msgstr "L'utente non può essere eliminato"
-
-#: Plugin/Users/Controller/UsersController.php:223
-msgid "Admin Login"
-msgstr "Accesso amministratore"
-
-#: Plugin/Users/Controller/UsersController.php:232
-msgid "Incorrect username or password"
-msgstr "Nome utente o password errati"
-
-#: Plugin/Users/Controller/UsersController.php:247;488
-msgid "Log out successful."
-msgstr "Sei uscito dal sistema."
-
-#: Plugin/Users/Controller/UsersController.php:302
-msgid "Register"
-msgstr "Registrati"
-
-#: Plugin/Users/Controller/UsersController.php:318
+#: Plugin/Users/Controller/UsersController.php:146;353
 msgid "[%s] Please activate your account"
 msgstr "[%s] Per favore attiva il tuo account"
 
-#: Plugin/Users/Controller/UsersController.php:325
+#: Plugin/Users/Controller/UsersController.php:171;194
+msgid "The User has been saved"
+msgstr "L'utente è stato salvato"
+
+#: Plugin/Users/Controller/UsersController.php:174;197;364
+msgid "The User could not be saved. Please, try again."
+msgstr "L'utente non può essere salvato. Riprova."
+
+#: Plugin/Users/Controller/UsersController.php:216
+msgid "Invalid User"
+msgstr "Utente non valido"
+
+#: Plugin/Users/Controller/UsersController.php:221
+msgid "Password has been reset."
+msgstr "La password è stata reimpostata."
+
+#: Plugin/Users/Controller/UsersController.php:224
+msgid "Password could not be reset. Please, try again."
+msgstr "La password non può essere reimpostata. Riprova."
+
+#: Plugin/Users/Controller/UsersController.php:239
+msgid "Invalid id for User"
+msgstr "Id non valido per l'utente"
+
+#: Plugin/Users/Controller/UsersController.php:243
+msgid "User deleted"
+msgstr "Utente eliminato"
+
+#: Plugin/Users/Controller/UsersController.php:246
+msgid "User cannot be deleted"
+msgstr "L'utente non può essere eliminato"
+
+#: Plugin/Users/Controller/UsersController.php:258
+msgid "Admin Login"
+msgstr "Accesso amministratore"
+
+#: Plugin/Users/Controller/UsersController.php:267
+msgid "Incorrect username or password"
+msgstr "Nome utente o password errati"
+
+#: Plugin/Users/Controller/UsersController.php:282;548
+msgid "Log out successful."
+msgstr "Sei uscito dal sistema."
+
+#: Plugin/Users/Controller/UsersController.php:337
+msgid "Register"
+msgstr "Registrati"
+
+#: Plugin/Users/Controller/UsersController.php:360
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
@@ -3414,49 +3421,54 @@ msgstr ""
 "Hai creato con successo il tuo account. Una email ti è stata inviata con "
 "ulteriori istruzioni."
 
-#: Plugin/Users/Controller/UsersController.php:357
+#: Plugin/Users/Controller/UsersController.php:384
+#: Plugin/Users/View/Users/index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "Stai accedendo come:"
+
+#: Plugin/Users/Controller/UsersController.php:415
 msgid "Account activated successfully."
 msgstr "Account attivato."
 
-#: Plugin/Users/Controller/UsersController.php:382
+#: Plugin/Users/Controller/UsersController.php:442
 msgid "Forgot Password"
 msgstr "Password dimenticata"
 
-#: Plugin/Users/Controller/UsersController.php:387
+#: Plugin/Users/Controller/UsersController.php:447
 msgid "Invalid username."
 msgstr "Nome utente non valido."
 
-#: Plugin/Users/Controller/UsersController.php:399
+#: Plugin/Users/Controller/UsersController.php:459
 msgid "[%s] Reset Password"
 msgstr "Reimposta la Password di [%s]"
 
-#: Plugin/Users/Controller/UsersController.php:407
+#: Plugin/Users/Controller/UsersController.php:467
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
 "Una  email  è stata inviata con le istruzioni per reimpostare la password."
 
-#: Plugin/Users/Controller/UsersController.php:410;452
+#: Plugin/Users/Controller/UsersController.php:470;512
 msgid "An error occurred. Please try again."
 msgstr "E' avvenuto un errore, riprova."
 
-#: Plugin/Users/Controller/UsersController.php:424
+#: Plugin/Users/Controller/UsersController.php:484
 #: Plugin/Users/View/Users/admin_reset_password.ctp:9;16
 msgid "Reset Password"
 msgstr "Reimposta Password"
 
-#: Plugin/Users/Controller/UsersController.php:449
+#: Plugin/Users/Controller/UsersController.php:509
 msgid "Your password has been reset successfully."
 msgstr "La tua password è stata reimpostata."
 
-#: Plugin/Users/Controller/UsersController.php:466
+#: Plugin/Users/Controller/UsersController.php:526
 msgid "Log in"
 msgstr "Accedi"
 
-#: Plugin/Users/Controller/UsersController.php:506
+#: Plugin/Users/Controller/UsersController.php:566
 msgid "Invalid User."
 msgstr "Utente non valido."
 
-#: Plugin/Users/Model/User.php:220
+#: Plugin/Users/Model/User.php:219
 msgid "Passwords do not match. Please, try again."
 msgstr "Le password non corrispondono. Prova ancora."
 
@@ -3475,7 +3487,7 @@ msgstr ""
 "Se non hai richiesto tu di reimpostare la password, ignora semplicemente "
 "questa email."
 
-#: Plugin/Users/View/Emails/text/register.ctp:10
+#: Plugin/Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
 msgstr "Visita questo link per attivare il tuo account: %s"
 
@@ -3488,6 +3500,10 @@ msgstr "Ruolo"
 #: Plugin/Users/View/Users/admin_reset_password.ctp:1
 msgid "Reset password"
 msgstr "Reimposta password"
+
+#: Plugin/Users/View/Users/admin_form.ctp:79
+msgid "Send Activation Email"
+msgstr ""
 
 #: Plugin/Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
@@ -3504,10 +3520,6 @@ msgstr "Password dimenticata?"
 #: Plugin/Users/View/Users/admin_reset_password.ctp:36
 msgid "Reset"
 msgstr "Reset"
-
-#: Plugin/Users/View/Users/index.ctp:4
-msgid "You are currently logged in as:"
-msgstr "Stai accedendo come:"
 
 #: Plugin/Users/View/Users/reset.ctp:6
 msgid "New password"

@@ -8,12 +8,12 @@ msgstr ""
 "PO-Revision-Date: 2014-05-08 15:40+0200\n"
 "Last-Translator: Panagiotis Kritikakos <panoskrt@gmail.com>\n"
 "Language-Team: \n"
+"Language: GREEK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: GREEK\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: Plugin/Acl/Config/bootstrap.php:19
@@ -1540,7 +1540,7 @@ msgstr "Αναβάθμιση \"%s\""
 msgid "Command not recognized"
 msgstr "Η εντολή δεν αναγνωρίσθηκε"
 
-#: Plugin/Croogo/Controller/CroogoAppController.php:160
+#: Plugin/Croogo/Controller/CroogoAppController.php:165
 msgid "Site down for maintenance"
 msgstr "Η σελίδα βρίσκεται σε κατάσταση συντήρησης"
 
@@ -1705,14 +1705,14 @@ msgstr "περιεχόμενο εδώ"
 msgid "Extensions"
 msgstr ""
 
-#: Plugin/Extensions/Config/bootstrap.php:14
+#: Plugin/Extensions/Config/bootstrap.php:15
 #: Plugin/Extensions/Controller/ExtensionsThemesController.php:60
 #: Plugin/Extensions/View/ExtensionsThemes/admin_add.ctp:6
 #: Plugin/Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Themes"
 msgstr ""
 
-#: Plugin/Extensions/Config/bootstrap.php:23
+#: Plugin/Extensions/Config/bootstrap.php:25
 #: Plugin/Extensions/Controller/ExtensionsLocalesController.php:44
 #: Plugin/Extensions/View/ExtensionsLocales/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsLocales/admin_edit.ctp:10
@@ -1720,7 +1720,7 @@ msgstr ""
 msgid "Locales"
 msgstr ""
 
-#: Plugin/Extensions/Config/bootstrap.php:32
+#: Plugin/Extensions/Config/bootstrap.php:35
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:69
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_add.ctp:5
 #: Plugin/Extensions/View/ExtensionsPlugins/admin_index.ctp:8
@@ -2620,7 +2620,7 @@ msgstr "Κλειδί"
 msgid "Value"
 msgstr "Τιμή"
 
-#: Plugin/Meta/View/Helper/MetaHelper.php:105
+#: Plugin/Meta/View/Helper/MetaHelper.php:104
 msgid "Remove"
 msgstr "Αφαίρεση"
 
@@ -2708,15 +2708,15 @@ msgstr ""
 msgid "Search Results: %s"
 msgstr "Αποτελέσματα Αναζήτησης: %s"
 
-#: Plugin/Nodes/Model/Node.php:392
+#: Plugin/Nodes/Model/Node.php:417
 msgid "Invalid action to perform"
 msgstr "Άκυρη ενέργεια"
 
-#: Plugin/Nodes/Model/Node.php:396
+#: Plugin/Nodes/Model/Node.php:421
 msgid "No target to process action upon"
 msgstr "Δεν υπάρχει δέκτης της ενέργεια αυτής"
 
-#: Plugin/Nodes/Model/Node.php:427
+#: Plugin/Nodes/Model/Node.php:452
 msgid "Invalid Content Type"
 msgstr "Άκυρος τύπος περιεχομένου"
 
@@ -3287,6 +3287,9 @@ msgid "Translation for the locale could not be deleted."
 msgstr "Η μετάφραση για το locale δεν διαγράφηκε."
 
 #: Plugin/Translate/Model/Behavior/CroogoTranslateBehavior.php:56
+msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+msgstr ""
+
 #: Plugin/Translate/View/Translate/admin_edit.ctp:7;24
 #: Plugin/Translate/View/Translate/admin_index.ctp:7
 msgid "Translate"
