@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-06-06 20:45+0200\n"
+"PO-Revision-Date: 2014-06-06 21:30+0200\n"
 "Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
@@ -3251,11 +3251,11 @@ msgstr "Opties"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:63
 msgid "Required"
-msgstr ""
+msgstr "Verplicht"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:67
 msgid "Multiple"
-msgstr ""
+msgstr "Meerdere"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:71
 msgid "Tags"
@@ -3279,15 +3279,15 @@ msgstr ""
 
 #: Translate/Controller/TranslateController.php:76
 msgid "Translations: %s"
-msgstr ""
+msgstr "Vertalingen: %s"
 
 #: Translate/Controller/TranslateController.php:146
 msgid "Translate content: %s (%s)"
-msgstr ""
+msgstr "Vertaal inhoud: %s (%s)"
 
 #: Translate/Controller/TranslateController.php:153
 msgid "Record has been translated"
-msgstr ""
+msgstr "Record is vertaald"
 
 #: Translate/Controller/TranslateController.php:165
 msgid "Record could not be translated. Please, try again."
@@ -3328,11 +3328,11 @@ msgstr "Wachtwoord resetten"
 
 #: Users/Console/Command/UsersShell.php:20
 msgid "Reset user password"
-msgstr ""
+msgstr "Reset gebruiker wachtwoord"
 
 #: Users/Console/Command/UsersShell.php:25
 msgid "Username to reset"
-msgstr ""
+msgstr "Gebruikersnaam te resetten"
 
 #: Users/Console/Command/UsersShell.php:29
 msgid "New user password"
@@ -3545,7 +3545,7 @@ msgstr "Wachtwoord vergeten?"
 
 #: Users/View/Users/admin_reset_password.ctp:11
 msgid "Reset Password for %s"
-msgstr ""
+msgstr "Reset wachtwoord voor %s"
 
 #: Users/View/Users/admin_reset_password.ctp:38
 msgid "Reset"
