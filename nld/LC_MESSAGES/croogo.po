@@ -2,13 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Ceeram <c33ram@gmail.com>\n"
-"Language-Team: \n"
-"Language: \n"
+"PO-Revision-Date: 2014-06-06 20:34+0200\n"
+"Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
+"Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
+"projects.net/projects/croogo/croogo-locale/nld/>\n"
+"Language: nld\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 1.9-dev\n"
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -101,11 +104,11 @@ msgstr "Actie toevoegen"
 
 #: Acl/Controller/AclActionsController.php:78
 msgid "The %s has been saved"
-msgstr ""
+msgstr "De %s is opgeslagen"
 
 #: Acl/Controller/AclActionsController.php:81
 msgid "The %s could not be saved. Please, try again."
-msgstr ""
+msgstr "De %s kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
 
 #: Acl/Controller/AclActionsController.php:95
 msgid "Edit Action"
@@ -121,7 +124,7 @@ msgstr "De actie is opgeslagen"
 
 #: Acl/Controller/AclActionsController.php:106
 msgid "The Action could not be saved. Please, try again."
-msgstr "De actie kon niet worden opgeslagen"
+msgstr "De actie kon niet worden opgeslagen. Probeer opnieuw, alstublieft."
 
 #: Acl/Controller/AclActionsController.php:124;142
 msgid "Invalid id for Action"
@@ -141,7 +144,7 @@ msgstr "Actie omlaag verplaatst"
 
 #: Acl/Controller/AclActionsController.php:174
 msgid "Created %d new permissions"
-msgstr ""
+msgstr "%d nieuwe rechten aangemaakt"
 
 #: Acl/Controller/AclPermissionsController.php:168
 msgid "ACL database has been upgraded successfully"
@@ -164,7 +167,7 @@ msgstr ""
 
 #: Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
-msgstr ""
+msgstr "Model %s kon niet worden gevonden."
 
 #: Acl/Lib/AclExtras.php:172
 msgid "Created Aco node: %s"
@@ -510,7 +513,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:49
 #: Translate/View/Translate/admin_index.ctp:70
 msgid "Are you sure?"
-msgstr "Weet je het zeker"
+msgstr "Weet je het zeker?"
 
 #: Acl/View/AclPermissions/admin_toggle.ctp:18
 msgid "error"
@@ -549,7 +552,7 @@ msgstr "Het blok is opgeslagen"
 
 #: Blocks/Controller/BlocksController.php:132;161
 msgid "The Block could not be saved. Please, try again."
-msgstr "Het blok kon niet worden opgeslagen. Probeer nogmaals"
+msgstr "Het blok kon niet worden opgeslagen. Probeer nogmaals."
 
 #: Blocks/Controller/BlocksController.php:148
 msgid "Edit Block"
@@ -612,9 +615,8 @@ msgid "Blocks unpublished"
 msgstr "Blokken niet gepubliceerd"
 
 #: Blocks/Controller/BlocksController.php:246
-#, fuzzy
 msgid "Blocks copied"
-msgstr "Blokken gepubliceerd"
+msgstr "Blokken gekopieërd"
 
 #: Blocks/Controller/RegionsController.php:66
 #: Blocks/View/Blocks/admin_form.ctp:52 Blocks/View/Blocks/admin_index.ctp:26
@@ -632,7 +634,7 @@ msgstr "Het gebied is opgeslagen"
 
 #: Blocks/Controller/RegionsController.php:93;117
 msgid "The Region could not be saved. Please, try again."
-msgstr "Het gebied kon niet worden opgeslagen. Porbeer nogmaals"
+msgstr "Het gebied kon niet worden opgeslagen. Porbeer nogmaals."
 
 #: Blocks/Controller/RegionsController.php:106
 msgid "Edit Region"
@@ -760,9 +762,8 @@ msgstr "Status"
 
 #: Blocks/View/Blocks/admin_index.ctp:56 Menus/View/Links/admin_index.ctp:79
 #: Nodes/View/Nodes/admin_index.ctp:100
-#, fuzzy
 msgid "Create a copy"
-msgstr "Bestandsmap aanmaken"
+msgstr "Maak een kopie"
 
 #: Blocks/View/Blocks/admin_index.ctp:59
 msgid "Create a copy of this Block?"
@@ -1146,7 +1147,6 @@ msgid "Message deleted"
 msgstr "Bericht verwijderd"
 
 #: Contacts/Controller/MessagesController.php:134
-#, fuzzy
 msgid "Messages deleted"
 msgstr "Berichten verwijderd"
 
@@ -1499,7 +1499,6 @@ msgid "Errors in CakeErrorController: %s"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:98
-#, fuzzy
 msgid "No item selected"
 msgstr "Geen items geselecteerd"
 
@@ -1575,9 +1574,8 @@ msgid "No target to process action upon"
 msgstr ""
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:75
-#, fuzzy
 msgid "Action %s is disabled"
-msgstr "Actie verwijderd"
+msgstr "Actie %s is uitgeschaled"
 
 #: Croogo/View/Common/admin_edit.ctp:8
 #: FileManager/View/Attachments/admin_browse.ctp:35
@@ -2530,7 +2528,6 @@ msgid "Link deleted"
 msgstr "Link verwijderd"
 
 #: Menus/Controller/LinksController.php:338
-#, fuzzy
 msgid "Links deleted"
 msgstr "Links verwijderd"
 
@@ -2706,9 +2703,8 @@ msgid "Nodes unpromoted"
 msgstr "Afgewaardeerde nodes"
 
 #: Nodes/Controller/NodesController.php:324
-#, fuzzy
 msgid "Nodes copied"
-msgstr "Nodes gepubliceerd"
+msgstr "Nodes gekopieërd"
 
 #: Nodes/Controller/NodesController.php:377;478;548;611
 msgid "Invalid content type."
@@ -2853,9 +2849,8 @@ msgid "Meta"
 msgstr ""
 
 #: Settings/Config/admin_menu.php:40
-#, fuzzy
 msgid "Reading"
-msgstr "Gelezen"
+msgstr "Lezen"
 
 #: Settings/Config/admin_menu.php:52
 msgid "Writing"
@@ -3079,7 +3074,6 @@ msgid "New Setting"
 msgstr "Nieuwe instelling"
 
 #: Taxonomy/Config/admin_menu.php:4
-#, fuzzy
 msgid "Content Types"
 msgstr "Inhoud typen"
 
@@ -3088,9 +3082,8 @@ msgid "Taxonomy"
 msgstr "Classificatie"
 
 #: Taxonomy/Config/admin_menu.php:35
-#, fuzzy
 msgid "Add new"
-msgstr "Link toevoegen"
+msgstr "Voeg nieuwe toe"
 
 #: Taxonomy/Controller/TermsController.php:67
 msgid "Vocabulary: %s"
