@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-06-06 20:34+0200\n"
+"PO-Revision-Date: 2014-06-06 20:45+0200\n"
 "Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
@@ -3336,15 +3336,15 @@ msgstr ""
 
 #: Users/Console/Command/UsersShell.php:29
 msgid "New user password"
-msgstr ""
+msgstr "Nieuwe gebruiker wachtwoord"
 
 #: Users/Console/Command/UsersShell.php:45
 msgid "User '%s' not found"
-msgstr ""
+msgstr "Gebruiker '%s' is niet gevonden"
 
 #: Users/Console/Command/UsersShell.php:50
 msgid "Password for '%s' has been changed"
-msgstr ""
+msgstr "Wachtwoord voor '%s' is aangepast"
 
 #: Users/Controller/RolesController.php:55
 msgid "Add Role"
@@ -3414,7 +3414,7 @@ msgstr "Gebruiker verwijderd"
 
 #: Users/Controller/UsersController.php:246
 msgid "User cannot be deleted"
-msgstr ""
+msgstr "Gebruiker kan niet worden verwijderd"
 
 #: Users/Controller/UsersController.php:258
 msgid "Admin Login"
@@ -3422,11 +3422,11 @@ msgstr "Admin login"
 
 #: Users/Controller/UsersController.php:263
 msgid "You are already logged in"
-msgstr ""
+msgstr "Je bent al ingelogd"
 
 #: Users/Controller/UsersController.php:276
 msgid "Incorrect username or password"
-msgstr ""
+msgstr "Incorrecte gebruikersnaam of wachtwoord"
 
 #: Users/Controller/UsersController.php:291;557
 msgid "Log out successful."
@@ -3492,16 +3492,16 @@ msgstr "Ongeldige gebruiker"
 
 #: Users/Model/User.php:220
 msgid "Passwords do not match. Please, try again."
-msgstr ""
+msgstr "Wachtwoorden komen niet overeen. Probeer normaals alstublieft."
 
 #: Users/View/Emails/text/forgot_password.ctp:1
 #: Users/View/Emails/text/register.ctp:1
 msgid "Hello %s"
-msgstr ""
+msgstr "Hallo %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
-msgstr ""
+msgstr "Bezoek alstublieft deze link om uw wachtwoord te herstellen: %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
@@ -3509,7 +3509,7 @@ msgstr "Indien je geen wachtwoord reset hebt verzocht, negeer deze email dan"
 
 #: Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
-msgstr ""
+msgstr "Bezoek alstublieft deze link om uw account te activeren: %s"
 
 #: Users/View/Roles/admin_form.ctp:23 Users/View/Users/admin_form.ctp:55
 msgid "Role"
@@ -3517,23 +3517,23 @@ msgstr "Rol"
 
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
-msgstr ""
+msgstr "Bewerk gebruiker %s"
 
 #: Users/View/Users/admin_form.ctp:16
 msgid "New user"
-msgstr ""
+msgstr "Nieuwe gebruiker"
 
 #: Users/View/Users/admin_form.ctp:76
 msgid "Timezone"
-msgstr ""
+msgstr "Tijdzone"
 
 #: Users/View/Users/admin_form.ctp:96
 msgid "Send Activation Email"
-msgstr ""
+msgstr "Verstuur activate email"
 
 #: Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
-msgstr ""
+msgstr "Onthoud mij?"
 
 #: Users/View/Users/admin_login.ctp:27
 msgid "Log In"
