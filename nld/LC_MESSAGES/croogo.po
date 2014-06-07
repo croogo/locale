@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-06-07 12:00+0200\n"
+"PO-Revision-Date: 2014-06-07 14:14+0200\n"
 "Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
@@ -25,7 +25,7 @@ msgstr "Rechten"
 
 #: Acl/Config/admin_menu.php:15
 msgid "Access Control"
-msgstr ""
+msgstr "Toegangs controle"
 
 #: Acl/Console/Command/ExtrasShell.php:94
 msgid "Plugin to process"
@@ -33,13 +33,15 @@ msgstr "Te verwerken plugin"
 
 #: Acl/Console/Command/ExtrasShell.php:97
 msgid "Better manage, and easily synchronize you application's ACO tree"
-msgstr ""
+msgstr "Beheer beter en simpel synchroniseer je applicatie's ACO structuur"
 
 #: Acl/Console/Command/ExtrasShell.php:102
 msgid ""
 "Add new ACOs for new controllers and actions. Does not remove nodes from the "
 "ACO table."
 msgstr ""
+"Voeg nieuwe ACOs voor nieuwe controllers en acties toe. Verwijderd geen "
+"nodes van de ACO tabel."
 
 #: Acl/Console/Command/ExtrasShell.php:108
 msgid ""
@@ -57,23 +59,23 @@ msgstr ""
 
 #: Acl/Console/Command/ExtrasShell.php:120
 msgid "The content model name "
-msgstr ""
+msgstr "Het inhoud model naam. "
 
 #: Acl/Console/Command/ExtrasShell.php:126
 msgid "Verify the tree structure of either your Aco or Aro Trees"
-msgstr ""
+msgstr "Bekijk boom structuur van je Aco of Aro structuur"
 
 #: Acl/Console/Command/ExtrasShell.php:131
 msgid "The type of tree to verify"
-msgstr ""
+msgstr "De type van structuur om te verifiëren"
 
 #: Acl/Console/Command/ExtrasShell.php:138
 msgid "Recover a corrupted Tree"
-msgstr ""
+msgstr "Herstel een corrupte boom structuur"
 
 #: Acl/Console/Command/ExtrasShell.php:143
 msgid "The type of tree to recover"
-msgstr ""
+msgstr "Het type van structuur om te herstellen"
 
 #: Acl/Controller/AclActionsController.php:47
 #: Acl/View/AclActions/admin_form.ctp:8
@@ -148,7 +150,7 @@ msgstr "%d nieuwe rechten aangemaakt"
 
 #: Acl/Controller/AclPermissionsController.php:168
 msgid "ACL database has been upgraded successfully"
-msgstr ""
+msgstr "ACL database is succesvol geupgrade"
 
 #: Acl/Controller/Component/AclAccessComponent.php:52
 msgid "Parent Role"
@@ -158,6 +160,8 @@ msgstr ""
 msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
+"\"AutoLogin\" (Onthoud mij) uitgeschakeld omdat mcrypt encryptie niet "
+"beschikbaar is"
 
 #: Acl/Controller/Component/Auth/AclCachedAuthorize.php:223
 msgid ""
@@ -171,7 +175,7 @@ msgstr "Model %s kon niet worden gevonden."
 
 #: Acl/Lib/AclExtras.php:172
 msgid "Created Aco node: %s"
-msgstr ""
+msgstr "Aco node aangemaakt: 5s"
 
 #: Acl/Lib/AclExtras.php:192
 msgid "<error>Plugin %s not found or not activated</error>"
@@ -215,7 +219,7 @@ msgstr ""
 
 #: Acl/Lib/AclUpgrade.php:67
 msgid "No root node found"
-msgstr ""
+msgstr "Geen hoofd node gevonden"
 
 #: Acl/Lib/AclUpgrade.php:75
 msgid "<warning>ACL Database seems to have already been upgraded</warning>"
@@ -223,23 +227,23 @@ msgstr ""
 
 #: Acl/Lib/AclUpgrade.php:115
 msgid "%s not found"
-msgstr ""
+msgstr "%s niet gevonden"
 
 #: Acl/Lib/AclUpgrade.php:139
 msgid "Role: Public not found"
-msgstr ""
+msgstr "Rol: Publiek niet gevonden"
 
 #: Acl/Lib/AclUpgrade.php:145
 msgid "Role: Registered not found"
-msgstr ""
+msgstr "Rol: Geregistreerd niet gevonden"
 
 #: Acl/Lib/AclUpgrade.php:151
 msgid "Role: Admin not found"
-msgstr ""
+msgstr "Rol: Admin niet gevonden"
 
 #: Acl/Model/AclAco.php:173
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: Acl/View/AclActions/admin_form.ctp:6 Acl/View/AclActions/admin_index.ctp:10
 #: Acl/View/AclPermissions/admin_index.ctp:9 Users/Config/admin_menu.php:5;15
@@ -261,11 +265,11 @@ msgstr "Gebruikers"
 #: Taxonomy/View/Vocabularies/admin_form.ctp:18
 #: Users/View/Roles/admin_form.ctp:13 Users/View/Users/admin_form.ctp:20
 msgid "Add"
-msgstr ""
+msgstr "Voeg toe"
 
 #: Acl/View/AclActions/admin_form.ctp:27
 msgid "Action"
-msgstr ""
+msgstr "Actie"
 
 #: Acl/View/AclActions/admin_form.ctp:39 Menus/View/Links/admin_form.ctp:69
 #: Nodes/View/Nodes/admin_form.ctp:60 Taxonomy/View/Terms/admin_form.ctp:45
@@ -329,7 +333,7 @@ msgstr "Publiceren"
 #: Translate/View/Translate/admin_edit.ctp:46
 #: Users/View/Roles/admin_form.ctp:51 Users/View/Users/admin_form.ctp:88
 msgid "Apply"
-msgstr ""
+msgstr "Toepassen"
 
 #: Acl/View/AclActions/admin_form.ctp:60 Blocks/View/Blocks/admin_form.ctp:100
 #: Blocks/View/Regions/admin_form.ctp:61
@@ -353,7 +357,7 @@ msgstr ""
 #: Translate/View/Translate/admin_edit.ctp:47
 #: Users/View/Roles/admin_form.ctp:52 Users/View/Users/admin_form.ctp:89
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: Acl/View/AclActions/admin_form.ctp:61 Blocks/View/Blocks/admin_form.ctp:101
 #: Blocks/View/Regions/admin_form.ctp:62
@@ -383,17 +387,17 @@ msgstr ""
 #: Users/View/Roles/admin_form.ctp:54 Users/View/Users/admin_form.ctp:91
 #: Users/View/Users/admin_reset_password.ctp:40
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleer"
 
 #: Acl/View/AclActions/admin_index.ctp:21
 #: Acl/View/AclPermissions/admin_index.ctp:19
 msgid "Tools"
-msgstr ""
+msgstr "Gereedschap"
 
 #: Acl/View/AclActions/admin_index.ctp:35
 #: Acl/View/AclPermissions/admin_index.ctp:33
 msgid "Generate"
-msgstr ""
+msgstr "Genereer"
 
 #: Acl/View/AclActions/admin_index.ctp:41
 #: Acl/View/AclPermissions/admin_index.ctp:39
@@ -473,7 +477,7 @@ msgstr "Omlaag verplaatsen"
 #: Taxonomy/View/Vocabularies/admin_index.ctp:44
 #: Translate/View/Translate/admin_index.ctp:60
 msgid "Edit this item"
-msgstr ""
+msgstr "Bewerk dit item"
 
 #: Acl/View/AclActions/admin_index.ctp:121
 #: Acl/View/AclPermissions/json/admin_index.ctp:19
@@ -490,7 +494,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:48
 #: Translate/View/Translate/admin_index.ctp:69
 msgid "Remove this item"
-msgstr ""
+msgstr "Verwijder dit item"
 
 #: Acl/View/AclActions/admin_index.ctp:125
 #: Acl/View/AclPermissions/json/admin_index.ctp:20
@@ -717,7 +721,7 @@ msgstr "Inhoud"
 
 #: Blocks/View/Blocks/admin_form.ctp:59 Menus/View/Links/admin_form.ctp:106
 msgid "Class"
-msgstr ""
+msgstr "Klasse"
 
 #: Blocks/View/Blocks/admin_form.ctp:62
 msgid "Element"
@@ -1411,7 +1415,7 @@ msgstr "Extensie aan het installeren…"
 
 #: Croogo/Console/Command/InstallShell.php:195
 msgid "Please specify a URL to a zipball extension"
-msgstr ""
+msgstr "Specificeer alstublieft een URL naar een zipball extensie"
 
 #: Croogo/Console/Command/InstallShell.php:200
 msgid "Downloading extension to %s..."
@@ -1419,7 +1423,7 @@ msgstr "Extensie naar %s aan het downloaden…"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:62
 msgid "Upgrade ACL database for core controllers."
-msgstr ""
+msgstr "Upgrade ACL database voor core controllers."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:64
 msgid ""
@@ -1445,11 +1449,11 @@ msgstr "Update links in database"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:85
 msgid "Create first migration records"
-msgstr ""
+msgstr "Maak eerste migratie records"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:88
 msgid "Run all pending migrations for core plugins"
-msgstr ""
+msgstr "Voer alle wachtende migraties voor core plug-ins uit"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:91
 msgid "Run all upgrade tasks"
@@ -1536,15 +1540,15 @@ msgstr "Ongeldige inhoud"
 
 #: Croogo/Controller/Component/CroogoComponent.php:300
 msgid "Failed toggling field %s to %s"
-msgstr ""
+msgstr "Kon veld niet omzetten van %s naar %s"
 
 #: Croogo/Event/CroogoEventManager.php:77
 msgid "EventHandler %s not found in plugin %s"
-msgstr ""
+msgstr "EventHandler %s niet gevonden in plug-in %s"
 
 #: Croogo/Lib/CroogoRouter.php:200
 msgid "Unable to get routeable content types: %s"
-msgstr ""
+msgstr "Kon geen routeerbare inhouds-types vinden: %s"
 
 #: Croogo/Lib/CroogoStatus.php:39
 #: Nodes/View/Elements/admin/nodes_search.ctp:41
@@ -1553,23 +1557,23 @@ msgstr "Niet gepubliceerd"
 
 #: Croogo/Lib/CroogoStatus.php:41
 msgid "Preview"
-msgstr ""
+msgstr "Voorbeeld"
 
 #: Croogo/Lib/CroogoStatus.php:44
 msgid "Approved"
-msgstr ""
+msgstr "Geaccepteerd"
 
 #: Croogo/Lib/CroogoStatus.php:45
 msgid "Pending"
-msgstr ""
+msgstr "In afwachting"
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:40
 msgid "Cannot load configuration files with ../ in them."
-msgstr ""
+msgstr "Kon configuratie bestanden met ../ erin niet laden."
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:55
 msgid "Could not load configuration files: %s or %s"
-msgstr ""
+msgstr "Kon configuratie bestanden niet laden: %s of %s"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:65
 msgid "Invalid action to perform"
@@ -1593,37 +1597,39 @@ msgstr "Bewerken"
 
 #: Croogo/View/Common/admin_index.ctp:31 Menus/View/Links/admin_index.ctp:18
 msgid "New %s"
-msgstr ""
+msgstr "Nieuwe %s"
 
 #: Croogo/View/Common/admin_index.ctp:128
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
+"Pagina {:page} van {:pages}, toon {:current} records van {:count} totaal, "
+"start record {:start}, eindig met {:end}"
 
 #: Croogo/View/Common/admin_index.ctp:133
 #: FileManager/View/Attachments/admin_browse.ctp:93
 msgid "first"
-msgstr ""
+msgstr "eerste"
 
 #: Croogo/View/Common/admin_index.ctp:134
 #: FileManager/View/Attachments/admin_browse.ctp:94
 msgid "prev"
-msgstr ""
+msgstr "vorige"
 
 #: Croogo/View/Common/admin_index.ctp:136
 #: FileManager/View/Attachments/admin_browse.ctp:96
 msgid "next"
-msgstr ""
+msgstr "volgende"
 
 #: Croogo/View/Common/admin_index.ctp:137
 #: FileManager/View/Attachments/admin_browse.ctp:97
 msgid "last"
-msgstr ""
+msgstr "laatste"
 
 #: Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
-msgstr ""
+msgstr "Croogo %s"
 
 #: Croogo/View/Elements/admin/header.ctp:18
 #: Extensions/Controller/ExtensionsDashboardController.php:11
@@ -1635,7 +1641,7 @@ msgstr "Dashboard"
 
 #: Croogo/View/Elements/admin/modal.ctp:20
 msgid "Close"
-msgstr ""
+msgstr "Sluit"
 
 #: Croogo/View/Elements/admin/search.ctp:38
 #: Nodes/View/Elements/admin/nodes_search.ctp:58
@@ -1661,7 +1667,7 @@ msgstr "The requested address was not found on this server."
 
 #: Croogo/View/Errors/security.ctp:2
 msgid "Security Error"
-msgstr ""
+msgstr "Beveiligings-fout"
 
 #: Croogo/View/Errors/security.ctp:8
 msgid "Request blackholed due to \"%s\" violation."
@@ -1687,7 +1693,7 @@ msgstr "Website niet beschikbaar in verband met onderhoud"
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
-msgstr ""
+msgstr "inhoud hier"
 
 #: Extensions/Config/admin_menu.php:5
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:4
@@ -1698,7 +1704,7 @@ msgstr ""
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:5
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:6
 msgid "Extensions"
-msgstr ""
+msgstr "Extensies"
 
 #: Extensions/Config/admin_menu.php:15
 #: Extensions/Controller/ExtensionsThemesController.php:60
@@ -1720,47 +1726,47 @@ msgstr ""
 #: Extensions/View/ExtensionsPlugins/admin_add.ctp:5
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:8
 msgid "Plugins"
-msgstr ""
+msgstr "Plug-ins"
 
 #: Extensions/Console/Command/DataMigrationShell.php:23
 msgid "Data Migration Utility"
-msgstr ""
+msgstr "Data migratie hulpprogramma"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:66
 msgid "Locale does not exist."
-msgstr ""
+msgstr "Locale bestaat niet."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:72
 msgid "Locale '%s' set as default"
-msgstr ""
+msgstr "Locale '%s' ingesteld als standaaed"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:74
 msgid "Could not save Locale setting."
-msgstr ""
+msgstr "Kon Locale instelling niet opslaan."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:85
 msgid "Upload a new locale"
-msgstr ""
+msgstr "Upload een nieuwe locale"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:111;166
 msgid "Invalid locale."
-msgstr ""
+msgstr "Ongeldige locale."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:116
 msgid "Locale already exists."
-msgstr ""
+msgstr "Locale bestaat al."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:163
 msgid "Edit locale: %s"
-msgstr ""
+msgstr "Bewerk locale: %s"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "The file %s does not exist."
-msgstr ""
+msgstr "Het bestand %s bestaat niet."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:183
 msgid "Locale updated successfully"
-msgstr ""
+msgstr "Locale succesvol geupdate"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:199
 #: Translate/Controller/TranslateController.php:109
@@ -1769,58 +1775,58 @@ msgstr "Ongeldige locale"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:205
 msgid "Locale deleted successfully."
-msgstr ""
+msgstr "Locale succesvol verwijderd."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:207
 msgid "Local could not be deleted."
-msgstr ""
+msgstr "Locale kon niet worden verwijderd."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:83
 msgid "Upload a new plugin"
-msgstr ""
+msgstr "Upload een nieuwe plug-in"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
 #: Extensions/Lib/CroogoPlugin.php:684
 #: Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
-msgstr ""
+msgstr "Ongeldige plug-in"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:112
 msgid "You cannot delete a plugin that is currently active."
-msgstr ""
+msgstr "Je kan een plug-in niet verwijderen die momenteel actief is."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:118
 msgid "Plugin \"%s\" deleted successfully."
-msgstr ""
+msgstr "Plugin \"%s\" succesvol verwijderd."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:122
 msgid "Plugin could not be deleted."
-msgstr ""
+msgstr "Plug-in kon niet worden verwijderd."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:152
 #: Extensions/Lib/CroogoPlugin.php:599
 msgid "Plugin could not be deactivated. Please, try again."
-msgstr ""
+msgstr "Plug-in kon niet worden gedeactiveerd. Probeer nogmaals, alstublieft."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:161
 msgid "Plugin could not be activated. Please, try again."
-msgstr ""
+msgstr "Plug-in kon niet worden geactiveerd. Probeer nogmaals, alstublieft."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:176
 msgid "Plugin \"%s\" migrated successfully."
-msgstr ""
+msgstr "Plug-in \"%s\" succesvol gemigreerd."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:179
 msgid "Plugin \"%s\" could not be migrated. Error: %s"
-msgstr ""
+msgstr "Plug-in \"%s\" kon niet worden gemigreerd. Fout: %s"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:201
 msgid "Plugin %s has been moved up"
-msgstr ""
+msgstr "Plug-in %s is omhoog verplaatst"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:225
 msgid "Plugin %s has been moved down"
-msgstr ""
+msgstr "Plug-in %s is omlaag verplaatst"
 
 #: Extensions/Controller/ExtensionsThemesController.php:81
 msgid "Theme activated."
@@ -1828,35 +1834,35 @@ msgstr "Thema geactiveerd"
 
 #: Extensions/Controller/ExtensionsThemesController.php:83
 msgid "Theme activation failed."
-msgstr ""
+msgstr "Thema activatie mislukt."
 
 #: Extensions/Controller/ExtensionsThemesController.php:95
 msgid "Upload a new theme"
-msgstr ""
+msgstr "Upload een nieuw thema"
 
 #: Extensions/Controller/ExtensionsThemesController.php:104
 msgid "Theme uploaded successfully."
-msgstr ""
+msgstr "Theme succesvol geupload."
 
 #: Extensions/Controller/ExtensionsThemesController.php:118
 msgid "Theme Editor"
-msgstr ""
+msgstr "Thema bewerker"
 
 #: Extensions/Controller/ExtensionsThemesController.php:137
 msgid "Invalid Theme."
-msgstr ""
+msgstr "Ongeldig thema."
 
 #: Extensions/Controller/ExtensionsThemesController.php:142
 msgid "Default theme cannot be deleted."
-msgstr ""
+msgstr "Standaard thema kan niet worden verwijderd."
 
 #: Extensions/Controller/ExtensionsThemesController.php:145
 msgid "You cannot delete a theme that is currently active."
-msgstr ""
+msgstr "Je kan geen thema verwijderen dat momenteel actief is."
 
 #: Extensions/Controller/ExtensionsThemesController.php:152
 msgid "Theme deleted successfully."
-msgstr ""
+msgstr "Thema succesvol verwijderd."
 
 #: Extensions/Controller/ExtensionsThemesController.php:156
 #: Users/Controller/UsersController.php:427;496;507
@@ -1865,31 +1871,31 @@ msgstr "Er is een fout opgetreden"
 
 #: Extensions/Lib/CroogoPlugin.php:529
 msgid "Plugin \"%s\" is already active."
-msgstr ""
+msgstr "Plug-in \"%s\" is al actief."
 
 #: Extensions/Lib/CroogoPlugin.php:555
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
-msgstr ""
+msgstr "Plug-in \"%s\" is afhankelijk van de \"%s\" plug-in."
 
 #: Extensions/Lib/CroogoPlugin.php:586
 msgid "Plugin \"%s\" is not active."
-msgstr ""
+msgstr "Plug-in \"%s\" is niet actief."
 
 #: Extensions/Lib/CroogoPlugin.php:714
 msgid "%s is already at the first position"
-msgstr ""
+msgstr "%s is op de eerste positie"
 
 #: Extensions/Lib/CroogoPlugin.php:720;732
 msgid "Plugin %s depends on %s"
-msgstr ""
+msgstr "Plug-in %s is afhankelijk van %s"
 
 #: Extensions/Lib/CroogoPlugin.php:725
 msgid "%s is already at the last position"
-msgstr ""
+msgstr "%s is al op de laatste positie"
 
 #: Extensions/Lib/CroogoPlugin.php:736
 msgid "Invalid direction"
-msgstr ""
+msgstr "Ongeldige richting"
 
 #: Extensions/Lib/CroogoPlugin.php:741
 msgid "Plugin %s cannot be reordered"
@@ -1898,23 +1904,23 @@ msgstr ""
 #: Extensions/Lib/CroogoTheme.php:169
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
-msgstr ""
+msgstr "Ongeldig thema"
 
 #: Extensions/Lib/CroogoTheme.php:190
 msgid "Theme %s not found"
-msgstr ""
+msgstr "Thema %s kon niet worden gevonden"
 
 #: Extensions/Lib/ExtensionsInstaller.php:62
 msgid "Invalid plugin path"
-msgstr ""
+msgstr "Ongeldig plug-in pad"
 
 #: Extensions/Lib/ExtensionsInstaller.php:72;110;191
 msgid "Invalid zip archive"
-msgstr ""
+msgstr "Ongeldig ZIP archief"
 
 #: Extensions/Lib/ExtensionsInstaller.php:78
 msgid "Invalid plugin.json or missing plugin name"
-msgstr ""
+msgstr "Ongeldige plugin.json of missende plugin naam"
 
 #: Extensions/Lib/ExtensionsInstaller.php:99
 msgid "Missing expected files: %s in: %s"
