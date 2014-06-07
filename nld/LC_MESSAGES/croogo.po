@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-06-06 21:30+0200\n"
+"PO-Revision-Date: 2014-06-07 12:00+0200\n"
 "Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: Acl/Console/Command/ExtrasShell.php:94
 msgid "Plugin to process"
-msgstr ""
+msgstr "Te verwerken plugin"
 
 #: Acl/Console/Command/ExtrasShell.php:97
 msgid "Better manage, and easily synchronize you application's ACO tree"
@@ -403,7 +403,7 @@ msgstr ""
 #: Acl/View/AclActions/admin_index.ctp:46
 #: Acl/View/AclPermissions/admin_index.ctp:44
 msgid "Synchronize"
-msgstr ""
+msgstr "Synchroniseer"
 
 #: Acl/View/AclActions/admin_index.ctp:52
 #: Acl/View/AclPermissions/admin_index.ctp:50
@@ -525,11 +525,11 @@ msgstr ""
 
 #: Acl/View/Elements/admin/row_acl.ctp:4
 msgid "Edit Permissions"
-msgstr ""
+msgstr "Bewerk rechten"
 
 #: Acl/View/Helper/AclHelper.php:62
 msgid "Upgrade Acl database"
-msgstr ""
+msgstr "Upgrade Acl database"
 
 #: Blocks/Config/admin_menu.php:5;15 Blocks/Controller/BlocksController.php:99
 #: Blocks/View/Blocks/admin_form.ctp:7 Blocks/View/Blocks/admin_index.ctp:9
@@ -576,7 +576,7 @@ msgstr "Blok verwijderd"
 #: Settings/Controller/SettingsController.php:210
 #: Taxonomy/Controller/VocabulariesController.php:132
 msgid "Moved up successfully"
-msgstr ""
+msgstr "Succesvol omhoog verplaatst"
 
 #: Blocks/Controller/BlocksController.php:207
 #: Menus/Controller/LinksController.php:275
@@ -592,7 +592,7 @@ msgstr "Kon niet omhoog verplaatsen"
 #: Settings/Controller/SettingsController.php:236
 #: Taxonomy/Controller/VocabulariesController.php:150
 msgid "Moved down successfully"
-msgstr ""
+msgstr "Succesvol omlaag verplaatst"
 
 #: Blocks/Controller/BlocksController.php:225
 #: Menus/Controller/LinksController.php:307
@@ -604,7 +604,7 @@ msgstr "Kon niet omlaag verplaatsen"
 
 #: Blocks/Controller/BlocksController.php:243
 msgid "Blocks deleted"
-msgstr ""
+msgstr "Blokken verwijderd"
 
 #: Blocks/Controller/BlocksController.php:244
 msgid "Blocks published"
@@ -713,7 +713,7 @@ msgstr "indien je het niet weet, kies dan 'geen'"
 #: Contacts/View/Contacts/admin_form.ctp:48
 #: Contacts/View/Messages/admin_form.ctp:44 Nodes/View/Nodes/admin_form.ctp:87
 msgid "Body"
-msgstr ""
+msgstr "Inhoud"
 
 #: Blocks/View/Blocks/admin_form.ctp:59 Menus/View/Links/admin_form.ctp:106
 msgid "Class"
@@ -721,11 +721,11 @@ msgstr ""
 
 #: Blocks/View/Blocks/admin_form.ctp:62
 msgid "Element"
-msgstr ""
+msgstr "Element"
 
 #: Blocks/View/Blocks/admin_form.ctp:78
 msgid "Visibility Paths"
-msgstr ""
+msgstr "Zichtbaarheids-paden"
 
 #: Blocks/View/Blocks/admin_form.ctp:79
 msgid ""
@@ -736,7 +736,7 @@ msgstr ""
 
 #: Blocks/View/Blocks/admin_form.ctp:111
 msgid "Show title ?"
-msgstr ""
+msgstr "Bekijk titel?"
 
 #: Blocks/View/Blocks/admin_form.ctp:116 Menus/View/Links/admin_form.ctp:144
 #: Menus/View/Menus/admin_form.ctp:78 Nodes/View/Nodes/admin_form.ctp:143
@@ -767,16 +767,16 @@ msgstr "Maak een kopie"
 
 #: Blocks/View/Blocks/admin_index.ctp:59
 msgid "Create a copy of this Block?"
-msgstr ""
+msgstr "Maak een kopie van dit Blok?"
 
 #: Blocks/View/Blocks/admin_index.ctp:70 Croogo/View/Common/admin_index.ctp:69
 msgid "Choose"
-msgstr ""
+msgstr "Kies"
 
 #: Blocks/View/Blocks/admin_index.ctp:89 Menus/View/Links/admin_index.ctp:97
 #: Menus/View/Menus/admin_index.ctp:57 Nodes/View/Nodes/admin_index.ctp:71
 msgid "preview"
-msgstr ""
+msgstr "voorbeeld"
 
 #: Blocks/View/Blocks/admin_index.ctp:120
 #: Comments/View/Comments/admin_index.ctp:118
@@ -805,7 +805,7 @@ msgstr "Verwijderen"
 #: Blocks/View/Blocks/admin_index.ctp:123 Menus/View/Links/admin_index.ctp:128
 #: Nodes/View/Nodes/admin_index.ctp:135
 msgid "Copy"
-msgstr ""
+msgstr "Kopieer"
 
 #: Blocks/View/Blocks/admin_index.ctp:129
 #: Comments/View/Comments/admin_index.ctp:126
@@ -864,7 +864,7 @@ msgstr "Commentaar verwijderd"
 
 #: Comments/Controller/CommentsController.php:156
 msgid "Comments deleted"
-msgstr ""
+msgstr "Reacties verwijderd"
 
 #: Comments/Controller/CommentsController.php:157
 msgid "Comments published"
@@ -876,7 +876,7 @@ msgstr "Commentaren niet gepubliceerd"
 
 #: Comments/Controller/CommentsController.php:198
 msgid "Invalid id"
-msgstr ""
+msgstr "Ongeldige id"
 
 #: Comments/Controller/CommentsController.php:223
 msgid "Maximum level reached. You cannot reply to that comment."
@@ -884,7 +884,7 @@ msgstr "Maximum niveau bereikt. Je kunt niet reageren op dit commentaar"
 
 #: Comments/Controller/CommentsController.php:238
 msgid "Comments are not allowed."
-msgstr ""
+msgstr "Reacties zijn niet toegestaan."
 
 #: Comments/Controller/CommentsController.php:262
 msgid "Your comment has been added successfully."
@@ -909,11 +909,11 @@ msgstr "Nieuw commentaar geplaatst bij"
 
 #: Comments/Model/Comment.php:130
 msgid "Invalid Node id"
-msgstr ""
+msgstr "Ongeldige node id"
 
 #: Comments/Model/Comment.php:199
 msgid "Invalid Comment id"
-msgstr ""
+msgstr "Ongeldige reactie id"
 
 #: Comments/View/Comments/admin_form.ctp:7
 #: Comments/View/Comments/admin_index.ctp:9
@@ -969,24 +969,24 @@ msgstr "Website"
 
 #: Comments/View/Comments/admin_form.ctp:64
 msgid "Ip"
-msgstr ""
+msgstr "IP"
 
 #: Comments/View/Comments/admin_index.ctp:15
 msgid "Comments: Published"
-msgstr ""
+msgstr "Reacties: Gepubliceerd"
 
 #: Comments/View/Comments/admin_index.ctp:18
 msgid "Comments: Approval"
-msgstr ""
+msgstr "Reacties: Goedkeuring"
 
 #: Comments/View/Comments/admin_index.ctp:49
 msgid "Node"
-msgstr ""
+msgstr "Node"
 
 #: Comments/View/Comments/admin_index.ctp:51
 #: Nodes/View/Nodes/admin_chooser.ctp:7;50
 msgid "Created"
-msgstr ""
+msgstr "Gemaakt"
 
 #: Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
@@ -1000,7 +1000,7 @@ msgstr "door"
 
 #: Comments/View/Elements/comment.ctp:13
 msgid "said on %s"
-msgstr ""
+msgstr "zei op %s"
 
 #: Comments/View/Elements/comment.ctp:19
 msgid "Reply"
@@ -1035,31 +1035,31 @@ msgstr "Lezen/Schrijven"
 
 #: Comments/View/Emails/text/comment.ctp:2
 msgid "A new comment has been posted under: %s"
-msgstr ""
+msgstr "Een nieuwe reactie is geplaatst onder: %s"
 
 #: Comments/View/Emails/text/comment.ctp:6
 #: Contacts/View/Emails/text/contact.ctp:8
 msgid "Name: %s"
-msgstr ""
+msgstr "Naam: %s"
 
 #: Comments/View/Emails/text/comment.ctp:7
 #: Contacts/View/Emails/text/contact.ctp:9
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: Comments/View/Emails/text/comment.ctp:8
 msgid "Website: %s"
-msgstr ""
+msgstr "Website: %s"
 
 #: Comments/View/Emails/text/comment.ctp:9
 #: Contacts/View/Emails/text/contact.ctp:11
 #: Users/View/Emails/text/forgot_password.ctp:17
 msgid "IP Address: %s"
-msgstr ""
+msgstr "IP address: %s"
 
 #: Comments/View/Emails/text/comment.ctp:10
 msgid "Comment: %s"
-msgstr ""
+msgstr "Reactie: %s"
 
 #: Contacts/Config/admin_menu.php:5;15
 #: Contacts/Controller/ContactsController.php:52
@@ -1115,7 +1115,7 @@ msgstr "Sorry, het berickt lijkt spam te zijn"
 
 #: Contacts/Controller/ContactsController.php:268
 msgid "[%s] %s"
-msgstr ""
+msgstr "[%s] %s"
 
 #: Contacts/Controller/MessagesController.php:72
 #: Contacts/View/Messages/admin_index.ctp:14;49
@@ -1169,37 +1169,37 @@ msgstr "Bericht"
 
 #: Contacts/View/Contacts/admin_form.ctp:59
 msgid "Position"
-msgstr ""
+msgstr "Positie"
 
 #: Contacts/View/Contacts/admin_form.ctp:62
 #: Contacts/View/Messages/admin_form.ctp:50
 msgid "Address"
-msgstr ""
+msgstr "Adres"
 
 #: Contacts/View/Contacts/admin_form.ctp:65
 msgid "Address2"
-msgstr ""
+msgstr "Adres 2"
 
 #: Contacts/View/Contacts/admin_form.ctp:68
 msgid "State"
-msgstr ""
+msgstr "Staat"
 
 #: Contacts/View/Contacts/admin_form.ctp:71
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: Contacts/View/Contacts/admin_form.ctp:74
 msgid "Post Code"
-msgstr ""
+msgstr "Postcode"
 
 #: Contacts/View/Contacts/admin_form.ctp:77
 #: Contacts/View/Messages/admin_form.ctp:47
 msgid "Phone"
-msgstr ""
+msgstr "Telefoon"
 
 #: Contacts/View/Contacts/admin_form.ctp:80
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 #: Contacts/View/Contacts/admin_form.ctp:88
 msgid "Let users leave a message"
@@ -1246,19 +1246,19 @@ msgstr "Verzenden"
 
 #: Contacts/View/Emails/text/contact.ctp:7
 msgid "You have received a new message at: %s"
-msgstr ""
+msgstr "Je hebt een nieuw bericht ontvangen op: %s"
 
 #: Contacts/View/Emails/text/contact.ctp:10
 msgid "Subject: %s"
-msgstr ""
+msgstr "Onderwerp: %s"
 
 #: Contacts/View/Emails/text/contact.ctp:12
 msgid "Message: %s"
-msgstr ""
+msgstr "Bericht: %s"
 
 #: Contacts/View/Messages/admin_index.ctp:15
 msgid "Messages: Read"
-msgstr ""
+msgstr "Berichten: Gelezen"
 
 #: Contacts/View/Messages/admin_index.ctp:17;43
 msgid "Unread"
@@ -1266,7 +1266,7 @@ msgstr "Ongelezen"
 
 #: Contacts/View/Messages/admin_index.ctp:18
 msgid "Messages: Unread"
-msgstr ""
+msgstr "Berichten: Ongelezen"
 
 #: Contacts/View/Messages/admin_index.ctp:133
 msgid "Mark as read"
@@ -1278,79 +1278,83 @@ msgstr "Markeer als ongelezen"
 
 #: Croogo/Console/Command/CroogoShell.php:27
 msgid "Croogo Utilities"
-msgstr ""
+msgstr "Croogo hulpprogramma's"
 
 #: Croogo/Console/Command/CroogoShell.php:29
 msgid "Compile/Generate CSS"
-msgstr ""
+msgstr "Compileer/genereer CSS"
 
 #: Croogo/Console/Command/CroogoShell.php:32
 msgid "Upgrade Croogo"
-msgstr ""
+msgstr "Upgrade Croogo"
 
 #: Croogo/Console/Command/ExtShell.php:103
 msgid "Theme cannot be deactivated, instead activate another theme."
-msgstr ""
+msgstr "Thema kan niet worden gedeactiveerd, activeer een ander thema."
 
 #: Croogo/Console/Command/ExtShell.php:107
 msgid "%s \"%s\" not found."
-msgstr ""
+msgstr "%s \"%s\" niet gevonden."
 
 #: Croogo/Console/Command/ExtShell.php:116
 msgid "%s name must be provided."
-msgstr ""
+msgstr "%s naam moet worden verstrekt."
 
 #: Croogo/Console/Command/ExtShell.php:128
 msgid "Activate Plugins & Themes"
-msgstr ""
+msgstr "Activeer plug-ins en thema's"
 
 #: Croogo/Console/Command/ExtShell.php:131
 msgid "Method to perform"
-msgstr ""
+msgstr "Uit te voeren methode"
 
 #: Croogo/Console/Command/ExtShell.php:136
 #: Croogo/Console/Command/InstallShell.php:136
 msgid "Extension type"
-msgstr ""
+msgstr "Extensie type"
 
 #: Croogo/Console/Command/ExtShell.php:141
 msgid "Name of extension"
-msgstr ""
+msgstr "Naam van extensie"
 
 #: Croogo/Console/Command/ExtShell.php:165
 #: Extensions/Controller/ExtensionsPluginsController.php:157
 msgid "Plugin \"%s\" activated successfully."
-msgstr ""
+msgstr "Plugin \"%s\" succesvol geactiveerd."
 
 #: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:557
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr ""
+"Plug-in \"%s\" kon niet worden geactiveerd. Probeer nogmaals, alstublieft."
 
 #: Croogo/Console/Command/ExtShell.php:186
 msgid "Plugin \"%s\" could not be deactivated. Please, try again."
 msgstr ""
+"Plug-in \"%s\" kon niet worden gedeactiveerd. Probeer nogmaals, alstublieft."
 
 #: Croogo/Console/Command/ExtShell.php:194
 #: Extensions/Controller/ExtensionsPluginsController.php:143
 msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
 msgstr ""
+"Plug-in \"%s\" kon niet worden geactiveerd omdat \"%s\" er afhankelijk van "
+"is."
 
 #: Croogo/Console/Command/ExtShell.php:205
 #: Extensions/Controller/ExtensionsPluginsController.php:148
 msgid "Plugin \"%s\" deactivated successfully."
-msgstr ""
+msgstr "Plug-in \"%s\" succesvol gedeactiveerd."
 
 #: Croogo/Console/Command/ExtShell.php:219
 msgid "Theme \"%s\" activated successfully."
-msgstr ""
+msgstr "Thema \"%s\" succesvol geactiveerd."
 
 #: Croogo/Console/Command/ExtShell.php:221
 msgid "Theme \"%s\" activation failed."
-msgstr ""
+msgstr "Activatie van thema \"%s\" mislukt."
 
 #: Croogo/Console/Command/ExtShell.php:235
 msgid "Plugins:"
-msgstr ""
+msgstr "Plug-ins:"
 
 #: Croogo/Console/Command/ExtShell.php:236;248;262;272
 msgid "%-20s%-50s%s"
@@ -1359,51 +1363,51 @@ msgstr ""
 #: Croogo/Console/Command/ExtShell.php:236
 #: Taxonomy/View/Vocabularies/admin_index.ctp:17
 msgid "Plugin"
-msgstr ""
+msgstr "Plug-in"
 
 #: Croogo/Console/Command/ExtShell.php:236;262
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: Croogo/Console/Command/ExtShell.php:262
 msgid "Theme"
-msgstr ""
+msgstr "Thema"
 
 #: Croogo/Console/Command/InstallShell.php:81
 msgid "Installing with Composer..."
-msgstr ""
+msgstr "Aan het installeren met Composer…"
 
 #: Croogo/Console/Command/InstallShell.php:89
 msgid "Unexpected composerInstall return value"
-msgstr ""
+msgstr "Onverwachte \"Composer install\" return waarde"
 
 #: Croogo/Console/Command/InstallShell.php:102
 msgid "Package installed and activated."
-msgstr ""
+msgstr "Pakket geïnstalleerd en geactiveerd."
 
 #: Croogo/Console/Command/InstallShell.php:104
 msgid "Package installed but not activated."
-msgstr ""
+msgstr "Pakket geïnstalleerd maar niet geactiveerd."
 
 #: Croogo/Console/Command/InstallShell.php:121
 msgid "Extension installed and activated."
-msgstr ""
+msgstr "Extensie geïnstalleerd en geactiveerd."
 
 #: Croogo/Console/Command/InstallShell.php:133
 msgid "Download, Install & Activate Plugins & Themes"
-msgstr ""
+msgstr "Download, installeer & activeer plug-ins & thema's"
 
 #: Croogo/Console/Command/InstallShell.php:141
 msgid "URL to zip file OR github user name"
-msgstr ""
+msgstr "URL naar ZIP bestand of GitHub gebruikersnaam"
 
 #: Croogo/Console/Command/InstallShell.php:145
 msgid "Github repo name"
-msgstr ""
+msgstr "GitHub repository naam"
 
 #: Croogo/Console/Command/InstallShell.php:176
 msgid "Installing extension..."
-msgstr ""
+msgstr "Extensie aan het installeren…"
 
 #: Croogo/Console/Command/InstallShell.php:195
 msgid "Please specify a URL to a zipball extension"
@@ -1411,7 +1415,7 @@ msgstr ""
 
 #: Croogo/Console/Command/InstallShell.php:200
 msgid "Downloading extension to %s..."
-msgstr ""
+msgstr "Extensie naar %s aan het downloaden…"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:62
 msgid "Upgrade ACL database for core controllers."
@@ -1429,15 +1433,15 @@ msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:76
 msgid "Create settings.json from database"
-msgstr ""
+msgstr "Maak settings.json vanuit database"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:79
 msgid "Update Hook.bootstrap settings"
-msgstr ""
+msgstr "Update Hook.bootstrap instellingen"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:82
 msgid "Update Links in database"
-msgstr ""
+msgstr "Update links in database"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:85
 msgid "Create first migration records"
@@ -1449,20 +1453,22 @@ msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:91
 msgid "Run all upgrade tasks"
-msgstr ""
+msgstr "Voer alle upgrade taken uit"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:101
 msgid "<warning>Config/settings.json already exist</warning>"
-msgstr ""
+msgstr "<warning>Config/settings.json bestaat al</warning>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:142
 msgid ""
 "<success>Config/settings.yml created based on `settings` table</success>"
 msgstr ""
+"<success>Config/settings.yml aangemaakt op basis van `settings` "
+"tabel</success>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:187
 msgid "Updating Link %s"
-msgstr ""
+msgstr "Link %s aan het updaten"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:188
 #: Settings/Console/Command/SettingsShell.php:155
@@ -1476,19 +1482,19 @@ msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:194
 msgid "Links updated: %d rows"
-msgstr ""
+msgstr "Links ge-update: %d rijen"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:210
 msgid "Hook.bootstraps updated"
-msgstr ""
+msgstr "Hook.bootstraps ge-update"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:334
 msgid "Upgrade \"%s\""
-msgstr ""
+msgstr "Upgrade \"%s\""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:348
 msgid "Command not recognized"
-msgstr ""
+msgstr "Commando niet herkent"
 
 #: Croogo/Controller/CroogoAppController.php:258
 msgid "Site down for maintenance"
@@ -1496,7 +1502,7 @@ msgstr "Website is offline in verband met onderhoud"
 
 #: Croogo/Controller/CroogoErrorController.php:55
 msgid "Errors in CakeErrorController: %s"
-msgstr ""
+msgstr "Fouten in CakeErrorController: %s"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:98
 msgid "No item selected"
@@ -1504,11 +1510,11 @@ msgstr "Geen items geselecteerd"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:99
 msgid "Please choose only one item for this operation"
-msgstr ""
+msgstr "Kies alstublieft maar een item voor deze handeling"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:136
 msgid "%s processed"
-msgstr ""
+msgstr "%s verwerkt"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
 #: FileManager/Controller/FileManagerController.php:221;249;307;335
@@ -1521,7 +1527,7 @@ msgstr "Bezoek website"
 
 #: Croogo/Controller/Component/CroogoComponent.php:145
 msgid "Profile"
-msgstr ""
+msgstr "Profiel"
 
 #: Croogo/Controller/Component/CroogoComponent.php:291
 #: Nodes/Controller/NodesController.php:205;656;676
@@ -3537,7 +3543,7 @@ msgstr "Onthoud mij?"
 
 #: Users/View/Users/admin_login.ctp:27
 msgid "Log In"
-msgstr ""
+msgstr "Log In"
 
 #: Users/View/Users/admin_login.ctp:28
 msgid "Forgot password?"
@@ -3549,7 +3555,7 @@ msgstr "Reset wachtwoord voor %s"
 
 #: Users/View/Users/admin_reset_password.ctp:38
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: Users/View/Users/reset.ctp:6
 msgid "New password"
