@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-07-16 15:22+0200\n"
-"Last-Translator: Laszlo <l.vanoudenhove@cvo-technologies.com>\n"
+"PO-Revision-Date: 2014-07-16 16:17+0200\n"
+"Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
 "Language: nld\n"
@@ -320,7 +320,7 @@ msgstr "Alias"
 #: Users/View/Roles/admin_form.ctp:50 Users/View/Users/admin_form.ctp:87
 #: Users/View/Users/admin_reset_password.ctp:37
 msgid "Publishing"
-msgstr "Publiceren"
+msgstr "Publiseren"
 
 #: Acl/View/AclActions/admin_form.ctp:59 Blocks/View/Blocks/admin_form.ctp:99
 #: Blocks/View/Regions/admin_form.ctp:60
@@ -387,7 +387,7 @@ msgstr "Opslaan"
 #: Users/View/Roles/admin_form.ctp:54 Users/View/Users/admin_form.ctp:91
 #: Users/View/Users/admin_reset_password.ctp:40
 msgid "Cancel"
-msgstr "Annuleer"
+msgstr "Annuleren"
 
 #: Acl/View/AclActions/admin_index.ctp:21
 #: Acl/View/AclPermissions/admin_index.ctp:19
@@ -990,7 +990,7 @@ msgstr "Node"
 #: Comments/View/Comments/admin_index.ctp:51
 #: Nodes/View/Nodes/admin_chooser.ctp:7;50
 msgid "Created"
-msgstr "Gemaakt"
+msgstr "Aangemaakt"
 
 #: Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
