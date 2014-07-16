@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-06-07 14:14+0200\n"
-"Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
+"PO-Revision-Date: 2014-07-16 15:22+0200\n"
+"Last-Translator: Laszlo <l.vanoudenhove@cvo-technologies.com>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
 "Language: nld\n"
@@ -447,7 +447,7 @@ msgstr "Id"
 #: Taxonomy/View/Terms/admin_index.ctp:49
 #: Taxonomy/View/Vocabularies/admin_index.ctp:35
 msgid "Move up"
-msgstr "Omhoog verplaatsen"
+msgstr "Verplaats omhoog"
 
 #: Acl/View/AclActions/admin_index.ctp:110
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
@@ -459,7 +459,7 @@ msgstr "Omhoog verplaatsen"
 #: Taxonomy/View/Terms/admin_index.ctp:53
 #: Taxonomy/View/Vocabularies/admin_index.ctp:39
 msgid "Move down"
-msgstr "Omlaag verplaatsen"
+msgstr "Verplaats omlaag"
 
 #: Acl/View/AclActions/admin_index.ctp:115
 #: Acl/View/AclPermissions/json/admin_index.ctp:15
@@ -2001,7 +2001,7 @@ msgstr "Activeer"
 #: Taxonomy/View/Terms/admin_form.ctp:61 Taxonomy/View/Types/admin_form.ctp:48
 #: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Description"
-msgstr "Beschrijving"
+msgstr "Omschrijving"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
 msgid "Active"
@@ -2149,8 +2149,8 @@ msgid ""
 "Page %page% of %pages%, showing %current% records out of %count% total, "
 "starting on record %start%, ending on %end%"
 msgstr ""
-"Pagina %page% van %pages%, met %current% van in totaal %count% records, "
-"vanaf record %start%, tot %end%"
+"Pagina %page% van %pages%, laat %current% archief uit %count% van total, "
+"begin van archief %start%, einde van %end%"
 
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
