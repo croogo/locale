@@ -5,15 +5,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2013-12-12 12:01-0300\n"
-"Last-Translator: Vinícius Silva Santos <viniciussilva@dcc.ufba.br>\n"
+"PO-Revision-Date: 2014-08-03 23:43-0300\n"
+"Last-Translator: Jhonatan Oliveira <jhonatanoliveira@gmail.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
-"Language: \n"
+"Language: bra\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: Acl/Config/admin_menu.php:4 Acl/Controller/AclPermissionsController.php:58
 #: Acl/Controller/Component/RowLevelAclComponent.php:67
@@ -250,7 +250,7 @@ msgstr "Função: Administrador não encontrado"
 
 #: Acl/Model/AclAco.php:173
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: Acl/View/AclActions/admin_form.ctp:6 Acl/View/AclActions/admin_index.ctp:10
 #: Acl/View/AclPermissions/admin_index.ctp:9 Users/Config/admin_menu.php:5;15
@@ -626,9 +626,8 @@ msgid "Blocks unpublished"
 msgstr "Blocos não publicados"
 
 #: Blocks/Controller/BlocksController.php:246
-#, fuzzy
 msgid "Blocks copied"
-msgstr "Blocos publicados"
+msgstr "Blocos copiados"
 
 #: Blocks/Controller/RegionsController.php:66
 #: Blocks/View/Blocks/admin_form.ctp:52 Blocks/View/Blocks/admin_index.ctp:26
@@ -753,15 +752,13 @@ msgstr "Mostrar título ?"
 
 #: Blocks/View/Blocks/admin_form.ctp:116 Menus/View/Links/admin_form.ctp:144
 #: Menus/View/Menus/admin_form.ctp:78 Nodes/View/Nodes/admin_form.ctp:143
-#, fuzzy
 msgid "Publish Start"
-msgstr "Publicar como"
+msgstr "Iniciar Publicação"
 
 #: Blocks/View/Blocks/admin_form.ctp:120 Menus/View/Links/admin_form.ctp:148
 #: Menus/View/Menus/admin_form.ctp:82 Nodes/View/Nodes/admin_form.ctp:147
-#, fuzzy
 msgid "Publish End"
-msgstr "Publicados"
+msgstr "Publicação finalizada"
 
 #: Blocks/View/Blocks/admin_index.ctp:27
 #: Croogo/Console/Command/ExtShell.php:236;262
@@ -775,13 +772,12 @@ msgstr "Estado"
 
 #: Blocks/View/Blocks/admin_index.ctp:56 Menus/View/Links/admin_index.ctp:79
 #: Nodes/View/Nodes/admin_index.ctp:100
-#, fuzzy
 msgid "Create a copy"
-msgstr "Criar diretório"
+msgstr "Criar uma cópia"
 
 #: Blocks/View/Blocks/admin_index.ctp:59
 msgid "Create a copy of this Block?"
-msgstr ""
+msgstr "Criar uma cópia desse bloco?"
 
 #: Blocks/View/Blocks/admin_index.ctp:70 Croogo/View/Common/admin_index.ctp:69
 msgid "Choose"
@@ -790,7 +786,7 @@ msgstr "Escolha"
 #: Blocks/View/Blocks/admin_index.ctp:89 Menus/View/Links/admin_index.ctp:97
 #: Menus/View/Menus/admin_index.ctp:57 Nodes/View/Nodes/admin_index.ctp:71
 msgid "preview"
-msgstr ""
+msgstr "prévia"
 
 #: Blocks/View/Blocks/admin_index.ctp:120
 #: Comments/View/Comments/admin_index.ctp:118
@@ -819,7 +815,7 @@ msgstr "Excluir"
 #: Blocks/View/Blocks/admin_index.ctp:123 Menus/View/Links/admin_index.ctp:128
 #: Nodes/View/Nodes/admin_index.ctp:135
 msgid "Copy"
-msgstr ""
+msgstr "Cópia"
 
 #: Blocks/View/Blocks/admin_index.ctp:129
 #: Comments/View/Comments/admin_index.ctp:126
@@ -890,7 +886,7 @@ msgstr "Comentários não publicados"
 
 #: Comments/Controller/CommentsController.php:198
 msgid "Invalid id"
-msgstr ""
+msgstr "Id inválida"
 
 #: Comments/Controller/CommentsController.php:223
 msgid "Maximum level reached. You cannot reply to that comment."
@@ -1161,9 +1157,8 @@ msgid "Message deleted"
 msgstr "Mensagem excluída"
 
 #: Contacts/Controller/MessagesController.php:134
-#, fuzzy
 msgid "Messages deleted"
-msgstr "Mensagens excluída."
+msgstr "Mensagen excluída"
 
 #: Contacts/Controller/MessagesController.php:135
 msgid "Messages marked as read"
@@ -1348,7 +1343,7 @@ msgstr "Plugin \"%s\" não pôde ser desativado. Por favor, tente novamente."
 #: Croogo/Console/Command/ExtShell.php:194
 #: Extensions/Controller/ExtensionsPluginsController.php:143
 msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
-msgstr ""
+msgstr "Plugin \"%s\" não pode ser desativado, pois \"%s\" depende dele."
 
 #: Croogo/Console/Command/ExtShell.php:205
 #: Extensions/Controller/ExtensionsPluginsController.php:148
@@ -1466,7 +1461,7 @@ msgstr "Criar primeira migração de registros"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:88
 msgid "Run all pending migrations for core plugins"
-msgstr ""
+msgstr "Executar todas migrações pendentes para os plugins do núcleo"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:91
 msgid "Run all upgrade tasks"
@@ -1522,17 +1517,16 @@ msgid "Errors in CakeErrorController: %s"
 msgstr "Erros em CakeErrorCOntroller: %s"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:98
-#, fuzzy
 msgid "No item selected"
-msgstr "Itens não selecionados."
+msgstr "Itens não selecionados"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:99
 msgid "Please choose only one item for this operation"
-msgstr ""
+msgstr "Por favor, escolha apenas um ítem para essa operação"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:136
 msgid "%s processed"
-msgstr ""
+msgstr "%s processado"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
 #: FileManager/Controller/FileManagerController.php:221;249;307;335
@@ -1545,7 +1539,7 @@ msgstr "Visitar website"
 
 #: Croogo/Controller/Component/CroogoComponent.php:145
 msgid "Profile"
-msgstr ""
+msgstr "Perfil"
 
 #: Croogo/Controller/Component/CroogoComponent.php:291
 #: Nodes/Controller/NodesController.php:205;656;676
@@ -1571,15 +1565,15 @@ msgstr "Não publicados"
 
 #: Croogo/Lib/CroogoStatus.php:41
 msgid "Preview"
-msgstr ""
+msgstr "Prévia"
 
 #: Croogo/Lib/CroogoStatus.php:44
 msgid "Approved"
-msgstr ""
+msgstr "Aprovado"
 
 #: Croogo/Lib/CroogoStatus.php:45
 msgid "Pending"
-msgstr ""
+msgstr "Pendente"
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:40
 msgid "Cannot load configuration files with ../ in them."
@@ -1598,9 +1592,8 @@ msgid "No target to process action upon"
 msgstr "Alvo não para processar ação não foi selecionado"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:75
-#, fuzzy
 msgid "Action %s is disabled"
-msgstr "Ação excluída"
+msgstr "Ação %s está desabilitada"
 
 #: Croogo/View/Common/admin_edit.ctp:8
 #: FileManager/View/Attachments/admin_browse.ctp:35
@@ -1745,7 +1738,7 @@ msgstr "Plugins"
 
 #: Extensions/Console/Command/DataMigrationShell.php:23
 msgid "Data Migration Utility"
-msgstr ""
+msgstr "Utilitário de Migração de Dados"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:66
 msgid "Locale does not exist."
@@ -2325,7 +2318,7 @@ msgstr "Instalação realizada com sucesso"
 
 #: Install/Controller/InstallController.php:224
 msgid "Installation failed"
-msgstr ""
+msgstr "A instalação falhou"
 
 #: Install/Controller/InstallController.php:225
 msgid "Installation failed: Unable to create settings file"
@@ -2357,7 +2350,7 @@ msgstr "Arquivo: %s não copiado"
 
 #: Install/Lib/InstallManager.php:38
 msgid "Could not copy database.php file."
-msgstr ""
+msgstr "O arquivo database.php não pode ser copiado"
 
 #: Install/Lib/InstallManager.php:48
 msgid "Could not write database.php file."
@@ -2394,31 +2387,31 @@ msgstr "Clique aqui para criar seu banco de dados"
 
 #: Install/View/Install/database.ctp:17
 msgid "Warning"
-msgstr ""
+msgstr "Alerta"
 
 #: Install/View/Install/database.ctp:18
 msgid "A `database.php` file already exists."
-msgstr ""
+msgstr "O arquivo `database.php` já existe."
 
 #: Install/View/Install/database.ctp:21
 msgid "Valid"
-msgstr ""
+msgstr "Válido"
 
 #: Install/View/Install/database.ctp:24
 msgid "Invalid"
-msgstr ""
+msgstr "Inválido"
 
 #: Install/View/Install/database.ctp:27
 msgid "This file is %s."
-msgstr ""
+msgstr "Esse arquivo é %s."
 
 #: Install/View/Install/database.ctp:32
 msgid "Reuse this file and proceed."
-msgstr ""
+msgstr "Reuse esse arquivo e proceda"
 
 #: Install/View/Install/database.ctp:37
 msgid "This file will be replaced."
-msgstr ""
+msgstr "Esse arquivo será sobrescrito"
 
 #: Install/View/Install/database.ctp:62
 msgid "Database hostname or IP Address"
@@ -2560,9 +2553,8 @@ msgid "Link deleted"
 msgstr "Link Excluído"
 
 #: Menus/Controller/LinksController.php:338
-#, fuzzy
 msgid "Links deleted"
-msgstr "Links excluídos."
+msgstr "Links excluídos"
 
 #: Menus/Controller/LinksController.php:339
 msgid "Links published"
@@ -2618,11 +2610,11 @@ msgstr "Selecione"
 
 #: Menus/View/Links/admin_form.ctp:162
 msgid "Choose Link"
-msgstr ""
+msgstr "Escolha o Link"
 
 #: Menus/View/Links/admin_index.ctp:82
 msgid "Create a copy of this Link?"
-msgstr ""
+msgstr "Criar uma cópia desse Link?"
 
 #: Menus/View/Links/admin_index.ctp:89
 msgid "Delete this item"
@@ -2630,7 +2622,7 @@ msgstr "Deletar este item"
 
 #: Menus/View/Links/admin_link_chooser.ctp:11
 msgid "Link to %s"
-msgstr ""
+msgstr "Link para %s"
 
 #: Menus/View/Menus/admin_form.ctp:25
 msgid "Menu"
@@ -2738,9 +2730,8 @@ msgid "Nodes unpromoted"
 msgstr "Nós não promovidos"
 
 #: Nodes/Controller/NodesController.php:324
-#, fuzzy
 msgid "Nodes copied"
-msgstr "Nós publicado"
+msgstr "Nós copiados"
 
 #: Nodes/Controller/NodesController.php:377;478;548;611
 msgid "Invalid content type."
@@ -2752,7 +2743,7 @@ msgstr "Termo inválido."
 
 #: Nodes/Controller/NodesController.php:527
 msgid "Home"
-msgstr ""
+msgstr "Início"
 
 #: Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
@@ -3152,19 +3143,19 @@ msgstr "Termo não pode ser excluído.Por favor,tente novamente."
 
 #: Taxonomy/Controller/TermsController.php:225
 msgid "Moved %s successfully"
-msgstr ""
+msgstr "%s movido com sucesso"
 
 #: Taxonomy/Controller/TermsController.php:228
 msgid "Could not move %s"
-msgstr ""
+msgstr "%s não foi movido"
 
 #: Taxonomy/Controller/TermsController.php:261
 msgid "Invalid Term ID."
-msgstr ""
+msgstr "Term Id inválido."
 
 #: Taxonomy/Controller/TermsController.php:277
 msgid "Invalid Taxonomy."
-msgstr ""
+msgstr "Taxonomia inválida"
 
 #: Taxonomy/Controller/TermsController.php:296
 msgid "Invalid Vocabulary ID."
@@ -3236,19 +3227,19 @@ msgstr "Vocabulário excluído"
 
 #: Taxonomy/Model/Term.php:186
 msgid "Invalid Term Id"
-msgstr ""
+msgstr "Term Id inválido"
 
 #: Taxonomy/Model/Term.php:242
 msgid "\"vocabulary_id\" key not found"
-msgstr ""
+msgstr "\"vocabulary_id\" chave não encontrada"
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:133
 msgid "Please select at least 1 value"
-msgstr ""
+msgstr "Por favor, selecione pelo menos 1 valor"
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:134
 msgid "Please select at most 1 value"
-msgstr ""
+msgstr "Por favor, selecione até 1 valor"
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:173
 msgid "Invalid Content Type"
@@ -3461,7 +3452,7 @@ msgstr "Admin Login"
 
 #: Users/Controller/UsersController.php:263
 msgid "You are already logged in"
-msgstr ""
+msgstr "Você já está logado"
 
 #: Users/Controller/UsersController.php:276
 msgid "Incorrect username or password"
@@ -3556,19 +3547,19 @@ msgstr "Função"
 
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
-msgstr ""
+msgstr "Editar usuário %s"
 
 #: Users/View/Users/admin_form.ctp:16
 msgid "New user"
-msgstr ""
+msgstr "Novo usuário"
 
 #: Users/View/Users/admin_form.ctp:76
 msgid "Timezone"
-msgstr ""
+msgstr "Fuso Horário"
 
 #: Users/View/Users/admin_form.ctp:96
 msgid "Send Activation Email"
-msgstr ""
+msgstr "Enviar email de ativação"
 
 #: Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
@@ -3584,7 +3575,7 @@ msgstr "Esqueceu senha?"
 
 #: Users/View/Users/admin_reset_password.ctp:11
 msgid "Reset Password for %s"
-msgstr ""
+msgstr "Restaurar senha para %s"
 
 #: Users/View/Users/admin_reset_password.ctp:38
 msgid "Reset"
