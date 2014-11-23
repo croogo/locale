@@ -27,74 +27,74 @@ msgstr "Разрешения"
 msgid "Access Control"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:94
+#: Acl/Console/Command/ExtrasShell.php:93
 msgid "Plugin to process"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:97
+#: Acl/Console/Command/ExtrasShell.php:96
 msgid "Better manage, and easily synchronize you application's ACO tree"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:102
+#: Acl/Console/Command/ExtrasShell.php:101
 msgid ""
 "Add new ACOs for new controllers and actions. Does not remove nodes from the "
 "ACO table."
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:108
+#: Acl/Console/Command/ExtrasShell.php:107
 msgid ""
 "Perform a full sync on the ACO table.Will create new ACOs or missing "
 "controllers and actions.Will also remove orphaned entries that no longer "
 "have a matching controller/action"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:113
+#: Acl/Console/Command/ExtrasShell.php:112
 msgid ""
 "Perform a full content sync on the ACO table.Will create new ACOs or missing "
 "contents.Will also remove orphaned entries that no longer have a matching "
 "contents"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:120
+#: Acl/Console/Command/ExtrasShell.php:119
 msgid "The content model name "
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:126
+#: Acl/Console/Command/ExtrasShell.php:125
 msgid "Verify the tree structure of either your Aco or Aro Trees"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:131
+#: Acl/Console/Command/ExtrasShell.php:130
 msgid "The type of tree to verify"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:138
+#: Acl/Console/Command/ExtrasShell.php:137
 msgid "Recover a corrupted Tree"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:143
+#: Acl/Console/Command/ExtrasShell.php:142
 msgid "The type of tree to recover"
 msgstr ""
 
 #: Acl/Controller/AclActionsController.php:47
 #: Acl/View/AclActions/admin_form.ctp:8
 #: Acl/View/AclActions/admin_index.ctp:14;72
-#: Blocks/View/Blocks/admin_index.ctp:28
-#: Comments/View/Comments/admin_index.ctp:52
-#: Contacts/View/Messages/admin_index.ctp:72
-#: Croogo/View/Common/admin_index.ctp:59
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:50
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:25
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
+#: Blocks/View/Blocks/admin_index.ctp:24
+#: Comments/View/Comments/admin_index.ctp:48
+#: Contacts/View/Messages/admin_index.ctp:65
+#: Croogo/View/Common/admin_index.ctp:60
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:39
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:21
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:30
 #: FileManager/View/Attachments/admin_browse.ctp:26
-#: FileManager/View/Attachments/admin_index.ctp:18
-#: FileManager/View/FileManager/admin_browse.ctp:45
-#: Menus/View/Links/admin_index.ctp:46 Menus/View/Menus/admin_index.ctp:20
+#: FileManager/View/Attachments/admin_index.ctp:15
+#: FileManager/View/FileManager/admin_browse.ctp:47
+#: Menus/View/Links/admin_index.ctp:42 Menus/View/Menus/admin_index.ctp:17
 #: Nodes/View/Nodes/admin_translations.ctp:27
 #: Settings/View/Languages/admin_index.ctp:20
-#: Settings/View/Settings/admin_index.ctp:24
-#: Taxonomy/View/Terms/admin_index.ctp:35
-#: Taxonomy/View/Vocabularies/admin_index.ctp:18
-#: Translate/View/Translate/admin_index.ctp:43
+#: Settings/View/Settings/admin_index.ctp:22
+#: Taxonomy/View/Terms/admin_index.ctp:29
+#: Taxonomy/View/Vocabularies/admin_index.ctp:17
+#: Translate/View/Translate/admin_index.ctp:59
 msgid "Actions"
 msgstr "Действия"
 
@@ -244,278 +244,278 @@ msgstr ""
 #: Acl/View/AclActions/admin_form.ctp:6 Acl/View/AclActions/admin_index.ctp:10
 #: Acl/View/AclPermissions/admin_index.ctp:9 Users/Config/admin_menu.php:5;15
 #: Users/Controller/UsersController.php:108;302
-#: Users/View/Roles/admin_form.ctp:5 Users/View/Roles/admin_index.ctp:6
+#: Users/View/Roles/admin_form.ctp:7 Users/View/Roles/admin_index.ctp:6
 #: Users/View/Users/admin_form.ctp:7 Users/View/Users/admin_index.ctp:6
-#: Users/View/Users/admin_reset_password.ctp:5
+#: Users/View/Users/admin_reset_password.ctp:7
 msgid "Users"
 msgstr "Пользователи"
 
 #: Acl/View/AclActions/admin_form.ctp:15 Blocks/View/Blocks/admin_form.ctp:13
 #: Blocks/View/Regions/admin_form.ctp:20
 #: Contacts/View/Contacts/admin_form.ctp:14
-#: Croogo/View/Common/admin_edit.ctp:8 Menus/View/Links/admin_form.ctp:16
+#: Croogo/View/Common/admin_edit.ctp:12 Menus/View/Links/admin_form.ctp:17
 #: Menus/View/Menus/admin_form.ctp:14
 #: Settings/View/Languages/admin_form.ctp:15
 #: Settings/View/Settings/admin_form.ctp:18
 #: Taxonomy/View/Terms/admin_form.ctp:21 Taxonomy/View/Types/admin_form.ctp:14
 #: Taxonomy/View/Vocabularies/admin_form.ctp:18
-#: Users/View/Roles/admin_form.ctp:13 Users/View/Users/admin_form.ctp:20
+#: Users/View/Roles/admin_form.ctp:15 Users/View/Users/admin_form.ctp:20
 msgid "Add"
 msgstr "Добавление"
 
-#: Acl/View/AclActions/admin_form.ctp:27
+#: Acl/View/AclActions/admin_form.ctp:23
 msgid "Action"
 msgstr ""
 
-#: Acl/View/AclActions/admin_form.ctp:39 Menus/View/Links/admin_form.ctp:69
-#: Nodes/View/Nodes/admin_form.ctp:60 Taxonomy/View/Terms/admin_form.ctp:45
+#: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
+#: Nodes/View/Nodes/admin_form.ctp:55 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
 msgstr "Родительский элемент"
 
-#: Acl/View/AclActions/admin_form.ctp:40
+#: Acl/View/AclActions/admin_form.ctp:35
 msgid "Choose none if the Aco is a controller."
 msgstr "Выберите Нет, если Aco является контроллером."
 
-#: Acl/View/AclActions/admin_form.ctp:47
+#: Acl/View/AclActions/admin_form.ctp:38
 #: Acl/View/AclActions/admin_index.ctp:71
 #: Acl/View/Elements/admin/acl_permissions_table.ctp:8
-#: Blocks/View/Blocks/admin_form.ctp:48 Blocks/View/Blocks/admin_index.ctp:25
-#: Blocks/View/Regions/admin_form.ctp:48
-#: Contacts/View/Contacts/admin_form.ctp:42
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:24
-#: Menus/View/Menus/admin_form.ctp:43 Menus/View/Menus/admin_index.ctp:17
-#: Settings/View/Languages/admin_form.ctp:44
+#: Blocks/View/Blocks/admin_form.ctp:37 Blocks/View/Blocks/admin_index.ctp:21
+#: Blocks/View/Regions/admin_form.ctp:38
+#: Contacts/View/Contacts/admin_form.ctp:34
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:26
+#: Menus/View/Menus/admin_form.ctp:33 Menus/View/Menus/admin_index.ctp:14
+#: Settings/View/Languages/admin_form.ctp:41
 #: Settings/View/Languages/admin_index.ctp:18
-#: Taxonomy/View/Types/admin_form.ctp:45
-#: Taxonomy/View/Vocabularies/admin_form.ctp:49
-#: Taxonomy/View/Vocabularies/admin_index.ctp:16
-#: Users/View/Roles/admin_form.ctp:40
+#: Taxonomy/View/Types/admin_form.ctp:35
+#: Taxonomy/View/Vocabularies/admin_form.ctp:40
+#: Taxonomy/View/Vocabularies/admin_index.ctp:15
+#: Users/View/Roles/admin_form.ctp:32
 msgid "Alias"
 msgstr "Псевдоним"
 
-#: Acl/View/AclActions/admin_form.ctp:58 Blocks/View/Blocks/admin_form.ctp:98
-#: Blocks/View/Regions/admin_form.ctp:59
-#: Comments/View/Comments/admin_form.ctp:47
-#: Contacts/View/Contacts/admin_form.ctp:124
-#: Contacts/View/Messages/admin_form.ctp:61
-#: Croogo/View/Common/admin_edit.ctp:82
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:45
-#: FileManager/View/Attachments/admin_add.ctp:44
-#: FileManager/View/Attachments/admin_edit.ctp:74
-#: FileManager/View/FileManager/admin_create_directory.ctp:52
-#: FileManager/View/FileManager/admin_create_file.ctp:53
-#: FileManager/View/FileManager/admin_editfile.ctp:52
+#: Acl/View/AclActions/admin_form.ctp:46 Blocks/View/Blocks/admin_form.ctp:78
+#: Blocks/View/Regions/admin_form.ctp:46
+#: Comments/View/Comments/admin_form.ctp:35
+#: Contacts/View/Contacts/admin_form.ctp:103
+#: Contacts/View/Messages/admin_form.ctp:49
+#: Croogo/View/Common/admin_edit.ctp:115
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:36
+#: FileManager/View/Attachments/admin_add.ctp:41
+#: FileManager/View/Attachments/admin_edit.ctp:51
+#: FileManager/View/FileManager/admin_create_directory.ctp:50
+#: FileManager/View/FileManager/admin_create_file.ctp:49
+#: FileManager/View/FileManager/admin_editfile.ctp:49
 #: FileManager/View/FileManager/admin_upload.ctp:48
-#: Menus/View/Links/admin_form.ctp:131 Nodes/View/Nodes/admin_form.ctp:107
-#: Settings/View/Languages/admin_form.ctp:55
-#: Settings/View/Settings/admin_form.ctp:81
-#: Taxonomy/View/Terms/admin_form.ctp:72
-#: Taxonomy/View/Types/admin_form.ctp:110
-#: Taxonomy/View/Vocabularies/admin_form.ctp:83
-#: Translate/View/Translate/admin_edit.ctp:45
-#: Users/View/Roles/admin_form.ctp:50 Users/View/Users/admin_form.ctp:87
-#: Users/View/Users/admin_reset_password.ctp:37
+#: Menus/View/Links/admin_form.ctp:117 Nodes/View/Nodes/admin_form.ctp:98
+#: Settings/View/Languages/admin_form.ctp:52
+#: Settings/View/Settings/admin_form.ctp:65
+#: Taxonomy/View/Terms/admin_form.ctp:60
+#: Taxonomy/View/Types/admin_form.ctp:100
+#: Taxonomy/View/Vocabularies/admin_form.ctp:67
+#: Translate/View/Translate/admin_edit.ctp:52
+#: Users/View/Roles/admin_form.ctp:40 Users/View/Users/admin_form.ctp:70
+#: Users/View/Users/admin_reset_password.ctp:45
 msgid "Publishing"
 msgstr "Публикация"
 
-#: Acl/View/AclActions/admin_form.ctp:59 Blocks/View/Blocks/admin_form.ctp:99
-#: Blocks/View/Regions/admin_form.ctp:60
-#: Contacts/View/Contacts/admin_form.ctp:125
-#: FileManager/View/Attachments/admin_edit.ctp:75
-#: Menus/View/Links/admin_form.ctp:132 Menus/View/Menus/admin_form.ctp:66
-#: Nodes/View/Nodes/admin_form.ctp:108 Taxonomy/View/Terms/admin_form.ctp:73
-#: Taxonomy/View/Types/admin_form.ctp:111
-#: Taxonomy/View/Vocabularies/admin_form.ctp:84
-#: Translate/View/Translate/admin_edit.ctp:46
-#: Users/View/Roles/admin_form.ctp:51 Users/View/Users/admin_form.ctp:88
+#: Acl/View/AclActions/admin_form.ctp:47 Blocks/View/Blocks/admin_form.ctp:79
+#: Blocks/View/Regions/admin_form.ctp:47
+#: Contacts/View/Contacts/admin_form.ctp:104
+#: FileManager/View/Attachments/admin_edit.ctp:52
+#: Menus/View/Links/admin_form.ctp:118 Menus/View/Menus/admin_form.ctp:52
+#: Nodes/View/Nodes/admin_form.ctp:99 Taxonomy/View/Terms/admin_form.ctp:61
+#: Taxonomy/View/Types/admin_form.ctp:101
+#: Taxonomy/View/Vocabularies/admin_form.ctp:68
+#: Translate/View/Translate/admin_edit.ctp:53
+#: Users/View/Roles/admin_form.ctp:41 Users/View/Users/admin_form.ctp:71
 msgid "Apply"
 msgstr "Применить"
 
-#: Acl/View/AclActions/admin_form.ctp:60 Blocks/View/Blocks/admin_form.ctp:100
-#: Blocks/View/Regions/admin_form.ctp:61
-#: Comments/View/Comments/admin_form.ctp:48
-#: Contacts/View/Contacts/admin_form.ctp:126
-#: Contacts/View/Messages/admin_form.ctp:62
-#: Croogo/View/Common/admin_edit.ctp:83
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:51
-#: FileManager/View/Attachments/admin_edit.ctp:76
-#: FileManager/View/FileManager/admin_create_file.ctp:54
-#: FileManager/View/FileManager/admin_editfile.ctp:53
+#: Acl/View/AclActions/admin_form.ctp:48 Blocks/View/Blocks/admin_form.ctp:80
+#: Blocks/View/Regions/admin_form.ctp:48
+#: Comments/View/Comments/admin_form.ctp:36
+#: Contacts/View/Contacts/admin_form.ctp:105
+#: Contacts/View/Messages/admin_form.ctp:50
+#: Croogo/View/Common/admin_edit.ctp:116
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:40
+#: FileManager/View/Attachments/admin_edit.ctp:53
+#: FileManager/View/FileManager/admin_create_file.ctp:50
+#: FileManager/View/FileManager/admin_editfile.ctp:50
 #: FileManager/View/FileManager/admin_upload.ctp:49
-#: Install/View/Install/adminuser.ctp:34 Menus/View/Links/admin_form.ctp:133
-#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:109
-#: Settings/View/Languages/admin_form.ctp:56
-#: Settings/View/Settings/admin_form.ctp:82
-#: Settings/View/Settings/admin_prefix.ctp:65
-#: Taxonomy/View/Terms/admin_form.ctp:74
-#: Taxonomy/View/Types/admin_form.ctp:112
-#: Taxonomy/View/Vocabularies/admin_form.ctp:85
-#: Translate/View/Translate/admin_edit.ctp:47
-#: Users/View/Roles/admin_form.ctp:52 Users/View/Users/admin_form.ctp:89
+#: Install/View/Install/adminuser.ctp:36 Menus/View/Links/admin_form.ctp:119
+#: Menus/View/Menus/admin_form.ctp:53 Nodes/View/Nodes/admin_form.ctp:100
+#: Settings/View/Languages/admin_form.ctp:53
+#: Settings/View/Settings/admin_form.ctp:66
+#: Settings/View/Settings/admin_prefix.ctp:54
+#: Taxonomy/View/Terms/admin_form.ctp:62
+#: Taxonomy/View/Types/admin_form.ctp:102
+#: Taxonomy/View/Vocabularies/admin_form.ctp:69
+#: Translate/View/Translate/admin_edit.ctp:54
+#: Users/View/Roles/admin_form.ctp:42 Users/View/Users/admin_form.ctp:72
 msgid "Save"
 msgstr "Сохранить"
 
-#: Acl/View/AclActions/admin_form.ctp:61 Blocks/View/Blocks/admin_form.ctp:101
-#: Blocks/View/Regions/admin_form.ctp:62
-#: Comments/View/Comments/admin_form.ctp:50
-#: Contacts/View/Contacts/admin_form.ctp:128
-#: Contacts/View/Messages/admin_form.ctp:64
-#: Croogo/View/Common/admin_edit.ctp:84
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:48
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:52
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:45
-#: Extensions/View/ExtensionsThemes/admin_add.ctp:50
-#: FileManager/View/Attachments/admin_add.ctp:47
-#: FileManager/View/Attachments/admin_edit.ctp:78
-#: FileManager/View/FileManager/admin_create_directory.ctp:54
-#: FileManager/View/FileManager/admin_create_file.ctp:55
-#: FileManager/View/FileManager/admin_editfile.ctp:54
+#: Acl/View/AclActions/admin_form.ctp:49 Blocks/View/Blocks/admin_form.ctp:81
+#: Blocks/View/Regions/admin_form.ctp:49
+#: Comments/View/Comments/admin_form.ctp:37
+#: Contacts/View/Contacts/admin_form.ctp:107
+#: Contacts/View/Messages/admin_form.ctp:52
+#: Croogo/View/Common/admin_edit.ctp:117
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:38
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:41
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:38
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:38
+#: FileManager/View/Attachments/admin_add.ctp:43
+#: FileManager/View/Attachments/admin_edit.ctp:55
+#: FileManager/View/FileManager/admin_create_directory.ctp:52
+#: FileManager/View/FileManager/admin_create_file.ctp:51
+#: FileManager/View/FileManager/admin_editfile.ctp:51
 #: FileManager/View/FileManager/admin_upload.ctp:50
-#: Install/View/Install/adminuser.ctp:35 Menus/View/Links/admin_form.ctp:134
-#: Menus/View/Menus/admin_form.ctp:68 Nodes/View/Nodes/admin_form.ctp:110
-#: Settings/View/Languages/admin_form.ctp:58
-#: Settings/View/Settings/admin_form.ctp:83
-#: Settings/View/Settings/admin_prefix.ctp:66
-#: Taxonomy/View/Terms/admin_form.ctp:76
-#: Taxonomy/View/Types/admin_form.ctp:114
-#: Taxonomy/View/Vocabularies/admin_form.ctp:87
-#: Translate/View/Translate/admin_edit.ctp:48
-#: Users/View/Roles/admin_form.ctp:54 Users/View/Users/admin_form.ctp:91
-#: Users/View/Users/admin_reset_password.ctp:40
+#: Install/View/Install/adminuser.ctp:37 Menus/View/Links/admin_form.ctp:120
+#: Menus/View/Menus/admin_form.ctp:54 Nodes/View/Nodes/admin_form.ctp:101
+#: Settings/View/Languages/admin_form.ctp:55
+#: Settings/View/Settings/admin_form.ctp:67
+#: Settings/View/Settings/admin_prefix.ctp:55
+#: Taxonomy/View/Terms/admin_form.ctp:64
+#: Taxonomy/View/Types/admin_form.ctp:104
+#: Taxonomy/View/Vocabularies/admin_form.ctp:71
+#: Translate/View/Translate/admin_edit.ctp:55
+#: Users/View/Roles/admin_form.ctp:44 Users/View/Users/admin_form.ctp:74
+#: Users/View/Users/admin_reset_password.ctp:48
 msgid "Cancel"
 msgstr "Отменить"
 
-#: Acl/View/AclActions/admin_index.ctp:21
+#: Acl/View/AclActions/admin_index.ctp:18
 #: Acl/View/AclPermissions/admin_index.ctp:19
 msgid "Tools"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:35
-#: Acl/View/AclPermissions/admin_index.ctp:33
+#: Acl/View/AclActions/admin_index.ctp:33
+#: Acl/View/AclPermissions/admin_index.ctp:34
 msgid "Generate"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:41
-#: Acl/View/AclPermissions/admin_index.ctp:39
+#: Acl/View/AclActions/admin_index.ctp:40
+#: Acl/View/AclPermissions/admin_index.ctp:41
 msgid "Create new actions (no removal)"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:46
-#: Acl/View/AclPermissions/admin_index.ctp:44
+#: Acl/View/AclActions/admin_index.ctp:45
+#: Acl/View/AclPermissions/admin_index.ctp:46
 msgid "Synchronize"
 msgstr ""
 
 #: Acl/View/AclActions/admin_index.ctp:52
-#: Acl/View/AclPermissions/admin_index.ctp:50
+#: Acl/View/AclPermissions/admin_index.ctp:53
 msgid "Create new & remove orphaned actions"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:61
-#: Acl/View/AclPermissions/admin_index.ctp:59
+#: Acl/View/AclActions/admin_index.ctp:62
+#: Acl/View/AclPermissions/admin_index.ctp:62
 msgid "Edit Actions"
 msgstr "Редактировать Actions"
 
 #: Acl/View/AclActions/admin_index.ctp:70
 #: Acl/View/Elements/admin/acl_permissions_table.ctp:7
-#: Blocks/View/Blocks/admin_index.ctp:23
-#: Comments/View/Comments/admin_index.ctp:46
-#: Contacts/View/Messages/admin_index.ctp:67
+#: Blocks/View/Blocks/admin_index.ctp:19
+#: Comments/View/Comments/admin_index.ctp:42
+#: Contacts/View/Messages/admin_index.ctp:60
 #: FileManager/View/Attachments/admin_browse.ctp:21
-#: FileManager/View/Attachments/admin_index.ctp:14
-#: Menus/View/Links/admin_index.ctp:43 Menus/View/Menus/admin_index.ctp:15
-#: Nodes/View/Nodes/admin_chooser.ctp:5 Nodes/View/Nodes/admin_index.ctp:38
+#: FileManager/View/Attachments/admin_index.ctp:11
+#: Menus/View/Links/admin_index.ctp:39 Menus/View/Menus/admin_index.ctp:12
+#: Nodes/View/Nodes/admin_chooser.ctp:5 Nodes/View/Nodes/admin_index.ctp:31
 #: Settings/View/Languages/admin_index.ctp:15
-#: Settings/View/Settings/admin_index.ctp:20
+#: Settings/View/Settings/admin_index.ctp:18
 #: Settings/View/Settings/admin_view.ctp:4
 #: Taxonomy/View/Terms/admin_chooser.ctp:5
-#: Taxonomy/View/Terms/admin_index.ctp:32
-#: Taxonomy/View/Vocabularies/admin_index.ctp:14
+#: Taxonomy/View/Terms/admin_index.ctp:26
+#: Taxonomy/View/Vocabularies/admin_index.ctp:13
 msgid "Id"
 msgstr "#"
 
-#: Acl/View/AclActions/admin_index.ctp:106
+#: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
-#: Blocks/View/Blocks/admin_index.ctp:40
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:59
-#: Menus/View/Links/admin_index.ctp:60
+#: Blocks/View/Blocks/admin_index.ctp:35
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:61
+#: Menus/View/Links/admin_index.ctp:56
 #: Settings/View/Languages/admin_index.ctp:34
-#: Settings/View/Settings/admin_index.ctp:36
-#: Taxonomy/View/Terms/admin_index.ctp:49
-#: Taxonomy/View/Vocabularies/admin_index.ctp:35
+#: Settings/View/Settings/admin_index.ctp:33
+#: Taxonomy/View/Terms/admin_index.ctp:42
+#: Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
 msgstr "Наверх"
 
-#: Acl/View/AclActions/admin_index.ctp:110
+#: Acl/View/AclActions/admin_index.ctp:108
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
-#: Blocks/View/Blocks/admin_index.ctp:44
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:65
-#: Menus/View/Links/admin_index.ctp:66
+#: Blocks/View/Blocks/admin_index.ctp:39
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:67
+#: Menus/View/Links/admin_index.ctp:62
 #: Settings/View/Languages/admin_index.ctp:38
-#: Settings/View/Settings/admin_index.ctp:40
-#: Taxonomy/View/Terms/admin_index.ctp:53
-#: Taxonomy/View/Vocabularies/admin_index.ctp:39
+#: Settings/View/Settings/admin_index.ctp:37
+#: Taxonomy/View/Terms/admin_index.ctp:46
+#: Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
 msgstr "Вниз"
 
-#: Acl/View/AclActions/admin_index.ctp:115
+#: Acl/View/AclActions/admin_index.ctp:113
 #: Acl/View/AclPermissions/json/admin_index.ctp:15
-#: Blocks/View/Blocks/admin_index.ctp:50
-#: Comments/View/Comments/admin_index.ctp:66
-#: Contacts/View/Messages/admin_index.ctp:87
-#: Croogo/View/Common/admin_index.ctp:77
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:43
-#: FileManager/View/Attachments/admin_index.ctp:33
-#: Menus/View/Links/admin_index.ctp:72 Menus/View/Menus/admin_index.ctp:40
-#: Nodes/View/Nodes/admin_index.ctp:94
+#: Blocks/View/Blocks/admin_index.ctp:45
+#: Comments/View/Comments/admin_index.ctp:60
+#: Contacts/View/Messages/admin_index.ctp:78
+#: Croogo/View/Common/admin_index.ctp:81
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:37
+#: FileManager/View/Attachments/admin_index.ctp:27
+#: Menus/View/Links/admin_index.ctp:68 Menus/View/Menus/admin_index.ctp:35
+#: Nodes/View/Nodes/admin_index.ctp:89
 #: Settings/View/Languages/admin_index.ctp:42
-#: Settings/View/Settings/admin_index.ctp:44
-#: Taxonomy/View/Terms/admin_index.ctp:57
-#: Taxonomy/View/Vocabularies/admin_index.ctp:44
-#: Translate/View/Translate/admin_index.ctp:60
+#: Settings/View/Settings/admin_index.ctp:41
+#: Taxonomy/View/Terms/admin_index.ctp:50
+#: Taxonomy/View/Vocabularies/admin_index.ctp:43
+#: Translate/View/Translate/admin_index.ctp:76
 msgid "Edit this item"
 msgstr "Править"
 
-#: Acl/View/AclActions/admin_index.ctp:121
+#: Acl/View/AclActions/admin_index.ctp:119
 #: Acl/View/AclPermissions/json/admin_index.ctp:19
-#: Blocks/View/Blocks/admin_index.ctp:63
-#: Comments/View/Comments/admin_index.ctp:73
-#: Contacts/View/Messages/admin_index.ctp:94
-#: Croogo/View/Common/admin_index.ctp:87
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:47
-#: FileManager/View/Attachments/admin_index.ctp:37
-#: Menus/View/Menus/admin_index.ctp:45 Nodes/View/Nodes/admin_index.ctp:109
+#: Blocks/View/Blocks/admin_index.ctp:58
+#: Comments/View/Comments/admin_index.ctp:67
+#: Contacts/View/Messages/admin_index.ctp:85
+#: Croogo/View/Common/admin_index.ctp:91
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:41
+#: FileManager/View/Attachments/admin_index.ctp:31
+#: Menus/View/Menus/admin_index.ctp:40 Nodes/View/Nodes/admin_index.ctp:104
 #: Settings/View/Languages/admin_index.ctp:46
-#: Settings/View/Settings/admin_index.ctp:49
-#: Taxonomy/View/Terms/admin_index.ctp:61
-#: Taxonomy/View/Vocabularies/admin_index.ctp:48
-#: Translate/View/Translate/admin_index.ctp:69
+#: Settings/View/Settings/admin_index.ctp:46
+#: Taxonomy/View/Terms/admin_index.ctp:54
+#: Taxonomy/View/Vocabularies/admin_index.ctp:47
+#: Translate/View/Translate/admin_index.ctp:85
 msgid "Remove this item"
 msgstr "Удалить"
 
-#: Acl/View/AclActions/admin_index.ctp:125
+#: Acl/View/AclActions/admin_index.ctp:123
 #: Acl/View/AclPermissions/json/admin_index.ctp:20
-#: Blocks/View/Blocks/admin_index.ctp:64
-#: Comments/View/Comments/admin_index.ctp:76
-#: Contacts/View/Messages/admin_index.ctp:97
-#: Croogo/View/Common/admin_index.ctp:89
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:48
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
+#: Blocks/View/Blocks/admin_index.ctp:59
+#: Comments/View/Comments/admin_index.ctp:70
+#: Contacts/View/Messages/admin_index.ctp:88
+#: Croogo/View/Common/admin_index.ctp:93
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:42
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:54;62;68;76
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:127
 #: FileManager/View/Attachments/admin_browse.ctp:42
-#: FileManager/View/Attachments/admin_index.ctp:38
+#: FileManager/View/Attachments/admin_index.ctp:32
 #: FileManager/View/Helper/FileManagerHelper.php:137
-#: Menus/View/Links/admin_index.ctp:92 Menus/View/Menus/admin_index.ctp:46
-#: Nodes/View/Nodes/admin_index.ctp:112
+#: Menus/View/Links/admin_index.ctp:88 Menus/View/Menus/admin_index.ctp:41
+#: Nodes/View/Nodes/admin_index.ctp:107
 #: Nodes/View/Nodes/admin_translations.ctp:34
 #: Settings/View/Languages/admin_index.ctp:47
-#: Settings/View/Settings/admin_index.ctp:50
-#: Taxonomy/View/Terms/admin_index.ctp:62
-#: Taxonomy/View/Vocabularies/admin_index.ctp:49
-#: Translate/View/Translate/admin_index.ctp:70
+#: Settings/View/Settings/admin_index.ctp:47
+#: Taxonomy/View/Terms/admin_index.ctp:55
+#: Taxonomy/View/Vocabularies/admin_index.ctp:48
+#: Translate/View/Translate/admin_index.ctp:86
 msgid "Are you sure?"
 msgstr "Вы уверены?"
 
-#: Acl/View/AclPermissions/admin_toggle.ctp:18
+#: Acl/View/AclPermissions/admin_toggle.ctp:19
 msgid "error"
 msgstr "ошибка"
 
@@ -620,8 +620,8 @@ msgid "Blocks copied"
 msgstr "Блоки опубликованы."
 
 #: Blocks/Controller/RegionsController.php:66
-#: Blocks/View/Blocks/admin_form.ctp:52 Blocks/View/Blocks/admin_index.ctp:26
-#: Blocks/View/Regions/admin_form.ctp:31
+#: Blocks/View/Blocks/admin_form.ctp:41 Blocks/View/Blocks/admin_index.ctp:22
+#: Blocks/View/Regions/admin_form.ctp:26
 msgid "Region"
 msgstr "Регион"
 
@@ -653,82 +653,88 @@ msgstr "Неверный id региона"
 msgid "Region deleted"
 msgstr "Регион удален"
 
-#: Blocks/View/Blocks/admin_form.ctp:26
+#: Blocks/View/Blocks/admin_form.ctp:22
 msgid "Block"
 msgstr "Блок"
 
-#: Blocks/View/Blocks/admin_form.ctp:27 Menus/View/Links/admin_form.ctp:55
-#: Nodes/View/Nodes/admin_form.ctp:49
+#: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
+#: Nodes/View/Nodes/admin_form.ctp:47
 msgid "Access"
 msgstr "Доступ"
 
-#: Blocks/View/Blocks/admin_form.ctp:28
+#: Blocks/View/Blocks/admin_form.ctp:24
 msgid "Visibilities"
 msgstr "Видимость"
 
-#: Blocks/View/Blocks/admin_form.ctp:29;87 Menus/View/Links/admin_form.ctp:119
-#: Menus/View/Menus/admin_form.ctp:54 Settings/View/Settings/admin_form.ctp:70
+#: Blocks/View/Blocks/admin_form.ctp:25;70 Menus/View/Links/admin_form.ctp:108
+#: Menus/View/Menus/admin_form.ctp:42 Settings/View/Settings/admin_form.ctp:57
 #: Settings/View/Settings/admin_view.ctp:34
-#: Taxonomy/View/Types/admin_form.ctp:28;99
+#: Taxonomy/View/Types/admin_form.ctp:23;91
 msgid "Params"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:44 Blocks/View/Blocks/admin_index.ctp:24
-#: Blocks/View/Regions/admin_form.ctp:45
-#: Comments/View/Comments/admin_form.ctp:33
-#: Contacts/View/Contacts/admin_form.ctp:39
-#: Contacts/View/Messages/admin_form.ctp:41
-#: Contacts/View/Messages/admin_index.ctp:71
+#: Blocks/View/Blocks/admin_form.ctp:34 Blocks/View/Blocks/admin_index.ctp:20
+#: Blocks/View/Regions/admin_form.ctp:35
+#: Comments/View/Comments/admin_form.ctp:23
+#: Contacts/View/Contacts/admin_form.ctp:31
+#: Contacts/View/Messages/admin_form.ctp:32
+#: Contacts/View/Messages/admin_index.ctp:64
 #: FileManager/View/Attachments/admin_browse.ctp:23
-#: FileManager/View/Attachments/admin_edit.ctp:43
-#: FileManager/View/Attachments/admin_index.ctp:16
-#: Menus/View/Links/admin_form.ctp:77 Menus/View/Links/admin_index.ctp:44
-#: Menus/View/Menus/admin_form.ctp:40 Menus/View/Menus/admin_index.ctp:16
-#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:77
-#: Nodes/View/Nodes/admin_index.ctp:39
+#: FileManager/View/Attachments/admin_edit.ctp:26
+#: FileManager/View/Attachments/admin_index.ctp:13
+#: Menus/View/Links/admin_form.ctp:71 Menus/View/Links/admin_index.ctp:40
+#: Menus/View/Menus/admin_form.ctp:30 Menus/View/Menus/admin_index.ctp:13
+#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:68
+#: Nodes/View/Nodes/admin_index.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:25
-#: Settings/View/Languages/admin_form.ctp:38
+#: Settings/View/Languages/admin_form.ctp:35
 #: Settings/View/Languages/admin_index.ctp:16
-#: Settings/View/Settings/admin_form.ctp:56
+#: Settings/View/Settings/admin_form.ctp:44
 #: Taxonomy/View/Terms/admin_chooser.ctp:6
-#: Taxonomy/View/Terms/admin_form.ctp:54
-#: Taxonomy/View/Terms/admin_index.ctp:33
-#: Taxonomy/View/Types/admin_form.ctp:42
-#: Taxonomy/View/Vocabularies/admin_form.ctp:45
-#: Taxonomy/View/Vocabularies/admin_index.ctp:15
-#: Translate/View/Translate/admin_index.ctp:41
-#: Users/View/Roles/admin_form.ctp:37
+#: Taxonomy/View/Terms/admin_form.ctp:44
+#: Taxonomy/View/Terms/admin_index.ctp:27
+#: Taxonomy/View/Types/admin_form.ctp:32
+#: Taxonomy/View/Vocabularies/admin_form.ctp:36
+#: Taxonomy/View/Vocabularies/admin_index.ctp:14
+#: Translate/View/Translate/admin_index.ctp:57
+#: Users/View/Roles/admin_form.ctp:29
 msgid "Title"
 msgstr "Заголовок"
 
-#: Blocks/View/Blocks/admin_form.ctp:49
+#: Blocks/View/Blocks/admin_form.ctp:38
 msgid "unique name for your block"
 msgstr "уникальное название для вашего блока"
 
-#: Blocks/View/Blocks/admin_form.ctp:53
+#: Blocks/View/Blocks/admin_form.ctp:42
 msgid "if you are not sure, choose 'none'"
 msgstr "если вы не уверены, выберите 'Нет'"
 
-#: Blocks/View/Blocks/admin_form.ctp:56
-#: Comments/View/Comments/admin_form.ctp:36
-#: Contacts/View/Contacts/admin_form.ctp:48
-#: Contacts/View/Messages/admin_form.ctp:44 Nodes/View/Nodes/admin_form.ctp:87
+#: Blocks/View/Blocks/admin_form.ctp:45
+#: Comments/View/Comments/admin_form.ctp:26
+#: Contacts/View/Contacts/admin_form.ctp:40
+#: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:78
 msgid "Body"
 msgstr "Текст"
 
-#: Blocks/View/Blocks/admin_form.ctp:59 Menus/View/Links/admin_form.ctp:106
+#: Blocks/View/Blocks/admin_form.ctp:48 Menus/View/Links/admin_form.ctp:95
 msgid "Class"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:62
+#: Blocks/View/Blocks/admin_form.ctp:51
 msgid "Element"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:78
+#: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:89
+#: Nodes/View/Nodes/admin_form.ctp:85 Users/View/Roles/admin_form.ctp:21
+#: Users/View/Users/admin_form.ctp:45
+msgid "Role"
+msgstr "Роль"
+
+#: Blocks/View/Blocks/admin_form.ctp:63
 msgid "Visibility Paths"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:79
+#: Blocks/View/Blocks/admin_form.ctp:64
 msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
@@ -736,108 +742,109 @@ msgstr ""
 "Введите один URL в каждой строке. Оставьте пустым, если вы хотите, чтобы "
 "этот блок присутствовал на всех страницах."
 
-#: Blocks/View/Blocks/admin_form.ctp:111
+#: Blocks/View/Blocks/admin_form.ctp:90
 msgid "Show title ?"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:116 Menus/View/Links/admin_form.ctp:144
-#: Menus/View/Menus/admin_form.ctp:78 Nodes/View/Nodes/admin_form.ctp:143
+#: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
+#: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:132
 #, fuzzy
 msgid "Publish Start"
 msgstr "Автор: "
 
-#: Blocks/View/Blocks/admin_form.ctp:120 Menus/View/Links/admin_form.ctp:148
-#: Menus/View/Menus/admin_form.ctp:82 Nodes/View/Nodes/admin_form.ctp:147
+#: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
+#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:136
 #, fuzzy
 msgid "Publish End"
 msgstr "Опубликовано"
 
-#: Blocks/View/Blocks/admin_index.ctp:27
+#: Blocks/View/Blocks/admin_index.ctp:23
 #: Croogo/Console/Command/ExtShell.php:236;262
-#: Menus/View/Links/admin_index.ctp:45 Menus/View/Menus/admin_index.ctp:19
-#: Nodes/View/Elements/admin/nodes_search.ctp:43
-#: Nodes/View/Nodes/admin_chooser.ctp:49 Nodes/View/Nodes/admin_index.ctp:42
+#: Menus/View/Links/admin_index.ctp:41 Menus/View/Menus/admin_index.ctp:16
+#: Nodes/View/Elements/admin/nodes_search.ctp:39
+#: Nodes/View/Nodes/admin_chooser.ctp:54 Nodes/View/Nodes/admin_index.ctp:35
+#: Settings/View/Languages/admin_form.ctp:60
 #: Settings/View/Languages/admin_index.ctp:19
-#: Users/View/Users/admin_form.ctp:103
+#: Users/View/Users/admin_form.ctp:86
 msgid "Status"
 msgstr "Статус"
 
-#: Blocks/View/Blocks/admin_index.ctp:56 Menus/View/Links/admin_index.ctp:79
-#: Nodes/View/Nodes/admin_index.ctp:100
+#: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
+#: Nodes/View/Nodes/admin_index.ctp:95
 #, fuzzy
 msgid "Create a copy"
 msgstr "Создать папку"
 
-#: Blocks/View/Blocks/admin_index.ctp:59
+#: Blocks/View/Blocks/admin_index.ctp:54
 msgid "Create a copy of this Block?"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:70 Croogo/View/Common/admin_index.ctp:69
+#: Blocks/View/Blocks/admin_index.ctp:65 Croogo/View/Common/admin_index.ctp:73
 msgid "Choose"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:89 Menus/View/Links/admin_index.ctp:97
-#: Menus/View/Menus/admin_index.ctp:57 Nodes/View/Nodes/admin_index.ctp:71
+#: Blocks/View/Blocks/admin_index.ctp:84 Menus/View/Links/admin_index.ctp:93
+#: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:120
-#: Comments/View/Comments/admin_index.ctp:118
-#: Menus/View/Links/admin_index.ctp:125 Nodes/View/Nodes/admin_index.ctp:130
+#: Blocks/View/Blocks/admin_index.ctp:114
+#: Comments/View/Comments/admin_index.ctp:109
+#: Menus/View/Links/admin_index.ctp:119 Nodes/View/Nodes/admin_index.ctp:123
 msgid "Publish"
 msgstr "Публиковать"
 
-#: Blocks/View/Blocks/admin_index.ctp:121
-#: Comments/View/Comments/admin_index.ctp:119
-#: Menus/View/Links/admin_index.ctp:126 Nodes/View/Nodes/admin_index.ctp:131
+#: Blocks/View/Blocks/admin_index.ctp:115
+#: Comments/View/Comments/admin_index.ctp:110
+#: Menus/View/Links/admin_index.ctp:120 Nodes/View/Nodes/admin_index.ctp:124
 msgid "Unpublish"
 msgstr "Отменить публикацию"
 
-#: Blocks/View/Blocks/admin_index.ctp:122
-#: Comments/View/Comments/admin_index.ctp:120
-#: Contacts/View/Messages/admin_index.ctp:135
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:51
+#: Blocks/View/Blocks/admin_index.ctp:116
+#: Comments/View/Comments/admin_index.ctp:111
+#: Contacts/View/Messages/admin_index.ctp:122
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:53
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:121
 #: FileManager/View/Attachments/admin_browse.ctp:42
-#: FileManager/View/FileManager/admin_browse.ctp:59;100
-#: Menus/View/Links/admin_index.ctp:127 Nodes/View/Nodes/admin_index.ctp:134
+#: FileManager/View/FileManager/admin_browse.ctp:61;102
+#: Menus/View/Links/admin_index.ctp:121 Nodes/View/Nodes/admin_index.ctp:127
 #: Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
 msgstr "Удалить"
 
-#: Blocks/View/Blocks/admin_index.ctp:123 Menus/View/Links/admin_index.ctp:128
-#: Nodes/View/Nodes/admin_index.ctp:135
+#: Blocks/View/Blocks/admin_index.ctp:117 Menus/View/Links/admin_index.ctp:124
+#: Nodes/View/Nodes/admin_index.ctp:130
 msgid "Copy"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:129
-#: Comments/View/Comments/admin_index.ctp:126
-#: Contacts/View/Messages/admin_index.ctp:141
-#: Menus/View/Links/admin_index.ctp:134 Nodes/View/Nodes/admin_index.ctp:143
+#: Blocks/View/Blocks/admin_index.ctp:121
+#: Comments/View/Comments/admin_index.ctp:115
+#: Contacts/View/Messages/admin_index.ctp:126
+#: Menus/View/Links/admin_index.ctp:130 Nodes/View/Nodes/admin_index.ctp:138
 #: Users/View/Users/forgot.ctp:9
 msgid "Submit"
 msgstr "OK"
 
 #: Comments/Config/admin_menu.php:4
 #: Comments/Controller/CommentsController.php:81;171
-#: Comments/View/Comments/admin_form.ctp:8
+#: Comments/View/Comments/admin_form.ctp:7
 #: Comments/View/Comments/admin_index.ctp:10
 #: Comments/View/Elements/comments.ctp:7
 #: Comments/View/Helper/CommentsHelper.php:34
 #: Nodes/View/Elements/node_more_info.ctp:33
-#: Taxonomy/View/Types/admin_form.ctp:27
+#: Taxonomy/View/Types/admin_form.ctp:22
 msgid "Comments"
 msgstr "Комментарии"
 
-#: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:55
-#: Comments/View/Comments/admin_index.ctp:14;31
-#: Contacts/View/Contacts/admin_form.ctp:132 Croogo/Lib/CroogoStatus.php:40
-#: Nodes/View/Elements/admin/nodes_search.ctp:40
+#: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
+#: Comments/View/Comments/admin_index.ctp:14;29
+#: Contacts/View/Contacts/admin_form.ctp:112 Croogo/Lib/CroogoStatus.php:40
+#: Nodes/View/Elements/admin/nodes_search.ctp:36
 msgid "Published"
 msgstr "Опубликовано"
 
 #: Comments/Config/admin_menu.php:25
-#: Comments/View/Comments/admin_index.ctp:17;35
+#: Comments/View/Comments/admin_index.ctp:17;33
 msgid "Approval"
 msgstr "Рассмотрение"
 
@@ -903,7 +910,7 @@ msgid "Sorry, the comment appears to be spam."
 msgstr "К сожалению, комментарий является спамом."
 
 #: Comments/Controller/CommentsController.php:321
-#: Contacts/Controller/ContactsController.php:244
+#: Contacts/Controller/ContactsController.php:246
 msgid "Invalid captcha entry"
 msgstr "Неверное значение Captcha."
 
@@ -919,59 +926,59 @@ msgstr ""
 msgid "Invalid Comment id"
 msgstr ""
 
-#: Comments/View/Comments/admin_form.ctp:7
+#: Comments/View/Comments/admin_form.ctp:6
 #: Comments/View/Comments/admin_index.ctp:9
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:28;37
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:21;28
 #: Nodes/Config/admin_menu.php:5 Nodes/Controller/NodesController.php:108
-#: Nodes/View/Nodes/admin_create.ctp:5 Nodes/View/Nodes/admin_form.ctp:8
-#: Nodes/View/Nodes/admin_index.ctp:7 Taxonomy/View/Terms/admin_form.ctp:8
+#: Nodes/View/Nodes/admin_create.ctp:5 Nodes/View/Nodes/admin_form.ctp:9
+#: Nodes/View/Nodes/admin_index.ctp:8 Taxonomy/View/Terms/admin_form.ctp:8
 #: Taxonomy/View/Terms/admin_index.ctp:7 Taxonomy/View/Types/admin_form.ctp:6
-#: Taxonomy/View/Types/admin_index.ctp:4
+#: Taxonomy/View/Types/admin_index.ctp:7
 #: Taxonomy/View/Vocabularies/admin_form.ctp:7
 #: Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
 msgstr "Контент"
 
-#: Comments/View/Comments/admin_form.ctp:19
+#: Comments/View/Comments/admin_form.ctp:14
 #: Comments/View/Elements/comments.ctp:5
 #: Nodes/View/Elements/node_more_info.ctp:31 Settings/Config/admin_menu.php:64
 msgid "Comment"
 msgstr "Комментарии"
 
-#: Comments/View/Comments/admin_form.ctp:60
-#: Contacts/View/Contacts/admin_form.ctp:25
-#: Contacts/View/Messages/admin_index.ctp:68
+#: Comments/View/Comments/admin_form.ctp:43
+#: Contacts/View/Contacts/admin_form.ctp:20
+#: Contacts/View/Messages/admin_index.ctp:61
 msgid "Contact"
 msgstr "Контакт"
 
-#: Comments/View/Comments/admin_form.ctp:61
-#: Comments/View/Comments/admin_index.ctp:47
+#: Comments/View/Comments/admin_form.ctp:44
+#: Comments/View/Comments/admin_index.ctp:43
 #: Comments/View/Elements/comments_form.ctp:25;41
-#: Contacts/View/Contacts/admin_form.ctp:56
-#: Contacts/View/Messages/admin_form.ctp:35
-#: Contacts/View/Messages/admin_index.ctp:69
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:25
-#: Install/View/Install/database.ctp:80 Users/View/Users/admin_form.ctp:64
+#: Contacts/View/Contacts/admin_form.ctp:46
+#: Contacts/View/Messages/admin_form.ctp:26
+#: Contacts/View/Messages/admin_index.ctp:62
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
+#: Install/View/Install/database.ctp:81 Users/View/Users/admin_form.ctp:50
 msgid "Name"
 msgstr "Имя"
 
-#: Comments/View/Comments/admin_form.ctp:62
-#: Comments/View/Comments/admin_index.ctp:48
+#: Comments/View/Comments/admin_form.ctp:45
+#: Comments/View/Comments/admin_index.ctp:44
 #: Comments/View/Elements/comments_form.ctp:30;42
-#: Contacts/View/Contacts/admin_form.ctp:45
-#: Contacts/View/Messages/admin_form.ctp:38
-#: Contacts/View/Messages/admin_index.ctp:70
-#: Users/View/Users/admin_form.ctp:67
+#: Contacts/View/Contacts/admin_form.ctp:37
+#: Contacts/View/Messages/admin_form.ctp:29
+#: Contacts/View/Messages/admin_index.ctp:63
+#: Users/View/Users/admin_form.ctp:53
 msgid "Email"
 msgstr ""
 
-#: Comments/View/Comments/admin_form.ctp:63
+#: Comments/View/Comments/admin_form.ctp:46
 #: Comments/View/Elements/comments_form.ctp:35;43
-#: Users/View/Users/admin_form.ctp:70
+#: Users/View/Users/admin_form.ctp:56
 msgid "Website"
 msgstr "Сайт"
 
-#: Comments/View/Comments/admin_form.ctp:64
+#: Comments/View/Comments/admin_form.ctp:49
 msgid "Ip"
 msgstr ""
 
@@ -983,12 +990,12 @@ msgstr "Комментарии: Опубликованы"
 msgid "Comments: Approval"
 msgstr "Комментарии: Приняты"
 
-#: Comments/View/Comments/admin_index.ctp:49
+#: Comments/View/Comments/admin_index.ctp:45
 msgid "Node"
 msgstr ""
 
-#: Comments/View/Comments/admin_index.ctp:51
-#: Nodes/View/Nodes/admin_chooser.ctp:7;50
+#: Comments/View/Comments/admin_index.ctp:47
+#: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:127
 msgid "Created"
 msgstr "Дата"
 
@@ -997,7 +1004,7 @@ msgid "Comment on"
 msgstr "Прокомментировать"
 
 #: Comments/View/Comments/rss/index.ctp:18
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:53;108
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:54;108
 #: Nodes/View/Elements/node_info.ctp:9
 msgid "by"
 msgstr ""
@@ -1022,18 +1029,18 @@ msgstr "Вернуться к исходному сообщению"
 msgid "Post comment"
 msgstr "Оставить комментарий"
 
-#: Comments/View/Elements/admin/comments_tab.ctp:6
-#: Taxonomy/View/Types/admin_form.ctp:66
+#: Comments/View/Elements/admin/comments_tab.ctp:5
+#: Taxonomy/View/Types/admin_form.ctp:61
 msgid "Disabled"
 msgstr "Не активно"
 
-#: Comments/View/Elements/admin/comments_tab.ctp:7
-#: Taxonomy/View/Types/admin_form.ctp:67
+#: Comments/View/Elements/admin/comments_tab.ctp:6
+#: Taxonomy/View/Types/admin_form.ctp:62
 msgid "Read only"
 msgstr "Только для чтения"
 
-#: Comments/View/Elements/admin/comments_tab.ctp:8
-#: Taxonomy/View/Types/admin_form.ctp:68
+#: Comments/View/Elements/admin/comments_tab.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:63
 msgid "Read/Write"
 msgstr "Чтение/Запись"
 
@@ -1109,20 +1116,20 @@ msgstr "Неверный идентификатор (id) для Контакта
 msgid "Contact deleted"
 msgstr "Контакт удален"
 
-#: Contacts/Controller/ContactsController.php:169
+#: Contacts/Controller/ContactsController.php:171
 msgid "Your message has been received..."
 msgstr "Ваше сообщение принято..."
 
-#: Contacts/Controller/ContactsController.php:223
+#: Contacts/Controller/ContactsController.php:225
 msgid "Sorry, the message appears to be spam."
 msgstr "К сожалению, сообщение похоже на спам."
 
-#: Contacts/Controller/ContactsController.php:268
+#: Contacts/Controller/ContactsController.php:270
 msgid "[%s] %s"
 msgstr ""
 
 #: Contacts/Controller/MessagesController.php:72
-#: Contacts/View/Messages/admin_index.ctp:14;49
+#: Contacts/View/Messages/admin_index.ctp:14;47
 msgid "Read"
 msgstr "Читать"
 
@@ -1163,73 +1170,73 @@ msgstr "Сообщения отмечены как прочитанные"
 msgid "Messages marked as unread"
 msgstr "Сообщения отмечены как непрочитанные"
 
-#: Contacts/View/Contacts/admin_form.ctp:26
+#: Contacts/View/Contacts/admin_form.ctp:21
 msgid "Details"
 msgstr "Подробно"
 
-#: Contacts/View/Contacts/admin_form.ctp:27 Contacts/View/Contacts/view.ctp:21
-#: Contacts/View/Messages/admin_form.ctp:21
+#: Contacts/View/Contacts/admin_form.ctp:22 Contacts/View/Contacts/view.ctp:21
+#: Contacts/View/Messages/admin_form.ctp:17
 msgid "Message"
 msgstr "Сообщение"
 
-#: Contacts/View/Contacts/admin_form.ctp:59
+#: Contacts/View/Contacts/admin_form.ctp:49
 msgid "Position"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:62
-#: Contacts/View/Messages/admin_form.ctp:50
+#: Contacts/View/Contacts/admin_form.ctp:52
+#: Contacts/View/Messages/admin_form.ctp:41
 msgid "Address"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:65
+#: Contacts/View/Contacts/admin_form.ctp:55
 msgid "Address2"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:68
+#: Contacts/View/Contacts/admin_form.ctp:58
 msgid "State"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:71
+#: Contacts/View/Contacts/admin_form.ctp:61
 msgid "Country"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:74
+#: Contacts/View/Contacts/admin_form.ctp:64
 msgid "Post Code"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:77
-#: Contacts/View/Messages/admin_form.ctp:47
+#: Contacts/View/Contacts/admin_form.ctp:67
+#: Contacts/View/Messages/admin_form.ctp:38
 msgid "Phone"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:80
+#: Contacts/View/Contacts/admin_form.ctp:70
 msgid "Fax"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:88
+#: Contacts/View/Contacts/admin_form.ctp:76
 msgid "Let users leave a message"
 msgstr "Позволить пользователям оставлять сообщения"
 
-#: Contacts/View/Contacts/admin_form.ctp:92
+#: Contacts/View/Contacts/admin_form.ctp:79
 msgid "Save messages in database"
 msgstr "Сохраненять сообщения в базе данных"
 
-#: Contacts/View/Contacts/admin_form.ctp:96
+#: Contacts/View/Contacts/admin_form.ctp:82
 msgid "Notify by email instantly"
 msgstr "Сообщать по электронной почте мгновенно"
 
-#: Contacts/View/Contacts/admin_form.ctp:100
-#: Taxonomy/View/Types/admin_form.ctp:80
+#: Contacts/View/Contacts/admin_form.ctp:85
+#: Taxonomy/View/Types/admin_form.ctp:73
 msgid "Spam protection (requires Akismet API key)"
 msgstr "Защита от спама (требуется Akismet API key)"
 
-#: Contacts/View/Contacts/admin_form.ctp:104
-#: Taxonomy/View/Types/admin_form.ctp:84
+#: Contacts/View/Contacts/admin_form.ctp:88
+#: Taxonomy/View/Types/admin_form.ctp:76
 msgid "Use captcha? (requires Recaptcha API key)"
 msgstr "Использовать captcha? (требуется ReCaptcha API key)"
 
-#: Contacts/View/Contacts/admin_form.ctp:108
-#: Taxonomy/View/Types/admin_form.ctp:87
+#: Contacts/View/Contacts/admin_form.ctp:91
+#: Taxonomy/View/Types/admin_form.ctp:78
 msgid "You can manage your API keys here."
 msgstr "Управление API ключами"
 
@@ -1265,7 +1272,7 @@ msgstr "Сообщение: %s"
 msgid "Messages: Read"
 msgstr "Сообщения: Прочитаны"
 
-#: Contacts/View/Messages/admin_index.ctp:17;43
+#: Contacts/View/Messages/admin_index.ctp:17;41
 msgid "Unread"
 msgstr "Непрочитанный"
 
@@ -1273,11 +1280,11 @@ msgstr "Непрочитанный"
 msgid "Messages: Unread"
 msgstr "Сообщения: Непрочитаны"
 
-#: Contacts/View/Messages/admin_index.ctp:133
+#: Contacts/View/Messages/admin_index.ctp:120
 msgid "Mark as read"
 msgstr "Отметить как прочитанное"
 
-#: Contacts/View/Messages/admin_index.ctp:134
+#: Contacts/View/Messages/admin_index.ctp:121
 msgid "Mark as unread"
 msgstr "Отметить как непрочитанное"
 
@@ -1362,7 +1369,7 @@ msgid "%-20s%-50s%s"
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:236
-#: Taxonomy/View/Vocabularies/admin_index.ctp:17
+#: Taxonomy/View/Vocabularies/admin_index.ctp:16
 msgid "Plugin"
 msgstr "Плагин"
 
@@ -1495,7 +1502,7 @@ msgstr ""
 msgid "Command not recognized"
 msgstr ""
 
-#: Croogo/Controller/CroogoAppController.php:258
+#: Croogo/Controller/CroogoAppController.php:269
 msgid "Site down for maintenance"
 msgstr "Сайт закрыт на обслуживание"
 
@@ -1517,7 +1524,7 @@ msgid "%s processed"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
-#: FileManager/Controller/FileManagerController.php:221;249;307;335
+#: FileManager/Controller/FileManagerController.php:226;259;322;355
 msgid "An error occured"
 msgstr "Произошла ошибка "
 
@@ -1529,8 +1536,12 @@ msgstr "На сайт"
 msgid "Profile"
 msgstr ""
 
+#: Croogo/Controller/Component/CroogoComponent.php:160
+msgid "Logout"
+msgstr ""
+
 #: Croogo/Controller/Component/CroogoComponent.php:291
-#: Nodes/Controller/NodesController.php:205;656;676
+#: Nodes/Controller/NodesController.php:205;660;680
 msgid "Invalid content"
 msgstr "Неверный контент"
 
@@ -1542,16 +1553,17 @@ msgstr ""
 msgid "EventHandler %s not found in plugin %s"
 msgstr ""
 
-#: Croogo/Lib/CroogoRouter.php:200
+#: Croogo/Lib/CroogoRouter.php:201
 msgid "Unable to get routeable content types: %s"
 msgstr ""
 
 #: Croogo/Lib/CroogoStatus.php:39
-#: Nodes/View/Elements/admin/nodes_search.ctp:41
+#: Nodes/View/Elements/admin/nodes_search.ctp:37
 msgid "Unpublished"
 msgstr "Неопубликованный"
 
 #: Croogo/Lib/CroogoStatus.php:41
+#: FileManager/View/Attachments/admin_edit.ctp:71
 msgid "Preview"
 msgstr ""
 
@@ -1584,48 +1596,25 @@ msgstr ""
 msgid "Action %s is disabled"
 msgstr "Action удален"
 
-#: Croogo/View/Common/admin_edit.ctp:8
+#: Croogo/View/Common/admin_edit.ctp:11
 #: FileManager/View/Attachments/admin_browse.ctp:35
-#: FileManager/View/FileManager/admin_browse.ctp:91
-#: FileManager/View/FileManager/admin_editfile.ctp:31
+#: FileManager/View/FileManager/admin_browse.ctp:93
+#: FileManager/View/FileManager/admin_editfile.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
 msgstr "Изменить"
 
-#: Croogo/View/Common/admin_index.ctp:31 Menus/View/Links/admin_index.ctp:18
+#: Croogo/View/Common/admin_index.ctp:39 Croogo/View/Common/admin_view.ctp:39
+#: Menus/View/Links/admin_index.ctp:17
 msgid "New %s"
 msgstr ""
 
-#: Croogo/View/Common/admin_index.ctp:128
-msgid ""
-"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
-"starting on record {:start}, ending on {:end}"
-msgstr ""
-"Страница {:page} из {:pages}, записи с {:start} по {:end}, всего записей: {:"
-"count}"
-
-#: Croogo/View/Common/admin_index.ctp:133
-#: FileManager/View/Attachments/admin_browse.ctp:93
-msgid "first"
-msgstr "вначало"
-
-#: Croogo/View/Common/admin_index.ctp:134
-#: FileManager/View/Attachments/admin_browse.ctp:94
-msgid "prev"
-msgstr "назад"
-
-#: Croogo/View/Common/admin_index.ctp:136
-#: FileManager/View/Attachments/admin_browse.ctp:96
-msgid "next"
-msgstr "вперед"
-
-#: Croogo/View/Common/admin_index.ctp:137
-#: FileManager/View/Attachments/admin_browse.ctp:97
-msgid "last"
-msgstr "вконец"
-
 #: Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
+msgstr ""
+
+#: Croogo/View/Elements/admin/footer.ctp:11
+msgid "Powered by %s"
 msgstr ""
 
 #: Croogo/View/Elements/admin/header.ctp:18
@@ -1640,8 +1629,32 @@ msgstr "Панель"
 msgid "Close"
 msgstr "Закрыть"
 
-#: Croogo/View/Elements/admin/search.ctp:38
-#: Nodes/View/Elements/admin/nodes_search.ctp:58
+#: Croogo/View/Elements/admin/pagination.ctp:5
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Страница {:page} из {:pages}, записи с {:start} по {:end}, всего записей: {:"
+"count}"
+
+#: Croogo/View/Elements/admin/pagination.ctp:10
+msgid "first"
+msgstr "вначало"
+
+#: Croogo/View/Elements/admin/pagination.ctp:11
+msgid "prev"
+msgstr "назад"
+
+#: Croogo/View/Elements/admin/pagination.ctp:13
+msgid "next"
+msgstr "вперед"
+
+#: Croogo/View/Elements/admin/pagination.ctp:14
+msgid "last"
+msgstr "вконец"
+
+#: Croogo/View/Elements/admin/search.ctp:46
+#: Nodes/View/Elements/admin/nodes_search.ctp:52
 msgid "Filter"
 msgstr "Фильтр"
 
@@ -1680,7 +1693,7 @@ msgstr ""
 msgid "Croogo"
 msgstr ""
 
-#: Croogo/View/Layouts/admin_login.ctp:29
+#: Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
 msgstr "Назад к"
 
@@ -1693,35 +1706,35 @@ msgid "content here"
 msgstr "контент здесь"
 
 #: Extensions/Config/admin_menu.php:5
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:4
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:9
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:7
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:7
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:7
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:4
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:7
-#: Extensions/View/ExtensionsThemes/admin_add.ctp:5
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:6
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:7
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:9
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:7
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Extensions"
 msgstr "Расширения"
 
 #: Extensions/Config/admin_menu.php:15
 #: Extensions/Controller/ExtensionsThemesController.php:60
-#: Extensions/View/ExtensionsThemes/admin_add.ctp:6
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:7
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:8
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:8
 msgid "Themes"
 msgstr "Темы"
 
 #: Extensions/Config/admin_menu.php:25
 #: Extensions/Controller/ExtensionsLocalesController.php:44
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:5
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:10
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:8
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:8
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:8
 msgid "Locales"
 msgstr "Локализации"
 
 #: Extensions/Config/admin_menu.php:35
 #: Extensions/Controller/ExtensionsPluginsController.php:69
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:5
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:8
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:8
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:10
 msgid "Plugins"
 msgstr "Плагины"
 
@@ -1729,52 +1742,47 @@ msgstr "Плагины"
 msgid "Data Migration Utility"
 msgstr ""
 
-#: Extensions/Controller/ExtensionsLocalesController.php:66
+#: Extensions/Controller/ExtensionsLocalesController.php:76
 msgid "Locale does not exist."
 msgstr "Локализация не существует."
 
-#: Extensions/Controller/ExtensionsLocalesController.php:72
+#: Extensions/Controller/ExtensionsLocalesController.php:82
 msgid "Locale '%s' set as default"
 msgstr ""
 
-#: Extensions/Controller/ExtensionsLocalesController.php:74
+#: Extensions/Controller/ExtensionsLocalesController.php:84
 msgid "Could not save Locale setting."
 msgstr ""
 
-#: Extensions/Controller/ExtensionsLocalesController.php:85
+#: Extensions/Controller/ExtensionsLocalesController.php:95
 msgid "Upload a new locale"
 msgstr "Загрузить новую локализацию"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:111;166
+#: Extensions/Controller/ExtensionsLocalesController.php:121;176
 msgid "Invalid locale."
 msgstr "Неверная Локализация"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:116
+#: Extensions/Controller/ExtensionsLocalesController.php:126
 msgid "Locale already exists."
 msgstr "Локализация уже существует."
 
-#: Extensions/Controller/ExtensionsLocalesController.php:163
+#: Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "Edit locale: %s"
 msgstr "Редактировать локализацию: %s"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:173
+#: Extensions/Controller/ExtensionsLocalesController.php:183;211
 msgid "The file %s does not exist."
 msgstr ""
 
-#: Extensions/Controller/ExtensionsLocalesController.php:183
+#: Extensions/Controller/ExtensionsLocalesController.php:193
 msgid "Locale updated successfully"
 msgstr "Локализация обновлена успешно"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:199
-#: Translate/Controller/TranslateController.php:109
-msgid "Invalid locale"
-msgstr "Неверная локализация"
-
-#: Extensions/Controller/ExtensionsLocalesController.php:205
+#: Extensions/Controller/ExtensionsLocalesController.php:217
 msgid "Locale deleted successfully."
 msgstr "Локализация удалена"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:207
+#: Extensions/Controller/ExtensionsLocalesController.php:219
 msgid "Local could not be deleted."
 msgstr "Локализация не удалена."
 
@@ -1898,12 +1906,12 @@ msgstr ""
 msgid "Plugin %s cannot be reordered"
 msgstr ""
 
-#: Extensions/Lib/CroogoTheme.php:169
+#: Extensions/Lib/CroogoTheme.php:248
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr ""
 
-#: Extensions/Lib/CroogoTheme.php:190
+#: Extensions/Lib/CroogoTheme.php:269
 msgid "Theme %s not found"
 msgstr ""
 
@@ -1963,64 +1971,64 @@ msgstr ""
 msgid "Themes installed via composer are not yet supported."
 msgstr ""
 
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:6;25;46
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:13
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:6;24;43
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:14
-#: Extensions/View/ExtensionsThemes/admin_add.ctp:7;27;48
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:14
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:11
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:16
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:15
 #: FileManager/Controller/FileManagerController.php:180
-#: FileManager/View/Attachments/admin_add.ctp:8;22;30;45
-#: FileManager/View/FileManager/admin_upload.ctp:5;31
+#: FileManager/View/Attachments/admin_add.ctp:8;21;29;42
+#: FileManager/View/FileManager/admin_upload.ctp:8;32
 msgid "Upload"
 msgstr "Загрузить"
 
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:23
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:19
 #: Nodes/View/Nodes/admin_translations.ctp:26
-#: Translate/View/Translate/admin_index.ctp:42
+#: Translate/View/Translate/admin_index.ctp:58
 msgid "Locale"
 msgstr "Локализация"
 
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:24
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:20
 msgid "Default"
 msgstr "По умолчанию"
 
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:39
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:39
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:33
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:114
 msgid "Activate"
 msgstr "Активировать"
 
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:26
-#: Menus/View/Links/admin_form.ctp:110 Menus/View/Menus/admin_form.ctp:46
-#: Settings/View/Settings/admin_form.ctp:59
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
+#: Menus/View/Links/admin_form.ctp:99 Menus/View/Menus/admin_form.ctp:36
+#: Settings/View/Settings/admin_form.ctp:47
 #: Settings/View/Settings/admin_view.ctp:19
-#: Taxonomy/View/Terms/admin_form.ctp:61 Taxonomy/View/Types/admin_form.ctp:48
-#: Taxonomy/View/Vocabularies/admin_form.ctp:52
+#: Taxonomy/View/Terms/admin_form.ctp:51 Taxonomy/View/Types/admin_form.ctp:38
+#: Taxonomy/View/Vocabularies/admin_form.ctp:43
 msgid "Description"
 msgstr "Описание"
 
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:29
 msgid "Active"
 msgstr ""
 
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:39
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 msgid "Deactivate"
 msgstr "Деактивировать"
 
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:71
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:73
 msgid "Migrate"
 msgstr ""
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:25
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:26
 msgid "Current Theme"
 msgstr "Активная тема"
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:59;111
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:60;111
 msgid "Regions supported: "
 msgstr "Поддерживаемые регионы: "
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:65
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:66
 msgid "Available Themes"
 msgstr "Доступные темы"
 
@@ -2043,10 +2051,10 @@ msgstr "Вложения"
 #: FileManager/Config/admin_menu.php:24
 #: FileManager/Controller/FileManagerController.php:113
 #: FileManager/View/FileManager/admin_browse.ctp:7
-#: FileManager/View/FileManager/admin_create_directory.ctp:4
-#: FileManager/View/FileManager/admin_create_file.ctp:4
-#: FileManager/View/FileManager/admin_editfile.ctp:4
-#: FileManager/View/FileManager/admin_upload.ctp:4
+#: FileManager/View/FileManager/admin_create_directory.ctp:7
+#: FileManager/View/FileManager/admin_create_file.ctp:7
+#: FileManager/View/FileManager/admin_editfile.ctp:7
+#: FileManager/View/FileManager/admin_upload.ctp:7
 msgid "File Manager"
 msgstr "Файловый менеджер"
 
@@ -2082,7 +2090,7 @@ msgstr "Неверный идентификатор (id) для вложения
 msgid "Attachment deleted"
 msgstr "Вложение удалено"
 
-#: FileManager/Controller/FileManagerController.php:118;150;214
+#: FileManager/Controller/FileManagerController.php:118;150;190;219;252;311;345
 msgid "Path %s is restricted"
 msgstr ""
 
@@ -2094,33 +2102,33 @@ msgstr "Изменить файл: %s"
 msgid "File saved successfully"
 msgstr "Файл сохранен"
 
-#: FileManager/Controller/FileManagerController.php:193
+#: FileManager/Controller/FileManagerController.php:198
 msgid "File uploaded successfully."
 msgstr "Файл загружен"
 
-#: FileManager/Controller/FileManagerController.php:219
+#: FileManager/Controller/FileManagerController.php:224
 msgid "File deleted"
 msgstr "Файл удален"
 
-#: FileManager/Controller/FileManagerController.php:247
+#: FileManager/Controller/FileManagerController.php:257
 msgid "Directory deleted"
 msgstr "Директория удалены"
 
-#: FileManager/Controller/FileManagerController.php:292
-#: FileManager/View/FileManager/admin_create_directory.ctp:5;14
+#: FileManager/Controller/FileManagerController.php:302
+#: FileManager/View/FileManager/admin_create_directory.ctp:8
 msgid "Create Directory"
 msgstr ""
 
-#: FileManager/Controller/FileManagerController.php:303
+#: FileManager/Controller/FileManagerController.php:318
 msgid "Directory created successfully."
 msgstr "Директория создана успешно."
 
-#: FileManager/Controller/FileManagerController.php:321
-#: FileManager/View/FileManager/admin_create_file.ctp:5
+#: FileManager/Controller/FileManagerController.php:336
+#: FileManager/View/FileManager/admin_create_file.ctp:8
 msgid "Create File"
 msgstr ""
 
-#: FileManager/Controller/FileManagerController.php:331
+#: FileManager/Controller/FileManagerController.php:351
 msgid "File created successfully."
 msgstr "Файл создан"
 
@@ -2133,7 +2141,7 @@ msgid "New Attachment"
 msgstr "Новое вложение"
 
 #: FileManager/View/Attachments/admin_browse.ctp:25
-#: FileManager/View/Attachments/admin_index.ctp:17
+#: FileManager/View/Attachments/admin_index.ctp:14
 msgid "URL"
 msgstr ""
 
@@ -2141,91 +2149,74 @@ msgstr ""
 msgid "Insert"
 msgstr "Вставить"
 
-#: FileManager/View/Attachments/admin_browse.ctp:100
-msgid ""
-"Page %page% of %pages%, showing %current% records out of %count% total, "
-"starting on record %start%, ending on %end%"
-msgstr ""
-"Страница  %page% из %pages%, показано %current% записей из %count%, с %start"
-"%, по %end%"
-
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
 msgstr "Вложение"
 
-#: FileManager/View/Attachments/admin_edit.ctp:46
+#: FileManager/View/Attachments/admin_edit.ctp:29
 msgid "Caption"
 msgstr "Заголовок"
 
-#: FileManager/View/Attachments/admin_edit.ctp:50
+#: FileManager/View/Attachments/admin_edit.ctp:32
 msgid "File URL"
 msgstr ""
 
-#: FileManager/View/Attachments/admin_edit.ctp:56
+#: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_browse.ctp:13
+#: FileManager/View/FileManager/admin_browse.ctp:14
 msgid "Upload here"
 msgstr "Загрузить"
 
-#: FileManager/View/FileManager/admin_browse.ctp:17
+#: FileManager/View/FileManager/admin_browse.ctp:18
 msgid "Create directory"
 msgstr "Создать папку"
 
-#: FileManager/View/FileManager/admin_browse.ctp:21
-#: FileManager/View/FileManager/admin_create_file.ctp:15
+#: FileManager/View/FileManager/admin_browse.ctp:22
 msgid "Create file"
 msgstr "Создать файл"
 
-#: FileManager/View/FileManager/admin_browse.ctp:29
-#: FileManager/View/FileManager/admin_create_directory.ctp:16
-#: FileManager/View/FileManager/admin_create_file.ctp:17
-#: FileManager/View/FileManager/admin_editfile.ctp:16
-#: FileManager/View/FileManager/admin_upload.ctp:17
+#: FileManager/View/FileManager/admin_browse.ctp:31
+#: FileManager/View/FileManager/admin_create_directory.ctp:21
+#: FileManager/View/FileManager/admin_create_file.ctp:13
+#: FileManager/View/FileManager/admin_editfile.ctp:13
+#: FileManager/View/FileManager/admin_upload.ctp:13
 msgid "You are here"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_browse.ctp:44
+#: FileManager/View/FileManager/admin_browse.ctp:46
 msgid "Directory content"
 msgstr "Содержимое папки"
 
-#: FileManager/View/FileManager/admin_browse.ctp:57
+#: FileManager/View/FileManager/admin_browse.ctp:59
 msgid "Open"
 msgstr "Открыть"
 
-#: FileManager/View/FileManager/admin_browse.ctp:85
+#: FileManager/View/FileManager/admin_browse.ctp:87
 msgid "View"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_directory.ctp:31
+#: FileManager/View/FileManager/admin_create_directory.ctp:34
 msgid "Directory"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_directory.ctp:41
+#: FileManager/View/FileManager/admin_create_directory.ctp:42
 msgid "Directory name"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_directory.ctp:53
+#: FileManager/View/FileManager/admin_create_directory.ctp:51
 #: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
-#: Nodes/View/Nodes/admin_form.ctp:13
+#: Nodes/View/Nodes/admin_form.ctp:14
 msgid "Create"
 msgstr "Добавить"
 
-#: FileManager/View/FileManager/admin_create_file.ctp:32
+#: FileManager/View/FileManager/admin_create_file.ctp:33
 msgid "File"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_file.ctp:42
+#: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
-msgstr ""
-
-#: FileManager/View/FileManager/admin_editfile.ctp:14
-msgid "Edit file"
-msgstr ""
-
-#: FileManager/View/FileManager/admin_upload.ctp:15
-msgid "Upload file"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:27
@@ -2237,45 +2228,45 @@ msgid "DataSource"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:115
-#: Install/View/Install/database.ctp:60
+#: Install/View/Install/database.ctp:58
 msgid "Host"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:116
-#: Install/View/Install/database.ctp:67 Users/View/Users/login.ctp:2
+#: Install/View/Install/database.ctp:66 Users/View/Users/login.ctp:2
 msgid "Login"
 msgstr "Войти"
 
 #: Install/Console/Command/InstallShell.php:117;153
-#: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:110
+#: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
 #: Users/View/Users/admin_login.ctp:15
 msgid "Password"
 msgstr "Пароль"
 
 #: Install/Console/Command/InstallShell.php:118
-#: Install/View/Install/database.ctp:48
+#: Install/View/Install/database.ctp:47
 msgid "Database"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:119
-#: Install/View/Install/database.ctp:87
+#: Install/View/Install/database.ctp:89
 msgid "Prefix"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:120
-#: Install/View/Install/database.ctp:93
+#: Install/View/Install/database.ctp:96
 msgid "Port"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:146
-#: Install/View/Install/adminuser.ctp:14 Users/View/Users/admin_form.ctp:61
+#: Install/View/Install/adminuser.ctp:13 Users/View/Users/admin_form.ctp:47
 #: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
 msgid "Username"
 msgstr "Имя пользователя"
 
 #: Install/Console/Command/InstallShell.php:155
-#: Install/View/Install/adminuser.ctp:25 Users/View/Users/admin_form.ctp:115
-#: Users/View/Users/admin_reset_password.ctp:28 Users/View/Users/reset.ctp:7
+#: Install/View/Install/adminuser.ctp:26 Users/View/Users/admin_form.ctp:96
+#: Users/View/Users/admin_reset_password.ctp:35 Users/View/Users/reset.ctp:7
 msgid "Verify Password"
 msgstr "Повтор пароля"
 
@@ -2283,31 +2274,31 @@ msgstr "Повтор пароля"
 msgid "Permission %s granted to %s"
 msgstr ""
 
-#: Install/Controller/InstallController.php:95
+#: Install/Controller/InstallController.php:101
 msgid "Installation: Welcome"
 msgstr ""
 
-#: Install/Controller/InstallController.php:110
+#: Install/Controller/InstallController.php:116
 msgid "Step 1: Database"
 msgstr ""
 
-#: Install/Controller/InstallController.php:156
+#: Install/Controller/InstallController.php:162
 msgid "Step 2: Build database"
 msgstr ""
 
-#: Install/Controller/InstallController.php:164
+#: Install/Controller/InstallController.php:170
 msgid "Warning: Database \"%s\" is not empty."
 msgstr ""
 
-#: Install/Controller/InstallController.php:216
+#: Install/Controller/InstallController.php:222
 msgid "Installation successful"
 msgstr ""
 
-#: Install/Controller/InstallController.php:224
+#: Install/Controller/InstallController.php:230
 msgid "Installation failed"
 msgstr ""
 
-#: Install/Controller/InstallController.php:225
+#: Install/Controller/InstallController.php:231
 msgid "Installation failed: Unable to create settings file"
 msgstr ""
 
@@ -2351,12 +2342,12 @@ msgstr ""
 msgid "Could not connect to database."
 msgstr ""
 
-#: Install/View/Install/adminuser.ctp:7
+#: Install/View/Install/adminuser.ctp:10
 msgid "Step 3: Create Admin User"
 msgstr ""
 
 #: Install/View/Install/adminuser.ctp:19
-#: Users/View/Users/admin_reset_password.ctp:27
+#: Users/View/Users/admin_reset_password.ctp:31
 msgid "New Password"
 msgstr "Новый пароль"
 
@@ -2372,39 +2363,39 @@ msgstr ""
 msgid "Click here to build your database"
 msgstr ""
 
-#: Install/View/Install/database.ctp:17
+#: Install/View/Install/database.ctp:20
 msgid "Warning"
 msgstr ""
 
-#: Install/View/Install/database.ctp:18
+#: Install/View/Install/database.ctp:21
 msgid "A `database.php` file already exists."
 msgstr ""
 
-#: Install/View/Install/database.ctp:21
+#: Install/View/Install/database.ctp:24
 msgid "Valid"
 msgstr ""
 
-#: Install/View/Install/database.ctp:24
+#: Install/View/Install/database.ctp:27
 msgid "Invalid"
 msgstr ""
 
-#: Install/View/Install/database.ctp:27
+#: Install/View/Install/database.ctp:30
 msgid "This file is %s."
 msgstr ""
 
-#: Install/View/Install/database.ctp:32
+#: Install/View/Install/database.ctp:35
 msgid "Reuse this file and proceed."
 msgstr ""
 
-#: Install/View/Install/database.ctp:37
+#: Install/View/Install/database.ctp:40
 msgid "This file will be replaced."
 msgstr ""
 
-#: Install/View/Install/database.ctp:62
+#: Install/View/Install/database.ctp:60
 msgid "Database hostname or IP Address"
 msgstr ""
 
-#: Install/View/Install/database.ctp:69
+#: Install/View/Install/database.ctp:68
 msgid "Database login/username"
 msgstr ""
 
@@ -2412,15 +2403,15 @@ msgstr ""
 msgid "Database password"
 msgstr ""
 
-#: Install/View/Install/database.ctp:82
+#: Install/View/Install/database.ctp:83
 msgid "Database name"
 msgstr ""
 
-#: Install/View/Install/database.ctp:88
+#: Install/View/Install/database.ctp:90
 msgid "Table prefix (leave blank if unknown)"
 msgstr ""
 
-#: Install/View/Install/database.ctp:94
+#: Install/View/Install/database.ctp:97
 msgid "Database port (leave blank if unknown)"
 msgstr ""
 
@@ -2499,7 +2490,7 @@ msgid "Install Croogo"
 msgstr ""
 
 #: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
-#: Menus/View/Links/admin_form.ctp:8 Menus/View/Links/admin_index.ctp:9
+#: Menus/View/Links/admin_form.ctp:9 Menus/View/Links/admin_index.ctp:9
 #: Menus/View/Menus/admin_form.ctp:7 Menus/View/Menus/admin_index.ctp:7
 msgid "Menus"
 msgstr "Меню"
@@ -2577,31 +2568,39 @@ msgstr "Неверный id меню"
 msgid "Menu deleted"
 msgstr "Меню удалено"
 
-#: Menus/View/Links/admin_form.ctp:54;81
+#: Menus/View/Links/admin_form.ctp:51;74
 msgid "Link"
 msgstr "Ссылка"
 
-#: Menus/View/Links/admin_form.ctp:56 Menus/View/Menus/admin_form.ctp:26
+#: Menus/View/Links/admin_form.ctp:53 Menus/View/Menus/admin_form.ctp:21
 msgid "Misc."
 msgstr "Разное"
 
-#: Menus/View/Links/admin_form.ctp:113
+#: Menus/View/Links/admin_form.ctp:62 Menus/View/Menus/admin_form.ctp:20
+msgid "Menu"
+msgstr "Меню"
+
+#: Menus/View/Links/admin_form.ctp:80
+msgid "Link Chooser"
+msgstr ""
+
+#: Menus/View/Links/admin_form.ctp:102
 msgid "Rel"
 msgstr ""
 
-#: Menus/View/Links/admin_form.ctp:116
+#: Menus/View/Links/admin_form.ctp:105
 msgid "Target"
 msgstr ""
 
-#: Menus/View/Links/admin_form.ctp:162
+#: Menus/View/Links/admin_form.ctp:148
 msgid "Choose Link"
 msgstr ""
 
-#: Menus/View/Links/admin_index.ctp:82
+#: Menus/View/Links/admin_index.ctp:78
 msgid "Create a copy of this Link?"
 msgstr ""
 
-#: Menus/View/Links/admin_index.ctp:89
+#: Menus/View/Links/admin_index.ctp:85
 msgid "Delete this item"
 msgstr ""
 
@@ -2609,15 +2608,11 @@ msgstr ""
 msgid "Link to %s"
 msgstr ""
 
-#: Menus/View/Menus/admin_form.ctp:25
-msgid "Menu"
-msgstr "Меню"
-
-#: Menus/View/Menus/admin_index.ctp:18
+#: Menus/View/Menus/admin_index.ctp:15
 msgid "Link Count"
 msgstr "Кол-во ссылок"
 
-#: Menus/View/Menus/admin_index.ctp:34
+#: Menus/View/Menus/admin_index.ctp:29
 msgid "View links"
 msgstr "Открыть ссылки"
 
@@ -2629,19 +2624,20 @@ msgstr "Пользовательские поля"
 msgid "Add another field"
 msgstr "Добавить еще одно поле"
 
-#: Meta/View/Helper/MetaHelper.php:88 Settings/View/Settings/admin_form.ctp:45
-#: Settings/View/Settings/admin_index.ctp:21
+#: Meta/View/Helper/MetaHelper.php:97 Settings/View/Settings/admin_form.ctp:35
+#: Settings/View/Settings/admin_index.ctp:19
 #: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
 msgstr "Ключ"
 
-#: Meta/View/Helper/MetaHelper.php:93 Settings/View/Settings/admin_form.ctp:48
-#: Settings/View/Settings/admin_index.ctp:22
+#: Meta/View/Helper/MetaHelper.php:101
+#: Settings/View/Settings/admin_form.ctp:38
+#: Settings/View/Settings/admin_index.ctp:20
 #: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
 msgstr "Значение"
 
-#: Meta/View/Helper/MetaHelper.php:122
+#: Meta/View/Helper/MetaHelper.php:128
 msgid "Remove"
 msgstr "Удалить"
 
@@ -2650,7 +2646,7 @@ msgid "List"
 msgstr "Список"
 
 #: Nodes/Controller/NodesController.php:143
-#: Nodes/View/Nodes/admin_index.ctp:13
+#: Nodes/View/Nodes/admin_index.ctp:12
 msgid "Create content"
 msgstr "Добавить"
 
@@ -2692,40 +2688,40 @@ msgstr "Неверный id узла (Node)"
 msgid "Node deleted"
 msgstr "Узел удален"
 
-#: Nodes/Controller/NodesController.php:319
+#: Nodes/Controller/NodesController.php:321
 msgid "Nodes deleted"
 msgstr ""
 
-#: Nodes/Controller/NodesController.php:320
+#: Nodes/Controller/NodesController.php:322
 msgid "Nodes published"
 msgstr "Узлы опубликованы"
 
-#: Nodes/Controller/NodesController.php:321
+#: Nodes/Controller/NodesController.php:323
 msgid "Nodes unpublished"
 msgstr "Узлы сняты с публикации"
 
-#: Nodes/Controller/NodesController.php:322
+#: Nodes/Controller/NodesController.php:324
 msgid "Nodes promoted"
 msgstr "Узлы продвинуты"
 
-#: Nodes/Controller/NodesController.php:323
+#: Nodes/Controller/NodesController.php:325
 msgid "Nodes unpromoted"
 msgstr "Узлы сняты"
 
-#: Nodes/Controller/NodesController.php:324
+#: Nodes/Controller/NodesController.php:326
 #, fuzzy
 msgid "Nodes copied"
 msgstr "Узлы опубликованы"
 
-#: Nodes/Controller/NodesController.php:377;478;548;611
+#: Nodes/Controller/NodesController.php:379;480;552;615
 msgid "Invalid content type."
 msgstr "Неверный тип контента."
 
-#: Nodes/Controller/NodesController.php:435
+#: Nodes/Controller/NodesController.php:437
 msgid "Invalid Term."
 msgstr "Неверный термин"
 
-#: Nodes/Controller/NodesController.php:527
+#: Nodes/Controller/NodesController.php:531
 msgid "Home"
 msgstr ""
 
@@ -2745,33 +2741,33 @@ msgstr "Опубликовано в"
 msgid "Leave a comment"
 msgstr "Оставить комментарий"
 
-#: Nodes/View/Elements/search.ctp:7
-#: Nodes/View/Elements/admin/nodes_search.ctp:24
+#: Nodes/View/Elements/search.ctp:7 Nodes/View/Elements/search2.ctp:8
+#: Nodes/View/Elements/admin/nodes_search.ctp:22
 msgid "Search"
 msgstr "Поиск"
 
-#: Nodes/View/Elements/admin/nodes_search.ctp:25
+#: Nodes/View/Elements/admin/nodes_search.ctp:23
 msgid "Search..."
 msgstr "Поиск..."
 
-#: Nodes/View/Elements/admin/nodes_search.ctp:34
-#: Nodes/View/Nodes/admin_index.ctp:40
+#: Nodes/View/Elements/admin/nodes_search.ctp:31
+#: Nodes/View/Nodes/admin_index.ctp:33
 #: Taxonomy/Controller/TypesController.php:53
-#: Taxonomy/View/Types/admin_form.ctp:25
-#: Taxonomy/View/Vocabularies/admin_form.ctp:55
+#: Taxonomy/View/Types/admin_form.ctp:20
+#: Taxonomy/View/Vocabularies/admin_form.ctp:46
 msgid "Type"
 msgstr "Тип"
 
-#: Nodes/View/Elements/admin/nodes_search.ctp:49
+#: Nodes/View/Elements/admin/nodes_search.ctp:44
 msgid "Yes"
 msgstr "Да"
 
-#: Nodes/View/Elements/admin/nodes_search.ctp:50
+#: Nodes/View/Elements/admin/nodes_search.ctp:45
 msgid "No"
 msgstr "Нет"
 
-#: Nodes/View/Elements/admin/nodes_search.ctp:52
-#: Nodes/View/Nodes/admin_chooser.ctp:47
+#: Nodes/View/Elements/admin/nodes_search.ctp:47
+#: Nodes/View/Nodes/admin_chooser.ctp:50
 msgid "Promoted"
 msgstr "На главной"
 
@@ -2779,55 +2775,55 @@ msgstr "На главной"
 msgid "Sort by:"
 msgstr "Сортировать по:"
 
-#: Nodes/View/Nodes/admin_form.ctp:81 Taxonomy/View/Terms/admin_chooser.ctp:7
-#: Taxonomy/View/Terms/admin_form.ctp:57
-#: Taxonomy/View/Terms/admin_index.ctp:34
+#: Nodes/View/Nodes/admin_form.ctp:72 Taxonomy/View/Terms/admin_chooser.ctp:7
+#: Taxonomy/View/Terms/admin_form.ctp:47
+#: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
 msgstr "Идентификатор"
 
-#: Nodes/View/Nodes/admin_form.ctp:84
+#: Nodes/View/Nodes/admin_form.ctp:75
 msgid "Excerpt"
 msgstr "Отрывок"
 
-#: Nodes/View/Nodes/admin_form.ctp:119
+#: Nodes/View/Nodes/admin_form.ctp:109
 msgid "Promoted to front page"
 msgstr " На Главной "
 
-#: Nodes/View/Nodes/admin_form.ctp:124
+#: Nodes/View/Nodes/admin_form.ctp:113
 msgid "Publish as "
 msgstr "Автор: "
 
-#: Nodes/View/Nodes/admin_index.ctp:41 Users/View/Users/admin_form.ctp:45
+#: Nodes/View/Nodes/admin_index.ctp:34 Users/View/Users/admin_form.ctp:37
 msgid "User"
 msgstr "Пользователь"
 
-#: Nodes/View/Nodes/admin_index.ctp:68
+#: Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
 msgstr "на главной"
 
-#: Nodes/View/Nodes/admin_index.ctp:127
+#: Nodes/View/Nodes/admin_index.ctp:120
 msgid "Applying to selected"
 msgstr "Применить к выбранным"
 
-#: Nodes/View/Nodes/admin_index.ctp:132
+#: Nodes/View/Nodes/admin_index.ctp:125
 msgid "Promote"
 msgstr "Поместить на главной"
 
-#: Nodes/View/Nodes/admin_index.ctp:133
+#: Nodes/View/Nodes/admin_index.ctp:126
 msgid "Unpromote"
 msgstr "Снять с главной"
 
-#: Nodes/View/Nodes/admin_index.ctp:147
+#: Nodes/View/Nodes/admin_index.ctp:143
 msgid "%s selected items?"
 msgstr ""
 
 #: Nodes/View/Nodes/admin_translations.ctp:8
-#: Translate/View/Translate/admin_index.ctp:21
+#: Translate/View/Translate/admin_index.ctp:37
 msgid "Translate in a new language"
 msgstr "Перевести на новой язык"
 
 #: Nodes/View/Nodes/admin_translations.ctp:49
-#: Translate/View/Translate/admin_index.ctp:85
+#: Translate/View/Translate/admin_index.ctp:101
 msgid "No translations available."
 msgstr "Нет доступных переводов."
 
@@ -2845,9 +2841,9 @@ msgstr "Результаты поиска: %s"
 #: Settings/View/Languages/admin_form.ctp:7
 #: Settings/View/Languages/admin_index.ctp:6
 #: Settings/View/Languages/admin_select.ctp:5
-#: Settings/View/Settings/admin_form.ctp:6;30
+#: Settings/View/Settings/admin_form.ctp:6;26
 #: Settings/View/Settings/admin_index.ctp:7
-#: Settings/View/Settings/admin_prefix.ctp:4
+#: Settings/View/Settings/admin_prefix.ctp:6
 msgid "Settings"
 msgstr "Настройки"
 
@@ -3025,7 +3021,7 @@ msgstr "Не могу добавить новый язык."
 msgid "Language"
 msgstr ""
 
-#: Settings/View/Languages/admin_form.ctp:41
+#: Settings/View/Languages/admin_form.ctp:38
 #: Settings/View/Languages/admin_index.ctp:17
 msgid "Native"
 msgstr ""
@@ -3034,29 +3030,29 @@ msgstr ""
 msgid "New Language"
 msgstr "Новый язык"
 
-#: Settings/View/Settings/admin_form.ctp:31
+#: Settings/View/Settings/admin_form.ctp:27
 msgid "Misc"
 msgstr ""
 
-#: Settings/View/Settings/admin_form.ctp:44
+#: Settings/View/Settings/admin_form.ctp:34
 msgid "e.g., 'Site.title'"
 msgstr ""
 
-#: Settings/View/Settings/admin_form.ctp:62
+#: Settings/View/Settings/admin_form.ctp:50
 #: Settings/View/Settings/admin_view.ctp:24
 msgid "Input Type"
 msgstr "Тип ввода"
 
-#: Settings/View/Settings/admin_form.ctp:63
+#: Settings/View/Settings/admin_form.ctp:51
 msgid "e.g., 'text' or 'textarea'"
 msgstr ""
 
-#: Settings/View/Settings/admin_form.ctp:66
-#: Settings/View/Settings/admin_index.ctp:23
+#: Settings/View/Settings/admin_form.ctp:54
+#: Settings/View/Settings/admin_index.ctp:21
 msgid "Editable"
 msgstr ""
 
-#: Settings/View/Settings/admin_prefix.ctp:64
+#: Settings/View/Settings/admin_prefix.ctp:53
 msgid "Saving"
 msgstr ""
 
@@ -3088,7 +3084,7 @@ msgstr "Новая настройка"
 msgid "Content Types"
 msgstr "Типы контента"
 
-#: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:26
+#: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:21
 msgid "Taxonomy"
 msgstr "Классификация"
 
@@ -3212,19 +3208,19 @@ msgstr "Словарь удален"
 msgid "Invalid Term Id"
 msgstr ""
 
-#: Taxonomy/Model/Term.php:242
+#: Taxonomy/Model/Term.php:243
 msgid "\"vocabulary_id\" key not found"
 msgstr ""
 
-#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:133
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:137
 msgid "Please select at least 1 value"
 msgstr ""
 
-#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:134
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:138
 msgid "Please select at most 1 value"
 msgstr ""
 
-#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:173
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:177
 msgid "Invalid Content Type"
 msgstr ""
 
@@ -3232,47 +3228,52 @@ msgstr ""
 msgid "Terms"
 msgstr "Термины"
 
-#: Taxonomy/View/Terms/admin_form.ctp:34
+#: Taxonomy/View/Terms/admin_form.ctp:29
 msgid "Term"
 msgstr ""
 
-#: Taxonomy/View/Terms/admin_index.ctp:15
+#: Taxonomy/View/Terms/admin_index.ctp:13
 msgid "New Term"
 msgstr "Новый термин"
 
-#: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:5
+#: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:8
 msgid "Types"
 msgstr ""
 
-#: Taxonomy/View/Types/admin_form.ctp:119
-msgid "Show author's name"
-msgstr "Отображать имя автора"
+#: Taxonomy/View/Types/admin_form.ctp:41
+msgid "Enable Wysiwyg Editor"
+msgstr ""
 
-#: Taxonomy/View/Types/admin_form.ctp:123
-msgid "Show date"
-msgstr "Отображать дату"
-
-#: Taxonomy/View/Vocabularies/admin_form.ctp:29
+#: Taxonomy/View/Types/admin_form.ctp:50
+#: Taxonomy/View/Vocabularies/admin_form.ctp:26
 msgid "Vocabulary"
 msgstr "Словарь"
 
-#: Taxonomy/View/Vocabularies/admin_form.ctp:30
+#: Taxonomy/View/Types/admin_form.ctp:109
+msgid "Show author's name"
+msgstr "Отображать имя автора"
+
+#: Taxonomy/View/Types/admin_form.ctp:112
+msgid "Show date"
+msgstr "Отображать дату"
+
+#: Taxonomy/View/Vocabularies/admin_form.ctp:27
 msgid "Options"
 msgstr "Опции"
 
-#: Taxonomy/View/Vocabularies/admin_form.ctp:63
+#: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Required"
 msgstr ""
 
-#: Taxonomy/View/Vocabularies/admin_form.ctp:67
+#: Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Multiple"
 msgstr ""
 
-#: Taxonomy/View/Vocabularies/admin_form.ctp:71
+#: Taxonomy/View/Vocabularies/admin_form.ctp:58
 msgid "Tags"
 msgstr ""
 
-#: Taxonomy/View/Vocabularies/admin_index.ctp:31
+#: Taxonomy/View/Vocabularies/admin_index.ctp:30
 msgid "View terms"
 msgstr "Просмотр терминов"
 
@@ -3291,6 +3292,10 @@ msgstr "Неверная запись."
 #: Translate/Controller/TranslateController.php:76
 msgid "Translations: %s"
 msgstr "Переводы: %s"
+
+#: Translate/Controller/TranslateController.php:109
+msgid "Invalid locale"
+msgstr "Неверная локализация"
 
 #: Translate/Controller/TranslateController.php:146
 msgid "Translate content: %s (%s)"
@@ -3317,8 +3322,7 @@ msgid "Translation for the locale could not be deleted."
 msgstr "Перевод для языка не может быть удален."
 
 #: Translate/Lib/Translations.php:22
-#: Translate/View/Translate/admin_edit.ctp:7;24
-#: Translate/View/Translate/admin_index.ctp:13
+#: Translate/View/Translate/admin_edit.ctp:19;34
 msgid "Translate"
 msgstr ""
 
@@ -3326,13 +3330,17 @@ msgstr ""
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
 msgstr "Datasource %s для CroogoTranslateBehavior моделиl %s не связался"
 
+#: Translate/View/Translate/admin_edit.ctp:10
+#: Translate/View/Translate/admin_index.ctp:31
+msgid "Translations"
+msgstr ""
+
 #: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
-#: Users/View/Roles/admin_form.ctp:6 Users/View/Roles/admin_index.ctp:7
+#: Users/View/Roles/admin_form.ctp:8 Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
 msgstr "Роли"
 
-#: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:26
-#: Users/View/Users/admin_reset_password.ctp:1
+#: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:25
 msgid "Reset password"
 msgstr "Сбросить пароль"
 
@@ -3484,7 +3492,7 @@ msgid "An error occurred. Please try again."
 msgstr "Произошла ошибка. Пожалуйста, попробуйте еще раз."
 
 #: Users/Controller/UsersController.php:493
-#: Users/View/Users/admin_reset_password.ctp:9;18
+#: Users/View/Users/admin_reset_password.ctp:11;22
 msgid "Reset Password"
 msgstr "Сброс пароля"
 
@@ -3500,7 +3508,7 @@ msgstr "Войти"
 msgid "Invalid User."
 msgstr "Неверный пользователь"
 
-#: Users/Model/User.php:220
+#: Users/Model/User.php:226
 msgid "Passwords do not match. Please, try again."
 msgstr "Пароли не совпадают"
 
@@ -3523,10 +3531,6 @@ msgstr ""
 msgid "Please visit this link to activate your account: %s"
 msgstr "ожалуйста, посетите эту ссылку для активации учетной записи: %s"
 
-#: Users/View/Roles/admin_form.ctp:23 Users/View/Users/admin_form.ctp:55
-msgid "Role"
-msgstr "Роль"
-
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
 msgstr ""
@@ -3535,11 +3539,11 @@ msgstr ""
 msgid "New user"
 msgstr ""
 
-#: Users/View/Users/admin_form.ctp:76
+#: Users/View/Users/admin_form.ctp:62
 msgid "Timezone"
 msgstr ""
 
-#: Users/View/Users/admin_form.ctp:96
+#: Users/View/Users/admin_form.ctp:80
 msgid "Send Activation Email"
 msgstr ""
 
@@ -3555,17 +3559,24 @@ msgstr "Вход"
 msgid "Forgot password?"
 msgstr "Забыли пароль?"
 
-#: Users/View/Users/admin_reset_password.ctp:11
-msgid "Reset Password for %s"
+#: Users/View/Users/admin_reset_password.ctp:13
+msgid "Reset Password: %s"
 msgstr ""
 
-#: Users/View/Users/admin_reset_password.ctp:38
+#: Users/View/Users/admin_reset_password.ctp:46
 msgid "Reset"
 msgstr ""
 
 #: Users/View/Users/reset.ctp:6
 msgid "New password"
 msgstr "Новый пароль"
+
+#~ msgid ""
+#~ "Page %page% of %pages%, showing %current% records out of %count% total, "
+#~ "starting on record %start%, ending on %end%"
+#~ msgstr ""
+#~ "Страница  %page% из %pages%, показано %current% записей из %count%, с "
+#~ "%start%, по %end%"
 
 #~ msgid "Invalid Node"
 #~ msgstr "Неверный узел (Node)."
