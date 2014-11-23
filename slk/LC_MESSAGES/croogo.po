@@ -26,74 +26,75 @@ msgstr "Pristupové práva"
 msgid "Access Control"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:94
+#: Acl/Console/Command/ExtrasShell.php:93
 msgid "Plugin to process"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:97
+#: Acl/Console/Command/ExtrasShell.php:96
 msgid "Better manage, and easily synchronize you application's ACO tree"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:102
+#: Acl/Console/Command/ExtrasShell.php:101
 msgid ""
 "Add new ACOs for new controllers and actions. Does not remove nodes from the "
 "ACO table."
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:108
+#: Acl/Console/Command/ExtrasShell.php:107
 msgid ""
 "Perform a full sync on the ACO table.Will create new ACOs or missing "
 "controllers and actions.Will also remove orphaned entries that no longer "
 "have a matching controller/action"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:113
+#: Acl/Console/Command/ExtrasShell.php:112
 msgid ""
 "Perform a full content sync on the ACO table.Will create new ACOs or missing "
 "contents.Will also remove orphaned entries that no longer have a matching "
 "contents"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:120
+#: Acl/Console/Command/ExtrasShell.php:119
 msgid "The content model name "
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:126
+#: Acl/Console/Command/ExtrasShell.php:125
 msgid "Verify the tree structure of either your Aco or Aro Trees"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:131
+#: Acl/Console/Command/ExtrasShell.php:130
 msgid "The type of tree to verify"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:138
+#: Acl/Console/Command/ExtrasShell.php:137
 msgid "Recover a corrupted Tree"
 msgstr ""
 
-#: Acl/Console/Command/ExtrasShell.php:143
+#: Acl/Console/Command/ExtrasShell.php:142
 msgid "The type of tree to recover"
 msgstr ""
 
 #: Acl/Controller/AclActionsController.php:47
 #: Acl/View/AclActions/admin_form.ctp:8
 #: Acl/View/AclActions/admin_index.ctp:14;72
-#: Blocks/View/Blocks/admin_index.ctp:28
-#: Comments/View/Comments/admin_index.ctp:52
-#: Contacts/View/Messages/admin_index.ctp:72
-#: Croogo/View/Common/admin_index.ctp:59
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:50
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:25
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
+#: Blocks/View/Blocks/admin_index.ctp:24
+#: Comments/View/Comments/admin_index.ctp:48
+#: Contacts/View/Messages/admin_index.ctp:65
+#: Croogo/View/Common/admin_index.ctp:60
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:20
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:39
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:21
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:30
 #: FileManager/View/Attachments/admin_browse.ctp:26
-#: FileManager/View/Attachments/admin_index.ctp:18
-#: FileManager/View/FileManager/admin_browse.ctp:45
-#: Menus/View/Links/admin_index.ctp:46 Menus/View/Menus/admin_index.ctp:20
+#: FileManager/View/Attachments/admin_index.ctp:15
+#: FileManager/View/FileManager/admin_browse.ctp:47
+#: Menus/View/Links/admin_index.ctp:42 Menus/View/Menus/admin_index.ctp:17
 #: Nodes/View/Nodes/admin_translations.ctp:27
 #: Settings/View/Languages/admin_index.ctp:20
-#: Settings/View/Settings/admin_index.ctp:24
-#: Taxonomy/View/Terms/admin_index.ctp:35
-#: Taxonomy/View/Vocabularies/admin_index.ctp:18
-#: Translate/View/Translate/admin_index.ctp:43
+#: Settings/View/Settings/admin_index.ctp:22
+#: Taxonomy/View/Terms/admin_index.ctp:29
+#: Taxonomy/View/Vocabularies/admin_index.ctp:17
+#: Translate/View/Translate/admin_index.ctp:59
 msgid "Actions"
 msgstr "Činnosti"
 
@@ -243,278 +244,289 @@ msgstr ""
 #: Acl/View/AclActions/admin_form.ctp:6 Acl/View/AclActions/admin_index.ctp:10
 #: Acl/View/AclPermissions/admin_index.ctp:9 Users/Config/admin_menu.php:5;15
 #: Users/Controller/UsersController.php:108;302
-#: Users/View/Roles/admin_form.ctp:5 Users/View/Roles/admin_index.ctp:6
+#: Users/View/Roles/admin_form.ctp:7 Users/View/Roles/admin_index.ctp:6
 #: Users/View/Users/admin_form.ctp:7 Users/View/Users/admin_index.ctp:6
-#: Users/View/Users/admin_reset_password.ctp:5
+#: Users/View/Users/admin_reset_password.ctp:7
 msgid "Users"
 msgstr "Užívatelia"
 
 #: Acl/View/AclActions/admin_form.ctp:15 Blocks/View/Blocks/admin_form.ctp:13
 #: Blocks/View/Regions/admin_form.ctp:20
 #: Contacts/View/Contacts/admin_form.ctp:14
-#: Croogo/View/Common/admin_edit.ctp:8 Menus/View/Links/admin_form.ctp:16
+#: Croogo/View/Common/admin_edit.ctp:12 Menus/View/Links/admin_form.ctp:17
 #: Menus/View/Menus/admin_form.ctp:14
 #: Settings/View/Languages/admin_form.ctp:15
 #: Settings/View/Settings/admin_form.ctp:18
 #: Taxonomy/View/Terms/admin_form.ctp:21 Taxonomy/View/Types/admin_form.ctp:14
 #: Taxonomy/View/Vocabularies/admin_form.ctp:18
-#: Users/View/Roles/admin_form.ctp:13 Users/View/Users/admin_form.ctp:20
+#: Users/View/Roles/admin_form.ctp:15 Users/View/Users/admin_form.ctp:20
 msgid "Add"
 msgstr ""
 
-#: Acl/View/AclActions/admin_form.ctp:27
+#: Acl/View/AclActions/admin_form.ctp:23
 msgid "Action"
 msgstr ""
 
-#: Acl/View/AclActions/admin_form.ctp:39 Menus/View/Links/admin_form.ctp:69
-#: Nodes/View/Nodes/admin_form.ctp:60 Taxonomy/View/Terms/admin_form.ctp:45
+#: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
+#: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
 msgstr "Nadradený"
 
-#: Acl/View/AclActions/admin_form.ctp:40
+#: Acl/View/AclActions/admin_form.ctp:35
 msgid "Choose none if the Aco is a controller."
 msgstr "Vyberte žiadny ak Aco je ovládač."
 
-#: Acl/View/AclActions/admin_form.ctp:47
+#: Acl/View/AclActions/admin_form.ctp:38
 #: Acl/View/AclActions/admin_index.ctp:71
 #: Acl/View/Elements/admin/acl_permissions_table.ctp:8
-#: Blocks/View/Blocks/admin_form.ctp:48 Blocks/View/Blocks/admin_index.ctp:25
-#: Blocks/View/Regions/admin_form.ctp:48
-#: Contacts/View/Contacts/admin_form.ctp:42
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:24
-#: Menus/View/Menus/admin_form.ctp:43 Menus/View/Menus/admin_index.ctp:17
-#: Settings/View/Languages/admin_form.ctp:44
+#: Blocks/View/Blocks/admin_form.ctp:37 Blocks/View/Blocks/admin_index.ctp:21
+#: Blocks/View/Regions/admin_form.ctp:38
+#: Contacts/View/Contacts/admin_form.ctp:34
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:26
+#: Menus/View/Menus/admin_form.ctp:33 Menus/View/Menus/admin_index.ctp:14
+#: Settings/View/Languages/admin_form.ctp:41
 #: Settings/View/Languages/admin_index.ctp:18
-#: Taxonomy/View/Types/admin_form.ctp:45
-#: Taxonomy/View/Vocabularies/admin_form.ctp:49
-#: Taxonomy/View/Vocabularies/admin_index.ctp:16
-#: Users/View/Roles/admin_form.ctp:40
+#: Taxonomy/View/Types/admin_form.ctp:35
+#: Taxonomy/View/Vocabularies/admin_form.ctp:40
+#: Taxonomy/View/Vocabularies/admin_index.ctp:15
+#: Users/View/Roles/admin_form.ctp:32
 msgid "Alias"
 msgstr "Alias"
 
-#: Acl/View/AclActions/admin_form.ctp:58 Blocks/View/Blocks/admin_form.ctp:98
-#: Blocks/View/Regions/admin_form.ctp:59
-#: Comments/View/Comments/admin_form.ctp:47
-#: Contacts/View/Contacts/admin_form.ctp:124
-#: Contacts/View/Messages/admin_form.ctp:61
-#: Croogo/View/Common/admin_edit.ctp:82
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:45
-#: FileManager/View/Attachments/admin_add.ctp:44
-#: FileManager/View/Attachments/admin_edit.ctp:74
-#: FileManager/View/FileManager/admin_create_directory.ctp:52
-#: FileManager/View/FileManager/admin_create_file.ctp:53
-#: FileManager/View/FileManager/admin_editfile.ctp:52
+#: Acl/View/AclActions/admin_form.ctp:46 Blocks/View/Blocks/admin_form.ctp:78
+#: Blocks/View/Regions/admin_form.ctp:46
+#: Comments/View/Comments/admin_form.ctp:35
+#: Contacts/View/Contacts/admin_form.ctp:103
+#: Contacts/View/Messages/admin_form.ctp:49
+#: Croogo/View/Common/admin_edit.ctp:115
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:36
+#: FileManager/View/Attachments/admin_add.ctp:41
+#: FileManager/View/Attachments/admin_edit.ctp:51
+#: FileManager/View/FileManager/admin_create_directory.ctp:50
+#: FileManager/View/FileManager/admin_create_file.ctp:49
+#: FileManager/View/FileManager/admin_editfile.ctp:49
+#: FileManager/View/FileManager/admin_rename.ctp:49
 #: FileManager/View/FileManager/admin_upload.ctp:48
-#: Menus/View/Links/admin_form.ctp:131 Nodes/View/Nodes/admin_form.ctp:107
-#: Settings/View/Languages/admin_form.ctp:55
-#: Settings/View/Settings/admin_form.ctp:81
-#: Taxonomy/View/Terms/admin_form.ctp:72
-#: Taxonomy/View/Types/admin_form.ctp:110
-#: Taxonomy/View/Vocabularies/admin_form.ctp:83
-#: Translate/View/Translate/admin_edit.ctp:45
-#: Users/View/Roles/admin_form.ctp:50 Users/View/Users/admin_form.ctp:87
-#: Users/View/Users/admin_reset_password.ctp:37
+#: Menus/View/Links/admin_form.ctp:117 Nodes/View/Nodes/admin_form.ctp:106
+#: Settings/View/Languages/admin_form.ctp:52
+#: Settings/View/Settings/admin_form.ctp:65
+#: Taxonomy/View/Terms/admin_form.ctp:60
+#: Taxonomy/View/Types/admin_form.ctp:100
+#: Taxonomy/View/Vocabularies/admin_form.ctp:67
+#: Translate/View/Translate/admin_edit.ctp:52
+#: Users/View/Roles/admin_form.ctp:40 Users/View/Users/admin_form.ctp:70
+#: Users/View/Users/admin_reset_password.ctp:45
 msgid "Publishing"
 msgstr "Zverejnenie"
 
-#: Acl/View/AclActions/admin_form.ctp:59 Blocks/View/Blocks/admin_form.ctp:99
-#: Blocks/View/Regions/admin_form.ctp:60
-#: Contacts/View/Contacts/admin_form.ctp:125
-#: FileManager/View/Attachments/admin_edit.ctp:75
-#: Menus/View/Links/admin_form.ctp:132 Menus/View/Menus/admin_form.ctp:66
-#: Nodes/View/Nodes/admin_form.ctp:108 Taxonomy/View/Terms/admin_form.ctp:73
-#: Taxonomy/View/Types/admin_form.ctp:111
-#: Taxonomy/View/Vocabularies/admin_form.ctp:84
-#: Translate/View/Translate/admin_edit.ctp:46
-#: Users/View/Roles/admin_form.ctp:51 Users/View/Users/admin_form.ctp:88
+#: Acl/View/AclActions/admin_form.ctp:47 Blocks/View/Blocks/admin_form.ctp:79
+#: Blocks/View/Regions/admin_form.ctp:47
+#: Contacts/View/Contacts/admin_form.ctp:104
+#: FileManager/View/Attachments/admin_edit.ctp:52
+#: Menus/View/Links/admin_form.ctp:118 Menus/View/Menus/admin_form.ctp:52
+#: Nodes/View/Nodes/admin_form.ctp:107 Taxonomy/View/Terms/admin_form.ctp:61
+#: Taxonomy/View/Types/admin_form.ctp:101
+#: Taxonomy/View/Vocabularies/admin_form.ctp:68
+#: Translate/View/Translate/admin_edit.ctp:53
+#: Users/View/Roles/admin_form.ctp:41 Users/View/Users/admin_form.ctp:71
 msgid "Apply"
 msgstr ""
 
-#: Acl/View/AclActions/admin_form.ctp:60 Blocks/View/Blocks/admin_form.ctp:100
-#: Blocks/View/Regions/admin_form.ctp:61
-#: Comments/View/Comments/admin_form.ctp:48
-#: Contacts/View/Contacts/admin_form.ctp:126
-#: Contacts/View/Messages/admin_form.ctp:62
-#: Croogo/View/Common/admin_edit.ctp:83
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:51
-#: FileManager/View/Attachments/admin_edit.ctp:76
-#: FileManager/View/FileManager/admin_create_file.ctp:54
-#: FileManager/View/FileManager/admin_editfile.ctp:53
+#: Acl/View/AclActions/admin_form.ctp:48 Blocks/View/Blocks/admin_form.ctp:80
+#: Blocks/View/Regions/admin_form.ctp:48
+#: Comments/View/Comments/admin_form.ctp:36
+#: Contacts/View/Contacts/admin_form.ctp:105
+#: Contacts/View/Messages/admin_form.ctp:50
+#: Croogo/View/Common/admin_edit.ctp:116
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:40
+#: FileManager/View/Attachments/admin_edit.ctp:53
+#: FileManager/View/FileManager/admin_create_file.ctp:50
+#: FileManager/View/FileManager/admin_editfile.ctp:50
+#: FileManager/View/FileManager/admin_rename.ctp:50
 #: FileManager/View/FileManager/admin_upload.ctp:49
-#: Install/View/Install/adminuser.ctp:34 Menus/View/Links/admin_form.ctp:133
-#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:109
-#: Settings/View/Languages/admin_form.ctp:56
-#: Settings/View/Settings/admin_form.ctp:82
-#: Settings/View/Settings/admin_prefix.ctp:65
-#: Taxonomy/View/Terms/admin_form.ctp:74
-#: Taxonomy/View/Types/admin_form.ctp:112
-#: Taxonomy/View/Vocabularies/admin_form.ctp:85
-#: Translate/View/Translate/admin_edit.ctp:47
-#: Users/View/Roles/admin_form.ctp:52 Users/View/Users/admin_form.ctp:89
+#: Install/View/Install/adminuser.ctp:36 Menus/View/Links/admin_form.ctp:119
+#: Menus/View/Menus/admin_form.ctp:53 Nodes/View/Nodes/admin_form.ctp:108
+#: Settings/View/Languages/admin_form.ctp:53
+#: Settings/View/Settings/admin_form.ctp:66
+#: Settings/View/Settings/admin_prefix.ctp:54
+#: Taxonomy/View/Terms/admin_form.ctp:62
+#: Taxonomy/View/Types/admin_form.ctp:102
+#: Taxonomy/View/Vocabularies/admin_form.ctp:69
+#: Translate/View/Translate/admin_edit.ctp:54
+#: Users/View/Roles/admin_form.ctp:42 Users/View/Users/admin_form.ctp:72
 msgid "Save"
 msgstr ""
 
-#: Acl/View/AclActions/admin_form.ctp:61 Blocks/View/Blocks/admin_form.ctp:101
-#: Blocks/View/Regions/admin_form.ctp:62
-#: Comments/View/Comments/admin_form.ctp:50
-#: Contacts/View/Contacts/admin_form.ctp:128
-#: Contacts/View/Messages/admin_form.ctp:64
-#: Croogo/View/Common/admin_edit.ctp:84
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:48
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:52
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:45
-#: Extensions/View/ExtensionsThemes/admin_add.ctp:50
-#: FileManager/View/Attachments/admin_add.ctp:47
-#: FileManager/View/Attachments/admin_edit.ctp:78
-#: FileManager/View/FileManager/admin_create_directory.ctp:54
-#: FileManager/View/FileManager/admin_create_file.ctp:55
-#: FileManager/View/FileManager/admin_editfile.ctp:54
+#: Acl/View/AclActions/admin_form.ctp:49 Blocks/View/Blocks/admin_form.ctp:81
+#: Blocks/View/Regions/admin_form.ctp:49
+#: Comments/View/Comments/admin_form.ctp:37
+#: Contacts/View/Contacts/admin_form.ctp:107
+#: Contacts/View/Messages/admin_form.ctp:52
+#: Croogo/View/Common/admin_edit.ctp:117
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:38
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:41
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:38
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:38
+#: FileManager/View/Attachments/admin_add.ctp:43
+#: FileManager/View/Attachments/admin_edit.ctp:55
+#: FileManager/View/FileManager/admin_create_directory.ctp:52
+#: FileManager/View/FileManager/admin_create_file.ctp:51
+#: FileManager/View/FileManager/admin_editfile.ctp:51
+#: FileManager/View/FileManager/admin_rename.ctp:51
 #: FileManager/View/FileManager/admin_upload.ctp:50
-#: Install/View/Install/adminuser.ctp:35 Menus/View/Links/admin_form.ctp:134
-#: Menus/View/Menus/admin_form.ctp:68 Nodes/View/Nodes/admin_form.ctp:110
-#: Settings/View/Languages/admin_form.ctp:58
-#: Settings/View/Settings/admin_form.ctp:83
-#: Settings/View/Settings/admin_prefix.ctp:66
-#: Taxonomy/View/Terms/admin_form.ctp:76
-#: Taxonomy/View/Types/admin_form.ctp:114
-#: Taxonomy/View/Vocabularies/admin_form.ctp:87
-#: Translate/View/Translate/admin_edit.ctp:48
-#: Users/View/Roles/admin_form.ctp:54 Users/View/Users/admin_form.ctp:91
-#: Users/View/Users/admin_reset_password.ctp:40
+#: Install/View/Install/adminuser.ctp:37 Menus/View/Links/admin_form.ctp:120
+#: Menus/View/Menus/admin_form.ctp:54 Nodes/View/Nodes/admin_form.ctp:109
+#: Settings/View/Languages/admin_form.ctp:55
+#: Settings/View/Settings/admin_form.ctp:67
+#: Settings/View/Settings/admin_prefix.ctp:55
+#: Taxonomy/View/Terms/admin_form.ctp:64
+#: Taxonomy/View/Types/admin_form.ctp:104
+#: Taxonomy/View/Vocabularies/admin_form.ctp:71
+#: Translate/View/Translate/admin_edit.ctp:55
+#: Users/View/Roles/admin_form.ctp:44 Users/View/Users/admin_form.ctp:74
+#: Users/View/Users/admin_reset_password.ctp:48
 msgid "Cancel"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:21
+#: Acl/View/AclActions/admin_index.ctp:18
 #: Acl/View/AclPermissions/admin_index.ctp:19
 msgid "Tools"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:35
-#: Acl/View/AclPermissions/admin_index.ctp:33
+#: Acl/View/AclActions/admin_index.ctp:33
+#: Acl/View/AclPermissions/admin_index.ctp:34
 msgid "Generate"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:41
-#: Acl/View/AclPermissions/admin_index.ctp:39
+#: Acl/View/AclActions/admin_index.ctp:40
+#: Acl/View/AclPermissions/admin_index.ctp:41
 msgid "Create new actions (no removal)"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:46
-#: Acl/View/AclPermissions/admin_index.ctp:44
+#: Acl/View/AclActions/admin_index.ctp:45
+#: Acl/View/AclPermissions/admin_index.ctp:46
 msgid "Synchronize"
 msgstr ""
 
 #: Acl/View/AclActions/admin_index.ctp:52
-#: Acl/View/AclPermissions/admin_index.ctp:50
+#: Acl/View/AclPermissions/admin_index.ctp:53
 msgid "Create new & remove orphaned actions"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:61
-#: Acl/View/AclPermissions/admin_index.ctp:59
+#: Acl/View/AclActions/admin_index.ctp:62
+#: Acl/View/AclPermissions/admin_index.ctp:62
 msgid "Edit Actions"
 msgstr "Uprav činnosti"
 
 #: Acl/View/AclActions/admin_index.ctp:70
 #: Acl/View/Elements/admin/acl_permissions_table.ctp:7
-#: Blocks/View/Blocks/admin_index.ctp:23
-#: Comments/View/Comments/admin_index.ctp:46
-#: Contacts/View/Messages/admin_index.ctp:67
+#: Blocks/View/Blocks/admin_index.ctp:19
+#: Comments/View/Comments/admin_index.ctp:42
+#: Contacts/View/Messages/admin_index.ctp:60
 #: FileManager/View/Attachments/admin_browse.ctp:21
-#: FileManager/View/Attachments/admin_index.ctp:14
-#: Menus/View/Links/admin_index.ctp:43 Menus/View/Menus/admin_index.ctp:15
-#: Nodes/View/Nodes/admin_chooser.ctp:5 Nodes/View/Nodes/admin_index.ctp:38
+#: FileManager/View/Attachments/admin_chooser.ctp:5
+#: FileManager/View/Attachments/admin_index.ctp:11
+#: Menus/View/Links/admin_index.ctp:39 Menus/View/Menus/admin_index.ctp:12
+#: Nodes/View/Nodes/admin_chooser.ctp:5
+#: Nodes/View/Nodes/admin_hierarchy.ctp:36 Nodes/View/Nodes/admin_index.ctp:31
 #: Settings/View/Languages/admin_index.ctp:15
-#: Settings/View/Settings/admin_index.ctp:20
+#: Settings/View/Settings/admin_index.ctp:18
 #: Settings/View/Settings/admin_view.ctp:4
 #: Taxonomy/View/Terms/admin_chooser.ctp:5
-#: Taxonomy/View/Terms/admin_index.ctp:32
-#: Taxonomy/View/Vocabularies/admin_index.ctp:14
+#: Taxonomy/View/Terms/admin_index.ctp:26
+#: Taxonomy/View/Vocabularies/admin_index.ctp:13
 msgid "Id"
 msgstr "Id"
 
-#: Acl/View/AclActions/admin_index.ctp:106
+#: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
-#: Blocks/View/Blocks/admin_index.ctp:40
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:59
-#: Menus/View/Links/admin_index.ctp:60
+#: Blocks/View/Blocks/admin_index.ctp:35
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:56
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:61
+#: Menus/View/Links/admin_index.ctp:56 Nodes/View/Nodes/admin_hierarchy.ctp:95
 #: Settings/View/Languages/admin_index.ctp:34
-#: Settings/View/Settings/admin_index.ctp:36
-#: Taxonomy/View/Terms/admin_index.ctp:49
-#: Taxonomy/View/Vocabularies/admin_index.ctp:35
+#: Settings/View/Settings/admin_index.ctp:33
+#: Taxonomy/View/Terms/admin_index.ctp:42
+#: Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
 msgstr "Posunúť hore"
 
-#: Acl/View/AclActions/admin_index.ctp:110
+#: Acl/View/AclActions/admin_index.ctp:108
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
-#: Blocks/View/Blocks/admin_index.ctp:44
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:65
-#: Menus/View/Links/admin_index.ctp:66
+#: Blocks/View/Blocks/admin_index.ctp:39
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:63
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:67
+#: Menus/View/Links/admin_index.ctp:62 Nodes/View/Nodes/admin_hierarchy.ctp:99
 #: Settings/View/Languages/admin_index.ctp:38
-#: Settings/View/Settings/admin_index.ctp:40
-#: Taxonomy/View/Terms/admin_index.ctp:53
-#: Taxonomy/View/Vocabularies/admin_index.ctp:39
+#: Settings/View/Settings/admin_index.ctp:37
+#: Taxonomy/View/Terms/admin_index.ctp:46
+#: Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
 msgstr "Posunúť dole"
 
-#: Acl/View/AclActions/admin_index.ctp:115
+#: Acl/View/AclActions/admin_index.ctp:113
 #: Acl/View/AclPermissions/json/admin_index.ctp:15
-#: Blocks/View/Blocks/admin_index.ctp:50
-#: Comments/View/Comments/admin_index.ctp:66
-#: Contacts/View/Messages/admin_index.ctp:87
-#: Croogo/View/Common/admin_index.ctp:77
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:43
-#: FileManager/View/Attachments/admin_index.ctp:33
-#: Menus/View/Links/admin_index.ctp:72 Menus/View/Menus/admin_index.ctp:40
-#: Nodes/View/Nodes/admin_index.ctp:94
+#: Blocks/View/Blocks/admin_index.ctp:45
+#: Comments/View/Comments/admin_index.ctp:60
+#: Contacts/View/Messages/admin_index.ctp:78
+#: Croogo/View/Common/admin_index.ctp:81
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:37
+#: FileManager/View/Attachments/admin_index.ctp:27
+#: Menus/View/Links/admin_index.ctp:68 Menus/View/Menus/admin_index.ctp:35
+#: Nodes/View/Nodes/admin_hierarchy.ctp:103
+#: Nodes/View/Nodes/admin_index.ctp:96
 #: Settings/View/Languages/admin_index.ctp:42
-#: Settings/View/Settings/admin_index.ctp:44
-#: Taxonomy/View/Terms/admin_index.ctp:57
-#: Taxonomy/View/Vocabularies/admin_index.ctp:44
-#: Translate/View/Translate/admin_index.ctp:60
+#: Settings/View/Settings/admin_index.ctp:41
+#: Taxonomy/View/Terms/admin_index.ctp:50
+#: Taxonomy/View/Vocabularies/admin_index.ctp:43
+#: Translate/View/Translate/admin_index.ctp:76
 msgid "Edit this item"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:121
+#: Acl/View/AclActions/admin_index.ctp:119
 #: Acl/View/AclPermissions/json/admin_index.ctp:19
-#: Blocks/View/Blocks/admin_index.ctp:63
-#: Comments/View/Comments/admin_index.ctp:73
-#: Contacts/View/Messages/admin_index.ctp:94
-#: Croogo/View/Common/admin_index.ctp:87
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:47
-#: FileManager/View/Attachments/admin_index.ctp:37
-#: Menus/View/Menus/admin_index.ctp:45 Nodes/View/Nodes/admin_index.ctp:109
+#: Blocks/View/Blocks/admin_index.ctp:58
+#: Comments/View/Comments/admin_index.ctp:67
+#: Contacts/View/Messages/admin_index.ctp:85
+#: Croogo/View/Common/admin_index.ctp:91
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:41
+#: FileManager/View/Attachments/admin_index.ctp:31
+#: Menus/View/Menus/admin_index.ctp:40
+#: Nodes/View/Nodes/admin_hierarchy.ctp:110
+#: Nodes/View/Nodes/admin_index.ctp:111
 #: Settings/View/Languages/admin_index.ctp:46
-#: Settings/View/Settings/admin_index.ctp:49
-#: Taxonomy/View/Terms/admin_index.ctp:61
-#: Taxonomy/View/Vocabularies/admin_index.ctp:48
-#: Translate/View/Translate/admin_index.ctp:69
+#: Settings/View/Settings/admin_index.ctp:46
+#: Taxonomy/View/Terms/admin_index.ctp:54
+#: Taxonomy/View/Vocabularies/admin_index.ctp:47
+#: Translate/View/Translate/admin_index.ctp:85
 msgid "Remove this item"
 msgstr ""
 
-#: Acl/View/AclActions/admin_index.ctp:125
+#: Acl/View/AclActions/admin_index.ctp:123
 #: Acl/View/AclPermissions/json/admin_index.ctp:20
-#: Blocks/View/Blocks/admin_index.ctp:64
-#: Comments/View/Comments/admin_index.ctp:76
-#: Contacts/View/Messages/admin_index.ctp:97
-#: Croogo/View/Common/admin_index.ctp:89
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:48
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:52;60;66;74
+#: Blocks/View/Blocks/admin_index.ctp:59
+#: Comments/View/Comments/admin_index.ctp:70
+#: Contacts/View/Messages/admin_index.ctp:88
+#: Croogo/View/Common/admin_index.ctp:93
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:42
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:54;62;68;76
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:127
 #: FileManager/View/Attachments/admin_browse.ctp:42
-#: FileManager/View/Attachments/admin_index.ctp:38
-#: FileManager/View/Helper/FileManagerHelper.php:137
-#: Menus/View/Links/admin_index.ctp:92 Menus/View/Menus/admin_index.ctp:46
-#: Nodes/View/Nodes/admin_index.ctp:112
+#: FileManager/View/Attachments/admin_index.ctp:32
+#: FileManager/View/Helper/FileManagerHelper.php:154
+#: Menus/View/Links/admin_index.ctp:88 Menus/View/Menus/admin_index.ctp:41
+#: Nodes/View/Nodes/admin_hierarchy.ctp:113
+#: Nodes/View/Nodes/admin_index.ctp:114
 #: Nodes/View/Nodes/admin_translations.ctp:34
 #: Settings/View/Languages/admin_index.ctp:47
-#: Settings/View/Settings/admin_index.ctp:50
-#: Taxonomy/View/Terms/admin_index.ctp:62
-#: Taxonomy/View/Vocabularies/admin_index.ctp:49
-#: Translate/View/Translate/admin_index.ctp:70
+#: Settings/View/Settings/admin_index.ctp:47
+#: Taxonomy/View/Terms/admin_index.ctp:55
+#: Taxonomy/View/Vocabularies/admin_index.ctp:48
+#: Translate/View/Translate/admin_index.ctp:86
 msgid "Are you sure?"
 msgstr "Ste si istý?"
 
-#: Acl/View/AclPermissions/admin_toggle.ctp:18
+#: Acl/View/AclPermissions/admin_toggle.ctp:19
 msgid "error"
 msgstr "chyba"
 
@@ -570,33 +582,41 @@ msgid "Block deleted"
 msgstr "Blok zmazaný"
 
 #: Blocks/Controller/BlocksController.php:205
+#: Dashboards/Controller/DashboardsDashboardsController.php:126
 #: Menus/Controller/LinksController.php:273
+#: Nodes/Controller/NodesController.php:197
 #: Settings/Controller/LanguagesController.php:122
-#: Settings/Controller/SettingsController.php:210
+#: Settings/Controller/SettingsController.php:199
 #: Taxonomy/Controller/VocabulariesController.php:132
 msgid "Moved up successfully"
 msgstr "Presun nahor úspešný"
 
 #: Blocks/Controller/BlocksController.php:207
+#: Dashboards/Controller/DashboardsDashboardsController.php:128
 #: Menus/Controller/LinksController.php:275
+#: Nodes/Controller/NodesController.php:199
 #: Settings/Controller/LanguagesController.php:124
-#: Settings/Controller/SettingsController.php:212
+#: Settings/Controller/SettingsController.php:201
 #: Taxonomy/Controller/VocabulariesController.php:134
 msgid "Could not move up"
 msgstr "Nie je možné presunúť nahor"
 
 #: Blocks/Controller/BlocksController.php:223
+#: Dashboards/Controller/DashboardsDashboardsController.php:142
 #: Menus/Controller/LinksController.php:305
+#: Nodes/Controller/NodesController.php:212
 #: Settings/Controller/LanguagesController.php:140
-#: Settings/Controller/SettingsController.php:236
+#: Settings/Controller/SettingsController.php:225
 #: Taxonomy/Controller/VocabulariesController.php:150
 msgid "Moved down successfully"
 msgstr "Presun nadol úspešný"
 
 #: Blocks/Controller/BlocksController.php:225
+#: Dashboards/Controller/DashboardsDashboardsController.php:144
 #: Menus/Controller/LinksController.php:307
+#: Nodes/Controller/NodesController.php:214
 #: Settings/Controller/LanguagesController.php:142
-#: Settings/Controller/SettingsController.php:238
+#: Settings/Controller/SettingsController.php:227
 #: Taxonomy/Controller/VocabulariesController.php:152
 msgid "Could not move down"
 msgstr "Nie je možné presunúť nadol"
@@ -619,8 +639,8 @@ msgid "Blocks copied"
 msgstr "Bloky publikované"
 
 #: Blocks/Controller/RegionsController.php:66
-#: Blocks/View/Blocks/admin_form.ctp:52 Blocks/View/Blocks/admin_index.ctp:26
-#: Blocks/View/Regions/admin_form.ctp:31
+#: Blocks/View/Blocks/admin_form.ctp:41 Blocks/View/Blocks/admin_index.ctp:22
+#: Blocks/View/Regions/admin_form.ctp:26
 msgid "Region"
 msgstr "Región"
 
@@ -652,82 +672,89 @@ msgstr "Neplatné id pre región"
 msgid "Region deleted"
 msgstr "Región bol zmazaný"
 
-#: Blocks/View/Blocks/admin_form.ctp:26
+#: Blocks/View/Blocks/admin_form.ctp:22
 msgid "Block"
 msgstr "Blok"
 
-#: Blocks/View/Blocks/admin_form.ctp:27 Menus/View/Links/admin_form.ctp:55
-#: Nodes/View/Nodes/admin_form.ctp:49
+#: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
+#: Nodes/View/Nodes/admin_form.ctp:55
 msgid "Access"
 msgstr "Prístup"
 
-#: Blocks/View/Blocks/admin_form.ctp:28
+#: Blocks/View/Blocks/admin_form.ctp:24
 msgid "Visibilities"
 msgstr "Dohladnosť"
 
-#: Blocks/View/Blocks/admin_form.ctp:29;87 Menus/View/Links/admin_form.ctp:119
-#: Menus/View/Menus/admin_form.ctp:54 Settings/View/Settings/admin_form.ctp:70
+#: Blocks/View/Blocks/admin_form.ctp:25;70 Menus/View/Links/admin_form.ctp:108
+#: Menus/View/Menus/admin_form.ctp:42 Settings/View/Settings/admin_form.ctp:57
 #: Settings/View/Settings/admin_view.ctp:34
-#: Taxonomy/View/Types/admin_form.ctp:28;99
+#: Taxonomy/View/Types/admin_form.ctp:23;91
 msgid "Params"
 msgstr "Parametre"
 
-#: Blocks/View/Blocks/admin_form.ctp:44 Blocks/View/Blocks/admin_index.ctp:24
-#: Blocks/View/Regions/admin_form.ctp:45
-#: Comments/View/Comments/admin_form.ctp:33
-#: Contacts/View/Contacts/admin_form.ctp:39
-#: Contacts/View/Messages/admin_form.ctp:41
-#: Contacts/View/Messages/admin_index.ctp:71
+#: Blocks/View/Blocks/admin_form.ctp:34 Blocks/View/Blocks/admin_index.ctp:20
+#: Blocks/View/Regions/admin_form.ctp:35
+#: Comments/View/Comments/admin_form.ctp:23
+#: Contacts/View/Contacts/admin_form.ctp:31
+#: Contacts/View/Messages/admin_form.ctp:32
+#: Contacts/View/Messages/admin_index.ctp:64
 #: FileManager/View/Attachments/admin_browse.ctp:23
-#: FileManager/View/Attachments/admin_edit.ctp:43
-#: FileManager/View/Attachments/admin_index.ctp:16
-#: Menus/View/Links/admin_form.ctp:77 Menus/View/Links/admin_index.ctp:44
-#: Menus/View/Menus/admin_form.ctp:40 Menus/View/Menus/admin_index.ctp:16
-#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:77
-#: Nodes/View/Nodes/admin_index.ctp:39
+#: FileManager/View/Attachments/admin_chooser.ctp:6
+#: FileManager/View/Attachments/admin_edit.ctp:26
+#: FileManager/View/Attachments/admin_index.ctp:13
+#: Menus/View/Links/admin_form.ctp:71 Menus/View/Links/admin_index.ctp:40
+#: Menus/View/Menus/admin_form.ctp:30 Menus/View/Menus/admin_index.ctp:13
+#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:76
+#: Nodes/View/Nodes/admin_hierarchy.ctp:37 Nodes/View/Nodes/admin_index.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:25
-#: Settings/View/Languages/admin_form.ctp:38
+#: Settings/View/Languages/admin_form.ctp:35
 #: Settings/View/Languages/admin_index.ctp:16
-#: Settings/View/Settings/admin_form.ctp:56
+#: Settings/View/Settings/admin_form.ctp:44
 #: Taxonomy/View/Terms/admin_chooser.ctp:6
-#: Taxonomy/View/Terms/admin_form.ctp:54
-#: Taxonomy/View/Terms/admin_index.ctp:33
-#: Taxonomy/View/Types/admin_form.ctp:42
-#: Taxonomy/View/Vocabularies/admin_form.ctp:45
-#: Taxonomy/View/Vocabularies/admin_index.ctp:15
-#: Translate/View/Translate/admin_index.ctp:41
-#: Users/View/Roles/admin_form.ctp:37
+#: Taxonomy/View/Terms/admin_form.ctp:44
+#: Taxonomy/View/Terms/admin_index.ctp:27
+#: Taxonomy/View/Types/admin_form.ctp:32
+#: Taxonomy/View/Vocabularies/admin_form.ctp:36
+#: Taxonomy/View/Vocabularies/admin_index.ctp:14
+#: Translate/View/Translate/admin_index.ctp:57
+#: Users/View/Roles/admin_form.ctp:29
 msgid "Title"
 msgstr "Názov"
 
-#: Blocks/View/Blocks/admin_form.ctp:49
+#: Blocks/View/Blocks/admin_form.ctp:38
 msgid "unique name for your block"
 msgstr "unikátne meno pre váš blok"
 
-#: Blocks/View/Blocks/admin_form.ctp:53
+#: Blocks/View/Blocks/admin_form.ctp:42
 msgid "if you are not sure, choose 'none'"
 msgstr "ak si nie ste istý, vyberte si 'žiadny' "
 
-#: Blocks/View/Blocks/admin_form.ctp:56
-#: Comments/View/Comments/admin_form.ctp:36
-#: Contacts/View/Contacts/admin_form.ctp:48
-#: Contacts/View/Messages/admin_form.ctp:44 Nodes/View/Nodes/admin_form.ctp:87
+#: Blocks/View/Blocks/admin_form.ctp:45
+#: Comments/View/Comments/admin_form.ctp:26
+#: Contacts/View/Contacts/admin_form.ctp:40
+#: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:86
 msgid "Body"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:59 Menus/View/Links/admin_form.ctp:106
+#: Blocks/View/Blocks/admin_form.ctp:48 Menus/View/Links/admin_form.ctp:95
 msgid "Class"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:62
+#: Blocks/View/Blocks/admin_form.ctp:51
 msgid "Element"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:78
+#: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:89
+#: Nodes/View/Nodes/admin_form.ctp:93 Users/View/Roles/admin_form.ctp:21
+#: Users/View/Users/admin_form.ctp:45
+msgid "Role"
+msgstr "Skupiny"
+
+#: Blocks/View/Blocks/admin_form.ctp:63
 msgid "Visibility Paths"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:79
+#: Blocks/View/Blocks/admin_form.ctp:64
 msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
@@ -735,108 +762,122 @@ msgstr ""
 "Zadajte jedno URL na riadok. Nechajte prázdny ak chcete aby sa tento blok "
 "zobrazil na všetkých stránkách."
 
-#: Blocks/View/Blocks/admin_form.ctp:111
+#: Blocks/View/Blocks/admin_form.ctp:90
 msgid "Show title ?"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_form.ctp:116 Menus/View/Links/admin_form.ctp:144
-#: Menus/View/Menus/admin_form.ctp:78 Nodes/View/Nodes/admin_form.ctp:143
+#: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
+#: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
 #, fuzzy
 msgid "Publish Start"
 msgstr "Zverejniť"
 
-#: Blocks/View/Blocks/admin_form.ctp:120 Menus/View/Links/admin_form.ctp:148
-#: Menus/View/Menus/admin_form.ctp:82 Nodes/View/Nodes/admin_form.ctp:147
+#: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
+#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:144
 #, fuzzy
 msgid "Publish End"
 msgstr "Publikované"
 
-#: Blocks/View/Blocks/admin_index.ctp:27
+#: Blocks/View/Blocks/admin_index.ctp:23
 #: Croogo/Console/Command/ExtShell.php:236;262
-#: Menus/View/Links/admin_index.ctp:45 Menus/View/Menus/admin_index.ctp:19
-#: Nodes/View/Elements/admin/nodes_search.ctp:43
-#: Nodes/View/Nodes/admin_chooser.ctp:49 Nodes/View/Nodes/admin_index.ctp:42
+#: FileManager/View/Attachments/admin_chooser.ctp:45
+#: FileManager/View/Elements/admin/attachments_search.ctp:40
+#: Menus/View/Links/admin_index.ctp:41 Menus/View/Menus/admin_index.ctp:16
+#: Nodes/View/Elements/admin/nodes_search.ctp:39
+#: Nodes/View/Nodes/admin_chooser.ctp:54
+#: Nodes/View/Nodes/admin_hierarchy.ctp:40 Nodes/View/Nodes/admin_index.ctp:35
+#: Settings/View/Languages/admin_form.ctp:60
 #: Settings/View/Languages/admin_index.ctp:19
-#: Users/View/Users/admin_form.ctp:103
+#: Users/View/Users/admin_form.ctp:86
 msgid "Status"
 msgstr "Stav"
 
-#: Blocks/View/Blocks/admin_index.ctp:56 Menus/View/Links/admin_index.ctp:79
-#: Nodes/View/Nodes/admin_index.ctp:100
+#: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
+#: Nodes/View/Nodes/admin_index.ctp:102
 #, fuzzy
 msgid "Create a copy"
 msgstr "Vytvoriť adresár"
 
-#: Blocks/View/Blocks/admin_index.ctp:59
+#: Blocks/View/Blocks/admin_index.ctp:54
 msgid "Create a copy of this Block?"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:70 Croogo/View/Common/admin_index.ctp:69
+#: Blocks/View/Blocks/admin_index.ctp:65 Croogo/View/Common/admin_index.ctp:73
 msgid "Choose"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:89 Menus/View/Links/admin_index.ctp:97
-#: Menus/View/Menus/admin_index.ctp:57 Nodes/View/Nodes/admin_index.ctp:71
+#: Blocks/View/Blocks/admin_index.ctp:84 Menus/View/Links/admin_index.ctp:93
+#: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_hierarchy.ctp:71
+#: Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:120
-#: Comments/View/Comments/admin_index.ctp:118
-#: Menus/View/Links/admin_index.ctp:125 Nodes/View/Nodes/admin_index.ctp:130
+#: Blocks/View/Blocks/admin_index.ctp:114
+#: Comments/View/Comments/admin_index.ctp:109
+#: Menus/View/Links/admin_index.ctp:119
+#: Nodes/View/Nodes/admin_hierarchy.ctp:129
+#: Nodes/View/Nodes/admin_index.ctp:130
 msgid "Publish"
 msgstr "Zverejniť"
 
-#: Blocks/View/Blocks/admin_index.ctp:121
-#: Comments/View/Comments/admin_index.ctp:119
-#: Menus/View/Links/admin_index.ctp:126 Nodes/View/Nodes/admin_index.ctp:131
+#: Blocks/View/Blocks/admin_index.ctp:115
+#: Comments/View/Comments/admin_index.ctp:110
+#: Menus/View/Links/admin_index.ctp:120
+#: Nodes/View/Nodes/admin_hierarchy.ctp:130
+#: Nodes/View/Nodes/admin_index.ctp:131
 msgid "Unpublish"
 msgstr "Zrušiť zverejnenie"
 
-#: Blocks/View/Blocks/admin_index.ctp:122
-#: Comments/View/Comments/admin_index.ctp:120
-#: Contacts/View/Messages/admin_index.ctp:135
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:51
+#: Blocks/View/Blocks/admin_index.ctp:116
+#: Comments/View/Comments/admin_index.ctp:111
+#: Contacts/View/Messages/admin_index.ctp:122
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:53
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:121
 #: FileManager/View/Attachments/admin_browse.ctp:42
-#: FileManager/View/FileManager/admin_browse.ctp:59;100
-#: Menus/View/Links/admin_index.ctp:127 Nodes/View/Nodes/admin_index.ctp:134
+#: FileManager/View/FileManager/admin_browse.ctp:61;106
+#: Menus/View/Links/admin_index.ctp:121
+#: Nodes/View/Nodes/admin_hierarchy.ctp:133
+#: Nodes/View/Nodes/admin_index.ctp:134
 #: Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
 msgstr "Zmazať"
 
-#: Blocks/View/Blocks/admin_index.ctp:123 Menus/View/Links/admin_index.ctp:128
-#: Nodes/View/Nodes/admin_index.ctp:135
+#: Blocks/View/Blocks/admin_index.ctp:117 Menus/View/Links/admin_index.ctp:124
+#: Nodes/View/Nodes/admin_hierarchy.ctp:136
+#: Nodes/View/Nodes/admin_index.ctp:137
 msgid "Copy"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:129
-#: Comments/View/Comments/admin_index.ctp:126
-#: Contacts/View/Messages/admin_index.ctp:141
-#: Menus/View/Links/admin_index.ctp:134 Nodes/View/Nodes/admin_index.ctp:143
-#: Users/View/Users/forgot.ctp:9
+#: Blocks/View/Blocks/admin_index.ctp:121
+#: Comments/View/Comments/admin_index.ctp:115
+#: Contacts/View/Messages/admin_index.ctp:126
+#: Menus/View/Links/admin_index.ctp:130
+#: Nodes/View/Nodes/admin_hierarchy.ctp:144
+#: Nodes/View/Nodes/admin_index.ctp:145 Users/View/Users/forgot.ctp:9
 msgid "Submit"
 msgstr "Pošli"
 
 #: Comments/Config/admin_menu.php:4
 #: Comments/Controller/CommentsController.php:81;171
-#: Comments/View/Comments/admin_form.ctp:8
+#: Comments/View/Comments/admin_form.ctp:7
 #: Comments/View/Comments/admin_index.ctp:10
 #: Comments/View/Elements/comments.ctp:7
 #: Comments/View/Helper/CommentsHelper.php:34
 #: Nodes/View/Elements/node_more_info.ctp:33
-#: Taxonomy/View/Types/admin_form.ctp:27
+#: Taxonomy/View/Types/admin_form.ctp:22
 msgid "Comments"
 msgstr "Komentáre"
 
-#: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:55
-#: Comments/View/Comments/admin_index.ctp:14;31
-#: Contacts/View/Contacts/admin_form.ctp:132 Croogo/Lib/CroogoStatus.php:40
-#: Nodes/View/Elements/admin/nodes_search.ctp:40
+#: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
+#: Comments/View/Comments/admin_index.ctp:14;29
+#: Contacts/View/Contacts/admin_form.ctp:112 Croogo/Lib/CroogoStatus.php:40
+#: FileManager/View/Elements/admin/attachments_search.ctp:37
+#: Nodes/View/Elements/admin/nodes_search.ctp:36
 msgid "Published"
 msgstr "Publikované"
 
 #: Comments/Config/admin_menu.php:25
-#: Comments/View/Comments/admin_index.ctp:17;35
+#: Comments/View/Comments/admin_index.ctp:17;33
 msgid "Approval"
 msgstr "Schválenie"
 
@@ -901,7 +942,7 @@ msgid "Sorry, the comment appears to be spam."
 msgstr "Prepáčte, komentár vyzerá ako spam"
 
 #: Comments/Controller/CommentsController.php:321
-#: Contacts/Controller/ContactsController.php:244
+#: Contacts/Controller/ContactsController.php:246
 msgid "Invalid captcha entry"
 msgstr "Nesprávny údaj captcha"
 
@@ -917,59 +958,59 @@ msgstr ""
 msgid "Invalid Comment id"
 msgstr ""
 
-#: Comments/View/Comments/admin_form.ctp:7
+#: Comments/View/Comments/admin_form.ctp:6
 #: Comments/View/Comments/admin_index.ctp:9
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:28;37
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:21;28
 #: Nodes/Config/admin_menu.php:5 Nodes/Controller/NodesController.php:108
-#: Nodes/View/Nodes/admin_create.ctp:5 Nodes/View/Nodes/admin_form.ctp:8
-#: Nodes/View/Nodes/admin_index.ctp:7 Taxonomy/View/Terms/admin_form.ctp:8
-#: Taxonomy/View/Terms/admin_index.ctp:7 Taxonomy/View/Types/admin_form.ctp:6
-#: Taxonomy/View/Types/admin_index.ctp:4
+#: Nodes/View/Nodes/admin_create.ctp:5 Nodes/View/Nodes/admin_form.ctp:9
+#: Nodes/View/Nodes/admin_hierarchy.ctp:8 Nodes/View/Nodes/admin_index.ctp:8
+#: Taxonomy/View/Terms/admin_form.ctp:8 Taxonomy/View/Terms/admin_index.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:6 Taxonomy/View/Types/admin_index.ctp:7
 #: Taxonomy/View/Vocabularies/admin_form.ctp:7
 #: Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
 msgstr "Obsah"
 
-#: Comments/View/Comments/admin_form.ctp:19
+#: Comments/View/Comments/admin_form.ctp:14
 #: Comments/View/Elements/comments.ctp:5
 #: Nodes/View/Elements/node_more_info.ctp:31 Settings/Config/admin_menu.php:64
 msgid "Comment"
 msgstr "Komentár"
 
-#: Comments/View/Comments/admin_form.ctp:60
-#: Contacts/View/Contacts/admin_form.ctp:25
-#: Contacts/View/Messages/admin_index.ctp:68
+#: Comments/View/Comments/admin_form.ctp:43
+#: Contacts/View/Contacts/admin_form.ctp:20
+#: Contacts/View/Messages/admin_index.ctp:61
 msgid "Contact"
 msgstr "Kontakt"
 
-#: Comments/View/Comments/admin_form.ctp:61
-#: Comments/View/Comments/admin_index.ctp:47
+#: Comments/View/Comments/admin_form.ctp:44
+#: Comments/View/Comments/admin_index.ctp:43
 #: Comments/View/Elements/comments_form.ctp:25;41
-#: Contacts/View/Contacts/admin_form.ctp:56
-#: Contacts/View/Messages/admin_form.ctp:35
-#: Contacts/View/Messages/admin_index.ctp:69
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:25
-#: Install/View/Install/database.ctp:80 Users/View/Users/admin_form.ctp:64
+#: Contacts/View/Contacts/admin_form.ctp:46
+#: Contacts/View/Messages/admin_form.ctp:26
+#: Contacts/View/Messages/admin_index.ctp:62
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
+#: Install/View/Install/database.ctp:81 Users/View/Users/admin_form.ctp:50
 msgid "Name"
 msgstr "Meno"
 
-#: Comments/View/Comments/admin_form.ctp:62
-#: Comments/View/Comments/admin_index.ctp:48
+#: Comments/View/Comments/admin_form.ctp:45
+#: Comments/View/Comments/admin_index.ctp:44
 #: Comments/View/Elements/comments_form.ctp:30;42
-#: Contacts/View/Contacts/admin_form.ctp:45
-#: Contacts/View/Messages/admin_form.ctp:38
-#: Contacts/View/Messages/admin_index.ctp:70
-#: Users/View/Users/admin_form.ctp:67
+#: Contacts/View/Contacts/admin_form.ctp:37
+#: Contacts/View/Messages/admin_form.ctp:29
+#: Contacts/View/Messages/admin_index.ctp:63
+#: Users/View/Users/admin_form.ctp:53
 msgid "Email"
 msgstr "Email"
 
-#: Comments/View/Comments/admin_form.ctp:63
+#: Comments/View/Comments/admin_form.ctp:46
 #: Comments/View/Elements/comments_form.ctp:35;43
-#: Users/View/Users/admin_form.ctp:70
+#: Users/View/Users/admin_form.ctp:56
 msgid "Website"
 msgstr "Webová stránka"
 
-#: Comments/View/Comments/admin_form.ctp:64
+#: Comments/View/Comments/admin_form.ctp:49
 msgid "Ip"
 msgstr ""
 
@@ -981,12 +1022,13 @@ msgstr "Komentáre: Publikované"
 msgid "Comments: Approval"
 msgstr "Komentáre: Overenie"
 
-#: Comments/View/Comments/admin_index.ctp:49
+#: Comments/View/Comments/admin_index.ctp:45
 msgid "Node"
 msgstr ""
 
-#: Comments/View/Comments/admin_index.ctp:51
-#: Nodes/View/Nodes/admin_chooser.ctp:7;50
+#: Comments/View/Comments/admin_index.ctp:47
+#: FileManager/View/Attachments/admin_chooser.ctp:7;49
+#: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:135
 msgid "Created"
 msgstr ""
 
@@ -995,7 +1037,7 @@ msgid "Comment on"
 msgstr "Komentár na"
 
 #: Comments/View/Comments/rss/index.ctp:18
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:53;108
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:54;108
 #: Nodes/View/Elements/node_info.ctp:9
 msgid "by"
 msgstr "od"
@@ -1020,18 +1062,18 @@ msgstr "Návrat k pôvodnému obsahu"
 msgid "Post comment"
 msgstr "Pridať komentár"
 
-#: Comments/View/Elements/admin/comments_tab.ctp:6
-#: Taxonomy/View/Types/admin_form.ctp:66
+#: Comments/View/Elements/admin/comments_tab.ctp:5
+#: Taxonomy/View/Types/admin_form.ctp:61
 msgid "Disabled"
 msgstr "Zablokovaný"
 
-#: Comments/View/Elements/admin/comments_tab.ctp:7
-#: Taxonomy/View/Types/admin_form.ctp:67
+#: Comments/View/Elements/admin/comments_tab.ctp:6
+#: Taxonomy/View/Types/admin_form.ctp:62
 msgid "Read only"
 msgstr "Len na čítanie"
 
-#: Comments/View/Elements/admin/comments_tab.ctp:8
-#: Taxonomy/View/Types/admin_form.ctp:68
+#: Comments/View/Elements/admin/comments_tab.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:63
 msgid "Read/Write"
 msgstr "Čítať/Zapísať"
 
@@ -1107,20 +1149,20 @@ msgstr "Chybné id pre Kontakt"
 msgid "Contact deleted"
 msgstr "Kontakt zmazaný"
 
-#: Contacts/Controller/ContactsController.php:169
+#: Contacts/Controller/ContactsController.php:171
 msgid "Your message has been received..."
 msgstr "Vaša správa bola prijatá..."
 
-#: Contacts/Controller/ContactsController.php:223
+#: Contacts/Controller/ContactsController.php:225
 msgid "Sorry, the message appears to be spam."
 msgstr "Prepáčte, správa vyzerá ako spam."
 
-#: Contacts/Controller/ContactsController.php:268
+#: Contacts/Controller/ContactsController.php:270
 msgid "[%s] %s"
 msgstr ""
 
 #: Contacts/Controller/MessagesController.php:72
-#: Contacts/View/Messages/admin_index.ctp:14;49
+#: Contacts/View/Messages/admin_index.ctp:14;47
 msgid "Read"
 msgstr "Prečitané"
 
@@ -1161,73 +1203,73 @@ msgstr "Správy označené ako prečítané"
 msgid "Messages marked as unread"
 msgstr "Správy označené ako neprečítané"
 
-#: Contacts/View/Contacts/admin_form.ctp:26
+#: Contacts/View/Contacts/admin_form.ctp:21
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: Contacts/View/Contacts/admin_form.ctp:27 Contacts/View/Contacts/view.ctp:21
-#: Contacts/View/Messages/admin_form.ctp:21
+#: Contacts/View/Contacts/admin_form.ctp:22 Contacts/View/Contacts/view.ctp:21
+#: Contacts/View/Messages/admin_form.ctp:17
 msgid "Message"
 msgstr "Správa"
 
-#: Contacts/View/Contacts/admin_form.ctp:59
+#: Contacts/View/Contacts/admin_form.ctp:49
 msgid "Position"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:62
-#: Contacts/View/Messages/admin_form.ctp:50
+#: Contacts/View/Contacts/admin_form.ctp:52
+#: Contacts/View/Messages/admin_form.ctp:41
 msgid "Address"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:65
+#: Contacts/View/Contacts/admin_form.ctp:55
 msgid "Address2"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:68
+#: Contacts/View/Contacts/admin_form.ctp:58
 msgid "State"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:71
+#: Contacts/View/Contacts/admin_form.ctp:61
 msgid "Country"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:74
+#: Contacts/View/Contacts/admin_form.ctp:64
 msgid "Post Code"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:77
-#: Contacts/View/Messages/admin_form.ctp:47
+#: Contacts/View/Contacts/admin_form.ctp:67
+#: Contacts/View/Messages/admin_form.ctp:38
 msgid "Phone"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:80
+#: Contacts/View/Contacts/admin_form.ctp:70
 msgid "Fax"
 msgstr ""
 
-#: Contacts/View/Contacts/admin_form.ctp:88
+#: Contacts/View/Contacts/admin_form.ctp:76
 msgid "Let users leave a message"
 msgstr "Uživatelia môžu zanechať komentár"
 
-#: Contacts/View/Contacts/admin_form.ctp:92
+#: Contacts/View/Contacts/admin_form.ctp:79
 msgid "Save messages in database"
 msgstr "Uložiť správy do databázy"
 
-#: Contacts/View/Contacts/admin_form.ctp:96
+#: Contacts/View/Contacts/admin_form.ctp:82
 msgid "Notify by email instantly"
 msgstr "Okamžité ohlásenie emailom"
 
-#: Contacts/View/Contacts/admin_form.ctp:100
-#: Taxonomy/View/Types/admin_form.ctp:80
+#: Contacts/View/Contacts/admin_form.ctp:85
+#: Taxonomy/View/Types/admin_form.ctp:73
 msgid "Spam protection (requires Akismet API key)"
 msgstr "Spam ochrana (je potrebný Akismet API kľúč)"
 
-#: Contacts/View/Contacts/admin_form.ctp:104
-#: Taxonomy/View/Types/admin_form.ctp:84
+#: Contacts/View/Contacts/admin_form.ctp:88
+#: Taxonomy/View/Types/admin_form.ctp:76
 msgid "Use captcha? (requires Recaptcha API key)"
 msgstr "Použiť captcha? (je potrebný recaptcha API kľúč)"
 
-#: Contacts/View/Contacts/admin_form.ctp:108
-#: Taxonomy/View/Types/admin_form.ctp:87
+#: Contacts/View/Contacts/admin_form.ctp:91
+#: Taxonomy/View/Types/admin_form.ctp:78
 msgid "You can manage your API keys here."
 msgstr "Tu môžete spravovať vaše API kľúče"
 
@@ -1263,7 +1305,7 @@ msgstr "Správa: %s"
 msgid "Messages: Read"
 msgstr "Správy: Prečítané"
 
-#: Contacts/View/Messages/admin_index.ctp:17;43
+#: Contacts/View/Messages/admin_index.ctp:17;41
 msgid "Unread"
 msgstr "Neprečítané"
 
@@ -1271,11 +1313,11 @@ msgstr "Neprečítané"
 msgid "Messages: Unread"
 msgstr "Správy: Neprečítané"
 
-#: Contacts/View/Messages/admin_index.ctp:133
+#: Contacts/View/Messages/admin_index.ctp:120
 msgid "Mark as read"
 msgstr "Označ ako prečítané"
 
-#: Contacts/View/Messages/admin_index.ctp:134
+#: Contacts/View/Messages/admin_index.ctp:121
 msgid "Mark as unread"
 msgstr "Označ ako neprečítané"
 
@@ -1325,7 +1367,7 @@ msgstr ""
 msgid "Plugin \"%s\" activated successfully."
 msgstr ""
 
-#: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:557
+#: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:558
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr ""
 
@@ -1360,7 +1402,7 @@ msgid "%-20s%-50s%s"
 msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:236
-#: Taxonomy/View/Vocabularies/admin_index.ctp:17
+#: Taxonomy/View/Vocabularies/admin_index.ctp:16
 msgid "Plugin"
 msgstr "Plugin"
 
@@ -1493,7 +1535,7 @@ msgstr ""
 msgid "Command not recognized"
 msgstr ""
 
-#: Croogo/Controller/CroogoAppController.php:258
+#: Croogo/Controller/CroogoAppController.php:268
 msgid "Site down for maintenance"
 msgstr "Prebieha údržba stránky"
 
@@ -1515,7 +1557,7 @@ msgid "%s processed"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
-#: FileManager/Controller/FileManagerController.php:221;249;307;335
+#: FileManager/Controller/FileManagerController.php:229;262;351;384
 msgid "An error occured"
 msgstr "Nastala chyba"
 
@@ -1527,12 +1569,16 @@ msgstr "Zobraziť stránku"
 msgid "Profile"
 msgstr ""
 
-#: Croogo/Controller/Component/CroogoComponent.php:291
-#: Nodes/Controller/NodesController.php:205;656;676
+#: Croogo/Controller/Component/CroogoComponent.php:160
+msgid "Logout"
+msgstr ""
+
+#: Croogo/Controller/Component/CroogoComponent.php:292
+#: Nodes/Controller/NodesController.php:288;748;768
 msgid "Invalid content"
 msgstr "Neplatný obsah"
 
-#: Croogo/Controller/Component/CroogoComponent.php:300
+#: Croogo/Controller/Component/CroogoComponent.php:301
 msgid "Failed toggling field %s to %s"
 msgstr ""
 
@@ -1540,16 +1586,18 @@ msgstr ""
 msgid "EventHandler %s not found in plugin %s"
 msgstr ""
 
-#: Croogo/Lib/CroogoRouter.php:200
+#: Croogo/Lib/CroogoRouter.php:201
 msgid "Unable to get routeable content types: %s"
 msgstr ""
 
 #: Croogo/Lib/CroogoStatus.php:39
-#: Nodes/View/Elements/admin/nodes_search.ctp:41
+#: FileManager/View/Elements/admin/attachments_search.ctp:38
+#: Nodes/View/Elements/admin/nodes_search.ctp:37
 msgid "Unpublished"
 msgstr "Nepublikovaný"
 
 #: Croogo/Lib/CroogoStatus.php:41
+#: FileManager/View/Attachments/admin_edit.ctp:71
 msgid "Preview"
 msgstr ""
 
@@ -1582,53 +1630,33 @@ msgstr ""
 msgid "Action %s is disabled"
 msgstr "Činnosť zmazaná"
 
-#: Croogo/View/Common/admin_edit.ctp:8
+#: Croogo/View/Common/admin_edit.ctp:11
 #: FileManager/View/Attachments/admin_browse.ctp:35
-#: FileManager/View/FileManager/admin_browse.ctp:91
-#: FileManager/View/FileManager/admin_editfile.ctp:31
+#: FileManager/View/FileManager/admin_browse.ctp:97
+#: FileManager/View/FileManager/admin_editfile.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
 msgstr "Upraviť"
 
-#: Croogo/View/Common/admin_index.ctp:31 Menus/View/Links/admin_index.ctp:18
+#: Croogo/View/Common/admin_index.ctp:39 Croogo/View/Common/admin_view.ctp:39
+#: Menus/View/Links/admin_index.ctp:17
 msgid "New %s"
-msgstr ""
-
-#: Croogo/View/Common/admin_index.ctp:128
-msgid ""
-"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
-"starting on record {:start}, ending on {:end}"
-msgstr ""
-
-#: Croogo/View/Common/admin_index.ctp:133
-#: FileManager/View/Attachments/admin_browse.ctp:93
-msgid "first"
-msgstr ""
-
-#: Croogo/View/Common/admin_index.ctp:134
-#: FileManager/View/Attachments/admin_browse.ctp:94
-msgid "prev"
-msgstr ""
-
-#: Croogo/View/Common/admin_index.ctp:136
-#: FileManager/View/Attachments/admin_browse.ctp:96
-msgid "next"
-msgstr ""
-
-#: Croogo/View/Common/admin_index.ctp:137
-#: FileManager/View/Attachments/admin_browse.ctp:97
-msgid "last"
 msgstr ""
 
 #: Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
 msgstr ""
 
+#: Croogo/View/Elements/admin/footer.ctp:11
+msgid "Powered by %s"
+msgstr ""
+
 #: Croogo/View/Elements/admin/header.ctp:18
+#: Dashboards/Config/admin_menu.php:5;11
+#: Dashboards/Controller/DashboardsDashboardsController.php:55
+#: Dashboards/View/DashboardsDashboards/admin_dashboard.ctp:8
 #: Extensions/Controller/ExtensionsDashboardController.php:11
 #: Extensions/View/ExtensionsDashboard/admin_index.ctp:5
-#: Settings/Controller/SettingsController.php:69
-#: Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
 msgstr "Nástenka"
 
@@ -1636,8 +1664,31 @@ msgstr "Nástenka"
 msgid "Close"
 msgstr ""
 
-#: Croogo/View/Elements/admin/search.ctp:38
-#: Nodes/View/Elements/admin/nodes_search.ctp:58
+#: Croogo/View/Elements/admin/pagination.ctp:5
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: Croogo/View/Elements/admin/pagination.ctp:10
+msgid "first"
+msgstr ""
+
+#: Croogo/View/Elements/admin/pagination.ctp:11
+msgid "prev"
+msgstr ""
+
+#: Croogo/View/Elements/admin/pagination.ctp:13
+msgid "next"
+msgstr ""
+
+#: Croogo/View/Elements/admin/pagination.ctp:14
+msgid "last"
+msgstr ""
+
+#: Croogo/View/Elements/admin/search.ctp:46
+#: FileManager/View/Elements/admin/attachments_search.ctp:53
+#: Nodes/View/Elements/admin/nodes_search.ctp:52
 msgid "Filter"
 msgstr "Filter"
 
@@ -1666,7 +1717,7 @@ msgstr "Bezpečnostná chyba"
 msgid "Request blackholed due to \"%s\" violation."
 msgstr ""
 
-#: Croogo/View/Helper/LayoutHelper.php:94
+#: Croogo/View/Helper/LayoutHelper.php:95
 msgid "Method %1$s::%2$s does not exist"
 msgstr ""
 
@@ -1676,7 +1727,7 @@ msgstr ""
 msgid "Croogo"
 msgstr "Croogo"
 
-#: Croogo/View/Layouts/admin_login.ctp:29
+#: Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
 msgstr "Späť na"
 
@@ -1684,40 +1735,77 @@ msgstr "Späť na"
 msgid "Site down for maintenance."
 msgstr "Na stránke práve prebieha údržba."
 
+#: Dashboards/Config/admin_dashboard.php:5
+msgid "Croogo News"
+msgstr ""
+
+#: Dashboards/Controller/DashboardsDashboardsController.php:97
+msgid "Invalid id for Dashboard"
+msgstr ""
+
+#: Dashboards/Controller/DashboardsDashboardsController.php:101
+msgid "Dashboard deleted"
+msgstr ""
+
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:2;7
+msgid "Dashboards"
+msgstr ""
+
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
+#: Settings/View/Settings/admin_view.ctp:44
+msgid "Are you sure you want to delete # %s?"
+msgstr "Naozaj chcete zmazať # %s?"
+
+#: Dashboards/View/Helper/DashboardsHelper.php:131
+msgid "Left"
+msgstr ""
+
+#: Dashboards/View/Helper/DashboardsHelper.php:134
+msgid "Right"
+msgstr ""
+
+#: Dashboards/View/Helper/DashboardsHelper.php:137
+msgid "Full"
+msgstr ""
+
+#: Example/Config/admin_dashboard.php:5
+msgid "Welcome"
+msgstr ""
+
 #: Example/View/Example/index.ctp:3
 msgid "content here"
 msgstr "obsah sem"
 
 #: Extensions/Config/admin_menu.php:5
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:4
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:9
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:7
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:7
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:7
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:4
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:7
-#: Extensions/View/ExtensionsThemes/admin_add.ctp:5
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:6
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:7
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:9
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:7
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Extensions"
 msgstr "Rozšírenia"
 
 #: Extensions/Config/admin_menu.php:15
 #: Extensions/Controller/ExtensionsThemesController.php:60
-#: Extensions/View/ExtensionsThemes/admin_add.ctp:6
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:7
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:8
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:8
 msgid "Themes"
 msgstr "Šablóny"
 
 #: Extensions/Config/admin_menu.php:25
 #: Extensions/Controller/ExtensionsLocalesController.php:44
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:5
-#: Extensions/View/ExtensionsLocales/admin_edit.ctp:10
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:8
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:8
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:8
 msgid "Locales"
 msgstr "Lokalizácie"
 
 #: Extensions/Config/admin_menu.php:35
 #: Extensions/Controller/ExtensionsPluginsController.php:69
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:5
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:8
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:8
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:10
 msgid "Plugins"
 msgstr "Pluginy"
 
@@ -1725,52 +1813,47 @@ msgstr "Pluginy"
 msgid "Data Migration Utility"
 msgstr ""
 
-#: Extensions/Controller/ExtensionsLocalesController.php:66
+#: Extensions/Controller/ExtensionsLocalesController.php:76
 msgid "Locale does not exist."
 msgstr "Lokalizácia neexistuje."
 
-#: Extensions/Controller/ExtensionsLocalesController.php:72
+#: Extensions/Controller/ExtensionsLocalesController.php:82
 msgid "Locale '%s' set as default"
 msgstr ""
 
-#: Extensions/Controller/ExtensionsLocalesController.php:74
+#: Extensions/Controller/ExtensionsLocalesController.php:84
 msgid "Could not save Locale setting."
 msgstr ""
 
-#: Extensions/Controller/ExtensionsLocalesController.php:85
+#: Extensions/Controller/ExtensionsLocalesController.php:95
 msgid "Upload a new locale"
 msgstr "Nahrať novú lokalizáciu"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:111;166
+#: Extensions/Controller/ExtensionsLocalesController.php:121;176
 msgid "Invalid locale."
 msgstr "Neplatná lokalizácia"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:116
+#: Extensions/Controller/ExtensionsLocalesController.php:126
 msgid "Locale already exists."
 msgstr "Lokalizácia už existuje"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:163
+#: Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "Edit locale: %s"
 msgstr "Upraviť lokalizáciu: %s "
 
-#: Extensions/Controller/ExtensionsLocalesController.php:173
+#: Extensions/Controller/ExtensionsLocalesController.php:183;211
 msgid "The file %s does not exist."
 msgstr ""
 
-#: Extensions/Controller/ExtensionsLocalesController.php:183
+#: Extensions/Controller/ExtensionsLocalesController.php:193
 msgid "Locale updated successfully"
 msgstr "Lokalizácia bola úspešne aktualizovaná"
 
-#: Extensions/Controller/ExtensionsLocalesController.php:199
-#: Translate/Controller/TranslateController.php:109
-msgid "Invalid locale"
-msgstr "Neplatná lokalizácia"
-
-#: Extensions/Controller/ExtensionsLocalesController.php:205
+#: Extensions/Controller/ExtensionsLocalesController.php:217
 msgid "Locale deleted successfully."
 msgstr "Lokalizácia bola úspešne zmazaná."
 
-#: Extensions/Controller/ExtensionsLocalesController.php:207
+#: Extensions/Controller/ExtensionsLocalesController.php:219
 msgid "Local could not be deleted."
 msgstr "Lokalizáciu nie je možné zmazať."
 
@@ -1779,7 +1862,7 @@ msgid "Upload a new plugin"
 msgstr "Nahrať nový plugin"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
-#: Extensions/Lib/CroogoPlugin.php:684
+#: Extensions/Lib/CroogoPlugin.php:685
 #: Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
 msgstr "Neplatný plugin"
@@ -1797,7 +1880,7 @@ msgid "Plugin could not be deleted."
 msgstr "Plugin nie je možné zmazať."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:152
-#: Extensions/Lib/CroogoPlugin.php:599
+#: Extensions/Lib/CroogoPlugin.php:600
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr ""
 
@@ -1862,44 +1945,44 @@ msgstr "Šablóna úspešne zmazaná."
 msgid "An error occurred."
 msgstr "Nastala chyba."
 
-#: Extensions/Lib/CroogoPlugin.php:529
+#: Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin \"%s\" is already active."
 msgstr ""
 
-#: Extensions/Lib/CroogoPlugin.php:555
+#: Extensions/Lib/CroogoPlugin.php:556
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
 msgstr ""
 
-#: Extensions/Lib/CroogoPlugin.php:586
+#: Extensions/Lib/CroogoPlugin.php:587
 msgid "Plugin \"%s\" is not active."
 msgstr ""
 
-#: Extensions/Lib/CroogoPlugin.php:714
+#: Extensions/Lib/CroogoPlugin.php:715
 msgid "%s is already at the first position"
 msgstr ""
 
-#: Extensions/Lib/CroogoPlugin.php:720;732
+#: Extensions/Lib/CroogoPlugin.php:721;733
 msgid "Plugin %s depends on %s"
 msgstr ""
 
-#: Extensions/Lib/CroogoPlugin.php:725
+#: Extensions/Lib/CroogoPlugin.php:726
 msgid "%s is already at the last position"
 msgstr ""
 
-#: Extensions/Lib/CroogoPlugin.php:736
+#: Extensions/Lib/CroogoPlugin.php:737
 msgid "Invalid direction"
 msgstr ""
 
-#: Extensions/Lib/CroogoPlugin.php:741
+#: Extensions/Lib/CroogoPlugin.php:742
 msgid "Plugin %s cannot be reordered"
 msgstr ""
 
-#: Extensions/Lib/CroogoTheme.php:169
+#: Extensions/Lib/CroogoTheme.php:252
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr ""
 
-#: Extensions/Lib/CroogoTheme.php:190
+#: Extensions/Lib/CroogoTheme.php:273
 msgid "Theme %s not found"
 msgstr ""
 
@@ -1959,64 +2042,64 @@ msgstr ""
 msgid "Themes installed via composer are not yet supported."
 msgstr ""
 
-#: Extensions/View/ExtensionsLocales/admin_add.ctp:6;25;46
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:13
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:6;24;43
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:14
-#: Extensions/View/ExtensionsThemes/admin_add.ctp:7;27;48
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:14
-#: FileManager/Controller/FileManagerController.php:180
-#: FileManager/View/Attachments/admin_add.ctp:8;22;30;45
-#: FileManager/View/FileManager/admin_upload.ctp:5;31
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:11
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:16
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:15
+#: FileManager/Controller/FileManagerController.php:183
+#: FileManager/View/Attachments/admin_add.ctp:8;21;29;42
+#: FileManager/View/FileManager/admin_upload.ctp:8;32
 msgid "Upload"
 msgstr "Pridať súbor"
 
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:23
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:19
 #: Nodes/View/Nodes/admin_translations.ctp:26
-#: Translate/View/Translate/admin_index.ctp:42
+#: Translate/View/Translate/admin_index.ctp:58
 msgid "Locale"
 msgstr "Lokalizácia"
 
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:24
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:20
 msgid "Default"
 msgstr "Predvolený"
 
-#: Extensions/View/ExtensionsLocales/admin_index.ctp:39
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:39
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:33
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:114
 msgid "Activate"
 msgstr "Aktivovať"
 
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:26
-#: Menus/View/Links/admin_form.ctp:110 Menus/View/Menus/admin_form.ctp:46
-#: Settings/View/Settings/admin_form.ctp:59
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
+#: Menus/View/Links/admin_form.ctp:99 Menus/View/Menus/admin_form.ctp:36
+#: Settings/View/Settings/admin_form.ctp:47
 #: Settings/View/Settings/admin_view.ctp:19
-#: Taxonomy/View/Terms/admin_form.ctp:61 Taxonomy/View/Types/admin_form.ctp:48
-#: Taxonomy/View/Vocabularies/admin_form.ctp:52
+#: Taxonomy/View/Terms/admin_form.ctp:51 Taxonomy/View/Types/admin_form.ctp:38
+#: Taxonomy/View/Vocabularies/admin_form.ctp:43
 msgid "Description"
 msgstr "Popis"
 
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:29
 msgid "Active"
 msgstr ""
 
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:39
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 msgid "Deactivate"
 msgstr "Deaktivovať"
 
-#: Extensions/View/ExtensionsPlugins/admin_index.ctp:71
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:73
 msgid "Migrate"
 msgstr ""
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:25
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:26
 msgid "Current Theme"
 msgstr "Aktuálna Šablóna"
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:59;111
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:60;111
 msgid "Regions supported: "
 msgstr "Podporované regióny: "
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:65
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:66
 msgid "Available Themes"
 msgstr "Dostupné šablóny"
 
@@ -2029,7 +2112,7 @@ msgid "Media"
 msgstr "Médiá"
 
 #: FileManager/Config/admin_menu.php:15
-#: FileManager/Controller/AttachmentsController.php:99
+#: FileManager/Controller/AttachmentsController.php:117
 #: FileManager/View/Attachments/admin_add.ctp:7
 #: FileManager/View/Attachments/admin_edit.ctp:7
 #: FileManager/View/Attachments/admin_index.ctp:7
@@ -2037,86 +2120,107 @@ msgid "Attachments"
 msgstr "Prílohy"
 
 #: FileManager/Config/admin_menu.php:24
-#: FileManager/Controller/FileManagerController.php:113
+#: FileManager/Controller/FileManagerController.php:117
 #: FileManager/View/FileManager/admin_browse.ctp:7
-#: FileManager/View/FileManager/admin_create_directory.ctp:4
-#: FileManager/View/FileManager/admin_create_file.ctp:4
-#: FileManager/View/FileManager/admin_editfile.ctp:4
-#: FileManager/View/FileManager/admin_upload.ctp:4
+#: FileManager/View/FileManager/admin_create_directory.ctp:7
+#: FileManager/View/FileManager/admin_create_file.ctp:7
+#: FileManager/View/FileManager/admin_editfile.ctp:7
+#: FileManager/View/FileManager/admin_rename.ctp:7
+#: FileManager/View/FileManager/admin_upload.ctp:7
 msgid "File Manager"
 msgstr "Správa súborov"
 
-#: FileManager/Controller/AttachmentsController.php:113
+#: FileManager/Controller/AttachmentsController.php:155
 msgid "Add Attachment"
 msgstr "Pridaj prílohu"
 
-#: FileManager/Controller/AttachmentsController.php:122
+#: FileManager/Controller/AttachmentsController.php:164
 msgid "Upload failed. Please ensure size does not exceed the server limit."
 msgstr ""
 
-#: FileManager/Controller/AttachmentsController.php:129;162
+#: FileManager/Controller/AttachmentsController.php:171;204
 msgid "The Attachment has been saved"
 msgstr "Príloha uložená"
 
-#: FileManager/Controller/AttachmentsController.php:137;165
+#: FileManager/Controller/AttachmentsController.php:179;207
 msgid "The Attachment could not be saved. Please, try again."
 msgstr "Nemožno uložiť prílohu. Skúste neskôr prosím."
 
-#: FileManager/Controller/AttachmentsController.php:150
+#: FileManager/Controller/AttachmentsController.php:192
 msgid "Edit Attachment"
 msgstr "Upraviť prílohu"
 
-#: FileManager/Controller/AttachmentsController.php:157
+#: FileManager/Controller/AttachmentsController.php:199
 msgid "Invalid Attachment"
 msgstr "Chyba v prílohe"
 
-#: FileManager/Controller/AttachmentsController.php:182;190
+#: FileManager/Controller/AttachmentsController.php:224;232
 msgid "Invalid id for Attachment"
 msgstr "Nesprávne id pre prílohu"
 
-#: FileManager/Controller/AttachmentsController.php:187
+#: FileManager/Controller/AttachmentsController.php:229
 msgid "Attachment deleted"
 msgstr "Príloha zmazaná"
 
-#: FileManager/Controller/FileManagerController.php:118;150;214
+#: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
 msgid "Path %s is restricted"
 msgstr ""
 
-#: FileManager/Controller/FileManagerController.php:153
+#: FileManager/Controller/FileManagerController.php:157
 msgid "Edit file: %s"
 msgstr "Upraviť súbor: %s"
 
-#: FileManager/Controller/FileManagerController.php:164
+#: FileManager/Controller/FileManagerController.php:167
 msgid "File saved successfully"
 msgstr "Súbor úspešne uložený"
 
-#: FileManager/Controller/FileManagerController.php:193
+#: FileManager/Controller/FileManagerController.php:201
 msgid "File uploaded successfully."
 msgstr "Súbor úspešne odoslaný."
 
-#: FileManager/Controller/FileManagerController.php:219
+#: FileManager/Controller/FileManagerController.php:227
 msgid "File deleted"
 msgstr "Súbor zmazaný"
 
-#: FileManager/Controller/FileManagerController.php:247
+#: FileManager/Controller/FileManagerController.php:260
 msgid "Directory deleted"
 msgstr "Adresár zmazaný"
 
-#: FileManager/Controller/FileManagerController.php:292
-#: FileManager/View/FileManager/admin_create_directory.ctp:5;14
-msgid "Create Directory"
+#: FileManager/Controller/FileManagerController.php:285
+msgid "Path \"%s\" cannot be renamed"
 msgstr ""
 
-#: FileManager/Controller/FileManagerController.php:303
-msgid "Directory created successfully."
-msgstr "Adresár úspešne vytvorený."
+#: FileManager/Controller/FileManagerController.php:298
+msgid "%s already exists"
+msgstr ""
 
-#: FileManager/Controller/FileManagerController.php:321
-#: FileManager/View/FileManager/admin_create_file.ctp:5
-msgid "Create File"
+#: FileManager/Controller/FileManagerController.php:302
+msgid "\"%s\" has been renamed to \"%s\""
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:305
+msgid "Could not rename \"%s\" to \"%s\""
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:310
+msgid "Name has not changed"
 msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:331
+#: FileManager/View/FileManager/admin_create_directory.ctp:8
+msgid "Create Directory"
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:347
+msgid "Directory created successfully."
+msgstr "Adresár úspešne vytvorený."
+
+#: FileManager/Controller/FileManagerController.php:365
+#: FileManager/View/FileManager/admin_create_file.ctp:8
+msgid "Create File"
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:380
 msgid "File created successfully."
 msgstr "Súbor úspešne vytvorený."
 
@@ -2129,7 +2233,7 @@ msgid "New Attachment"
 msgstr "Nová príloha"
 
 #: FileManager/View/Attachments/admin_browse.ctp:25
-#: FileManager/View/Attachments/admin_index.ctp:17
+#: FileManager/View/Attachments/admin_index.ctp:14
 msgid "URL"
 msgstr "URL"
 
@@ -2137,91 +2241,118 @@ msgstr "URL"
 msgid "Insert"
 msgstr "Pridať"
 
-#: FileManager/View/Attachments/admin_browse.ctp:100
-msgid ""
-"Page %page% of %pages%, showing %current% records out of %count% total, "
-"starting on record %start%, ending on %end%"
-msgstr ""
-"Strana %page% of %pages%, zobrazuje %current% záznamov z %count% spolu, "
-"začínajúc s %start%, končiac na %end%"
+#: FileManager/View/Attachments/admin_chooser.ctp:4
+#: Nodes/View/Nodes/admin_chooser.ctp:4
+msgid "Sort by:"
+msgstr "Usporiadať podľa:"
+
+#: FileManager/View/Attachments/admin_chooser.ctp:41
+#: FileManager/View/Elements/admin/attachments_search.ctp:48
+#: Nodes/View/Elements/admin/nodes_search.ctp:47
+#: Nodes/View/Nodes/admin_chooser.ctp:50
+msgid "Promoted"
+msgstr "Propagovaný"
 
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
 msgstr "Príloha"
 
-#: FileManager/View/Attachments/admin_edit.ctp:46
+#: FileManager/View/Attachments/admin_edit.ctp:29
 msgid "Caption"
 msgstr "Hlavička"
 
-#: FileManager/View/Attachments/admin_edit.ctp:50
+#: FileManager/View/Attachments/admin_edit.ctp:32
 msgid "File URL"
 msgstr "URL súboru"
 
-#: FileManager/View/Attachments/admin_edit.ctp:56
+#: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
 msgstr "Mime typ"
 
-#: FileManager/View/FileManager/admin_browse.ctp:13
+#: FileManager/View/Elements/admin/attachments_search.ctp:28
+#: Nodes/View/Elements/search.ctp:7 Nodes/View/Elements/search2.ctp:8
+#: Nodes/View/Elements/admin/nodes_search.ctp:22
+msgid "Search"
+msgstr "Hľadať"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:29
+#: Nodes/View/Elements/admin/nodes_search.ctp:23
+msgid "Search..."
+msgstr ""
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:45
+#: Nodes/View/Elements/admin/nodes_search.ctp:44
+msgid "Yes"
+msgstr "Ano"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:46
+#: Nodes/View/Elements/admin/nodes_search.ctp:45
+msgid "No"
+msgstr "Nie"
+
+#: FileManager/View/FileManager/admin_browse.ctp:14
 msgid "Upload here"
 msgstr "Nahrať sem"
 
-#: FileManager/View/FileManager/admin_browse.ctp:17
+#: FileManager/View/FileManager/admin_browse.ctp:18
 msgid "Create directory"
 msgstr "Vytvoriť adresár"
 
-#: FileManager/View/FileManager/admin_browse.ctp:21
-#: FileManager/View/FileManager/admin_create_file.ctp:15
+#: FileManager/View/FileManager/admin_browse.ctp:22
 msgid "Create file"
 msgstr "Vytvoriť súbor"
 
-#: FileManager/View/FileManager/admin_browse.ctp:29
-#: FileManager/View/FileManager/admin_create_directory.ctp:16
-#: FileManager/View/FileManager/admin_create_file.ctp:17
-#: FileManager/View/FileManager/admin_editfile.ctp:16
-#: FileManager/View/FileManager/admin_upload.ctp:17
+#: FileManager/View/FileManager/admin_browse.ctp:31
+#: FileManager/View/FileManager/admin_create_directory.ctp:21
+#: FileManager/View/FileManager/admin_create_file.ctp:13
+#: FileManager/View/FileManager/admin_editfile.ctp:13
+#: FileManager/View/FileManager/admin_rename.ctp:13
+#: FileManager/View/FileManager/admin_upload.ctp:13
 msgid "You are here"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_browse.ctp:44
+#: FileManager/View/FileManager/admin_browse.ctp:46
 msgid "Directory content"
 msgstr "Obsah adresára"
 
-#: FileManager/View/FileManager/admin_browse.ctp:57
+#: FileManager/View/FileManager/admin_browse.ctp:59
 msgid "Open"
 msgstr "Otvorený"
 
-#: FileManager/View/FileManager/admin_browse.ctp:85
+#: FileManager/View/FileManager/admin_browse.ctp:66;111
+#: FileManager/View/FileManager/admin_rename.ctp:8
+msgid "Rename"
+msgstr ""
+
+#: FileManager/View/FileManager/admin_browse.ctp:91
 msgid "View"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_directory.ctp:31
+#: FileManager/View/FileManager/admin_create_directory.ctp:34
 msgid "Directory"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_directory.ctp:41
+#: FileManager/View/FileManager/admin_create_directory.ctp:42
 msgid "Directory name"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_directory.ctp:53
+#: FileManager/View/FileManager/admin_create_directory.ctp:51
 #: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
-#: Nodes/View/Nodes/admin_form.ctp:13
+#: Nodes/View/Nodes/admin_form.ctp:14
 msgid "Create"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_file.ctp:32
+#: FileManager/View/FileManager/admin_create_file.ctp:33
+#: FileManager/View/FileManager/admin_rename.ctp:33
 msgid "File"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_file.ctp:42
+#: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_editfile.ctp:14
-msgid "Edit file"
-msgstr ""
-
-#: FileManager/View/FileManager/admin_upload.ctp:15
-msgid "Upload file"
+#: FileManager/View/FileManager/admin_rename.ctp:41
+msgid "New name"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:27
@@ -2233,45 +2364,45 @@ msgid "DataSource"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:115
-#: Install/View/Install/database.ctp:60
+#: Install/View/Install/database.ctp:58
 msgid "Host"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:116
-#: Install/View/Install/database.ctp:67 Users/View/Users/login.ctp:2
+#: Install/View/Install/database.ctp:66 Users/View/Users/login.ctp:2
 msgid "Login"
 msgstr "Prihlásenie"
 
 #: Install/Console/Command/InstallShell.php:117;153
-#: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:110
+#: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
 #: Users/View/Users/admin_login.ctp:15
 msgid "Password"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:118
-#: Install/View/Install/database.ctp:48
+#: Install/View/Install/database.ctp:47
 msgid "Database"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:119
-#: Install/View/Install/database.ctp:87
+#: Install/View/Install/database.ctp:89
 msgid "Prefix"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:120
-#: Install/View/Install/database.ctp:93
+#: Install/View/Install/database.ctp:96
 msgid "Port"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:146
-#: Install/View/Install/adminuser.ctp:14 Users/View/Users/admin_form.ctp:61
+#: Install/View/Install/adminuser.ctp:13 Users/View/Users/admin_form.ctp:47
 #: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
 msgid "Username"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:155
-#: Install/View/Install/adminuser.ctp:25 Users/View/Users/admin_form.ctp:115
-#: Users/View/Users/admin_reset_password.ctp:28 Users/View/Users/reset.ctp:7
+#: Install/View/Install/adminuser.ctp:26 Users/View/Users/admin_form.ctp:96
+#: Users/View/Users/admin_reset_password.ctp:35 Users/View/Users/reset.ctp:7
 msgid "Verify Password"
 msgstr ""
 
@@ -2279,31 +2410,31 @@ msgstr ""
 msgid "Permission %s granted to %s"
 msgstr ""
 
-#: Install/Controller/InstallController.php:95
+#: Install/Controller/InstallController.php:101
 msgid "Installation: Welcome"
 msgstr "Vítajte v inštalácii."
 
-#: Install/Controller/InstallController.php:110
+#: Install/Controller/InstallController.php:116
 msgid "Step 1: Database"
 msgstr "Krok 1: Databáza"
 
-#: Install/Controller/InstallController.php:156
+#: Install/Controller/InstallController.php:162
 msgid "Step 2: Build database"
 msgstr "Krok 2: Vytvorenie databázy"
 
-#: Install/Controller/InstallController.php:164
+#: Install/Controller/InstallController.php:170
 msgid "Warning: Database \"%s\" is not empty."
 msgstr ""
 
-#: Install/Controller/InstallController.php:216
+#: Install/Controller/InstallController.php:222
 msgid "Installation successful"
 msgstr ""
 
-#: Install/Controller/InstallController.php:224
+#: Install/Controller/InstallController.php:230
 msgid "Installation failed"
 msgstr ""
 
-#: Install/Controller/InstallController.php:225
+#: Install/Controller/InstallController.php:231
 msgid "Installation failed: Unable to create settings file"
 msgstr ""
 
@@ -2347,12 +2478,12 @@ msgstr ""
 msgid "Could not connect to database."
 msgstr "Nie je možné pripojiť sa k databáze"
 
-#: Install/View/Install/adminuser.ctp:7
+#: Install/View/Install/adminuser.ctp:10
 msgid "Step 3: Create Admin User"
 msgstr ""
 
 #: Install/View/Install/adminuser.ctp:19
-#: Users/View/Users/admin_reset_password.ctp:27
+#: Users/View/Users/admin_reset_password.ctp:31
 msgid "New Password"
 msgstr "Nové heslo"
 
@@ -2368,39 +2499,39 @@ msgstr ""
 msgid "Click here to build your database"
 msgstr "Kliknite sem pre naplnenie vašej databázy"
 
-#: Install/View/Install/database.ctp:17
+#: Install/View/Install/database.ctp:20
 msgid "Warning"
 msgstr ""
 
-#: Install/View/Install/database.ctp:18
+#: Install/View/Install/database.ctp:21
 msgid "A `database.php` file already exists."
 msgstr ""
 
-#: Install/View/Install/database.ctp:21
+#: Install/View/Install/database.ctp:24
 msgid "Valid"
 msgstr ""
 
-#: Install/View/Install/database.ctp:24
+#: Install/View/Install/database.ctp:27
 msgid "Invalid"
 msgstr ""
 
-#: Install/View/Install/database.ctp:27
+#: Install/View/Install/database.ctp:30
 msgid "This file is %s."
 msgstr ""
 
-#: Install/View/Install/database.ctp:32
+#: Install/View/Install/database.ctp:35
 msgid "Reuse this file and proceed."
 msgstr ""
 
-#: Install/View/Install/database.ctp:37
+#: Install/View/Install/database.ctp:40
 msgid "This file will be replaced."
 msgstr ""
 
-#: Install/View/Install/database.ctp:62
+#: Install/View/Install/database.ctp:60
 msgid "Database hostname or IP Address"
 msgstr ""
 
-#: Install/View/Install/database.ctp:69
+#: Install/View/Install/database.ctp:68
 msgid "Database login/username"
 msgstr ""
 
@@ -2408,15 +2539,15 @@ msgstr ""
 msgid "Database password"
 msgstr ""
 
-#: Install/View/Install/database.ctp:82
+#: Install/View/Install/database.ctp:83
 msgid "Database name"
 msgstr ""
 
-#: Install/View/Install/database.ctp:88
+#: Install/View/Install/database.ctp:90
 msgid "Table prefix (leave blank if unknown)"
 msgstr ""
 
-#: Install/View/Install/database.ctp:94
+#: Install/View/Install/database.ctp:97
 msgid "Database port (leave blank if unknown)"
 msgstr ""
 
@@ -2497,7 +2628,7 @@ msgid "Install Croogo"
 msgstr "Inštaluj Croogo"
 
 #: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
-#: Menus/View/Links/admin_form.ctp:8 Menus/View/Links/admin_index.ctp:9
+#: Menus/View/Links/admin_form.ctp:9 Menus/View/Links/admin_index.ctp:9
 #: Menus/View/Menus/admin_form.ctp:7 Menus/View/Menus/admin_index.ctp:7
 msgid "Menus"
 msgstr "Navigácia"
@@ -2575,47 +2706,51 @@ msgstr "Nesprávne id pre menu"
 msgid "Menu deleted"
 msgstr "Položka menu zmazaná."
 
-#: Menus/View/Links/admin_form.ctp:54;81
+#: Menus/View/Links/admin_form.ctp:51;74
 msgid "Link"
 msgstr "Link"
 
-#: Menus/View/Links/admin_form.ctp:56 Menus/View/Menus/admin_form.ctp:26
+#: Menus/View/Links/admin_form.ctp:53 Menus/View/Menus/admin_form.ctp:21
 msgid "Misc."
 msgstr "Iné"
 
-#: Menus/View/Links/admin_form.ctp:113
-msgid "Rel"
-msgstr ""
-
-#: Menus/View/Links/admin_form.ctp:116
-msgid "Target"
-msgstr ""
-
-#: Menus/View/Links/admin_form.ctp:162
-msgid "Choose Link"
-msgstr ""
-
-#: Menus/View/Links/admin_index.ctp:82
-msgid "Create a copy of this Link?"
-msgstr ""
-
-#: Menus/View/Links/admin_index.ctp:89
-msgid "Delete this item"
-msgstr ""
-
-#: Menus/View/Links/admin_link_chooser.ctp:11
-msgid "Link to %s"
-msgstr ""
-
-#: Menus/View/Menus/admin_form.ctp:25
+#: Menus/View/Links/admin_form.ctp:62 Menus/View/Menus/admin_form.ctp:20
 msgid "Menu"
 msgstr "Menu"
 
-#: Menus/View/Menus/admin_index.ctp:18
+#: Menus/View/Links/admin_form.ctp:80
+msgid "Link Chooser"
+msgstr ""
+
+#: Menus/View/Links/admin_form.ctp:102
+msgid "Rel"
+msgstr ""
+
+#: Menus/View/Links/admin_form.ctp:105
+msgid "Target"
+msgstr ""
+
+#: Menus/View/Links/admin_form.ctp:148
+msgid "Choose Link"
+msgstr ""
+
+#: Menus/View/Links/admin_index.ctp:78
+msgid "Create a copy of this Link?"
+msgstr ""
+
+#: Menus/View/Links/admin_index.ctp:85
+msgid "Delete this item"
+msgstr ""
+
+#: Menus/View/Links/admin_link_chooser.ctp:12
+msgid "Link to %s"
+msgstr ""
+
+#: Menus/View/Menus/admin_index.ctp:15
 msgid "Link Count"
 msgstr ""
 
-#: Menus/View/Menus/admin_index.ctp:34
+#: Menus/View/Menus/admin_index.ctp:29
 msgid "View links"
 msgstr "Pozri linky"
 
@@ -2627,19 +2762,20 @@ msgstr ""
 msgid "Add another field"
 msgstr "Pridať ďalšie pole"
 
-#: Meta/View/Helper/MetaHelper.php:88 Settings/View/Settings/admin_form.ctp:45
-#: Settings/View/Settings/admin_index.ctp:21
+#: Meta/View/Helper/MetaHelper.php:97 Settings/View/Settings/admin_form.ctp:35
+#: Settings/View/Settings/admin_index.ctp:19
 #: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
 msgstr "Kľúč"
 
-#: Meta/View/Helper/MetaHelper.php:93 Settings/View/Settings/admin_form.ctp:48
-#: Settings/View/Settings/admin_index.ctp:22
+#: Meta/View/Helper/MetaHelper.php:101
+#: Settings/View/Settings/admin_form.ctp:38
+#: Settings/View/Settings/admin_index.ctp:20
 #: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
 msgstr "Hodnota"
 
-#: Meta/View/Helper/MetaHelper.php:122
+#: Meta/View/Helper/MetaHelper.php:128
 msgid "Remove"
 msgstr "Odobrať"
 
@@ -2647,83 +2783,86 @@ msgstr "Odobrať"
 msgid "List"
 msgstr "Zoznam"
 
-#: Nodes/Controller/NodesController.php:143
-#: Nodes/View/Nodes/admin_index.ctp:13
+#: Nodes/Controller/NodesController.php:145
+msgid "Type must be specified"
+msgstr ""
+
+#: Nodes/Controller/NodesController.php:226
+#: Nodes/View/Nodes/admin_index.ctp:12
 msgid "Create content"
 msgstr "Vytvoriť Obsah"
 
-#: Nodes/Controller/NodesController.php:164
+#: Nodes/Controller/NodesController.php:247
 msgid "Content type does not exist."
 msgstr "Typ obsahu neexistuje."
 
-#: Nodes/Controller/NodesController.php:175;216
+#: Nodes/Controller/NodesController.php:258;299
 msgid "%s has been saved"
 msgstr "%s bol uložený"
 
-#: Nodes/Controller/NodesController.php:178;219
+#: Nodes/Controller/NodesController.php:261;302
 msgid "%s could not be saved. Please, try again."
 msgstr "%s sa nedá uložiť. Skúste ešte raz."
 
-#: Nodes/Controller/NodesController.php:185
+#: Nodes/Controller/NodesController.php:268
 msgid "Create content: %s"
 msgstr "Vytvor Obsah: %s"
 
-#: Nodes/Controller/NodesController.php:229
+#: Nodes/Controller/NodesController.php:315
 msgid "Edit %s: %s"
 msgstr ""
 
-#: Nodes/Controller/NodesController.php:242
+#: Nodes/Controller/NodesController.php:328
 msgid "Paths updated."
 msgstr "Cesty aktualizované."
 
-#: Nodes/Controller/NodesController.php:245
+#: Nodes/Controller/NodesController.php:331
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
 msgstr ""
 
-#: Nodes/Controller/NodesController.php:262
+#: Nodes/Controller/NodesController.php:348
 msgid "Invalid id for Node"
 msgstr "Chybné id pre Uzol"
 
-#: Nodes/Controller/NodesController.php:268
+#: Nodes/Controller/NodesController.php:354
 msgid "Node deleted"
 msgstr "Uzol zmazaný"
 
-#: Nodes/Controller/NodesController.php:319
-msgid "Nodes deleted"
+#: Nodes/Controller/NodesController.php:409
+msgid "%s deleted"
 msgstr ""
 
-#: Nodes/Controller/NodesController.php:320
-msgid "Nodes published"
-msgstr "Uzly publikované"
+#: Nodes/Controller/NodesController.php:410
+msgid "%s published"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:321
-msgid "Nodes unpublished"
-msgstr "Uzly nepublikované"
+#: Nodes/Controller/NodesController.php:411
+msgid "%s unpublished"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:322
-msgid "Nodes promoted"
-msgstr "Propagované uzly"
+#: Nodes/Controller/NodesController.php:412
+msgid "%s promoted"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:323
-msgid "Nodes unpromoted"
-msgstr "Nepropagované uzly"
+#: Nodes/Controller/NodesController.php:413
+msgid "%s unpromoted"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:324
-#, fuzzy
-msgid "Nodes copied"
-msgstr "Uzly publikované"
+#: Nodes/Controller/NodesController.php:414
+msgid "%s copied"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:377;478;548;611
+#: Nodes/Controller/NodesController.php:467;568;640;703
 msgid "Invalid content type."
 msgstr "Neplatný obsah"
 
-#: Nodes/Controller/NodesController.php:435
+#: Nodes/Controller/NodesController.php:525
 msgid "Invalid Term."
 msgstr "Neplatný výraz"
 
-#: Nodes/Controller/NodesController.php:527
+#: Nodes/Controller/NodesController.php:619
 msgid "Home"
 msgstr ""
 
@@ -2743,89 +2882,68 @@ msgstr "Pridané v"
 msgid "Leave a comment"
 msgstr "Pridajte komentár"
 
-#: Nodes/View/Elements/search.ctp:7
-#: Nodes/View/Elements/admin/nodes_search.ctp:24
-msgid "Search"
-msgstr "Hľadať"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:25
-msgid "Search..."
-msgstr ""
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:34
-#: Nodes/View/Nodes/admin_index.ctp:40
+#: Nodes/View/Elements/admin/nodes_search.ctp:31
+#: Nodes/View/Nodes/admin_hierarchy.ctp:38 Nodes/View/Nodes/admin_index.ctp:33
 #: Taxonomy/Controller/TypesController.php:53
-#: Taxonomy/View/Types/admin_form.ctp:25
-#: Taxonomy/View/Vocabularies/admin_form.ctp:55
+#: Taxonomy/View/Types/admin_form.ctp:20
+#: Taxonomy/View/Vocabularies/admin_form.ctp:46
 msgid "Type"
 msgstr "Typ"
 
-#: Nodes/View/Elements/admin/nodes_search.ctp:49
-msgid "Yes"
-msgstr "Ano"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:50
-msgid "No"
-msgstr "Nie"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:52
-#: Nodes/View/Nodes/admin_chooser.ctp:47
-msgid "Promoted"
-msgstr "Propagovaný"
-
-#: Nodes/View/Nodes/admin_chooser.ctp:4
-msgid "Sort by:"
-msgstr "Usporiadať podľa:"
-
-#: Nodes/View/Nodes/admin_form.ctp:81 Taxonomy/View/Terms/admin_chooser.ctp:7
-#: Taxonomy/View/Terms/admin_form.ctp:57
-#: Taxonomy/View/Terms/admin_index.ctp:34
+#: Nodes/View/Nodes/admin_form.ctp:80 Taxonomy/View/Terms/admin_chooser.ctp:7
+#: Taxonomy/View/Terms/admin_form.ctp:47
+#: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
 msgstr "Označenie"
 
-#: Nodes/View/Nodes/admin_form.ctp:84
+#: Nodes/View/Nodes/admin_form.ctp:83
 msgid "Excerpt"
 msgstr ""
 
-#: Nodes/View/Nodes/admin_form.ctp:119
+#: Nodes/View/Nodes/admin_form.ctp:117
 msgid "Promoted to front page"
 msgstr "Propagované na úvodnej stránke"
 
-#: Nodes/View/Nodes/admin_form.ctp:124
+#: Nodes/View/Nodes/admin_form.ctp:121
 msgid "Publish as "
 msgstr ""
 
-#: Nodes/View/Nodes/admin_index.ctp:41 Users/View/Users/admin_form.ctp:45
+#: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
+#: Users/View/Users/admin_form.ctp:37
 msgid "User"
 msgstr ""
 
-#: Nodes/View/Nodes/admin_index.ctp:68
+#: Nodes/View/Nodes/admin_hierarchy.ctp:67 Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
 msgstr ""
 
+#: Nodes/View/Nodes/admin_hierarchy.ctp:126
 #: Nodes/View/Nodes/admin_index.ctp:127
 msgid "Applying to selected"
 msgstr ""
 
+#: Nodes/View/Nodes/admin_hierarchy.ctp:131
 #: Nodes/View/Nodes/admin_index.ctp:132
 msgid "Promote"
 msgstr "Propagovať"
 
+#: Nodes/View/Nodes/admin_hierarchy.ctp:132
 #: Nodes/View/Nodes/admin_index.ctp:133
 msgid "Unpromote"
 msgstr "Zrušiť propagáciu"
 
-#: Nodes/View/Nodes/admin_index.ctp:147
+#: Nodes/View/Nodes/admin_hierarchy.ctp:151
+#: Nodes/View/Nodes/admin_index.ctp:152
 msgid "%s selected items?"
 msgstr ""
 
 #: Nodes/View/Nodes/admin_translations.ctp:8
-#: Translate/View/Translate/admin_index.ctp:21
+#: Translate/View/Translate/admin_index.ctp:37
 msgid "Translate in a new language"
 msgstr "Prelož do nového jazyka"
 
 #: Nodes/View/Nodes/admin_translations.ctp:49
-#: Translate/View/Translate/admin_index.ctp:85
+#: Translate/View/Translate/admin_index.ctp:101
 msgid "No translations available."
 msgstr "Preklady nie sú k dispozícii"
 
@@ -2839,13 +2957,13 @@ msgid "Search Results: %s"
 msgstr "Vysledok vyhľadávania: %s"
 
 #: Settings/Config/admin_menu.php:5
-#: Settings/Controller/SettingsController.php:79
+#: Settings/Controller/SettingsController.php:68
 #: Settings/View/Languages/admin_form.ctp:7
 #: Settings/View/Languages/admin_index.ctp:6
 #: Settings/View/Languages/admin_select.ctp:5
-#: Settings/View/Settings/admin_form.ctp:6;30
+#: Settings/View/Settings/admin_form.ctp:6;26
 #: Settings/View/Settings/admin_index.ctp:7
-#: Settings/View/Settings/admin_prefix.ctp:4
+#: Settings/View/Settings/admin_prefix.ctp:6
 msgid "Settings"
 msgstr "Nastavenia"
 
@@ -2937,7 +3055,7 @@ msgid "Delete?"
 msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:194
-#: Settings/Controller/SettingsController.php:163
+#: Settings/Controller/SettingsController.php:152
 msgid "Setting deleted"
 msgstr "Nastavenie zmazané"
 
@@ -2974,44 +3092,44 @@ msgstr "Jazyk vymazaný"
 msgid "Select a language"
 msgstr "Vyberte jazyk"
 
-#: Settings/Controller/SettingsController.php:97
+#: Settings/Controller/SettingsController.php:86
 msgid "Invalid Setting."
 msgstr "Neplatné nastavenie"
 
-#: Settings/Controller/SettingsController.php:110
+#: Settings/Controller/SettingsController.php:99
 msgid "Add Setting"
 msgstr "Pridať nastavenie"
 
-#: Settings/Controller/SettingsController.php:115;139
+#: Settings/Controller/SettingsController.php:104;128
 msgid "The Setting has been saved"
 msgstr "Nastavenie bolo uložené"
 
-#: Settings/Controller/SettingsController.php:118;142
+#: Settings/Controller/SettingsController.php:107;131
 msgid "The Setting could not be saved. Please, try again."
 msgstr "Nastavenie sa nedalo uložiť. Skúste prosím znova."
 
-#: Settings/Controller/SettingsController.php:131
+#: Settings/Controller/SettingsController.php:120
 #: Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr "Upraviť nastavenie"
 
-#: Settings/Controller/SettingsController.php:134
+#: Settings/Controller/SettingsController.php:123
 msgid "Invalid Setting"
 msgstr "Neplatné nastavenie"
 
-#: Settings/Controller/SettingsController.php:159
+#: Settings/Controller/SettingsController.php:148
 msgid "Invalid id for Setting"
 msgstr "Neplatné id pre nastavenie"
 
-#: Settings/Controller/SettingsController.php:176
+#: Settings/Controller/SettingsController.php:165
 msgid "Settings: %s"
 msgstr "Nastavenia: %s"
 
-#: Settings/Controller/SettingsController.php:180
+#: Settings/Controller/SettingsController.php:169
 msgid "Settings updated successfully"
 msgstr "Nastavenia boli úspešne aktualizované"
 
-#: Settings/Controller/SettingsController.php:194
+#: Settings/Controller/SettingsController.php:183
 msgid "Invalid Setting key"
 msgstr "Neplatný nastavovací kľúč."
 
@@ -3023,7 +3141,7 @@ msgstr "Nevedel som pridať nový jazyk"
 msgid "Language"
 msgstr ""
 
-#: Settings/View/Languages/admin_form.ctp:41
+#: Settings/View/Languages/admin_form.ctp:38
 #: Settings/View/Languages/admin_index.ctp:17
 msgid "Native"
 msgstr ""
@@ -3032,29 +3150,29 @@ msgstr ""
 msgid "New Language"
 msgstr "Nová Lokalizácia"
 
-#: Settings/View/Settings/admin_form.ctp:31
+#: Settings/View/Settings/admin_form.ctp:27
 msgid "Misc"
 msgstr ""
 
-#: Settings/View/Settings/admin_form.ctp:44
+#: Settings/View/Settings/admin_form.ctp:34
 msgid "e.g., 'Site.title'"
 msgstr "napríklad, 'Site.title'"
 
-#: Settings/View/Settings/admin_form.ctp:62
+#: Settings/View/Settings/admin_form.ctp:50
 #: Settings/View/Settings/admin_view.ctp:24
 msgid "Input Type"
 msgstr "Zadaj Typ"
 
-#: Settings/View/Settings/admin_form.ctp:63
+#: Settings/View/Settings/admin_form.ctp:51
 msgid "e.g., 'text' or 'textarea'"
 msgstr "napríklad, 'text' alebo 'textarea'"
 
-#: Settings/View/Settings/admin_form.ctp:66
-#: Settings/View/Settings/admin_index.ctp:23
+#: Settings/View/Settings/admin_form.ctp:54
+#: Settings/View/Settings/admin_index.ctp:21
 msgid "Editable"
 msgstr ""
 
-#: Settings/View/Settings/admin_prefix.ctp:64
+#: Settings/View/Settings/admin_prefix.ctp:53
 msgid "Saving"
 msgstr ""
 
@@ -3070,10 +3188,6 @@ msgstr "Váha"
 msgid "Delete Setting"
 msgstr "Zmaž nastavenie"
 
-#: Settings/View/Settings/admin_view.ctp:44
-msgid "Are you sure you want to delete # %s?"
-msgstr "Naozaj chcete zmazať # %s?"
-
 #: Settings/View/Settings/admin_view.ctp:45
 msgid "List Settings"
 msgstr "Zobraz nastavenia"
@@ -3087,7 +3201,7 @@ msgstr "Nové nastavenie"
 msgid "Content Types"
 msgstr "Typy obsahu"
 
-#: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:26
+#: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:21
 msgid "Taxonomy"
 msgstr "Taxonómia"
 
@@ -3107,7 +3221,7 @@ msgstr "%s: Pridať termín"
 msgid "Term saved successfuly."
 msgstr "Termín bol úspešne uložený"
 
-#: Taxonomy/Controller/TermsController.php:99;142
+#: Taxonomy/Controller/TermsController.php:99;146
 msgid "Term could not be added to the vocabulary. Please try again."
 msgstr "Termín nebolo možné pridať do slovníka. Skúste prosím znova."
 
@@ -3115,31 +3229,31 @@ msgstr "Termín nebolo možné pridať do slovníka. Skúste prosím znova."
 msgid "%s: Edit Term"
 msgstr "%s: Upraviť termín"
 
-#: Taxonomy/Controller/TermsController.php:168
+#: Taxonomy/Controller/TermsController.php:172
 msgid "Term deleted"
 msgstr "Termín zmazaný"
 
-#: Taxonomy/Controller/TermsController.php:171
+#: Taxonomy/Controller/TermsController.php:175
 msgid "Term could not be deleted. Please, try again."
 msgstr "Termín sa nedal zmazať. Skúste prosím znova."
 
-#: Taxonomy/Controller/TermsController.php:225
+#: Taxonomy/Controller/TermsController.php:229
 msgid "Moved %s successfully"
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:228
+#: Taxonomy/Controller/TermsController.php:232
 msgid "Could not move %s"
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:261
+#: Taxonomy/Controller/TermsController.php:265
 msgid "Invalid Term ID."
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:277
+#: Taxonomy/Controller/TermsController.php:281
 msgid "Invalid Taxonomy."
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:296
+#: Taxonomy/Controller/TermsController.php:300
 msgid "Invalid Vocabulary ID."
 msgstr "Neplatné ID slovníka."
 
@@ -3207,23 +3321,23 @@ msgstr "Neplatné id pre slovník"
 msgid "Vocabulary deleted"
 msgstr "Slovník zmazaný"
 
-#: Taxonomy/Model/Term.php:186
+#: Taxonomy/Model/Term.php:178
 msgid "Invalid Term Id"
 msgstr ""
 
-#: Taxonomy/Model/Term.php:242
+#: Taxonomy/Model/Term.php:235
 msgid "\"vocabulary_id\" key not found"
 msgstr ""
 
-#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:133
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:137
 msgid "Please select at least 1 value"
 msgstr ""
 
-#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:134
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:138
 msgid "Please select at most 1 value"
 msgstr ""
 
-#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:173
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:177
 msgid "Invalid Content Type"
 msgstr ""
 
@@ -3231,47 +3345,52 @@ msgstr ""
 msgid "Terms"
 msgstr "Podmienky"
 
-#: Taxonomy/View/Terms/admin_form.ctp:34
+#: Taxonomy/View/Terms/admin_form.ctp:29
 msgid "Term"
 msgstr "Kľúčové slovo"
 
-#: Taxonomy/View/Terms/admin_index.ctp:15
+#: Taxonomy/View/Terms/admin_index.ctp:13
 msgid "New Term"
 msgstr "Nové kľúčové slovo"
 
-#: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:5
+#: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:8
 msgid "Types"
 msgstr ""
 
-#: Taxonomy/View/Types/admin_form.ctp:119
-msgid "Show author's name"
-msgstr "Zobraz meno autora"
+#: Taxonomy/View/Types/admin_form.ctp:41
+msgid "Enable Wysiwyg Editor"
+msgstr ""
 
-#: Taxonomy/View/Types/admin_form.ctp:123
-msgid "Show date"
-msgstr "Zobraz dátum"
-
-#: Taxonomy/View/Vocabularies/admin_form.ctp:29
+#: Taxonomy/View/Types/admin_form.ctp:50
+#: Taxonomy/View/Vocabularies/admin_form.ctp:26
 msgid "Vocabulary"
 msgstr "Slovník"
 
-#: Taxonomy/View/Vocabularies/admin_form.ctp:30
+#: Taxonomy/View/Types/admin_form.ctp:109
+msgid "Show author's name"
+msgstr "Zobraz meno autora"
+
+#: Taxonomy/View/Types/admin_form.ctp:112
+msgid "Show date"
+msgstr "Zobraz dátum"
+
+#: Taxonomy/View/Vocabularies/admin_form.ctp:27
 msgid "Options"
 msgstr "Nastavenia"
 
-#: Taxonomy/View/Vocabularies/admin_form.ctp:63
+#: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Required"
 msgstr ""
 
-#: Taxonomy/View/Vocabularies/admin_form.ctp:67
+#: Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Multiple"
 msgstr ""
 
-#: Taxonomy/View/Vocabularies/admin_form.ctp:71
+#: Taxonomy/View/Vocabularies/admin_form.ctp:58
 msgid "Tags"
 msgstr ""
 
-#: Taxonomy/View/Vocabularies/admin_index.ctp:31
+#: Taxonomy/View/Vocabularies/admin_index.ctp:30
 msgid "View terms"
 msgstr "Zobraziť pojmy"
 
@@ -3290,6 +3409,10 @@ msgstr "Neplatný záznam."
 #: Translate/Controller/TranslateController.php:76
 msgid "Translations: %s"
 msgstr "Preklady: %s"
+
+#: Translate/Controller/TranslateController.php:109
+msgid "Invalid locale"
+msgstr "Neplatná lokalizácia"
 
 #: Translate/Controller/TranslateController.php:146
 msgid "Translate content: %s (%s)"
@@ -3315,9 +3438,8 @@ msgstr "Lokalizácia bola úspešne zmazaná."
 msgid "Translation for the locale could not be deleted."
 msgstr "Lokalizácia sa nedá zmazať."
 
-#: Translate/Lib/Translations.php:22
-#: Translate/View/Translate/admin_edit.ctp:7;24
-#: Translate/View/Translate/admin_index.ctp:13
+#: Translate/Lib/Translations.php:22;27
+#: Translate/View/Translate/admin_edit.ctp:19;34
 msgid "Translate"
 msgstr ""
 
@@ -3326,13 +3448,17 @@ msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
 msgstr ""
 "Zdroj údajov %s pre CroogoTranslateBehavior of model %s nie je pripojený"
 
+#: Translate/View/Translate/admin_edit.ctp:10
+#: Translate/View/Translate/admin_index.ctp:31
+msgid "Translations"
+msgstr ""
+
 #: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
-#: Users/View/Roles/admin_form.ctp:6 Users/View/Roles/admin_index.ctp:7
+#: Users/View/Roles/admin_form.ctp:8 Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
 msgstr "Skupiny"
 
-#: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:26
-#: Users/View/Users/admin_reset_password.ctp:1
+#: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:25
 msgid "Reset password"
 msgstr "Vygenerovať heslo"
 
@@ -3484,7 +3610,7 @@ msgid "An error occurred. Please try again."
 msgstr "Chyba, skúste znova."
 
 #: Users/Controller/UsersController.php:493
-#: Users/View/Users/admin_reset_password.ctp:9;18
+#: Users/View/Users/admin_reset_password.ctp:11;22
 msgid "Reset Password"
 msgstr "Obnoviť heslo"
 
@@ -3500,7 +3626,7 @@ msgstr "Prihlásenie"
 msgid "Invalid User."
 msgstr "Neplatný uživateľ"
 
-#: Users/Model/User.php:220
+#: Users/Model/User.php:226
 msgid "Passwords do not match. Please, try again."
 msgstr ""
 
@@ -3521,10 +3647,6 @@ msgstr "Ak ste nežiadali nové heslo, prosím ignorujte tento email."
 msgid "Please visit this link to activate your account: %s"
 msgstr "Pre aktiváciu konta kliknite na tento link: %s"
 
-#: Users/View/Roles/admin_form.ctp:23 Users/View/Users/admin_form.ctp:55
-msgid "Role"
-msgstr "Skupiny"
-
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
 msgstr ""
@@ -3533,11 +3655,11 @@ msgstr ""
 msgid "New user"
 msgstr ""
 
-#: Users/View/Users/admin_form.ctp:76
+#: Users/View/Users/admin_form.ctp:62
 msgid "Timezone"
 msgstr ""
 
-#: Users/View/Users/admin_form.ctp:96
+#: Users/View/Users/admin_form.ctp:80
 msgid "Send Activation Email"
 msgstr ""
 
@@ -3553,17 +3675,40 @@ msgstr "Prihlásiť sa"
 msgid "Forgot password?"
 msgstr "Zabudnuté heslo"
 
-#: Users/View/Users/admin_reset_password.ctp:11
-msgid "Reset Password for %s"
+#: Users/View/Users/admin_reset_password.ctp:13
+msgid "Reset Password: %s"
 msgstr ""
 
-#: Users/View/Users/admin_reset_password.ctp:38
+#: Users/View/Users/admin_reset_password.ctp:46
 msgid "Reset"
 msgstr ""
 
 #: Users/View/Users/reset.ctp:6
 msgid "New password"
 msgstr "Nové heslo"
+
+#~ msgid ""
+#~ "Page %page% of %pages%, showing %current% records out of %count% total, "
+#~ "starting on record %start%, ending on %end%"
+#~ msgstr ""
+#~ "Strana %page% of %pages%, zobrazuje %current% záznamov z %count% spolu, "
+#~ "začínajúc s %start%, končiac na %end%"
+
+#~ msgid "Nodes published"
+#~ msgstr "Uzly publikované"
+
+#~ msgid "Nodes unpublished"
+#~ msgstr "Uzly nepublikované"
+
+#~ msgid "Nodes promoted"
+#~ msgstr "Propagované uzly"
+
+#~ msgid "Nodes unpromoted"
+#~ msgstr "Nepropagované uzly"
+
+#, fuzzy
+#~ msgid "Nodes copied"
+#~ msgstr "Uzly publikované"
 
 #~ msgid "Invalid Node"
 #~ msgstr "Chybný Uzol"
