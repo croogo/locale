@@ -90,6 +90,7 @@ msgstr "Τύπος tree προς ανάκτηση"
 #: Comments/View/Comments/admin_index.ctp:48
 #: Contacts/View/Messages/admin_index.ctp:65
 #: Croogo/View/Common/admin_index.ctp:60
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:20
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:39
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:21
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:30
@@ -280,7 +281,7 @@ msgid "Action"
 msgstr "Ενέργεια"
 
 #: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
-#: Nodes/View/Nodes/admin_form.ctp:55 Taxonomy/View/Terms/admin_form.ctp:39
+#: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
 msgstr "Γονέας"
 
@@ -317,8 +318,9 @@ msgstr "Alias"
 #: FileManager/View/FileManager/admin_create_directory.ctp:50
 #: FileManager/View/FileManager/admin_create_file.ctp:49
 #: FileManager/View/FileManager/admin_editfile.ctp:49
+#: FileManager/View/FileManager/admin_rename.ctp:49
 #: FileManager/View/FileManager/admin_upload.ctp:48
-#: Menus/View/Links/admin_form.ctp:117 Nodes/View/Nodes/admin_form.ctp:98
+#: Menus/View/Links/admin_form.ctp:117 Nodes/View/Nodes/admin_form.ctp:106
 #: Settings/View/Languages/admin_form.ctp:52
 #: Settings/View/Settings/admin_form.ctp:65
 #: Taxonomy/View/Terms/admin_form.ctp:60
@@ -335,7 +337,7 @@ msgstr "Δημοσίευση"
 #: Contacts/View/Contacts/admin_form.ctp:104
 #: FileManager/View/Attachments/admin_edit.ctp:52
 #: Menus/View/Links/admin_form.ctp:118 Menus/View/Menus/admin_form.ctp:52
-#: Nodes/View/Nodes/admin_form.ctp:99 Taxonomy/View/Terms/admin_form.ctp:61
+#: Nodes/View/Nodes/admin_form.ctp:107 Taxonomy/View/Terms/admin_form.ctp:61
 #: Taxonomy/View/Types/admin_form.ctp:101
 #: Taxonomy/View/Vocabularies/admin_form.ctp:68
 #: Translate/View/Translate/admin_edit.ctp:53
@@ -353,9 +355,10 @@ msgstr "Εφαρμογή"
 #: FileManager/View/Attachments/admin_edit.ctp:53
 #: FileManager/View/FileManager/admin_create_file.ctp:50
 #: FileManager/View/FileManager/admin_editfile.ctp:50
+#: FileManager/View/FileManager/admin_rename.ctp:50
 #: FileManager/View/FileManager/admin_upload.ctp:49
 #: Install/View/Install/adminuser.ctp:36 Menus/View/Links/admin_form.ctp:119
-#: Menus/View/Menus/admin_form.ctp:53 Nodes/View/Nodes/admin_form.ctp:100
+#: Menus/View/Menus/admin_form.ctp:53 Nodes/View/Nodes/admin_form.ctp:108
 #: Settings/View/Languages/admin_form.ctp:53
 #: Settings/View/Settings/admin_form.ctp:66
 #: Settings/View/Settings/admin_prefix.ctp:54
@@ -382,9 +385,10 @@ msgstr "Αποθήκευση"
 #: FileManager/View/FileManager/admin_create_directory.ctp:52
 #: FileManager/View/FileManager/admin_create_file.ctp:51
 #: FileManager/View/FileManager/admin_editfile.ctp:51
+#: FileManager/View/FileManager/admin_rename.ctp:51
 #: FileManager/View/FileManager/admin_upload.ctp:50
 #: Install/View/Install/adminuser.ctp:37 Menus/View/Links/admin_form.ctp:120
-#: Menus/View/Menus/admin_form.ctp:54 Nodes/View/Nodes/admin_form.ctp:101
+#: Menus/View/Menus/admin_form.ctp:54 Nodes/View/Nodes/admin_form.ctp:109
 #: Settings/View/Languages/admin_form.ctp:55
 #: Settings/View/Settings/admin_form.ctp:67
 #: Settings/View/Settings/admin_prefix.ctp:55
@@ -433,9 +437,11 @@ msgstr "Επεξεργασία Ενεργειών"
 #: Comments/View/Comments/admin_index.ctp:42
 #: Contacts/View/Messages/admin_index.ctp:60
 #: FileManager/View/Attachments/admin_browse.ctp:21
+#: FileManager/View/Attachments/admin_chooser.ctp:5
 #: FileManager/View/Attachments/admin_index.ctp:11
 #: Menus/View/Links/admin_index.ctp:39 Menus/View/Menus/admin_index.ctp:12
-#: Nodes/View/Nodes/admin_chooser.ctp:5 Nodes/View/Nodes/admin_index.ctp:31
+#: Nodes/View/Nodes/admin_chooser.ctp:5
+#: Nodes/View/Nodes/admin_hierarchy.ctp:36 Nodes/View/Nodes/admin_index.ctp:31
 #: Settings/View/Languages/admin_index.ctp:15
 #: Settings/View/Settings/admin_index.ctp:18
 #: Settings/View/Settings/admin_view.ctp:4
@@ -448,8 +454,9 @@ msgstr "Id"
 #: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
 #: Blocks/View/Blocks/admin_index.ctp:35
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:56
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:61
-#: Menus/View/Links/admin_index.ctp:56
+#: Menus/View/Links/admin_index.ctp:56 Nodes/View/Nodes/admin_hierarchy.ctp:95
 #: Settings/View/Languages/admin_index.ctp:34
 #: Settings/View/Settings/admin_index.ctp:33
 #: Taxonomy/View/Terms/admin_index.ctp:42
@@ -460,8 +467,9 @@ msgstr "Μετακίνηση επάνω"
 #: Acl/View/AclActions/admin_index.ctp:108
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
 #: Blocks/View/Blocks/admin_index.ctp:39
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:63
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:67
-#: Menus/View/Links/admin_index.ctp:62
+#: Menus/View/Links/admin_index.ctp:62 Nodes/View/Nodes/admin_hierarchy.ctp:99
 #: Settings/View/Languages/admin_index.ctp:38
 #: Settings/View/Settings/admin_index.ctp:37
 #: Taxonomy/View/Terms/admin_index.ctp:46
@@ -478,7 +486,8 @@ msgstr "Μετακίνηση κάτω"
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:37
 #: FileManager/View/Attachments/admin_index.ctp:27
 #: Menus/View/Links/admin_index.ctp:68 Menus/View/Menus/admin_index.ctp:35
-#: Nodes/View/Nodes/admin_index.ctp:89
+#: Nodes/View/Nodes/admin_hierarchy.ctp:103
+#: Nodes/View/Nodes/admin_index.ctp:96
 #: Settings/View/Languages/admin_index.ctp:42
 #: Settings/View/Settings/admin_index.ctp:41
 #: Taxonomy/View/Terms/admin_index.ctp:50
@@ -495,7 +504,9 @@ msgstr "Επεξεργασία αντικειμένου"
 #: Croogo/View/Common/admin_index.ctp:91
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:41
 #: FileManager/View/Attachments/admin_index.ctp:31
-#: Menus/View/Menus/admin_index.ctp:40 Nodes/View/Nodes/admin_index.ctp:104
+#: Menus/View/Menus/admin_index.ctp:40
+#: Nodes/View/Nodes/admin_hierarchy.ctp:110
+#: Nodes/View/Nodes/admin_index.ctp:111
 #: Settings/View/Languages/admin_index.ctp:46
 #: Settings/View/Settings/admin_index.ctp:46
 #: Taxonomy/View/Terms/admin_index.ctp:54
@@ -515,9 +526,10 @@ msgstr "Διαγραφή αντικειμένου"
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:127
 #: FileManager/View/Attachments/admin_browse.ctp:42
 #: FileManager/View/Attachments/admin_index.ctp:32
-#: FileManager/View/Helper/FileManagerHelper.php:137
+#: FileManager/View/Helper/FileManagerHelper.php:154
 #: Menus/View/Links/admin_index.ctp:88 Menus/View/Menus/admin_index.ctp:41
-#: Nodes/View/Nodes/admin_index.ctp:107
+#: Nodes/View/Nodes/admin_hierarchy.ctp:113
+#: Nodes/View/Nodes/admin_index.ctp:114
 #: Nodes/View/Nodes/admin_translations.ctp:34
 #: Settings/View/Languages/admin_index.ctp:47
 #: Settings/View/Settings/admin_index.ctp:47
@@ -583,33 +595,41 @@ msgid "Block deleted"
 msgstr "To Block διαγράφηκε"
 
 #: Blocks/Controller/BlocksController.php:205
+#: Dashboards/Controller/DashboardsDashboardsController.php:126
 #: Menus/Controller/LinksController.php:273
+#: Nodes/Controller/NodesController.php:197
 #: Settings/Controller/LanguagesController.php:122
-#: Settings/Controller/SettingsController.php:210
+#: Settings/Controller/SettingsController.php:199
 #: Taxonomy/Controller/VocabulariesController.php:132
 msgid "Moved up successfully"
 msgstr "Επιτυχής μετακίνηση επάνω"
 
 #: Blocks/Controller/BlocksController.php:207
+#: Dashboards/Controller/DashboardsDashboardsController.php:128
 #: Menus/Controller/LinksController.php:275
+#: Nodes/Controller/NodesController.php:199
 #: Settings/Controller/LanguagesController.php:124
-#: Settings/Controller/SettingsController.php:212
+#: Settings/Controller/SettingsController.php:201
 #: Taxonomy/Controller/VocabulariesController.php:134
 msgid "Could not move up"
 msgstr "Δεν μπόρεσε να μετακινηθεί επάνω"
 
 #: Blocks/Controller/BlocksController.php:223
+#: Dashboards/Controller/DashboardsDashboardsController.php:142
 #: Menus/Controller/LinksController.php:305
+#: Nodes/Controller/NodesController.php:212
 #: Settings/Controller/LanguagesController.php:140
-#: Settings/Controller/SettingsController.php:236
+#: Settings/Controller/SettingsController.php:225
 #: Taxonomy/Controller/VocabulariesController.php:150
 msgid "Moved down successfully"
 msgstr "Επιτυχής μετακίνηση κάτω"
 
 #: Blocks/Controller/BlocksController.php:225
+#: Dashboards/Controller/DashboardsDashboardsController.php:144
 #: Menus/Controller/LinksController.php:307
+#: Nodes/Controller/NodesController.php:214
 #: Settings/Controller/LanguagesController.php:142
-#: Settings/Controller/SettingsController.php:238
+#: Settings/Controller/SettingsController.php:227
 #: Taxonomy/Controller/VocabulariesController.php:152
 msgid "Could not move down"
 msgstr "Δεν μπόρεσε να μετακινηθεί κάτω"
@@ -670,7 +690,7 @@ msgid "Block"
 msgstr "Block"
 
 #: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
-#: Nodes/View/Nodes/admin_form.ctp:47
+#: Nodes/View/Nodes/admin_form.ctp:55
 msgid "Access"
 msgstr "Πρόσβαση"
 
@@ -692,12 +712,13 @@ msgstr "Παράμετροι"
 #: Contacts/View/Messages/admin_form.ctp:32
 #: Contacts/View/Messages/admin_index.ctp:64
 #: FileManager/View/Attachments/admin_browse.ctp:23
+#: FileManager/View/Attachments/admin_chooser.ctp:6
 #: FileManager/View/Attachments/admin_edit.ctp:26
 #: FileManager/View/Attachments/admin_index.ctp:13
 #: Menus/View/Links/admin_form.ctp:71 Menus/View/Links/admin_index.ctp:40
 #: Menus/View/Menus/admin_form.ctp:30 Menus/View/Menus/admin_index.ctp:13
-#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:68
-#: Nodes/View/Nodes/admin_index.ctp:32
+#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:76
+#: Nodes/View/Nodes/admin_hierarchy.ctp:37 Nodes/View/Nodes/admin_index.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:25
 #: Settings/View/Languages/admin_form.ctp:35
 #: Settings/View/Languages/admin_index.ctp:16
@@ -724,7 +745,7 @@ msgstr "εάν δεν είστε σίγουρος, επιλέξτε 'none'"
 #: Blocks/View/Blocks/admin_form.ctp:45
 #: Comments/View/Comments/admin_form.ctp:26
 #: Contacts/View/Contacts/admin_form.ctp:40
-#: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:78
+#: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:86
 msgid "Body"
 msgstr "Κυρίως μέρος"
 
@@ -737,7 +758,7 @@ msgid "Element"
 msgstr "Στοιχείο"
 
 #: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:89
-#: Nodes/View/Nodes/admin_form.ctp:85 Users/View/Roles/admin_form.ctp:21
+#: Nodes/View/Nodes/admin_form.ctp:93 Users/View/Roles/admin_form.ctp:21
 #: Users/View/Users/admin_form.ctp:45
 msgid "Role"
 msgstr "Ρόλος"
@@ -759,22 +780,25 @@ msgid "Show title ?"
 msgstr "Εμφάνιση τίτλου;"
 
 #: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
-#: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:132
+#: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
 #, fuzzy
 msgid "Publish Start"
 msgstr "Δημοσίευση ως"
 
 #: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
-#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:136
+#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:144
 #, fuzzy
 msgid "Publish End"
 msgstr "Δημοσιευμένο"
 
 #: Blocks/View/Blocks/admin_index.ctp:23
 #: Croogo/Console/Command/ExtShell.php:236;262
+#: FileManager/View/Attachments/admin_chooser.ctp:45
+#: FileManager/View/Elements/admin/attachments_search.ctp:40
 #: Menus/View/Links/admin_index.ctp:41 Menus/View/Menus/admin_index.ctp:16
 #: Nodes/View/Elements/admin/nodes_search.ctp:39
-#: Nodes/View/Nodes/admin_chooser.ctp:54 Nodes/View/Nodes/admin_index.ctp:35
+#: Nodes/View/Nodes/admin_chooser.ctp:54
+#: Nodes/View/Nodes/admin_hierarchy.ctp:40 Nodes/View/Nodes/admin_index.ctp:35
 #: Settings/View/Languages/admin_form.ctp:60
 #: Settings/View/Languages/admin_index.ctp:19
 #: Users/View/Users/admin_form.ctp:86
@@ -782,7 +806,7 @@ msgid "Status"
 msgstr "Κατάσταση"
 
 #: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
-#: Nodes/View/Nodes/admin_index.ctp:95
+#: Nodes/View/Nodes/admin_index.ctp:102
 #, fuzzy
 msgid "Create a copy"
 msgstr "Δημιουργία καταλόγου"
@@ -796,19 +820,24 @@ msgid "Choose"
 msgstr "Επιλογή"
 
 #: Blocks/View/Blocks/admin_index.ctp:84 Menus/View/Links/admin_index.ctp:93
-#: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_index.ctp:66
+#: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_hierarchy.ctp:71
+#: Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
 msgstr ""
 
 #: Blocks/View/Blocks/admin_index.ctp:114
 #: Comments/View/Comments/admin_index.ctp:109
-#: Menus/View/Links/admin_index.ctp:119 Nodes/View/Nodes/admin_index.ctp:123
+#: Menus/View/Links/admin_index.ctp:119
+#: Nodes/View/Nodes/admin_hierarchy.ctp:129
+#: Nodes/View/Nodes/admin_index.ctp:130
 msgid "Publish"
 msgstr "Δημοσίευση"
 
 #: Blocks/View/Blocks/admin_index.ctp:115
 #: Comments/View/Comments/admin_index.ctp:110
-#: Menus/View/Links/admin_index.ctp:120 Nodes/View/Nodes/admin_index.ctp:124
+#: Menus/View/Links/admin_index.ctp:120
+#: Nodes/View/Nodes/admin_hierarchy.ctp:130
+#: Nodes/View/Nodes/admin_index.ctp:131
 msgid "Unpublish"
 msgstr "Κατάργηση δημοσίευσης"
 
@@ -818,22 +847,26 @@ msgstr "Κατάργηση δημοσίευσης"
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:53
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:121
 #: FileManager/View/Attachments/admin_browse.ctp:42
-#: FileManager/View/FileManager/admin_browse.ctp:61;102
-#: Menus/View/Links/admin_index.ctp:121 Nodes/View/Nodes/admin_index.ctp:127
+#: FileManager/View/FileManager/admin_browse.ctp:61;106
+#: Menus/View/Links/admin_index.ctp:121
+#: Nodes/View/Nodes/admin_hierarchy.ctp:133
+#: Nodes/View/Nodes/admin_index.ctp:134
 #: Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
 msgstr "Διαγραφή"
 
 #: Blocks/View/Blocks/admin_index.ctp:117 Menus/View/Links/admin_index.ctp:124
-#: Nodes/View/Nodes/admin_index.ctp:130
+#: Nodes/View/Nodes/admin_hierarchy.ctp:136
+#: Nodes/View/Nodes/admin_index.ctp:137
 msgid "Copy"
 msgstr ""
 
 #: Blocks/View/Blocks/admin_index.ctp:121
 #: Comments/View/Comments/admin_index.ctp:115
 #: Contacts/View/Messages/admin_index.ctp:126
-#: Menus/View/Links/admin_index.ctp:130 Nodes/View/Nodes/admin_index.ctp:138
-#: Users/View/Users/forgot.ctp:9
+#: Menus/View/Links/admin_index.ctp:130
+#: Nodes/View/Nodes/admin_hierarchy.ctp:144
+#: Nodes/View/Nodes/admin_index.ctp:145 Users/View/Users/forgot.ctp:9
 msgid "Submit"
 msgstr "Προσθήκη"
 
@@ -851,6 +884,7 @@ msgstr "Σχόλια"
 #: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
 #: Comments/View/Comments/admin_index.ctp:14;29
 #: Contacts/View/Contacts/admin_form.ctp:112 Croogo/Lib/CroogoStatus.php:40
+#: FileManager/View/Elements/admin/attachments_search.ctp:37
 #: Nodes/View/Elements/admin/nodes_search.ctp:36
 msgid "Published"
 msgstr "Δημοσιευμένο"
@@ -942,9 +976,9 @@ msgstr "Λάθος Comment id"
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:21;28
 #: Nodes/Config/admin_menu.php:5 Nodes/Controller/NodesController.php:108
 #: Nodes/View/Nodes/admin_create.ctp:5 Nodes/View/Nodes/admin_form.ctp:9
-#: Nodes/View/Nodes/admin_index.ctp:8 Taxonomy/View/Terms/admin_form.ctp:8
-#: Taxonomy/View/Terms/admin_index.ctp:7 Taxonomy/View/Types/admin_form.ctp:6
-#: Taxonomy/View/Types/admin_index.ctp:7
+#: Nodes/View/Nodes/admin_hierarchy.ctp:8 Nodes/View/Nodes/admin_index.ctp:8
+#: Taxonomy/View/Terms/admin_form.ctp:8 Taxonomy/View/Terms/admin_index.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:6 Taxonomy/View/Types/admin_index.ctp:7
 #: Taxonomy/View/Vocabularies/admin_form.ctp:7
 #: Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
@@ -1006,7 +1040,8 @@ msgid "Node"
 msgstr ""
 
 #: Comments/View/Comments/admin_index.ctp:47
-#: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:127
+#: FileManager/View/Attachments/admin_chooser.ctp:7;49
+#: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:135
 msgid "Created"
 msgstr "Δημιουργημένο"
 
@@ -1345,7 +1380,7 @@ msgstr "Όνομα επέκτασης"
 msgid "Plugin \"%s\" activated successfully."
 msgstr "Το \"%s\" ενεργοποιήθηκε επιτυχώς."
 
-#: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:557
+#: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:558
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr "Το \"%s\" δεν μπόρεσε να ενεργοποιηθεί. Παρακαλώ, δοκιμάστε ξανά."
 
@@ -1522,7 +1557,7 @@ msgstr "Αναβάθμιση \"%s\""
 msgid "Command not recognized"
 msgstr "Η εντολή δεν αναγνωρίσθηκε"
 
-#: Croogo/Controller/CroogoAppController.php:269
+#: Croogo/Controller/CroogoAppController.php:268
 msgid "Site down for maintenance"
 msgstr "Η σελίδα βρίσκεται σε κατάσταση συντήρησης"
 
@@ -1544,7 +1579,7 @@ msgid "%s processed"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
-#: FileManager/Controller/FileManagerController.php:226;259;322;355
+#: FileManager/Controller/FileManagerController.php:229;262;351;384
 msgid "An error occured"
 msgstr "Προέκυψε ένα σφάλμα"
 
@@ -1560,12 +1595,12 @@ msgstr ""
 msgid "Logout"
 msgstr ""
 
-#: Croogo/Controller/Component/CroogoComponent.php:291
-#: Nodes/Controller/NodesController.php:205;660;680
+#: Croogo/Controller/Component/CroogoComponent.php:292
+#: Nodes/Controller/NodesController.php:288;748;768
 msgid "Invalid content"
 msgstr "Άκυρο περιεχόμενο"
 
-#: Croogo/Controller/Component/CroogoComponent.php:300
+#: Croogo/Controller/Component/CroogoComponent.php:301
 msgid "Failed toggling field %s to %s"
 msgstr "Αποτυχία πεδίου εναλλαγής %s σε %s"
 
@@ -1578,6 +1613,7 @@ msgid "Unable to get routeable content types: %s"
 msgstr "Αδύνατο να βρεθεί του routeable τύπου περιεχομένου: %s"
 
 #: Croogo/Lib/CroogoStatus.php:39
+#: FileManager/View/Elements/admin/attachments_search.ctp:38
 #: Nodes/View/Elements/admin/nodes_search.ctp:37
 msgid "Unpublished"
 msgstr "Αφαίρεση δημοσίευσης"
@@ -1618,7 +1654,7 @@ msgstr "Η ενέργεια διαγράφηκε."
 
 #: Croogo/View/Common/admin_edit.ctp:11
 #: FileManager/View/Attachments/admin_browse.ctp:35
-#: FileManager/View/FileManager/admin_browse.ctp:93
+#: FileManager/View/FileManager/admin_browse.ctp:97
 #: FileManager/View/FileManager/admin_editfile.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
@@ -1638,10 +1674,11 @@ msgid "Powered by %s"
 msgstr ""
 
 #: Croogo/View/Elements/admin/header.ctp:18
+#: Dashboards/Config/admin_menu.php:5;11
+#: Dashboards/Controller/DashboardsDashboardsController.php:55
+#: Dashboards/View/DashboardsDashboards/admin_dashboard.ctp:8
 #: Extensions/Controller/ExtensionsDashboardController.php:11
 #: Extensions/View/ExtensionsDashboard/admin_index.ctp:5
-#: Settings/Controller/SettingsController.php:69
-#: Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
 msgstr ""
 
@@ -1674,6 +1711,7 @@ msgid "last"
 msgstr "τέλος"
 
 #: Croogo/View/Elements/admin/search.ctp:46
+#: FileManager/View/Elements/admin/attachments_search.ctp:53
 #: Nodes/View/Elements/admin/nodes_search.ctp:52
 msgid "Filter"
 msgstr "Φίλτρο"
@@ -1703,7 +1741,7 @@ msgstr "Σφάλμα Ασφαλείας"
 msgid "Request blackholed due to \"%s\" violation."
 msgstr "Η πρόσβαση δεν επιτρέπεται λόγω παραβίασης του \"%s\""
 
-#: Croogo/View/Helper/LayoutHelper.php:94
+#: Croogo/View/Helper/LayoutHelper.php:95
 msgid "Method %1$s::%2$s does not exist"
 msgstr "Η μέθοδος %1$s::%2$s δεν υπάρχει"
 
@@ -1720,6 +1758,43 @@ msgstr "Πίσω στο"
 #: Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
 msgstr "Η σελίδα βρίσκεται υπό συντήρηση"
+
+#: Dashboards/Config/admin_dashboard.php:5
+msgid "Croogo News"
+msgstr ""
+
+#: Dashboards/Controller/DashboardsDashboardsController.php:97
+msgid "Invalid id for Dashboard"
+msgstr ""
+
+#: Dashboards/Controller/DashboardsDashboardsController.php:101
+msgid "Dashboard deleted"
+msgstr ""
+
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:2;7
+msgid "Dashboards"
+msgstr ""
+
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
+#: Settings/View/Settings/admin_view.ctp:44
+msgid "Are you sure you want to delete # %s?"
+msgstr "Είστε σίγουρος θέλετε να διαγράψετε το # %s;"
+
+#: Dashboards/View/Helper/DashboardsHelper.php:131
+msgid "Left"
+msgstr ""
+
+#: Dashboards/View/Helper/DashboardsHelper.php:134
+msgid "Right"
+msgstr ""
+
+#: Dashboards/View/Helper/DashboardsHelper.php:137
+msgid "Full"
+msgstr ""
+
+#: Example/Config/admin_dashboard.php:5
+msgid "Welcome"
+msgstr ""
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
@@ -1811,7 +1886,7 @@ msgid "Upload a new plugin"
 msgstr "Ανέβασμα νέου plugin"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
-#: Extensions/Lib/CroogoPlugin.php:684
+#: Extensions/Lib/CroogoPlugin.php:685
 #: Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
 msgstr "Άκυρο plugin"
@@ -1829,7 +1904,7 @@ msgid "Plugin could not be deleted."
 msgstr "Το plugin δεν μπόρεσε να διαγραφεί"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:152
-#: Extensions/Lib/CroogoPlugin.php:599
+#: Extensions/Lib/CroogoPlugin.php:600
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr "Το plugin δεν μπόρεσε να απενεργοποιηθεί. Παρακαλώ, δοκιμάστε ξανά."
 
@@ -1894,44 +1969,44 @@ msgstr "Το θέμα διαγράφημε με επιτυχία"
 msgid "An error occurred."
 msgstr "Προέκυψε ένα σφάλμα"
 
-#: Extensions/Lib/CroogoPlugin.php:529
+#: Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin \"%s\" is already active."
 msgstr "Το Plugin \"%s\" είναι ήδη ενεργό"
 
-#: Extensions/Lib/CroogoPlugin.php:555
+#: Extensions/Lib/CroogoPlugin.php:556
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
 msgstr "Το Plugin \"%s\" εξαρτάται από το Plugin \"%s\""
 
-#: Extensions/Lib/CroogoPlugin.php:586
+#: Extensions/Lib/CroogoPlugin.php:587
 msgid "Plugin \"%s\" is not active."
 msgstr "Το Plugin \"%s\" δεν είναι ενεργό."
 
-#: Extensions/Lib/CroogoPlugin.php:714
+#: Extensions/Lib/CroogoPlugin.php:715
 msgid "%s is already at the first position"
 msgstr "To %s βρίσκεται ήδη στη πρώτη θέση"
 
-#: Extensions/Lib/CroogoPlugin.php:720;732
+#: Extensions/Lib/CroogoPlugin.php:721;733
 msgid "Plugin %s depends on %s"
 msgstr "Το Plugin %s εξαρτάται από το %s"
 
-#: Extensions/Lib/CroogoPlugin.php:725
+#: Extensions/Lib/CroogoPlugin.php:726
 msgid "%s is already at the last position"
 msgstr "To %s βρίσκεται ήδη στη τελευταία θέση"
 
-#: Extensions/Lib/CroogoPlugin.php:736
+#: Extensions/Lib/CroogoPlugin.php:737
 msgid "Invalid direction"
 msgstr "Λάθος διαδρομή"
 
-#: Extensions/Lib/CroogoPlugin.php:741
+#: Extensions/Lib/CroogoPlugin.php:742
 msgid "Plugin %s cannot be reordered"
 msgstr "To Plugin %s δεν μπορεί να αλλάξει σειρά"
 
-#: Extensions/Lib/CroogoTheme.php:248
+#: Extensions/Lib/CroogoTheme.php:252
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr "Άκυρο θέμα"
 
-#: Extensions/Lib/CroogoTheme.php:269
+#: Extensions/Lib/CroogoTheme.php:273
 msgid "Theme %s not found"
 msgstr "Το θέμα %s δεν βρέθηκε"
 
@@ -1998,7 +2073,7 @@ msgstr ""
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:16
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:15
-#: FileManager/Controller/FileManagerController.php:180
+#: FileManager/Controller/FileManagerController.php:183
 #: FileManager/View/Attachments/admin_add.ctp:8;21;29;42
 #: FileManager/View/FileManager/admin_upload.ctp:8;32
 msgid "Upload"
@@ -2062,7 +2137,7 @@ msgid "Media"
 msgstr ""
 
 #: FileManager/Config/admin_menu.php:15
-#: FileManager/Controller/AttachmentsController.php:99
+#: FileManager/Controller/AttachmentsController.php:117
 #: FileManager/View/Attachments/admin_add.ctp:7
 #: FileManager/View/Attachments/admin_edit.ctp:7
 #: FileManager/View/Attachments/admin_index.ctp:7
@@ -2070,88 +2145,109 @@ msgid "Attachments"
 msgstr "Συνημμένο"
 
 #: FileManager/Config/admin_menu.php:24
-#: FileManager/Controller/FileManagerController.php:113
+#: FileManager/Controller/FileManagerController.php:117
 #: FileManager/View/FileManager/admin_browse.ctp:7
 #: FileManager/View/FileManager/admin_create_directory.ctp:7
 #: FileManager/View/FileManager/admin_create_file.ctp:7
 #: FileManager/View/FileManager/admin_editfile.ctp:7
+#: FileManager/View/FileManager/admin_rename.ctp:7
 #: FileManager/View/FileManager/admin_upload.ctp:7
 msgid "File Manager"
 msgstr "Διαχειριστής αρχείων"
 
-#: FileManager/Controller/AttachmentsController.php:113
+#: FileManager/Controller/AttachmentsController.php:155
 msgid "Add Attachment"
 msgstr "Προσθήκη συνημμένων"
 
-#: FileManager/Controller/AttachmentsController.php:122
+#: FileManager/Controller/AttachmentsController.php:164
 msgid "Upload failed. Please ensure size does not exceed the server limit."
 msgstr ""
 "Το ανέβασμα απέτυχε. Παρακαλώ επιβεβαιώστε ότι το μέγεθος δεν ξεπερνά τα "
 "όρια του server."
 
-#: FileManager/Controller/AttachmentsController.php:129;162
+#: FileManager/Controller/AttachmentsController.php:171;204
 msgid "The Attachment has been saved"
 msgstr "To συνημμένο αποθηκεύτηκε."
 
-#: FileManager/Controller/AttachmentsController.php:137;165
+#: FileManager/Controller/AttachmentsController.php:179;207
 msgid "The Attachment could not be saved. Please, try again."
 msgstr "Το συνημμένο δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
 
-#: FileManager/Controller/AttachmentsController.php:150
+#: FileManager/Controller/AttachmentsController.php:192
 msgid "Edit Attachment"
 msgstr "Επεξεργασία συνημμένου"
 
-#: FileManager/Controller/AttachmentsController.php:157
+#: FileManager/Controller/AttachmentsController.php:199
 msgid "Invalid Attachment"
 msgstr "Άκυρο συνημμένο"
 
-#: FileManager/Controller/AttachmentsController.php:182;190
+#: FileManager/Controller/AttachmentsController.php:224;232
 msgid "Invalid id for Attachment"
 msgstr "Άκυρο id για το συνημμένο"
 
-#: FileManager/Controller/AttachmentsController.php:187
+#: FileManager/Controller/AttachmentsController.php:229
 msgid "Attachment deleted"
 msgstr "Το συνημμένο διαγράφηκε"
 
-#: FileManager/Controller/FileManagerController.php:118;150;190;219;252;311;345
+#: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
 msgid "Path %s is restricted"
 msgstr "Δεν επιτρέπεται η πρόσβαση στο %s"
 
-#: FileManager/Controller/FileManagerController.php:153
+#: FileManager/Controller/FileManagerController.php:157
 msgid "Edit file: %s"
 msgstr "Επεξεργασία αρχείου: %s"
 
-#: FileManager/Controller/FileManagerController.php:164
+#: FileManager/Controller/FileManagerController.php:167
 msgid "File saved successfully"
 msgstr "Το αρχείο αποθηκεύτηκε επιτυχώς."
 
-#: FileManager/Controller/FileManagerController.php:198
+#: FileManager/Controller/FileManagerController.php:201
 msgid "File uploaded successfully."
 msgstr "Το αρχείο δεν μπόρεσε να αποθηκευτεί με επιτυχία."
 
-#: FileManager/Controller/FileManagerController.php:224
+#: FileManager/Controller/FileManagerController.php:227
 msgid "File deleted"
 msgstr "Το αρχείο διαγράφηκε"
 
-#: FileManager/Controller/FileManagerController.php:257
+#: FileManager/Controller/FileManagerController.php:260
 msgid "Directory deleted"
 msgstr "Ο κατάλογος διαγράφηκε"
 
+#: FileManager/Controller/FileManagerController.php:285
+msgid "Path \"%s\" cannot be renamed"
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:298
+msgid "%s already exists"
+msgstr ""
+
 #: FileManager/Controller/FileManagerController.php:302
+msgid "\"%s\" has been renamed to \"%s\""
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:305
+msgid "Could not rename \"%s\" to \"%s\""
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:310
+msgid "Name has not changed"
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:331
 #: FileManager/View/FileManager/admin_create_directory.ctp:8
 msgid "Create Directory"
 msgstr "Δημιουργία καταλόγου"
 
-#: FileManager/Controller/FileManagerController.php:318
+#: FileManager/Controller/FileManagerController.php:347
 msgid "Directory created successfully."
 msgstr "Ο κατάλογος δημιουρηθηκε με επιτυχία"
 
-#: FileManager/Controller/FileManagerController.php:336
+#: FileManager/Controller/FileManagerController.php:365
 #: FileManager/View/FileManager/admin_create_file.ctp:8
 msgid "Create File"
 msgstr "Δημιουργία αρχείου"
 
-#: FileManager/Controller/FileManagerController.php:351
+#: FileManager/Controller/FileManagerController.php:380
 msgid "File created successfully."
 msgstr "Το αρχείο δημιουρηθηκε με επιτυχία"
 
@@ -2172,6 +2268,18 @@ msgstr ""
 msgid "Insert"
 msgstr "Εισαγωγή"
 
+#: FileManager/View/Attachments/admin_chooser.ctp:4
+#: Nodes/View/Nodes/admin_chooser.ctp:4
+msgid "Sort by:"
+msgstr "Κατανομή: "
+
+#: FileManager/View/Attachments/admin_chooser.ctp:41
+#: FileManager/View/Elements/admin/attachments_search.ctp:48
+#: Nodes/View/Elements/admin/nodes_search.ctp:47
+#: Nodes/View/Nodes/admin_chooser.ctp:50
+msgid "Promoted"
+msgstr "Αρχική σελίδα"
+
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
 msgstr "Συνημμένο"
@@ -2187,6 +2295,27 @@ msgstr ""
 #: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
 msgstr ""
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:28
+#: Nodes/View/Elements/search.ctp:7 Nodes/View/Elements/search2.ctp:8
+#: Nodes/View/Elements/admin/nodes_search.ctp:22
+msgid "Search"
+msgstr "Έρευνα"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:29
+#: Nodes/View/Elements/admin/nodes_search.ctp:23
+msgid "Search..."
+msgstr "Έρευνα..."
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:45
+#: Nodes/View/Elements/admin/nodes_search.ctp:44
+msgid "Yes"
+msgstr "Ναι"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:46
+#: Nodes/View/Elements/admin/nodes_search.ctp:45
+msgid "No"
+msgstr "Όχι"
 
 #: FileManager/View/FileManager/admin_browse.ctp:14
 msgid "Upload here"
@@ -2204,6 +2333,7 @@ msgstr "Δημιουργία αρχείου"
 #: FileManager/View/FileManager/admin_create_directory.ctp:21
 #: FileManager/View/FileManager/admin_create_file.ctp:13
 #: FileManager/View/FileManager/admin_editfile.ctp:13
+#: FileManager/View/FileManager/admin_rename.ctp:13
 #: FileManager/View/FileManager/admin_upload.ctp:13
 msgid "You are here"
 msgstr "Βρίσκεστε εδώ"
@@ -2216,7 +2346,12 @@ msgstr "Περιεχόμενο καταλόγου"
 msgid "Open"
 msgstr "Άνοιγμα"
 
-#: FileManager/View/FileManager/admin_browse.ctp:87
+#: FileManager/View/FileManager/admin_browse.ctp:66;111
+#: FileManager/View/FileManager/admin_rename.ctp:8
+msgid "Rename"
+msgstr ""
+
+#: FileManager/View/FileManager/admin_browse.ctp:91
 msgid "View"
 msgstr "Προβολή"
 
@@ -2235,12 +2370,17 @@ msgid "Create"
 msgstr "Δημιουργία"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:33
+#: FileManager/View/FileManager/admin_rename.ctp:33
 msgid "File"
 msgstr "Αρχείο"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
 msgstr "Όνομα αρχείου"
+
+#: FileManager/View/FileManager/admin_rename.ctp:41
+msgid "New name"
+msgstr ""
 
 #: Install/Console/Command/InstallShell.php:27
 msgid "Install Utilities"
@@ -2632,7 +2772,7 @@ msgstr ""
 msgid "Delete this item"
 msgstr "Διαγραφή του αντικειμένου"
 
-#: Menus/View/Links/admin_link_chooser.ctp:11
+#: Menus/View/Links/admin_link_chooser.ctp:12
 msgid "Link to %s"
 msgstr ""
 
@@ -2673,83 +2813,86 @@ msgstr "Αφαίρεση"
 msgid "List"
 msgstr "Λίστα"
 
-#: Nodes/Controller/NodesController.php:143
+#: Nodes/Controller/NodesController.php:145
+msgid "Type must be specified"
+msgstr ""
+
+#: Nodes/Controller/NodesController.php:226
 #: Nodes/View/Nodes/admin_index.ctp:12
 msgid "Create content"
 msgstr "Δημιουργία περιεχομένου"
 
-#: Nodes/Controller/NodesController.php:164
+#: Nodes/Controller/NodesController.php:247
 msgid "Content type does not exist."
 msgstr "Ο τύπος περιεχομένου δεν υπάρχει."
 
-#: Nodes/Controller/NodesController.php:175;216
+#: Nodes/Controller/NodesController.php:258;299
 msgid "%s has been saved"
 msgstr "%s σώθηκε"
 
-#: Nodes/Controller/NodesController.php:178;219
+#: Nodes/Controller/NodesController.php:261;302
 msgid "%s could not be saved. Please, try again."
 msgstr "%s δεν μπόρεσε να σωθεί. Παρακαλώ, δοκιμάστε ξανά."
 
-#: Nodes/Controller/NodesController.php:185
+#: Nodes/Controller/NodesController.php:268
 msgid "Create content: %s"
 msgstr "Δημιουργία περιεχομένου: %s"
 
-#: Nodes/Controller/NodesController.php:229
+#: Nodes/Controller/NodesController.php:315
 msgid "Edit %s: %s"
 msgstr "Επεξεργασία %s: %s"
 
-#: Nodes/Controller/NodesController.php:242
+#: Nodes/Controller/NodesController.php:328
 msgid "Paths updated."
 msgstr "Τα μονοπάτια αναβαθμίστηκαν"
 
-#: Nodes/Controller/NodesController.php:245
+#: Nodes/Controller/NodesController.php:331
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
 msgstr "Κάποιο σφάλμα προέκυψε. Παρακαλώ δοκιμάστε ξανά."
 
-#: Nodes/Controller/NodesController.php:262
+#: Nodes/Controller/NodesController.php:348
 msgid "Invalid id for Node"
 msgstr "Άκυρο id για Node"
 
-#: Nodes/Controller/NodesController.php:268
+#: Nodes/Controller/NodesController.php:354
 msgid "Node deleted"
 msgstr "To Node διαγράφηκε"
 
-#: Nodes/Controller/NodesController.php:321
-msgid "Nodes deleted"
-msgstr "Τα Nodes διαγράφηκαν"
+#: Nodes/Controller/NodesController.php:409
+msgid "%s deleted"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:322
-msgid "Nodes published"
-msgstr "Τα Nodes δημοσιεύθηκαν"
+#: Nodes/Controller/NodesController.php:410
+msgid "%s published"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:323
-msgid "Nodes unpublished"
-msgstr "Τα Nodes δεν είναι δημοσιευμένα"
+#: Nodes/Controller/NodesController.php:411
+msgid "%s unpublished"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:324
-msgid "Nodes promoted"
-msgstr "Τα nodes μπήκαν στη πρώτη σελίδα"
+#: Nodes/Controller/NodesController.php:412
+msgid "%s promoted"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:325
-msgid "Nodes unpromoted"
-msgstr "Τα nodes αφαιρέθηκαν από τη πρώτη σελίδα"
+#: Nodes/Controller/NodesController.php:413
+msgid "%s unpromoted"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:326
-#, fuzzy
-msgid "Nodes copied"
-msgstr "Τα Nodes δημοσιεύθηκαν"
+#: Nodes/Controller/NodesController.php:414
+msgid "%s copied"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:379;480;552;615
+#: Nodes/Controller/NodesController.php:467;568;640;703
 msgid "Invalid content type."
 msgstr "Άκυρος τύπος περιεχομένου"
 
-#: Nodes/Controller/NodesController.php:437
+#: Nodes/Controller/NodesController.php:525
 msgid "Invalid Term."
 msgstr "Άκυρος Όρος"
 
-#: Nodes/Controller/NodesController.php:531
+#: Nodes/Controller/NodesController.php:619
 msgid "Home"
 msgstr ""
 
@@ -2769,79 +2912,58 @@ msgstr "Αναρτημένο σε"
 msgid "Leave a comment"
 msgstr "Αφήστε ένα σχόλιο"
 
-#: Nodes/View/Elements/search.ctp:7 Nodes/View/Elements/search2.ctp:8
-#: Nodes/View/Elements/admin/nodes_search.ctp:22
-msgid "Search"
-msgstr "Έρευνα"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:23
-msgid "Search..."
-msgstr "Έρευνα..."
-
 #: Nodes/View/Elements/admin/nodes_search.ctp:31
-#: Nodes/View/Nodes/admin_index.ctp:33
+#: Nodes/View/Nodes/admin_hierarchy.ctp:38 Nodes/View/Nodes/admin_index.ctp:33
 #: Taxonomy/Controller/TypesController.php:53
 #: Taxonomy/View/Types/admin_form.ctp:20
 #: Taxonomy/View/Vocabularies/admin_form.ctp:46
 msgid "Type"
 msgstr "Τύπος"
 
-#: Nodes/View/Elements/admin/nodes_search.ctp:44
-msgid "Yes"
-msgstr "Ναι"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:45
-msgid "No"
-msgstr "Όχι"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:47
-#: Nodes/View/Nodes/admin_chooser.ctp:50
-msgid "Promoted"
-msgstr "Αρχική σελίδα"
-
-#: Nodes/View/Nodes/admin_chooser.ctp:4
-msgid "Sort by:"
-msgstr "Κατανομή: "
-
-#: Nodes/View/Nodes/admin_form.ctp:72 Taxonomy/View/Terms/admin_chooser.ctp:7
+#: Nodes/View/Nodes/admin_form.ctp:80 Taxonomy/View/Terms/admin_chooser.ctp:7
 #: Taxonomy/View/Terms/admin_form.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
 msgstr ""
 
-#: Nodes/View/Nodes/admin_form.ctp:75
+#: Nodes/View/Nodes/admin_form.ctp:83
 msgid "Excerpt"
 msgstr "Απόσπασμα"
 
-#: Nodes/View/Nodes/admin_form.ctp:109
+#: Nodes/View/Nodes/admin_form.ctp:117
 msgid "Promoted to front page"
 msgstr "Προώθηση στην αρχική σελίδα"
 
-#: Nodes/View/Nodes/admin_form.ctp:113
+#: Nodes/View/Nodes/admin_form.ctp:121
 msgid "Publish as "
 msgstr "Δημοσίευση ως"
 
-#: Nodes/View/Nodes/admin_index.ctp:34 Users/View/Users/admin_form.ctp:37
+#: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
+#: Users/View/Users/admin_form.ctp:37
 msgid "User"
 msgstr "Χρήστης"
 
-#: Nodes/View/Nodes/admin_index.ctp:62
+#: Nodes/View/Nodes/admin_hierarchy.ctp:67 Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
 msgstr "προωθημένη"
 
-#: Nodes/View/Nodes/admin_index.ctp:120
+#: Nodes/View/Nodes/admin_hierarchy.ctp:126
+#: Nodes/View/Nodes/admin_index.ctp:127
 msgid "Applying to selected"
 msgstr "Εφαρμογή στα επιλεγμένα"
 
-#: Nodes/View/Nodes/admin_index.ctp:125
+#: Nodes/View/Nodes/admin_hierarchy.ctp:131
+#: Nodes/View/Nodes/admin_index.ctp:132
 msgid "Promote"
 msgstr "Προώθηση στην αρχική σελίδα"
 
-#: Nodes/View/Nodes/admin_index.ctp:126
+#: Nodes/View/Nodes/admin_hierarchy.ctp:132
+#: Nodes/View/Nodes/admin_index.ctp:133
 msgid "Unpromote"
 msgstr "Αφαίρεση από την αρχική σελίδα"
 
-#: Nodes/View/Nodes/admin_index.ctp:143
+#: Nodes/View/Nodes/admin_hierarchy.ctp:151
+#: Nodes/View/Nodes/admin_index.ctp:152
 msgid "%s selected items?"
 msgstr "%s τα επιλεγμένα αντικείμενα;"
 
@@ -2865,7 +2987,7 @@ msgid "Search Results: %s"
 msgstr "Αποτελέσματα Αναζήτησης: %s"
 
 #: Settings/Config/admin_menu.php:5
-#: Settings/Controller/SettingsController.php:79
+#: Settings/Controller/SettingsController.php:68
 #: Settings/View/Languages/admin_form.ctp:7
 #: Settings/View/Languages/admin_index.ctp:6
 #: Settings/View/Languages/admin_select.ctp:5
@@ -2964,7 +3086,7 @@ msgid "Delete?"
 msgstr "Διαγραφή;"
 
 #: Settings/Console/Command/SettingsShell.php:194
-#: Settings/Controller/SettingsController.php:163
+#: Settings/Controller/SettingsController.php:152
 msgid "Setting deleted"
 msgstr "Η ρύθμιση διαγράφηκε"
 
@@ -3001,44 +3123,44 @@ msgstr "Η γλώσσα διαγράφηκε"
 msgid "Select a language"
 msgstr "Επιλογή γλώσσας"
 
-#: Settings/Controller/SettingsController.php:97
+#: Settings/Controller/SettingsController.php:86
 msgid "Invalid Setting."
 msgstr "Άκυρη ρύθμιση"
 
-#: Settings/Controller/SettingsController.php:110
+#: Settings/Controller/SettingsController.php:99
 msgid "Add Setting"
 msgstr "Προσθήκη ρύθμισης"
 
-#: Settings/Controller/SettingsController.php:115;139
+#: Settings/Controller/SettingsController.php:104;128
 msgid "The Setting has been saved"
 msgstr "Η ρύθμιση αποθηκεύτηκε"
 
-#: Settings/Controller/SettingsController.php:118;142
+#: Settings/Controller/SettingsController.php:107;131
 msgid "The Setting could not be saved. Please, try again."
 msgstr "Η ρύθμιση δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
 
-#: Settings/Controller/SettingsController.php:131
+#: Settings/Controller/SettingsController.php:120
 #: Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr "Επεξεργασία ρύθμισης"
 
-#: Settings/Controller/SettingsController.php:134
+#: Settings/Controller/SettingsController.php:123
 msgid "Invalid Setting"
 msgstr "Άκυρη ρύθμιση"
 
-#: Settings/Controller/SettingsController.php:159
+#: Settings/Controller/SettingsController.php:148
 msgid "Invalid id for Setting"
 msgstr "Άκυρο id για τη ρύθμιση"
 
-#: Settings/Controller/SettingsController.php:176
+#: Settings/Controller/SettingsController.php:165
 msgid "Settings: %s"
 msgstr "Ρυθμίσεις: %s"
 
-#: Settings/Controller/SettingsController.php:180
+#: Settings/Controller/SettingsController.php:169
 msgid "Settings updated successfully"
 msgstr "Οι ρυθμίσεις αναβαθμίστηκαν με επιτυχία"
 
-#: Settings/Controller/SettingsController.php:194
+#: Settings/Controller/SettingsController.php:183
 msgid "Invalid Setting key"
 msgstr "Άκυρο κλειδί ρυθμίσεων"
 
@@ -3097,10 +3219,6 @@ msgstr "Βάρος"
 msgid "Delete Setting"
 msgstr "Διαγραφή ρύθμισης"
 
-#: Settings/View/Settings/admin_view.ctp:44
-msgid "Are you sure you want to delete # %s?"
-msgstr "Είστε σίγουρος θέλετε να διαγράψετε το # %s;"
-
 #: Settings/View/Settings/admin_view.ctp:45
 msgid "List Settings"
 msgstr "Λίστα ρυθμίσεων"
@@ -3133,7 +3251,7 @@ msgstr "Προσθήκη όρου"
 msgid "Term saved successfuly."
 msgstr "Ο όρος αποθηκεύτηκε."
 
-#: Taxonomy/Controller/TermsController.php:99;142
+#: Taxonomy/Controller/TermsController.php:99;146
 msgid "Term could not be added to the vocabulary. Please try again."
 msgstr "Ο όρος δεν μπόρεσε να προστεθεί."
 
@@ -3141,31 +3259,31 @@ msgstr "Ο όρος δεν μπόρεσε να προστεθεί."
 msgid "%s: Edit Term"
 msgstr "%s: Επεξεργασία Όρου"
 
-#: Taxonomy/Controller/TermsController.php:168
+#: Taxonomy/Controller/TermsController.php:172
 msgid "Term deleted"
 msgstr "Ο όρος διαγράφηκε"
 
-#: Taxonomy/Controller/TermsController.php:171
+#: Taxonomy/Controller/TermsController.php:175
 msgid "Term could not be deleted. Please, try again."
 msgstr "Ο όρος δεν μπόρεσε να διαγραφεί."
 
-#: Taxonomy/Controller/TermsController.php:225
+#: Taxonomy/Controller/TermsController.php:229
 msgid "Moved %s successfully"
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:228
+#: Taxonomy/Controller/TermsController.php:232
 msgid "Could not move %s"
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:261
+#: Taxonomy/Controller/TermsController.php:265
 msgid "Invalid Term ID."
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:277
+#: Taxonomy/Controller/TermsController.php:281
 msgid "Invalid Taxonomy."
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:296
+#: Taxonomy/Controller/TermsController.php:300
 msgid "Invalid Vocabulary ID."
 msgstr "Άκυρο Vocabulary ID."
 
@@ -3233,11 +3351,11 @@ msgstr "Άκυρο id για το λεξιλόγιο."
 msgid "Vocabulary deleted"
 msgstr "Το λεξιλόγιο διαγράφηκε."
 
-#: Taxonomy/Model/Term.php:186
+#: Taxonomy/Model/Term.php:178
 msgid "Invalid Term Id"
 msgstr ""
 
-#: Taxonomy/Model/Term.php:243
+#: Taxonomy/Model/Term.php:235
 msgid "\"vocabulary_id\" key not found"
 msgstr ""
 
@@ -3350,7 +3468,7 @@ msgstr "Η μετάφραση για το locale διαγράφηκε."
 msgid "Translation for the locale could not be deleted."
 msgstr "Η μετάφραση για το locale δεν διαγράφηκε."
 
-#: Translate/Lib/Translations.php:22
+#: Translate/Lib/Translations.php:22;27
 #: Translate/View/Translate/admin_edit.ctp:19;34
 msgid "Translate"
 msgstr "Μετάφραση"
@@ -3601,6 +3719,142 @@ msgstr "Επαναφορά"
 msgid "New password"
 msgstr "Νέος κωδικός"
 
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: for field title
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Link.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
+msgid "Title cannot be empty."
+msgstr "Ο τίτλος δεν μπορεί να είναι κενός."
+
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: for field alias
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+msgid "This alias has already been taken."
+msgstr "Το alias είναι ήδη δεσμευμένο."
+
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: for field alias
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+#: title;validation
+msgid "Alias cannot be empty."
+msgstr "Το alias δεν μπορεί να είναι κενό."
+
+#: /home/rachman/work/personal/deploy/croogo/Comments/Model/Comment.php:validation
+#: for field body;validation name
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: title
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Message.php:validation
+#: name;validation title;validation body
+#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: username;validation
+msgid "This field cannot be left blank."
+msgstr "Το πεδίο δεν μπορεί να είναι κενό."
+
+#: /home/rachman/work/personal/deploy/croogo/Comments/Model/Comment.php:validation
+#: for field email
+msgid "Please enter a valid email address."
+msgstr "Παρακαλώ δώστε μία έγκυρη διεύθυνση email."
+
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: for field email
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Message.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+msgid "Please provide a valid email address."
+msgstr "Παρακαλώ δώστε μία έγκυρη διεύθυνση email."
+
+#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
+#: for field slug
+#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Term.php:validation
+msgid "This slug has already been taken."
+msgstr "To slug αυτό δεν είναι διαθέσιμο."
+
+#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
+#: for field slug
+#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Term.php:validation
+msgid "Slug cannot be empty."
+msgstr "Τo slug δεν μπορεί να είναι κενό."
+
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Link.php:validation
+#: for field link
+msgid "Link cannot be empty."
+msgstr "Ο Σύνδεσμος δεν μπορεί να είναι κενός."
+
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Setting.php:validation
+#: for field key
+msgid "This key has already been taken."
+msgstr "Το κλειδί αυτό είναι ήδη δεσμευμένο."
+
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Setting.php:validation
+#: for field key
+msgid "Key cannot be empty."
+msgstr "Το κλειδί δεν μπορεί να είναι κενό."
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+#: for field title;validation alias
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: username;validation name
+msgid "This field must be alphanumeric"
+msgstr "Το πεδίο αυτό πρέπει να είναι αλφαριθμητικό"
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: for field username
+msgid "The username has already been taken."
+msgstr "Το όνομα χρήστη δεν είναι διαθέσιμο."
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: for field email
+msgid "Email address already in use."
+msgstr "Η διεύθυνση email χρησιμοποιείται ήδη."
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: for field password
+msgid "Passwords must be at least 6 characters long."
+msgstr "Οι κωδικοί πρέπει να έχουν μήκος τουλάχιστον 6 χαρακτήρες."
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: for field website
+msgid "This field must be a valid URL"
+msgstr "Το πεδίο πρέπει να περιέχει ένα σωστό URL."
+
+#~ msgid "Nodes deleted"
+#~ msgstr "Τα Nodes διαγράφηκαν"
+
+#~ msgid "Nodes published"
+#~ msgstr "Τα Nodes δημοσιεύθηκαν"
+
+#~ msgid "Nodes unpublished"
+#~ msgstr "Τα Nodes δεν είναι δημοσιευμένα"
+
+#~ msgid "Nodes promoted"
+#~ msgstr "Τα nodes μπήκαν στη πρώτη σελίδα"
+
+#~ msgid "Nodes unpromoted"
+#~ msgstr "Τα nodes αφαιρέθηκαν από τη πρώτη σελίδα"
+
+#, fuzzy
+#~ msgid "Nodes copied"
+#~ msgstr "Τα Nodes δημοσιεύθηκαν"
+
 #~ msgid ""
 #~ "Page %page% of %pages%, showing %current% records out of %count% total, "
 #~ "starting on record %start%, ending on %end%"
@@ -3637,51 +3891,3 @@ msgstr "Νέος κωδικός"
 
 #~ msgid "Term in Vocabulary deleted"
 #~ msgstr "Ο όρος διαγράφηκε από το λεξιλόγιο"
-
-#~ msgid "Title cannot be empty."
-#~ msgstr "Ο τίτλος δεν μπορεί να είναι κενός."
-
-#~ msgid "This alias has already been taken."
-#~ msgstr "Το alias είναι ήδη δεσμευμένο."
-
-#~ msgid "Alias cannot be empty."
-#~ msgstr "Το alias δεν μπορεί να είναι κενό."
-
-#~ msgid "This field cannot be left blank."
-#~ msgstr "Το πεδίο δεν μπορεί να είναι κενό."
-
-#~ msgid "Please enter a valid email address."
-#~ msgstr "Παρακαλώ δώστε μία έγκυρη διεύθυνση email."
-
-#~ msgid "Please provide a valid email address."
-#~ msgstr "Παρακαλώ δώστε μία έγκυρη διεύθυνση email."
-
-#~ msgid "This slug has already been taken."
-#~ msgstr "To slug αυτό δεν είναι διαθέσιμο."
-
-#~ msgid "Slug cannot be empty."
-#~ msgstr "Τo slug δεν μπορεί να είναι κενό."
-
-#~ msgid "Link cannot be empty."
-#~ msgstr "Ο Σύνδεσμος δεν μπορεί να είναι κενός."
-
-#~ msgid "This key has already been taken."
-#~ msgstr "Το κλειδί αυτό είναι ήδη δεσμευμένο."
-
-#~ msgid "Key cannot be empty."
-#~ msgstr "Το κλειδί δεν μπορεί να είναι κενό."
-
-#~ msgid "This field must be alphanumeric"
-#~ msgstr "Το πεδίο αυτό πρέπει να είναι αλφαριθμητικό"
-
-#~ msgid "The username has already been taken."
-#~ msgstr "Το όνομα χρήστη δεν είναι διαθέσιμο."
-
-#~ msgid "Email address already in use."
-#~ msgstr "Η διεύθυνση email χρησιμοποιείται ήδη."
-
-#~ msgid "Passwords must be at least 6 characters long."
-#~ msgstr "Οι κωδικοί πρέπει να έχουν μήκος τουλάχιστον 6 χαρακτήρες."
-
-#~ msgid "This field must be a valid URL"
-#~ msgstr "Το πεδίο πρέπει να περιέχει ένα σωστό URL."

@@ -83,6 +83,7 @@ msgstr "将要恢复的树类型"
 #: Comments/View/Comments/admin_index.ctp:48
 #: Contacts/View/Messages/admin_index.ctp:65
 #: Croogo/View/Common/admin_index.ctp:60
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:20
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:39
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:21
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:30
@@ -269,7 +270,7 @@ msgid "Action"
 msgstr "动作"
 
 #: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
-#: Nodes/View/Nodes/admin_form.ctp:55 Taxonomy/View/Terms/admin_form.ctp:39
+#: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
 msgstr "父"
 
@@ -306,8 +307,9 @@ msgstr "昵称"
 #: FileManager/View/FileManager/admin_create_directory.ctp:50
 #: FileManager/View/FileManager/admin_create_file.ctp:49
 #: FileManager/View/FileManager/admin_editfile.ctp:49
+#: FileManager/View/FileManager/admin_rename.ctp:49
 #: FileManager/View/FileManager/admin_upload.ctp:48
-#: Menus/View/Links/admin_form.ctp:117 Nodes/View/Nodes/admin_form.ctp:98
+#: Menus/View/Links/admin_form.ctp:117 Nodes/View/Nodes/admin_form.ctp:106
 #: Settings/View/Languages/admin_form.ctp:52
 #: Settings/View/Settings/admin_form.ctp:65
 #: Taxonomy/View/Terms/admin_form.ctp:60
@@ -324,7 +326,7 @@ msgstr "发布中"
 #: Contacts/View/Contacts/admin_form.ctp:104
 #: FileManager/View/Attachments/admin_edit.ctp:52
 #: Menus/View/Links/admin_form.ctp:118 Menus/View/Menus/admin_form.ctp:52
-#: Nodes/View/Nodes/admin_form.ctp:99 Taxonomy/View/Terms/admin_form.ctp:61
+#: Nodes/View/Nodes/admin_form.ctp:107 Taxonomy/View/Terms/admin_form.ctp:61
 #: Taxonomy/View/Types/admin_form.ctp:101
 #: Taxonomy/View/Vocabularies/admin_form.ctp:68
 #: Translate/View/Translate/admin_edit.ctp:53
@@ -342,9 +344,10 @@ msgstr "应用"
 #: FileManager/View/Attachments/admin_edit.ctp:53
 #: FileManager/View/FileManager/admin_create_file.ctp:50
 #: FileManager/View/FileManager/admin_editfile.ctp:50
+#: FileManager/View/FileManager/admin_rename.ctp:50
 #: FileManager/View/FileManager/admin_upload.ctp:49
 #: Install/View/Install/adminuser.ctp:36 Menus/View/Links/admin_form.ctp:119
-#: Menus/View/Menus/admin_form.ctp:53 Nodes/View/Nodes/admin_form.ctp:100
+#: Menus/View/Menus/admin_form.ctp:53 Nodes/View/Nodes/admin_form.ctp:108
 #: Settings/View/Languages/admin_form.ctp:53
 #: Settings/View/Settings/admin_form.ctp:66
 #: Settings/View/Settings/admin_prefix.ctp:54
@@ -371,9 +374,10 @@ msgstr "保存"
 #: FileManager/View/FileManager/admin_create_directory.ctp:52
 #: FileManager/View/FileManager/admin_create_file.ctp:51
 #: FileManager/View/FileManager/admin_editfile.ctp:51
+#: FileManager/View/FileManager/admin_rename.ctp:51
 #: FileManager/View/FileManager/admin_upload.ctp:50
 #: Install/View/Install/adminuser.ctp:37 Menus/View/Links/admin_form.ctp:120
-#: Menus/View/Menus/admin_form.ctp:54 Nodes/View/Nodes/admin_form.ctp:101
+#: Menus/View/Menus/admin_form.ctp:54 Nodes/View/Nodes/admin_form.ctp:109
 #: Settings/View/Languages/admin_form.ctp:55
 #: Settings/View/Settings/admin_form.ctp:67
 #: Settings/View/Settings/admin_prefix.ctp:55
@@ -422,9 +426,11 @@ msgstr "编辑动作"
 #: Comments/View/Comments/admin_index.ctp:42
 #: Contacts/View/Messages/admin_index.ctp:60
 #: FileManager/View/Attachments/admin_browse.ctp:21
+#: FileManager/View/Attachments/admin_chooser.ctp:5
 #: FileManager/View/Attachments/admin_index.ctp:11
 #: Menus/View/Links/admin_index.ctp:39 Menus/View/Menus/admin_index.ctp:12
-#: Nodes/View/Nodes/admin_chooser.ctp:5 Nodes/View/Nodes/admin_index.ctp:31
+#: Nodes/View/Nodes/admin_chooser.ctp:5
+#: Nodes/View/Nodes/admin_hierarchy.ctp:36 Nodes/View/Nodes/admin_index.ctp:31
 #: Settings/View/Languages/admin_index.ctp:15
 #: Settings/View/Settings/admin_index.ctp:18
 #: Settings/View/Settings/admin_view.ctp:4
@@ -437,8 +443,9 @@ msgstr "Id"
 #: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
 #: Blocks/View/Blocks/admin_index.ctp:35
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:56
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:61
-#: Menus/View/Links/admin_index.ctp:56
+#: Menus/View/Links/admin_index.ctp:56 Nodes/View/Nodes/admin_hierarchy.ctp:95
 #: Settings/View/Languages/admin_index.ctp:34
 #: Settings/View/Settings/admin_index.ctp:33
 #: Taxonomy/View/Terms/admin_index.ctp:42
@@ -449,8 +456,9 @@ msgstr "上移"
 #: Acl/View/AclActions/admin_index.ctp:108
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
 #: Blocks/View/Blocks/admin_index.ctp:39
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:63
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:67
-#: Menus/View/Links/admin_index.ctp:62
+#: Menus/View/Links/admin_index.ctp:62 Nodes/View/Nodes/admin_hierarchy.ctp:99
 #: Settings/View/Languages/admin_index.ctp:38
 #: Settings/View/Settings/admin_index.ctp:37
 #: Taxonomy/View/Terms/admin_index.ctp:46
@@ -467,7 +475,8 @@ msgstr "下移"
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:37
 #: FileManager/View/Attachments/admin_index.ctp:27
 #: Menus/View/Links/admin_index.ctp:68 Menus/View/Menus/admin_index.ctp:35
-#: Nodes/View/Nodes/admin_index.ctp:89
+#: Nodes/View/Nodes/admin_hierarchy.ctp:103
+#: Nodes/View/Nodes/admin_index.ctp:96
 #: Settings/View/Languages/admin_index.ctp:42
 #: Settings/View/Settings/admin_index.ctp:41
 #: Taxonomy/View/Terms/admin_index.ctp:50
@@ -484,7 +493,9 @@ msgstr "编辑这一项目"
 #: Croogo/View/Common/admin_index.ctp:91
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:41
 #: FileManager/View/Attachments/admin_index.ctp:31
-#: Menus/View/Menus/admin_index.ctp:40 Nodes/View/Nodes/admin_index.ctp:104
+#: Menus/View/Menus/admin_index.ctp:40
+#: Nodes/View/Nodes/admin_hierarchy.ctp:110
+#: Nodes/View/Nodes/admin_index.ctp:111
 #: Settings/View/Languages/admin_index.ctp:46
 #: Settings/View/Settings/admin_index.ctp:46
 #: Taxonomy/View/Terms/admin_index.ctp:54
@@ -504,9 +515,10 @@ msgstr "移除这一项目"
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:127
 #: FileManager/View/Attachments/admin_browse.ctp:42
 #: FileManager/View/Attachments/admin_index.ctp:32
-#: FileManager/View/Helper/FileManagerHelper.php:137
+#: FileManager/View/Helper/FileManagerHelper.php:154
 #: Menus/View/Links/admin_index.ctp:88 Menus/View/Menus/admin_index.ctp:41
-#: Nodes/View/Nodes/admin_index.ctp:107
+#: Nodes/View/Nodes/admin_hierarchy.ctp:113
+#: Nodes/View/Nodes/admin_index.ctp:114
 #: Nodes/View/Nodes/admin_translations.ctp:34
 #: Settings/View/Languages/admin_index.ctp:47
 #: Settings/View/Settings/admin_index.ctp:47
@@ -572,33 +584,41 @@ msgid "Block deleted"
 msgstr "块已删除"
 
 #: Blocks/Controller/BlocksController.php:205
+#: Dashboards/Controller/DashboardsDashboardsController.php:126
 #: Menus/Controller/LinksController.php:273
+#: Nodes/Controller/NodesController.php:197
 #: Settings/Controller/LanguagesController.php:122
-#: Settings/Controller/SettingsController.php:210
+#: Settings/Controller/SettingsController.php:199
 #: Taxonomy/Controller/VocabulariesController.php:132
 msgid "Moved up successfully"
 msgstr "成功上移"
 
 #: Blocks/Controller/BlocksController.php:207
+#: Dashboards/Controller/DashboardsDashboardsController.php:128
 #: Menus/Controller/LinksController.php:275
+#: Nodes/Controller/NodesController.php:199
 #: Settings/Controller/LanguagesController.php:124
-#: Settings/Controller/SettingsController.php:212
+#: Settings/Controller/SettingsController.php:201
 #: Taxonomy/Controller/VocabulariesController.php:134
 msgid "Could not move up"
 msgstr "不能上移"
 
 #: Blocks/Controller/BlocksController.php:223
+#: Dashboards/Controller/DashboardsDashboardsController.php:142
 #: Menus/Controller/LinksController.php:305
+#: Nodes/Controller/NodesController.php:212
 #: Settings/Controller/LanguagesController.php:140
-#: Settings/Controller/SettingsController.php:236
+#: Settings/Controller/SettingsController.php:225
 #: Taxonomy/Controller/VocabulariesController.php:150
 msgid "Moved down successfully"
 msgstr "成功下移"
 
 #: Blocks/Controller/BlocksController.php:225
+#: Dashboards/Controller/DashboardsDashboardsController.php:144
 #: Menus/Controller/LinksController.php:307
+#: Nodes/Controller/NodesController.php:214
 #: Settings/Controller/LanguagesController.php:142
-#: Settings/Controller/SettingsController.php:238
+#: Settings/Controller/SettingsController.php:227
 #: Taxonomy/Controller/VocabulariesController.php:152
 msgid "Could not move down"
 msgstr "不能下移"
@@ -659,7 +679,7 @@ msgid "Block"
 msgstr "块"
 
 #: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
-#: Nodes/View/Nodes/admin_form.ctp:47
+#: Nodes/View/Nodes/admin_form.ctp:55
 msgid "Access"
 msgstr "访问"
 
@@ -681,12 +701,13 @@ msgstr "参数"
 #: Contacts/View/Messages/admin_form.ctp:32
 #: Contacts/View/Messages/admin_index.ctp:64
 #: FileManager/View/Attachments/admin_browse.ctp:23
+#: FileManager/View/Attachments/admin_chooser.ctp:6
 #: FileManager/View/Attachments/admin_edit.ctp:26
 #: FileManager/View/Attachments/admin_index.ctp:13
 #: Menus/View/Links/admin_form.ctp:71 Menus/View/Links/admin_index.ctp:40
 #: Menus/View/Menus/admin_form.ctp:30 Menus/View/Menus/admin_index.ctp:13
-#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:68
-#: Nodes/View/Nodes/admin_index.ctp:32
+#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:76
+#: Nodes/View/Nodes/admin_hierarchy.ctp:37 Nodes/View/Nodes/admin_index.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:25
 #: Settings/View/Languages/admin_form.ctp:35
 #: Settings/View/Languages/admin_index.ctp:16
@@ -713,7 +734,7 @@ msgstr "如果你不确定，选择“none”"
 #: Blocks/View/Blocks/admin_form.ctp:45
 #: Comments/View/Comments/admin_form.ctp:26
 #: Contacts/View/Contacts/admin_form.ctp:40
-#: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:78
+#: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:86
 msgid "Body"
 msgstr "内容主体"
 
@@ -726,7 +747,7 @@ msgid "Element"
 msgstr "元素"
 
 #: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:89
-#: Nodes/View/Nodes/admin_form.ctp:85 Users/View/Roles/admin_form.ctp:21
+#: Nodes/View/Nodes/admin_form.ctp:93 Users/View/Roles/admin_form.ctp:21
 #: Users/View/Users/admin_form.ctp:45
 msgid "Role"
 msgstr "角色"
@@ -746,22 +767,25 @@ msgid "Show title ?"
 msgstr "显示标题？"
 
 #: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
-#: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:132
+#: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
 #, fuzzy
 msgid "Publish Start"
 msgstr "发布为"
 
 #: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
-#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:136
+#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:144
 #, fuzzy
 msgid "Publish End"
 msgstr "已发布"
 
 #: Blocks/View/Blocks/admin_index.ctp:23
 #: Croogo/Console/Command/ExtShell.php:236;262
+#: FileManager/View/Attachments/admin_chooser.ctp:45
+#: FileManager/View/Elements/admin/attachments_search.ctp:40
 #: Menus/View/Links/admin_index.ctp:41 Menus/View/Menus/admin_index.ctp:16
 #: Nodes/View/Elements/admin/nodes_search.ctp:39
-#: Nodes/View/Nodes/admin_chooser.ctp:54 Nodes/View/Nodes/admin_index.ctp:35
+#: Nodes/View/Nodes/admin_chooser.ctp:54
+#: Nodes/View/Nodes/admin_hierarchy.ctp:40 Nodes/View/Nodes/admin_index.ctp:35
 #: Settings/View/Languages/admin_form.ctp:60
 #: Settings/View/Languages/admin_index.ctp:19
 #: Users/View/Users/admin_form.ctp:86
@@ -769,7 +793,7 @@ msgid "Status"
 msgstr "状态"
 
 #: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
-#: Nodes/View/Nodes/admin_index.ctp:95
+#: Nodes/View/Nodes/admin_index.ctp:102
 #, fuzzy
 msgid "Create a copy"
 msgstr "创建目录"
@@ -783,19 +807,24 @@ msgid "Choose"
 msgstr "选择"
 
 #: Blocks/View/Blocks/admin_index.ctp:84 Menus/View/Links/admin_index.ctp:93
-#: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_index.ctp:66
+#: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_hierarchy.ctp:71
+#: Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
 msgstr ""
 
 #: Blocks/View/Blocks/admin_index.ctp:114
 #: Comments/View/Comments/admin_index.ctp:109
-#: Menus/View/Links/admin_index.ctp:119 Nodes/View/Nodes/admin_index.ctp:123
+#: Menus/View/Links/admin_index.ctp:119
+#: Nodes/View/Nodes/admin_hierarchy.ctp:129
+#: Nodes/View/Nodes/admin_index.ctp:130
 msgid "Publish"
 msgstr "发布"
 
 #: Blocks/View/Blocks/admin_index.ctp:115
 #: Comments/View/Comments/admin_index.ctp:110
-#: Menus/View/Links/admin_index.ctp:120 Nodes/View/Nodes/admin_index.ctp:124
+#: Menus/View/Links/admin_index.ctp:120
+#: Nodes/View/Nodes/admin_hierarchy.ctp:130
+#: Nodes/View/Nodes/admin_index.ctp:131
 msgid "Unpublish"
 msgstr "未发布"
 
@@ -805,22 +834,26 @@ msgstr "未发布"
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:53
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:121
 #: FileManager/View/Attachments/admin_browse.ctp:42
-#: FileManager/View/FileManager/admin_browse.ctp:61;102
-#: Menus/View/Links/admin_index.ctp:121 Nodes/View/Nodes/admin_index.ctp:127
+#: FileManager/View/FileManager/admin_browse.ctp:61;106
+#: Menus/View/Links/admin_index.ctp:121
+#: Nodes/View/Nodes/admin_hierarchy.ctp:133
+#: Nodes/View/Nodes/admin_index.ctp:134
 #: Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
 msgstr "删除"
 
 #: Blocks/View/Blocks/admin_index.ctp:117 Menus/View/Links/admin_index.ctp:124
-#: Nodes/View/Nodes/admin_index.ctp:130
+#: Nodes/View/Nodes/admin_hierarchy.ctp:136
+#: Nodes/View/Nodes/admin_index.ctp:137
 msgid "Copy"
 msgstr ""
 
 #: Blocks/View/Blocks/admin_index.ctp:121
 #: Comments/View/Comments/admin_index.ctp:115
 #: Contacts/View/Messages/admin_index.ctp:126
-#: Menus/View/Links/admin_index.ctp:130 Nodes/View/Nodes/admin_index.ctp:138
-#: Users/View/Users/forgot.ctp:9
+#: Menus/View/Links/admin_index.ctp:130
+#: Nodes/View/Nodes/admin_hierarchy.ctp:144
+#: Nodes/View/Nodes/admin_index.ctp:145 Users/View/Users/forgot.ctp:9
 msgid "Submit"
 msgstr "提交"
 
@@ -838,6 +871,7 @@ msgstr "评论"
 #: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
 #: Comments/View/Comments/admin_index.ctp:14;29
 #: Contacts/View/Contacts/admin_form.ctp:112 Croogo/Lib/CroogoStatus.php:40
+#: FileManager/View/Elements/admin/attachments_search.ctp:37
 #: Nodes/View/Elements/admin/nodes_search.ctp:36
 msgid "Published"
 msgstr "已发布"
@@ -929,9 +963,9 @@ msgstr "无效的评论id"
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:21;28
 #: Nodes/Config/admin_menu.php:5 Nodes/Controller/NodesController.php:108
 #: Nodes/View/Nodes/admin_create.ctp:5 Nodes/View/Nodes/admin_form.ctp:9
-#: Nodes/View/Nodes/admin_index.ctp:8 Taxonomy/View/Terms/admin_form.ctp:8
-#: Taxonomy/View/Terms/admin_index.ctp:7 Taxonomy/View/Types/admin_form.ctp:6
-#: Taxonomy/View/Types/admin_index.ctp:7
+#: Nodes/View/Nodes/admin_hierarchy.ctp:8 Nodes/View/Nodes/admin_index.ctp:8
+#: Taxonomy/View/Terms/admin_form.ctp:8 Taxonomy/View/Terms/admin_index.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:6 Taxonomy/View/Types/admin_index.ctp:7
 #: Taxonomy/View/Vocabularies/admin_form.ctp:7
 #: Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
@@ -993,7 +1027,8 @@ msgid "Node"
 msgstr "节点"
 
 #: Comments/View/Comments/admin_index.ctp:47
-#: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:127
+#: FileManager/View/Attachments/admin_chooser.ctp:7;49
+#: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:135
 msgid "Created"
 msgstr "已创建"
 
@@ -1332,7 +1367,7 @@ msgstr "扩展名"
 msgid "Plugin \"%s\" activated successfully."
 msgstr " \"%s\" 插件启用成功"
 
-#: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:557
+#: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:558
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr " \"%s\" 插件无法启用。请重试。"
 
@@ -1503,7 +1538,7 @@ msgstr "升级\"%s\""
 msgid "Command not recognized"
 msgstr "命令未被识别"
 
-#: Croogo/Controller/CroogoAppController.php:269
+#: Croogo/Controller/CroogoAppController.php:268
 msgid "Site down for maintenance"
 msgstr "网站临时维护"
 
@@ -1525,7 +1560,7 @@ msgid "%s processed"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
-#: FileManager/Controller/FileManagerController.php:226;259;322;355
+#: FileManager/Controller/FileManagerController.php:229;262;351;384
 msgid "An error occured"
 msgstr "发生一个错误"
 
@@ -1541,12 +1576,12 @@ msgstr ""
 msgid "Logout"
 msgstr ""
 
-#: Croogo/Controller/Component/CroogoComponent.php:291
-#: Nodes/Controller/NodesController.php:205;660;680
+#: Croogo/Controller/Component/CroogoComponent.php:292
+#: Nodes/Controller/NodesController.php:288;748;768
 msgid "Invalid content"
 msgstr "无效的内容"
 
-#: Croogo/Controller/Component/CroogoComponent.php:300
+#: Croogo/Controller/Component/CroogoComponent.php:301
 msgid "Failed toggling field %s to %s"
 msgstr "域 %s 到 %s 的转换失败"
 
@@ -1559,6 +1594,7 @@ msgid "Unable to get routeable content types: %s"
 msgstr "无法获得可路由的内容类型 %s"
 
 #: Croogo/Lib/CroogoStatus.php:39
+#: FileManager/View/Elements/admin/attachments_search.ctp:38
 #: Nodes/View/Elements/admin/nodes_search.ctp:37
 msgid "Unpublished"
 msgstr "未发布"
@@ -1599,7 +1635,7 @@ msgstr "动作已删除"
 
 #: Croogo/View/Common/admin_edit.ctp:11
 #: FileManager/View/Attachments/admin_browse.ctp:35
-#: FileManager/View/FileManager/admin_browse.ctp:93
+#: FileManager/View/FileManager/admin_browse.ctp:97
 #: FileManager/View/FileManager/admin_editfile.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
@@ -1619,10 +1655,11 @@ msgid "Powered by %s"
 msgstr ""
 
 #: Croogo/View/Elements/admin/header.ctp:18
+#: Dashboards/Config/admin_menu.php:5;11
+#: Dashboards/Controller/DashboardsDashboardsController.php:55
+#: Dashboards/View/DashboardsDashboards/admin_dashboard.ctp:8
 #: Extensions/Controller/ExtensionsDashboardController.php:11
 #: Extensions/View/ExtensionsDashboard/admin_index.ctp:5
-#: Settings/Controller/SettingsController.php:69
-#: Settings/View/Settings/admin_dashboard.ctp:5
 msgid "Dashboard"
 msgstr "仪表盘"
 
@@ -1655,6 +1692,7 @@ msgid "last"
 msgstr "最后一个"
 
 #: Croogo/View/Elements/admin/search.ctp:46
+#: FileManager/View/Elements/admin/attachments_search.ctp:53
 #: Nodes/View/Elements/admin/nodes_search.ctp:52
 msgid "Filter"
 msgstr "过滤器"
@@ -1684,7 +1722,7 @@ msgstr "安全错误"
 msgid "Request blackholed due to \"%s\" violation."
 msgstr "请求因为 \"%s\"  失败"
 
-#: Croogo/View/Helper/LayoutHelper.php:94
+#: Croogo/View/Helper/LayoutHelper.php:95
 msgid "Method %1$s::%2$s does not exist"
 msgstr "方法 %1$s::%2$s 不存在"
 
@@ -1701,6 +1739,43 @@ msgstr "返回到"
 #: Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
 msgstr "网站维护中"
+
+#: Dashboards/Config/admin_dashboard.php:5
+msgid "Croogo News"
+msgstr ""
+
+#: Dashboards/Controller/DashboardsDashboardsController.php:97
+msgid "Invalid id for Dashboard"
+msgstr ""
+
+#: Dashboards/Controller/DashboardsDashboardsController.php:101
+msgid "Dashboard deleted"
+msgstr ""
+
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:2;7
+msgid "Dashboards"
+msgstr ""
+
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
+#: Settings/View/Settings/admin_view.ctp:44
+msgid "Are you sure you want to delete # %s?"
+msgstr "你确定要删除# %s?"
+
+#: Dashboards/View/Helper/DashboardsHelper.php:131
+msgid "Left"
+msgstr ""
+
+#: Dashboards/View/Helper/DashboardsHelper.php:134
+msgid "Right"
+msgstr ""
+
+#: Dashboards/View/Helper/DashboardsHelper.php:137
+msgid "Full"
+msgstr ""
+
+#: Example/Config/admin_dashboard.php:5
+msgid "Welcome"
+msgstr ""
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
@@ -1792,7 +1867,7 @@ msgid "Upload a new plugin"
 msgstr "上传一个新的插件"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
-#: Extensions/Lib/CroogoPlugin.php:684
+#: Extensions/Lib/CroogoPlugin.php:685
 #: Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
 msgstr "无效的插件"
@@ -1810,7 +1885,7 @@ msgid "Plugin could not be deleted."
 msgstr "插件不能被删除"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:152
-#: Extensions/Lib/CroogoPlugin.php:599
+#: Extensions/Lib/CroogoPlugin.php:600
 msgid "Plugin could not be deactivated. Please, try again."
 msgstr "插件不能启用。请重试。"
 
@@ -1875,44 +1950,44 @@ msgstr "主题删除成功"
 msgid "An error occurred."
 msgstr "发生错误"
 
-#: Extensions/Lib/CroogoPlugin.php:529
+#: Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin \"%s\" is already active."
 msgstr " \"%s\" 主题已启用"
 
-#: Extensions/Lib/CroogoPlugin.php:555
+#: Extensions/Lib/CroogoPlugin.php:556
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
 msgstr " \"%s\" 插件基于 \"%s\" 插件"
 
-#: Extensions/Lib/CroogoPlugin.php:586
+#: Extensions/Lib/CroogoPlugin.php:587
 msgid "Plugin \"%s\" is not active."
 msgstr " \"%s\" 插件未启用"
 
-#: Extensions/Lib/CroogoPlugin.php:714
+#: Extensions/Lib/CroogoPlugin.php:715
 msgid "%s is already at the first position"
 msgstr "%s 已在首位"
 
-#: Extensions/Lib/CroogoPlugin.php:720;732
+#: Extensions/Lib/CroogoPlugin.php:721;733
 msgid "Plugin %s depends on %s"
 msgstr "%s 插件基于 %s"
 
-#: Extensions/Lib/CroogoPlugin.php:725
+#: Extensions/Lib/CroogoPlugin.php:726
 msgid "%s is already at the last position"
 msgstr "%s 已在末位"
 
-#: Extensions/Lib/CroogoPlugin.php:736
+#: Extensions/Lib/CroogoPlugin.php:737
 msgid "Invalid direction"
 msgstr "无效的方向"
 
-#: Extensions/Lib/CroogoPlugin.php:741
+#: Extensions/Lib/CroogoPlugin.php:742
 msgid "Plugin %s cannot be reordered"
 msgstr " %s 插件不能重排序"
 
-#: Extensions/Lib/CroogoTheme.php:248
+#: Extensions/Lib/CroogoTheme.php:252
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr "无效的主题"
 
-#: Extensions/Lib/CroogoTheme.php:269
+#: Extensions/Lib/CroogoTheme.php:273
 msgid "Theme %s not found"
 msgstr "%s 主题未找到"
 
@@ -1978,7 +2053,7 @@ msgstr "暂不支持通过组合器安装主题"
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:16
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:15
-#: FileManager/Controller/FileManagerController.php:180
+#: FileManager/Controller/FileManagerController.php:183
 #: FileManager/View/Attachments/admin_add.ctp:8;21;29;42
 #: FileManager/View/FileManager/admin_upload.ctp:8;32
 msgid "Upload"
@@ -2042,7 +2117,7 @@ msgid "Media"
 msgstr "媒体"
 
 #: FileManager/Config/admin_menu.php:15
-#: FileManager/Controller/AttachmentsController.php:99
+#: FileManager/Controller/AttachmentsController.php:117
 #: FileManager/View/Attachments/admin_add.ctp:7
 #: FileManager/View/Attachments/admin_edit.ctp:7
 #: FileManager/View/Attachments/admin_index.ctp:7
@@ -2050,86 +2125,107 @@ msgid "Attachments"
 msgstr "附件"
 
 #: FileManager/Config/admin_menu.php:24
-#: FileManager/Controller/FileManagerController.php:113
+#: FileManager/Controller/FileManagerController.php:117
 #: FileManager/View/FileManager/admin_browse.ctp:7
 #: FileManager/View/FileManager/admin_create_directory.ctp:7
 #: FileManager/View/FileManager/admin_create_file.ctp:7
 #: FileManager/View/FileManager/admin_editfile.ctp:7
+#: FileManager/View/FileManager/admin_rename.ctp:7
 #: FileManager/View/FileManager/admin_upload.ctp:7
 msgid "File Manager"
 msgstr "文件管理器"
 
-#: FileManager/Controller/AttachmentsController.php:113
+#: FileManager/Controller/AttachmentsController.php:155
 msgid "Add Attachment"
 msgstr "添加附件"
 
-#: FileManager/Controller/AttachmentsController.php:122
+#: FileManager/Controller/AttachmentsController.php:164
 msgid "Upload failed. Please ensure size does not exceed the server limit."
 msgstr "上传失败。请确认文件大小未超过服务器限制。"
 
-#: FileManager/Controller/AttachmentsController.php:129;162
+#: FileManager/Controller/AttachmentsController.php:171;204
 msgid "The Attachment has been saved"
 msgstr "附件已保存"
 
-#: FileManager/Controller/AttachmentsController.php:137;165
+#: FileManager/Controller/AttachmentsController.php:179;207
 msgid "The Attachment could not be saved. Please, try again."
 msgstr "附件无法保存。请重试。"
 
-#: FileManager/Controller/AttachmentsController.php:150
+#: FileManager/Controller/AttachmentsController.php:192
 msgid "Edit Attachment"
 msgstr "编辑附件"
 
-#: FileManager/Controller/AttachmentsController.php:157
+#: FileManager/Controller/AttachmentsController.php:199
 msgid "Invalid Attachment"
 msgstr "无效的附件"
 
-#: FileManager/Controller/AttachmentsController.php:182;190
+#: FileManager/Controller/AttachmentsController.php:224;232
 msgid "Invalid id for Attachment"
 msgstr "无效的附件id"
 
-#: FileManager/Controller/AttachmentsController.php:187
+#: FileManager/Controller/AttachmentsController.php:229
 msgid "Attachment deleted"
 msgstr "附件已删除"
 
-#: FileManager/Controller/FileManagerController.php:118;150;190;219;252;311;345
+#: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
 msgid "Path %s is restricted"
 msgstr "%s 路径受限"
 
-#: FileManager/Controller/FileManagerController.php:153
+#: FileManager/Controller/FileManagerController.php:157
 msgid "Edit file: %s"
 msgstr "编辑文件: %s"
 
-#: FileManager/Controller/FileManagerController.php:164
+#: FileManager/Controller/FileManagerController.php:167
 msgid "File saved successfully"
 msgstr "文件保存成功"
 
-#: FileManager/Controller/FileManagerController.php:198
+#: FileManager/Controller/FileManagerController.php:201
 msgid "File uploaded successfully."
 msgstr "文件上传成功"
 
-#: FileManager/Controller/FileManagerController.php:224
+#: FileManager/Controller/FileManagerController.php:227
 msgid "File deleted"
 msgstr "文件已删除"
 
-#: FileManager/Controller/FileManagerController.php:257
+#: FileManager/Controller/FileManagerController.php:260
 msgid "Directory deleted"
 msgstr "目录已删除"
 
+#: FileManager/Controller/FileManagerController.php:285
+msgid "Path \"%s\" cannot be renamed"
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:298
+msgid "%s already exists"
+msgstr ""
+
 #: FileManager/Controller/FileManagerController.php:302
+msgid "\"%s\" has been renamed to \"%s\""
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:305
+msgid "Could not rename \"%s\" to \"%s\""
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:310
+msgid "Name has not changed"
+msgstr ""
+
+#: FileManager/Controller/FileManagerController.php:331
 #: FileManager/View/FileManager/admin_create_directory.ctp:8
 msgid "Create Directory"
 msgstr "创建目录"
 
-#: FileManager/Controller/FileManagerController.php:318
+#: FileManager/Controller/FileManagerController.php:347
 msgid "Directory created successfully."
 msgstr "目录已成功创建"
 
-#: FileManager/Controller/FileManagerController.php:336
+#: FileManager/Controller/FileManagerController.php:365
 #: FileManager/View/FileManager/admin_create_file.ctp:8
 msgid "Create File"
 msgstr "创建文件"
 
-#: FileManager/Controller/FileManagerController.php:351
+#: FileManager/Controller/FileManagerController.php:380
 msgid "File created successfully."
 msgstr "文件已成功创建"
 
@@ -2150,6 +2246,18 @@ msgstr "URL"
 msgid "Insert"
 msgstr "插入"
 
+#: FileManager/View/Attachments/admin_chooser.ctp:4
+#: Nodes/View/Nodes/admin_chooser.ctp:4
+msgid "Sort by:"
+msgstr "排序以："
+
+#: FileManager/View/Attachments/admin_chooser.ctp:41
+#: FileManager/View/Elements/admin/attachments_search.ctp:48
+#: Nodes/View/Elements/admin/nodes_search.ctp:47
+#: Nodes/View/Nodes/admin_chooser.ctp:50
+msgid "Promoted"
+msgstr "置顶"
+
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
 msgstr "附件"
@@ -2165,6 +2273,27 @@ msgstr "文件URL"
 #: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
 msgstr "Mime型式"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:28
+#: Nodes/View/Elements/search.ctp:7 Nodes/View/Elements/search2.ctp:8
+#: Nodes/View/Elements/admin/nodes_search.ctp:22
+msgid "Search"
+msgstr "搜索"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:29
+#: Nodes/View/Elements/admin/nodes_search.ctp:23
+msgid "Search..."
+msgstr "搜索..."
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:45
+#: Nodes/View/Elements/admin/nodes_search.ctp:44
+msgid "Yes"
+msgstr "是"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:46
+#: Nodes/View/Elements/admin/nodes_search.ctp:45
+msgid "No"
+msgstr "否"
 
 #: FileManager/View/FileManager/admin_browse.ctp:14
 msgid "Upload here"
@@ -2182,6 +2311,7 @@ msgstr "创建文件"
 #: FileManager/View/FileManager/admin_create_directory.ctp:21
 #: FileManager/View/FileManager/admin_create_file.ctp:13
 #: FileManager/View/FileManager/admin_editfile.ctp:13
+#: FileManager/View/FileManager/admin_rename.ctp:13
 #: FileManager/View/FileManager/admin_upload.ctp:13
 msgid "You are here"
 msgstr "你在这"
@@ -2194,7 +2324,12 @@ msgstr "目录内容"
 msgid "Open"
 msgstr "打开"
 
-#: FileManager/View/FileManager/admin_browse.ctp:87
+#: FileManager/View/FileManager/admin_browse.ctp:66;111
+#: FileManager/View/FileManager/admin_rename.ctp:8
+msgid "Rename"
+msgstr ""
+
+#: FileManager/View/FileManager/admin_browse.ctp:91
 msgid "View"
 msgstr "查看"
 
@@ -2213,12 +2348,17 @@ msgid "Create"
 msgstr "创建"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:33
+#: FileManager/View/FileManager/admin_rename.ctp:33
 msgid "File"
 msgstr "文件"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
 msgstr "文件名"
+
+#: FileManager/View/FileManager/admin_rename.ctp:41
+msgid "New name"
+msgstr ""
 
 #: Install/Console/Command/InstallShell.php:27
 msgid "Install Utilities"
@@ -2607,7 +2747,7 @@ msgstr ""
 msgid "Delete this item"
 msgstr "删除这已项"
 
-#: Menus/View/Links/admin_link_chooser.ctp:11
+#: Menus/View/Links/admin_link_chooser.ctp:12
 msgid "Link to %s"
 msgstr ""
 
@@ -2648,36 +2788,40 @@ msgstr "移除"
 msgid "List"
 msgstr "列表"
 
-#: Nodes/Controller/NodesController.php:143
+#: Nodes/Controller/NodesController.php:145
+msgid "Type must be specified"
+msgstr ""
+
+#: Nodes/Controller/NodesController.php:226
 #: Nodes/View/Nodes/admin_index.ctp:12
 msgid "Create content"
 msgstr "创建内容"
 
-#: Nodes/Controller/NodesController.php:164
+#: Nodes/Controller/NodesController.php:247
 msgid "Content type does not exist."
 msgstr "内容类型不村爱"
 
-#: Nodes/Controller/NodesController.php:175;216
+#: Nodes/Controller/NodesController.php:258;299
 msgid "%s has been saved"
 msgstr "%s 已保存"
 
-#: Nodes/Controller/NodesController.php:178;219
+#: Nodes/Controller/NodesController.php:261;302
 msgid "%s could not be saved. Please, try again."
 msgstr "%s 无法保存。请重试。"
 
-#: Nodes/Controller/NodesController.php:185
+#: Nodes/Controller/NodesController.php:268
 msgid "Create content: %s"
 msgstr "创建内容：%s "
 
-#: Nodes/Controller/NodesController.php:229
+#: Nodes/Controller/NodesController.php:315
 msgid "Edit %s: %s"
 msgstr "编辑 %s: %s"
 
-#: Nodes/Controller/NodesController.php:242
+#: Nodes/Controller/NodesController.php:328
 msgid "Paths updated."
 msgstr "路径已更新"
 
-#: Nodes/Controller/NodesController.php:245
+#: Nodes/Controller/NodesController.php:331
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
@@ -2685,48 +2829,47 @@ msgstr ""
 "更新路径时出错\n"
 "请重试"
 
-#: Nodes/Controller/NodesController.php:262
+#: Nodes/Controller/NodesController.php:348
 msgid "Invalid id for Node"
 msgstr "无效的节点id"
 
-#: Nodes/Controller/NodesController.php:268
+#: Nodes/Controller/NodesController.php:354
 msgid "Node deleted"
 msgstr "节点已删除"
 
-#: Nodes/Controller/NodesController.php:321
-msgid "Nodes deleted"
-msgstr "多个节点已删除"
+#: Nodes/Controller/NodesController.php:409
+msgid "%s deleted"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:322
-msgid "Nodes published"
-msgstr "节点已发布"
+#: Nodes/Controller/NodesController.php:410
+msgid "%s published"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:323
-msgid "Nodes unpublished"
-msgstr "节点未发布"
+#: Nodes/Controller/NodesController.php:411
+msgid "%s unpublished"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:324
-msgid "Nodes promoted"
-msgstr "节点置顶"
+#: Nodes/Controller/NodesController.php:412
+msgid "%s promoted"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:325
-msgid "Nodes unpromoted"
-msgstr "取消节点置顶"
+#: Nodes/Controller/NodesController.php:413
+msgid "%s unpromoted"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:326
-#, fuzzy
-msgid "Nodes copied"
-msgstr "节点已发布"
+#: Nodes/Controller/NodesController.php:414
+msgid "%s copied"
+msgstr ""
 
-#: Nodes/Controller/NodesController.php:379;480;552;615
+#: Nodes/Controller/NodesController.php:467;568;640;703
 msgid "Invalid content type."
 msgstr "无效的内容类型"
 
-#: Nodes/Controller/NodesController.php:437
+#: Nodes/Controller/NodesController.php:525
 msgid "Invalid Term."
 msgstr "无效的术语"
 
-#: Nodes/Controller/NodesController.php:531
+#: Nodes/Controller/NodesController.php:619
 msgid "Home"
 msgstr ""
 
@@ -2746,79 +2889,58 @@ msgstr "发布于"
 msgid "Leave a comment"
 msgstr "写评论"
 
-#: Nodes/View/Elements/search.ctp:7 Nodes/View/Elements/search2.ctp:8
-#: Nodes/View/Elements/admin/nodes_search.ctp:22
-msgid "Search"
-msgstr "搜索"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:23
-msgid "Search..."
-msgstr "搜索..."
-
 #: Nodes/View/Elements/admin/nodes_search.ctp:31
-#: Nodes/View/Nodes/admin_index.ctp:33
+#: Nodes/View/Nodes/admin_hierarchy.ctp:38 Nodes/View/Nodes/admin_index.ctp:33
 #: Taxonomy/Controller/TypesController.php:53
 #: Taxonomy/View/Types/admin_form.ctp:20
 #: Taxonomy/View/Vocabularies/admin_form.ctp:46
 msgid "Type"
 msgstr "类型"
 
-#: Nodes/View/Elements/admin/nodes_search.ctp:44
-msgid "Yes"
-msgstr "是"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:45
-msgid "No"
-msgstr "否"
-
-#: Nodes/View/Elements/admin/nodes_search.ctp:47
-#: Nodes/View/Nodes/admin_chooser.ctp:50
-msgid "Promoted"
-msgstr "置顶"
-
-#: Nodes/View/Nodes/admin_chooser.ctp:4
-msgid "Sort by:"
-msgstr "排序以："
-
-#: Nodes/View/Nodes/admin_form.ctp:72 Taxonomy/View/Terms/admin_chooser.ctp:7
+#: Nodes/View/Nodes/admin_form.ctp:80 Taxonomy/View/Terms/admin_chooser.ctp:7
 #: Taxonomy/View/Terms/admin_form.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
 msgstr "Slug"
 
-#: Nodes/View/Nodes/admin_form.ctp:75
+#: Nodes/View/Nodes/admin_form.ctp:83
 msgid "Excerpt"
 msgstr "摘要"
 
-#: Nodes/View/Nodes/admin_form.ctp:109
+#: Nodes/View/Nodes/admin_form.ctp:117
 msgid "Promoted to front page"
 msgstr "置顶"
 
-#: Nodes/View/Nodes/admin_form.ctp:113
+#: Nodes/View/Nodes/admin_form.ctp:121
 msgid "Publish as "
 msgstr "发布为"
 
-#: Nodes/View/Nodes/admin_index.ctp:34 Users/View/Users/admin_form.ctp:37
+#: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
+#: Users/View/Users/admin_form.ctp:37
 msgid "User"
 msgstr "用户"
 
-#: Nodes/View/Nodes/admin_index.ctp:62
+#: Nodes/View/Nodes/admin_hierarchy.ctp:67 Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
 msgstr "置顶的"
 
-#: Nodes/View/Nodes/admin_index.ctp:120
+#: Nodes/View/Nodes/admin_hierarchy.ctp:126
+#: Nodes/View/Nodes/admin_index.ctp:127
 msgid "Applying to selected"
 msgstr "应用到已选"
 
-#: Nodes/View/Nodes/admin_index.ctp:125
+#: Nodes/View/Nodes/admin_hierarchy.ctp:131
+#: Nodes/View/Nodes/admin_index.ctp:132
 msgid "Promote"
 msgstr "置顶"
 
-#: Nodes/View/Nodes/admin_index.ctp:126
+#: Nodes/View/Nodes/admin_hierarchy.ctp:132
+#: Nodes/View/Nodes/admin_index.ctp:133
 msgid "Unpromote"
 msgstr "取消置顶"
 
-#: Nodes/View/Nodes/admin_index.ctp:143
+#: Nodes/View/Nodes/admin_hierarchy.ctp:151
+#: Nodes/View/Nodes/admin_index.ctp:152
 msgid "%s selected items?"
 msgstr "%s 选择的项？"
 
@@ -2842,7 +2964,7 @@ msgid "Search Results: %s"
 msgstr "搜索结果: %s"
 
 #: Settings/Config/admin_menu.php:5
-#: Settings/Controller/SettingsController.php:79
+#: Settings/Controller/SettingsController.php:68
 #: Settings/View/Languages/admin_form.ctp:7
 #: Settings/View/Languages/admin_index.ctp:6
 #: Settings/View/Languages/admin_select.ctp:5
@@ -2940,7 +3062,7 @@ msgid "Delete?"
 msgstr "删除？"
 
 #: Settings/Console/Command/SettingsShell.php:194
-#: Settings/Controller/SettingsController.php:163
+#: Settings/Controller/SettingsController.php:152
 msgid "Setting deleted"
 msgstr "设置已删除"
 
@@ -2977,44 +3099,44 @@ msgstr "语言已删除"
 msgid "Select a language"
 msgstr "选择一种语言"
 
-#: Settings/Controller/SettingsController.php:97
+#: Settings/Controller/SettingsController.php:86
 msgid "Invalid Setting."
 msgstr "无效的设置"
 
-#: Settings/Controller/SettingsController.php:110
+#: Settings/Controller/SettingsController.php:99
 msgid "Add Setting"
 msgstr "添加设置"
 
-#: Settings/Controller/SettingsController.php:115;139
+#: Settings/Controller/SettingsController.php:104;128
 msgid "The Setting has been saved"
 msgstr "设置已保存"
 
-#: Settings/Controller/SettingsController.php:118;142
+#: Settings/Controller/SettingsController.php:107;131
 msgid "The Setting could not be saved. Please, try again."
 msgstr "设置无法保存。请重试。"
 
-#: Settings/Controller/SettingsController.php:131
+#: Settings/Controller/SettingsController.php:120
 #: Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
 msgstr "编辑设置"
 
-#: Settings/Controller/SettingsController.php:134
+#: Settings/Controller/SettingsController.php:123
 msgid "Invalid Setting"
 msgstr "无效的设置"
 
-#: Settings/Controller/SettingsController.php:159
+#: Settings/Controller/SettingsController.php:148
 msgid "Invalid id for Setting"
 msgstr "无效的设置id"
 
-#: Settings/Controller/SettingsController.php:176
+#: Settings/Controller/SettingsController.php:165
 msgid "Settings: %s"
 msgstr "设置： %s "
 
-#: Settings/Controller/SettingsController.php:180
+#: Settings/Controller/SettingsController.php:169
 msgid "Settings updated successfully"
 msgstr "设置已成功更新"
 
-#: Settings/Controller/SettingsController.php:194
+#: Settings/Controller/SettingsController.php:183
 msgid "Invalid Setting key"
 msgstr "无效的设置key"
 
@@ -3073,10 +3195,6 @@ msgstr "权重"
 msgid "Delete Setting"
 msgstr "删除设置"
 
-#: Settings/View/Settings/admin_view.ctp:44
-msgid "Are you sure you want to delete # %s?"
-msgstr "你确定要删除# %s?"
-
 #: Settings/View/Settings/admin_view.ctp:45
 msgid "List Settings"
 msgstr "列出设置"
@@ -3109,7 +3227,7 @@ msgstr " %s: 添加术语"
 msgid "Term saved successfuly."
 msgstr "术语保存成功"
 
-#: Taxonomy/Controller/TermsController.php:99;142
+#: Taxonomy/Controller/TermsController.php:99;146
 msgid "Term could not be added to the vocabulary. Please try again."
 msgstr "术语无法加入词汇表。请重试。"
 
@@ -3117,31 +3235,31 @@ msgstr "术语无法加入词汇表。请重试。"
 msgid "%s: Edit Term"
 msgstr "%s: 编辑术语"
 
-#: Taxonomy/Controller/TermsController.php:168
+#: Taxonomy/Controller/TermsController.php:172
 msgid "Term deleted"
 msgstr "术语已删除"
 
-#: Taxonomy/Controller/TermsController.php:171
+#: Taxonomy/Controller/TermsController.php:175
 msgid "Term could not be deleted. Please, try again."
 msgstr "术语无法删除。请重试。"
 
-#: Taxonomy/Controller/TermsController.php:225
+#: Taxonomy/Controller/TermsController.php:229
 msgid "Moved %s successfully"
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:228
+#: Taxonomy/Controller/TermsController.php:232
 msgid "Could not move %s"
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:261
+#: Taxonomy/Controller/TermsController.php:265
 msgid "Invalid Term ID."
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:277
+#: Taxonomy/Controller/TermsController.php:281
 msgid "Invalid Taxonomy."
 msgstr ""
 
-#: Taxonomy/Controller/TermsController.php:296
+#: Taxonomy/Controller/TermsController.php:300
 msgid "Invalid Vocabulary ID."
 msgstr "无效的词汇表id"
 
@@ -3209,11 +3327,11 @@ msgstr "无效的词汇表id"
 msgid "Vocabulary deleted"
 msgstr "词汇表已删除"
 
-#: Taxonomy/Model/Term.php:186
+#: Taxonomy/Model/Term.php:178
 msgid "Invalid Term Id"
 msgstr ""
 
-#: Taxonomy/Model/Term.php:243
+#: Taxonomy/Model/Term.php:235
 msgid "\"vocabulary_id\" key not found"
 msgstr ""
 
@@ -3326,7 +3444,7 @@ msgstr "本地化的翻译已成功删除"
 msgid "Translation for the locale could not be deleted."
 msgstr "本地化的翻译无法删除"
 
-#: Translate/Lib/Translations.php:22
+#: Translate/Lib/Translations.php:22;27
 #: Translate/View/Translate/admin_edit.ctp:19;34
 msgid "Translate"
 msgstr "翻译"
@@ -3571,6 +3689,142 @@ msgstr "重置"
 msgid "New password"
 msgstr "新密码"
 
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: for field title
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Link.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
+msgid "Title cannot be empty."
+msgstr "标题不能为空"
+
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: for field alias
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+msgid "This alias has already been taken."
+msgstr "这个昵称已被占用"
+
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: for field alias
+#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+#: title;validation
+msgid "Alias cannot be empty."
+msgstr "昵称不能为空"
+
+#: /home/rachman/work/personal/deploy/croogo/Comments/Model/Comment.php:validation
+#: for field body;validation name
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: title
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Message.php:validation
+#: name;validation title;validation body
+#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: username;validation
+msgid "This field cannot be left blank."
+msgstr "这个域不能为空"
+
+#: /home/rachman/work/personal/deploy/croogo/Comments/Model/Comment.php:validation
+#: for field email
+msgid "Please enter a valid email address."
+msgstr "请输入一个有效的邮箱地址"
+
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: for field email
+#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Message.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+msgid "Please provide a valid email address."
+msgstr "请提供一个有效的邮箱地址"
+
+#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
+#: for field slug
+#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Term.php:validation
+msgid "This slug has already been taken."
+msgstr "这个slug已被占用"
+
+#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
+#: for field slug
+#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
+#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Term.php:validation
+msgid "Slug cannot be empty."
+msgstr "slug不能为空"
+
+#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Link.php:validation
+#: for field link
+msgid "Link cannot be empty."
+msgstr "链接不能未空"
+
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Setting.php:validation
+#: for field key
+msgid "This key has already been taken."
+msgstr "这个key已被占用"
+
+#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Setting.php:validation
+#: for field key
+msgid "Key cannot be empty."
+msgstr "key不能为空"
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+#: for field title;validation alias
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: username;validation name
+msgid "This field must be alphanumeric"
+msgstr "这个域必须是字母数字的"
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: for field username
+msgid "The username has already been taken."
+msgstr "这个用户名已被占用"
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: for field email
+msgid "Email address already in use."
+msgstr "邮箱地址已使用"
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: for field password
+msgid "Passwords must be at least 6 characters long."
+msgstr "密码必须大于6位字符"
+
+#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: for field website
+msgid "This field must be a valid URL"
+msgstr "这个域必须是一个有效的URL"
+
+#~ msgid "Nodes deleted"
+#~ msgstr "多个节点已删除"
+
+#~ msgid "Nodes published"
+#~ msgstr "节点已发布"
+
+#~ msgid "Nodes unpublished"
+#~ msgstr "节点未发布"
+
+#~ msgid "Nodes promoted"
+#~ msgstr "节点置顶"
+
+#~ msgid "Nodes unpromoted"
+#~ msgstr "取消节点置顶"
+
+#, fuzzy
+#~ msgid "Nodes copied"
+#~ msgstr "节点已发布"
+
 #~ msgid ""
 #~ "Page %page% of %pages%, showing %current% records out of %count% total, "
 #~ "starting on record %start%, ending on %end%"
@@ -3607,54 +3861,6 @@ msgstr "新密码"
 
 #~ msgid "Invalid id for Term"
 #~ msgstr "无效的术语id"
-
-#~ msgid "Title cannot be empty."
-#~ msgstr "标题不能为空"
-
-#~ msgid "This alias has already been taken."
-#~ msgstr "这个昵称已被占用"
-
-#~ msgid "Alias cannot be empty."
-#~ msgstr "昵称不能为空"
-
-#~ msgid "This field cannot be left blank."
-#~ msgstr "这个域不能为空"
-
-#~ msgid "Please enter a valid email address."
-#~ msgstr "请输入一个有效的邮箱地址"
-
-#~ msgid "Please provide a valid email address."
-#~ msgstr "请提供一个有效的邮箱地址"
-
-#~ msgid "This slug has already been taken."
-#~ msgstr "这个slug已被占用"
-
-#~ msgid "Slug cannot be empty."
-#~ msgstr "slug不能为空"
-
-#~ msgid "Link cannot be empty."
-#~ msgstr "链接不能未空"
-
-#~ msgid "This key has already been taken."
-#~ msgstr "这个key已被占用"
-
-#~ msgid "Key cannot be empty."
-#~ msgstr "key不能为空"
-
-#~ msgid "This field must be alphanumeric"
-#~ msgstr "这个域必须是字母数字的"
-
-#~ msgid "The username has already been taken."
-#~ msgstr "这个用户名已被占用"
-
-#~ msgid "Email address already in use."
-#~ msgstr "邮箱地址已使用"
-
-#~ msgid "Passwords must be at least 6 characters long."
-#~ msgstr "密码必须大于6位字符"
-
-#~ msgid "This field must be a valid URL"
-#~ msgstr "这个域必须是一个有效的URL"
 
 #~ msgid "PHP version %s >= %s"
 #~ msgstr "PHP 版本 %s >= %s"
