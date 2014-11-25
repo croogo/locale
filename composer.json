@@ -24,6 +24,6 @@
         "vendor-dir": "Vendor"
     },
     "require": {
-        "croogo/croogo": "~2.0"
+        "croogo/croogo": "~2.2"
     }
 }
