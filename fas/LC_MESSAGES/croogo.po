@@ -1,7 +1,5 @@
 # LANGUAGE translation of CakePHP Application
-# Copyright YEAR NAME <EMAIL@ADDRESS>
-#Translator: rahim gashti
-#Email: rahim.gashti@gmail.com
+# Copyright 2015 rahim gashti <rahim.gashti@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.2.0\n"
@@ -2913,7 +2911,7 @@ msgstr "نوع"
 #: Taxonomy/View/Terms/admin_form.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
-msgstr "Slug"
+msgstr "لینک"
 
 #: Nodes/View/Nodes/admin_form.ctp:83
 msgid "Excerpt"
@@ -3233,23 +3231,23 @@ msgstr "لغت: %s"
 
 #: Taxonomy/Controller/TermsController.php:89
 msgid "%s: Add Term"
-msgstr "%s: افزودن شرط"
+msgstr "%s: افزودن دسته"
 
 #: Taxonomy/Controller/TermsController.php:93;136
 msgid "Term saved successfuly."
-msgstr "شرط با موفقیت ذخیره شد."
+msgstr "دسته با موفقیت ذخیره شد."
 
 #: Taxonomy/Controller/TermsController.php:99;146
 msgid "Term could not be added to the vocabulary. Please try again."
-msgstr "امکان افزودن شرط به لغت وجود ندارد، دوباره سعی نمایید."
+msgstr "امکان افزودن دسته به لغت وجود ندارد، دوباره سعی نمایید."
 
 #: Taxonomy/Controller/TermsController.php:132
 msgid "%s: Edit Term"
-msgstr "%s: ویرایش شرط"
+msgstr "%s: ویرایش دسته"
 
 #: Taxonomy/Controller/TermsController.php:172
 msgid "Term deleted"
-msgstr "شرط حذف شد"
+msgstr "دسته حذف شد"
 
 #: Taxonomy/Controller/TermsController.php:175
 msgid "Term could not be deleted. Please, try again."
@@ -3265,7 +3263,7 @@ msgstr "%s نمی تواند منتقل شود"
 
 #: Taxonomy/Controller/TermsController.php:265
 msgid "Invalid Term ID."
-msgstr "کد شرط نامعتبر."
+msgstr "کد دسته نامعتبر."
 
 #: Taxonomy/Controller/TermsController.php:281
 msgid "Invalid Taxonomy."
@@ -3341,7 +3339,7 @@ msgstr "لغت حذف شد"
 
 #: Taxonomy/Model/Term.php:178
 msgid "Invalid Term Id"
-msgstr "کد شرط نامعتبر"
+msgstr "کد دسته نامعتبر."
 
 #: Taxonomy/Model/Term.php:235
 msgid "\"vocabulary_id\" key not found"
@@ -3770,14 +3768,14 @@ msgstr "لطفاً یک ایمیل معتبر تهیه نمایید."
 #: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
 #: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
-msgstr "این slug تکراری می باشد."
+msgstr "این لینک تکراری می باشد."
 
 #: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
 #: for field slug
 #: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
 #: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
-msgstr "slug نمی تواند خالی باشد."
+msgstr "لینک نمی تواند خالی باشد."
 
 #: /home/rachman/work/personal/deploy/croogo/Menus/Model/Link.php:validation
 #: for field link
