@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.5.5\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-03-07 01:26+0100\n"
+"PO-Revision-Date: 2015-01-31 19:41+0100\n"
 "Last-Translator: Alain <Martini>\n"
 "Language-Team: inalto.com <webmaster@inalto.com>\n"
 "Language: ita\n"
@@ -1297,7 +1297,7 @@ msgstr "Spedisci"
 
 #: Plugin/Contacts/View/Emails/text/contact.ctp:7
 msgid "You have received a new message at: %s"
-msgstr "Hai ricevuto un nuovo messaggio ale: %s"
+msgstr "Hai ricevuto un nuovo messaggio alle: %s"
 
 #: Plugin/Contacts/View/Emails/text/contact.ctp:10
 msgid "Subject: %s"
@@ -1381,7 +1381,7 @@ msgstr "Plugin \"%s\" non può essere attivato. Riprova."
 #: Plugin/Croogo/Console/Command/ExtShell.php:184
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:143
 msgid "Plugin \"%s\" deactivated successfully."
-msgstr "Plugin \"%s\" deattivato con successo."
+msgstr "Plugin \"%s\" disattivato con successo."
 
 #: Plugin/Croogo/Console/Command/ExtShell.php:189
 msgid "Plugin \"%s\" could not be deactivated. Please, try again."
@@ -1421,11 +1421,11 @@ msgstr "Installazione mediante Composer..."
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:89
 msgid "Unexpected composerInstall return value"
-msgstr "Valore di ritorno di composerInstall inaspettato"
+msgstr "Inaspettato valore di ritorno di composerInstall "
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:102
 msgid "Package installed and activated."
-msgstr "Pacchetto instaallato e attivato"
+msgstr "Pacchetto installato e attivato"
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:104
 msgid "Package installed but not activated."
@@ -1433,7 +1433,7 @@ msgstr "Pacchetto installato ma non attivato."
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:121
 msgid "Extension installed and activated."
-msgstr "Estenzione installata e attivata."
+msgstr "Estensione installata e attivata."
 
 #: Plugin/Croogo/Console/Command/InstallShell.php:133
 msgid "Download, Install & Activate Plugins & Themes"
@@ -1472,7 +1472,7 @@ msgid ""
 "%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
-"Aggionra la gerarchia delle ACO dalla 1.3/1.4 così che segguo il normale "
+"Aggiorna la gerarchia delle ACO dalla 1.3/1.4 in modo che segua il normale "
 "comportamento delle applicazioni CakePHP. La differenza principale è che i "
 "controller dei plugin ora sono memorizzati dentro il proprio record ARO, "
 "mentre nelle precedenti versioni si assume che tutti i controller "
@@ -1486,7 +1486,7 @@ msgstr "Crea il settings.json dal database"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:79
 msgid "Update Hook.bootstrap settings"
-msgstr "Aggiornale impostazioni di Hook.bootstrap"
+msgstr "Aggiorna le impostazioni di Hook.bootstrap"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:82
 msgid "Update Links in database"
@@ -1531,7 +1531,7 @@ msgstr "Link aggiornati: %d righe"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:207
 msgid "Hook.bootstraps updated"
-msgstr "Hook.bootstraps sggiornato"
+msgstr "Hook.bootstraps aggiornato"
 
 #: Plugin/Croogo/Console/Command/Task/UpgradeTask.php:318
 msgid "Upgrade \"%s\""
@@ -1543,7 +1543,7 @@ msgstr "Comando non riconosciuto"
 
 #: Plugin/Croogo/Controller/CroogoAppController.php:160
 msgid "Site down for maintenance"
-msgstr "Sito fuori linea per manutenzionee"
+msgstr "Sito in manutenzione"
 
 #: Plugin/Croogo/Controller/CroogoErrorController.php:55
 msgid "Errors in CakeErrorController: %s"
@@ -1568,7 +1568,8 @@ msgstr "Non posso ottenere un tipo di contenuto instradabile: %s"
 
 #: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:40
 msgid "Cannot load configuration files with ../ in them."
-msgstr "Non posso leggere file di configurazione contegono ../ "
+msgstr ""
+"Non posso leggere file di configurazione che contegano ../ al loro interno"
 
 #: Plugin/Croogo/Lib/Configure/CroogoJsonReader.php:55
 msgid "Could not load configuration files: %s or %s"
@@ -1592,8 +1593,8 @@ msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
-"Pagina {:page} di {:pages}, mostra {:current} record su {:count} total, "
-"starting on record {:start}, ending on {:end}"
+"Pagina {:page} di {:pages}, mostra {:current} record su {:count} totali, dal "
+"record {:start},al {:end}"
 
 #: Plugin/Croogo/View/Common/admin_index.ctp:133
 #: Plugin/FileManager/View/Attachments/admin_browse.ctp:90
@@ -1685,7 +1686,7 @@ msgstr "Croogo"
 
 #: Plugin/Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
-msgstr "Torna in dietro"
+msgstr "Torna indietro"
 
 #: Plugin/Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
@@ -1789,7 +1790,7 @@ msgstr "Plugin non valido"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:112
 msgid "You cannot delete a plugin that is currently active."
-msgstr "Non puoi eliminare un plugin se è correntemente attivo"
+msgstr "Non puoi eliminare un plugin se è attivo"
 
 #: Plugin/Extensions/Controller/ExtensionsPluginsController.php:118
 msgid "Plugin \"%s\" deleted successfully."
@@ -2149,7 +2150,7 @@ msgid ""
 "starting on record %start%, ending on %end%"
 msgstr ""
 "Pagina %page% di %pages%, visualizzati %current% record  su un totale di "
-"%count% , a partire dal record %start%, per finire al record %end%"
+"%count% , dal record %start%, al %end%"
 
 #: Plugin/FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
@@ -2291,7 +2292,7 @@ msgstr "Permessi %s garantiti a %s"
 
 #: Plugin/Install/Controller/InstallController.php:95
 msgid "Installation: Welcome"
-msgstr "Installazione:Benveuti"
+msgstr "Installazione: Benveuti"
 
 #: Plugin/Install/Controller/InstallController.php:110
 msgid "Step 1: Database"
@@ -2335,7 +2336,7 @@ msgstr "Font: %s copiata"
 
 #: Plugin/Install/Lib/AssetGenerator.php:168
 msgid "File: %s not copied"
-msgstr "File: %s nnon copiato"
+msgstr "File: %s non copiato"
 
 #: Plugin/Install/Lib/InstallManager.php:45
 msgid "Could not write database.php file."
@@ -2388,7 +2389,7 @@ msgstr "Nome del database"
 
 #: Plugin/Install/View/Install/database.ctp:60
 msgid "Table prefix (leave blank if unknown)"
-msgstr "Predisso della tabella (lasciare vuoto se non si sa)"
+msgstr "Prefisso della tabella (lasciare vuoto se non si sa)"
 
 #: Plugin/Install/View/Install/database.ctp:66
 msgid "Database port (leave blank if unknown)"
@@ -2448,7 +2449,7 @@ msgstr "PHP versione %s < %s"
 
 #: Plugin/Install/View/Install/index.ctp:37
 msgid "CakePhp version %s %s %s"
-msgstr "CakePhp versione %s %s %s"
+msgstr "CakePHP versione %s %s %s"
 
 #: Plugin/Install/View/Install/index.ctp:40
 msgid "CakePHP version %s < %s"
@@ -2619,7 +2620,7 @@ msgstr "Valore"
 
 #: Plugin/Meta/View/Helper/MetaHelper.php:105
 msgid "Remove"
-msgstr "Rimuobi"
+msgstr "Rimuovi"
 
 #: Plugin/Nodes/Config/bootstrap.php:49
 #: Plugin/Taxonomy/Config/bootstrap.php:36
@@ -2856,7 +2857,7 @@ msgstr "Lettura"
 
 #: Plugin/Settings/Config/bootstrap.php:59
 msgid "Writing"
-msgstr "Scritturaa"
+msgstr "Scrittura"
 
 #: Plugin/Settings/Config/bootstrap.php:83
 msgid "Service"
@@ -2903,7 +2904,7 @@ msgstr "    %-30s: %s"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:150
 msgid "Updating %s"
-msgstr "Sto aggiornando £s"
+msgstr "Sto aggiornando %s"
 
 #: Plugin/Settings/Console/Command/SettingsShell.php:151
 msgid "Confirm update"
@@ -2940,7 +2941,7 @@ msgstr "Aggiungi Lingua"
 
 #: Plugin/Settings/Controller/LanguagesController.php:59;83
 msgid "The Language has been saved"
-msgstr "La Lingua è stata sakvata"
+msgstr "La Lingua è stata salvata"
 
 #: Plugin/Settings/Controller/LanguagesController.php:62;86
 msgid "The Language could not be saved. Please, try again."
@@ -3077,7 +3078,7 @@ msgstr "Nuova impostazione"
 
 #: Plugin/Taxonomy/Config/bootstrap.php:15
 msgid "Content Types"
-msgstr "Tippi di contenuto"
+msgstr "Tipi di contenuto"
 
 #: Plugin/Taxonomy/Config/bootstrap.php:26
 #: Plugin/Taxonomy/View/Types/admin_form.ctp:26
@@ -3279,7 +3280,7 @@ msgstr "Traduzione eliminata con successo."
 
 #: Plugin/Translate/Controller/TranslateController.php:217
 msgid "Translation for the locale could not be deleted."
-msgstr "la Traduzione non può essere eliminata."
+msgstr "La traduzione non può essere eliminata."
 
 #: Plugin/Translate/Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
