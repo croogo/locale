@@ -3685,119 +3685,119 @@ msgstr ""
 msgid "New password"
 msgstr "Нова парола"
 
-#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: Blocks/Model/Block.php:validation
 #: for field title
-#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Link.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
+#: Blocks/Model/Region.php:validation
+#: Menus/Model/Link.php:validation
+#: Menus/Model/Menu.php:validation
+#: Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation
+#: Taxonomy/Model/Vocabulary.php:validation
 msgid "Title cannot be empty."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: Blocks/Model/Block.php:validation
 #: for field alias
-#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+#: Blocks/Model/Region.php:validation
+#: Contacts/Model/Contact.php:validation
+#: Menus/Model/Menu.php:validation
+#: Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation
+#: Taxonomy/Model/Vocabulary.php:validation
+#: Users/Model/Role.php:validation
 msgid "This alias has already been taken."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Block.php:validation
+#: Blocks/Model/Block.php:validation
 #: for field alias
-#: /home/rachman/work/personal/deploy/croogo/Blocks/Model/Region.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Menu.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Language.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Type.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Vocabulary.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+#: Blocks/Model/Region.php:validation
+#: Contacts/Model/Contact.php:validation
+#: Menus/Model/Menu.php:validation
+#: Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation
+#: Taxonomy/Model/Vocabulary.php:validation
+#: Users/Model/Role.php:validation
 #: title;validation
 msgid "Alias cannot be empty."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Comments/Model/Comment.php:validation
+#: Comments/Model/Comment.php:validation
 #: for field body;validation name
-#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: Contacts/Model/Contact.php:validation
 #: title
-#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Message.php:validation
+#: Contacts/Model/Message.php:validation
 #: name;validation title;validation body
-#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: FileManager/Model/Attachment.php:validation
+#: Nodes/Model/Node.php:validation
+#: Users/Model/User.php:validation
 #: username;validation
 msgid "This field cannot be left blank."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Comments/Model/Comment.php:validation
+#: Comments/Model/Comment.php:validation
 #: for field email
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Contact.php:validation
+#: Contacts/Model/Contact.php:validation
 #: for field email
-#: /home/rachman/work/personal/deploy/croogo/Contacts/Model/Message.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: Contacts/Model/Message.php:validation
+#: Users/Model/User.php:validation
 msgid "Please provide a valid email address."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
+#: FileManager/Model/Attachment.php:validation
 #: for field slug
-#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Term.php:validation
+#: Nodes/Model/Node.php:validation
+#: Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/FileManager/Model/Attachment.php:validation
+#: FileManager/Model/Attachment.php:validation
 #: for field slug
-#: /home/rachman/work/personal/deploy/croogo/Nodes/Model/Node.php:validation
-#: /home/rachman/work/personal/deploy/croogo/Taxonomy/Model/Term.php:validation
+#: Nodes/Model/Node.php:validation
+#: Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Menus/Model/Link.php:validation
+#: Menus/Model/Link.php:validation
 #: for field link
 msgid "Link cannot be empty."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Setting.php:validation
+#: Settings/Model/Setting.php:validation
 #: for field key
 msgid "This key has already been taken."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Settings/Model/Setting.php:validation
+#: Settings/Model/Setting.php:validation
 #: for field key
 msgid "Key cannot be empty."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/Role.php:validation
+#: Users/Model/Role.php:validation
 #: for field title;validation alias
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: Users/Model/User.php:validation
 #: username;validation name
 msgid "This field must be alphanumeric"
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: Users/Model/User.php:validation
 #: for field username
 msgid "The username has already been taken."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: Users/Model/User.php:validation
 #: for field email
 msgid "Email address already in use."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: Users/Model/User.php:validation
 #: for field password
 msgid "Passwords must be at least 6 characters long."
 msgstr ""
 
-#: /home/rachman/work/personal/deploy/croogo/Users/Model/User.php:validation
+#: Users/Model/User.php:validation
 #: for field website
 msgid "This field must be a valid URL"
 msgstr ""
