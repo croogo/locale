@@ -1,18 +1,20 @@
 # LANGUAGE translation of CakePHP Application
-# Copyright 2013 Mustapha elbakai <c.elbakai@gmail.com>
+# Copyright 2013-2015 Mustapha elbakai <m.elbakai@gmail.com>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.5.4\n"
+"Project-Id-Version: 2.2.1\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2013-10-01 13:55-0000\n"
-"Last-Translator: Mustapha elbakai <c.elbakai@gmail.com>\n"
-"Language-Team: Mustapha elbakai <c.elbakai@gmail.com>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-02-21 01:06-0000\n"
+"Last-Translator: ELBAKAI Mustapha <m.elbakai@gmail.com>\n"
+"Language-Team: Mustapha elbakai <m.elbakai@gmail.com>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 1.6.9\n"
 
 #: Acl/Config/admin_menu.php:4 Acl/Controller/AclPermissionsController.php:58
 #: Acl/Controller/Component/RowLevelAclComponent.php:67
@@ -23,7 +25,7 @@ msgstr "التراخيص"
 
 #: Acl/Config/admin_menu.php:15
 msgid "Access Control"
-msgstr ""
+msgstr "التحكم في الوصول"
 
 #: Acl/Console/Command/ExtrasShell.php:93
 msgid "Plugin to process"
@@ -95,11 +97,11 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:17
 #: Translate/View/Translate/admin_index.ctp:59
 msgid "Actions"
-msgstr ""
+msgstr "الإجراءات"
 
 #: Acl/Controller/AclActionsController.php:64
 msgid "Add Action"
-msgstr ""
+msgstr "إضافة إجراء"
 
 #: Acl/Controller/AclActionsController.php:78
 msgid "The %s has been saved"
@@ -111,7 +113,7 @@ msgstr ""
 
 #: Acl/Controller/AclActionsController.php:95
 msgid "Edit Action"
-msgstr ""
+msgstr "تعديل الاجراء"
 
 #: Acl/Controller/AclActionsController.php:98
 msgid "Invalid Action"
@@ -131,15 +133,15 @@ msgstr ""
 
 #: Acl/Controller/AclActionsController.php:128
 msgid "Action deleted"
-msgstr ""
+msgstr "تم حذف الاجراء"
 
 #: Acl/Controller/AclActionsController.php:147
 msgid "Action moved up"
-msgstr ""
+msgstr "تم نقل الاجراء الى الاعلى"
 
 #: Acl/Controller/AclActionsController.php:152
 msgid "Action moved down"
-msgstr ""
+msgstr "تم نقل الاجراء نحو الاسفل"
 
 #: Acl/Controller/AclActionsController.php:174
 msgid "Created %d new permissions"
@@ -264,12 +266,12 @@ msgstr "إضافة"
 
 #: Acl/View/AclActions/admin_form.ctp:23
 msgid "Action"
-msgstr ""
+msgstr "اجراء"
 
 #: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
 #: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
-msgstr ""
+msgstr "الأب"
 
 #: Acl/View/AclActions/admin_form.ctp:35
 msgid "Choose none if the Aco is a controller."
@@ -395,7 +397,7 @@ msgstr "أدوات"
 #: Acl/View/AclActions/admin_index.ctp:33
 #: Acl/View/AclPermissions/admin_index.ctp:34
 msgid "Generate"
-msgstr ""
+msgstr "إنشاء"
 
 #: Acl/View/AclActions/admin_index.ctp:40
 #: Acl/View/AclPermissions/admin_index.ctp:41
@@ -435,7 +437,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_index.ctp:26
 #: Taxonomy/View/Vocabularies/admin_index.ctp:13
 msgid "Id"
-msgstr ""
+msgstr "رمز التعريف"
 
 #: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
@@ -448,7 +450,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_index.ctp:42
 #: Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
-msgstr "إنتقال نحو الأعلى"
+msgstr "نقل نحو الأعلى"
 
 #: Acl/View/AclActions/admin_index.ctp:108
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
@@ -461,7 +463,7 @@ msgstr "إنتقال نحو الأعلى"
 #: Taxonomy/View/Terms/admin_index.ctp:46
 #: Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
-msgstr "إنتقال نحو الأسفل"
+msgstr "نقل نحو الأسفل"
 
 #: Acl/View/AclActions/admin_index.ctp:113
 #: Acl/View/AclPermissions/json/admin_index.ctp:15
@@ -545,40 +547,40 @@ msgstr ""
 #: Blocks/View/Blocks/admin_form.ctp:7 Blocks/View/Blocks/admin_index.ctp:9
 #: Blocks/View/Regions/admin_form.ctp:7 Blocks/View/Regions/admin_index.ctp:5
 msgid "Blocks"
-msgstr ""
+msgstr "المناطق"
 
 #: Blocks/Config/admin_menu.php:24 Blocks/View/Regions/admin_form.ctp:9
 #: Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
-msgstr ""
+msgstr "الجهات"
 
 #: Blocks/Controller/BlocksController.php:122
 msgid "Add Block"
-msgstr ""
+msgstr "اضافة منطقة"
 
 #: Blocks/Controller/BlocksController.php:129;158
 msgid "The Block has been saved"
-msgstr ""
+msgstr "تم حفظ المنطقة"
 
 #: Blocks/Controller/BlocksController.php:132;161
 msgid "The Block could not be saved. Please, try again."
-msgstr ""
+msgstr "لم يتم حفظ المنطقة"
 
 #: Blocks/Controller/BlocksController.php:148
 msgid "Edit Block"
-msgstr ""
+msgstr "تعديل المنطقة"
 
 #: Blocks/Controller/BlocksController.php:151
 msgid "Invalid Block"
-msgstr ""
+msgstr "منطقة غير مقبولة"
 
 #: Blocks/Controller/BlocksController.php:186
 msgid "Invalid id for Block"
-msgstr ""
+msgstr "رمز تعريف المنطقة غير مقبول"
 
 #: Blocks/Controller/BlocksController.php:190
 msgid "Block deleted"
-msgstr ""
+msgstr "تم حذف المنطقة"
 
 #: Blocks/Controller/BlocksController.php:205
 #: Dashboards/Controller/DashboardsDashboardsController.php:126
@@ -622,66 +624,66 @@ msgstr "لا يمكن النزول نحول الأسفل"
 
 #: Blocks/Controller/BlocksController.php:243
 msgid "Blocks deleted"
-msgstr ""
+msgstr "تم حذف المناطق"
 
 #: Blocks/Controller/BlocksController.php:244
 msgid "Blocks published"
-msgstr ""
+msgstr "تم نشر المناطق"
 
 #: Blocks/Controller/BlocksController.php:245
 msgid "Blocks unpublished"
-msgstr ""
+msgstr "تم الغاء نشر المناطق"
 
 #: Blocks/Controller/BlocksController.php:246
 msgid "Blocks copied"
-msgstr ""
+msgstr "تم نسخ المناطق"
 
 #: Blocks/Controller/RegionsController.php:66
 #: Blocks/View/Blocks/admin_form.ctp:41 Blocks/View/Blocks/admin_index.ctp:22
 #: Blocks/View/Regions/admin_form.ctp:26
 msgid "Region"
-msgstr ""
+msgstr "جهة"
 
 #: Blocks/Controller/RegionsController.php:85
 msgid "Add Region"
-msgstr ""
+msgstr "اضافة جهة"
 
 #: Blocks/Controller/RegionsController.php:90;114
 msgid "The Region has been saved"
-msgstr ""
+msgstr "تم حفظ الجهة"
 
 #: Blocks/Controller/RegionsController.php:93;117
 msgid "The Region could not be saved. Please, try again."
-msgstr ""
+msgstr "لم يتم حفظ المنطقة المرجوا الاعادة من جديد"
 
 #: Blocks/Controller/RegionsController.php:106
 msgid "Edit Region"
-msgstr ""
+msgstr "تعديل الجهة"
 
 #: Blocks/Controller/RegionsController.php:109
 msgid "Invalid Region"
-msgstr ""
+msgstr "جهة غير مقبولة"
 
 #: Blocks/Controller/RegionsController.php:134
 msgid "Invalid id for Region"
-msgstr ""
+msgstr "رمز تعريف الجهة غير مقبول"
 
 #: Blocks/Controller/RegionsController.php:138
 msgid "Region deleted"
-msgstr ""
+msgstr "تم حذف الجهة"
 
 #: Blocks/View/Blocks/admin_form.ctp:22
 msgid "Block"
-msgstr ""
+msgstr "منطقة"
 
 #: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
 #: Nodes/View/Nodes/admin_form.ctp:55
 msgid "Access"
-msgstr ""
+msgstr "السماح بالمشاهدة لـ"
 
 #: Blocks/View/Blocks/admin_form.ctp:24
 msgid "Visibilities"
-msgstr ""
+msgstr "الظهور"
 
 #: Blocks/View/Blocks/admin_form.ctp:25;70 Menus/View/Links/admin_form.ctp:108
 #: Menus/View/Menus/admin_form.ctp:42 Settings/View/Settings/admin_form.ctp:57
@@ -721,11 +723,11 @@ msgstr "العنوان"
 
 #: Blocks/View/Blocks/admin_form.ctp:38
 msgid "unique name for your block"
-msgstr ""
+msgstr "اسم خاص وغير موجود للمنطقة"
 
 #: Blocks/View/Blocks/admin_form.ctp:42
 msgid "if you are not sure, choose 'none'"
-msgstr ""
+msgstr "اذا لم تكن متأكدا اختر لاشيء 'none'"
 
 #: Blocks/View/Blocks/admin_form.ctp:45
 #: Comments/View/Comments/admin_form.ctp:26
@@ -740,23 +742,25 @@ msgstr ""
 
 #: Blocks/View/Blocks/admin_form.ctp:51
 msgid "Element"
-msgstr ""
+msgstr "عنصر"
 
 #: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:89
 #: Nodes/View/Nodes/admin_form.ctp:93 Users/View/Roles/admin_form.ctp:21
 #: Users/View/Users/admin_form.ctp:45
 msgid "Role"
-msgstr "دور"
+msgstr "الدور"
 
 #: Blocks/View/Blocks/admin_form.ctp:63
 msgid "Visibility Paths"
-msgstr ""
+msgstr "المسارات التي ستظهر فيها هذه المنطقة"
 
 #: Blocks/View/Blocks/admin_form.ctp:64
 msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
 msgstr ""
+"ادخل رابط في كل سطر‪.‬ اترك الحقل فارغا اذا كنت تريد اظهار المنطقة في كل "
+"الصفحات"
 
 #: Blocks/View/Blocks/admin_form.ctp:90
 msgid "Show title ?"
@@ -764,15 +768,13 @@ msgstr "إظهار العنوان ؟"
 
 #: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
 #: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
-#, fuzzy
 msgid "Publish Start"
-msgstr "نشر"
+msgstr "نشر ابتداءا من"
 
 #: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
 #: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:144
-#, fuzzy
 msgid "Publish End"
-msgstr "منشور"
+msgstr "انهاء النشر يوم"
 
 #: Blocks/View/Blocks/admin_index.ctp:23
 #: Croogo/Console/Command/ExtShell.php:236;262
@@ -790,9 +792,8 @@ msgstr "الحالة"
 
 #: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
 #: Nodes/View/Nodes/admin_index.ctp:102
-#, fuzzy
 msgid "Create a copy"
-msgstr "إنشاء محتوى"
+msgstr "إنشاء نسخة"
 
 #: Blocks/View/Blocks/admin_index.ctp:54
 msgid "Create a copy of this Block?"
@@ -806,7 +807,7 @@ msgstr "إختر"
 #: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_hierarchy.ctp:71
 #: Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
-msgstr ""
+msgstr "مشاهدة"
 
 #: Blocks/View/Blocks/admin_index.ctp:114
 #: Comments/View/Comments/admin_index.ctp:109
@@ -842,7 +843,7 @@ msgstr "حذف"
 #: Nodes/View/Nodes/admin_hierarchy.ctp:136
 #: Nodes/View/Nodes/admin_index.ctp:137
 msgid "Copy"
-msgstr ""
+msgstr "نسخ"
 
 #: Blocks/View/Blocks/admin_index.ctp:121
 #: Comments/View/Comments/admin_index.ctp:115
@@ -851,7 +852,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:144
 #: Nodes/View/Nodes/admin_index.ctp:145 Users/View/Users/forgot.ctp:9
 msgid "Submit"
-msgstr ""
+msgstr "موافق"
 
 #: Comments/Config/admin_menu.php:4
 #: Comments/Controller/CommentsController.php:81;171
@@ -883,7 +884,7 @@ msgstr "تعديل تعليق"
 
 #: Comments/Controller/CommentsController.php:110
 msgid "Invalid Comment"
-msgstr ""
+msgstr "تعليق غير مقبول"
 
 #: Comments/Controller/CommentsController.php:115
 msgid "The Comment has been saved"
@@ -915,7 +916,7 @@ msgstr "تعليقات غير منشورة"
 
 #: Comments/Controller/CommentsController.php:198
 msgid "Invalid id"
-msgstr ""
+msgstr "رمز التعريف غير مقبول"
 
 #: Comments/Controller/CommentsController.php:223
 msgid "Maximum level reached. You cannot reply to that comment."
@@ -977,7 +978,7 @@ msgstr "تعليق"
 #: Contacts/View/Contacts/admin_form.ctp:20
 #: Contacts/View/Messages/admin_index.ctp:61
 msgid "Contact"
-msgstr ""
+msgstr "اتصال"
 
 #: Comments/View/Comments/admin_form.ctp:44
 #: Comments/View/Comments/admin_index.ctp:43
@@ -1040,7 +1041,7 @@ msgstr "بواسطة"
 
 #: Comments/View/Elements/comment.ctp:13
 msgid "said on %s"
-msgstr "قال في %"
+msgstr "قال في %s"
 
 #: Comments/View/Elements/comment.ctp:19
 msgid "Reply"
@@ -1108,7 +1109,7 @@ msgstr "تعليق: %s"
 #: Contacts/View/Messages/admin_form.ctp:7
 #: Contacts/View/Messages/admin_index.ctp:9
 msgid "Contacts"
-msgstr ""
+msgstr "جهات الاتصال"
 
 #: Contacts/Config/admin_menu.php:24
 #: Contacts/Controller/MessagesController.php:64
@@ -1127,7 +1128,7 @@ msgstr "تم حفظ جهة الإتصال"
 
 #: Contacts/Controller/ContactsController.php:75;99
 msgid "The Contact could not be saved. Please, try again."
-msgstr ""
+msgstr "لم يتم حفظ جهة الاتصال المرجوا المحاولة من جديد"
 
 #: Contacts/Controller/ContactsController.php:88
 msgid "Edit Contact"
@@ -1160,7 +1161,7 @@ msgstr ""
 #: Contacts/Controller/MessagesController.php:72
 #: Contacts/View/Messages/admin_index.ctp:14;47
 msgid "Read"
-msgstr ""
+msgstr "مقروءة"
 
 #: Contacts/Controller/MessagesController.php:86
 msgid "Edit Message"
@@ -1168,15 +1169,15 @@ msgstr "تعديل الرسالة"
 
 #: Contacts/Controller/MessagesController.php:89
 msgid "Invalid Message"
-msgstr ""
+msgstr "رسالة غير مقبولة"
 
 #: Contacts/Controller/MessagesController.php:94
 msgid "The Message has been saved"
-msgstr ""
+msgstr "تم حفظ الرسالة"
 
 #: Contacts/Controller/MessagesController.php:97
 msgid "The Message could not be saved. Please, try again."
-msgstr ""
+msgstr "لم يتم حفظ الرسالة المرجوا المحاولة من جديد"
 
 #: Contacts/Controller/MessagesController.php:114
 msgid "Invalid id for Message"
@@ -1187,7 +1188,6 @@ msgid "Message deleted"
 msgstr "تم حذف الرسالة"
 
 #: Contacts/Controller/MessagesController.php:134
-#, fuzzy
 msgid "Messages deleted"
 msgstr "تم حذف الرسائل"
 
@@ -1210,7 +1210,7 @@ msgstr "رسالة"
 
 #: Contacts/View/Contacts/admin_form.ctp:49
 msgid "Position"
-msgstr ""
+msgstr "مكان"
 
 #: Contacts/View/Contacts/admin_form.ctp:52
 #: Contacts/View/Messages/admin_form.ctp:41
@@ -1291,11 +1291,11 @@ msgstr ""
 
 #: Contacts/View/Emails/text/contact.ctp:10
 msgid "Subject: %s"
-msgstr "الموضوع: %"
+msgstr "الموضوع: %s"
 
 #: Contacts/View/Emails/text/contact.ctp:12
 msgid "Message: %s"
-msgstr "الرسالة: %"
+msgstr "الرسالة: %s"
 
 #: Contacts/View/Messages/admin_index.ctp:15
 msgid "Messages: Read"
@@ -1319,7 +1319,7 @@ msgstr ""
 
 #: Croogo/Console/Command/CroogoShell.php:27
 msgid "Croogo Utilities"
-msgstr ""
+msgstr "خدمات Croogo"
 
 #: Croogo/Console/Command/CroogoShell.php:29
 msgid "Compile/Generate CSS"
@@ -1327,7 +1327,7 @@ msgstr ""
 
 #: Croogo/Console/Command/CroogoShell.php:32
 msgid "Upgrade Croogo"
-msgstr ""
+msgstr "ترقية Croogo"
 
 #: Croogo/Console/Command/ExtShell.php:103
 msgid "Theme cannot be deactivated, instead activate another theme."
@@ -1444,7 +1444,7 @@ msgstr ""
 
 #: Croogo/Console/Command/InstallShell.php:176
 msgid "Installing extension..."
-msgstr ""
+msgstr "تثبيث التطبيق المساعد"
 
 #: Croogo/Console/Command/InstallShell.php:195
 msgid "Please specify a URL to a zipball extension"
@@ -1508,12 +1508,12 @@ msgstr ""
 #: Croogo/Console/Command/Task/UpgradeTask.php:188
 #: Settings/Console/Command/SettingsShell.php:155
 msgid "- %s"
-msgstr "- %"
+msgstr "‏- %s"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:189
 #: Settings/Console/Command/SettingsShell.php:158
 msgid "+ %s"
-msgstr "+%"
+msgstr "‏+ %s"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:194
 msgid "Links updated: %d rows"
@@ -1540,7 +1540,6 @@ msgid "Errors in CakeErrorController: %s"
 msgstr ""
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:98
-#, fuzzy
 msgid "No item selected"
 msgstr "لم يتم إختيار أي عنصر"
 
@@ -1563,16 +1562,16 @@ msgstr "مشاهدة الموقع"
 
 #: Croogo/Controller/Component/CroogoComponent.php:145
 msgid "Profile"
-msgstr ""
+msgstr "الملف الشخصي"
 
 #: Croogo/Controller/Component/CroogoComponent.php:160
 msgid "Logout"
-msgstr ""
+msgstr "تسجيل الخروج"
 
 #: Croogo/Controller/Component/CroogoComponent.php:292
 #: Nodes/Controller/NodesController.php:288;748;768
 msgid "Invalid content"
-msgstr ""
+msgstr "محتوى غير موجود"
 
 #: Croogo/Controller/Component/CroogoComponent.php:301
 msgid "Failed toggling field %s to %s"
@@ -1595,7 +1594,7 @@ msgstr "غير منشور"
 #: Croogo/Lib/CroogoStatus.php:41
 #: FileManager/View/Attachments/admin_edit.ctp:71
 msgid "Preview"
-msgstr ""
+msgstr "معاينة"
 
 #: Croogo/Lib/CroogoStatus.php:44
 msgid "Approved"
@@ -1640,11 +1639,11 @@ msgstr "%s جديد"
 
 #: Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
-msgstr ""
+msgstr "‏Croogo %s"
 
 #: Croogo/View/Elements/admin/footer.ctp:11
 msgid "Powered by %s"
-msgstr ""
+msgstr "مدعوم من %s"
 
 #: Croogo/View/Elements/admin/header.ctp:18
 #: Dashboards/Config/admin_menu.php:5;11
@@ -1664,6 +1663,8 @@ msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
+"الصفحة {:page} من {:page}, اظهار {:current} من أصل {:count} بيانات مسجلة, "
+"بداية من {:start} وانتهاءا بـ {:end}"
 
 #: Croogo/View/Elements/admin/pagination.ctp:10
 msgid "first"
@@ -1685,7 +1686,7 @@ msgstr "الأخير"
 #: FileManager/View/Elements/admin/attachments_search.ctp:53
 #: Nodes/View/Elements/admin/nodes_search.ctp:52
 msgid "Filter"
-msgstr ""
+msgstr "بحث"
 
 #: Croogo/View/Errors/missing_action.ctp:1
 #: Croogo/View/Errors/missing_controller.ctp:1
@@ -1720,7 +1721,7 @@ msgstr ""
 #: Croogo/View/Layouts/admin_login.ctp:6 Croogo/View/Layouts/admin_popup.ctp:6
 #: Install/View/Layouts/install.ctp:6
 msgid "Croogo"
-msgstr ""
+msgstr "‏Croogo"
 
 #: Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
@@ -1749,15 +1750,15 @@ msgstr ""
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
 #: Settings/View/Settings/admin_view.ctp:44
 msgid "Are you sure you want to delete # %s?"
-msgstr "هل تريد فعلا حذف  # %s?"
+msgstr "هل تريد فعلا حذف  # %s ؟"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:131
 msgid "Left"
-msgstr ""
+msgstr "يسار"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:134
 msgid "Right"
-msgstr ""
+msgstr "يمين"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:137
 msgid "Full"
@@ -1765,11 +1766,11 @@ msgstr ""
 
 #: Example/Config/admin_dashboard.php:5
 msgid "Welcome"
-msgstr ""
+msgstr "مرحبا"
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
-msgstr ""
+msgstr "المحتوى هنا"
 
 #: Extensions/Config/admin_menu.php:5
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:7
@@ -1780,7 +1781,7 @@ msgstr ""
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:7
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Extensions"
-msgstr ""
+msgstr "التطبيقات المساعدة"
 
 #: Extensions/Config/admin_menu.php:15
 #: Extensions/Controller/ExtensionsThemesController.php:60
@@ -1795,7 +1796,7 @@ msgstr "قوالب"
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:8
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:8
 msgid "Locales"
-msgstr ""
+msgstr "اللغات"
 
 #: Extensions/Config/admin_menu.php:35
 #: Extensions/Controller/ExtensionsPluginsController.php:69
@@ -2072,7 +2073,7 @@ msgstr "تفعيل"
 #: Taxonomy/View/Terms/admin_form.ctp:51 Taxonomy/View/Types/admin_form.ctp:38
 #: Taxonomy/View/Vocabularies/admin_form.ctp:43
 msgid "Description"
-msgstr ""
+msgstr "وصف"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:29
 msgid "Active"
@@ -2143,11 +2144,11 @@ msgstr "لم يتم حفظ المرفق، المرجوا المحاولة من �
 
 #: FileManager/Controller/AttachmentsController.php:192
 msgid "Edit Attachment"
-msgstr ""
+msgstr "تعديل المرفق"
 
 #: FileManager/Controller/AttachmentsController.php:199
 msgid "Invalid Attachment"
-msgstr ""
+msgstr "المرفق غير صالح"
 
 #: FileManager/Controller/AttachmentsController.php:224;232
 msgid "Invalid id for Attachment"
@@ -2199,16 +2200,16 @@ msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:310
 msgid "Name has not changed"
-msgstr ""
+msgstr "لم يتم تغيير الاسم"
 
 #: FileManager/Controller/FileManagerController.php:331
 #: FileManager/View/FileManager/admin_create_directory.ctp:8
 msgid "Create Directory"
-msgstr ""
+msgstr "انشاء مجلد"
 
 #: FileManager/Controller/FileManagerController.php:347
 msgid "Directory created successfully."
-msgstr ""
+msgstr "تم انشاء المجلد"
 
 #: FileManager/Controller/FileManagerController.php:365
 #: FileManager/View/FileManager/admin_create_file.ctp:8
@@ -2230,23 +2231,23 @@ msgstr "مرفق جديد"
 #: FileManager/View/Attachments/admin_browse.ctp:25
 #: FileManager/View/Attachments/admin_index.ctp:14
 msgid "URL"
-msgstr ""
+msgstr "المسار"
 
 #: FileManager/View/Attachments/admin_browse.ctp:67
 msgid "Insert"
-msgstr ""
+msgstr "ادراج"
 
 #: FileManager/View/Attachments/admin_chooser.ctp:4
 #: Nodes/View/Nodes/admin_chooser.ctp:4
 msgid "Sort by:"
-msgstr ""
+msgstr "ترتيب بواسطة‪:‬"
 
 #: FileManager/View/Attachments/admin_chooser.ctp:41
 #: FileManager/View/Elements/admin/attachments_search.ctp:48
 #: Nodes/View/Elements/admin/nodes_search.ctp:47
 #: Nodes/View/Nodes/admin_chooser.ctp:50
 msgid "Promoted"
-msgstr ""
+msgstr "تظهر في الصفحة الاولى"
 
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
@@ -2258,7 +2259,7 @@ msgstr ""
 
 #: FileManager/View/Attachments/admin_edit.ctp:32
 msgid "File URL"
-msgstr ""
+msgstr "مسار الملف"
 
 #: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
@@ -2287,11 +2288,11 @@ msgstr "لا"
 
 #: FileManager/View/FileManager/admin_browse.ctp:14
 msgid "Upload here"
-msgstr ""
+msgstr "رفع هنا"
 
 #: FileManager/View/FileManager/admin_browse.ctp:18
 msgid "Create directory"
-msgstr ""
+msgstr "انشاء مجلد"
 
 #: FileManager/View/FileManager/admin_browse.ctp:22
 msgid "Create file"
@@ -2308,7 +2309,7 @@ msgstr "أنت هنا"
 
 #: FileManager/View/FileManager/admin_browse.ctp:46
 msgid "Directory content"
-msgstr ""
+msgstr "محتوى المجلد"
 
 #: FileManager/View/FileManager/admin_browse.ctp:59
 msgid "Open"
@@ -2317,15 +2318,15 @@ msgstr "فتح"
 #: FileManager/View/FileManager/admin_browse.ctp:66;111
 #: FileManager/View/FileManager/admin_rename.ctp:8
 msgid "Rename"
-msgstr ""
+msgstr "اعادة التسمية"
 
 #: FileManager/View/FileManager/admin_browse.ctp:91
 msgid "View"
-msgstr ""
+msgstr "مشاهدة"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:34
 msgid "Directory"
-msgstr ""
+msgstr "مجلد"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:42
 msgid "Directory name"
@@ -2340,7 +2341,7 @@ msgstr "إضافة"
 #: FileManager/View/FileManager/admin_create_file.ctp:33
 #: FileManager/View/FileManager/admin_rename.ctp:33
 msgid "File"
-msgstr "ملف"
+msgstr "الملف"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
@@ -2348,7 +2349,7 @@ msgstr "إسم الملف"
 
 #: FileManager/View/FileManager/admin_rename.ctp:41
 msgid "New name"
-msgstr ""
+msgstr "اسم جديد"
 
 #: Install/Console/Command/InstallShell.php:27
 msgid "Install Utilities"
@@ -2618,7 +2619,7 @@ msgstr ""
 
 #: Install/View/Layouts/install.ctp:27
 msgid "Install Croogo"
-msgstr ""
+msgstr "تثبيت Croogo"
 
 #: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
 #: Menus/View/Links/admin_form.ctp:9 Menus/View/Links/admin_index.ctp:9
@@ -2656,12 +2657,11 @@ msgstr ""
 
 #: Menus/Controller/LinksController.php:243
 msgid "Link deleted"
-msgstr ""
+msgstr "تم حذف الرابط"
 
 #: Menus/Controller/LinksController.php:338
-#, fuzzy
 msgid "Links deleted"
-msgstr "تم حذف الملف"
+msgstr "تم حذف الرابط"
 
 #: Menus/Controller/LinksController.php:339
 msgid "Links published"
@@ -2697,7 +2697,7 @@ msgstr ""
 
 #: Menus/Controller/MenusController.php:135
 msgid "Menu deleted"
-msgstr ""
+msgstr "تم حذف القائمة"
 
 #: Menus/View/Links/admin_form.ctp:51;74
 msgid "Link"
@@ -2705,7 +2705,7 @@ msgstr "رابط"
 
 #: Menus/View/Links/admin_form.ctp:53 Menus/View/Menus/admin_form.ctp:21
 msgid "Misc."
-msgstr ""
+msgstr "متفرقات"
 
 #: Menus/View/Links/admin_form.ctp:62 Menus/View/Menus/admin_form.ctp:20
 msgid "Menu"
@@ -2725,7 +2725,7 @@ msgstr ""
 
 #: Menus/View/Links/admin_form.ctp:148
 msgid "Choose Link"
-msgstr ""
+msgstr "اختر رابط"
 
 #: Menus/View/Links/admin_index.ctp:78
 msgid "Create a copy of this Link?"
@@ -2741,11 +2741,11 @@ msgstr ""
 
 #: Menus/View/Menus/admin_index.ctp:15
 msgid "Link Count"
-msgstr ""
+msgstr "عدد الروابط"
 
 #: Menus/View/Menus/admin_index.ctp:29
 msgid "View links"
-msgstr ""
+msgstr "مشاهدة الروابط"
 
 #: Meta/Controller/Component/MetaComponent.php:47
 msgid "Custom Fields"
@@ -2774,7 +2774,7 @@ msgstr "إزالة"
 
 #: Nodes/Config/admin_menu.php:15 Taxonomy/Config/admin_menu.php:25
 msgid "List"
-msgstr "اللائحة"
+msgstr "لائحة المحتوى"
 
 #: Nodes/Controller/NodesController.php:145
 msgid "Type must be specified"
@@ -2857,11 +2857,11 @@ msgstr ""
 
 #: Nodes/Controller/NodesController.php:619
 msgid "Home"
-msgstr ""
+msgstr "الصفحة الرئيسية"
 
 #: Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
-msgstr ""
+msgstr "نشرت"
 
 #: Nodes/View/Elements/node_info.ctp:20
 msgid "on"
@@ -2899,7 +2899,7 @@ msgstr "إظهار في الصفحة الأولى"
 
 #: Nodes/View/Nodes/admin_form.ctp:121
 msgid "Publish as "
-msgstr ""
+msgstr "نشر تحت اسم"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
 #: Users/View/Users/admin_form.ctp:37
@@ -2908,22 +2908,22 @@ msgstr "مستخدم"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:67 Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
-msgstr ""
+msgstr "ظهور في الصفحة الاولى"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:126
 #: Nodes/View/Nodes/admin_index.ctp:127
 msgid "Applying to selected"
-msgstr ""
+msgstr "تطبيق الخيار التالي على ما تم اختياره من اللائحة"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:131
 #: Nodes/View/Nodes/admin_index.ctp:132
 msgid "Promote"
-msgstr ""
+msgstr "اظهار في الصفحة الرئيسية"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:132
 #: Nodes/View/Nodes/admin_index.ctp:133
 msgid "Unpromote"
-msgstr ""
+msgstr "اخفاء من الصفحة الرئيسية"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:151
 #: Nodes/View/Nodes/admin_index.ctp:152
@@ -2966,7 +2966,7 @@ msgstr "الموقع"
 
 #: Settings/Config/admin_menu.php:28
 msgid "Meta"
-msgstr ""
+msgstr "العلامات الوصفية"
 
 #: Settings/Config/admin_menu.php:40
 msgid "Reading"
@@ -2978,7 +2978,7 @@ msgstr "الكتابة"
 
 #: Settings/Config/admin_menu.php:76
 msgid "Service"
-msgstr ""
+msgstr "خدمة"
 
 #: Settings/Config/admin_menu.php:88
 #: Settings/Controller/LanguagesController.php:40
@@ -3033,7 +3033,7 @@ msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:168;196
 msgid "Cancelled"
-msgstr ""
+msgstr "تم الالغاء"
 
 #: Settings/Console/Command/SettingsShell.php:171;199
 msgid "Key: %s not found"
@@ -3050,7 +3050,7 @@ msgstr "حذف ؟"
 #: Settings/Console/Command/SettingsShell.php:194
 #: Settings/Controller/SettingsController.php:152
 msgid "Setting deleted"
-msgstr ""
+msgstr "تم حذف الاعدادات"
 
 #: Settings/Controller/LanguagesController.php:54
 msgid "Add Language"
@@ -3071,15 +3071,15 @@ msgstr "تعديل اللغة"
 #: Settings/Controller/LanguagesController.php:78
 #: Translate/Controller/TranslateController.php:127
 msgid "Invalid Language"
-msgstr ""
+msgstr "لغة غير موجودة"
 
 #: Settings/Controller/LanguagesController.php:103
 msgid "Invalid id for Language"
-msgstr ""
+msgstr "رمز اللغة غير مقبول"
 
 #: Settings/Controller/LanguagesController.php:107
 msgid "Language deleted"
-msgstr ""
+msgstr "تم حذف اللغة"
 
 #: Settings/Controller/LanguagesController.php:162
 msgid "Select a language"
@@ -3154,7 +3154,7 @@ msgstr ""
 #: Settings/View/Settings/admin_form.ctp:50
 #: Settings/View/Settings/admin_view.ctp:24
 msgid "Input Type"
-msgstr ""
+msgstr "نوع حقل النص"
 
 #: Settings/View/Settings/admin_form.ctp:51
 msgid "e.g., 'text' or 'textarea'"
@@ -3167,7 +3167,7 @@ msgstr "قابل للتعديل"
 
 #: Settings/View/Settings/admin_prefix.ctp:53
 msgid "Saving"
-msgstr ""
+msgstr "حفظ"
 
 #: Settings/View/Settings/admin_view.ctp:2
 msgid "Setting"
@@ -3175,7 +3175,7 @@ msgstr "إعداد"
 
 #: Settings/View/Settings/admin_view.ctp:29
 msgid "Weight"
-msgstr ""
+msgstr "وزن"
 
 #: Settings/View/Settings/admin_view.ctp:44
 msgid "Delete Setting"
@@ -3195,7 +3195,7 @@ msgstr "أنواع المحتوى"
 
 #: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:21
 msgid "Taxonomy"
-msgstr ""
+msgstr "التصنيف"
 
 #: Taxonomy/Config/admin_menu.php:35
 msgid "Add new"
@@ -3203,7 +3203,7 @@ msgstr "إضافة جديد"
 
 #: Taxonomy/Controller/TermsController.php:67
 msgid "Vocabulary: %s"
-msgstr ""
+msgstr "مصطلح: %s"
 
 #: Taxonomy/Controller/TermsController.php:89
 msgid "%s: Add Term"
@@ -3283,35 +3283,35 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_form.ctp:11;17
 #: Taxonomy/View/Vocabularies/admin_index.ctp:8
 msgid "Vocabularies"
-msgstr ""
+msgstr "المصطلحات"
 
 #: Taxonomy/Controller/VocabulariesController.php:54
 msgid "Add Vocabulary"
-msgstr ""
+msgstr "اضافة مصطلح جديد"
 
 #: Taxonomy/Controller/VocabulariesController.php:59;86
 msgid "The Vocabulary has been saved"
-msgstr ""
+msgstr "تم حفظ المصطلح"
 
 #: Taxonomy/Controller/VocabulariesController.php:62;89
 msgid "The Vocabulary could not be saved. Please, try again."
-msgstr ""
+msgstr "لم يتم حفظ المصطلح المرجوا المحاولة من جديد"
 
 #: Taxonomy/Controller/VocabulariesController.php:78
 msgid "Edit Vocabulary"
-msgstr ""
+msgstr "تعديل المصطلح"
 
 #: Taxonomy/Controller/VocabulariesController.php:81
 msgid "Invalid Vocabulary"
-msgstr ""
+msgstr "مصطلح غير مقبول"
 
 #: Taxonomy/Controller/VocabulariesController.php:113
 msgid "Invalid id for Vocabulary"
-msgstr ""
+msgstr "رمز المصطلح غير مقبول"
 
 #: Taxonomy/Controller/VocabulariesController.php:117
 msgid "Vocabulary deleted"
-msgstr ""
+msgstr "تم حذف المصطلح"
 
 #: Taxonomy/Model/Term.php:178
 msgid "Invalid Term Id"
@@ -3356,7 +3356,7 @@ msgstr ""
 #: Taxonomy/View/Types/admin_form.ctp:50
 #: Taxonomy/View/Vocabularies/admin_form.ctp:26
 msgid "Vocabulary"
-msgstr ""
+msgstr "مصطلح"
 
 #: Taxonomy/View/Types/admin_form.ctp:109
 msgid "Show author's name"
@@ -3372,7 +3372,7 @@ msgstr "خيارات"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Required"
-msgstr ""
+msgstr "ضروري"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Multiple"
@@ -3442,7 +3442,7 @@ msgstr ""
 #: Translate/View/Translate/admin_edit.ctp:10
 #: Translate/View/Translate/admin_index.ctp:31
 msgid "Translations"
-msgstr ""
+msgstr "الترجمات"
 
 #: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
 #: Users/View/Roles/admin_form.ctp:8 Users/View/Roles/admin_index.ctp:7
@@ -3521,7 +3521,7 @@ msgstr ""
 
 #: Users/Controller/UsersController.php:216
 msgid "Invalid User"
-msgstr ""
+msgstr "مستخدم غير موجود"
 
 #: Users/Controller/UsersController.php:221
 msgid "Password has been reset."
@@ -3533,7 +3533,7 @@ msgstr ""
 
 #: Users/Controller/UsersController.php:239
 msgid "Invalid id for User"
-msgstr ""
+msgstr "رمز تعريف المستخدم غير صحيح"
 
 #: Users/Controller/UsersController.php:243
 msgid "User deleted"
@@ -3545,11 +3545,11 @@ msgstr ""
 
 #: Users/Controller/UsersController.php:258
 msgid "Admin Login"
-msgstr ""
+msgstr "تسجيل دخول المدير"
 
 #: Users/Controller/UsersController.php:263
 msgid "You are already logged in"
-msgstr ""
+msgstr "سبق لك تسجيل الدخول"
 
 #: Users/Controller/UsersController.php:276
 msgid "Incorrect username or password"
@@ -3561,7 +3561,7 @@ msgstr "تم تسجيل الخروج بنجاح"
 
 #: Users/Controller/UsersController.php:346
 msgid "Register"
-msgstr ""
+msgstr "تسجيل"
 
 #: Users/Controller/UsersController.php:369
 msgid ""
@@ -3625,7 +3625,7 @@ msgstr "مرحبا %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
-msgstr "المرجوا زيارة هذا الرابط لإعادة تعيين كلمة مرورك"
+msgstr "المرجوا زيارة هذا الرابط لإعادة تعيين كلمة مرورك‪:‬ %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
@@ -3637,19 +3637,19 @@ msgstr ""
 
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
-msgstr ""
+msgstr "تعديل مستخدم %s"
 
 #: Users/View/Users/admin_form.ctp:16
 msgid "New user"
-msgstr ""
+msgstr "مستخدم جديد"
 
 #: Users/View/Users/admin_form.ctp:62
 msgid "Timezone"
-msgstr ""
+msgstr "المنطقة الزمنية"
 
 #: Users/View/Users/admin_form.ctp:80
 msgid "Send Activation Email"
-msgstr ""
+msgstr "ارسال بريد التأكد"
 
 #: Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
@@ -3665,7 +3665,7 @@ msgstr "نسيت كلمة المرور"
 
 #: Users/View/Users/admin_reset_password.ctp:13
 msgid "Reset Password: %s"
-msgstr ""
+msgstr "اعادة تعيين كلمة المرور %s"
 
 #: Users/View/Users/admin_reset_password.ctp:46
 msgid "Reset"
@@ -3675,134 +3675,85 @@ msgstr "إعادة التعيين"
 msgid "New password"
 msgstr "كلمة مرور جديدة"
 
-#: Blocks/Model/Block.php:validation
-#: for field title
-#: Blocks/Model/Region.php:validation
-#: Menus/Model/Link.php:validation
-#: Menus/Model/Menu.php:validation
-#: Settings/Model/Language.php:validation
-#: Taxonomy/Model/Type.php:validation
-#: Taxonomy/Model/Vocabulary.php:validation
+#: Blocks/Model/Block.php:validation for field title
+#: Blocks/Model/Region.php:validation Menus/Model/Link.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 msgid "Title cannot be empty."
 msgstr "العنوان لا يمكن أن يبقى فارغا"
 
-#: Blocks/Model/Block.php:validation
-#: for field alias
-#: Blocks/Model/Region.php:validation
-#: Contacts/Model/Contact.php:validation
-#: Menus/Model/Menu.php:validation
-#: Settings/Model/Language.php:validation
-#: Taxonomy/Model/Type.php:validation
-#: Taxonomy/Model/Vocabulary.php:validation
+#: Blocks/Model/Block.php:validation for field alias
+#: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 #: Users/Model/Role.php:validation
 msgid "This alias has already been taken."
 msgstr "هذا الإسم المستعار تم إستعماله"
 
-#: Blocks/Model/Block.php:validation
-#: for field alias
-#: Blocks/Model/Region.php:validation
-#: Contacts/Model/Contact.php:validation
-#: Menus/Model/Menu.php:validation
-#: Settings/Model/Language.php:validation
-#: Taxonomy/Model/Type.php:validation
-#: Taxonomy/Model/Vocabulary.php:validation
-#: Users/Model/Role.php:validation
-#: title;validation
+#: Blocks/Model/Block.php:validation for field alias
+#: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
+#: Users/Model/Role.php:validation title;validation
 msgid "Alias cannot be empty."
 msgstr "الإسم المستعار لا يمكن أن يبقى فارغا"
 
-#: Comments/Model/Comment.php:validation
-#: for field body;validation name
-#: Contacts/Model/Contact.php:validation
-#: title
-#: Contacts/Model/Message.php:validation
-#: name;validation title;validation body
-#: FileManager/Model/Attachment.php:validation
-#: Nodes/Model/Node.php:validation
-#: Users/Model/User.php:validation
-#: username;validation
+#: Comments/Model/Comment.php:validation for field body;validation name
+#: Contacts/Model/Contact.php:validation title
+#: Contacts/Model/Message.php:validation name;validation title;validation body
+#: FileManager/Model/Attachment.php:validation Nodes/Model/Node.php:validation
+#: Users/Model/User.php:validation username;validation
 msgid "This field cannot be left blank."
 msgstr ""
 
-#: Comments/Model/Comment.php:validation
-#: for field email
+#: Comments/Model/Comment.php:validation for field email
 msgid "Please enter a valid email address."
 msgstr "المرجوا إدخال بريد إلكتروني صحيح"
 
-#: Contacts/Model/Contact.php:validation
-#: for field email
-#: Contacts/Model/Message.php:validation
-#: Users/Model/User.php:validation
+#: Contacts/Model/Contact.php:validation for field email
+#: Contacts/Model/Message.php:validation Users/Model/User.php:validation
 msgid "Please provide a valid email address."
 msgstr "المرجوا إعطاء بريد إلكتروني صحيح"
 
-#: FileManager/Model/Attachment.php:validation
-#: for field slug
-#: Nodes/Model/Node.php:validation
-#: Taxonomy/Model/Term.php:validation
+#: FileManager/Model/Attachment.php:validation for field slug
+#: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
 msgstr ""
 
-#: FileManager/Model/Attachment.php:validation
-#: for field slug
-#: Nodes/Model/Node.php:validation
-#: Taxonomy/Model/Term.php:validation
+#: FileManager/Model/Attachment.php:validation for field slug
+#: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
 msgstr ""
 
-#: Menus/Model/Link.php:validation
-#: for field link
+#: Menus/Model/Link.php:validation for field link
 msgid "Link cannot be empty."
 msgstr "الرابط لا يمكن أن يبقى فارغا"
 
-#: Settings/Model/Setting.php:validation
-#: for field key
+#: Settings/Model/Setting.php:validation for field key
 msgid "This key has already been taken."
 msgstr ""
 
-#: Settings/Model/Setting.php:validation
-#: for field key
+#: Settings/Model/Setting.php:validation for field key
 msgid "Key cannot be empty."
 msgstr ""
 
-#: Users/Model/Role.php:validation
-#: for field title;validation alias
-#: Users/Model/User.php:validation
-#: username;validation name
+#: Users/Model/Role.php:validation for field title;validation alias
+#: Users/Model/User.php:validation username;validation name
 msgid "This field must be alphanumeric"
 msgstr ""
 
-#: Users/Model/User.php:validation
-#: for field username
+#: Users/Model/User.php:validation for field username
 msgid "The username has already been taken."
 msgstr "إسم المستخدم تم إستعماله"
 
-#: Users/Model/User.php:validation
-#: for field email
+#: Users/Model/User.php:validation for field email
 msgid "Email address already in use."
 msgstr "البريد الإلكتروني سبق إستعماله"
 
-#: Users/Model/User.php:validation
-#: for field password
+#: Users/Model/User.php:validation for field password
 msgid "Passwords must be at least 6 characters long."
 msgstr "كلمة المرور يجب أن تتكون على الأقل من 6 (حروف، أرقام،رموز...)"
 
-#: Users/Model/User.php:validation
-#: for field website
+#: Users/Model/User.php:validation for field website
 msgid "This field must be a valid URL"
 msgstr ""
-
-#~ msgid "Edit file"
-#~ msgstr "تعديل ملف"
-
-#~ msgid "Upload file"
-#~ msgstr "رفع الملف"
-
-#~ msgid "You are logged in as: %s"
-#~ msgstr "هذا الدخول مسجل بإسم: %s"
-
-#~ msgid "Log out"
-#~ msgstr "تسجيل الخروج"
-
-#~ msgid "Term could not be saved. Please try again."
-#~ msgstr "لم يتم حفظ الصنف، المرجوا المحاولة من جديد"
