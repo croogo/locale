@@ -863,7 +863,7 @@ msgstr "موافق"
 #: Nodes/View/Elements/node_more_info.ctp:33
 #: Taxonomy/View/Types/admin_form.ctp:22
 msgid "Comments"
-msgstr "التعليقات"
+msgstr "تعليقات"
 
 #: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
 #: Comments/View/Comments/admin_index.ctp:14;29
