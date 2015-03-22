@@ -3583,7 +3583,7 @@ msgstr "نسيت كلمة المرور"
 
 #: Users/Controller/UsersController.php:456
 msgid "Invalid username."
-msgstr "إسم مستخدم غير صحيح"
+msgstr "إسم المستخدم غير موجود"
 
 #: Users/Controller/UsersController.php:468
 msgid "[%s] Reset Password"
@@ -3612,7 +3612,7 @@ msgstr "تسجيل الدخول"
 
 #: Users/Controller/UsersController.php:576
 msgid "Invalid User."
-msgstr "مستخدم غير صحيح"
+msgstr "إسم المستخدم غير موجود"
 
 #: Users/Model/User.php:226
 msgid "Passwords do not match. Please, try again."
