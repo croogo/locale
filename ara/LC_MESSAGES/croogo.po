@@ -3591,7 +3591,7 @@ msgstr "[%s] إعادة تعيين كلمة المرور "
 
 #: Users/Controller/UsersController.php:476
 msgid "An email has been sent with instructions for resetting your password."
-msgstr ""
+msgstr "لقد تم إرسال رسالة عبر بريدك الإلكتروني تتضمن تعليمات لإعادة تعيين كلمة المرور الخاصة بك."
 
 #: Users/Controller/UsersController.php:479;521
 msgid "An error occurred. Please try again."
