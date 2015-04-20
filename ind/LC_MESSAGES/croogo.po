@@ -1,0 +1,3846 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.2.0\n"
+"POT-Creation-Date: 2012-07-08 17:30+0700\n"
+"PO-Revision-Date: 2014-11-24 04:56+0000\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Acl/Config/admin_menu.php:4
+#: Acl/Controller/AclPermissionsController.php:58
+#: Acl/Controller/Component/RowLevelAclComponent.php:67
+#: Acl/View/AclActions/admin_form.ctp:7
+#: Acl/View/AclActions/admin_index.ctp:11
+#: Acl/View/AclPermissions/admin_index.ctp:10
+msgid "Permissions"
+msgstr "Perizinan"
+
+#: Acl/Config/admin_menu.php:15
+msgid "Access Control"
+msgstr "Akses kontrol"
+
+#: Acl/Console/Command/ExtrasShell.php:93
+msgid "Plugin to process"
+msgstr "Plugin untuk diproses"
+
+#: Acl/Console/Command/ExtrasShell.php:96
+msgid "Better manage, and easily synchronize your application's ACO tree"
+msgstr "Tata kelola yang lebih baik, dan lebih mudah melakukan sinkronisasi terhadap struktur pokok ACO dari aplikasi Anda"
+
+#: Acl/Console/Command/ExtrasShell.php:101
+msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
+msgstr "Tambahkan ACO baru untuk kontroler dan aksi. Tidak menghilangkan node dari tabel ACO."
+
+#: Acl/Console/Command/ExtrasShell.php:107
+msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+msgstr "Jalankan sinkronisasi menyeluruh pada tabel ACO. Akan menghasilkan ACOS baru atau kontroler dan aksi tidak ditemukan. Dan juga akan menghapus entri-entri bersendiri yang tidak lagi sesuai dengan kontroler/aksi"
+
+#: Acl/Console/Command/ExtrasShell.php:112
+msgid "Perform a full content sync on the ACO table.Will create new ACOs or missing contents.Will also remove orphaned entries that no longer have a matching contents"
+msgstr "Jalankan sinkronisasi konten secara menyeluruh terhadap tabel ACO. Akan menghasilkan ACO baru atau konten dan aksi tidak ditemukan. Dan juga akan menghapus entri-entri bersendiri yang tidak lagi sesuai dengan konten"
+
+#: Acl/Console/Command/ExtrasShell.php:119
+msgid "The content model name "
+msgstr "Nama model konten"
+
+#: Acl/Console/Command/ExtrasShell.php:125
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr "Verifikasi kerangka struktur pokok atau kerangka pokok dari Aco atau Aro"
+
+#: Acl/Console/Command/ExtrasShell.php:130
+msgid "The type of tree to verify"
+msgstr "Tipe kerangka pokok untuk diverifikasi"
+
+#: Acl/Console/Command/ExtrasShell.php:137
+msgid "Recover a corrupted Tree"
+msgstr "Pulihkan kerangka pokok yang rusak"
+
+#: Acl/Console/Command/ExtrasShell.php:142
+msgid "The type of tree to recover"
+msgstr "Tipe kerangka pokok untuk dipulihkan"
+
+#: Acl/Controller/AclActionsController.php:47
+#: Acl/View/AclActions/admin_form.ctp:8
+#: Acl/View/AclActions/admin_index.ctp:14;72
+#: Blocks/View/Blocks/admin_index.ctp:24
+#: Comments/View/Comments/admin_index.ctp:48
+#: Contacts/View/Messages/admin_index.ctp:65
+#: Croogo/View/Common/admin_index.ctp:60
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:20
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:39
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:21
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:30
+#: FileManager/View/Attachments/admin_browse.ctp:26
+#: FileManager/View/Attachments/admin_index.ctp:15
+#: FileManager/View/FileManager/admin_browse.ctp:47
+#: Menus/View/Links/admin_index.ctp:42
+#: Menus/View/Menus/admin_index.ctp:17
+#: Nodes/View/Nodes/admin_translations.ctp:27
+#: Settings/View/Languages/admin_index.ctp:20
+#: Settings/View/Settings/admin_index.ctp:22
+#: Taxonomy/View/Terms/admin_index.ctp:29
+#: Taxonomy/View/Vocabularies/admin_index.ctp:17
+#: Translate/View/Translate/admin_index.ctp:59
+msgid "Actions"
+msgstr "Aksi"
+
+#: Acl/Controller/AclActionsController.php:64
+msgid "Add Action"
+msgstr "Tambah Aksi"
+
+#: Acl/Controller/AclActionsController.php:78
+msgid "The %s has been saved"
+msgstr "%s telah disimpan."
+
+#: Acl/Controller/AclActionsController.php:81
+msgid "The %s could not be saved. Please, try again."
+msgstr "%s tidak dapat disimpan. Silahkan coba kembali."
+
+#: Acl/Controller/AclActionsController.php:95
+msgid "Edit Action"
+msgstr "Ubah Aksi"
+
+#: Acl/Controller/AclActionsController.php:98
+msgid "Invalid Action"
+msgstr "Aksi Tidak Sah"
+
+#: Acl/Controller/AclActionsController.php:103
+msgid "The Action has been saved"
+msgstr "Aksi telah berhasil disimpan."
+
+#: Acl/Controller/AclActionsController.php:106
+msgid "The Action could not be saved. Please, try again."
+msgstr "Aksi tidak dapat disimpan. Silahkan coba kembali."
+
+#: Acl/Controller/AclActionsController.php:124;142
+msgid "Invalid id for Action"
+msgstr "Id aksi tidak sah"
+
+#: Acl/Controller/AclActionsController.php:128
+msgid "Action deleted"
+msgstr "Aksi telah dihapus"
+
+#: Acl/Controller/AclActionsController.php:147
+msgid "Action moved up"
+msgstr "Geser keatas"
+
+#: Acl/Controller/AclActionsController.php:152
+msgid "Action moved down"
+msgstr "Geser kebawah"
+
+#: Acl/Controller/AclActionsController.php:174
+msgid "Created %d new permissions"
+msgstr "%d perizinan baru telah dibuat"
+
+#: Acl/Controller/AclPermissionsController.php:168
+msgid "ACL database has been upgraded successfully"
+msgstr "ACL database telah berhasil ditingkatkan"
+
+#: Acl/Controller/Component/AclAccessComponent.php:52
+msgid "Parent Role"
+msgstr "Induk Tugas"
+
+#: Acl/Controller/Component/AclFilterComponent.php:82
+msgid "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
+msgstr "\"AutoLogin\" (Ingat Saya) telah dinon-aktifkan karena mycrypt_encrypt tidak tersedia"
+
+#: Acl/Controller/Component/Auth/AclCachedAuthorize.php:223
+msgid "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller \"%2$s\""
+msgstr "_authorizedByContent() - Akses terhadap aksi yang tidak terlacak \"%1$s\" di dalam kontroler \"%2$s\""
+
+#: Acl/Lib/AclExtras.php:149
+msgid "Model %s cannot be found."
+msgstr "Model %s tidak ditemukan."
+
+#: Acl/Lib/AclExtras.php:172
+msgid "Created Aco node: %s"
+msgstr "Telah dibuat Aco node: %s"
+
+#: Acl/Lib/AclExtras.php:192
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr "<error>Plugin %s tidak ditemukan atau tidak diaktifkan</error>"
+
+#: Acl/Lib/AclExtras.php:208
+msgid "<success>Aco Sync Complete</success>"
+msgstr "Sinkronisasi Aco Selesai"
+
+#: Acl/Lib/AclExtras.php:210
+msgid "<success>Aco Update Complete</success>"
+msgstr "<success>Perbaruan Aco selesai</success>"
+
+#: Acl/Lib/AclExtras.php:241
+msgid "Skipped Aco node: <warning>%s</warning>"
+msgstr "Aco node yang dilewati: <warning>%s</warning>"
+
+#: Acl/Lib/AclExtras.php:261
+msgid "Deleted %s and all children"
+msgstr "%s dan semua turunannya telah dihapus"
+
+#: Acl/Lib/AclExtras.php:291;366
+msgid "Created Aco node: <success>%s</success>"
+msgstr "Aco node telah dibuat: <success>%s</success>"
+
+#: Acl/Lib/AclExtras.php:307;438
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr "Aco node telah dihapus: <warning>%s</warning>"
+
+#: Acl/Lib/AclExtras.php:457
+msgid "<success>Tree is valid and strong</success>"
+msgstr "Struktur pokok adalah sah dan benar"
+
+#: Acl/Lib/AclExtras.php:475
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr "Struktur pokok telah dipulihkan, atau struktur pokok tidak membutuhkan pemulihan"
+
+#: Acl/Lib/AclExtras.php:477
+msgid "<error>Tree recovery failed.</error>"
+msgstr "<error>Pemulihan Struktur Pokok Gagal</error>"
+
+#: Acl/Lib/AclUpgrade.php:67
+msgid "No root node found"
+msgstr "Tidak ada robot node yang ditemukan"
+
+#: Acl/Lib/AclUpgrade.php:75
+msgid "<warning>ACL Database seems to have already been upgraded</warning>"
+msgstr "<warning>ACL database sepertinya sudah ditingkatkan</warning>"
+
+#: Acl/Lib/AclUpgrade.php:115
+msgid "%s not found"
+msgstr "%s tidak ditemukan"
+
+#: Acl/Lib/AclUpgrade.php:139
+msgid "Role: Public not found"
+msgstr "Penugasan: Publik tidak ditemukan"
+
+#: Acl/Lib/AclUpgrade.php:145
+msgid "Role: Registered not found"
+msgstr "Penugasan: Registrasi tidak ditemukan"
+
+#: Acl/Lib/AclUpgrade.php:151
+msgid "Role: Admin not found"
+msgstr "Penugasan: Admin tidak ditemukan"
+
+#: Acl/Model/AclAco.php:173
+msgid "API"
+msgstr "API"
+
+#: Acl/View/AclActions/admin_form.ctp:6
+#: Acl/View/AclActions/admin_index.ctp:10
+#: Acl/View/AclPermissions/admin_index.ctp:9
+#: Users/Config/admin_menu.php:5;15
+#: Users/Controller/UsersController.php:108;302
+#: Users/View/Roles/admin_form.ctp:7
+#: Users/View/Roles/admin_index.ctp:6
+#: Users/View/Users/admin_form.ctp:7
+#: Users/View/Users/admin_index.ctp:6
+#: Users/View/Users/admin_reset_password.ctp:7
+msgid "Users"
+msgstr "Pengguna"
+
+#: Acl/View/AclActions/admin_form.ctp:15
+#: Blocks/View/Blocks/admin_form.ctp:13
+#: Blocks/View/Regions/admin_form.ctp:20
+#: Contacts/View/Contacts/admin_form.ctp:14
+#: Croogo/View/Common/admin_edit.ctp:12
+#: Menus/View/Links/admin_form.ctp:17
+#: Menus/View/Menus/admin_form.ctp:14
+#: Settings/View/Languages/admin_form.ctp:15
+#: Settings/View/Settings/admin_form.ctp:18
+#: Taxonomy/View/Terms/admin_form.ctp:21
+#: Taxonomy/View/Types/admin_form.ctp:14
+#: Taxonomy/View/Vocabularies/admin_form.ctp:18
+#: Users/View/Roles/admin_form.ctp:15
+#: Users/View/Users/admin_form.ctp:20
+msgid "Add"
+msgstr "Tambah"
+
+#: Acl/View/AclActions/admin_form.ctp:23
+msgid "Action"
+msgstr "Aksi"
+
+#: Acl/View/AclActions/admin_form.ctp:34
+#: Menus/View/Links/admin_form.ctp:66
+#: Nodes/View/Nodes/admin_form.ctp:63
+#: Taxonomy/View/Terms/admin_form.ctp:39
+msgid "Parent"
+msgstr "Induk"
+
+#: Acl/View/AclActions/admin_form.ctp:35
+msgid "Choose none if the Aco is a controller."
+msgstr "Pilih 'none' bila ACO adalah kontroler."
+
+#: Acl/View/AclActions/admin_form.ctp:38
+#: Acl/View/AclActions/admin_index.ctp:71
+#: Acl/View/Elements/admin/acl_permissions_table.ctp:8
+#: Blocks/View/Blocks/admin_form.ctp:37
+#: Blocks/View/Blocks/admin_index.ctp:21
+#: Blocks/View/Regions/admin_form.ctp:38
+#: Contacts/View/Contacts/admin_form.ctp:34
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:26
+#: Menus/View/Menus/admin_form.ctp:33
+#: Menus/View/Menus/admin_index.ctp:14
+#: Settings/View/Languages/admin_form.ctp:41
+#: Settings/View/Languages/admin_index.ctp:18
+#: Taxonomy/View/Types/admin_form.ctp:35
+#: Taxonomy/View/Vocabularies/admin_form.ctp:40
+#: Taxonomy/View/Vocabularies/admin_index.ctp:15
+#: Users/View/Roles/admin_form.ctp:32
+msgid "Alias"
+msgstr "Alias"
+
+#: Acl/View/AclActions/admin_form.ctp:46
+#: Blocks/View/Blocks/admin_form.ctp:78
+#: Blocks/View/Regions/admin_form.ctp:46
+#: Comments/View/Comments/admin_form.ctp:35
+#: Contacts/View/Contacts/admin_form.ctp:103
+#: Contacts/View/Messages/admin_form.ctp:49
+#: Croogo/View/Common/admin_edit.ctp:115
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:36
+#: FileManager/View/Attachments/admin_add.ctp:41
+#: FileManager/View/Attachments/admin_edit.ctp:51
+#: FileManager/View/FileManager/admin_create_directory.ctp:50
+#: FileManager/View/FileManager/admin_create_file.ctp:49
+#: FileManager/View/FileManager/admin_editfile.ctp:49
+#: FileManager/View/FileManager/admin_rename.ctp:49
+#: FileManager/View/FileManager/admin_upload.ctp:48
+#: Menus/View/Links/admin_form.ctp:117
+#: Nodes/View/Nodes/admin_form.ctp:106
+#: Settings/View/Languages/admin_form.ctp:52
+#: Settings/View/Settings/admin_form.ctp:65
+#: Taxonomy/View/Terms/admin_form.ctp:60
+#: Taxonomy/View/Types/admin_form.ctp:100
+#: Taxonomy/View/Vocabularies/admin_form.ctp:67
+#: Translate/View/Translate/admin_edit.ctp:52
+#: Users/View/Roles/admin_form.ctp:40
+#: Users/View/Users/admin_form.ctp:70
+#: Users/View/Users/admin_reset_password.ctp:45
+msgid "Publishing"
+msgstr "Publikasi"
+
+#: Acl/View/AclActions/admin_form.ctp:47
+#: Blocks/View/Blocks/admin_form.ctp:79
+#: Blocks/View/Regions/admin_form.ctp:47
+#: Contacts/View/Contacts/admin_form.ctp:104
+#: FileManager/View/Attachments/admin_edit.ctp:52
+#: Menus/View/Links/admin_form.ctp:118
+#: Menus/View/Menus/admin_form.ctp:52
+#: Nodes/View/Nodes/admin_form.ctp:107
+#: Taxonomy/View/Terms/admin_form.ctp:61
+#: Taxonomy/View/Types/admin_form.ctp:101
+#: Taxonomy/View/Vocabularies/admin_form.ctp:68
+#: Translate/View/Translate/admin_edit.ctp:53
+#: Users/View/Roles/admin_form.ctp:41
+#: Users/View/Users/admin_form.ctp:71
+msgid "Apply"
+msgstr "Terapkan"
+
+#: Acl/View/AclActions/admin_form.ctp:48
+#: Blocks/View/Blocks/admin_form.ctp:80
+#: Blocks/View/Regions/admin_form.ctp:48
+#: Comments/View/Comments/admin_form.ctp:36
+#: Contacts/View/Contacts/admin_form.ctp:105
+#: Contacts/View/Messages/admin_form.ctp:50
+#: Croogo/View/Common/admin_edit.ctp:116
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:40
+#: FileManager/View/Attachments/admin_edit.ctp:53
+#: FileManager/View/FileManager/admin_create_file.ctp:50
+#: FileManager/View/FileManager/admin_editfile.ctp:50
+#: FileManager/View/FileManager/admin_rename.ctp:50
+#: FileManager/View/FileManager/admin_upload.ctp:49
+#: Install/View/Install/adminuser.ctp:36
+#: Menus/View/Links/admin_form.ctp:119
+#: Menus/View/Menus/admin_form.ctp:53
+#: Nodes/View/Nodes/admin_form.ctp:108
+#: Settings/View/Languages/admin_form.ctp:53
+#: Settings/View/Settings/admin_form.ctp:66
+#: Settings/View/Settings/admin_prefix.ctp:54
+#: Taxonomy/View/Terms/admin_form.ctp:62
+#: Taxonomy/View/Types/admin_form.ctp:102
+#: Taxonomy/View/Vocabularies/admin_form.ctp:69
+#: Translate/View/Translate/admin_edit.ctp:54
+#: Users/View/Roles/admin_form.ctp:42
+#: Users/View/Users/admin_form.ctp:72
+msgid "Save"
+msgstr "Simpan"
+
+#: Acl/View/AclActions/admin_form.ctp:49
+#: Blocks/View/Blocks/admin_form.ctp:81
+#: Blocks/View/Regions/admin_form.ctp:49
+#: Comments/View/Comments/admin_form.ctp:37
+#: Contacts/View/Contacts/admin_form.ctp:107
+#: Contacts/View/Messages/admin_form.ctp:52
+#: Croogo/View/Common/admin_edit.ctp:117
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:38
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:41
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:38
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:38
+#: FileManager/View/Attachments/admin_add.ctp:43
+#: FileManager/View/Attachments/admin_edit.ctp:55
+#: FileManager/View/FileManager/admin_create_directory.ctp:52
+#: FileManager/View/FileManager/admin_create_file.ctp:51
+#: FileManager/View/FileManager/admin_editfile.ctp:51
+#: FileManager/View/FileManager/admin_rename.ctp:51
+#: FileManager/View/FileManager/admin_upload.ctp:50
+#: Install/View/Install/adminuser.ctp:37
+#: Menus/View/Links/admin_form.ctp:120
+#: Menus/View/Menus/admin_form.ctp:54
+#: Nodes/View/Nodes/admin_form.ctp:109
+#: Settings/View/Languages/admin_form.ctp:55
+#: Settings/View/Settings/admin_form.ctp:67
+#: Settings/View/Settings/admin_prefix.ctp:55
+#: Taxonomy/View/Terms/admin_form.ctp:64
+#: Taxonomy/View/Types/admin_form.ctp:104
+#: Taxonomy/View/Vocabularies/admin_form.ctp:71
+#: Translate/View/Translate/admin_edit.ctp:55
+#: Users/View/Roles/admin_form.ctp:44
+#: Users/View/Users/admin_form.ctp:74
+#: Users/View/Users/admin_reset_password.ctp:48
+msgid "Cancel"
+msgstr "Batal"
+
+#: Acl/View/AclActions/admin_index.ctp:18
+#: Acl/View/AclPermissions/admin_index.ctp:19
+msgid "Tools"
+msgstr "Peralatan"
+
+#: Acl/View/AclActions/admin_index.ctp:33
+#: Acl/View/AclPermissions/admin_index.ctp:34
+msgid "Generate"
+msgstr "Hasilkan"
+
+#: Acl/View/AclActions/admin_index.ctp:40
+#: Acl/View/AclPermissions/admin_index.ctp:41
+msgid "Create new actions (no removal)"
+msgstr "Buat aksi baru (tanpa penghilangan)"
+
+#: Acl/View/AclActions/admin_index.ctp:45
+#: Acl/View/AclPermissions/admin_index.ctp:46
+msgid "Synchronize"
+msgstr "Sinkronkan"
+
+#: Acl/View/AclActions/admin_index.ctp:52
+#: Acl/View/AclPermissions/admin_index.ctp:53
+msgid "Create new & remove orphaned actions"
+msgstr "Buat baru dan hilangkan action yang berdiri sendiri"
+
+#: Acl/View/AclActions/admin_index.ctp:62
+#: Acl/View/AclPermissions/admin_index.ctp:62
+msgid "Edit Actions"
+msgstr "Ubah aksi"
+
+#: Acl/View/AclActions/admin_index.ctp:70
+#: Acl/View/Elements/admin/acl_permissions_table.ctp:7
+#: Blocks/View/Blocks/admin_index.ctp:19
+#: Comments/View/Comments/admin_index.ctp:42
+#: Contacts/View/Messages/admin_index.ctp:60
+#: FileManager/View/Attachments/admin_browse.ctp:21
+#: FileManager/View/Attachments/admin_chooser.ctp:5
+#: FileManager/View/Attachments/admin_index.ctp:11
+#: Menus/View/Links/admin_index.ctp:39
+#: Menus/View/Menus/admin_index.ctp:12
+#: Nodes/View/Nodes/admin_chooser.ctp:5
+#: Nodes/View/Nodes/admin_hierarchy.ctp:36
+#: Nodes/View/Nodes/admin_index.ctp:31
+#: Settings/View/Languages/admin_index.ctp:15
+#: Settings/View/Settings/admin_index.ctp:18
+#: Settings/View/Settings/admin_view.ctp:4
+#: Taxonomy/View/Terms/admin_chooser.ctp:5
+#: Taxonomy/View/Terms/admin_index.ctp:26
+#: Taxonomy/View/Vocabularies/admin_index.ctp:13
+msgid "Id"
+msgstr "Id"
+
+#: Acl/View/AclActions/admin_index.ctp:104
+#: Acl/View/AclPermissions/json/admin_index.ctp:7
+#: Blocks/View/Blocks/admin_index.ctp:35
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:56
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:61
+#: Menus/View/Links/admin_index.ctp:56
+#: Nodes/View/Nodes/admin_hierarchy.ctp:95
+#: Settings/View/Languages/admin_index.ctp:34
+#: Settings/View/Settings/admin_index.ctp:33
+#: Taxonomy/View/Terms/admin_index.ctp:42
+#: Taxonomy/View/Vocabularies/admin_index.ctp:34
+msgid "Move up"
+msgstr "Geser keatas"
+
+#: Acl/View/AclActions/admin_index.ctp:108
+#: Acl/View/AclPermissions/json/admin_index.ctp:11
+#: Blocks/View/Blocks/admin_index.ctp:39
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:63
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:67
+#: Menus/View/Links/admin_index.ctp:62
+#: Nodes/View/Nodes/admin_hierarchy.ctp:99
+#: Settings/View/Languages/admin_index.ctp:38
+#: Settings/View/Settings/admin_index.ctp:37
+#: Taxonomy/View/Terms/admin_index.ctp:46
+#: Taxonomy/View/Vocabularies/admin_index.ctp:38
+msgid "Move down"
+msgstr "Geser kebawah"
+
+#: Acl/View/AclActions/admin_index.ctp:113
+#: Acl/View/AclPermissions/json/admin_index.ctp:15
+#: Blocks/View/Blocks/admin_index.ctp:45
+#: Comments/View/Comments/admin_index.ctp:60
+#: Contacts/View/Messages/admin_index.ctp:78
+#: Croogo/View/Common/admin_index.ctp:81
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:37
+#: FileManager/View/Attachments/admin_index.ctp:27
+#: Menus/View/Links/admin_index.ctp:68
+#: Menus/View/Menus/admin_index.ctp:35
+#: Nodes/View/Nodes/admin_hierarchy.ctp:103
+#: Nodes/View/Nodes/admin_index.ctp:96
+#: Settings/View/Languages/admin_index.ctp:42
+#: Settings/View/Settings/admin_index.ctp:41
+#: Taxonomy/View/Terms/admin_index.ctp:50
+#: Taxonomy/View/Vocabularies/admin_index.ctp:43
+#: Translate/View/Translate/admin_index.ctp:76
+msgid "Edit this item"
+msgstr "Ubah item ini"
+
+#: Acl/View/AclActions/admin_index.ctp:119
+#: Acl/View/AclPermissions/json/admin_index.ctp:19
+#: Blocks/View/Blocks/admin_index.ctp:58
+#: Comments/View/Comments/admin_index.ctp:67
+#: Contacts/View/Messages/admin_index.ctp:85
+#: Croogo/View/Common/admin_index.ctp:91
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:41
+#: FileManager/View/Attachments/admin_index.ctp:31
+#: Menus/View/Menus/admin_index.ctp:40
+#: Nodes/View/Nodes/admin_hierarchy.ctp:110
+#: Nodes/View/Nodes/admin_index.ctp:111
+#: Settings/View/Languages/admin_index.ctp:46
+#: Settings/View/Settings/admin_index.ctp:46
+#: Taxonomy/View/Terms/admin_index.ctp:54
+#: Taxonomy/View/Vocabularies/admin_index.ctp:47
+#: Translate/View/Translate/admin_index.ctp:85
+msgid "Remove this item"
+msgstr "Hapus item ini"
+
+#: Acl/View/AclActions/admin_index.ctp:123
+#: Acl/View/AclPermissions/json/admin_index.ctp:20
+#: Blocks/View/Blocks/admin_index.ctp:59
+#: Comments/View/Comments/admin_index.ctp:70
+#: Contacts/View/Messages/admin_index.ctp:88
+#: Croogo/View/Common/admin_index.ctp:93
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:42
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:54;62;68;76
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:127
+#: FileManager/View/Attachments/admin_browse.ctp:42
+#: FileManager/View/Attachments/admin_index.ctp:32
+#: FileManager/View/Helper/FileManagerHelper.php:154
+#: Menus/View/Links/admin_index.ctp:88
+#: Menus/View/Menus/admin_index.ctp:41
+#: Nodes/View/Nodes/admin_hierarchy.ctp:113
+#: Nodes/View/Nodes/admin_index.ctp:114
+#: Nodes/View/Nodes/admin_translations.ctp:34
+#: Settings/View/Languages/admin_index.ctp:47
+#: Settings/View/Settings/admin_index.ctp:47
+#: Taxonomy/View/Terms/admin_index.ctp:55
+#: Taxonomy/View/Vocabularies/admin_index.ctp:48
+#: Translate/View/Translate/admin_index.ctp:86
+msgid "Are you sure?"
+msgstr "Apakah Anda yakin?"
+
+#: Acl/View/AclPermissions/admin_toggle.ctp:19
+msgid "error"
+msgstr "kesalahan"
+
+#: Acl/View/Elements/admin/parent_role.ctp:4
+msgid "When set, permissions from parent role are inherited"
+msgstr "Bila ditetapkan, perijinan dari penugasan induk akan diwariskan"
+
+#: Acl/View/Elements/admin/row_acl.ctp:4
+msgid "Edit Permissions"
+msgstr "Ubah Perizinan"
+
+#: Acl/View/Helper/AclHelper.php:62
+msgid "Upgrade Acl database"
+msgstr "Tingkatkan database Acl"
+
+#: Blocks/Config/admin_menu.php:5;15
+#: Blocks/Controller/BlocksController.php:99
+#: Blocks/View/Blocks/admin_form.ctp:7
+#: Blocks/View/Blocks/admin_index.ctp:9
+#: Blocks/View/Regions/admin_form.ctp:7
+#: Blocks/View/Regions/admin_index.ctp:5
+msgid "Blocks"
+msgstr "Blok"
+
+#: Blocks/Config/admin_menu.php:24
+#: Blocks/View/Regions/admin_form.ctp:9
+#: Blocks/View/Regions/admin_index.ctp:6
+msgid "Regions"
+msgstr "Region"
+
+#: Blocks/Controller/BlocksController.php:122
+msgid "Add Block"
+msgstr "Tambah blok"
+
+#: Blocks/Controller/BlocksController.php:129;158
+msgid "The Block has been saved"
+msgstr "Blok telah disimpan"
+
+#: Blocks/Controller/BlocksController.php:132;161
+msgid "The Block could not be saved. Please, try again."
+msgstr "Blok tidak dapat disimpan. Silahkan dicoba kembali."
+
+#: Blocks/Controller/BlocksController.php:148
+msgid "Edit Block"
+msgstr "Ubah blok"
+
+#: Blocks/Controller/BlocksController.php:151
+msgid "Invalid Block"
+msgstr "Blok tidak sah"
+
+#: Blocks/Controller/BlocksController.php:186
+msgid "Invalid id for Block"
+msgstr "Id untuk blok tidak sah"
+
+#: Blocks/Controller/BlocksController.php:190
+msgid "Block deleted"
+msgstr "Blok telah dihapus"
+
+#: Blocks/Controller/BlocksController.php:205
+#: Dashboards/Controller/DashboardsDashboardsController.php:126
+#: Menus/Controller/LinksController.php:273
+#: Nodes/Controller/NodesController.php:197
+#: Settings/Controller/LanguagesController.php:122
+#: Settings/Controller/SettingsController.php:199
+#: Taxonomy/Controller/VocabulariesController.php:132
+msgid "Moved up successfully"
+msgstr "Geser keatas berhasil"
+
+#: Blocks/Controller/BlocksController.php:207
+#: Dashboards/Controller/DashboardsDashboardsController.php:128
+#: Menus/Controller/LinksController.php:275
+#: Nodes/Controller/NodesController.php:199
+#: Settings/Controller/LanguagesController.php:124
+#: Settings/Controller/SettingsController.php:201
+#: Taxonomy/Controller/VocabulariesController.php:134
+msgid "Could not move up"
+msgstr "Tidak dapat menggeser keatas"
+
+#: Blocks/Controller/BlocksController.php:223
+#: Dashboards/Controller/DashboardsDashboardsController.php:142
+#: Menus/Controller/LinksController.php:305
+#: Nodes/Controller/NodesController.php:212
+#: Settings/Controller/LanguagesController.php:140
+#: Settings/Controller/SettingsController.php:225
+#: Taxonomy/Controller/VocabulariesController.php:150
+msgid "Moved down successfully"
+msgstr "Geser kebawah berhasil"
+
+#: Blocks/Controller/BlocksController.php:225
+#: Dashboards/Controller/DashboardsDashboardsController.php:144
+#: Menus/Controller/LinksController.php:307
+#: Nodes/Controller/NodesController.php:214
+#: Settings/Controller/LanguagesController.php:142
+#: Settings/Controller/SettingsController.php:227
+#: Taxonomy/Controller/VocabulariesController.php:152
+msgid "Could not move down"
+msgstr "Tidak dapat menggeser kebawah"
+
+#: Blocks/Controller/BlocksController.php:243
+msgid "Blocks deleted"
+msgstr "Blok telah dihapus"
+
+#: Blocks/Controller/BlocksController.php:244
+msgid "Blocks published"
+msgstr "Publikasikan blok"
+
+#: Blocks/Controller/BlocksController.php:245
+msgid "Blocks unpublished"
+msgstr "Blok tidak dipublikasikan"
+
+#: Blocks/Controller/BlocksController.php:246
+msgid "Blocks copied"
+msgstr "Blok telah disalin"
+
+#: Blocks/Controller/RegionsController.php:66
+#: Blocks/View/Blocks/admin_form.ctp:41
+#: Blocks/View/Blocks/admin_index.ctp:22
+#: Blocks/View/Regions/admin_form.ctp:26
+msgid "Region"
+msgstr "Region"
+
+#: Blocks/Controller/RegionsController.php:85
+msgid "Add Region"
+msgstr "Tambah region"
+
+#: Blocks/Controller/RegionsController.php:90;114
+msgid "The Region has been saved"
+msgstr "Region telah disimpan"
+
+#: Blocks/Controller/RegionsController.php:93;117
+msgid "The Region could not be saved. Please, try again."
+msgstr "Region tidak dapat disimpan. Silahkan dicoba kembali."
+
+#: Blocks/Controller/RegionsController.php:106
+msgid "Edit Region"
+msgstr "Ubah region"
+
+#: Blocks/Controller/RegionsController.php:109
+msgid "Invalid Region"
+msgstr "Region tidak sah"
+
+#: Blocks/Controller/RegionsController.php:134
+msgid "Invalid id for Region"
+msgstr "Id untuk region tidak sah"
+
+#: Blocks/Controller/RegionsController.php:138
+msgid "Region deleted"
+msgstr "Region telah dihapus"
+
+#: Blocks/View/Blocks/admin_form.ctp:22
+msgid "Block"
+msgstr "Blok"
+
+#: Blocks/View/Blocks/admin_form.ctp:23
+#: Menus/View/Links/admin_form.ctp:52
+#: Nodes/View/Nodes/admin_form.ctp:55
+msgid "Access"
+msgstr "Akses"
+
+#: Blocks/View/Blocks/admin_form.ctp:24
+msgid "Visibilities"
+msgstr "Visibilitas"
+
+#: Blocks/View/Blocks/admin_form.ctp:25;70
+#: Menus/View/Links/admin_form.ctp:108
+#: Menus/View/Menus/admin_form.ctp:42
+#: Settings/View/Settings/admin_form.ctp:57
+#: Settings/View/Settings/admin_view.ctp:34
+#: Taxonomy/View/Types/admin_form.ctp:23;91
+msgid "Params"
+msgstr "Parameter"
+
+#: Blocks/View/Blocks/admin_form.ctp:34
+#: Blocks/View/Blocks/admin_index.ctp:20
+#: Blocks/View/Regions/admin_form.ctp:35
+#: Comments/View/Comments/admin_form.ctp:23
+#: Contacts/View/Contacts/admin_form.ctp:31
+#: Contacts/View/Messages/admin_form.ctp:32
+#: Contacts/View/Messages/admin_index.ctp:64
+#: FileManager/View/Attachments/admin_browse.ctp:23
+#: FileManager/View/Attachments/admin_chooser.ctp:6
+#: FileManager/View/Attachments/admin_edit.ctp:26
+#: FileManager/View/Attachments/admin_index.ctp:13
+#: Menus/View/Links/admin_form.ctp:71
+#: Menus/View/Links/admin_index.ctp:40
+#: Menus/View/Menus/admin_form.ctp:30
+#: Menus/View/Menus/admin_index.ctp:13
+#: Nodes/View/Nodes/admin_chooser.ctp:6
+#: Nodes/View/Nodes/admin_form.ctp:76
+#: Nodes/View/Nodes/admin_hierarchy.ctp:37
+#: Nodes/View/Nodes/admin_index.ctp:32
+#: Nodes/View/Nodes/admin_translations.ctp:25
+#: Settings/View/Languages/admin_form.ctp:35
+#: Settings/View/Languages/admin_index.ctp:16
+#: Settings/View/Settings/admin_form.ctp:44
+#: Taxonomy/View/Terms/admin_chooser.ctp:6
+#: Taxonomy/View/Terms/admin_form.ctp:44
+#: Taxonomy/View/Terms/admin_index.ctp:27
+#: Taxonomy/View/Types/admin_form.ctp:32
+#: Taxonomy/View/Vocabularies/admin_form.ctp:36
+#: Taxonomy/View/Vocabularies/admin_index.ctp:14
+#: Translate/View/Translate/admin_index.ctp:57
+#: Users/View/Roles/admin_form.ctp:29
+msgid "Title"
+msgstr "Judul"
+
+#: Blocks/View/Blocks/admin_form.ctp:38
+msgid "unique name for your block"
+msgstr "Nama unik untuk blok ini"
+
+#: Blocks/View/Blocks/admin_form.ctp:42
+msgid "if you are not sure, choose 'none'"
+msgstr "Bila tidak yakin, pilih 'none'"
+
+#: Blocks/View/Blocks/admin_form.ctp:45
+#: Comments/View/Comments/admin_form.ctp:26
+#: Contacts/View/Contacts/admin_form.ctp:40
+#: Contacts/View/Messages/admin_form.ctp:35
+#: Nodes/View/Nodes/admin_form.ctp:86
+msgid "Body"
+msgstr "Deskripsi"
+
+#: Blocks/View/Blocks/admin_form.ctp:48
+#: Menus/View/Links/admin_form.ctp:95
+msgid "Class"
+msgstr "Kelas"
+
+#: Blocks/View/Blocks/admin_form.ctp:51
+msgid "Element"
+msgstr "Elemen"
+
+#: Blocks/View/Blocks/admin_form.ctp:57
+#: Menus/View/Links/admin_form.ctp:89
+#: Nodes/View/Nodes/admin_form.ctp:93
+#: Users/View/Roles/admin_form.ctp:21
+#: Users/View/Users/admin_form.ctp:45
+msgid "Role"
+msgstr "Penugasan"
+
+#: Blocks/View/Blocks/admin_form.ctp:63
+msgid "Visibility Paths"
+msgstr "Jalur visibilitas"
+
+#: Blocks/View/Blocks/admin_form.ctp:64
+msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
+msgstr "Masukkan satu URL dalam satu baris. Kosongkan bila menginginkan Blok tampil di semua halaman."
+
+#: Blocks/View/Blocks/admin_form.ctp:90
+msgid "Show title ?"
+msgstr "Tampilkan judul ?"
+
+#: Blocks/View/Blocks/admin_form.ctp:94
+#: Menus/View/Links/admin_form.ctp:129
+#: Menus/View/Menus/admin_form.ctp:63
+#: Nodes/View/Nodes/admin_form.ctp:140
+msgid "Publish Start"
+msgstr "Mulai publikasi :"
+
+#: Blocks/View/Blocks/admin_form.ctp:98
+#: Menus/View/Links/admin_form.ctp:133
+#: Menus/View/Menus/admin_form.ctp:67
+#: Nodes/View/Nodes/admin_form.ctp:144
+msgid "Publish End"
+msgstr "Selesai publikasi :"
+
+#: Blocks/View/Blocks/admin_index.ctp:23
+#: Croogo/Console/Command/ExtShell.php:236;262
+#: FileManager/View/Attachments/admin_chooser.ctp:45
+#: FileManager/View/Elements/admin/attachments_search.ctp:40
+#: Menus/View/Links/admin_index.ctp:41
+#: Menus/View/Menus/admin_index.ctp:16
+#: Nodes/View/Elements/admin/nodes_search.ctp:39
+#: Nodes/View/Nodes/admin_chooser.ctp:54
+#: Nodes/View/Nodes/admin_hierarchy.ctp:40
+#: Nodes/View/Nodes/admin_index.ctp:35
+#: Settings/View/Languages/admin_form.ctp:60
+#: Settings/View/Languages/admin_index.ctp:19
+#: Users/View/Users/admin_form.ctp:86
+msgid "Status"
+msgstr "Status"
+
+#: Blocks/View/Blocks/admin_index.ctp:51
+#: Menus/View/Links/admin_index.ctp:75
+#: Nodes/View/Nodes/admin_index.ctp:102
+msgid "Create a copy"
+msgstr "Buat salinan"
+
+#: Blocks/View/Blocks/admin_index.ctp:54
+msgid "Create a copy of this Block?"
+msgstr "Buat salinan untuk blok ini?"
+
+#: Blocks/View/Blocks/admin_index.ctp:65
+#: Croogo/View/Common/admin_index.ctp:73
+msgid "Choose"
+msgstr "Pilih"
+
+#: Blocks/View/Blocks/admin_index.ctp:84
+#: Menus/View/Links/admin_index.ctp:93
+#: Menus/View/Menus/admin_index.ctp:53
+#: Nodes/View/Nodes/admin_hierarchy.ctp:71
+#: Nodes/View/Nodes/admin_index.ctp:66
+msgid "preview"
+msgstr "Pratinjau"
+
+#: Blocks/View/Blocks/admin_index.ctp:114
+#: Comments/View/Comments/admin_index.ctp:109
+#: Menus/View/Links/admin_index.ctp:119
+#: Nodes/View/Nodes/admin_hierarchy.ctp:129
+#: Nodes/View/Nodes/admin_index.ctp:130
+msgid "Publish"
+msgstr "Publikasikan"
+
+#: Blocks/View/Blocks/admin_index.ctp:115
+#: Comments/View/Comments/admin_index.ctp:110
+#: Menus/View/Links/admin_index.ctp:120
+#: Nodes/View/Nodes/admin_hierarchy.ctp:130
+#: Nodes/View/Nodes/admin_index.ctp:131
+msgid "Unpublish"
+msgstr "Tidak dipublikasikan"
+
+#: Blocks/View/Blocks/admin_index.ctp:116
+#: Comments/View/Comments/admin_index.ctp:111
+#: Contacts/View/Messages/admin_index.ctp:122
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:53
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:121
+#: FileManager/View/Attachments/admin_browse.ctp:42
+#: FileManager/View/FileManager/admin_browse.ctp:61;106
+#: Menus/View/Links/admin_index.ctp:121
+#: Nodes/View/Nodes/admin_hierarchy.ctp:133
+#: Nodes/View/Nodes/admin_index.ctp:134
+#: Nodes/View/Nodes/admin_translations.ctp:34
+msgid "Delete"
+msgstr "Hapus"
+
+#: Blocks/View/Blocks/admin_index.ctp:117
+#: Menus/View/Links/admin_index.ctp:124
+#: Nodes/View/Nodes/admin_hierarchy.ctp:136
+#: Nodes/View/Nodes/admin_index.ctp:137
+msgid "Copy"
+msgstr "Salin"
+
+#: Blocks/View/Blocks/admin_index.ctp:121
+#: Comments/View/Comments/admin_index.ctp:115
+#: Contacts/View/Messages/admin_index.ctp:126
+#: Menus/View/Links/admin_index.ctp:130
+#: Nodes/View/Nodes/admin_hierarchy.ctp:144
+#: Nodes/View/Nodes/admin_index.ctp:145
+#: Users/View/Users/forgot.ctp:9
+msgid "Submit"
+msgstr "Serahkan"
+
+#: Comments/Config/admin_menu.php:4
+#: Comments/Controller/CommentsController.php:81;171
+#: Comments/View/Comments/admin_form.ctp:7
+#: Comments/View/Comments/admin_index.ctp:10
+#: Comments/View/Elements/comments.ctp:7
+#: Comments/View/Helper/CommentsHelper.php:34
+#: Nodes/View/Elements/node_more_info.ctp:33
+#: Taxonomy/View/Types/admin_form.ctp:22
+msgid "Comments"
+msgstr "Komentar"
+
+#: Comments/Config/admin_menu.php:13
+#: Comments/View/Comments/admin_form.ctp:39
+#: Comments/View/Comments/admin_index.ctp:14;29
+#: Contacts/View/Contacts/admin_form.ctp:112
+#: Croogo/Lib/CroogoStatus.php:40
+#: FileManager/View/Elements/admin/attachments_search.ctp:37
+#: Nodes/View/Elements/admin/nodes_search.ctp:36
+msgid "Published"
+msgstr "Telah dipublikasikan"
+
+#: Comments/Config/admin_menu.php:25
+#: Comments/View/Comments/admin_index.ctp:17;33
+msgid "Approval"
+msgstr "Persetujuan"
+
+#: Comments/Controller/CommentsController.php:107
+msgid "Edit Comment"
+msgstr "Ubah komentar"
+
+#: Comments/Controller/CommentsController.php:110
+msgid "Invalid Comment"
+msgstr "Komentar tidak sah"
+
+#: Comments/Controller/CommentsController.php:115
+msgid "The Comment has been saved"
+msgstr "Komentar berhasil disimpan"
+
+#: Comments/Controller/CommentsController.php:118
+msgid "The Comment could not be saved. Please, try again."
+msgstr "Komentar tidak dapat disimpan. Silahkan mencoba kembali."
+
+#: Comments/Controller/CommentsController.php:135
+msgid "Invalid id for Comment"
+msgstr "Id untuk komentar tidak sah"
+
+#: Comments/Controller/CommentsController.php:139
+msgid "Comment deleted"
+msgstr "Komentar telah dihapus"
+
+#: Comments/Controller/CommentsController.php:156
+msgid "Comments deleted"
+msgstr "Komentar telah dihapus"
+
+#: Comments/Controller/CommentsController.php:157
+msgid "Comments published"
+msgstr "Publikasikan komentar"
+
+#: Comments/Controller/CommentsController.php:158
+msgid "Comments unpublished"
+msgstr "Komentar tidak dipublikasikan"
+
+#: Comments/Controller/CommentsController.php:198
+msgid "Invalid id"
+msgstr "Id tidak sah"
+
+#: Comments/Controller/CommentsController.php:223
+msgid "Maximum level reached. You cannot reply to that comment."
+msgstr "Tingkatan maksimal telah dicapai. Anda tidak dapat menanggapi komentar tersebut"
+
+#: Comments/Controller/CommentsController.php:238
+msgid "Comments are not allowed."
+msgstr "Komentar tidak diperkenankan"
+
+#: Comments/Controller/CommentsController.php:262
+msgid "Your comment has been added successfully."
+msgstr "Komentar Anda telah berhasil ditambahkan."
+
+#: Comments/Controller/CommentsController.php:264
+msgid "Your comment will appear after moderation."
+msgstr "Komentar Anda akan muncul setelah dimoderasi."
+
+#: Comments/Controller/CommentsController.php:299
+msgid "Sorry, the comment appears to be spam."
+msgstr "Maaf, komentar Anda terindikasi sebagai spam."
+
+#: Comments/Controller/CommentsController.php:321
+#: Contacts/Controller/ContactsController.php:246
+msgid "Invalid captcha entry"
+msgstr "Masukan captcha tidak sah"
+
+#: Comments/Controller/CommentsController.php:343
+msgid "New comment posted under"
+msgstr "Komentar baru telah dimuat dalam artikel"
+
+#: Comments/Model/Comment.php:130
+msgid "Invalid Node id"
+msgstr "Id node tidak sah"
+
+#: Comments/Model/Comment.php:199
+msgid "Invalid Comment id"
+msgstr "Id komentar tidak sah"
+
+#: Comments/View/Comments/admin_form.ctp:6
+#: Comments/View/Comments/admin_index.ctp:9
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:21;28
+#: Nodes/Config/admin_menu.php:5
+#: Nodes/Controller/NodesController.php:108
+#: Nodes/View/Nodes/admin_create.ctp:5
+#: Nodes/View/Nodes/admin_form.ctp:9
+#: Nodes/View/Nodes/admin_hierarchy.ctp:8
+#: Nodes/View/Nodes/admin_index.ctp:8
+#: Taxonomy/View/Terms/admin_form.ctp:8
+#: Taxonomy/View/Terms/admin_index.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:6
+#: Taxonomy/View/Types/admin_index.ctp:7
+#: Taxonomy/View/Vocabularies/admin_form.ctp:7
+#: Taxonomy/View/Vocabularies/admin_index.ctp:7
+msgid "Content"
+msgstr "Konten"
+
+#: Comments/View/Comments/admin_form.ctp:14
+#: Comments/View/Elements/comments.ctp:5
+#: Nodes/View/Elements/node_more_info.ctp:31
+#: Settings/Config/admin_menu.php:64
+msgid "Comment"
+msgstr "Komentar"
+
+#: Comments/View/Comments/admin_form.ctp:43
+#: Contacts/View/Contacts/admin_form.ctp:20
+#: Contacts/View/Messages/admin_index.ctp:61
+msgid "Contact"
+msgstr "Kontak"
+
+#: Comments/View/Comments/admin_form.ctp:44
+#: Comments/View/Comments/admin_index.ctp:43
+#: Comments/View/Elements/comments_form.ctp:25;41
+#: Contacts/View/Contacts/admin_form.ctp:46
+#: Contacts/View/Messages/admin_form.ctp:26
+#: Contacts/View/Messages/admin_index.ctp:62
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
+#: Install/View/Install/database.ctp:81
+#: Users/View/Users/admin_form.ctp:50
+msgid "Name"
+msgstr "Nama"
+
+#: Comments/View/Comments/admin_form.ctp:45
+#: Comments/View/Comments/admin_index.ctp:44
+#: Comments/View/Elements/comments_form.ctp:30;42
+#: Contacts/View/Contacts/admin_form.ctp:37
+#: Contacts/View/Messages/admin_form.ctp:29
+#: Contacts/View/Messages/admin_index.ctp:63
+#: Users/View/Users/admin_form.ctp:53
+msgid "Email"
+msgstr "Email"
+
+#: Comments/View/Comments/admin_form.ctp:46
+#: Comments/View/Elements/comments_form.ctp:35;43
+#: Users/View/Users/admin_form.ctp:56
+msgid "Website"
+msgstr "Website"
+
+#: Comments/View/Comments/admin_form.ctp:49
+msgid "Ip"
+msgstr "Ip"
+
+#: Comments/View/Comments/admin_index.ctp:15
+msgid "Comments: Published"
+msgstr "Komentar: Publikasikan"
+
+#: Comments/View/Comments/admin_index.ctp:18
+msgid "Comments: Approval"
+msgstr "Komentar: Persetujuan"
+
+#: Comments/View/Comments/admin_index.ctp:45
+msgid "Node"
+msgstr "Node"
+
+#: Comments/View/Comments/admin_index.ctp:47
+#: FileManager/View/Attachments/admin_chooser.ctp:7;49
+#: Nodes/View/Nodes/admin_chooser.ctp:7;58
+#: Nodes/View/Nodes/admin_form.ctp:135
+msgid "Created"
+msgstr "Dibuat"
+
+#: Comments/View/Comments/rss/index.ctp:18
+msgid "Comment on"
+msgstr "Komentar pada"
+
+#: Comments/View/Comments/rss/index.ctp:18
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:54;108
+#: Nodes/View/Elements/node_info.ctp:9
+msgid "by"
+msgstr "oleh"
+
+#: Comments/View/Elements/comment.ctp:13
+msgid "said on %s"
+msgstr "telah menanggapi pada %s"
+
+#: Comments/View/Elements/comment.ctp:19
+msgid "Reply"
+msgstr "Balas"
+
+#: Comments/View/Elements/comments_form.ctp:2
+msgid "Add new comment"
+msgstr "Tambah Komentar Baru"
+
+#: Comments/View/Elements/comments_form.ctp:7
+msgid "Go back to original post"
+msgstr "Kembali ke pos orisinal"
+
+#: Comments/View/Elements/comments_form.ctp:50
+msgid "Post comment"
+msgstr "Kirim komentar"
+
+#: Comments/View/Elements/admin/comments_tab.ctp:5
+#: Taxonomy/View/Types/admin_form.ctp:61
+msgid "Disabled"
+msgstr "Matikan"
+
+#: Comments/View/Elements/admin/comments_tab.ctp:6
+#: Taxonomy/View/Types/admin_form.ctp:62
+msgid "Read only"
+msgstr "Hanya Membaca"
+
+#: Comments/View/Elements/admin/comments_tab.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:63
+msgid "Read/Write"
+msgstr "Membaca/Menulis"
+
+#: Comments/View/Emails/text/comment.ctp:2
+msgid "A new comment has been posted under: %s"
+msgstr "Sebuah komentar baru telah dicantumkan di: %s"
+
+#: Comments/View/Emails/text/comment.ctp:6
+#: Contacts/View/Emails/text/contact.ctp:8
+msgid "Name: %s"
+msgstr "Nama: %s"
+
+#: Comments/View/Emails/text/comment.ctp:7
+#: Contacts/View/Emails/text/contact.ctp:9
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: Comments/View/Emails/text/comment.ctp:8
+msgid "Website: %s"
+msgstr "Website: %s"
+
+#: Comments/View/Emails/text/comment.ctp:9
+#: Contacts/View/Emails/text/contact.ctp:11
+#: Users/View/Emails/text/forgot_password.ctp:17
+msgid "IP Address: %s"
+msgstr "Alamat IP: %s"
+
+#: Comments/View/Emails/text/comment.ctp:10
+msgid "Comment: %s"
+msgstr "Komentar: %s"
+
+#: Contacts/Config/admin_menu.php:5;15
+#: Contacts/Controller/ContactsController.php:52
+#: Contacts/View/Contacts/admin_form.ctp:7
+#: Contacts/View/Contacts/admin_index.ctp:3
+#: Contacts/View/Messages/admin_form.ctp:7
+#: Contacts/View/Messages/admin_index.ctp:9
+msgid "Contacts"
+msgstr "Kontak"
+
+#: Contacts/Config/admin_menu.php:24
+#: Contacts/Controller/MessagesController.php:64
+#: Contacts/View/Messages/admin_form.ctp:8
+#: Contacts/View/Messages/admin_index.ctp:10
+msgid "Messages"
+msgstr "Pesan-pesan"
+
+#: Contacts/Controller/ContactsController.php:67
+msgid "Add Contact"
+msgstr "Tambah Kontak"
+
+#: Contacts/Controller/ContactsController.php:72;96
+msgid "The Contact has been saved"
+msgstr "Kontak berhasil disimpan"
+
+#: Contacts/Controller/ContactsController.php:75;99
+msgid "The Contact could not be saved. Please, try again."
+msgstr "Kontak tidak dapat disimpan. Silahkan coba kembali."
+
+#: Contacts/Controller/ContactsController.php:88
+msgid "Edit Contact"
+msgstr "Ubah kontak"
+
+#: Contacts/Controller/ContactsController.php:91
+msgid "Invalid Contact"
+msgstr "Kontak tidak sah"
+
+#: Contacts/Controller/ContactsController.php:116
+msgid "Invalid id for Contact"
+msgstr "Id tidak sah untuk kontak ini"
+
+#: Contacts/Controller/ContactsController.php:120
+msgid "Contact deleted"
+msgstr "Kontak telah dihapus"
+
+#: Contacts/Controller/ContactsController.php:171
+msgid "Your message has been received..."
+msgstr "Pesan Anda telah diterima..."
+
+#: Contacts/Controller/ContactsController.php:225
+msgid "Sorry, the message appears to be spam."
+msgstr "Maaf, pesan Anda terindikasi spam."
+
+#: Contacts/Controller/ContactsController.php:270
+msgid "[%s] %s"
+msgstr "[%s] %s"
+
+#: Contacts/Controller/MessagesController.php:72
+#: Contacts/View/Messages/admin_index.ctp:14;47
+msgid "Read"
+msgstr "Baca"
+
+#: Contacts/Controller/MessagesController.php:86
+msgid "Edit Message"
+msgstr "Ubah pesan"
+
+#: Contacts/Controller/MessagesController.php:89
+msgid "Invalid Message"
+msgstr "Pesan tidak sah"
+
+#: Contacts/Controller/MessagesController.php:94
+msgid "The Message has been saved"
+msgstr "Pesan telah disimpan"
+
+#: Contacts/Controller/MessagesController.php:97
+msgid "The Message could not be saved. Please, try again."
+msgstr "Pesan tidak dapat disimpan, mohon mencoba kembali."
+
+#: Contacts/Controller/MessagesController.php:114
+msgid "Invalid id for Message"
+msgstr "Id tidak sah untuk pesan ini"
+
+#: Contacts/Controller/MessagesController.php:118
+msgid "Message deleted"
+msgstr "Pesan telah dihapus"
+
+#: Contacts/Controller/MessagesController.php:134
+msgid "Messages deleted"
+msgstr "Pesan telah dihapus"
+
+#: Contacts/Controller/MessagesController.php:135
+msgid "Messages marked as read"
+msgstr "Tandai pesan sebagai telah dibaca"
+
+#: Contacts/Controller/MessagesController.php:136
+msgid "Messages marked as unread"
+msgstr "Pesan ditandai sebagai Pesan belum dibaca"
+
+#: Contacts/View/Contacts/admin_form.ctp:21
+msgid "Details"
+msgstr "Detil"
+
+#: Contacts/View/Contacts/admin_form.ctp:22
+#: Contacts/View/Contacts/view.ctp:21
+#: Contacts/View/Messages/admin_form.ctp:17
+msgid "Message"
+msgstr "Pesan"
+
+#: Contacts/View/Contacts/admin_form.ctp:49
+msgid "Position"
+msgstr "Posisi"
+
+#: Contacts/View/Contacts/admin_form.ctp:52
+#: Contacts/View/Messages/admin_form.ctp:41
+msgid "Address"
+msgstr "Alamat"
+
+#: Contacts/View/Contacts/admin_form.ctp:55
+msgid "Address2"
+msgstr "Alamat2"
+
+#: Contacts/View/Contacts/admin_form.ctp:58
+msgid "State"
+msgstr "Negara Bagian"
+
+#: Contacts/View/Contacts/admin_form.ctp:61
+msgid "Country"
+msgstr "Negara"
+
+#: Contacts/View/Contacts/admin_form.ctp:64
+msgid "Post Code"
+msgstr "Kode Pos"
+
+#: Contacts/View/Contacts/admin_form.ctp:67
+#: Contacts/View/Messages/admin_form.ctp:38
+msgid "Phone"
+msgstr "Telepon"
+
+#: Contacts/View/Contacts/admin_form.ctp:70
+msgid "Fax"
+msgstr "Fax"
+
+#: Contacts/View/Contacts/admin_form.ctp:76
+msgid "Let users leave a message"
+msgstr "Izinkan pengguna lain meninggalkan pesan"
+
+#: Contacts/View/Contacts/admin_form.ctp:79
+msgid "Save messages in database"
+msgstr "Simpan pesan dalam database"
+
+#: Contacts/View/Contacts/admin_form.ctp:82
+msgid "Notify by email instantly"
+msgstr "Beritahukan melalui email secara instant?"
+
+#: Contacts/View/Contacts/admin_form.ctp:85
+#: Taxonomy/View/Types/admin_form.ctp:73
+msgid "Spam protection (requires Akismet API key)"
+msgstr "Proteksi SPAM (Dibutuhkan kunci API dari Akismet"
+
+#: Contacts/View/Contacts/admin_form.ctp:88
+#: Taxonomy/View/Types/admin_form.ctp:76
+msgid "Use captcha? (requires Recaptcha API key)"
+msgstr "Gunakan Captcha? (Dibutuhkan kunci API dari Recaptcha)"
+
+#: Contacts/View/Contacts/admin_form.ctp:91
+#: Taxonomy/View/Types/admin_form.ctp:78
+msgid "You can manage your API keys here."
+msgstr "Anda dapat mengelola kunci-kunci API disini."
+
+#: Contacts/View/Contacts/view.ctp:18
+msgid "Your name"
+msgstr "Nama Anda"
+
+#: Contacts/View/Contacts/view.ctp:19
+msgid "Your email"
+msgstr "Email Anda"
+
+#: Contacts/View/Contacts/view.ctp:20
+msgid "Subject"
+msgstr "Pokok Bahasan"
+
+#: Contacts/View/Contacts/view.ctp:25
+msgid "Send"
+msgstr "Kirim"
+
+#: Contacts/View/Emails/text/contact.ctp:7
+msgid "You have received a new message at: %s"
+msgstr "Anda menerima pesan baru: %s"
+
+#: Contacts/View/Emails/text/contact.ctp:10
+msgid "Subject: %s"
+msgstr "Judul: %s"
+
+#: Contacts/View/Emails/text/contact.ctp:12
+msgid "Message: %s"
+msgstr "Pesan: %s"
+
+#: Contacts/View/Messages/admin_index.ctp:15
+msgid "Messages: Read"
+msgstr "Pesan: Telah dibaca"
+
+#: Contacts/View/Messages/admin_index.ctp:17;41
+msgid "Unread"
+msgstr "Belum dibaca"
+
+#: Contacts/View/Messages/admin_index.ctp:18
+msgid "Messages: Unread"
+msgstr "Pesan: Belum dibaca"
+
+#: Contacts/View/Messages/admin_index.ctp:120
+msgid "Mark as read"
+msgstr "Tandai sebagai Pesan telah dibaca"
+
+#: Contacts/View/Messages/admin_index.ctp:121
+msgid "Mark as unread"
+msgstr "Tandai sebagai Pesan belum dibaca"
+
+#: Croogo/Console/Command/CroogoShell.php:27
+msgid "Croogo Utilities"
+msgstr "Kegunaan Croogo"
+
+#: Croogo/Console/Command/CroogoShell.php:29
+msgid "Compile/Generate CSS"
+msgstr "Susun / Hasilkan CSS"
+
+#: Croogo/Console/Command/CroogoShell.php:32
+msgid "Upgrade Croogo"
+msgstr "Tingkatkan Croogo"
+
+#: Croogo/Console/Command/ExtShell.php:103
+msgid "Theme cannot be deactivated, instead activate another theme."
+msgstr ""
+
+#: Croogo/Console/Command/ExtShell.php:107
+msgid "%s \"%s\" not found."
+msgstr "%s \"%s\" tidak ditemukan."
+
+#: Croogo/Console/Command/ExtShell.php:116
+msgid "%s name must be provided."
+msgstr "nama %s harus disediakan."
+
+#: Croogo/Console/Command/ExtShell.php:128
+msgid "Activate Plugins & Themes"
+msgstr "Aktifkan Plugin & Tema"
+
+#: Croogo/Console/Command/ExtShell.php:131
+msgid "Method to perform"
+msgstr "Metode untuk dilaksanakan"
+
+#: Croogo/Console/Command/ExtShell.php:136
+#: Croogo/Console/Command/InstallShell.php:136
+msgid "Extension type"
+msgstr "Tipe Ekstensi"
+
+#: Croogo/Console/Command/ExtShell.php:141
+msgid "Name of extension"
+msgstr "Nama Ekstensi"
+
+#: Croogo/Console/Command/ExtShell.php:165
+#: Extensions/Controller/ExtensionsPluginsController.php:157
+msgid "Plugin \"%s\" activated successfully."
+msgstr "Plugin \"%s\" telah berhasil diaktifkan."
+
+#: Croogo/Console/Command/ExtShell.php:170
+#: Extensions/Lib/CroogoPlugin.php:558
+msgid "Plugin \"%s\" could not be activated. Please, try again."
+msgstr "Plugin \%s\% tidak dapat diaktifkan. Silahkan coba kembali."
+
+#: Croogo/Console/Command/ExtShell.php:186
+msgid "Plugin \"%s\" could not be deactivated. Please, try again."
+msgstr "Plugin \"%s\" tidak dapat di non-aktifkan. Silahkan coba kembali."
+
+#: Croogo/Console/Command/ExtShell.php:194
+#: Extensions/Controller/ExtensionsPluginsController.php:143
+msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
+msgstr "Plugin \%s\" tidak dapat di non-aktifkan karena \"%s\ bergantung padanya"
+
+#: Croogo/Console/Command/ExtShell.php:205
+#: Extensions/Controller/ExtensionsPluginsController.php:148
+msgid "Plugin \"%s\" deactivated successfully."
+msgstr "Plugin \"%s\" berhasil di non-aktifkan."
+
+#: Croogo/Console/Command/ExtShell.php:219
+msgid "Theme \"%s\" activated successfully."
+msgstr "Tema \"%s\" berhasil diaktifkan."
+
+#: Croogo/Console/Command/ExtShell.php:221
+msgid "Theme \"%s\" activation failed."
+msgstr "Pengaktifan tema \"%s\" gagal."
+
+#: Croogo/Console/Command/ExtShell.php:235
+msgid "Plugins:"
+msgstr "Plugin"
+
+#: Croogo/Console/Command/ExtShell.php:236;248;262;272
+msgid "%-20s%-50s%s"
+msgstr ""
+
+#: Croogo/Console/Command/ExtShell.php:236
+#: Taxonomy/View/Vocabularies/admin_index.ctp:16
+msgid "Plugin"
+msgstr "Plugin"
+
+#: Croogo/Console/Command/ExtShell.php:236;262
+msgid "Author"
+msgstr "Pecipta"
+
+#: Croogo/Console/Command/ExtShell.php:262
+msgid "Theme"
+msgstr "Tema"
+
+#: Croogo/Console/Command/InstallShell.php:81
+msgid "Installing with Composer..."
+msgstr "Memasang dengan Composer..."
+
+#: Croogo/Console/Command/InstallShell.php:89
+msgid "Unexpected composerInstall return value"
+msgstr "Nilai balikan dari pemasangan composer tidak terduga"
+
+#: Croogo/Console/Command/InstallShell.php:102
+msgid "Package installed and activated."
+msgstr "Paket telah dipasang dan diaktifkan."
+
+#: Croogo/Console/Command/InstallShell.php:104
+msgid "Package installed but not activated."
+msgstr "Paket telah dipasang namun belum diaktifkan."
+
+#: Croogo/Console/Command/InstallShell.php:121
+msgid "Extension installed and activated."
+msgstr "Ekstensi telah dipasang dan diaktifkan."
+
+#: Croogo/Console/Command/InstallShell.php:133
+msgid "Download, Install & Activate Plugins & Themes"
+msgstr "Unduh, Pasang & Aktifkan Plugin & Tema"
+
+#: Croogo/Console/Command/InstallShell.php:141
+msgid "URL to zip file OR github user name"
+msgstr ""
+
+#: Croogo/Console/Command/InstallShell.php:145
+msgid "Github repo name"
+msgstr "Nama penyimpanan pada Github"
+
+#: Croogo/Console/Command/InstallShell.php:176
+msgid "Installing extension..."
+msgstr "Memasang ekstensi..."
+
+#: Croogo/Console/Command/InstallShell.php:195
+msgid "Please specify a URL to a zipball extension"
+msgstr ""
+
+#: Croogo/Console/Command/InstallShell.php:200
+msgid "Downloading extension to %s..."
+msgstr "Mengunduh ekstensi ke %s..."
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:62
+msgid "Upgrade ACL database for core controllers."
+msgstr "Meningkatkan database ACL untuk kontroler inti."
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:64
+msgid "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior in normal CakePHP applications. The primary difference is plugin controllers now are stored underneath its own Plugin ACO record, whereas previous version assumes all Controllers belongs to the root 'controllers' node.%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos table before upgrading.</warning>"
+msgstr "Tingkatkan hirarki ACO dari 1,3 / 1,4 sehingga mengikuti perilaku standar dalam aplikasi CakePHP yang normal. Perbedaan utama adalah Kontroler Plugin sekarang disimpan di bawah rekord Plugin ACO itu sendiri, sedangkan pada versi sebelumnya mengasumsikan semua Controller dimiliki oleh root dari node 'kontroler' node . %s<warning>Pastikan Anda memiliki backup dari tabel database aros, acos dan aros_acos sebelum melakukan peningkatan."
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:76
+msgid "Create settings.json from database"
+msgstr "Buat settings.json dari database"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:79
+msgid "Update Hook.bootstrap settings"
+msgstr "Perbarui pengaturan Hook.bootstrap"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:82
+msgid "Update Links in database"
+msgstr "Perbarui Tautan-tautan dalam database"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:85
+msgid "Create first migration records"
+msgstr "Buat rekord migrasi pertama"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:88
+msgid "Run all pending migrations for core plugins"
+msgstr "Jalankan semua migrasi yang tertentu untuk plugin inti"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:91
+msgid "Run all upgrade tasks"
+msgstr "Jalankan semua tugas peningkatan"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:101
+msgid "<warning>Config/settings.json already exist</warning>"
+msgstr "<warning>Config/settings.json sudah ada</warning>"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:142
+msgid "<success>Config/settings.yml created based on `settings` table</success>"
+msgstr "<success>Config/settings.yml telah dibuat berdasarkan dari tabel 'settings'</success>"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:187
+msgid "Updating Link %s"
+msgstr "Memperbarui tautan %s"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:188
+#: Settings/Console/Command/SettingsShell.php:155
+msgid "- %s"
+msgstr "- %s"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:189
+#: Settings/Console/Command/SettingsShell.php:158
+msgid "+ %s"
+msgstr "+ %s"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:194
+msgid "Links updated: %d rows"
+msgstr "Tautan telah diperbarui: %d baris"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:210
+msgid "Hook.bootstraps updated"
+msgstr "Hook.bootstraps telah diperbarui"
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:334
+msgid "Upgrade \"%s\""
+msgstr "Tingkatkan \"%s\""
+
+#: Croogo/Console/Command/Task/UpgradeTask.php:348
+msgid "Command not recognized"
+msgstr "Perintah tidak dikenali"
+
+#: Croogo/Controller/CroogoAppController.php:268
+msgid "Site down for maintenance"
+msgstr "Website sedang dalam pemeliharaan"
+
+#: Croogo/Controller/CroogoErrorController.php:55
+msgid "Errors in CakeErrorController: %s"
+msgstr "Kesalahan dalam CakeErrorController: %s"
+
+#: Croogo/Controller/Component/BulkProcessComponent.php:98
+msgid "No item selected"
+msgstr ""
+
+#: Croogo/Controller/Component/BulkProcessComponent.php:99
+msgid "Please choose only one item for this operation"
+msgstr "Mohon pilih satu saja untuk operasi ini"
+
+#: Croogo/Controller/Component/BulkProcessComponent.php:136
+msgid "%s processed"
+msgstr "%s telah diproses"
+
+#: Croogo/Controller/Component/BulkProcessComponent.php:141
+#: FileManager/Controller/FileManagerController.php:229;262;351;384
+msgid "An error occured"
+msgstr "Terjadi sebuah kekeliruan"
+
+#: Croogo/Controller/Component/CroogoComponent.php:128
+msgid "Visit website"
+msgstr "Kunjungi website"
+
+#: Croogo/Controller/Component/CroogoComponent.php:145
+msgid "Profile"
+msgstr "Profil"
+
+#: Croogo/Controller/Component/CroogoComponent.php:160
+msgid "Logout"
+msgstr "Keluar"
+
+#: Croogo/Controller/Component/CroogoComponent.php:292
+#: Nodes/Controller/NodesController.php:288;748;768
+msgid "Invalid content"
+msgstr "Konten tidak sah"
+
+#: Croogo/Controller/Component/CroogoComponent.php:301
+msgid "Failed toggling field %s to %s"
+msgstr "Gagal mengubah bidang %s menjadi %s"
+
+#: Croogo/Event/CroogoEventManager.php:77
+msgid "EventHandler %s not found in plugin %s"
+msgstr "EventHandler %s tidak ditemukan didalam plugin %s"
+
+#: Croogo/Lib/CroogoRouter.php:201
+msgid "Unable to get routeable content types: %s"
+msgstr "Tidak dapat memperoleh konten yang dapat dirutekan bertipe: %s"
+
+#: Croogo/Lib/CroogoStatus.php:39
+#: FileManager/View/Elements/admin/attachments_search.ctp:38
+#: Nodes/View/Elements/admin/nodes_search.ctp:37
+msgid "Unpublished"
+msgstr "Tidak dipublikasikan"
+
+#: Croogo/Lib/CroogoStatus.php:41
+#: FileManager/View/Attachments/admin_edit.ctp:71
+msgid "Preview"
+msgstr "Pratinjau"
+
+#: Croogo/Lib/CroogoStatus.php:44
+msgid "Approved"
+msgstr "Telah disetujui"
+
+#: Croogo/Lib/CroogoStatus.php:45
+msgid "Pending"
+msgstr "Tunda"
+
+#: Croogo/Lib/Configure/CroogoJsonReader.php:40
+msgid "Cannot load configuration files with ../ in them."
+msgstr "Tidak dapat memuat berkas konfigurasi dengan ../ didalamnya"
+
+#: Croogo/Lib/Configure/CroogoJsonReader.php:55
+msgid "Could not load configuration files: %s or %s"
+msgstr "Tidak dapat memuat berkas konfigurasi: %s atau %s"
+
+#: Croogo/Model/Behavior/BulkProcessBehavior.php:65
+msgid "Invalid action to perform"
+msgstr "Aksi tidak sah untuk dilaksanakan"
+
+#: Croogo/Model/Behavior/BulkProcessBehavior.php:69
+msgid "No target to process action upon"
+msgstr ""
+
+#: Croogo/Model/Behavior/BulkProcessBehavior.php:75
+msgid "Action %s is disabled"
+msgstr "Aksi %s telah dimatikan"
+
+#: Croogo/View/Common/admin_edit.ctp:11
+#: FileManager/View/Attachments/admin_browse.ctp:35
+#: FileManager/View/FileManager/admin_browse.ctp:97
+#: FileManager/View/FileManager/admin_editfile.ctp:32
+#: Nodes/View/Nodes/admin_translations.ctp:33
+msgid "Edit"
+msgstr "Ubah"
+
+#: Croogo/View/Common/admin_index.ctp:39
+#: Croogo/View/Common/admin_view.ctp:39
+#: Menus/View/Links/admin_index.ctp:17
+msgid "New %s"
+msgstr "Buat %s Baru"
+
+#: Croogo/View/Elements/admin/footer.ctp:7
+msgid "Croogo %s"
+msgstr "Croogo %s"
+
+#: Croogo/View/Elements/admin/footer.ctp:11
+msgid "Powered by %s"
+msgstr "Ditenagai oleh %s"
+
+#: Croogo/View/Elements/admin/header.ctp:18
+#: Dashboards/Config/admin_menu.php:5;11
+#: Dashboards/Controller/DashboardsDashboardsController.php:55
+#: Dashboards/View/DashboardsDashboards/admin_dashboard.ctp:8
+#: Extensions/Controller/ExtensionsDashboardController.php:11
+#: Extensions/View/ExtensionsDashboard/admin_index.ctp:5
+msgid "Dashboard"
+msgstr "Dasbor"
+
+#: Croogo/View/Elements/admin/modal.ctp:20
+msgid "Close"
+msgstr "Tutup"
+
+#: Croogo/View/Elements/admin/pagination.ctp:5
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Halaman {:page} dari {:pages}, menampilkan {:current} rekord dari {:count} total, dimulai dari rekord {:start}, selesai di {:end}"
+
+#: Croogo/View/Elements/admin/pagination.ctp:10
+msgid "first"
+msgstr "pertama"
+
+#: Croogo/View/Elements/admin/pagination.ctp:11
+msgid "prev"
+msgstr "Sebelumnya"
+
+#: Croogo/View/Elements/admin/pagination.ctp:13
+msgid "next"
+msgstr "Berikutnya"
+
+#: Croogo/View/Elements/admin/pagination.ctp:14
+msgid "last"
+msgstr "Terakhir"
+
+#: Croogo/View/Elements/admin/search.ctp:46
+#: FileManager/View/Elements/admin/attachments_search.ctp:53
+#: Nodes/View/Elements/admin/nodes_search.ctp:52
+msgid "Filter"
+msgstr "Saring"
+
+#: Croogo/View/Errors/missing_action.ctp:1
+#: Croogo/View/Errors/missing_controller.ctp:1
+#: Croogo/View/Errors/security.ctp:1
+msgid "Page not found"
+msgstr "Halaman tidak ditemukan"
+
+#: Croogo/View/Errors/missing_action.ctp:2
+#: Croogo/View/Errors/missing_controller.ctp:2
+msgid "Error"
+msgstr "Error"
+
+#: Croogo/View/Errors/missing_action.ctp:4
+#: Croogo/View/Errors/missing_controller.ctp:4
+#: Croogo/View/Errors/security.ctp:4
+msgid "The requested address was not found on this server."
+msgstr "Alamat yang dimaksud tidak ditemukan dalam server."
+
+#: Croogo/View/Errors/security.ctp:2
+msgid "Security Error"
+msgstr "Kesalahan Sekuriti"
+
+#: Croogo/View/Errors/security.ctp:8
+msgid "Request blackholed due to \"%s\" violation."
+msgstr ""
+
+#: Croogo/View/Helper/LayoutHelper.php:95
+msgid "Method %1$s::%2$s does not exist"
+msgstr "Metode %1$s::%2$s tidak diketahui"
+
+#: Croogo/View/Layouts/admin.ctp:6
+#: Croogo/View/Layouts/admin_full.ctp:6
+#: Croogo/View/Layouts/admin_login.ctp:6
+#: Croogo/View/Layouts/admin_popup.ctp:6
+#: Install/View/Layouts/install.ctp:6
+msgid "Croogo"
+msgstr "Croogo"
+
+#: Croogo/View/Layouts/admin_login.ctp:28
+msgid "Back to"
+msgstr "Kembali ke"
+
+#: Croogo/View/Layouts/maintenance.ctp:13
+msgid "Site down for maintenance."
+msgstr "Website sedang dalam pemeliharaan."
+
+#: Dashboards/Config/admin_dashboard.php:5
+msgid "Croogo News"
+msgstr "Berita Croogo"
+
+#: Dashboards/Controller/DashboardsDashboardsController.php:97
+msgid "Invalid id for Dashboard"
+msgstr "Id Dasbor tidak sah"
+
+#: Dashboards/Controller/DashboardsDashboardsController.php:101
+msgid "Dashboard deleted"
+msgstr "Dasbor telah dihapus"
+
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:2;7
+msgid "Dashboards"
+msgstr "Dasbor"
+
+#: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
+#: Settings/View/Settings/admin_view.ctp:44
+msgid "Are you sure you want to delete # %s?"
+msgstr "Apakah Anda yakin ingin menghapus # %s?"
+
+#: Dashboards/View/Helper/DashboardsHelper.php:131
+msgid "Left"
+msgstr "Kiri"
+
+#: Dashboards/View/Helper/DashboardsHelper.php:134
+msgid "Right"
+msgstr "Kanan"
+
+#: Dashboards/View/Helper/DashboardsHelper.php:137
+msgid "Full"
+msgstr "Penuh"
+
+#: Example/Config/admin_dashboard.php:5
+msgid "Welcome"
+msgstr "Selamat Datang"
+
+#: Example/View/Example/index.ctp:3
+msgid "content here"
+msgstr "Konten disini"
+
+#: Extensions/Config/admin_menu.php:5
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:7
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:7
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:7
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:7
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:9
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:7
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:7
+msgid "Extensions"
+msgstr "Ekstensi"
+
+#: Extensions/Config/admin_menu.php:15
+#: Extensions/Controller/ExtensionsThemesController.php:60
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:8
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:8
+msgid "Themes"
+msgstr "Tema"
+
+#: Extensions/Config/admin_menu.php:25
+#: Extensions/Controller/ExtensionsLocalesController.php:44
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:8
+#: Extensions/View/ExtensionsLocales/admin_edit.ctp:8
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:8
+msgid "Locales"
+msgstr "Lokal"
+
+#: Extensions/Config/admin_menu.php:35
+#: Extensions/Controller/ExtensionsPluginsController.php:69
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:8
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:10
+msgid "Plugins"
+msgstr "Plugin"
+
+#: Extensions/Console/Command/DataMigrationShell.php:23
+msgid "Data Migration Utility"
+msgstr "Kegunaan Migrasi Data"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:76
+msgid "Locale does not exist."
+msgstr "Lokal tidak ditersedia"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:82
+msgid "Locale '%s' set as default"
+msgstr "Lokal %s ditetapkan sebagai default"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:84
+msgid "Could not save Locale setting."
+msgstr "Tidak dapat menyimpan pengaturan lokal"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:95
+msgid "Upload a new locale"
+msgstr "Unggah Lokal Baru"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:121;176
+msgid "Invalid locale."
+msgstr "Lokal tidak sah"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:126
+msgid "Locale already exists."
+msgstr "Lokal telah tersedia"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:173
+msgid "Edit locale: %s"
+msgstr "Ubah lokal: %s"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:183;211
+msgid "The file %s does not exist."
+msgstr "Berkas %s tidak tersedia."
+
+#: Extensions/Controller/ExtensionsLocalesController.php:193
+msgid "Locale updated successfully"
+msgstr "Lokal berhasil diperbarui"
+
+#: Extensions/Controller/ExtensionsLocalesController.php:217
+msgid "Locale deleted successfully."
+msgstr "Lokal berhasil dihapus."
+
+#: Extensions/Controller/ExtensionsLocalesController.php:219
+msgid "Local could not be deleted."
+msgstr "Lokal tidak dapat dihapus."
+
+#: Extensions/Controller/ExtensionsPluginsController.php:83
+msgid "Upload a new plugin"
+msgstr "Unggah Plugin Baru"
+
+#: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
+#: Extensions/Lib/CroogoPlugin.php:685
+#: Extensions/Lib/ExtensionsInstaller.php:105
+msgid "Invalid plugin"
+msgstr "Plugin tidak sah"
+
+#: Extensions/Controller/ExtensionsPluginsController.php:112
+msgid "You cannot delete a plugin that is currently active."
+msgstr "Anda tidak dapat menghapus plugin yang saat ini sedang aktif."
+
+#: Extensions/Controller/ExtensionsPluginsController.php:118
+msgid "Plugin \"%s\" deleted successfully."
+msgstr "Plugin \"%s\" berhasil dihapus."
+
+#: Extensions/Controller/ExtensionsPluginsController.php:122
+msgid "Plugin could not be deleted."
+msgstr "Plugin tidak dapat dihapus."
+
+#: Extensions/Controller/ExtensionsPluginsController.php:152
+#: Extensions/Lib/CroogoPlugin.php:600
+msgid "Plugin could not be deactivated. Please, try again."
+msgstr "Plugin tidak dapat di non-aktifkan. Silahkan coba kembali."
+
+#: Extensions/Controller/ExtensionsPluginsController.php:161
+msgid "Plugin could not be activated. Please, try again."
+msgstr "Plugin tidak dapat di non-aktifkan. Silahkan coba kembali."
+
+#: Extensions/Controller/ExtensionsPluginsController.php:176
+msgid "Plugin \"%s\" migrated successfully."
+msgstr "Plugin \"%s\" telah berhasil di migrasi."
+
+#: Extensions/Controller/ExtensionsPluginsController.php:179
+msgid "Plugin \"%s\" could not be migrated. Error: %s"
+msgstr "Plugin \%s\" tidak dapat di migrasi. Error: %s"
+
+#: Extensions/Controller/ExtensionsPluginsController.php:201
+msgid "Plugin %s has been moved up"
+msgstr "Plugin %s telah digeser ke atas"
+
+#: Extensions/Controller/ExtensionsPluginsController.php:225
+msgid "Plugin %s has been moved down"
+msgstr "Plugin %s telah digeser kebawah"
+
+#: Extensions/Controller/ExtensionsThemesController.php:81
+msgid "Theme activated."
+msgstr "Tema diaktifkan."
+
+#: Extensions/Controller/ExtensionsThemesController.php:83
+msgid "Theme activation failed."
+msgstr "Pengaktifan tema gagal."
+
+#: Extensions/Controller/ExtensionsThemesController.php:95
+msgid "Upload a new theme"
+msgstr "Unggah Tema Baru."
+
+#: Extensions/Controller/ExtensionsThemesController.php:104
+msgid "Theme uploaded successfully."
+msgstr "Tema berhasil diunggah."
+
+#: Extensions/Controller/ExtensionsThemesController.php:118
+msgid "Theme Editor"
+msgstr "Tema Editor"
+
+#: Extensions/Controller/ExtensionsThemesController.php:137
+msgid "Invalid Theme."
+msgstr "Tema tidak sah."
+
+#: Extensions/Controller/ExtensionsThemesController.php:142
+msgid "Default theme cannot be deleted."
+msgstr "Tema utama tidak dapat dihapus."
+
+#: Extensions/Controller/ExtensionsThemesController.php:145
+msgid "You cannot delete a theme that is currently active."
+msgstr "Anda tidak dapat menghapus tema yang saat ini sedang aktif."
+
+#: Extensions/Controller/ExtensionsThemesController.php:152
+msgid "Theme deleted successfully."
+msgstr "Tema berhasil dihapus."
+
+#: Extensions/Controller/ExtensionsThemesController.php:156
+#: Users/Controller/UsersController.php:427;496;507
+msgid "An error occurred."
+msgstr "Terjadi error."
+
+#: Extensions/Lib/CroogoPlugin.php:530
+msgid "Plugin \"%s\" is already active."
+msgstr "Plugin \"%s\" sudah aktif"
+
+#: Extensions/Lib/CroogoPlugin.php:556
+msgid "Plugin \"%s\" depends on \"%s\" plugin."
+msgstr "Plugin \"%s\" bergantung kepada plugin \"%s\"."
+
+#: Extensions/Lib/CroogoPlugin.php:587
+msgid "Plugin \"%s\" is not active."
+msgstr "Plugin \"%s\" tidak aktif"
+
+#: Extensions/Lib/CroogoPlugin.php:715
+msgid "%s is already at the first position"
+msgstr "%s sudah berada dalam posisi pertama"
+
+#: Extensions/Lib/CroogoPlugin.php:721;733
+msgid "Plugin %s depends on %s"
+msgstr "Plugin %s bergantung pada %s"
+
+#: Extensions/Lib/CroogoPlugin.php:726
+msgid "%s is already at the last position"
+msgstr "%s sudah dalam posisi terakhir"
+
+#: Extensions/Lib/CroogoPlugin.php:737
+msgid "Invalid direction"
+msgstr "Direction tidak sah"
+
+#: Extensions/Lib/CroogoPlugin.php:742
+msgid "Plugin %s cannot be reordered"
+msgstr "Plugin %s tidak dapat disusun ulang"
+
+#: Extensions/Lib/CroogoTheme.php:252
+#: Extensions/Lib/ExtensionsInstaller.php:186
+msgid "Invalid theme"
+msgstr "Tema tidak sah"
+
+#: Extensions/Lib/CroogoTheme.php:273
+msgid "Theme %s not found"
+msgstr "Tema %s tidak ditemukan"
+
+#: Extensions/Lib/ExtensionsInstaller.php:62
+msgid "Invalid plugin path"
+msgstr "Jalur plugin tidak sah"
+
+#: Extensions/Lib/ExtensionsInstaller.php:72;110;191
+msgid "Invalid zip archive"
+msgstr "Zip arsip tidak sah"
+
+#: Extensions/Lib/ExtensionsInstaller.php:78
+msgid "Invalid plugin.json or missing plugin name"
+msgstr "plugin.json tidak sah atau plugin name tidak ditemukan"
+
+#: Extensions/Lib/ExtensionsInstaller.php:99
+msgid "Missing expected files: %s in: %s"
+msgstr "Tidak ditemukan berkas yang dibutuhkan: %s didalam %s"
+
+#: Extensions/Lib/ExtensionsInstaller.php:100
+msgid "Invalid plugin or missing expected files"
+msgstr "Plugin tidak sah atau berkas dibutuhkan tidak ditemukan"
+
+#: Extensions/Lib/ExtensionsInstaller.php:125
+msgid "Invalid plugin file path"
+msgstr "Jalur berkas plugin tidak sah"
+
+#: Extensions/Lib/ExtensionsInstaller.php:136
+msgid "Plugin already exists"
+msgstr "Plugin sudah ada"
+
+#: Extensions/Lib/ExtensionsInstaller.php:152
+msgid "Failed to extract plugin"
+msgstr "Gagal untuk mengekstrak plugin"
+
+#: Extensions/Lib/ExtensionsInstaller.php:165
+msgid "Invalid theme path"
+msgstr "Jalur tema tidak sah"
+
+#: Extensions/Lib/ExtensionsInstaller.php:206
+msgid "Invalid theme file path"
+msgstr "Jalur berkas tema tidak sah"
+
+#: Extensions/Lib/ExtensionsInstaller.php:217
+msgid "Theme already exists"
+msgstr "Tema sudah ada"
+
+#: Extensions/Lib/ExtensionsInstaller.php:233
+msgid "Failed to extract theme"
+msgstr "Gagal untuk mengekstrak tema"
+
+#: Extensions/Lib/ExtensionsInstaller.php:252
+msgid "Must specify a valid package name: vendor/name."
+msgstr "Harus dijelaskan nama paket yang sah: vendor/name."
+
+#: Extensions/Lib/ExtensionsInstaller.php:255
+msgid "Themes installed via composer are not yet supported."
+msgstr "Pemasangan tema melalui composer belum didukung"
+
+#: Extensions/View/ExtensionsLocales/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:11
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:16
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:15
+#: FileManager/Controller/FileManagerController.php:183
+#: FileManager/View/Attachments/admin_add.ctp:8;21;29;42
+#: FileManager/View/FileManager/admin_upload.ctp:8;32
+msgid "Upload"
+msgstr "Unggah"
+
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:19
+#: Nodes/View/Nodes/admin_translations.ctp:26
+#: Translate/View/Translate/admin_index.ctp:58
+msgid "Locale"
+msgstr "Lokal"
+
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:20
+msgid "Default"
+msgstr "Penyetelan Tetap"
+
+#: Extensions/View/ExtensionsLocales/admin_index.ctp:33
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:114
+msgid "Activate"
+msgstr "Aktifkan"
+
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
+#: Menus/View/Links/admin_form.ctp:99
+#: Menus/View/Menus/admin_form.ctp:36
+#: Settings/View/Settings/admin_form.ctp:47
+#: Settings/View/Settings/admin_view.ctp:19
+#: Taxonomy/View/Terms/admin_form.ctp:51
+#: Taxonomy/View/Types/admin_form.ctp:38
+#: Taxonomy/View/Vocabularies/admin_form.ctp:43
+msgid "Description"
+msgstr "Deskripsi"
+
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:29
+msgid "Active"
+msgstr "Aktif"
+
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
+msgid "Deactivate"
+msgstr "Nonaktifkan"
+
+#: Extensions/View/ExtensionsPlugins/admin_index.ctp:73
+msgid "Migrate"
+msgstr "Migrasi"
+
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:26
+msgid "Current Theme"
+msgstr "Tema yang berlaku"
+
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:60;111
+msgid "Regions supported: "
+msgstr "Region yang didukung:  "
+
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:66
+msgid "Available Themes"
+msgstr "Tema tersedia"
+
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:135
+msgid "No available theme"
+msgstr "Tema tidak tersedia"
+
+#: FileManager/Config/admin_menu.php:5
+msgid "Media"
+msgstr "Media"
+
+#: FileManager/Config/admin_menu.php:15
+#: FileManager/Controller/AttachmentsController.php:117
+#: FileManager/View/Attachments/admin_add.ctp:7
+#: FileManager/View/Attachments/admin_edit.ctp:7
+#: FileManager/View/Attachments/admin_index.ctp:7
+msgid "Attachments"
+msgstr "Lampiran"
+
+#: FileManager/Config/admin_menu.php:24
+#: FileManager/Controller/FileManagerController.php:117
+#: FileManager/View/FileManager/admin_browse.ctp:7
+#: FileManager/View/FileManager/admin_create_directory.ctp:7
+#: FileManager/View/FileManager/admin_create_file.ctp:7
+#: FileManager/View/FileManager/admin_editfile.ctp:7
+#: FileManager/View/FileManager/admin_rename.ctp:7
+#: FileManager/View/FileManager/admin_upload.ctp:7
+msgid "File Manager"
+msgstr "Pengelolaan Berkas"
+
+#: FileManager/Controller/AttachmentsController.php:155
+msgid "Add Attachment"
+msgstr "Tambah lampiran"
+
+#: FileManager/Controller/AttachmentsController.php:164
+msgid "Upload failed. Please ensure size does not exceed the server limit."
+msgstr "Unggah gagal. Pasikan ukuran berkas tidak melibihi batasan server."
+
+#: FileManager/Controller/AttachmentsController.php:171;204
+msgid "The Attachment has been saved"
+msgstr "Lampiran berhasil disimpan"
+
+#: FileManager/Controller/AttachmentsController.php:179;207
+msgid "The Attachment could not be saved. Please, try again."
+msgstr "Lampiran tidak dapat disimpan. Silahkan mencoba kembali."
+
+#: FileManager/Controller/AttachmentsController.php:192
+msgid "Edit Attachment"
+msgstr "Ubah Lampiran"
+
+#: FileManager/Controller/AttachmentsController.php:199
+msgid "Invalid Attachment"
+msgstr "Lampiran tidak sah."
+
+#: FileManager/Controller/AttachmentsController.php:224;232
+msgid "Invalid id for Attachment"
+msgstr "Id lampiran tidak sah."
+
+#: FileManager/Controller/AttachmentsController.php:229
+msgid "Attachment deleted"
+msgstr "Lampiran telah dihapus."
+
+#: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
+msgid "Path %s is restricted"
+msgstr "Jalur %s dibatasi"
+
+#: FileManager/Controller/FileManagerController.php:157
+msgid "Edit file: %s"
+msgstr "Ubat berkas: %s"
+
+#: FileManager/Controller/FileManagerController.php:167
+msgid "File saved successfully"
+msgstr "Berkas berhasil disimpan."
+
+#: FileManager/Controller/FileManagerController.php:201
+msgid "File uploaded successfully."
+msgstr "Berkas berhasil diunggah."
+
+#: FileManager/Controller/FileManagerController.php:227
+msgid "File deleted"
+msgstr "Berkas telah dihapus"
+
+#: FileManager/Controller/FileManagerController.php:260
+msgid "Directory deleted"
+msgstr "Direktori telah dihapus."
+
+#: FileManager/Controller/FileManagerController.php:285
+msgid "Path \"%s\" cannot be renamed"
+msgstr "Penamaan pada jalur \"%s\" tidak dapat dirubah"
+
+#: FileManager/Controller/FileManagerController.php:298
+msgid "%s already exists"
+msgstr "%s sudah ada"
+
+#: FileManager/Controller/FileManagerController.php:302
+msgid "\"%s\" has been renamed to \"%s\""
+msgstr "Penamaan \"%s\" telah dirubah menjadi \"%s\""
+
+#: FileManager/Controller/FileManagerController.php:305
+msgid "Could not rename \"%s\" to \"%s\""
+msgstr "Tidak dapat merubah penamaan \"%s\" menjadi \"%s\""
+
+#: FileManager/Controller/FileManagerController.php:310
+msgid "Name has not changed"
+msgstr "Nama belum berubah"
+
+#: FileManager/Controller/FileManagerController.php:331
+#: FileManager/View/FileManager/admin_create_directory.ctp:8
+msgid "Create Directory"
+msgstr "Buat Direktori"
+
+#: FileManager/Controller/FileManagerController.php:347
+msgid "Directory created successfully."
+msgstr "Direktori berhasil dibuat."
+
+#: FileManager/Controller/FileManagerController.php:365
+#: FileManager/View/FileManager/admin_create_file.ctp:8
+msgid "Create File"
+msgstr "Buat Berkas"
+
+#: FileManager/Controller/FileManagerController.php:380
+msgid "File created successfully."
+msgstr "Berkas berhasil dibuat."
+
+#: FileManager/Model/Attachment.php:95
+msgid "Error during file upload"
+msgstr "Kesalahan terjadi saat unggah berkas"
+
+#: FileManager/View/Attachments/admin_browse.ctp:10
+msgid "New Attachment"
+msgstr "Buat Lampiran Baru"
+
+#: FileManager/View/Attachments/admin_browse.ctp:25
+#: FileManager/View/Attachments/admin_index.ctp:14
+msgid "URL"
+msgstr "URL"
+
+#: FileManager/View/Attachments/admin_browse.ctp:67
+msgid "Insert"
+msgstr "Sisipkan"
+
+#: FileManager/View/Attachments/admin_chooser.ctp:4
+#: Nodes/View/Nodes/admin_chooser.ctp:4
+msgid "Sort by:"
+msgstr "Sortir dengan:"
+
+#: FileManager/View/Attachments/admin_chooser.ctp:41
+#: FileManager/View/Elements/admin/attachments_search.ctp:48
+#: Nodes/View/Elements/admin/nodes_search.ctp:47
+#: Nodes/View/Nodes/admin_chooser.ctp:50
+msgid "Promoted"
+msgstr "Promosi"
+
+#: FileManager/View/Attachments/admin_edit.ctp:18
+msgid "Attachment"
+msgstr "Lampiran"
+
+#: FileManager/View/Attachments/admin_edit.ctp:29
+msgid "Caption"
+msgstr ""
+
+#: FileManager/View/Attachments/admin_edit.ctp:32
+msgid "File URL"
+msgstr "URL berkas"
+
+#: FileManager/View/Attachments/admin_edit.ctp:37
+msgid "Mime Type"
+msgstr "Tipe Mime"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:28
+#: Nodes/View/Elements/search.ctp:7
+#: Nodes/View/Elements/search2.ctp:8
+#: Nodes/View/Elements/admin/nodes_search.ctp:22
+msgid "Search"
+msgstr "Pencarian"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:29
+#: Nodes/View/Elements/admin/nodes_search.ctp:23
+msgid "Search..."
+msgstr "Pencarian..."
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:45
+#: Nodes/View/Elements/admin/nodes_search.ctp:44
+msgid "Yes"
+msgstr "Ya"
+
+#: FileManager/View/Elements/admin/attachments_search.ctp:46
+#: Nodes/View/Elements/admin/nodes_search.ctp:45
+msgid "No"
+msgstr "Tidak"
+
+#: FileManager/View/FileManager/admin_browse.ctp:14
+msgid "Upload here"
+msgstr "Unggah disini"
+
+#: FileManager/View/FileManager/admin_browse.ctp:18
+msgid "Create directory"
+msgstr "Buat direktori"
+
+#: FileManager/View/FileManager/admin_browse.ctp:22
+msgid "Create file"
+msgstr "Buat Berkas"
+
+#: FileManager/View/FileManager/admin_browse.ctp:31
+#: FileManager/View/FileManager/admin_create_directory.ctp:21
+#: FileManager/View/FileManager/admin_create_file.ctp:13
+#: FileManager/View/FileManager/admin_editfile.ctp:13
+#: FileManager/View/FileManager/admin_rename.ctp:13
+#: FileManager/View/FileManager/admin_upload.ctp:13
+msgid "You are here"
+msgstr "Anda berada disini"
+
+#: FileManager/View/FileManager/admin_browse.ctp:46
+msgid "Directory content"
+msgstr "Konten Direktori"
+
+#: FileManager/View/FileManager/admin_browse.ctp:59
+msgid "Open"
+msgstr "Buka"
+
+#: FileManager/View/FileManager/admin_browse.ctp:66;111
+#: FileManager/View/FileManager/admin_rename.ctp:8
+msgid "Rename"
+msgstr "Rubah nama"
+
+#: FileManager/View/FileManager/admin_browse.ctp:91
+msgid "View"
+msgstr "Tinjau"
+
+#: FileManager/View/FileManager/admin_create_directory.ctp:34
+msgid "Directory"
+msgstr "Direktori"
+
+#: FileManager/View/FileManager/admin_create_directory.ctp:42
+msgid "Directory name"
+msgstr "Nama direktori"
+
+#: FileManager/View/FileManager/admin_create_directory.ctp:51
+#: Nodes/Config/admin_menu.php:25
+#: Nodes/View/Nodes/admin_create.ctp:6
+#: Nodes/View/Nodes/admin_form.ctp:14
+msgid "Create"
+msgstr "Buat"
+
+#: FileManager/View/FileManager/admin_create_file.ctp:33
+#: FileManager/View/FileManager/admin_rename.ctp:33
+msgid "File"
+msgstr "Berkas"
+
+#: FileManager/View/FileManager/admin_create_file.ctp:41
+msgid "Filename"
+msgstr "Nama berkas"
+
+#: FileManager/View/FileManager/admin_rename.ctp:41
+msgid "New name"
+msgstr "Buat Nama Baru"
+
+#: Install/Console/Command/InstallShell.php:27
+msgid "Install Utilities"
+msgstr "Pasang Kegunaan"
+
+#: Install/Console/Command/InstallShell.php:108
+msgid "DataSource"
+msgstr "Sumber Data"
+
+#: Install/Console/Command/InstallShell.php:115
+#: Install/View/Install/database.ctp:58
+msgid "Host"
+msgstr "Host"
+
+#: Install/Console/Command/InstallShell.php:116
+#: Install/View/Install/database.ctp:66
+#: Users/View/Users/login.ctp:2
+msgid "Login"
+msgstr "Masuk"
+
+#: Install/Console/Command/InstallShell.php:117;153
+#: Install/View/Install/database.ctp:74
+#: Users/View/Users/admin_form.ctp:92
+#: Users/View/Users/admin_login.ctp:15
+msgid "Password"
+msgstr "Kata Sandi"
+
+#: Install/Console/Command/InstallShell.php:118
+#: Install/View/Install/database.ctp:47
+msgid "Database"
+msgstr "Database"
+
+#: Install/Console/Command/InstallShell.php:119
+#: Install/View/Install/database.ctp:89
+msgid "Prefix"
+msgstr "Prefix"
+
+#: Install/Console/Command/InstallShell.php:120
+#: Install/View/Install/database.ctp:96
+msgid "Port"
+msgstr "Port"
+
+#: Install/Console/Command/InstallShell.php:146
+#: Install/View/Install/adminuser.ctp:13
+#: Users/View/Users/admin_form.ctp:47
+#: Users/View/Users/admin_login.ctp:9
+#: Users/View/Users/forgot.ctp:6
+msgid "Username"
+msgstr "Nama Pengguna"
+
+#: Install/Console/Command/InstallShell.php:155
+#: Install/View/Install/adminuser.ctp:26
+#: Users/View/Users/admin_form.ctp:96
+#: Users/View/Users/admin_reset_password.ctp:35
+#: Users/View/Users/reset.ctp:7
+msgid "Verify Password"
+msgstr "Verifikasi kata sandi"
+
+#: Install/Console/Command/InstallShell.php:217
+msgid "Permission %s granted to %s"
+msgstr "Izin %s diberikan kepada %s"
+
+#: Install/Controller/InstallController.php:101
+msgid "Installation: Welcome"
+msgstr "Pemasangan: Selamat Datang"
+
+#: Install/Controller/InstallController.php:116
+msgid "Step 1: Database"
+msgstr "Tahap 1: Database"
+
+#: Install/Controller/InstallController.php:162
+msgid "Step 2: Build database"
+msgstr "Tahap 2: Bangun Database"
+
+#: Install/Controller/InstallController.php:170
+msgid "Warning: Database \"%s\" is not empty."
+msgstr "Peringatan: Database \"%s\" tidak dalam keadaan kosong."
+
+#: Install/Controller/InstallController.php:222
+msgid "Installation successful"
+msgstr "Pemasangan Berhasil"
+
+#: Install/Controller/InstallController.php:230
+msgid "Installation failed"
+msgstr "Pemasangan Gagal"
+
+#: Install/Controller/InstallController.php:231
+msgid "Installation failed: Unable to create settings file"
+msgstr "Pemasangan gagal: Tidak dapat membuat berkas 'settings'"
+
+#: Install/Lib/AssetGenerator.php:100
+msgid "CSS : %s created"
+msgstr "CSS: %s telah dibuat"
+
+#: Install/Lib/AssetGenerator.php:103
+msgid "CSS : %s failed"
+msgstr "CSS : %s telah gagal"
+
+#: Install/Lib/AssetGenerator.php:120
+msgid "JS  : %s created"
+msgstr "JS : %s telah dibuat"
+
+#: Install/Lib/AssetGenerator.php:123
+msgid "JS  : %s failed"
+msgstr "JS : %s telah gagal"
+
+#: Install/Lib/AssetGenerator.php:165
+msgid "Font: %s copied"
+msgstr "Font: %s telah disalin"
+
+#: Install/Lib/AssetGenerator.php:168
+msgid "File: %s not copied"
+msgstr "Berkas: %s tidak tersalin"
+
+#: Install/Lib/InstallManager.php:38
+msgid "Could not copy database.php file."
+msgstr "Tidak dapat menyalin berkas database.php"
+
+#: Install/Lib/InstallManager.php:48
+msgid "Could not write database.php file."
+msgstr "Tidak dapat menulis pada berkas database.php"
+
+#: Install/Lib/InstallManager.php:56
+msgid "Could not connect to database: "
+msgstr "Tidak dapat tersambung ke database: "
+
+#: Install/Lib/InstallManager.php:59
+msgid "Could not connect to database."
+msgstr "Tidak dapat tersambung ke database."
+
+#: Install/View/Install/adminuser.ctp:10
+msgid "Step 3: Create Admin User"
+msgstr "Tahap 3: Buat Pengguna Admin"
+
+#: Install/View/Install/adminuser.ctp:19
+#: Users/View/Users/admin_reset_password.ctp:31
+msgid "New Password"
+msgstr "Kata Sandi Baru"
+
+#: Install/View/Install/data.ctp:6
+msgid "Create tables and load initial data"
+msgstr "Buat tabel dan muat data inisial"
+
+#: Install/View/Install/data.ctp:12
+msgid "Build database"
+msgstr "Bangun database"
+
+#: Install/View/Install/data.ctp:19
+msgid "Click here to build your database"
+msgstr "Klik disini untuk membangun database"
+
+#: Install/View/Install/database.ctp:20
+msgid "Warning"
+msgstr "Peringatan"
+
+#: Install/View/Install/database.ctp:21
+msgid "A `database.php` file already exists."
+msgstr "Berkas 'database.php' sudah ada."
+
+#: Install/View/Install/database.ctp:24
+msgid "Valid"
+msgstr "Sah"
+
+#: Install/View/Install/database.ctp:27
+msgid "Invalid"
+msgstr "Tidak Sah"
+
+#: Install/View/Install/database.ctp:30
+msgid "This file is %s."
+msgstr "Berkas ini %s"
+
+#: Install/View/Install/database.ctp:35
+msgid "Reuse this file and proceed."
+msgstr "Gunakan kembali berkas ini dan lanjutkan proses."
+
+#: Install/View/Install/database.ctp:40
+msgid "This file will be replaced."
+msgstr "Berkas ini akan digantikan."
+
+#: Install/View/Install/database.ctp:60
+msgid "Database hostname or IP Address"
+msgstr "Nama host dari database atau alamat IP"
+
+#: Install/View/Install/database.ctp:68
+msgid "Database login/username"
+msgstr "Masuk/Nama Pengguna atas Database"
+
+#: Install/View/Install/database.ctp:75
+msgid "Database password"
+msgstr "Kata Sandi Database"
+
+#: Install/View/Install/database.ctp:83
+msgid "Database name"
+msgstr "Nama Database"
+
+#: Install/View/Install/database.ctp:90
+msgid "Table prefix (leave blank if unknown)"
+msgstr "Tabel prefix (Biarkan kosong bila tidak diketahui)"
+
+#: Install/View/Install/database.ctp:97
+msgid "Database port (leave blank if unknown)"
+msgstr "Port Database (Biarkan kosong bila tidak diketahui)"
+
+#: Install/View/Install/finish.ctp:6
+msgid "\n\t\tThe user %s has been created with administrative rights."
+msgstr "\n\t\tPengguna %s telah dibuat dengan hak administrator"
+
+#: Install/View/Install/finish.ctp:13
+msgid "Admin panel: %s"
+msgstr "Panel Admin: %s"
+
+#: Install/View/Install/finish.ctp:18
+msgid "You can start with %s or jump in and %s."
+msgstr "Anda dapat memulai dengan %s atau langsung ke %s"
+
+#: Install/View/Install/finish.ctp:19
+msgid "configuring your site"
+msgstr "Melakukan konfigurasi pada site Anda"
+
+#: Install/View/Install/finish.ctp:20
+msgid "create a blog post"
+msgstr "Buat sebuah posting blog"
+
+#: Install/View/Install/finish.ctp:27
+msgid "Resources"
+msgstr "Sumber"
+
+#: Install/View/Install/index.ctp:8
+msgid "Your tmp directory is writable."
+msgstr "Direktori tmp dapat ditulisi"
+
+#: Install/View/Install/index.ctp:11
+msgid "Your tmp directory is NOT writable."
+msgstr "Direktori tmp tidak dapat ditulisi"
+
+#: Install/View/Install/index.ctp:16
+msgid "Your config directory is writable."
+msgstr "Direktori config dapat ditulisi"
+
+#: Install/View/Install/index.ctp:19
+msgid "Your config directory is NOT writable."
+msgstr "Direktori config tidak dapat ditulisi."
+
+#: Install/View/Install/index.ctp:26
+msgid "PHP version %s %s %s"
+msgstr "Versi PHP %s %s %s"
+
+#: Install/View/Install/index.ctp:29
+msgid "PHP version %s < %s"
+msgstr "Versi PHP %s < %s"
+
+#: Install/View/Install/index.ctp:37
+msgid "CakePhp version %s %s %s"
+msgstr "Versi CakePhp %s %s %s"
+
+#: Install/View/Install/index.ctp:40
+msgid "CakePHP version %s < %s"
+msgstr "Versi CakePHP %s < %s"
+
+#: Install/View/Install/index.ctp:47
+msgid "Install"
+msgstr "Pasang"
+
+#: Install/View/Install/index.ctp:52
+msgid "Click here to begin installation"
+msgstr "Klik disini untuk memulan pemasangan"
+
+#: Install/View/Install/index.ctp:57
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr "Pemasangan tidak dapat dilanjutkan dikarenakan syarat minimum tidak terpenuhi."
+
+#: Install/View/Layouts/install.ctp:27
+msgid "Install Croogo"
+msgstr "Pasang Croogo"
+
+#: Menus/Config/admin_menu.php:5;15
+#: Menus/Controller/MenusController.php:68
+#: Menus/View/Links/admin_form.ctp:9
+#: Menus/View/Links/admin_index.ctp:9
+#: Menus/View/Menus/admin_form.ctp:7
+#: Menus/View/Menus/admin_index.ctp:7
+msgid "Menus"
+msgstr "Menu"
+
+#: Menus/Controller/LinksController.php:108
+msgid "Links: %s"
+msgstr "Tautan: %s"
+
+#: Menus/Controller/LinksController.php:137
+msgid "Add Link"
+msgstr "Tambah Tautan"
+
+#: Menus/Controller/LinksController.php:144;188
+msgid "The Link has been saved"
+msgstr "Tautan telah disimpan"
+
+#: Menus/Controller/LinksController.php:156;200
+msgid "The Link could not be saved. Please, try again."
+msgstr "Tautan tidak dapat disimpan. Silahkan coba kembali."
+
+#: Menus/Controller/LinksController.php:175
+msgid "Edit Link"
+msgstr "Ubah tautan"
+
+#: Menus/Controller/LinksController.php:178
+msgid "Invalid Link"
+msgstr "Tautan tidak sah"
+
+#: Menus/Controller/LinksController.php:227;235;264;296
+msgid "Invalid id for Link"
+msgstr "Id tautan tidak sah"
+
+#: Menus/Controller/LinksController.php:243
+msgid "Link deleted"
+msgstr "Tautan telah dihapus"
+
+#: Menus/Controller/LinksController.php:338
+msgid "Links deleted"
+msgstr "Tautan telah dihapus"
+
+#: Menus/Controller/LinksController.php:339
+msgid "Links published"
+msgstr "Publikasikan Tautan"
+
+#: Menus/Controller/LinksController.php:340
+msgid "Links unpublished"
+msgstr "Tautan tidak dipublikasikan"
+
+#: Menus/Controller/MenusController.php:82
+msgid "Add Menu"
+msgstr "Tambah Menu"
+
+#: Menus/Controller/MenusController.php:87;111
+msgid "The Menu has been saved"
+msgstr "Menu telah disimpan"
+
+#: Menus/Controller/MenusController.php:90;114
+msgid "The Menu could not be saved. Please, try again."
+msgstr "Menu tidak dapat disimpan. Silahkan coba kembali."
+
+#: Menus/Controller/MenusController.php:103
+msgid "Edit Menu"
+msgstr "Ubah Menu"
+
+#: Menus/Controller/MenusController.php:106
+msgid "Invalid Menu"
+msgstr "Menu Tidak Sah"
+
+#: Menus/Controller/MenusController.php:131
+msgid "Invalid id for Menu"
+msgstr "Id menu tidak sah"
+
+#: Menus/Controller/MenusController.php:135
+msgid "Menu deleted"
+msgstr "Menu telah dihapus"
+
+#: Menus/View/Links/admin_form.ctp:51;74
+msgid "Link"
+msgstr "Tautan"
+
+#: Menus/View/Links/admin_form.ctp:53
+#: Menus/View/Menus/admin_form.ctp:21
+msgid "Misc."
+msgstr "Lain-lain"
+
+#: Menus/View/Links/admin_form.ctp:62
+#: Menus/View/Menus/admin_form.ctp:20
+msgid "Menu"
+msgstr "Menu"
+
+#: Menus/View/Links/admin_form.ctp:80
+msgid "Link Chooser"
+msgstr "Pemilih Tautan"
+
+#: Menus/View/Links/admin_form.ctp:102
+msgid "Rel"
+msgstr "Rel"
+
+#: Menus/View/Links/admin_form.ctp:105
+msgid "Target"
+msgstr "Target"
+
+#: Menus/View/Links/admin_form.ctp:148
+msgid "Choose Link"
+msgstr "Pilih Tautan"
+
+#: Menus/View/Links/admin_index.ctp:78
+msgid "Create a copy of this Link?"
+msgstr "Buat salinan dari tautan ini?"
+
+#: Menus/View/Links/admin_index.ctp:85
+msgid "Delete this item"
+msgstr "Hapus item ini"
+
+#: Menus/View/Links/admin_link_chooser.ctp:12
+msgid "Link to %s"
+msgstr "Tautkan ke %s"
+
+#: Menus/View/Menus/admin_index.ctp:15
+msgid "Link Count"
+msgstr "Link tersedia"
+
+#: Menus/View/Menus/admin_index.ctp:29
+msgid "View links"
+msgstr "Tinjau tautan"
+
+#: Meta/Controller/Component/MetaComponent.php:47
+msgid "Custom Fields"
+msgstr "Bidang kastom"
+
+#: Meta/View/Elements/admin/meta_tab.ctp:19
+msgid "Add another field"
+msgstr "Tambahkan bidang lain"
+
+#: Meta/View/Helper/MetaHelper.php:97
+#: Settings/View/Settings/admin_form.ctp:35
+#: Settings/View/Settings/admin_index.ctp:19
+#: Settings/View/Settings/admin_view.ctp:9
+msgid "Key"
+msgstr "Kunci"
+
+#: Meta/View/Helper/MetaHelper.php:101
+#: Settings/View/Settings/admin_form.ctp:38
+#: Settings/View/Settings/admin_index.ctp:20
+#: Settings/View/Settings/admin_view.ctp:14
+msgid "Value"
+msgstr "Nilai"
+
+#: Meta/View/Helper/MetaHelper.php:128
+msgid "Remove"
+msgstr "Hapus"
+
+#: Nodes/Config/admin_menu.php:15
+#: Taxonomy/Config/admin_menu.php:25
+msgid "List"
+msgstr "Daftar"
+
+#: Nodes/Controller/NodesController.php:145
+msgid "Type must be specified"
+msgstr "Tipe harus spesifik"
+
+#: Nodes/Controller/NodesController.php:226
+#: Nodes/View/Nodes/admin_index.ctp:12
+msgid "Create content"
+msgstr "Buat Konten"
+
+#: Nodes/Controller/NodesController.php:247
+msgid "Content type does not exist."
+msgstr "Tipe konten tidak tersedia"
+
+#: Nodes/Controller/NodesController.php:258;299
+msgid "%s has been saved"
+msgstr "%s telah disimpan"
+
+#: Nodes/Controller/NodesController.php:261;302
+msgid "%s could not be saved. Please, try again."
+msgstr "%s tidak dapat disimpan. Silahkan coba kembali."
+
+#: Nodes/Controller/NodesController.php:268
+msgid "Create content: %s"
+msgstr "Buat konten: %s"
+
+#: Nodes/Controller/NodesController.php:315
+msgid "Edit %s: %s"
+msgstr "Ubah %s: %s"
+
+#: Nodes/Controller/NodesController.php:328
+msgid "Paths updated."
+msgstr "Jalur telah diperbarui"
+
+#: Nodes/Controller/NodesController.php:331
+msgid "Something went wrong while updating paths.\nPlease try again"
+msgstr "Sesuatu terjadi saat pembaruan jalur. \nSilahkan coba kembali"
+
+#: Nodes/Controller/NodesController.php:348
+msgid "Invalid id for Node"
+msgstr "Id node tidak sah"
+
+#: Nodes/Controller/NodesController.php:354
+msgid "Node deleted"
+msgstr "Node telah dihapus"
+
+#: Nodes/Controller/NodesController.php:409
+msgid "%s deleted"
+msgstr "%s telah dihapus"
+
+#: Nodes/Controller/NodesController.php:410
+msgid "%s published"
+msgstr "%s telah dipublikasikan"
+
+#: Nodes/Controller/NodesController.php:411
+msgid "%s unpublished"
+msgstr "%s tidak dipublikasikan"
+
+#: Nodes/Controller/NodesController.php:412
+msgid "%s promoted"
+msgstr "%s telah dipromosikan"
+
+#: Nodes/Controller/NodesController.php:413
+msgid "%s unpromoted"
+msgstr "%s tidak dipromosikan"
+
+#: Nodes/Controller/NodesController.php:414
+msgid "%s copied"
+msgstr "%s tersalin"
+
+#: Nodes/Controller/NodesController.php:467;568;640;703
+msgid "Invalid content type."
+msgstr "Tipe konten tidak sah"
+
+#: Nodes/Controller/NodesController.php:525
+msgid "Invalid Term."
+msgstr "Term tidak sah."
+
+#: Nodes/Controller/NodesController.php:619
+msgid "Home"
+msgstr "Beranda"
+
+#: Nodes/View/Elements/node_info.ctp:6
+msgid "Posted"
+msgstr "Telah diposting"
+
+#: Nodes/View/Elements/node_info.ctp:20
+msgid "on"
+msgstr "pada"
+
+#: Nodes/View/Elements/node_more_info.ctp:18
+msgid "Posted in"
+msgstr "Diposting di"
+
+#: Nodes/View/Elements/node_more_info.ctp:29
+msgid "Leave a comment"
+msgstr "Tinggalkan komentar"
+
+#: Nodes/View/Elements/admin/nodes_search.ctp:31
+#: Nodes/View/Nodes/admin_hierarchy.ctp:38
+#: Nodes/View/Nodes/admin_index.ctp:33
+#: Taxonomy/Controller/TypesController.php:53
+#: Taxonomy/View/Types/admin_form.ctp:20
+#: Taxonomy/View/Vocabularies/admin_form.ctp:46
+msgid "Type"
+msgstr "Tipe"
+
+#: Nodes/View/Nodes/admin_form.ctp:80
+#: Taxonomy/View/Terms/admin_chooser.ctp:7
+#: Taxonomy/View/Terms/admin_form.ctp:47
+#: Taxonomy/View/Terms/admin_index.ctp:28
+msgid "Slug"
+msgstr "Slug"
+
+#: Nodes/View/Nodes/admin_form.ctp:83
+msgid "Excerpt"
+msgstr "Petikan"
+
+#: Nodes/View/Nodes/admin_form.ctp:117
+msgid "Promoted to front page"
+msgstr "Promosikan ke halaman depan"
+
+#: Nodes/View/Nodes/admin_form.ctp:121
+msgid "Publish as "
+msgstr "Publikasikan sebagai"
+
+#: Nodes/View/Nodes/admin_hierarchy.ctp:39
+#: Nodes/View/Nodes/admin_index.ctp:34
+#: Users/View/Users/admin_form.ctp:37
+msgid "User"
+msgstr "User"
+
+#: Nodes/View/Nodes/admin_hierarchy.ctp:67
+#: Nodes/View/Nodes/admin_index.ctp:62
+msgid "promoted"
+msgstr "promosi"
+
+#: Nodes/View/Nodes/admin_hierarchy.ctp:126
+#: Nodes/View/Nodes/admin_index.ctp:127
+msgid "Applying to selected"
+msgstr "Terapkan pada yang dipilih"
+
+#: Nodes/View/Nodes/admin_hierarchy.ctp:131
+#: Nodes/View/Nodes/admin_index.ctp:132
+msgid "Promote"
+msgstr "Promosi"
+
+#: Nodes/View/Nodes/admin_hierarchy.ctp:132
+#: Nodes/View/Nodes/admin_index.ctp:133
+msgid "Unpromote"
+msgstr "Tidak dipromosikan"
+
+#: Nodes/View/Nodes/admin_hierarchy.ctp:151
+#: Nodes/View/Nodes/admin_index.ctp:152
+msgid "%s selected items?"
+msgstr "%s item yang dipilih?"
+
+#: Nodes/View/Nodes/admin_translations.ctp:8
+#: Translate/View/Translate/admin_index.ctp:37
+msgid "Translate in a new language"
+msgstr "Terjemahkan ke bahasa baru"
+
+#: Nodes/View/Nodes/admin_translations.ctp:49
+#: Translate/View/Translate/admin_index.ctp:101
+msgid "No translations available."
+msgstr "Alih bahasa tidak tersedia"
+
+#: Nodes/View/Nodes/index.ctp:4
+#: Nodes/View/Nodes/promoted.ctp:4
+#: Nodes/View/Nodes/search.ctp:11
+#: Nodes/View/Nodes/term.ctp:6
+msgid "No items found."
+msgstr "Tidak ada item yang ditemukan"
+
+#: Nodes/View/Nodes/search.ctp:3
+msgid "Search Results: %s"
+msgstr "Hasil pencarian: %s"
+
+#: Settings/Config/admin_menu.php:5
+#: Settings/Controller/SettingsController.php:68
+#: Settings/View/Languages/admin_form.ctp:7
+#: Settings/View/Languages/admin_index.ctp:6
+#: Settings/View/Languages/admin_select.ctp:5
+#: Settings/View/Settings/admin_form.ctp:6;26
+#: Settings/View/Settings/admin_index.ctp:7
+#: Settings/View/Settings/admin_prefix.ctp:6
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: Settings/Config/admin_menu.php:16
+msgid "Site"
+msgstr "Site"
+
+#: Settings/Config/admin_menu.php:28
+msgid "Meta"
+msgstr "Meta"
+
+#: Settings/Config/admin_menu.php:40
+msgid "Reading"
+msgstr "Bacaan"
+
+#: Settings/Config/admin_menu.php:52
+msgid "Writing"
+msgstr "Menulis"
+
+#: Settings/Config/admin_menu.php:76
+msgid "Service"
+msgstr "Servis"
+
+#: Settings/Config/admin_menu.php:88
+#: Settings/Controller/LanguagesController.php:40
+#: Settings/View/Languages/admin_index.ctp:7
+#: Settings/View/Languages/admin_select.ctp:6
+msgid "Languages"
+msgstr "Bahasa-bahasa"
+
+#: Settings/Console/Command/SettingsShell.php:33
+msgid "Displays setting values"
+msgstr "Tampilkan nilai pengaturan"
+
+#: Settings/Console/Command/SettingsShell.php:37;55;93
+msgid "Setting key"
+msgstr "Kunci Pengaturan"
+
+#: Settings/Console/Command/SettingsShell.php:43
+msgid "List all settings"
+msgstr "Daftar semua pengaturan"
+
+#: Settings/Console/Command/SettingsShell.php:51
+msgid "Write setting value for a given key"
+msgstr "Tulis nilai pengaturan untuk kunci yang diberikan"
+
+#: Settings/Console/Command/SettingsShell.php:59
+msgid "Setting value"
+msgstr "Nilai Pengaturan"
+
+#: Settings/Console/Command/SettingsShell.php:89
+msgid "Delete setting based on key"
+msgstr "Hapus pengaturan berdasarkan kunci"
+
+#: Settings/Console/Command/SettingsShell.php:100
+msgid "Update version string from git tag information"
+msgstr "Perbarui versi string dari informasi git tag"
+
+#: Settings/Console/Command/SettingsShell.php:129
+msgid "    %-30s: %s"
+msgstr ""
+
+#: Settings/Console/Command/SettingsShell.php:150
+msgid "Updating %s"
+msgstr "Memperbarui %s"
+
+#: Settings/Console/Command/SettingsShell.php:151
+msgid "Confirm update"
+msgstr "Konfirmasi Pembaruan"
+
+#: Settings/Console/Command/SettingsShell.php:166
+msgid "Setting updated"
+msgstr "Pengaturan telah diperbarui"
+
+#: Settings/Console/Command/SettingsShell.php:168;196
+msgid "Cancelled"
+msgstr "Telah dibatalkan"
+
+#: Settings/Console/Command/SettingsShell.php:171;199
+msgid "Key: %s not found"
+msgstr "Kunci: %s tidak ditemukan"
+
+#: Settings/Console/Command/SettingsShell.php:189
+msgid "Deleting %s"
+msgstr "Menghapus %s"
+
+#: Settings/Console/Command/SettingsShell.php:190
+msgid "Delete?"
+msgstr "Hapus?"
+
+#: Settings/Console/Command/SettingsShell.php:194
+#: Settings/Controller/SettingsController.php:152
+msgid "Setting deleted"
+msgstr "Pengaturan telah dihapus"
+
+#: Settings/Controller/LanguagesController.php:54
+msgid "Add Language"
+msgstr "Tambah Bahasa"
+
+#: Settings/Controller/LanguagesController.php:59;83
+msgid "The Language has been saved"
+msgstr "Bahasa telah berhasil disimpan"
+
+#: Settings/Controller/LanguagesController.php:62;86
+msgid "The Language could not be saved. Please, try again."
+msgstr "Bahasa tidak dapat disimpan. Silahkan coba kembali."
+
+#: Settings/Controller/LanguagesController.php:75
+msgid "Edit Language"
+msgstr "Ubah Bahasa"
+
+#: Settings/Controller/LanguagesController.php:78
+#: Translate/Controller/TranslateController.php:127
+msgid "Invalid Language"
+msgstr "Bahasa tidak sah"
+
+#: Settings/Controller/LanguagesController.php:103
+msgid "Invalid id for Language"
+msgstr "Id untuk bahasa tidak sah"
+
+#: Settings/Controller/LanguagesController.php:107
+msgid "Language deleted"
+msgstr "Bahasa telah dihapus"
+
+#: Settings/Controller/LanguagesController.php:162
+msgid "Select a language"
+msgstr "Pilih bahasa"
+
+#: Settings/Controller/SettingsController.php:86
+msgid "Invalid Setting."
+msgstr "Pengaturan tidak sah."
+
+#: Settings/Controller/SettingsController.php:99
+msgid "Add Setting"
+msgstr "Tambah Pengaturan"
+
+#: Settings/Controller/SettingsController.php:104;128
+msgid "The Setting has been saved"
+msgstr "Pengaturan telah disimpan"
+
+#: Settings/Controller/SettingsController.php:107;131
+msgid "The Setting could not be saved. Please, try again."
+msgstr "Pengaturan tidak dapat disimpan. Silahkan coba kembali."
+
+#: Settings/Controller/SettingsController.php:120
+#: Settings/View/Settings/admin_view.ctp:43
+msgid "Edit Setting"
+msgstr "Ubah Pengaturan"
+
+#: Settings/Controller/SettingsController.php:123
+msgid "Invalid Setting"
+msgstr "Pengaturan tidak sah"
+
+#: Settings/Controller/SettingsController.php:148
+msgid "Invalid id for Setting"
+msgstr "Id Pengaturan tidak sah"
+
+#: Settings/Controller/SettingsController.php:165
+msgid "Settings: %s"
+msgstr "Pengaturan: %s"
+
+#: Settings/Controller/SettingsController.php:169
+msgid "Settings updated successfully"
+msgstr "Pengaturan telah berhasil diudpate"
+
+#: Settings/Controller/SettingsController.php:183
+msgid "Invalid Setting key"
+msgstr "Kunci Pengaturan Tidak Sah"
+
+#: Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
+msgid "Could not add a new language."
+msgstr "Tidak dapat menambahkan bahasa baru."
+
+#: Settings/View/Languages/admin_form.ctp:8;25
+msgid "Language"
+msgstr "Bahasa"
+
+#: Settings/View/Languages/admin_form.ctp:38
+#: Settings/View/Languages/admin_index.ctp:17
+msgid "Native"
+msgstr "Native"
+
+#: Settings/View/Languages/admin_select.ctp:16
+msgid "New Language"
+msgstr "Bahasa Baru"
+
+#: Settings/View/Settings/admin_form.ctp:27
+msgid "Misc"
+msgstr "Lain-lain"
+
+#: Settings/View/Settings/admin_form.ctp:34
+msgid "e.g., 'Site.title'"
+msgstr "Contoh., 'Site.judul'"
+
+#: Settings/View/Settings/admin_form.ctp:50
+#: Settings/View/Settings/admin_view.ctp:24
+msgid "Input Type"
+msgstr "Tipe Masukan"
+
+#: Settings/View/Settings/admin_form.ctp:51
+msgid "e.g., 'text' or 'textarea'"
+msgstr "Contoh., 'text' atau 'textarea'"
+
+#: Settings/View/Settings/admin_form.ctp:54
+#: Settings/View/Settings/admin_index.ctp:21
+msgid "Editable"
+msgstr "Dapat diubah"
+
+#: Settings/View/Settings/admin_prefix.ctp:53
+msgid "Saving"
+msgstr "Menyimpan"
+
+#: Settings/View/Settings/admin_view.ctp:2
+msgid "Setting"
+msgstr "Pengaturan"
+
+#: Settings/View/Settings/admin_view.ctp:29
+msgid "Weight"
+msgstr "Urutan"
+
+#: Settings/View/Settings/admin_view.ctp:44
+msgid "Delete Setting"
+msgstr "Hapus Pengaturan"
+
+#: Settings/View/Settings/admin_view.ctp:45
+msgid "List Settings"
+msgstr "Daftar Pengaturan"
+
+#: Settings/View/Settings/admin_view.ctp:46
+msgid "New Setting"
+msgstr "Pengaturan Baru"
+
+#: Taxonomy/Config/admin_menu.php:4
+msgid "Content Types"
+msgstr "Tipe Konten"
+
+#: Taxonomy/Config/admin_menu.php:15
+#: Taxonomy/View/Types/admin_form.ctp:21
+msgid "Taxonomy"
+msgstr "Taksonomi"
+
+#: Taxonomy/Config/admin_menu.php:35
+msgid "Add new"
+msgstr "Buat Baru"
+
+#: Taxonomy/Controller/TermsController.php:67
+msgid "Vocabulary: %s"
+msgstr "Kosa kata: %s"
+
+#: Taxonomy/Controller/TermsController.php:89
+msgid "%s: Add Term"
+msgstr "%s: Tambah Istilah"
+
+#: Taxonomy/Controller/TermsController.php:93;136
+msgid "Term saved successfuly."
+msgstr "Istilah berhasil disimpan."
+
+#: Taxonomy/Controller/TermsController.php:99;146
+msgid "Term could not be added to the vocabulary. Please try again."
+msgstr "Istilah tidak dapat ditambahkan kepada kosakata. Silahkan coba kembali."
+
+#: Taxonomy/Controller/TermsController.php:132
+msgid "%s: Edit Term"
+msgstr "%s: Ubah Istilah"
+
+#: Taxonomy/Controller/TermsController.php:172
+msgid "Term deleted"
+msgstr "Istilah telah dihapus"
+
+#: Taxonomy/Controller/TermsController.php:175
+msgid "Term could not be deleted. Please, try again."
+msgstr "Istildah tidak dapat dihapus. Silahkan coba kembali."
+
+#: Taxonomy/Controller/TermsController.php:229
+msgid "Moved %s successfully"
+msgstr "%s berhasil dipindahkan"
+
+#: Taxonomy/Controller/TermsController.php:232
+msgid "Could not move %s"
+msgstr "%s tidak dapat dipindahkan"
+
+#: Taxonomy/Controller/TermsController.php:265
+msgid "Invalid Term ID."
+msgstr "ID Istilah tidak sah."
+
+#: Taxonomy/Controller/TermsController.php:281
+msgid "Invalid Taxonomy."
+msgstr "Taksonomi tidak sah."
+
+#: Taxonomy/Controller/TermsController.php:300
+msgid "Invalid Vocabulary ID."
+msgstr "ID Kosakata tidak sah."
+
+#: Taxonomy/Controller/TypesController.php:68
+msgid "Add Type"
+msgstr "Tambah Tipe"
+
+#: Taxonomy/Controller/TypesController.php:73;100
+msgid "The Type has been saved"
+msgstr "Tipe telah disimpan"
+
+#: Taxonomy/Controller/TypesController.php:76;103
+msgid "The Type could not be saved. Please, try again."
+msgstr "Tipe tidak dapat disimpan. Silahkan coba kembali."
+
+#: Taxonomy/Controller/TypesController.php:92
+msgid "Edit Type"
+msgstr "Ubah Tipe"
+
+#: Taxonomy/Controller/TypesController.php:95
+msgid "Invalid Type"
+msgstr "Tipe tidak sah"
+
+#: Taxonomy/Controller/TypesController.php:123
+msgid "Invalid id for Type"
+msgstr "Id tipe tidak sah"
+
+#: Taxonomy/Controller/TypesController.php:127
+msgid "Type deleted"
+msgstr "Tipe telah dihapus"
+
+#: Taxonomy/Controller/VocabulariesController.php:40
+#: Taxonomy/View/Terms/admin_form.ctp:12;19
+#: Taxonomy/View/Terms/admin_index.ctp:8
+#: Taxonomy/View/Vocabularies/admin_form.ctp:11;17
+#: Taxonomy/View/Vocabularies/admin_index.ctp:8
+msgid "Vocabularies"
+msgstr "Kosa Kata"
+
+#: Taxonomy/Controller/VocabulariesController.php:54
+msgid "Add Vocabulary"
+msgstr "Tambah Kosa Kata"
+
+#: Taxonomy/Controller/VocabulariesController.php:59;86
+msgid "The Vocabulary has been saved"
+msgstr "Kota Kata telah disimpan"
+
+#: Taxonomy/Controller/VocabulariesController.php:62;89
+msgid "The Vocabulary could not be saved. Please, try again."
+msgstr "Kosa Kata tidak dapat disimpan. Silahkan coba kembali."
+
+#: Taxonomy/Controller/VocabulariesController.php:78
+msgid "Edit Vocabulary"
+msgstr "Ubah Kosa Kata"
+
+#: Taxonomy/Controller/VocabulariesController.php:81
+msgid "Invalid Vocabulary"
+msgstr "Kosa Kata Tidak Sah"
+
+#: Taxonomy/Controller/VocabulariesController.php:113
+msgid "Invalid id for Vocabulary"
+msgstr "Id Kosakata tidak sah"
+
+#: Taxonomy/Controller/VocabulariesController.php:117
+msgid "Vocabulary deleted"
+msgstr "Kosa Kata telah dihapus"
+
+#: Taxonomy/Model/Term.php:178
+msgid "Invalid Term Id"
+msgstr "Id Istilah tidak sah"
+
+#: Taxonomy/Model/Term.php:235
+msgid "\"vocabulary_id\" key not found"
+msgstr "\"vocabulary_id\" kunci tidak ditemukan"
+
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:137
+msgid "Please select at least 1 value"
+msgstr "Mohon pilih setidaknya 1 nilai"
+
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:138
+msgid "Please select at most 1 value"
+msgstr "Mohon pilih paling banyak 1 nilai"
+
+#: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:177
+msgid "Invalid Content Type"
+msgstr "Tipe konten tidak sah"
+
+#: Taxonomy/View/Helper/TaxonomiesHelper.php:61
+msgid "Terms"
+msgstr "Istilah-istilah"
+
+#: Taxonomy/View/Terms/admin_form.ctp:29
+msgid "Term"
+msgstr "Istilah"
+
+#: Taxonomy/View/Terms/admin_index.ctp:13
+msgid "New Term"
+msgstr "Istilah Baru"
+
+#: Taxonomy/View/Types/admin_form.ctp:7
+#: Taxonomy/View/Types/admin_index.ctp:8
+msgid "Types"
+msgstr "Tipe-tipe"
+
+#: Taxonomy/View/Types/admin_form.ctp:41
+msgid "Enable Wysiwyg Editor"
+msgstr "Aktifkan redaktur Wysiwyg"
+
+#: Taxonomy/View/Types/admin_form.ctp:50
+#: Taxonomy/View/Vocabularies/admin_form.ctp:26
+msgid "Vocabulary"
+msgstr "Kosa Kata"
+
+#: Taxonomy/View/Types/admin_form.ctp:109
+msgid "Show author's name"
+msgstr "Tampilkan nama penulis"
+
+#: Taxonomy/View/Types/admin_form.ctp:112
+msgid "Show date"
+msgstr "Tampilkan tanggal"
+
+#: Taxonomy/View/Vocabularies/admin_form.ctp:27
+msgid "Options"
+msgstr "Opsi-opsi"
+
+#: Taxonomy/View/Vocabularies/admin_form.ctp:52
+msgid "Required"
+msgstr "Diwajibkan"
+
+#: Taxonomy/View/Vocabularies/admin_form.ctp:55
+msgid "Multiple"
+msgstr "Berganda"
+
+#: Taxonomy/View/Vocabularies/admin_form.ctp:58
+msgid "Tags"
+msgstr "Tag"
+
+#: Taxonomy/View/Vocabularies/admin_index.ctp:30
+msgid "View terms"
+msgstr "Tinjau Istilah"
+
+#: Translate/Controller/TranslateController.php:45;100
+msgid "Invalid ID."
+msgstr "ID Tidak Sah"
+
+#: Translate/Controller/TranslateController.php:57;196
+msgid "Invalid model."
+msgstr "Model tidak sah"
+
+#: Translate/Controller/TranslateController.php:69;139;207
+msgid "Invalid record."
+msgstr "Rekord tidak sah"
+
+#: Translate/Controller/TranslateController.php:76
+msgid "Translations: %s"
+msgstr "Alih bahasa: %s"
+
+#: Translate/Controller/TranslateController.php:109
+msgid "Invalid locale"
+msgstr "Lokal tidak sah"
+
+#: Translate/Controller/TranslateController.php:146
+msgid "Translate content: %s (%s)"
+msgstr "Alibahasa konten: %s (%s)"
+
+#: Translate/Controller/TranslateController.php:153
+msgid "Record has been translated"
+msgstr "Rekord telah dialih-bahasakan"
+
+#: Translate/Controller/TranslateController.php:165
+msgid "Record could not be translated. Please, try again."
+msgstr "Rekord tidak dapat dialih-bahasakan. Silahkan coba kembali."
+
+#: Translate/Controller/TranslateController.php:184
+msgid "Invalid Locale or ID"
+msgstr "Lokal atau ID tidak sah"
+
+#: Translate/Controller/TranslateController.php:222
+msgid "Translation for the locale deleted successfully."
+msgstr "Alihbahasa untuk lokal berhasil dihapus."
+
+#: Translate/Controller/TranslateController.php:224
+msgid "Translation for the locale could not be deleted."
+msgstr "Alihbahasa untuk lokal tidak dapat dihapus."
+
+#: Translate/Lib/Translations.php:22;27
+#: Translate/View/Translate/admin_edit.ctp:19;34
+msgid "Translate"
+msgstr "Alihbahasakan"
+
+#: Translate/Model/Behavior/CroogoTranslateBehavior.php:56
+msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+msgstr "Sumber data %s untuk CroogoTranslateBehavior atau model $s tidak tersambung"
+
+#: Translate/View/Translate/admin_edit.ctp:10
+#: Translate/View/Translate/admin_index.ctp:31
+msgid "Translations"
+msgstr "Terjemahan"
+
+#: Users/Config/admin_menu.php:25
+#: Users/Controller/RolesController.php:40
+#: Users/View/Roles/admin_form.ctp:8
+#: Users/View/Roles/admin_index.ctp:7
+msgid "Roles"
+msgstr "Penugasan"
+
+#: Users/Config/bootstrap.php:28
+#: Users/View/Users/admin_form.ctp:25
+msgid "Reset password"
+msgstr "Reset Kata Sandi"
+
+#: Users/Console/Command/UsersShell.php:20
+msgid "Reset user password"
+msgstr "Reset kata sandi Pengguna"
+
+#: Users/Console/Command/UsersShell.php:25
+msgid "Username to reset"
+msgstr "Nama pengguna untuk di reset"
+
+#: Users/Console/Command/UsersShell.php:29
+msgid "New user password"
+msgstr "Kata sandi pengguna yang baru"
+
+#: Users/Console/Command/UsersShell.php:45
+msgid "User '%s' not found"
+msgstr "User '%s' tidak ditemukan"
+
+#: Users/Console/Command/UsersShell.php:50
+msgid "Password for '%s' has been changed"
+msgstr "Kata sandi untuk '%s' telah dirubah"
+
+#: Users/Controller/RolesController.php:55
+msgid "Add Role"
+msgstr "Tambah Penugasan"
+
+#: Users/Controller/RolesController.php:60;84
+msgid "The Role has been saved"
+msgstr "Penugasan telah disimpan"
+
+#: Users/Controller/RolesController.php:63;87
+msgid "The Role could not be saved. Please, try again."
+msgstr "Tugas tidak dapat disimpan. Silahkan coba kembali."
+
+#: Users/Controller/RolesController.php:76
+msgid "Edit Role"
+msgstr "Ubah Penugasan"
+
+#: Users/Controller/RolesController.php:79
+msgid "Invalid Role"
+msgstr "Penugasan tidak sah"
+
+#: Users/Controller/RolesController.php:104
+msgid "Invalid id for Role"
+msgstr "Id penugasan tidak sah"
+
+#: Users/Controller/RolesController.php:108
+msgid "Role deleted"
+msgstr "Penugasan telah dihapus"
+
+#: Users/Controller/UsersController.php:77
+msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
+msgstr "Anda telah mencapai batas masuk maksimum. Silahkan dicoba kembali beberapa menit kemudian."
+
+#: Users/Controller/UsersController.php:146;362
+msgid "[%s] Please activate your account"
+msgstr "[%s] Mohon aktifkan akun Anda"
+
+#: Users/Controller/UsersController.php:171;194
+msgid "The User has been saved"
+msgstr "Pengguna telah disimpan"
+
+#: Users/Controller/UsersController.php:174;197;373
+msgid "The User could not be saved. Please, try again."
+msgstr "Pengguna tidak dapat disimpan. Silahkan coba kembali."
+
+#: Users/Controller/UsersController.php:216
+msgid "Invalid User"
+msgstr "Pengguna tidak sah"
+
+#: Users/Controller/UsersController.php:221
+msgid "Password has been reset."
+msgstr "Kata sandi telah ditetapkan ulang"
+
+#: Users/Controller/UsersController.php:224
+msgid "Password could not be reset. Please, try again."
+msgstr "Kata sandi tidak dapat ditetapkan ulang. Silahkan coba kembali."
+
+#: Users/Controller/UsersController.php:239
+msgid "Invalid id for User"
+msgstr "Id pengguna tidak sah"
+
+#: Users/Controller/UsersController.php:243
+msgid "User deleted"
+msgstr "User telah dihapus"
+
+#: Users/Controller/UsersController.php:246
+msgid "User cannot be deleted"
+msgstr "User tidak dapat dihapus"
+
+#: Users/Controller/UsersController.php:258
+msgid "Admin Login"
+msgstr "Admin Masuk"
+
+#: Users/Controller/UsersController.php:263
+msgid "You are already logged in"
+msgstr "Anda sudah log in"
+
+#: Users/Controller/UsersController.php:276
+msgid "Incorrect username or password"
+msgstr "Nama pengguna atau kata sandi tidak tepat"
+
+#: Users/Controller/UsersController.php:291;557
+msgid "Log out successful."
+msgstr "Keluar berhasil"
+
+#: Users/Controller/UsersController.php:346
+msgid "Register"
+msgstr "Mendaftar"
+
+#: Users/Controller/UsersController.php:369
+msgid "You have successfully registered an account. An email has been sent with further instructions."
+msgstr "Anda telah berhasil mendaftarkan akun. Silahkan mengecek email untuk instruksi lebih lanjut."
+
+#: Users/Controller/UsersController.php:393
+#: Users/View/Users/index.ctp:4
+msgid "You are currently logged in as:"
+msgstr "Anda saat ini sedang login sebagai:"
+
+#: Users/Controller/UsersController.php:424
+msgid "Account activated successfully."
+msgstr "Akun berhasil diaktifkan"
+
+#: Users/Controller/UsersController.php:451
+msgid "Forgot Password"
+msgstr "Lupa Password"
+
+#: Users/Controller/UsersController.php:456
+msgid "Invalid username."
+msgstr "Nama pengguna tidak sah"
+
+#: Users/Controller/UsersController.php:468
+msgid "[%s] Reset Password"
+msgstr "[%s] Tetapkan ulang kata sandi"
+
+#: Users/Controller/UsersController.php:476
+msgid "An email has been sent with instructions for resetting your password."
+msgstr "Sebuah email telah dikirimkan berikut instruksi untuk menetapkan ulang kata sandi Anda."
+
+#: Users/Controller/UsersController.php:479;521
+msgid "An error occurred. Please try again."
+msgstr "Terjadi kesalahan, silahkan coba kembali."
+
+#: Users/Controller/UsersController.php:493
+#: Users/View/Users/admin_reset_password.ctp:11;22
+msgid "Reset Password"
+msgstr "Tetapkan Ulang Kata Sandi"
+
+#: Users/Controller/UsersController.php:518
+msgid "Your password has been reset successfully."
+msgstr "Kata sandi Anda telah berhasil ditetapkan ulang"
+
+#: Users/Controller/UsersController.php:535
+msgid "Log in"
+msgstr "Masuk"
+
+#: Users/Controller/UsersController.php:576
+msgid "Invalid User."
+msgstr "Pengguna tidak sah"
+
+#: Users/Model/User.php:226
+msgid "Passwords do not match. Please, try again."
+msgstr "Kata sandi tidak cocok. Silahkan coba kembali."
+
+#: Users/View/Emails/text/forgot_password.ctp:1
+#: Users/View/Emails/text/register.ctp:1
+msgid "Hello %s"
+msgstr "Hallo %s"
+
+#: Users/View/Emails/text/forgot_password.ctp:10
+msgid "Please visit this link to reset your password: %s"
+msgstr "Silahkan kunjungi tautan berikut untuk menetapkan ulang kata sandi Anda: %s"
+
+#: Users/View/Emails/text/forgot_password.ctp:14
+msgid "If you did not request a password reset, then please ignore this email."
+msgstr "Bila Anda tidak meminta untuk menetapkan ulang kata sandi, mohon abaikan email ini."
+
+#: Users/View/Emails/text/register.ctp:12
+msgid "Please visit this link to activate your account: %s"
+msgstr "Mohon kunjungi tautan ini untuk mengaktifkan akun Anda: %s"
+
+#: Users/View/Users/admin_form.ctp:14
+msgid "Edit user %s"
+msgstr "Ubah pengguna %s"
+
+#: Users/View/Users/admin_form.ctp:16
+msgid "New user"
+msgstr "Pengguna Baru"
+
+#: Users/View/Users/admin_form.ctp:62
+msgid "Timezone"
+msgstr "Zona Waktu"
+
+#: Users/View/Users/admin_form.ctp:80
+msgid "Send Activation Email"
+msgstr "Kirim Email Aktifasi"
+
+#: Users/View/Users/admin_login.ctp:22
+msgid "Remember me?"
+msgstr "Ingat Saya?"
+
+#: Users/View/Users/admin_login.ctp:27
+msgid "Log In"
+msgstr "Masuk"
+
+#: Users/View/Users/admin_login.ctp:28
+msgid "Forgot password?"
+msgstr "Lupa Kata Sandi?"
+
+#: Users/View/Users/admin_reset_password.ctp:13
+msgid "Reset Password: %s"
+msgstr "Tetapkan Ulang Kata Sandi: %s"
+
+#: Users/View/Users/admin_reset_password.ctp:46
+msgid "Reset"
+msgstr "Tetapkan Ulang"
+
+#: Users/View/Users/reset.ctp:6
+msgid "New password"
+msgstr "Kata Sandi Baru"
+
+#: Blocks/Model/Block.php:validation for field title
+#: Blocks/Model/Region.php:validation for field title
+#: Menus/Model/Link.php:validation for field title
+#: Menus/Model/Menu.php:validation for field title
+#: Settings/Model/Language.php:validation for field title
+#: Taxonomy/Model/Type.php:validation for field title
+#: Taxonomy/Model/Vocabulary.php:validation for field title
+msgid "Title cannot be empty."
+msgstr "Judul tidak boleh kosong"
+
+#: Blocks/Model/Block.php:validation for field alias
+#: Blocks/Model/Region.php:validation for field alias
+#: Contacts/Model/Contact.php:validation for field alias
+#: Menus/Model/Menu.php:validation for field alias
+#: Settings/Model/Language.php:validation for field alias
+#: Taxonomy/Model/Type.php:validation for field alias
+#: Taxonomy/Model/Vocabulary.php:validation for field alias
+#: Users/Model/Role.php:validation for field alias
+msgid "This alias has already been taken."
+msgstr "Alias ini sudah digunakan"
+
+#: Blocks/Model/Block.php:validation for field alias
+#: Blocks/Model/Region.php:validation for field alias
+#: Contacts/Model/Contact.php:validation for field alias
+#: Menus/Model/Menu.php:validation for field alias
+#: Settings/Model/Language.php:validation for field alias
+#: Taxonomy/Model/Type.php:validation for field alias
+#: Taxonomy/Model/Vocabulary.php:validation for field alias
+#: Users/Model/Role.php:validation for field title;validation for field alias
+msgid "Alias cannot be empty."
+msgstr "Alias tidak boleh kosong"
+
+#: Comments/Model/Comment.php:validation for field body;validation for field name
+#: Contacts/Model/Contact.php:validation for field title
+#: Contacts/Model/Message.php:validation for field name;validation for field title;validation for field body
+#: FileManager/Model/Attachment.php:validation for field title
+#: Nodes/Model/Node.php:validation for field title
+#: Users/Model/User.php:validation for field username;validation for field name
+msgid "This field cannot be left blank."
+msgstr "Bagian ini tidak boleh kosong."
+
+#: Comments/Model/Comment.php:validation for field email
+msgid "Please enter a valid email address."
+msgstr "Mohon masukkan alamat email yang sah"
+
+#: Contacts/Model/Contact.php:validation for field email
+#: Contacts/Model/Message.php:validation for field email
+#: Users/Model/User.php:validation for field email
+msgid "Please provide a valid email address."
+msgstr "Mohon sediakan alamat email yang sah."
+
+#: FileManager/Model/Attachment.php:validation for field slug
+#: Nodes/Model/Node.php:validation for field slug
+#: Taxonomy/Model/Term.php:validation for field slug
+msgid "This slug has already been taken."
+msgstr "Slug telah digunakan."
+
+#: FileManager/Model/Attachment.php:validation for field slug
+#: Nodes/Model/Node.php:validation for field slug
+#: Taxonomy/Model/Term.php:validation for field slug
+msgid "Slug cannot be empty."
+msgstr "Slug tidak boleh kosong"
+
+#: Menus/Model/Link.php:validation for field link
+msgid "Link cannot be empty."
+msgstr "Tautan tidak boleh kosong"
+
+#: Settings/Model/Setting.php:validation for field key
+msgid "This key has already been taken."
+msgstr "Kunci ini telah digunakan"
+
+#: Settings/Model/Setting.php:validation for field key
+msgid "Key cannot be empty."
+msgstr "Kunci tidak boleh kosong"
+
+#: Users/Model/Role.php:validation for field title;validation for field alias
+#: Users/Model/User.php:validation for field username;validation for field name
+msgid "This field must be alphanumeric"
+msgstr "Bagian ini harus berisikan alphanumeric"
+
+#: Users/Model/User.php:validation for field username
+msgid "The username has already been taken."
+msgstr "Nama pengguna sudah digunakan."
+
+#: Users/Model/User.php:validation for field email
+msgid "Email address already in use."
+msgstr "Alamat email sudah digunakan."
+
+#: Users/Model/User.php:validation for field password
+msgid "Passwords must be at least 6 characters long."
+msgstr "Kata sandi setidaknya harus memiliki panjang 6 karakter."
+
+#: Users/Model/User.php:validation for field website
+msgid "This field must be a valid URL"
+msgstr "Bagian ini harus berisi URL yang sah"
+
