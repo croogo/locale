@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.2.0\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-11-24 04:56+0000\n"
+"PO-Revision-Date: 2015-04-25 09:26+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +73,7 @@ msgstr ""
 #: Blocks/View/Blocks/admin_index.ctp:24
 #: Comments/View/Comments/admin_index.ctp:48
 #: Contacts/View/Messages/admin_index.ctp:65
-#: Croogo/View/Common/admin_index.ctp:60
+#: Croogo/View/Common/admin_index.ctp:62
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:20
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:39
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:21
@@ -88,7 +88,7 @@ msgstr ""
 #: Settings/View/Settings/admin_index.ctp:22
 #: Taxonomy/View/Terms/admin_index.ctp:29
 #: Taxonomy/View/Vocabularies/admin_index.ctp:17
-#: Translate/View/Translate/admin_index.ctp:59
+#: Translate/View/Translate/admin_index.ctp:81
 msgid "Actions"
 msgstr ""
 
@@ -304,6 +304,8 @@ msgstr ""
 #: Contacts/View/Messages/admin_form.ctp:49
 #: Croogo/View/Common/admin_edit.ctp:115
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:36
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:37
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:36
 #: FileManager/View/Attachments/admin_add.ctp:41
 #: FileManager/View/Attachments/admin_edit.ctp:51
 #: FileManager/View/FileManager/admin_create_directory.ctp:50
@@ -312,13 +314,14 @@ msgstr ""
 #: FileManager/View/FileManager/admin_rename.ctp:49
 #: FileManager/View/FileManager/admin_upload.ctp:48
 #: Menus/View/Links/admin_form.ctp:117
+#: Menus/View/Menus/admin_form.ctp:51
 #: Nodes/View/Nodes/admin_form.ctp:106
 #: Settings/View/Languages/admin_form.ctp:52
 #: Settings/View/Settings/admin_form.ctp:65
 #: Taxonomy/View/Terms/admin_form.ctp:60
 #: Taxonomy/View/Types/admin_form.ctp:100
 #: Taxonomy/View/Vocabularies/admin_form.ctp:67
-#: Translate/View/Translate/admin_edit.ctp:52
+#: Translate/View/Translate/admin_edit.ctp:49
 #: Users/View/Roles/admin_form.ctp:40
 #: Users/View/Users/admin_form.ctp:70
 #: Users/View/Users/admin_reset_password.ctp:45
@@ -336,7 +339,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_form.ctp:61
 #: Taxonomy/View/Types/admin_form.ctp:101
 #: Taxonomy/View/Vocabularies/admin_form.ctp:68
-#: Translate/View/Translate/admin_edit.ctp:53
+#: Translate/View/Translate/admin_edit.ctp:50
 #: Users/View/Roles/admin_form.ctp:41
 #: Users/View/Users/admin_form.ctp:71
 msgid "Apply"
@@ -365,7 +368,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_form.ctp:62
 #: Taxonomy/View/Types/admin_form.ctp:102
 #: Taxonomy/View/Vocabularies/admin_form.ctp:69
-#: Translate/View/Translate/admin_edit.ctp:54
+#: Translate/View/Translate/admin_edit.ctp:51
 #: Users/View/Roles/admin_form.ctp:42
 #: Users/View/Users/admin_form.ctp:72
 msgid "Save"
@@ -380,7 +383,7 @@ msgstr ""
 #: Croogo/View/Common/admin_edit.ctp:117
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:38
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:41
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:38
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:39
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:38
 #: FileManager/View/Attachments/admin_add.ctp:43
 #: FileManager/View/Attachments/admin_edit.ctp:55
@@ -399,7 +402,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_form.ctp:64
 #: Taxonomy/View/Types/admin_form.ctp:104
 #: Taxonomy/View/Vocabularies/admin_form.ctp:71
-#: Translate/View/Translate/admin_edit.ctp:55
+#: Translate/View/Translate/admin_edit.ctp:52
 #: Users/View/Roles/admin_form.ctp:44
 #: Users/View/Users/admin_form.ctp:74
 #: Users/View/Users/admin_reset_password.ctp:48
@@ -491,7 +494,7 @@ msgstr ""
 #: Blocks/View/Blocks/admin_index.ctp:45
 #: Comments/View/Comments/admin_index.ctp:60
 #: Contacts/View/Messages/admin_index.ctp:78
-#: Croogo/View/Common/admin_index.ctp:81
+#: Croogo/View/Common/admin_index.ctp:83
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:37
 #: FileManager/View/Attachments/admin_index.ctp:27
 #: Menus/View/Links/admin_index.ctp:68
@@ -502,7 +505,7 @@ msgstr ""
 #: Settings/View/Settings/admin_index.ctp:41
 #: Taxonomy/View/Terms/admin_index.ctp:50
 #: Taxonomy/View/Vocabularies/admin_index.ctp:43
-#: Translate/View/Translate/admin_index.ctp:76
+#: Translate/View/Translate/admin_index.ctp:97
 msgid "Edit this item"
 msgstr ""
 
@@ -511,7 +514,7 @@ msgstr ""
 #: Blocks/View/Blocks/admin_index.ctp:58
 #: Comments/View/Comments/admin_index.ctp:67
 #: Contacts/View/Messages/admin_index.ctp:85
-#: Croogo/View/Common/admin_index.ctp:91
+#: Croogo/View/Common/admin_index.ctp:93
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:41
 #: FileManager/View/Attachments/admin_index.ctp:31
 #: Menus/View/Menus/admin_index.ctp:40
@@ -521,7 +524,7 @@ msgstr ""
 #: Settings/View/Settings/admin_index.ctp:46
 #: Taxonomy/View/Terms/admin_index.ctp:54
 #: Taxonomy/View/Vocabularies/admin_index.ctp:47
-#: Translate/View/Translate/admin_index.ctp:85
+#: Translate/View/Translate/admin_index.ctp:106
 msgid "Remove this item"
 msgstr ""
 
@@ -530,10 +533,10 @@ msgstr ""
 #: Blocks/View/Blocks/admin_index.ctp:59
 #: Comments/View/Comments/admin_index.ctp:70
 #: Contacts/View/Messages/admin_index.ctp:88
-#: Croogo/View/Common/admin_index.ctp:93
+#: Croogo/View/Common/admin_index.ctp:95
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:42
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:54;62;68;76
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:127
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:129
 #: FileManager/View/Attachments/admin_browse.ctp:42
 #: FileManager/View/Attachments/admin_index.ctp:32
 #: FileManager/View/Helper/FileManagerHelper.php:154
@@ -546,7 +549,7 @@ msgstr ""
 #: Settings/View/Settings/admin_index.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:55
 #: Taxonomy/View/Vocabularies/admin_index.ctp:48
-#: Translate/View/Translate/admin_index.ctp:86
+#: Translate/View/Translate/admin_index.ctp:107
 msgid "Are you sure?"
 msgstr ""
 
@@ -752,7 +755,7 @@ msgstr ""
 #: Taxonomy/View/Types/admin_form.ctp:32
 #: Taxonomy/View/Vocabularies/admin_form.ctp:36
 #: Taxonomy/View/Vocabularies/admin_index.ctp:14
-#: Translate/View/Translate/admin_index.ctp:57
+#: Translate/View/Translate/admin_index.ctp:79
 #: Users/View/Roles/admin_form.ctp:29
 msgid "Title"
 msgstr ""
@@ -843,7 +846,7 @@ msgid "Create a copy of this Block?"
 msgstr ""
 
 #: Blocks/View/Blocks/admin_index.ctp:65
-#: Croogo/View/Common/admin_index.ctp:73
+#: Croogo/View/Common/admin_index.ctp:75
 msgid "Choose"
 msgstr ""
 
@@ -1685,7 +1688,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: Croogo/View/Common/admin_index.ctp:39
+#: Croogo/View/Common/admin_index.ctp:41
 #: Croogo/View/Common/admin_view.ctp:39
 #: Menus/View/Links/admin_index.ctp:17
 msgid "New %s"
@@ -2025,12 +2028,12 @@ msgstr ""
 msgid "Plugin %s cannot be reordered"
 msgstr ""
 
-#: Extensions/Lib/CroogoTheme.php:252
+#: Extensions/Lib/CroogoTheme.php:255
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr ""
 
-#: Extensions/Lib/CroogoTheme.php:273
+#: Extensions/Lib/CroogoTheme.php:276
 msgid "Theme %s not found"
 msgstr ""
 
@@ -2092,7 +2095,7 @@ msgstr ""
 
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:11
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;38
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:16
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:15
@@ -2104,7 +2107,7 @@ msgstr ""
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:19
 #: Nodes/View/Nodes/admin_translations.ctp:26
-#: Translate/View/Translate/admin_index.ctp:58
+#: Translate/View/Translate/admin_index.ctp:80
 msgid "Locale"
 msgstr ""
 
@@ -2116,6 +2119,12 @@ msgstr ""
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:114
 msgid "Activate"
+msgstr ""
+
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:29
+#: FileManager/View/FileManager/admin_create_file.ctp:33
+#: FileManager/View/FileManager/admin_rename.ctp:33
+msgid "File"
 msgstr ""
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
@@ -2153,7 +2162,7 @@ msgstr ""
 msgid "Available Themes"
 msgstr ""
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:135
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:137
 msgid "No available theme"
 msgstr ""
 
@@ -2321,7 +2330,6 @@ msgstr ""
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:28
 #: Nodes/View/Elements/search.ctp:7
-#: Nodes/View/Elements/search2.ctp:8
 #: Nodes/View/Elements/admin/nodes_search.ctp:22
 msgid "Search"
 msgstr ""
@@ -2394,11 +2402,6 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_file.ctp:33
-#: FileManager/View/FileManager/admin_rename.ctp:33
-msgid "File"
-msgstr ""
-
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
 msgstr ""
@@ -2422,7 +2425,6 @@ msgstr ""
 
 #: Install/Console/Command/InstallShell.php:116
 #: Install/View/Install/database.ctp:66
-#: Users/View/Users/login.ctp:2
 msgid "Login"
 msgstr ""
 
@@ -2430,6 +2432,7 @@ msgstr ""
 #: Install/View/Install/database.ctp:74
 #: Users/View/Users/admin_form.ctp:92
 #: Users/View/Users/admin_login.ctp:15
+#: Users/View/Users/login.ctp:7
 msgid "Password"
 msgstr ""
 
@@ -2453,6 +2456,7 @@ msgstr ""
 #: Users/View/Users/admin_form.ctp:47
 #: Users/View/Users/admin_login.ctp:9
 #: Users/View/Users/forgot.ctp:6
+#: Users/View/Users/login.ctp:6
 msgid "Username"
 msgstr ""
 
@@ -2820,21 +2824,21 @@ msgstr ""
 msgid "Add another field"
 msgstr ""
 
-#: Meta/View/Helper/MetaHelper.php:97
+#: Meta/View/Helper/MetaHelper.php:98
 #: Settings/View/Settings/admin_form.ctp:35
 #: Settings/View/Settings/admin_index.ctp:19
 #: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
 msgstr ""
 
-#: Meta/View/Helper/MetaHelper.php:101
+#: Meta/View/Helper/MetaHelper.php:102
 #: Settings/View/Settings/admin_form.ctp:38
 #: Settings/View/Settings/admin_index.ctp:20
 #: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
 msgstr ""
 
-#: Meta/View/Helper/MetaHelper.php:128
+#: Meta/View/Helper/MetaHelper.php:129
 msgid "Remove"
 msgstr ""
 
@@ -3000,12 +3004,12 @@ msgid "%s selected items?"
 msgstr ""
 
 #: Nodes/View/Nodes/admin_translations.ctp:8
-#: Translate/View/Translate/admin_index.ctp:37
+#: Translate/View/Translate/admin_index.ctp:36
 msgid "Translate in a new language"
 msgstr ""
 
 #: Nodes/View/Nodes/admin_translations.ctp:49
-#: Translate/View/Translate/admin_index.ctp:101
+#: Translate/View/Translate/admin_index.ctp:72
 msgid "No translations available."
 msgstr ""
 
@@ -3024,7 +3028,7 @@ msgstr ""
 #: Settings/Controller/SettingsController.php:68
 #: Settings/View/Languages/admin_form.ctp:7
 #: Settings/View/Languages/admin_index.ctp:6
-#: Settings/View/Languages/admin_select.ctp:5
+#: Settings/View/Languages/admin_select.ctp:7
 #: Settings/View/Settings/admin_form.ctp:6;26
 #: Settings/View/Settings/admin_index.ctp:7
 #: Settings/View/Settings/admin_prefix.ctp:6
@@ -3054,7 +3058,7 @@ msgstr ""
 #: Settings/Config/admin_menu.php:88
 #: Settings/Controller/LanguagesController.php:40
 #: Settings/View/Languages/admin_index.ctp:7
-#: Settings/View/Languages/admin_select.ctp:6
+#: Settings/View/Languages/admin_select.ctp:8
 msgid "Languages"
 msgstr ""
 
@@ -3140,7 +3144,7 @@ msgid "Edit Language"
 msgstr ""
 
 #: Settings/Controller/LanguagesController.php:78
-#: Translate/Controller/TranslateController.php:127
+#: Translate/Controller/TranslateController.php:134
 msgid "Invalid Language"
 msgstr ""
 
@@ -3210,7 +3214,7 @@ msgstr ""
 msgid "Native"
 msgstr ""
 
-#: Settings/View/Languages/admin_select.ctp:16
+#: Settings/View/Languages/admin_select.ctp:12
 msgid "New Language"
 msgstr ""
 
@@ -3459,15 +3463,15 @@ msgstr ""
 msgid "View terms"
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:45;100
+#: Translate/Controller/TranslateController.php:45;107
 msgid "Invalid ID."
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:57;196
+#: Translate/Controller/TranslateController.php:57;203
 msgid "Invalid model."
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:69;139;207
+#: Translate/Controller/TranslateController.php:69;146;214
 msgid "Invalid record."
 msgstr ""
 
@@ -3475,36 +3479,36 @@ msgstr ""
 msgid "Translations: %s"
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:109
+#: Translate/Controller/TranslateController.php:116
 msgid "Invalid locale"
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:146
+#: Translate/Controller/TranslateController.php:153
 msgid "Translate content: %s (%s)"
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:153
+#: Translate/Controller/TranslateController.php:160
 msgid "Record has been translated"
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:165
+#: Translate/Controller/TranslateController.php:172
 msgid "Record could not be translated. Please, try again."
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:184
+#: Translate/Controller/TranslateController.php:191
 msgid "Invalid Locale or ID"
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:222
+#: Translate/Controller/TranslateController.php:229
 msgid "Translation for the locale deleted successfully."
 msgstr ""
 
-#: Translate/Controller/TranslateController.php:224
+#: Translate/Controller/TranslateController.php:231
 msgid "Translation for the locale could not be deleted."
 msgstr ""
 
 #: Translate/Lib/Translations.php:22;27
-#: Translate/View/Translate/admin_edit.ctp:19;34
+#: Translate/View/Translate/admin_edit.ctp:19;33
 msgid "Translate"
 msgstr ""
 
@@ -3729,10 +3733,12 @@ msgid "Remember me?"
 msgstr ""
 
 #: Users/View/Users/admin_login.ctp:27
+#: Users/View/Users/login.ctp:10
 msgid "Log In"
 msgstr ""
 
 #: Users/View/Users/admin_login.ctp:28
+#: Users/View/Users/login.ctp:12
 msgid "Forgot password?"
 msgstr ""
 
@@ -3741,6 +3747,7 @@ msgid "Reset Password: %s"
 msgstr ""
 
 #: Users/View/Users/admin_reset_password.ctp:46
+#: Users/View/Users/reset.ctp:10
 msgid "Reset"
 msgstr ""
 
