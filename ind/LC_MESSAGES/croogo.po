@@ -9,16 +9,15 @@ msgstr ""
 "PO-Revision-Date: 2014-11-24 04:56+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Acl/Config/admin_menu.php:4
-#: Acl/Controller/AclPermissionsController.php:58
+#: Acl/Config/admin_menu.php:4 Acl/Controller/AclPermissionsController.php:58
 #: Acl/Controller/Component/RowLevelAclComponent.php:67
-#: Acl/View/AclActions/admin_form.ctp:7
-#: Acl/View/AclActions/admin_index.ctp:11
+#: Acl/View/AclActions/admin_form.ctp:7 Acl/View/AclActions/admin_index.ctp:11
 #: Acl/View/AclPermissions/admin_index.ctp:10
 msgid "Permissions"
 msgstr "Perizinan"
@@ -32,20 +31,36 @@ msgid "Plugin to process"
 msgstr "Plugin untuk diproses"
 
 #: Acl/Console/Command/ExtrasShell.php:96
-msgid "Better manage, and easily synchronize your application's ACO tree"
-msgstr "Tata kelola yang lebih baik, dan lebih mudah melakukan sinkronisasi terhadap struktur pokok ACO dari aplikasi Anda"
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr ""
 
 #: Acl/Console/Command/ExtrasShell.php:101
-msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
-msgstr "Tambahkan ACO baru untuk kontroler dan aksi. Tidak menghilangkan node dari tabel ACO."
+msgid ""
+"Add new ACOs for new controllers and actions. Does not remove nodes from the "
+"ACO table."
+msgstr ""
+"Tambahkan ACO baru untuk kontroler dan aksi. Tidak menghilangkan node dari "
+"tabel ACO."
 
 #: Acl/Console/Command/ExtrasShell.php:107
-msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
-msgstr "Jalankan sinkronisasi menyeluruh pada tabel ACO. Akan menghasilkan ACOS baru atau kontroler dan aksi tidak ditemukan. Dan juga akan menghapus entri-entri bersendiri yang tidak lagi sesuai dengan kontroler/aksi"
+msgid ""
+"Perform a full sync on the ACO table.Will create new ACOs or missing "
+"controllers and actions.Will also remove orphaned entries that no longer "
+"have a matching controller/action"
+msgstr ""
+"Jalankan sinkronisasi menyeluruh pada tabel ACO. Akan menghasilkan ACOS baru "
+"atau kontroler dan aksi tidak ditemukan. Dan juga akan menghapus entri-entri "
+"bersendiri yang tidak lagi sesuai dengan kontroler/aksi"
 
 #: Acl/Console/Command/ExtrasShell.php:112
-msgid "Perform a full content sync on the ACO table.Will create new ACOs or missing contents.Will also remove orphaned entries that no longer have a matching contents"
-msgstr "Jalankan sinkronisasi konten secara menyeluruh terhadap tabel ACO. Akan menghasilkan ACO baru atau konten dan aksi tidak ditemukan. Dan juga akan menghapus entri-entri bersendiri yang tidak lagi sesuai dengan konten"
+msgid ""
+"Perform a full content sync on the ACO table.Will create new ACOs or missing "
+"contents.Will also remove orphaned entries that no longer have a matching "
+"contents"
+msgstr ""
+"Jalankan sinkronisasi konten secara menyeluruh terhadap tabel ACO. Akan "
+"menghasilkan ACO baru atau konten dan aksi tidak ditemukan. Dan juga akan "
+"menghapus entri-entri bersendiri yang tidak lagi sesuai dengan konten"
 
 #: Acl/Console/Command/ExtrasShell.php:119
 msgid "The content model name "
@@ -53,7 +68,8 @@ msgstr "Nama model konten"
 
 #: Acl/Console/Command/ExtrasShell.php:125
 msgid "Verify the tree structure of either your Aco or Aro Trees"
-msgstr "Verifikasi kerangka struktur pokok atau kerangka pokok dari Aco atau Aro"
+msgstr ""
+"Verifikasi kerangka struktur pokok atau kerangka pokok dari Aco atau Aro"
 
 #: Acl/Console/Command/ExtrasShell.php:130
 msgid "The type of tree to verify"
@@ -73,7 +89,7 @@ msgstr "Tipe kerangka pokok untuk dipulihkan"
 #: Blocks/View/Blocks/admin_index.ctp:24
 #: Comments/View/Comments/admin_index.ctp:48
 #: Contacts/View/Messages/admin_index.ctp:65
-#: Croogo/View/Common/admin_index.ctp:60
+#: Croogo/View/Common/admin_index.ctp:62
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:20
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:39
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:21
@@ -81,14 +97,13 @@ msgstr "Tipe kerangka pokok untuk dipulihkan"
 #: FileManager/View/Attachments/admin_browse.ctp:26
 #: FileManager/View/Attachments/admin_index.ctp:15
 #: FileManager/View/FileManager/admin_browse.ctp:47
-#: Menus/View/Links/admin_index.ctp:42
-#: Menus/View/Menus/admin_index.ctp:17
+#: Menus/View/Links/admin_index.ctp:42 Menus/View/Menus/admin_index.ctp:17
 #: Nodes/View/Nodes/admin_translations.ctp:27
 #: Settings/View/Languages/admin_index.ctp:20
 #: Settings/View/Settings/admin_index.ctp:22
 #: Taxonomy/View/Terms/admin_index.ctp:29
 #: Taxonomy/View/Vocabularies/admin_index.ctp:17
-#: Translate/View/Translate/admin_index.ctp:59
+#: Translate/View/Translate/admin_index.ctp:81
 msgid "Actions"
 msgstr "Aksi"
 
@@ -149,12 +164,19 @@ msgid "Parent Role"
 msgstr "Induk Tugas"
 
 #: Acl/Controller/Component/AclFilterComponent.php:82
-msgid "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
-msgstr "\"AutoLogin\" (Ingat Saya) telah dinon-aktifkan karena mycrypt_encrypt tidak tersedia"
+msgid ""
+"\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
+msgstr ""
+"\"AutoLogin\" (Ingat Saya) telah dinon-aktifkan karena mycrypt_encrypt tidak "
+"tersedia"
 
 #: Acl/Controller/Component/Auth/AclCachedAuthorize.php:223
-msgid "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller \"%2$s\""
-msgstr "_authorizedByContent() - Akses terhadap aksi yang tidak terlacak \"%1$s\" di dalam kontroler \"%2$s\""
+msgid ""
+"_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
+"\"%2$s\""
+msgstr ""
+"_authorizedByContent() - Akses terhadap aksi yang tidak terlacak \"%1$s\" di "
+"dalam kontroler \"%2$s\""
 
 #: Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
@@ -198,7 +220,9 @@ msgstr "Struktur pokok adalah sah dan benar"
 
 #: Acl/Lib/AclExtras.php:475
 msgid "Tree has been recovered, or tree did not need recovery."
-msgstr "Struktur pokok telah dipulihkan, atau struktur pokok tidak membutuhkan pemulihan"
+msgstr ""
+"Struktur pokok telah dipulihkan, atau struktur pokok tidak membutuhkan "
+"pemulihan"
 
 #: Acl/Lib/AclExtras.php:477
 msgid "<error>Tree recovery failed.</error>"
@@ -232,33 +256,25 @@ msgstr "Penugasan: Admin tidak ditemukan"
 msgid "API"
 msgstr "API"
 
-#: Acl/View/AclActions/admin_form.ctp:6
-#: Acl/View/AclActions/admin_index.ctp:10
-#: Acl/View/AclPermissions/admin_index.ctp:9
-#: Users/Config/admin_menu.php:5;15
+#: Acl/View/AclActions/admin_form.ctp:6 Acl/View/AclActions/admin_index.ctp:10
+#: Acl/View/AclPermissions/admin_index.ctp:9 Users/Config/admin_menu.php:5;15
 #: Users/Controller/UsersController.php:108;302
-#: Users/View/Roles/admin_form.ctp:7
-#: Users/View/Roles/admin_index.ctp:6
-#: Users/View/Users/admin_form.ctp:7
-#: Users/View/Users/admin_index.ctp:6
+#: Users/View/Roles/admin_form.ctp:7 Users/View/Roles/admin_index.ctp:6
+#: Users/View/Users/admin_form.ctp:7 Users/View/Users/admin_index.ctp:6
 #: Users/View/Users/admin_reset_password.ctp:7
 msgid "Users"
 msgstr "Pengguna"
 
-#: Acl/View/AclActions/admin_form.ctp:15
-#: Blocks/View/Blocks/admin_form.ctp:13
+#: Acl/View/AclActions/admin_form.ctp:15 Blocks/View/Blocks/admin_form.ctp:13
 #: Blocks/View/Regions/admin_form.ctp:20
 #: Contacts/View/Contacts/admin_form.ctp:14
-#: Croogo/View/Common/admin_edit.ctp:12
-#: Menus/View/Links/admin_form.ctp:17
+#: Croogo/View/Common/admin_edit.ctp:12 Menus/View/Links/admin_form.ctp:17
 #: Menus/View/Menus/admin_form.ctp:14
 #: Settings/View/Languages/admin_form.ctp:15
 #: Settings/View/Settings/admin_form.ctp:18
-#: Taxonomy/View/Terms/admin_form.ctp:21
-#: Taxonomy/View/Types/admin_form.ctp:14
+#: Taxonomy/View/Terms/admin_form.ctp:21 Taxonomy/View/Types/admin_form.ctp:14
 #: Taxonomy/View/Vocabularies/admin_form.ctp:18
-#: Users/View/Roles/admin_form.ctp:15
-#: Users/View/Users/admin_form.ctp:20
+#: Users/View/Roles/admin_form.ctp:15 Users/View/Users/admin_form.ctp:20
 msgid "Add"
 msgstr "Tambah"
 
@@ -266,10 +282,8 @@ msgstr "Tambah"
 msgid "Action"
 msgstr "Aksi"
 
-#: Acl/View/AclActions/admin_form.ctp:34
-#: Menus/View/Links/admin_form.ctp:66
-#: Nodes/View/Nodes/admin_form.ctp:63
-#: Taxonomy/View/Terms/admin_form.ctp:39
+#: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
+#: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
 msgstr "Induk"
 
@@ -280,13 +294,11 @@ msgstr "Pilih 'none' bila ACO adalah kontroler."
 #: Acl/View/AclActions/admin_form.ctp:38
 #: Acl/View/AclActions/admin_index.ctp:71
 #: Acl/View/Elements/admin/acl_permissions_table.ctp:8
-#: Blocks/View/Blocks/admin_form.ctp:37
-#: Blocks/View/Blocks/admin_index.ctp:21
+#: Blocks/View/Blocks/admin_form.ctp:37 Blocks/View/Blocks/admin_index.ctp:21
 #: Blocks/View/Regions/admin_form.ctp:38
 #: Contacts/View/Contacts/admin_form.ctp:34
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:26
-#: Menus/View/Menus/admin_form.ctp:33
-#: Menus/View/Menus/admin_index.ctp:14
+#: Menus/View/Menus/admin_form.ctp:33 Menus/View/Menus/admin_index.ctp:14
 #: Settings/View/Languages/admin_form.ctp:41
 #: Settings/View/Languages/admin_index.ctp:18
 #: Taxonomy/View/Types/admin_form.ctp:35
@@ -296,14 +308,15 @@ msgstr "Pilih 'none' bila ACO adalah kontroler."
 msgid "Alias"
 msgstr "Alias"
 
-#: Acl/View/AclActions/admin_form.ctp:46
-#: Blocks/View/Blocks/admin_form.ctp:78
+#: Acl/View/AclActions/admin_form.ctp:46 Blocks/View/Blocks/admin_form.ctp:78
 #: Blocks/View/Regions/admin_form.ctp:46
 #: Comments/View/Comments/admin_form.ctp:35
 #: Contacts/View/Contacts/admin_form.ctp:103
 #: Contacts/View/Messages/admin_form.ctp:49
 #: Croogo/View/Common/admin_edit.ctp:115
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:36
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:37
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:36
 #: FileManager/View/Attachments/admin_add.ctp:41
 #: FileManager/View/Attachments/admin_edit.ctp:51
 #: FileManager/View/FileManager/admin_create_directory.ctp:50
@@ -311,39 +324,33 @@ msgstr "Alias"
 #: FileManager/View/FileManager/admin_editfile.ctp:49
 #: FileManager/View/FileManager/admin_rename.ctp:49
 #: FileManager/View/FileManager/admin_upload.ctp:48
-#: Menus/View/Links/admin_form.ctp:117
+#: Menus/View/Links/admin_form.ctp:117 Menus/View/Menus/admin_form.ctp:51
 #: Nodes/View/Nodes/admin_form.ctp:106
 #: Settings/View/Languages/admin_form.ctp:52
 #: Settings/View/Settings/admin_form.ctp:65
 #: Taxonomy/View/Terms/admin_form.ctp:60
 #: Taxonomy/View/Types/admin_form.ctp:100
 #: Taxonomy/View/Vocabularies/admin_form.ctp:67
-#: Translate/View/Translate/admin_edit.ctp:52
-#: Users/View/Roles/admin_form.ctp:40
-#: Users/View/Users/admin_form.ctp:70
+#: Translate/View/Translate/admin_edit.ctp:49
+#: Users/View/Roles/admin_form.ctp:40 Users/View/Users/admin_form.ctp:70
 #: Users/View/Users/admin_reset_password.ctp:45
 msgid "Publishing"
 msgstr "Publikasi"
 
-#: Acl/View/AclActions/admin_form.ctp:47
-#: Blocks/View/Blocks/admin_form.ctp:79
+#: Acl/View/AclActions/admin_form.ctp:47 Blocks/View/Blocks/admin_form.ctp:79
 #: Blocks/View/Regions/admin_form.ctp:47
 #: Contacts/View/Contacts/admin_form.ctp:104
 #: FileManager/View/Attachments/admin_edit.ctp:52
-#: Menus/View/Links/admin_form.ctp:118
-#: Menus/View/Menus/admin_form.ctp:52
-#: Nodes/View/Nodes/admin_form.ctp:107
-#: Taxonomy/View/Terms/admin_form.ctp:61
+#: Menus/View/Links/admin_form.ctp:118 Menus/View/Menus/admin_form.ctp:52
+#: Nodes/View/Nodes/admin_form.ctp:107 Taxonomy/View/Terms/admin_form.ctp:61
 #: Taxonomy/View/Types/admin_form.ctp:101
 #: Taxonomy/View/Vocabularies/admin_form.ctp:68
-#: Translate/View/Translate/admin_edit.ctp:53
-#: Users/View/Roles/admin_form.ctp:41
-#: Users/View/Users/admin_form.ctp:71
+#: Translate/View/Translate/admin_edit.ctp:50
+#: Users/View/Roles/admin_form.ctp:41 Users/View/Users/admin_form.ctp:71
 msgid "Apply"
 msgstr "Terapkan"
 
-#: Acl/View/AclActions/admin_form.ctp:48
-#: Blocks/View/Blocks/admin_form.ctp:80
+#: Acl/View/AclActions/admin_form.ctp:48 Blocks/View/Blocks/admin_form.ctp:80
 #: Blocks/View/Regions/admin_form.ctp:48
 #: Comments/View/Comments/admin_form.ctp:36
 #: Contacts/View/Contacts/admin_form.ctp:105
@@ -355,24 +362,20 @@ msgstr "Terapkan"
 #: FileManager/View/FileManager/admin_editfile.ctp:50
 #: FileManager/View/FileManager/admin_rename.ctp:50
 #: FileManager/View/FileManager/admin_upload.ctp:49
-#: Install/View/Install/adminuser.ctp:36
-#: Menus/View/Links/admin_form.ctp:119
-#: Menus/View/Menus/admin_form.ctp:53
-#: Nodes/View/Nodes/admin_form.ctp:108
+#: Install/View/Install/adminuser.ctp:36 Menus/View/Links/admin_form.ctp:119
+#: Menus/View/Menus/admin_form.ctp:53 Nodes/View/Nodes/admin_form.ctp:108
 #: Settings/View/Languages/admin_form.ctp:53
 #: Settings/View/Settings/admin_form.ctp:66
 #: Settings/View/Settings/admin_prefix.ctp:54
 #: Taxonomy/View/Terms/admin_form.ctp:62
 #: Taxonomy/View/Types/admin_form.ctp:102
 #: Taxonomy/View/Vocabularies/admin_form.ctp:69
-#: Translate/View/Translate/admin_edit.ctp:54
-#: Users/View/Roles/admin_form.ctp:42
-#: Users/View/Users/admin_form.ctp:72
+#: Translate/View/Translate/admin_edit.ctp:51
+#: Users/View/Roles/admin_form.ctp:42 Users/View/Users/admin_form.ctp:72
 msgid "Save"
 msgstr "Simpan"
 
-#: Acl/View/AclActions/admin_form.ctp:49
-#: Blocks/View/Blocks/admin_form.ctp:81
+#: Acl/View/AclActions/admin_form.ctp:49 Blocks/View/Blocks/admin_form.ctp:81
 #: Blocks/View/Regions/admin_form.ctp:49
 #: Comments/View/Comments/admin_form.ctp:37
 #: Contacts/View/Contacts/admin_form.ctp:107
@@ -380,7 +383,7 @@ msgstr "Simpan"
 #: Croogo/View/Common/admin_edit.ctp:117
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:38
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:41
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:38
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:39
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:38
 #: FileManager/View/Attachments/admin_add.ctp:43
 #: FileManager/View/Attachments/admin_edit.ctp:55
@@ -389,19 +392,16 @@ msgstr "Simpan"
 #: FileManager/View/FileManager/admin_editfile.ctp:51
 #: FileManager/View/FileManager/admin_rename.ctp:51
 #: FileManager/View/FileManager/admin_upload.ctp:50
-#: Install/View/Install/adminuser.ctp:37
-#: Menus/View/Links/admin_form.ctp:120
-#: Menus/View/Menus/admin_form.ctp:54
-#: Nodes/View/Nodes/admin_form.ctp:109
+#: Install/View/Install/adminuser.ctp:37 Menus/View/Links/admin_form.ctp:120
+#: Menus/View/Menus/admin_form.ctp:54 Nodes/View/Nodes/admin_form.ctp:109
 #: Settings/View/Languages/admin_form.ctp:55
 #: Settings/View/Settings/admin_form.ctp:67
 #: Settings/View/Settings/admin_prefix.ctp:55
 #: Taxonomy/View/Terms/admin_form.ctp:64
 #: Taxonomy/View/Types/admin_form.ctp:104
 #: Taxonomy/View/Vocabularies/admin_form.ctp:71
-#: Translate/View/Translate/admin_edit.ctp:55
-#: Users/View/Roles/admin_form.ctp:44
-#: Users/View/Users/admin_form.ctp:74
+#: Translate/View/Translate/admin_edit.ctp:52
+#: Users/View/Roles/admin_form.ctp:44 Users/View/Users/admin_form.ctp:74
 #: Users/View/Users/admin_reset_password.ctp:48
 msgid "Cancel"
 msgstr "Batal"
@@ -444,11 +444,9 @@ msgstr "Ubah aksi"
 #: FileManager/View/Attachments/admin_browse.ctp:21
 #: FileManager/View/Attachments/admin_chooser.ctp:5
 #: FileManager/View/Attachments/admin_index.ctp:11
-#: Menus/View/Links/admin_index.ctp:39
-#: Menus/View/Menus/admin_index.ctp:12
+#: Menus/View/Links/admin_index.ctp:39 Menus/View/Menus/admin_index.ctp:12
 #: Nodes/View/Nodes/admin_chooser.ctp:5
-#: Nodes/View/Nodes/admin_hierarchy.ctp:36
-#: Nodes/View/Nodes/admin_index.ctp:31
+#: Nodes/View/Nodes/admin_hierarchy.ctp:36 Nodes/View/Nodes/admin_index.ctp:31
 #: Settings/View/Languages/admin_index.ctp:15
 #: Settings/View/Settings/admin_index.ctp:18
 #: Settings/View/Settings/admin_view.ctp:4
@@ -463,8 +461,7 @@ msgstr "Id"
 #: Blocks/View/Blocks/admin_index.ctp:35
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:56
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:61
-#: Menus/View/Links/admin_index.ctp:56
-#: Nodes/View/Nodes/admin_hierarchy.ctp:95
+#: Menus/View/Links/admin_index.ctp:56 Nodes/View/Nodes/admin_hierarchy.ctp:95
 #: Settings/View/Languages/admin_index.ctp:34
 #: Settings/View/Settings/admin_index.ctp:33
 #: Taxonomy/View/Terms/admin_index.ctp:42
@@ -477,8 +474,7 @@ msgstr "Geser keatas"
 #: Blocks/View/Blocks/admin_index.ctp:39
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:63
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:67
-#: Menus/View/Links/admin_index.ctp:62
-#: Nodes/View/Nodes/admin_hierarchy.ctp:99
+#: Menus/View/Links/admin_index.ctp:62 Nodes/View/Nodes/admin_hierarchy.ctp:99
 #: Settings/View/Languages/admin_index.ctp:38
 #: Settings/View/Settings/admin_index.ctp:37
 #: Taxonomy/View/Terms/admin_index.ctp:46
@@ -491,18 +487,17 @@ msgstr "Geser kebawah"
 #: Blocks/View/Blocks/admin_index.ctp:45
 #: Comments/View/Comments/admin_index.ctp:60
 #: Contacts/View/Messages/admin_index.ctp:78
-#: Croogo/View/Common/admin_index.ctp:81
+#: Croogo/View/Common/admin_index.ctp:83
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:37
 #: FileManager/View/Attachments/admin_index.ctp:27
-#: Menus/View/Links/admin_index.ctp:68
-#: Menus/View/Menus/admin_index.ctp:35
+#: Menus/View/Links/admin_index.ctp:68 Menus/View/Menus/admin_index.ctp:35
 #: Nodes/View/Nodes/admin_hierarchy.ctp:103
 #: Nodes/View/Nodes/admin_index.ctp:96
 #: Settings/View/Languages/admin_index.ctp:42
 #: Settings/View/Settings/admin_index.ctp:41
 #: Taxonomy/View/Terms/admin_index.ctp:50
 #: Taxonomy/View/Vocabularies/admin_index.ctp:43
-#: Translate/View/Translate/admin_index.ctp:76
+#: Translate/View/Translate/admin_index.ctp:97
 msgid "Edit this item"
 msgstr "Ubah item ini"
 
@@ -511,7 +506,7 @@ msgstr "Ubah item ini"
 #: Blocks/View/Blocks/admin_index.ctp:58
 #: Comments/View/Comments/admin_index.ctp:67
 #: Contacts/View/Messages/admin_index.ctp:85
-#: Croogo/View/Common/admin_index.ctp:91
+#: Croogo/View/Common/admin_index.ctp:93
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:41
 #: FileManager/View/Attachments/admin_index.ctp:31
 #: Menus/View/Menus/admin_index.ctp:40
@@ -521,7 +516,7 @@ msgstr "Ubah item ini"
 #: Settings/View/Settings/admin_index.ctp:46
 #: Taxonomy/View/Terms/admin_index.ctp:54
 #: Taxonomy/View/Vocabularies/admin_index.ctp:47
-#: Translate/View/Translate/admin_index.ctp:85
+#: Translate/View/Translate/admin_index.ctp:106
 msgid "Remove this item"
 msgstr "Hapus item ini"
 
@@ -530,15 +525,14 @@ msgstr "Hapus item ini"
 #: Blocks/View/Blocks/admin_index.ctp:59
 #: Comments/View/Comments/admin_index.ctp:70
 #: Contacts/View/Messages/admin_index.ctp:88
-#: Croogo/View/Common/admin_index.ctp:93
+#: Croogo/View/Common/admin_index.ctp:95
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:42
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:54;62;68;76
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:127
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:129
 #: FileManager/View/Attachments/admin_browse.ctp:42
 #: FileManager/View/Attachments/admin_index.ctp:32
 #: FileManager/View/Helper/FileManagerHelper.php:154
-#: Menus/View/Links/admin_index.ctp:88
-#: Menus/View/Menus/admin_index.ctp:41
+#: Menus/View/Links/admin_index.ctp:88 Menus/View/Menus/admin_index.ctp:41
 #: Nodes/View/Nodes/admin_hierarchy.ctp:113
 #: Nodes/View/Nodes/admin_index.ctp:114
 #: Nodes/View/Nodes/admin_translations.ctp:34
@@ -546,7 +540,7 @@ msgstr "Hapus item ini"
 #: Settings/View/Settings/admin_index.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:55
 #: Taxonomy/View/Vocabularies/admin_index.ctp:48
-#: Translate/View/Translate/admin_index.ctp:86
+#: Translate/View/Translate/admin_index.ctp:107
 msgid "Are you sure?"
 msgstr "Apakah Anda yakin?"
 
@@ -566,17 +560,13 @@ msgstr "Ubah Perizinan"
 msgid "Upgrade Acl database"
 msgstr "Tingkatkan database Acl"
 
-#: Blocks/Config/admin_menu.php:5;15
-#: Blocks/Controller/BlocksController.php:99
-#: Blocks/View/Blocks/admin_form.ctp:7
-#: Blocks/View/Blocks/admin_index.ctp:9
-#: Blocks/View/Regions/admin_form.ctp:7
-#: Blocks/View/Regions/admin_index.ctp:5
+#: Blocks/Config/admin_menu.php:5;15 Blocks/Controller/BlocksController.php:99
+#: Blocks/View/Blocks/admin_form.ctp:7 Blocks/View/Blocks/admin_index.ctp:9
+#: Blocks/View/Regions/admin_form.ctp:7 Blocks/View/Regions/admin_index.ctp:5
 msgid "Blocks"
 msgstr "Blok"
 
-#: Blocks/Config/admin_menu.php:24
-#: Blocks/View/Regions/admin_form.ctp:9
+#: Blocks/Config/admin_menu.php:24 Blocks/View/Regions/admin_form.ctp:9
 #: Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
 msgstr "Region"
@@ -666,8 +656,7 @@ msgid "Blocks copied"
 msgstr "Blok telah disalin"
 
 #: Blocks/Controller/RegionsController.php:66
-#: Blocks/View/Blocks/admin_form.ctp:41
-#: Blocks/View/Blocks/admin_index.ctp:22
+#: Blocks/View/Blocks/admin_form.ctp:41 Blocks/View/Blocks/admin_index.ctp:22
 #: Blocks/View/Regions/admin_form.ctp:26
 msgid "Region"
 msgstr "Region"
@@ -704,8 +693,7 @@ msgstr "Region telah dihapus"
 msgid "Block"
 msgstr "Blok"
 
-#: Blocks/View/Blocks/admin_form.ctp:23
-#: Menus/View/Links/admin_form.ctp:52
+#: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
 #: Nodes/View/Nodes/admin_form.ctp:55
 msgid "Access"
 msgstr "Akses"
@@ -714,17 +702,14 @@ msgstr "Akses"
 msgid "Visibilities"
 msgstr "Visibilitas"
 
-#: Blocks/View/Blocks/admin_form.ctp:25;70
-#: Menus/View/Links/admin_form.ctp:108
-#: Menus/View/Menus/admin_form.ctp:42
-#: Settings/View/Settings/admin_form.ctp:57
+#: Blocks/View/Blocks/admin_form.ctp:25;70 Menus/View/Links/admin_form.ctp:108
+#: Menus/View/Menus/admin_form.ctp:42 Settings/View/Settings/admin_form.ctp:57
 #: Settings/View/Settings/admin_view.ctp:34
 #: Taxonomy/View/Types/admin_form.ctp:23;91
 msgid "Params"
 msgstr "Parameter"
 
-#: Blocks/View/Blocks/admin_form.ctp:34
-#: Blocks/View/Blocks/admin_index.ctp:20
+#: Blocks/View/Blocks/admin_form.ctp:34 Blocks/View/Blocks/admin_index.ctp:20
 #: Blocks/View/Regions/admin_form.ctp:35
 #: Comments/View/Comments/admin_form.ctp:23
 #: Contacts/View/Contacts/admin_form.ctp:31
@@ -734,14 +719,10 @@ msgstr "Parameter"
 #: FileManager/View/Attachments/admin_chooser.ctp:6
 #: FileManager/View/Attachments/admin_edit.ctp:26
 #: FileManager/View/Attachments/admin_index.ctp:13
-#: Menus/View/Links/admin_form.ctp:71
-#: Menus/View/Links/admin_index.ctp:40
-#: Menus/View/Menus/admin_form.ctp:30
-#: Menus/View/Menus/admin_index.ctp:13
-#: Nodes/View/Nodes/admin_chooser.ctp:6
-#: Nodes/View/Nodes/admin_form.ctp:76
-#: Nodes/View/Nodes/admin_hierarchy.ctp:37
-#: Nodes/View/Nodes/admin_index.ctp:32
+#: Menus/View/Links/admin_form.ctp:71 Menus/View/Links/admin_index.ctp:40
+#: Menus/View/Menus/admin_form.ctp:30 Menus/View/Menus/admin_index.ctp:13
+#: Nodes/View/Nodes/admin_chooser.ctp:6 Nodes/View/Nodes/admin_form.ctp:76
+#: Nodes/View/Nodes/admin_hierarchy.ctp:37 Nodes/View/Nodes/admin_index.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:25
 #: Settings/View/Languages/admin_form.ctp:35
 #: Settings/View/Languages/admin_index.ctp:16
@@ -752,7 +733,7 @@ msgstr "Parameter"
 #: Taxonomy/View/Types/admin_form.ctp:32
 #: Taxonomy/View/Vocabularies/admin_form.ctp:36
 #: Taxonomy/View/Vocabularies/admin_index.ctp:14
-#: Translate/View/Translate/admin_index.ctp:57
+#: Translate/View/Translate/admin_index.ctp:79
 #: Users/View/Roles/admin_form.ctp:29
 msgid "Title"
 msgstr "Judul"
@@ -768,13 +749,11 @@ msgstr "Bila tidak yakin, pilih 'none'"
 #: Blocks/View/Blocks/admin_form.ctp:45
 #: Comments/View/Comments/admin_form.ctp:26
 #: Contacts/View/Contacts/admin_form.ctp:40
-#: Contacts/View/Messages/admin_form.ctp:35
-#: Nodes/View/Nodes/admin_form.ctp:86
+#: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:86
 msgid "Body"
 msgstr "Deskripsi"
 
-#: Blocks/View/Blocks/admin_form.ctp:48
-#: Menus/View/Links/admin_form.ctp:95
+#: Blocks/View/Blocks/admin_form.ctp:48 Menus/View/Links/admin_form.ctp:95
 msgid "Class"
 msgstr "Kelas"
 
@@ -782,10 +761,8 @@ msgstr "Kelas"
 msgid "Element"
 msgstr "Elemen"
 
-#: Blocks/View/Blocks/admin_form.ctp:57
-#: Menus/View/Links/admin_form.ctp:89
-#: Nodes/View/Nodes/admin_form.ctp:93
-#: Users/View/Roles/admin_form.ctp:21
+#: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:89
+#: Nodes/View/Nodes/admin_form.ctp:93 Users/View/Roles/admin_form.ctp:21
 #: Users/View/Users/admin_form.ctp:45
 msgid "Role"
 msgstr "Penugasan"
@@ -795,24 +772,24 @@ msgid "Visibility Paths"
 msgstr "Jalur visibilitas"
 
 #: Blocks/View/Blocks/admin_form.ctp:64
-msgid "Enter one URL per line. Leave blank if you want this Block to appear in all pages."
-msgstr "Masukkan satu URL dalam satu baris. Kosongkan bila menginginkan Blok tampil di semua halaman."
+msgid ""
+"Enter one URL per line. Leave blank if you want this Block to appear in all "
+"pages."
+msgstr ""
+"Masukkan satu URL dalam satu baris. Kosongkan bila menginginkan Blok tampil "
+"di semua halaman."
 
 #: Blocks/View/Blocks/admin_form.ctp:90
 msgid "Show title ?"
 msgstr "Tampilkan judul ?"
 
-#: Blocks/View/Blocks/admin_form.ctp:94
-#: Menus/View/Links/admin_form.ctp:129
-#: Menus/View/Menus/admin_form.ctp:63
-#: Nodes/View/Nodes/admin_form.ctp:140
+#: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
+#: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
 msgid "Publish Start"
 msgstr "Mulai publikasi :"
 
-#: Blocks/View/Blocks/admin_form.ctp:98
-#: Menus/View/Links/admin_form.ctp:133
-#: Menus/View/Menus/admin_form.ctp:67
-#: Nodes/View/Nodes/admin_form.ctp:144
+#: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
+#: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:144
 msgid "Publish End"
 msgstr "Selesai publikasi :"
 
@@ -820,20 +797,17 @@ msgstr "Selesai publikasi :"
 #: Croogo/Console/Command/ExtShell.php:236;262
 #: FileManager/View/Attachments/admin_chooser.ctp:45
 #: FileManager/View/Elements/admin/attachments_search.ctp:40
-#: Menus/View/Links/admin_index.ctp:41
-#: Menus/View/Menus/admin_index.ctp:16
+#: Menus/View/Links/admin_index.ctp:41 Menus/View/Menus/admin_index.ctp:16
 #: Nodes/View/Elements/admin/nodes_search.ctp:39
 #: Nodes/View/Nodes/admin_chooser.ctp:54
-#: Nodes/View/Nodes/admin_hierarchy.ctp:40
-#: Nodes/View/Nodes/admin_index.ctp:35
+#: Nodes/View/Nodes/admin_hierarchy.ctp:40 Nodes/View/Nodes/admin_index.ctp:35
 #: Settings/View/Languages/admin_form.ctp:60
 #: Settings/View/Languages/admin_index.ctp:19
 #: Users/View/Users/admin_form.ctp:86
 msgid "Status"
 msgstr "Status"
 
-#: Blocks/View/Blocks/admin_index.ctp:51
-#: Menus/View/Links/admin_index.ctp:75
+#: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
 #: Nodes/View/Nodes/admin_index.ctp:102
 msgid "Create a copy"
 msgstr "Buat salinan"
@@ -842,15 +816,12 @@ msgstr "Buat salinan"
 msgid "Create a copy of this Block?"
 msgstr "Buat salinan untuk blok ini?"
 
-#: Blocks/View/Blocks/admin_index.ctp:65
-#: Croogo/View/Common/admin_index.ctp:73
+#: Blocks/View/Blocks/admin_index.ctp:65 Croogo/View/Common/admin_index.ctp:75
 msgid "Choose"
 msgstr "Pilih"
 
-#: Blocks/View/Blocks/admin_index.ctp:84
-#: Menus/View/Links/admin_index.ctp:93
-#: Menus/View/Menus/admin_index.ctp:53
-#: Nodes/View/Nodes/admin_hierarchy.ctp:71
+#: Blocks/View/Blocks/admin_index.ctp:84 Menus/View/Links/admin_index.ctp:93
+#: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_hierarchy.ctp:71
 #: Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
 msgstr "Pratinjau"
@@ -885,8 +856,7 @@ msgstr "Tidak dipublikasikan"
 msgid "Delete"
 msgstr "Hapus"
 
-#: Blocks/View/Blocks/admin_index.ctp:117
-#: Menus/View/Links/admin_index.ctp:124
+#: Blocks/View/Blocks/admin_index.ctp:117 Menus/View/Links/admin_index.ctp:124
 #: Nodes/View/Nodes/admin_hierarchy.ctp:136
 #: Nodes/View/Nodes/admin_index.ctp:137
 msgid "Copy"
@@ -897,8 +867,7 @@ msgstr "Salin"
 #: Contacts/View/Messages/admin_index.ctp:126
 #: Menus/View/Links/admin_index.ctp:130
 #: Nodes/View/Nodes/admin_hierarchy.ctp:144
-#: Nodes/View/Nodes/admin_index.ctp:145
-#: Users/View/Users/forgot.ctp:9
+#: Nodes/View/Nodes/admin_index.ctp:145 Users/View/Users/forgot.ctp:9
 msgid "Submit"
 msgstr "Serahkan"
 
@@ -913,11 +882,9 @@ msgstr "Serahkan"
 msgid "Comments"
 msgstr "Komentar"
 
-#: Comments/Config/admin_menu.php:13
-#: Comments/View/Comments/admin_form.ctp:39
+#: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
 #: Comments/View/Comments/admin_index.ctp:14;29
-#: Contacts/View/Contacts/admin_form.ctp:112
-#: Croogo/Lib/CroogoStatus.php:40
+#: Contacts/View/Contacts/admin_form.ctp:112 Croogo/Lib/CroogoStatus.php:40
 #: FileManager/View/Elements/admin/attachments_search.ctp:37
 #: Nodes/View/Elements/admin/nodes_search.ctp:36
 msgid "Published"
@@ -970,7 +937,9 @@ msgstr "Id tidak sah"
 
 #: Comments/Controller/CommentsController.php:223
 msgid "Maximum level reached. You cannot reply to that comment."
-msgstr "Tingkatan maksimal telah dicapai. Anda tidak dapat menanggapi komentar tersebut"
+msgstr ""
+"Tingkatan maksimal telah dicapai. Anda tidak dapat menanggapi komentar "
+"tersebut"
 
 #: Comments/Controller/CommentsController.php:238
 msgid "Comments are not allowed."
@@ -1008,16 +977,11 @@ msgstr "Id komentar tidak sah"
 #: Comments/View/Comments/admin_form.ctp:6
 #: Comments/View/Comments/admin_index.ctp:9
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:21;28
-#: Nodes/Config/admin_menu.php:5
-#: Nodes/Controller/NodesController.php:108
-#: Nodes/View/Nodes/admin_create.ctp:5
-#: Nodes/View/Nodes/admin_form.ctp:9
-#: Nodes/View/Nodes/admin_hierarchy.ctp:8
-#: Nodes/View/Nodes/admin_index.ctp:8
-#: Taxonomy/View/Terms/admin_form.ctp:8
-#: Taxonomy/View/Terms/admin_index.ctp:7
-#: Taxonomy/View/Types/admin_form.ctp:6
-#: Taxonomy/View/Types/admin_index.ctp:7
+#: Nodes/Config/admin_menu.php:5 Nodes/Controller/NodesController.php:108
+#: Nodes/View/Nodes/admin_create.ctp:5 Nodes/View/Nodes/admin_form.ctp:9
+#: Nodes/View/Nodes/admin_hierarchy.ctp:8 Nodes/View/Nodes/admin_index.ctp:8
+#: Taxonomy/View/Terms/admin_form.ctp:8 Taxonomy/View/Terms/admin_index.ctp:7
+#: Taxonomy/View/Types/admin_form.ctp:6 Taxonomy/View/Types/admin_index.ctp:7
 #: Taxonomy/View/Vocabularies/admin_form.ctp:7
 #: Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
@@ -1025,8 +989,7 @@ msgstr "Konten"
 
 #: Comments/View/Comments/admin_form.ctp:14
 #: Comments/View/Elements/comments.ctp:5
-#: Nodes/View/Elements/node_more_info.ctp:31
-#: Settings/Config/admin_menu.php:64
+#: Nodes/View/Elements/node_more_info.ctp:31 Settings/Config/admin_menu.php:64
 msgid "Comment"
 msgstr "Komentar"
 
@@ -1043,8 +1006,7 @@ msgstr "Kontak"
 #: Contacts/View/Messages/admin_form.ctp:26
 #: Contacts/View/Messages/admin_index.ctp:62
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
-#: Install/View/Install/database.ctp:81
-#: Users/View/Users/admin_form.ctp:50
+#: Install/View/Install/database.ctp:81 Users/View/Users/admin_form.ctp:50
 msgid "Name"
 msgstr "Nama"
 
@@ -1082,8 +1044,7 @@ msgstr "Node"
 
 #: Comments/View/Comments/admin_index.ctp:47
 #: FileManager/View/Attachments/admin_chooser.ctp:7;49
-#: Nodes/View/Nodes/admin_chooser.ctp:7;58
-#: Nodes/View/Nodes/admin_form.ctp:135
+#: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:135
 msgid "Created"
 msgstr "Dibuat"
 
@@ -1261,8 +1222,7 @@ msgstr "Pesan ditandai sebagai Pesan belum dibaca"
 msgid "Details"
 msgstr "Detil"
 
-#: Contacts/View/Contacts/admin_form.ctp:22
-#: Contacts/View/Contacts/view.ctp:21
+#: Contacts/View/Contacts/admin_form.ctp:22 Contacts/View/Contacts/view.ctp:21
 #: Contacts/View/Messages/admin_form.ctp:17
 msgid "Message"
 msgstr "Pesan"
@@ -1422,8 +1382,7 @@ msgstr "Nama Ekstensi"
 msgid "Plugin \"%s\" activated successfully."
 msgstr "Plugin \"%s\" telah berhasil diaktifkan."
 
-#: Croogo/Console/Command/ExtShell.php:170
-#: Extensions/Lib/CroogoPlugin.php:558
+#: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:558
 msgid "Plugin \"%s\" could not be activated. Please, try again."
 msgstr "Plugin \"%s\" tidak dapat diaktifkan. Silahkan coba kembali."
 
@@ -1434,7 +1393,8 @@ msgstr "Plugin \"%s\" tidak dapat di non-aktifkan. Silahkan coba kembali."
 #: Croogo/Console/Command/ExtShell.php:194
 #: Extensions/Controller/ExtensionsPluginsController.php:143
 msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
-msgstr "Plugin \"%s\" tidak dapat di non-aktifkan karena \"%s\" bergantung padanya"
+msgstr ""
+"Plugin \"%s\" tidak dapat di non-aktifkan karena \"%s\" bergantung padanya"
 
 #: Croogo/Console/Command/ExtShell.php:205
 #: Extensions/Controller/ExtensionsPluginsController.php:148
@@ -1519,8 +1479,20 @@ msgid "Upgrade ACL database for core controllers."
 msgstr "Meningkatkan database ACL untuk kontroler inti."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:64
-msgid "Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior in normal CakePHP applications. The primary difference is plugin controllers now are stored underneath its own Plugin ACO record, whereas previous version assumes all Controllers belongs to the root 'controllers' node.%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos table before upgrading.</warning>"
-msgstr "Tingkatkan hirarki ACO dari 1,3 / 1,4 sehingga mengikuti perilaku standar dalam aplikasi CakePHP yang normal. Perbedaan utama adalah Kontroler Plugin sekarang disimpan di bawah rekord Plugin ACO itu sendiri, sedangkan pada versi sebelumnya mengasumsikan semua Controller dimiliki oleh root dari node 'kontroler' node . %s<warning>Pastikan Anda memiliki backup dari tabel database aros, acos dan aros_acos sebelum melakukan peningkatan."
+msgid ""
+"Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
+"in normal CakePHP applications. The primary difference is plugin controllers "
+"now are stored underneath its own Plugin ACO record, whereas previous "
+"version assumes all Controllers belongs to the root 'controllers' node."
+"%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"table before upgrading.</warning>"
+msgstr ""
+"Tingkatkan hirarki ACO dari 1,3 / 1,4 sehingga mengikuti perilaku standar "
+"dalam aplikasi CakePHP yang normal. Perbedaan utama adalah Kontroler Plugin "
+"sekarang disimpan di bawah rekord Plugin ACO itu sendiri, sedangkan pada "
+"versi sebelumnya mengasumsikan semua Controller dimiliki oleh root dari node "
+"'kontroler' node . %s<warning>Pastikan Anda memiliki backup dari tabel "
+"database aros, acos dan aros_acos sebelum melakukan peningkatan."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:76
 msgid "Create settings.json from database"
@@ -1551,8 +1523,11 @@ msgid "<warning>Config/settings.json already exist</warning>"
 msgstr "<warning>Config/settings.json sudah ada</warning>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:142
-msgid "<success>Config/settings.yml created based on `settings` table</success>"
-msgstr "<success>Config/settings.yml telah dibuat berdasarkan dari tabel 'settings'</success>"
+msgid ""
+"<success>Config/settings.yml created based on `settings` table</success>"
+msgstr ""
+"<success>Config/settings.yml telah dibuat berdasarkan dari tabel 'settings'</"
+"success>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:187
 msgid "Updating Link %s"
@@ -1685,8 +1660,7 @@ msgstr "Aksi %s telah dimatikan"
 msgid "Edit"
 msgstr "Ubah"
 
-#: Croogo/View/Common/admin_index.ctp:39
-#: Croogo/View/Common/admin_view.ctp:39
+#: Croogo/View/Common/admin_index.ctp:41 Croogo/View/Common/admin_view.ctp:39
 #: Menus/View/Links/admin_index.ctp:17
 msgid "New %s"
 msgstr "Buat %s Baru"
@@ -1713,8 +1687,12 @@ msgid "Close"
 msgstr "Tutup"
 
 #: Croogo/View/Elements/admin/pagination.ctp:5
-msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
-msgstr "Halaman {:page} dari {:pages}, menampilkan {:current} rekord dari {:count} total, dimulai dari rekord {:start}, selesai di {:end}"
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Halaman {:page} dari {:pages}, menampilkan {:current} rekord dari {:count} "
+"total, dimulai dari rekord {:start}, selesai di {:end}"
 
 #: Croogo/View/Elements/admin/pagination.ctp:10
 msgid "first"
@@ -1767,10 +1745,8 @@ msgstr ""
 msgid "Method %1$s::%2$s does not exist"
 msgstr "Metode %1$s::%2$s tidak diketahui"
 
-#: Croogo/View/Layouts/admin.ctp:6
-#: Croogo/View/Layouts/admin_full.ctp:6
-#: Croogo/View/Layouts/admin_login.ctp:6
-#: Croogo/View/Layouts/admin_popup.ctp:6
+#: Croogo/View/Layouts/admin.ctp:6 Croogo/View/Layouts/admin_full.ctp:6
+#: Croogo/View/Layouts/admin_login.ctp:6 Croogo/View/Layouts/admin_popup.ctp:6
 #: Install/View/Layouts/install.ctp:6
 msgid "Croogo"
 msgstr "Croogo"
@@ -2025,12 +2001,12 @@ msgstr "Direction tidak sah"
 msgid "Plugin %s cannot be reordered"
 msgstr "Plugin %s tidak dapat disusun ulang"
 
-#: Extensions/Lib/CroogoTheme.php:252
+#: Extensions/Lib/CroogoTheme.php:255
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr "Tema tidak sah"
 
-#: Extensions/Lib/CroogoTheme.php:273
+#: Extensions/Lib/CroogoTheme.php:276
 msgid "Theme %s not found"
 msgstr "Tema %s tidak ditemukan"
 
@@ -2092,7 +2068,7 @@ msgstr "Pemasangan tema melalui composer belum didukung"
 
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:11
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;38
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:16
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:15
@@ -2104,7 +2080,7 @@ msgstr "Unggah"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:19
 #: Nodes/View/Nodes/admin_translations.ctp:26
-#: Translate/View/Translate/admin_index.ctp:58
+#: Translate/View/Translate/admin_index.ctp:80
 msgid "Locale"
 msgstr "Lokal"
 
@@ -2118,13 +2094,17 @@ msgstr "Penyetelan Tetap"
 msgid "Activate"
 msgstr "Aktifkan"
 
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:29
+#: FileManager/View/FileManager/admin_create_file.ctp:33
+#: FileManager/View/FileManager/admin_rename.ctp:33
+msgid "File"
+msgstr "Berkas"
+
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
-#: Menus/View/Links/admin_form.ctp:99
-#: Menus/View/Menus/admin_form.ctp:36
+#: Menus/View/Links/admin_form.ctp:99 Menus/View/Menus/admin_form.ctp:36
 #: Settings/View/Settings/admin_form.ctp:47
 #: Settings/View/Settings/admin_view.ctp:19
-#: Taxonomy/View/Terms/admin_form.ctp:51
-#: Taxonomy/View/Types/admin_form.ctp:38
+#: Taxonomy/View/Terms/admin_form.ctp:51 Taxonomy/View/Types/admin_form.ctp:38
 #: Taxonomy/View/Vocabularies/admin_form.ctp:43
 msgid "Description"
 msgstr "Deskripsi"
@@ -2153,7 +2133,7 @@ msgstr "Region yang didukung:  "
 msgid "Available Themes"
 msgstr "Tema tersedia"
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:135
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:137
 msgid "No available theme"
 msgstr "Tema tidak tersedia"
 
@@ -2321,7 +2301,6 @@ msgstr "Tipe Mime"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:28
 #: Nodes/View/Elements/search.ctp:7
-#: Nodes/View/Elements/search2.ctp:8
 #: Nodes/View/Elements/admin/nodes_search.ctp:22
 msgid "Search"
 msgstr "Pencarian"
@@ -2388,16 +2367,10 @@ msgid "Directory name"
 msgstr "Nama direktori"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:51
-#: Nodes/Config/admin_menu.php:25
-#: Nodes/View/Nodes/admin_create.ctp:6
+#: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
 #: Nodes/View/Nodes/admin_form.ctp:14
 msgid "Create"
 msgstr "Buat"
-
-#: FileManager/View/FileManager/admin_create_file.ctp:33
-#: FileManager/View/FileManager/admin_rename.ctp:33
-msgid "File"
-msgstr "Berkas"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
@@ -2422,14 +2395,12 @@ msgstr "Host"
 
 #: Install/Console/Command/InstallShell.php:116
 #: Install/View/Install/database.ctp:66
-#: Users/View/Users/login.ctp:2
 msgid "Login"
 msgstr "Masuk"
 
 #: Install/Console/Command/InstallShell.php:117;153
-#: Install/View/Install/database.ctp:74
-#: Users/View/Users/admin_form.ctp:92
-#: Users/View/Users/admin_login.ctp:15
+#: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
+#: Users/View/Users/admin_login.ctp:15 Users/View/Users/login.ctp:7
 msgid "Password"
 msgstr "Kata Sandi"
 
@@ -2449,18 +2420,15 @@ msgid "Port"
 msgstr "Port"
 
 #: Install/Console/Command/InstallShell.php:146
-#: Install/View/Install/adminuser.ctp:13
-#: Users/View/Users/admin_form.ctp:47
-#: Users/View/Users/admin_login.ctp:9
-#: Users/View/Users/forgot.ctp:6
+#: Install/View/Install/adminuser.ctp:13 Users/View/Users/admin_form.ctp:47
+#: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
+#: Users/View/Users/login.ctp:6
 msgid "Username"
 msgstr "Nama Pengguna"
 
 #: Install/Console/Command/InstallShell.php:155
-#: Install/View/Install/adminuser.ctp:26
-#: Users/View/Users/admin_form.ctp:96
-#: Users/View/Users/admin_reset_password.ctp:35
-#: Users/View/Users/reset.ctp:7
+#: Install/View/Install/adminuser.ctp:26 Users/View/Users/admin_form.ctp:96
+#: Users/View/Users/admin_reset_password.ctp:35 Users/View/Users/reset.ctp:7
 msgid "Verify Password"
 msgstr "Verifikasi kata sandi"
 
@@ -2610,8 +2578,12 @@ msgid "Database port (leave blank if unknown)"
 msgstr "Port Database (Biarkan kosong bila tidak diketahui)"
 
 #: Install/View/Install/finish.ctp:6
-msgid "\n\t\tThe user %s has been created with administrative rights."
-msgstr "\n\t\tPengguna %s telah dibuat dengan hak administrator"
+msgid ""
+"\n"
+"\t\tThe user %s has been created with administrative rights."
+msgstr ""
+"\n"
+"\t\tPengguna %s telah dibuat dengan hak administrator"
 
 #: Install/View/Install/finish.ctp:13
 msgid "Admin panel: %s"
@@ -2675,18 +2647,17 @@ msgstr "Klik disini untuk memulan pemasangan"
 
 #: Install/View/Install/index.ctp:57
 msgid "Installation cannot continue as minimum requirements are not met."
-msgstr "Pemasangan tidak dapat dilanjutkan dikarenakan syarat minimum tidak terpenuhi."
+msgstr ""
+"Pemasangan tidak dapat dilanjutkan dikarenakan syarat minimum tidak "
+"terpenuhi."
 
 #: Install/View/Layouts/install.ctp:27
 msgid "Install Croogo"
 msgstr "Pasang Croogo"
 
-#: Menus/Config/admin_menu.php:5;15
-#: Menus/Controller/MenusController.php:68
-#: Menus/View/Links/admin_form.ctp:9
-#: Menus/View/Links/admin_index.ctp:9
-#: Menus/View/Menus/admin_form.ctp:7
-#: Menus/View/Menus/admin_index.ctp:7
+#: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
+#: Menus/View/Links/admin_form.ctp:9 Menus/View/Links/admin_index.ctp:9
+#: Menus/View/Menus/admin_form.ctp:7 Menus/View/Menus/admin_index.ctp:7
 msgid "Menus"
 msgstr "Menu"
 
@@ -2766,13 +2737,11 @@ msgstr "Menu telah dihapus"
 msgid "Link"
 msgstr "Tautan"
 
-#: Menus/View/Links/admin_form.ctp:53
-#: Menus/View/Menus/admin_form.ctp:21
+#: Menus/View/Links/admin_form.ctp:53 Menus/View/Menus/admin_form.ctp:21
 msgid "Misc."
 msgstr "Lain-lain"
 
-#: Menus/View/Links/admin_form.ctp:62
-#: Menus/View/Menus/admin_form.ctp:20
+#: Menus/View/Links/admin_form.ctp:62 Menus/View/Menus/admin_form.ctp:20
 msgid "Menu"
 msgstr "Menu"
 
@@ -2820,26 +2789,24 @@ msgstr "Bidang kastom"
 msgid "Add another field"
 msgstr "Tambahkan bidang lain"
 
-#: Meta/View/Helper/MetaHelper.php:97
-#: Settings/View/Settings/admin_form.ctp:35
+#: Meta/View/Helper/MetaHelper.php:98 Settings/View/Settings/admin_form.ctp:35
 #: Settings/View/Settings/admin_index.ctp:19
 #: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
 msgstr "Kunci"
 
-#: Meta/View/Helper/MetaHelper.php:101
+#: Meta/View/Helper/MetaHelper.php:102
 #: Settings/View/Settings/admin_form.ctp:38
 #: Settings/View/Settings/admin_index.ctp:20
 #: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
 msgstr "Nilai"
 
-#: Meta/View/Helper/MetaHelper.php:128
+#: Meta/View/Helper/MetaHelper.php:129
 msgid "Remove"
 msgstr "Hapus"
 
-#: Nodes/Config/admin_menu.php:15
-#: Taxonomy/Config/admin_menu.php:25
+#: Nodes/Config/admin_menu.php:15 Taxonomy/Config/admin_menu.php:25
 msgid "List"
 msgstr "Daftar"
 
@@ -2877,8 +2844,12 @@ msgid "Paths updated."
 msgstr "Jalur telah diperbarui"
 
 #: Nodes/Controller/NodesController.php:331
-msgid "Something went wrong while updating paths.\nPlease try again"
-msgstr "Sesuatu terjadi saat pembaruan jalur. \nSilahkan coba kembali"
+msgid ""
+"Something went wrong while updating paths.\n"
+"Please try again"
+msgstr ""
+"Sesuatu terjadi saat pembaruan jalur. \n"
+"Silahkan coba kembali"
 
 #: Nodes/Controller/NodesController.php:348
 msgid "Invalid id for Node"
@@ -2941,16 +2912,14 @@ msgid "Leave a comment"
 msgstr "Tinggalkan komentar"
 
 #: Nodes/View/Elements/admin/nodes_search.ctp:31
-#: Nodes/View/Nodes/admin_hierarchy.ctp:38
-#: Nodes/View/Nodes/admin_index.ctp:33
+#: Nodes/View/Nodes/admin_hierarchy.ctp:38 Nodes/View/Nodes/admin_index.ctp:33
 #: Taxonomy/Controller/TypesController.php:53
 #: Taxonomy/View/Types/admin_form.ctp:20
 #: Taxonomy/View/Vocabularies/admin_form.ctp:46
 msgid "Type"
 msgstr "Tipe"
 
-#: Nodes/View/Nodes/admin_form.ctp:80
-#: Taxonomy/View/Terms/admin_chooser.ctp:7
+#: Nodes/View/Nodes/admin_form.ctp:80 Taxonomy/View/Terms/admin_chooser.ctp:7
 #: Taxonomy/View/Terms/admin_form.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
@@ -2968,14 +2937,12 @@ msgstr "Promosikan ke halaman depan"
 msgid "Publish as "
 msgstr "Publikasikan sebagai"
 
-#: Nodes/View/Nodes/admin_hierarchy.ctp:39
-#: Nodes/View/Nodes/admin_index.ctp:34
+#: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
 #: Users/View/Users/admin_form.ctp:37
 msgid "User"
 msgstr "User"
 
-#: Nodes/View/Nodes/admin_hierarchy.ctp:67
-#: Nodes/View/Nodes/admin_index.ctp:62
+#: Nodes/View/Nodes/admin_hierarchy.ctp:67 Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
 msgstr "promosi"
 
@@ -3000,19 +2967,17 @@ msgid "%s selected items?"
 msgstr "%s item yang dipilih?"
 
 #: Nodes/View/Nodes/admin_translations.ctp:8
-#: Translate/View/Translate/admin_index.ctp:37
+#: Translate/View/Translate/admin_index.ctp:36
 msgid "Translate in a new language"
 msgstr "Terjemahkan ke bahasa baru"
 
 #: Nodes/View/Nodes/admin_translations.ctp:49
-#: Translate/View/Translate/admin_index.ctp:101
+#: Translate/View/Translate/admin_index.ctp:72
 msgid "No translations available."
 msgstr "Alih bahasa tidak tersedia"
 
-#: Nodes/View/Nodes/index.ctp:4
-#: Nodes/View/Nodes/promoted.ctp:4
-#: Nodes/View/Nodes/search.ctp:11
-#: Nodes/View/Nodes/term.ctp:6
+#: Nodes/View/Nodes/index.ctp:4 Nodes/View/Nodes/promoted.ctp:4
+#: Nodes/View/Nodes/search.ctp:11 Nodes/View/Nodes/term.ctp:6
 msgid "No items found."
 msgstr "Tidak ada item yang ditemukan"
 
@@ -3024,7 +2989,7 @@ msgstr "Hasil pencarian: %s"
 #: Settings/Controller/SettingsController.php:68
 #: Settings/View/Languages/admin_form.ctp:7
 #: Settings/View/Languages/admin_index.ctp:6
-#: Settings/View/Languages/admin_select.ctp:5
+#: Settings/View/Languages/admin_select.ctp:7
 #: Settings/View/Settings/admin_form.ctp:6;26
 #: Settings/View/Settings/admin_index.ctp:7
 #: Settings/View/Settings/admin_prefix.ctp:6
@@ -3054,7 +3019,7 @@ msgstr "Servis"
 #: Settings/Config/admin_menu.php:88
 #: Settings/Controller/LanguagesController.php:40
 #: Settings/View/Languages/admin_index.ctp:7
-#: Settings/View/Languages/admin_select.ctp:6
+#: Settings/View/Languages/admin_select.ctp:8
 msgid "Languages"
 msgstr "Bahasa-bahasa"
 
@@ -3140,7 +3105,7 @@ msgid "Edit Language"
 msgstr "Ubah Bahasa"
 
 #: Settings/Controller/LanguagesController.php:78
-#: Translate/Controller/TranslateController.php:127
+#: Translate/Controller/TranslateController.php:134
 msgid "Invalid Language"
 msgstr "Bahasa tidak sah"
 
@@ -3210,7 +3175,7 @@ msgstr "Bahasa"
 msgid "Native"
 msgstr "Native"
 
-#: Settings/View/Languages/admin_select.ctp:16
+#: Settings/View/Languages/admin_select.ctp:12
 msgid "New Language"
 msgstr "Bahasa Baru"
 
@@ -3264,8 +3229,7 @@ msgstr "Pengaturan Baru"
 msgid "Content Types"
 msgstr "Tipe Konten"
 
-#: Taxonomy/Config/admin_menu.php:15
-#: Taxonomy/View/Types/admin_form.ctp:21
+#: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:21
 msgid "Taxonomy"
 msgstr "Taksonomi"
 
@@ -3287,7 +3251,8 @@ msgstr "Istilah berhasil disimpan."
 
 #: Taxonomy/Controller/TermsController.php:99;146
 msgid "Term could not be added to the vocabulary. Please try again."
-msgstr "Istilah tidak dapat ditambahkan kepada kosakata. Silahkan coba kembali."
+msgstr ""
+"Istilah tidak dapat ditambahkan kepada kosakata. Silahkan coba kembali."
 
 #: Taxonomy/Controller/TermsController.php:132
 msgid "%s: Edit Term"
@@ -3417,8 +3382,7 @@ msgstr "Istilah"
 msgid "New Term"
 msgstr "Istilah Baru"
 
-#: Taxonomy/View/Types/admin_form.ctp:7
-#: Taxonomy/View/Types/admin_index.ctp:8
+#: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:8
 msgid "Types"
 msgstr "Tipe-tipe"
 
@@ -3459,15 +3423,15 @@ msgstr "Tag"
 msgid "View terms"
 msgstr "Tinjau Istilah"
 
-#: Translate/Controller/TranslateController.php:45;100
+#: Translate/Controller/TranslateController.php:45;107
 msgid "Invalid ID."
 msgstr "ID Tidak Sah"
 
-#: Translate/Controller/TranslateController.php:57;196
+#: Translate/Controller/TranslateController.php:57;203
 msgid "Invalid model."
 msgstr "Model tidak sah"
 
-#: Translate/Controller/TranslateController.php:69;139;207
+#: Translate/Controller/TranslateController.php:69;146;214
 msgid "Invalid record."
 msgstr "Rekord tidak sah"
 
@@ -3475,57 +3439,55 @@ msgstr "Rekord tidak sah"
 msgid "Translations: %s"
 msgstr "Alih bahasa: %s"
 
-#: Translate/Controller/TranslateController.php:109
+#: Translate/Controller/TranslateController.php:116
 msgid "Invalid locale"
 msgstr "Lokal tidak sah"
 
-#: Translate/Controller/TranslateController.php:146
+#: Translate/Controller/TranslateController.php:153
 msgid "Translate content: %s (%s)"
 msgstr "Alibahasa konten: %s (%s)"
 
-#: Translate/Controller/TranslateController.php:153
+#: Translate/Controller/TranslateController.php:160
 msgid "Record has been translated"
 msgstr "Rekord telah dialih-bahasakan"
 
-#: Translate/Controller/TranslateController.php:165
+#: Translate/Controller/TranslateController.php:172
 msgid "Record could not be translated. Please, try again."
 msgstr "Rekord tidak dapat dialih-bahasakan. Silahkan coba kembali."
 
-#: Translate/Controller/TranslateController.php:184
+#: Translate/Controller/TranslateController.php:191
 msgid "Invalid Locale or ID"
 msgstr "Lokal atau ID tidak sah"
 
-#: Translate/Controller/TranslateController.php:222
+#: Translate/Controller/TranslateController.php:229
 msgid "Translation for the locale deleted successfully."
 msgstr "Alihbahasa untuk lokal berhasil dihapus."
 
-#: Translate/Controller/TranslateController.php:224
+#: Translate/Controller/TranslateController.php:231
 msgid "Translation for the locale could not be deleted."
 msgstr "Alihbahasa untuk lokal tidak dapat dihapus."
 
 #: Translate/Lib/Translations.php:22;27
-#: Translate/View/Translate/admin_edit.ctp:19;34
+#: Translate/View/Translate/admin_edit.ctp:19;33
 msgid "Translate"
 msgstr "Alihbahasakan"
 
 #: Translate/Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-msgstr "Sumber data %s untuk CroogoTranslateBehavior atau model $s tidak tersambung"
+msgstr ""
+"Sumber data %s untuk CroogoTranslateBehavior atau model $s tidak tersambung"
 
 #: Translate/View/Translate/admin_edit.ctp:10
 #: Translate/View/Translate/admin_index.ctp:31
 msgid "Translations"
 msgstr "Terjemahan"
 
-#: Users/Config/admin_menu.php:25
-#: Users/Controller/RolesController.php:40
-#: Users/View/Roles/admin_form.ctp:8
-#: Users/View/Roles/admin_index.ctp:7
+#: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
+#: Users/View/Roles/admin_form.ctp:8 Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
 msgstr "Penugasan"
 
-#: Users/Config/bootstrap.php:28
-#: Users/View/Users/admin_form.ctp:25
+#: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:25
 msgid "Reset password"
 msgstr "Reset Kata Sandi"
 
@@ -3578,8 +3540,12 @@ msgid "Role deleted"
 msgstr "Penugasan telah dihapus"
 
 #: Users/Controller/UsersController.php:77
-msgid "You have reached maximum limit for failed login attempts. Please try again after a few minutes."
-msgstr "Anda telah mencapai batas masuk maksimum. Silahkan dicoba kembali beberapa menit kemudian."
+msgid ""
+"You have reached maximum limit for failed login attempts. Please try again "
+"after a few minutes."
+msgstr ""
+"Anda telah mencapai batas masuk maksimum. Silahkan dicoba kembali beberapa "
+"menit kemudian."
 
 #: Users/Controller/UsersController.php:146;362
 msgid "[%s] Please activate your account"
@@ -3638,11 +3604,14 @@ msgid "Register"
 msgstr "Mendaftar"
 
 #: Users/Controller/UsersController.php:369
-msgid "You have successfully registered an account. An email has been sent with further instructions."
-msgstr "Anda telah berhasil mendaftarkan akun. Silahkan mengecek email untuk instruksi lebih lanjut."
+msgid ""
+"You have successfully registered an account. An email has been sent with "
+"further instructions."
+msgstr ""
+"Anda telah berhasil mendaftarkan akun. Silahkan mengecek email untuk "
+"instruksi lebih lanjut."
 
-#: Users/Controller/UsersController.php:393
-#: Users/View/Users/index.ctp:4
+#: Users/Controller/UsersController.php:393 Users/View/Users/index.ctp:4
 msgid "You are currently logged in as:"
 msgstr "Anda saat ini sedang login sebagai:"
 
@@ -3664,7 +3633,9 @@ msgstr "[%s] Tetapkan ulang kata sandi"
 
 #: Users/Controller/UsersController.php:476
 msgid "An email has been sent with instructions for resetting your password."
-msgstr "Sebuah email telah dikirimkan berikut instruksi untuk menetapkan ulang kata sandi Anda."
+msgstr ""
+"Sebuah email telah dikirimkan berikut instruksi untuk menetapkan ulang kata "
+"sandi Anda."
 
 #: Users/Controller/UsersController.php:479;521
 msgid "An error occurred. Please try again."
@@ -3698,11 +3669,14 @@ msgstr "Hallo %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
-msgstr "Silahkan kunjungi tautan berikut untuk menetapkan ulang kata sandi Anda: %s"
+msgstr ""
+"Silahkan kunjungi tautan berikut untuk menetapkan ulang kata sandi Anda: %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
-msgstr "Bila Anda tidak meminta untuk menetapkan ulang kata sandi, mohon abaikan email ini."
+msgstr ""
+"Bila Anda tidak meminta untuk menetapkan ulang kata sandi, mohon abaikan "
+"email ini."
 
 #: Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
@@ -3728,11 +3702,11 @@ msgstr "Kirim Email Aktifasi"
 msgid "Remember me?"
 msgstr "Ingat Saya?"
 
-#: Users/View/Users/admin_login.ctp:27
+#: Users/View/Users/admin_login.ctp:27 Users/View/Users/login.ctp:10
 msgid "Log In"
 msgstr "Masuk"
 
-#: Users/View/Users/admin_login.ctp:28
+#: Users/View/Users/admin_login.ctp:28 Users/View/Users/login.ctp:12
 msgid "Forgot password?"
 msgstr "Lupa Kata Sandi?"
 
@@ -3740,7 +3714,7 @@ msgstr "Lupa Kata Sandi?"
 msgid "Reset Password: %s"
 msgstr "Tetapkan Ulang Kata Sandi: %s"
 
-#: Users/View/Users/admin_reset_password.ctp:46
+#: Users/View/Users/admin_reset_password.ctp:46 Users/View/Users/reset.ctp:10
 msgid "Reset"
 msgstr "Tetapkan Ulang"
 
@@ -3749,43 +3723,33 @@ msgid "New password"
 msgstr "Kata Sandi Baru"
 
 #: Blocks/Model/Block.php:validation for field title
-#: Blocks/Model/Region.php:validation for field title
-#: Menus/Model/Link.php:validation for field title
-#: Menus/Model/Menu.php:validation for field title
-#: Settings/Model/Language.php:validation for field title
-#: Taxonomy/Model/Type.php:validation for field title
-#: Taxonomy/Model/Vocabulary.php:validation for field title
+#: Blocks/Model/Region.php:validation Menus/Model/Link.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 msgid "Title cannot be empty."
 msgstr "Judul tidak boleh kosong"
 
 #: Blocks/Model/Block.php:validation for field alias
-#: Blocks/Model/Region.php:validation for field alias
-#: Contacts/Model/Contact.php:validation for field alias
-#: Menus/Model/Menu.php:validation for field alias
-#: Settings/Model/Language.php:validation for field alias
-#: Taxonomy/Model/Type.php:validation for field alias
-#: Taxonomy/Model/Vocabulary.php:validation for field alias
-#: Users/Model/Role.php:validation for field alias
+#: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
+#: Users/Model/Role.php:validation
 msgid "This alias has already been taken."
 msgstr "Alias ini sudah digunakan"
 
 #: Blocks/Model/Block.php:validation for field alias
-#: Blocks/Model/Region.php:validation for field alias
-#: Contacts/Model/Contact.php:validation for field alias
-#: Menus/Model/Menu.php:validation for field alias
-#: Settings/Model/Language.php:validation for field alias
-#: Taxonomy/Model/Type.php:validation for field alias
-#: Taxonomy/Model/Vocabulary.php:validation for field alias
-#: Users/Model/Role.php:validation for field title;validation for field alias
+#: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
+#: Users/Model/Role.php:validation title;validation
 msgid "Alias cannot be empty."
 msgstr "Alias tidak boleh kosong"
 
-#: Comments/Model/Comment.php:validation for field body;validation for field name
-#: Contacts/Model/Contact.php:validation for field title
-#: Contacts/Model/Message.php:validation for field name;validation for field title;validation for field body
-#: FileManager/Model/Attachment.php:validation for field title
-#: Nodes/Model/Node.php:validation for field title
-#: Users/Model/User.php:validation for field username;validation for field name
+#: Comments/Model/Comment.php:validation for field body;validation name
+#: Contacts/Model/Contact.php:validation title
+#: Contacts/Model/Message.php:validation name;validation title;validation body
+#: FileManager/Model/Attachment.php:validation Nodes/Model/Node.php:validation
+#: Users/Model/User.php:validation username;validation
 msgid "This field cannot be left blank."
 msgstr "Bagian ini tidak boleh kosong."
 
@@ -3794,20 +3758,17 @@ msgid "Please enter a valid email address."
 msgstr "Mohon masukkan alamat email yang sah"
 
 #: Contacts/Model/Contact.php:validation for field email
-#: Contacts/Model/Message.php:validation for field email
-#: Users/Model/User.php:validation for field email
+#: Contacts/Model/Message.php:validation Users/Model/User.php:validation
 msgid "Please provide a valid email address."
 msgstr "Mohon sediakan alamat email yang sah."
 
 #: FileManager/Model/Attachment.php:validation for field slug
-#: Nodes/Model/Node.php:validation for field slug
-#: Taxonomy/Model/Term.php:validation for field slug
+#: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
 msgstr "Slug telah digunakan."
 
 #: FileManager/Model/Attachment.php:validation for field slug
-#: Nodes/Model/Node.php:validation for field slug
-#: Taxonomy/Model/Term.php:validation for field slug
+#: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
 msgstr "Slug tidak boleh kosong"
 
@@ -3823,8 +3784,8 @@ msgstr "Kunci ini telah digunakan"
 msgid "Key cannot be empty."
 msgstr "Kunci tidak boleh kosong"
 
-#: Users/Model/Role.php:validation for field title;validation for field alias
-#: Users/Model/User.php:validation for field username;validation for field name
+#: Users/Model/Role.php:validation for field title;validation alias
+#: Users/Model/User.php:validation username;validation name
 msgid "This field must be alphanumeric"
 msgstr "Bagian ini harus berisikan alphanumeric"
 
@@ -3844,3 +3805,7 @@ msgstr "Kata sandi setidaknya harus memiliki panjang 6 karakter."
 msgid "This field must be a valid URL"
 msgstr "Bagian ini harus berisi URL yang sah"
 
+#~ msgid "Better manage, and easily synchronize your application's ACO tree"
+#~ msgstr ""
+#~ "Tata kelola yang lebih baik, dan lebih mudah melakukan sinkronisasi "
+#~ "terhadap struktur pokok ACO dari aplikasi Anda"

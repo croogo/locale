@@ -75,7 +75,7 @@ msgstr ""
 #: Blocks/View/Blocks/admin_index.ctp:24
 #: Comments/View/Comments/admin_index.ctp:48
 #: Contacts/View/Messages/admin_index.ctp:65
-#: Croogo/View/Common/admin_index.ctp:60
+#: Croogo/View/Common/admin_index.ctp:62
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:20
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:39
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:21
@@ -89,7 +89,7 @@ msgstr ""
 #: Settings/View/Settings/admin_index.ctp:22
 #: Taxonomy/View/Terms/admin_index.ctp:29
 #: Taxonomy/View/Vocabularies/admin_index.ctp:17
-#: Translate/View/Translate/admin_index.ctp:59
+#: Translate/View/Translate/admin_index.ctp:81
 msgid "Actions"
 msgstr "アクション"
 
@@ -295,6 +295,8 @@ msgstr "エイリアス"
 #: Contacts/View/Messages/admin_form.ctp:49
 #: Croogo/View/Common/admin_edit.ctp:115
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:36
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:37
+#: Extensions/View/ExtensionsThemes/admin_add.ctp:36
 #: FileManager/View/Attachments/admin_add.ctp:41
 #: FileManager/View/Attachments/admin_edit.ctp:51
 #: FileManager/View/FileManager/admin_create_directory.ctp:50
@@ -302,13 +304,14 @@ msgstr "エイリアス"
 #: FileManager/View/FileManager/admin_editfile.ctp:49
 #: FileManager/View/FileManager/admin_rename.ctp:49
 #: FileManager/View/FileManager/admin_upload.ctp:48
-#: Menus/View/Links/admin_form.ctp:117 Nodes/View/Nodes/admin_form.ctp:106
+#: Menus/View/Links/admin_form.ctp:117 Menus/View/Menus/admin_form.ctp:51
+#: Nodes/View/Nodes/admin_form.ctp:106
 #: Settings/View/Languages/admin_form.ctp:52
 #: Settings/View/Settings/admin_form.ctp:65
 #: Taxonomy/View/Terms/admin_form.ctp:60
 #: Taxonomy/View/Types/admin_form.ctp:100
 #: Taxonomy/View/Vocabularies/admin_form.ctp:67
-#: Translate/View/Translate/admin_edit.ctp:52
+#: Translate/View/Translate/admin_edit.ctp:49
 #: Users/View/Roles/admin_form.ctp:40 Users/View/Users/admin_form.ctp:70
 #: Users/View/Users/admin_reset_password.ctp:45
 msgid "Publishing"
@@ -322,7 +325,7 @@ msgstr "公開"
 #: Nodes/View/Nodes/admin_form.ctp:107 Taxonomy/View/Terms/admin_form.ctp:61
 #: Taxonomy/View/Types/admin_form.ctp:101
 #: Taxonomy/View/Vocabularies/admin_form.ctp:68
-#: Translate/View/Translate/admin_edit.ctp:53
+#: Translate/View/Translate/admin_edit.ctp:50
 #: Users/View/Roles/admin_form.ctp:41 Users/View/Users/admin_form.ctp:71
 msgid "Apply"
 msgstr ""
@@ -347,7 +350,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_form.ctp:62
 #: Taxonomy/View/Types/admin_form.ctp:102
 #: Taxonomy/View/Vocabularies/admin_form.ctp:69
-#: Translate/View/Translate/admin_edit.ctp:54
+#: Translate/View/Translate/admin_edit.ctp:51
 #: Users/View/Roles/admin_form.ctp:42 Users/View/Users/admin_form.ctp:72
 msgid "Save"
 msgstr ""
@@ -360,7 +363,7 @@ msgstr ""
 #: Croogo/View/Common/admin_edit.ctp:117
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:38
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:41
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:38
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:39
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:38
 #: FileManager/View/Attachments/admin_add.ctp:43
 #: FileManager/View/Attachments/admin_edit.ctp:55
@@ -377,7 +380,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_form.ctp:64
 #: Taxonomy/View/Types/admin_form.ctp:104
 #: Taxonomy/View/Vocabularies/admin_form.ctp:71
-#: Translate/View/Translate/admin_edit.ctp:55
+#: Translate/View/Translate/admin_edit.ctp:52
 #: Users/View/Roles/admin_form.ctp:44 Users/View/Users/admin_form.ctp:74
 #: Users/View/Users/admin_reset_password.ctp:48
 msgid "Cancel"
@@ -464,7 +467,7 @@ msgstr "下に移動"
 #: Blocks/View/Blocks/admin_index.ctp:45
 #: Comments/View/Comments/admin_index.ctp:60
 #: Contacts/View/Messages/admin_index.ctp:78
-#: Croogo/View/Common/admin_index.ctp:81
+#: Croogo/View/Common/admin_index.ctp:83
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:37
 #: FileManager/View/Attachments/admin_index.ctp:27
 #: Menus/View/Links/admin_index.ctp:68 Menus/View/Menus/admin_index.ctp:35
@@ -474,7 +477,7 @@ msgstr "下に移動"
 #: Settings/View/Settings/admin_index.ctp:41
 #: Taxonomy/View/Terms/admin_index.ctp:50
 #: Taxonomy/View/Vocabularies/admin_index.ctp:43
-#: Translate/View/Translate/admin_index.ctp:76
+#: Translate/View/Translate/admin_index.ctp:97
 msgid "Edit this item"
 msgstr ""
 
@@ -483,7 +486,7 @@ msgstr ""
 #: Blocks/View/Blocks/admin_index.ctp:58
 #: Comments/View/Comments/admin_index.ctp:67
 #: Contacts/View/Messages/admin_index.ctp:85
-#: Croogo/View/Common/admin_index.ctp:91
+#: Croogo/View/Common/admin_index.ctp:93
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:41
 #: FileManager/View/Attachments/admin_index.ctp:31
 #: Menus/View/Menus/admin_index.ctp:40
@@ -493,7 +496,7 @@ msgstr ""
 #: Settings/View/Settings/admin_index.ctp:46
 #: Taxonomy/View/Terms/admin_index.ctp:54
 #: Taxonomy/View/Vocabularies/admin_index.ctp:47
-#: Translate/View/Translate/admin_index.ctp:85
+#: Translate/View/Translate/admin_index.ctp:106
 msgid "Remove this item"
 msgstr ""
 
@@ -502,10 +505,10 @@ msgstr ""
 #: Blocks/View/Blocks/admin_index.ctp:59
 #: Comments/View/Comments/admin_index.ctp:70
 #: Contacts/View/Messages/admin_index.ctp:88
-#: Croogo/View/Common/admin_index.ctp:93
+#: Croogo/View/Common/admin_index.ctp:95
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:42
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:54;62;68;76
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:127
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:129
 #: FileManager/View/Attachments/admin_browse.ctp:42
 #: FileManager/View/Attachments/admin_index.ctp:32
 #: FileManager/View/Helper/FileManagerHelper.php:154
@@ -517,7 +520,7 @@ msgstr ""
 #: Settings/View/Settings/admin_index.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:55
 #: Taxonomy/View/Vocabularies/admin_index.ctp:48
-#: Translate/View/Translate/admin_index.ctp:86
+#: Translate/View/Translate/admin_index.ctp:107
 msgid "Are you sure?"
 msgstr "本当によろしいですか？"
 
@@ -711,7 +714,7 @@ msgstr "パラメータ"
 #: Taxonomy/View/Types/admin_form.ctp:32
 #: Taxonomy/View/Vocabularies/admin_form.ctp:36
 #: Taxonomy/View/Vocabularies/admin_index.ctp:14
-#: Translate/View/Translate/admin_index.ctp:57
+#: Translate/View/Translate/admin_index.ctp:79
 #: Users/View/Roles/admin_form.ctp:29
 msgid "Title"
 msgstr "タイトル"
@@ -797,7 +800,7 @@ msgstr "ディレクトリを作成"
 msgid "Create a copy of this Block?"
 msgstr ""
 
-#: Blocks/View/Blocks/admin_index.ctp:65 Croogo/View/Common/admin_index.ctp:73
+#: Blocks/View/Blocks/admin_index.ctp:65 Croogo/View/Common/admin_index.ctp:75
 msgid "Choose"
 msgstr ""
 
@@ -1633,7 +1636,7 @@ msgstr "アクションを削除しました"
 msgid "Edit"
 msgstr "編集"
 
-#: Croogo/View/Common/admin_index.ctp:39 Croogo/View/Common/admin_view.ctp:39
+#: Croogo/View/Common/admin_index.ctp:41 Croogo/View/Common/admin_view.ctp:39
 #: Menus/View/Links/admin_index.ctp:17
 msgid "New %s"
 msgstr ""
@@ -1972,12 +1975,12 @@ msgstr ""
 msgid "Plugin %s cannot be reordered"
 msgstr ""
 
-#: Extensions/Lib/CroogoTheme.php:252
+#: Extensions/Lib/CroogoTheme.php:255
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
 msgstr ""
 
-#: Extensions/Lib/CroogoTheme.php:273
+#: Extensions/Lib/CroogoTheme.php:276
 msgid "Theme %s not found"
 msgstr ""
 
@@ -2039,7 +2042,7 @@ msgstr ""
 
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:11
-#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;37
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:9;21;38
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:16
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:15
@@ -2051,7 +2054,7 @@ msgstr "アップロード"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:19
 #: Nodes/View/Nodes/admin_translations.ctp:26
-#: Translate/View/Translate/admin_index.ctp:58
+#: Translate/View/Translate/admin_index.ctp:80
 msgid "Locale"
 msgstr "ロケール"
 
@@ -2064,6 +2067,12 @@ msgstr "デフォルト"
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:114
 msgid "Activate"
 msgstr "有効化"
+
+#: Extensions/View/ExtensionsPlugins/admin_add.ctp:29
+#: FileManager/View/FileManager/admin_create_file.ctp:33
+#: FileManager/View/FileManager/admin_rename.ctp:33
+msgid "File"
+msgstr ""
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
 #: Menus/View/Links/admin_form.ctp:99 Menus/View/Menus/admin_form.ctp:36
@@ -2098,7 +2107,7 @@ msgstr "サポートするリージョン:"
 msgid "Available Themes"
 msgstr "利用可能なテーマ"
 
-#: Extensions/View/ExtensionsThemes/admin_index.ctp:135
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:137
 msgid "No available theme"
 msgstr ""
 
@@ -2265,7 +2274,7 @@ msgid "Mime Type"
 msgstr "Mimeタイプ"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:28
-#: Nodes/View/Elements/search.ctp:7 Nodes/View/Elements/search2.ctp:8
+#: Nodes/View/Elements/search.ctp:7
 #: Nodes/View/Elements/admin/nodes_search.ctp:22
 msgid "Search"
 msgstr "検索"
@@ -2337,11 +2346,6 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: FileManager/View/FileManager/admin_create_file.ctp:33
-#: FileManager/View/FileManager/admin_rename.ctp:33
-msgid "File"
-msgstr ""
-
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
 msgstr ""
@@ -2364,13 +2368,13 @@ msgid "Host"
 msgstr ""
 
 #: Install/Console/Command/InstallShell.php:116
-#: Install/View/Install/database.ctp:66 Users/View/Users/login.ctp:2
+#: Install/View/Install/database.ctp:66
 msgid "Login"
 msgstr "ログイン"
 
 #: Install/Console/Command/InstallShell.php:117;153
 #: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
-#: Users/View/Users/admin_login.ctp:15
+#: Users/View/Users/admin_login.ctp:15 Users/View/Users/login.ctp:7
 msgid "Password"
 msgstr ""
 
@@ -2392,6 +2396,7 @@ msgstr ""
 #: Install/Console/Command/InstallShell.php:146
 #: Install/View/Install/adminuser.ctp:13 Users/View/Users/admin_form.ctp:47
 #: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
+#: Users/View/Users/login.ctp:6
 msgid "Username"
 msgstr ""
 
@@ -2755,20 +2760,20 @@ msgstr ""
 msgid "Add another field"
 msgstr "別のフィールドを追加"
 
-#: Meta/View/Helper/MetaHelper.php:97 Settings/View/Settings/admin_form.ctp:35
+#: Meta/View/Helper/MetaHelper.php:98 Settings/View/Settings/admin_form.ctp:35
 #: Settings/View/Settings/admin_index.ctp:19
 #: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
 msgstr "キー"
 
-#: Meta/View/Helper/MetaHelper.php:101
+#: Meta/View/Helper/MetaHelper.php:102
 #: Settings/View/Settings/admin_form.ctp:38
 #: Settings/View/Settings/admin_index.ctp:20
 #: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
 msgstr "値"
 
-#: Meta/View/Helper/MetaHelper.php:128
+#: Meta/View/Helper/MetaHelper.php:129
 msgid "Remove"
 msgstr "除去"
 
@@ -2931,12 +2936,12 @@ msgid "%s selected items?"
 msgstr ""
 
 #: Nodes/View/Nodes/admin_translations.ctp:8
-#: Translate/View/Translate/admin_index.ctp:37
+#: Translate/View/Translate/admin_index.ctp:36
 msgid "Translate in a new language"
 msgstr "新しい言語で翻訳"
 
 #: Nodes/View/Nodes/admin_translations.ctp:49
-#: Translate/View/Translate/admin_index.ctp:101
+#: Translate/View/Translate/admin_index.ctp:72
 msgid "No translations available."
 msgstr "利用可能な翻訳がありません。"
 
@@ -2953,7 +2958,7 @@ msgstr "検索結果: %s"
 #: Settings/Controller/SettingsController.php:68
 #: Settings/View/Languages/admin_form.ctp:7
 #: Settings/View/Languages/admin_index.ctp:6
-#: Settings/View/Languages/admin_select.ctp:5
+#: Settings/View/Languages/admin_select.ctp:7
 #: Settings/View/Settings/admin_form.ctp:6;26
 #: Settings/View/Settings/admin_index.ctp:7
 #: Settings/View/Settings/admin_prefix.ctp:6
@@ -2983,7 +2988,7 @@ msgstr "サービス"
 #: Settings/Config/admin_menu.php:88
 #: Settings/Controller/LanguagesController.php:40
 #: Settings/View/Languages/admin_index.ctp:7
-#: Settings/View/Languages/admin_select.ctp:6
+#: Settings/View/Languages/admin_select.ctp:8
 msgid "Languages"
 msgstr "言語"
 
@@ -3069,7 +3074,7 @@ msgid "Edit Language"
 msgstr "言語の編集"
 
 #: Settings/Controller/LanguagesController.php:78
-#: Translate/Controller/TranslateController.php:127
+#: Translate/Controller/TranslateController.php:134
 msgid "Invalid Language"
 msgstr "不正な言語"
 
@@ -3139,7 +3144,7 @@ msgstr ""
 msgid "Native"
 msgstr ""
 
-#: Settings/View/Languages/admin_select.ctp:16
+#: Settings/View/Languages/admin_select.ctp:12
 msgid "New Language"
 msgstr "新しい言語"
 
@@ -3387,15 +3392,15 @@ msgstr ""
 msgid "View terms"
 msgstr "用語を見る"
 
-#: Translate/Controller/TranslateController.php:45;100
+#: Translate/Controller/TranslateController.php:45;107
 msgid "Invalid ID."
 msgstr "不正なID"
 
-#: Translate/Controller/TranslateController.php:57;196
+#: Translate/Controller/TranslateController.php:57;203
 msgid "Invalid model."
 msgstr "不正なモデル"
 
-#: Translate/Controller/TranslateController.php:69;139;207
+#: Translate/Controller/TranslateController.php:69;146;214
 msgid "Invalid record."
 msgstr "不正なレコード"
 
@@ -3403,36 +3408,36 @@ msgstr "不正なレコード"
 msgid "Translations: %s"
 msgstr "翻訳: %s"
 
-#: Translate/Controller/TranslateController.php:109
+#: Translate/Controller/TranslateController.php:116
 msgid "Invalid locale"
 msgstr "不正なロケール"
 
-#: Translate/Controller/TranslateController.php:146
+#: Translate/Controller/TranslateController.php:153
 msgid "Translate content: %s (%s)"
 msgstr "コンテンツの翻訳: %s (%s)"
 
-#: Translate/Controller/TranslateController.php:153
+#: Translate/Controller/TranslateController.php:160
 msgid "Record has been translated"
 msgstr "レコードを翻訳しました"
 
-#: Translate/Controller/TranslateController.php:165
+#: Translate/Controller/TranslateController.php:172
 msgid "Record could not be translated. Please, try again."
 msgstr "レコードを翻訳できませんでした。もう一度試してみてください。"
 
-#: Translate/Controller/TranslateController.php:184
+#: Translate/Controller/TranslateController.php:191
 msgid "Invalid Locale or ID"
 msgstr "不正なロケールまたはID"
 
-#: Translate/Controller/TranslateController.php:222
+#: Translate/Controller/TranslateController.php:229
 msgid "Translation for the locale deleted successfully."
 msgstr "このロケールの翻訳を削除しました。"
 
-#: Translate/Controller/TranslateController.php:224
+#: Translate/Controller/TranslateController.php:231
 msgid "Translation for the locale could not be deleted."
 msgstr "このロケールの翻訳を削除できませんでした。"
 
 #: Translate/Lib/Translations.php:22;27
-#: Translate/View/Translate/admin_edit.ctp:19;34
+#: Translate/View/Translate/admin_edit.ctp:19;33
 msgid "Translate"
 msgstr ""
 
@@ -3658,11 +3663,11 @@ msgstr ""
 msgid "Remember me?"
 msgstr ""
 
-#: Users/View/Users/admin_login.ctp:27
+#: Users/View/Users/admin_login.ctp:27 Users/View/Users/login.ctp:10
 msgid "Log In"
 msgstr "ログイン"
 
-#: Users/View/Users/admin_login.ctp:28
+#: Users/View/Users/admin_login.ctp:28 Users/View/Users/login.ctp:12
 msgid "Forgot password?"
 msgstr "パスワードを忘れた?"
 
@@ -3670,7 +3675,7 @@ msgstr "パスワードを忘れた?"
 msgid "Reset Password: %s"
 msgstr ""
 
-#: Users/View/Users/admin_reset_password.ctp:46
+#: Users/View/Users/admin_reset_password.ctp:46 Users/View/Users/reset.ctp:10
 msgid "Reset"
 msgstr ""
 
@@ -3678,120 +3683,86 @@ msgstr ""
 msgid "New password"
 msgstr "新しいパスワード"
 
-#: Blocks/Model/Block.php:validation
-#: for field title
-#: Blocks/Model/Region.php:validation
-#: Menus/Model/Link.php:validation
-#: Menus/Model/Menu.php:validation
-#: Settings/Model/Language.php:validation
-#: Taxonomy/Model/Type.php:validation
-#: Taxonomy/Model/Vocabulary.php:validation
+#: Blocks/Model/Block.php:validation for field title
+#: Blocks/Model/Region.php:validation Menus/Model/Link.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 msgid "Title cannot be empty."
 msgstr ""
 
-#: Blocks/Model/Block.php:validation
-#: for field alias
-#: Blocks/Model/Region.php:validation
-#: Contacts/Model/Contact.php:validation
-#: Menus/Model/Menu.php:validation
-#: Settings/Model/Language.php:validation
-#: Taxonomy/Model/Type.php:validation
-#: Taxonomy/Model/Vocabulary.php:validation
+#: Blocks/Model/Block.php:validation for field alias
+#: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 #: Users/Model/Role.php:validation
 msgid "This alias has already been taken."
 msgstr ""
 
-#: Blocks/Model/Block.php:validation
-#: for field alias
-#: Blocks/Model/Region.php:validation
-#: Contacts/Model/Contact.php:validation
-#: Menus/Model/Menu.php:validation
-#: Settings/Model/Language.php:validation
-#: Taxonomy/Model/Type.php:validation
-#: Taxonomy/Model/Vocabulary.php:validation
-#: Users/Model/Role.php:validation
-#: title;validation
+#: Blocks/Model/Block.php:validation for field alias
+#: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
+#: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
+#: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
+#: Users/Model/Role.php:validation title;validation
 msgid "Alias cannot be empty."
 msgstr ""
 
-#: Comments/Model/Comment.php:validation
-#: for field body;validation name
-#: Contacts/Model/Contact.php:validation
-#: title
-#: Contacts/Model/Message.php:validation
-#: name;validation title;validation body
-#: FileManager/Model/Attachment.php:validation
-#: Nodes/Model/Node.php:validation
-#: Users/Model/User.php:validation
-#: username;validation
+#: Comments/Model/Comment.php:validation for field body;validation name
+#: Contacts/Model/Contact.php:validation title
+#: Contacts/Model/Message.php:validation name;validation title;validation body
+#: FileManager/Model/Attachment.php:validation Nodes/Model/Node.php:validation
+#: Users/Model/User.php:validation username;validation
 msgid "This field cannot be left blank."
 msgstr ""
 
-#: Comments/Model/Comment.php:validation
-#: for field email
+#: Comments/Model/Comment.php:validation for field email
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: Contacts/Model/Contact.php:validation
-#: for field email
-#: Contacts/Model/Message.php:validation
-#: Users/Model/User.php:validation
+#: Contacts/Model/Contact.php:validation for field email
+#: Contacts/Model/Message.php:validation Users/Model/User.php:validation
 msgid "Please provide a valid email address."
 msgstr ""
 
-#: FileManager/Model/Attachment.php:validation
-#: for field slug
-#: Nodes/Model/Node.php:validation
-#: Taxonomy/Model/Term.php:validation
+#: FileManager/Model/Attachment.php:validation for field slug
+#: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
 msgstr ""
 
-#: FileManager/Model/Attachment.php:validation
-#: for field slug
-#: Nodes/Model/Node.php:validation
-#: Taxonomy/Model/Term.php:validation
+#: FileManager/Model/Attachment.php:validation for field slug
+#: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
 msgstr ""
 
-#: Menus/Model/Link.php:validation
-#: for field link
+#: Menus/Model/Link.php:validation for field link
 msgid "Link cannot be empty."
 msgstr ""
 
-#: Settings/Model/Setting.php:validation
-#: for field key
+#: Settings/Model/Setting.php:validation for field key
 msgid "This key has already been taken."
 msgstr ""
 
-#: Settings/Model/Setting.php:validation
-#: for field key
+#: Settings/Model/Setting.php:validation for field key
 msgid "Key cannot be empty."
 msgstr ""
 
-#: Users/Model/Role.php:validation
-#: for field title;validation alias
-#: Users/Model/User.php:validation
-#: username;validation name
+#: Users/Model/Role.php:validation for field title;validation alias
+#: Users/Model/User.php:validation username;validation name
 msgid "This field must be alphanumeric"
 msgstr ""
 
-#: Users/Model/User.php:validation
-#: for field username
+#: Users/Model/User.php:validation for field username
 msgid "The username has already been taken."
 msgstr ""
 
-#: Users/Model/User.php:validation
-#: for field email
+#: Users/Model/User.php:validation for field email
 msgid "Email address already in use."
 msgstr ""
 
-#: Users/Model/User.php:validation
-#: for field password
+#: Users/Model/User.php:validation for field password
 msgid "Passwords must be at least 6 characters long."
 msgstr ""
 
-#: Users/Model/User.php:validation
-#: for field website
+#: Users/Model/User.php:validation for field website
 msgid "This field must be a valid URL"
 msgstr ""
 
