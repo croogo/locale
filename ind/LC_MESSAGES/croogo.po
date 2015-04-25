@@ -1425,7 +1425,7 @@ msgstr "Plugin \"%s\" telah berhasil diaktifkan."
 #: Croogo/Console/Command/ExtShell.php:170
 #: Extensions/Lib/CroogoPlugin.php:558
 msgid "Plugin \"%s\" could not be activated. Please, try again."
-msgstr "Plugin \%s\% tidak dapat diaktifkan. Silahkan coba kembali."
+msgstr "Plugin \"%s\" tidak dapat diaktifkan. Silahkan coba kembali."
 
 #: Croogo/Console/Command/ExtShell.php:186
 msgid "Plugin \"%s\" could not be deactivated. Please, try again."
@@ -1434,7 +1434,7 @@ msgstr "Plugin \"%s\" tidak dapat di non-aktifkan. Silahkan coba kembali."
 #: Croogo/Console/Command/ExtShell.php:194
 #: Extensions/Controller/ExtensionsPluginsController.php:143
 msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
-msgstr "Plugin \%s\" tidak dapat di non-aktifkan karena \"%s\ bergantung padanya"
+msgstr "Plugin \"%s\" tidak dapat di non-aktifkan karena \"%s\" bergantung padanya"
 
 #: Croogo/Console/Command/ExtShell.php:205
 #: Extensions/Controller/ExtensionsPluginsController.php:148
@@ -1942,7 +1942,7 @@ msgstr "Plugin \"%s\" telah berhasil di migrasi."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:179
 msgid "Plugin \"%s\" could not be migrated. Error: %s"
-msgstr "Plugin \%s\" tidak dapat di migrasi. Error: %s"
+msgstr "Plugin \"%s\" tidak dapat di migrasi. Error: %s"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:201
 msgid "Plugin %s has been moved up"
