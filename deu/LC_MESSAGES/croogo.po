@@ -24,7 +24,7 @@ msgstr "Rechte"
 
 #: Acl/Config/admin_menu.php:15
 msgid "Access Control"
-msgstr ""
+msgstr "Zugangskontrolle"
 
 #: Acl/Console/Command/ExtrasShell.php:93
 msgid "Plugin to process"
@@ -148,11 +148,11 @@ msgstr "%d neue Rechte wurden erstellt"
 
 #: Acl/Controller/AclPermissionsController.php:168
 msgid "ACL database has been upgraded successfully"
-msgstr ""
+msgstr "ACL Datenbank wurde erflogreich aktualisiert"
 
 #: Acl/Controller/Component/AclAccessComponent.php:52
 msgid "Parent Role"
-msgstr ""
+msgstr "Eltern Rolle"
 
 #: Acl/Controller/Component/AclFilterComponent.php:82
 msgid ""
@@ -163,7 +163,7 @@ msgstr ""
 msgid ""
 "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
 "\"%2$s\""
-msgstr ""
+msgstr "Model %s wurde nicht gefunden."
 
 #: Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
@@ -394,27 +394,27 @@ msgstr "Abbrechen"
 #: Acl/View/AclActions/admin_index.ctp:18
 #: Acl/View/AclPermissions/admin_index.ctp:19
 msgid "Tools"
-msgstr ""
+msgstr "Werkzeuge"
 
 #: Acl/View/AclActions/admin_index.ctp:33
 #: Acl/View/AclPermissions/admin_index.ctp:34
 msgid "Generate"
-msgstr ""
+msgstr "Generieren"
 
 #: Acl/View/AclActions/admin_index.ctp:40
 #: Acl/View/AclPermissions/admin_index.ctp:41
 msgid "Create new actions (no removal)"
-msgstr ""
+msgstr "Erzeuge neue Aktionen (keine Entfernung)"
 
 #: Acl/View/AclActions/admin_index.ctp:45
 #: Acl/View/AclPermissions/admin_index.ctp:46
 msgid "Synchronize"
-msgstr ""
+msgstr "Synchronisieren"
 
 #: Acl/View/AclActions/admin_index.ctp:52
 #: Acl/View/AclPermissions/admin_index.ctp:53
 msgid "Create new & remove orphaned actions"
-msgstr ""
+msgstr "Erzeuge neue & entferne veraltete Aktionen"
 
 #: Acl/View/AclActions/admin_index.ctp:62
 #: Acl/View/AclPermissions/admin_index.ctp:62
@@ -439,7 +439,7 @@ msgstr "Aktionen bearbeiten"
 #: Taxonomy/View/Terms/admin_index.ctp:26
 #: Taxonomy/View/Vocabularies/admin_index.ctp:13
 msgid "Id"
-msgstr "ID"
+msgstr "Id"
 
 #: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
@@ -484,7 +484,7 @@ msgstr "Nach unten"
 #: Taxonomy/View/Vocabularies/admin_index.ctp:43
 #: Translate/View/Translate/admin_index.ctp:97
 msgid "Edit this item"
-msgstr ""
+msgstr "Dieses Objekt bearbeiten"
 
 #: Acl/View/AclActions/admin_index.ctp:119
 #: Acl/View/AclPermissions/json/admin_index.ctp:19
@@ -503,7 +503,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:47
 #: Translate/View/Translate/admin_index.ctp:106
 msgid "Remove this item"
-msgstr ""
+msgstr "Dieses Objekt entfernen"
 
 #: Acl/View/AclActions/admin_index.ctp:123
 #: Acl/View/AclPermissions/json/admin_index.ctp:20
@@ -535,15 +535,15 @@ msgstr "Fehler"
 
 #: Acl/View/Elements/admin/parent_role.ctp:4
 msgid "When set, permissions from parent role are inherited"
-msgstr ""
+msgstr "Bei der Einstellung werden die Berechtigungen des übergeordneten Rolle geerbt"
 
 #: Acl/View/Elements/admin/row_acl.ctp:4
 msgid "Edit Permissions"
-msgstr ""
+msgstr "Berechtigungen bearbeiten"
 
 #: Acl/View/Helper/AclHelper.php:62
 msgid "Upgrade Acl database"
-msgstr ""
+msgstr "Upgrade Acl Datenbank"
 
 #: Blocks/Config/admin_menu.php:5;15 Blocks/Controller/BlocksController.php:99
 #: Blocks/View/Blocks/admin_form.ctp:7 Blocks/View/Blocks/admin_index.ctp:9
@@ -626,7 +626,7 @@ msgstr "Konnte nicht verschoben werden"
 
 #: Blocks/Controller/BlocksController.php:243
 msgid "Blocks deleted"
-msgstr ""
+msgstr "Blöcke gelöscht"
 
 #: Blocks/Controller/BlocksController.php:244
 msgid "Blocks published"
@@ -737,7 +737,7 @@ msgstr "Wenn Sie nicht sicher sind, wählen Sie 'none'"
 #: Contacts/View/Contacts/admin_form.ctp:40
 #: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:86
 msgid "Body"
-msgstr ""
+msgstr "Klasse"
 
 #: Blocks/View/Blocks/admin_form.ctp:48 Menus/View/Links/admin_form.ctp:95
 msgid "Class"
@@ -767,7 +767,7 @@ msgstr ""
 
 #: Blocks/View/Blocks/admin_form.ctp:90
 msgid "Show title ?"
-msgstr ""
+msgstr "Titel anzeigen?"
 
 #: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
 #: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
@@ -803,17 +803,17 @@ msgstr "Ordner erstellen"
 
 #: Blocks/View/Blocks/admin_index.ctp:54
 msgid "Create a copy of this Block?"
-msgstr ""
+msgstr "Erstelle eine Kopie des Blocks?"
 
 #: Blocks/View/Blocks/admin_index.ctp:65 Croogo/View/Common/admin_index.ctp:75
 msgid "Choose"
-msgstr ""
+msgstr "Wähle"
 
 #: Blocks/View/Blocks/admin_index.ctp:84 Menus/View/Links/admin_index.ctp:93
 #: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_hierarchy.ctp:71
 #: Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
-msgstr ""
+msgstr "Vorschau"
 
 #: Blocks/View/Blocks/admin_index.ctp:114
 #: Comments/View/Comments/admin_index.ctp:109
@@ -849,7 +849,7 @@ msgstr "Löschen"
 #: Nodes/View/Nodes/admin_hierarchy.ctp:136
 #: Nodes/View/Nodes/admin_index.ctp:137
 msgid "Copy"
-msgstr ""
+msgstr "Kopieren"
 
 #: Blocks/View/Blocks/admin_index.ctp:121
 #: Comments/View/Comments/admin_index.ctp:115
@@ -912,7 +912,7 @@ msgstr "Kommentar gelöscht"
 
 #: Comments/Controller/CommentsController.php:156
 msgid "Comments deleted"
-msgstr ""
+msgstr "Kommentare gelöscht"
 
 #: Comments/Controller/CommentsController.php:157
 msgid "Comments published"
@@ -1035,7 +1035,7 @@ msgstr ""
 #: FileManager/View/Attachments/admin_chooser.ctp:7;49
 #: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:135
 msgid "Created"
-msgstr ""
+msgstr "Erstellt"
 
 #: Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
@@ -1226,28 +1226,28 @@ msgstr ""
 #: Contacts/View/Contacts/admin_form.ctp:52
 #: Contacts/View/Messages/admin_form.ctp:41
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #: Contacts/View/Contacts/admin_form.ctp:55
 msgid "Address2"
-msgstr ""
+msgstr "Adresse2"
 
 #: Contacts/View/Contacts/admin_form.ctp:58
 msgid "State"
-msgstr ""
+msgstr "Bundesland"
 
 #: Contacts/View/Contacts/admin_form.ctp:61
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: Contacts/View/Contacts/admin_form.ctp:64
 msgid "Post Code"
-msgstr ""
+msgstr "Postleitzahl"
 
 #: Contacts/View/Contacts/admin_form.ctp:67
 #: Contacts/View/Messages/admin_form.ctp:38
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: Contacts/View/Contacts/admin_form.ctp:70
 msgid "Fax"
@@ -3355,7 +3355,7 @@ msgstr ""
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:138
 msgid "Please select at most 1 value"
-msgstr ""
+msgstr "Ungültiger Inhaltstyp"
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:177
 msgid "Invalid Content Type"
@@ -3375,11 +3375,11 @@ msgstr "Neuer Begriff"
 
 #: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:8
 msgid "Types"
-msgstr ""
+msgstr "Typen"
 
 #: Taxonomy/View/Types/admin_form.ctp:41
 msgid "Enable Wysiwyg Editor"
-msgstr ""
+msgstr "Wysiwyg Editor aktivieren"
 
 #: Taxonomy/View/Types/admin_form.ctp:50
 #: Taxonomy/View/Vocabularies/admin_form.ctp:26
@@ -3400,7 +3400,7 @@ msgstr "Optionen"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Required"
-msgstr ""
+msgstr "Benötigt"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Multiple"
@@ -3461,7 +3461,7 @@ msgstr "Übersetzung für die Locale konnte nicht gelöscht werden."
 #: Translate/Lib/Translations.php:22;27
 #: Translate/View/Translate/admin_edit.ctp:19;33
 msgid "Translate"
-msgstr ""
+msgstr "Übersetzung"
 
 #: Translate/Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
@@ -3471,7 +3471,7 @@ msgstr ""
 #: Translate/View/Translate/admin_edit.ctp:10
 #: Translate/View/Translate/admin_index.ctp:31
 msgid "Translations"
-msgstr ""
+msgstr "Übersetzungen"
 
 #: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
 #: Users/View/Roles/admin_form.ctp:8 Users/View/Roles/admin_index.ctp:7
@@ -3484,23 +3484,21 @@ msgstr "Passwort zurücksetzten"
 
 #: Users/Console/Command/UsersShell.php:20
 msgid "Reset user password"
-msgstr ""
+msgstr "Benutzer Passwort zurücksetzen"
 
 #: Users/Console/Command/UsersShell.php:25
 msgid "Username to reset"
-msgstr ""
+msgstr "Benutzername zum Zurücksetzen"
 
 #: Users/Console/Command/UsersShell.php:29
 msgid "New user password"
-msgstr ""
 
 #: Users/Console/Command/UsersShell.php:45
 msgid "User '%s' not found"
-msgstr ""
+msgstr "Benutzer '%s' nicht gefunden"
 
 #: Users/Console/Command/UsersShell.php:50
 msgid "Password for '%s' has been changed"
-msgstr ""
 
 #: Users/Controller/RolesController.php:55
 msgid "Add Role"
@@ -3580,11 +3578,11 @@ msgstr "Admin Login"
 
 #: Users/Controller/UsersController.php:263
 msgid "You are already logged in"
-msgstr ""
+msgstr "Du bist bereits eingeloggt"
 
 #: Users/Controller/UsersController.php:276
 msgid "Incorrect username or password"
-msgstr ""
+msgstr "Falscher Benutzername oder Passwort"
 
 #: Users/Controller/UsersController.php:291;557
 msgid "Log out successful."
@@ -3673,23 +3671,21 @@ msgstr "Bitte folgen Sie diesen Link, um ihren Benutzerkonto zu aktivieren: %s"
 
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
-msgstr ""
 
 #: Users/View/Users/admin_form.ctp:16
 msgid "New user"
-msgstr ""
 
 #: Users/View/Users/admin_form.ctp:62
 msgid "Timezone"
-msgstr ""
+msgstr "Zeitzone"
 
 #: Users/View/Users/admin_form.ctp:80
 msgid "Send Activation Email"
-msgstr ""
+msgstr "Aktivierungs E-Mail senden"
 
 #: Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
-msgstr ""
+msgstr "Erinnere dich an mich?"
 
 #: Users/View/Users/admin_login.ctp:27 Users/View/Users/login.ctp:10
 msgid "Log In"
@@ -3701,7 +3697,7 @@ msgstr "Passwort vergessen?"
 
 #: Users/View/Users/admin_reset_password.ctp:13
 msgid "Reset Password: %s"
-msgstr ""
+msgstr "Passwort zurücksetzen: %s"
 
 #: Users/View/Users/admin_reset_password.ctp:46 Users/View/Users/reset.ctp:10
 msgid "Reset"
