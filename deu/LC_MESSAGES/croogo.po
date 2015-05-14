@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: croogo deutsch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
 "PO-Revision-Date: 2013-02-05 13:17+0100\n"
-"Last-Translator: Andrea de la Huerta <info@metamorfosys.de>\n"
+"Last-Translator: Lukas Marks <info@lumax-web.de>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Zugangskontrolle"
 
 #: Acl/Console/Command/ExtrasShell.php:93
 msgid "Plugin to process"
-msgstr ""
+msgstr "Plugin, um zu verarbeiten"
 
 #: Acl/Console/Command/ExtrasShell.php:96
 msgid "Better manage, and easily synchronize you application's ACO tree"
@@ -56,23 +56,23 @@ msgstr ""
 
 #: Acl/Console/Command/ExtrasShell.php:119
 msgid "The content model name "
-msgstr ""
+msgstr "Die Inhalt Model Bezeichnung"
 
 #: Acl/Console/Command/ExtrasShell.php:125
 msgid "Verify the tree structure of either your Aco or Aro Trees"
-msgstr ""
+msgstr "Überprüfen Sie die Baumstruktur der Aco oder Aro"
 
 #: Acl/Console/Command/ExtrasShell.php:130
 msgid "The type of tree to verify"
-msgstr ""
+msgstr "Der Typ der Baumstruktur, um zu verifizieren"
 
 #: Acl/Console/Command/ExtrasShell.php:137
 msgid "Recover a corrupted Tree"
-msgstr ""
+msgstr "Wiederherstellen einer beschädigten Baumstruktur"
 
 #: Acl/Console/Command/ExtrasShell.php:142
 msgid "The type of tree to recover"
-msgstr ""
+msgstr "Der Typ der Baumstruktur zur Wiederherstellung"
 
 #: Acl/Controller/AclActionsController.php:47
 #: Acl/View/AclActions/admin_form.ctp:8
@@ -163,79 +163,79 @@ msgstr ""
 msgid ""
 "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
 "\"%2$s\""
-msgstr "Model %s wurde nicht gefunden."
+msgstr ""
 
 #: Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
-msgstr ""
+msgstr "Model %s wurde nicht gefunden."
 
 #: Acl/Lib/AclExtras.php:172
 msgid "Created Aco node: %s"
-msgstr ""
+msgstr "Erstellt Aco Knoten: %s"
 
 #: Acl/Lib/AclExtras.php:192
 msgid "<error>Plugin %s not found or not activated</error>"
-msgstr ""
+msgstr "<error>Plugin %s nicht gefunden oder aktiviert</error>"
 
 #: Acl/Lib/AclExtras.php:208
 msgid "<success>Aco Sync Complete</success>"
-msgstr ""
+msgstr "<success>Aco Synchronisierung abgeschlossen</success>"
 
 #: Acl/Lib/AclExtras.php:210
 msgid "<success>Aco Update Complete</success>"
-msgstr ""
+msgstr "<success>Aco Update abgeschlossen</success>"
 
 #: Acl/Lib/AclExtras.php:241
 msgid "Skipped Aco node: <warning>%s</warning>"
-msgstr ""
+msgstr "Übersprungen Aco Knoten: <warning>%s</warning>"
 
 #: Acl/Lib/AclExtras.php:261
 msgid "Deleted %s and all children"
-msgstr ""
+msgstr "%s und alle Kinder gelöscht"
 
 #: Acl/Lib/AclExtras.php:291;366
 msgid "Created Aco node: <success>%s</success>"
-msgstr ""
+msgstr "Erstellt Aco Knoten: <success>%s</success>"
 
 #: Acl/Lib/AclExtras.php:307;438
 msgid "Deleted Aco node: <warning>%s</warning>"
-msgstr ""
+msgstr "Gelöscht Aco Knoten: <warning>%s</warning>"
 
 #: Acl/Lib/AclExtras.php:457
 msgid "<success>Tree is valid and strong</success>"
-msgstr ""
+msgstr "<success>Baumstruktur ist valide and stark</success>"
 
 #: Acl/Lib/AclExtras.php:475
 msgid "Tree has been recovered, or tree did not need recovery."
-msgstr ""
+msgstr "Baumstruktur wiederhergestellt, oder Baumstruktur braucht keine Wiederherstellung."
 
 #: Acl/Lib/AclExtras.php:477
 msgid "<error>Tree recovery failed.</error>"
-msgstr ""
+msgstr "<error>Baumstruktur Wiederherstellung fehlgeschlagen.</error>"
 
 #: Acl/Lib/AclUpgrade.php:67
 msgid "No root node found"
-msgstr ""
+msgstr "Kein Wurzelknoten gefunden"
 
 #: Acl/Lib/AclUpgrade.php:75
 msgid "<warning>ACL Database seems to have already been upgraded</warning>"
-msgstr ""
+msgstr "<warning>ACL-Datenbank scheint bereits aktualisiert zu sein</warning>"
 
 #: Acl/Lib/AclUpgrade.php:115
 msgid "%s not found"
-msgstr ""
+msgstr "%s nicht gefunden"
 
 #: Acl/Lib/AclUpgrade.php:139
 msgid "Role: Public not found"
-msgstr ""
+msgstr "Rolle: Veröffentlicht nicht gefunden"
 
 #: Acl/Lib/AclUpgrade.php:145
 msgid "Role: Registered not found"
-msgstr ""
+msgstr "Rolle: Registriert nicht gefunden"
 
 #: Acl/Lib/AclUpgrade.php:151
 msgid "Role: Admin not found"
-msgstr ""
+msgstr "Rolle: Admin nicht gefunden"
 
 #: Acl/Model/AclAco.php:173
 msgid "API"
@@ -265,7 +265,7 @@ msgstr "Hinzufügen"
 
 #: Acl/View/AclActions/admin_form.ctp:23
 msgid "Action"
-msgstr ""
+msgstr "Aktion"
 
 #: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
 #: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
@@ -737,11 +737,11 @@ msgstr "Wenn Sie nicht sicher sind, wählen Sie 'none'"
 #: Contacts/View/Contacts/admin_form.ctp:40
 #: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:86
 msgid "Body"
-msgstr "Klasse"
+msgstr "Inhalt"
 
 #: Blocks/View/Blocks/admin_form.ctp:48 Menus/View/Links/admin_form.ctp:95
 msgid "Class"
-msgstr ""
+msgstr "Klasse"
 
 #: Blocks/View/Blocks/admin_form.ctp:51
 msgid "Element"
@@ -755,7 +755,7 @@ msgstr "Rolle"
 
 #: Blocks/View/Blocks/admin_form.ctp:63
 msgid "Visibility Paths"
-msgstr ""
+msgstr "Einsehbare Pfade"
 
 #: Blocks/View/Blocks/admin_form.ctp:64
 msgid ""
@@ -924,7 +924,7 @@ msgstr "Kommentare unveröffentlicht"
 
 #: Comments/Controller/CommentsController.php:198
 msgid "Invalid id"
-msgstr ""
+msgstr "Ungültige Id"
 
 #: Comments/Controller/CommentsController.php:223
 msgid "Maximum level reached. You cannot reply to that comment."
@@ -957,11 +957,11 @@ msgstr "Neuer Kommentar hinzugefügt unter"
 
 #: Comments/Model/Comment.php:130
 msgid "Invalid Node id"
-msgstr ""
+msgstr "Ungültige Knoten Id"
 
 #: Comments/Model/Comment.php:199
 msgid "Invalid Comment id"
-msgstr ""
+msgstr "Ungültige Kommentar Id"
 
 #: Comments/View/Comments/admin_form.ctp:6
 #: Comments/View/Comments/admin_index.ctp:9
@@ -1017,7 +1017,7 @@ msgstr "Webseite"
 
 #: Comments/View/Comments/admin_form.ctp:49
 msgid "Ip"
-msgstr ""
+msgstr "IP"
 
 #: Comments/View/Comments/admin_index.ctp:15
 msgid "Comments: Published"
@@ -1029,7 +1029,7 @@ msgstr "Kommentare: Bestätigt"
 
 #: Comments/View/Comments/admin_index.ctp:45
 msgid "Node"
-msgstr ""
+msgstr "Knoten"
 
 #: Comments/View/Comments/admin_index.ctp:47
 #: FileManager/View/Attachments/admin_chooser.ctp:7;49
@@ -1251,7 +1251,7 @@ msgstr "Telefon"
 
 #: Contacts/View/Contacts/admin_form.ctp:70
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 #: Contacts/View/Contacts/admin_form.ctp:76
 msgid "Let users leave a message"
@@ -1342,7 +1342,7 @@ msgstr ""
 
 #: Croogo/Console/Command/ExtShell.php:103
 msgid "Theme cannot be deactivated, instead activate another theme."
-msgstr ""
+msgstr "Theme kann nicht deaktiviert werden, aktiviere stattdessen ein anderes Theme."
 
 #: Croogo/Console/Command/ExtShell.php:107
 msgid "%s \"%s\" not found."
@@ -1350,7 +1350,7 @@ msgstr "%s \"%s\" nicht gefunden."
 
 #: Croogo/Console/Command/ExtShell.php:116
 msgid "%s name must be provided."
-msgstr ""
+msgstr "%s Name muss gegeben sein."
 
 #: Croogo/Console/Command/ExtShell.php:128
 msgid "Activate Plugins & Themes"
@@ -1358,7 +1358,7 @@ msgstr "Plugins & Themes aktivieren"
 
 #: Croogo/Console/Command/ExtShell.php:131
 msgid "Method to perform"
-msgstr ""
+msgstr "Verfahren durchführen"
 
 #: Croogo/Console/Command/ExtShell.php:136
 #: Croogo/Console/Command/InstallShell.php:136
@@ -1386,7 +1386,7 @@ msgstr ""
 #: Croogo/Console/Command/ExtShell.php:194
 #: Extensions/Controller/ExtensionsPluginsController.php:143
 msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
-msgstr ""
+msgstr "Plugin \"%s\" konnte nicht deaktiviert werden da \"%s\" von abhängt."
 
 #: Croogo/Console/Command/ExtShell.php:205
 #: Extensions/Controller/ExtensionsPluginsController.php:148
@@ -1468,7 +1468,7 @@ msgstr "Speichern der Erweiterung nach %s..."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:62
 msgid "Upgrade ACL database for core controllers."
-msgstr ""
+msgstr "Upgrade ACL-Datenbank für Kern Controller."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:64
 msgid ""
@@ -1482,27 +1482,27 @@ msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:76
 msgid "Create settings.json from database"
-msgstr ""
+msgstr "Erstelle settings.json aus der Datenbank"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:79
 msgid "Update Hook.bootstrap settings"
-msgstr ""
+msgstr "Aktualisiere Hook.bootstrap Einstellungen"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:82
 msgid "Update Links in database"
-msgstr ""
+msgstr "Aktualisiere Links in der Datenbank"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:85
 msgid "Create first migration records"
-msgstr ""
+msgstr "Erstelle erste Migration Einträge"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:88
 msgid "Run all pending migrations for core plugins"
-msgstr ""
+msgstr "Starte alle schwebenden Migrationen für Kern Plugins"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:91
 msgid "Run all upgrade tasks"
-msgstr ""
+msgstr "Starte alle Upgrade Tasks"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:101
 msgid "<warning>Config/settings.json already exist</warning>"
@@ -1515,7 +1515,7 @@ msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:187
 msgid "Updating Link %s"
-msgstr ""
+msgstr "Aktualisiere Link %s"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:188
 #: Settings/Console/Command/SettingsShell.php:155
@@ -1533,15 +1533,15 @@ msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:210
 msgid "Hook.bootstraps updated"
-msgstr ""
+msgstr "Hook.bootstraps aktualisiert"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:334
 msgid "Upgrade \"%s\""
-msgstr ""
+msgstr "Aktualisiere \"%s\""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:348
 msgid "Command not recognized"
-msgstr ""
+msgstr "Befehl nicht erkannt"
 
 #: Croogo/Controller/CroogoAppController.php:268
 msgid "Site down for maintenance"
@@ -1558,11 +1558,11 @@ msgstr "Nichts ausgewählt"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:99
 msgid "Please choose only one item for this operation"
-msgstr ""
+msgstr "Bitte wähle nur ein Objekt für diese Operation"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:136
 msgid "%s processed"
-msgstr ""
+msgstr "%s verarbeitet"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
 #: FileManager/Controller/FileManagerController.php:229;262;351;384
@@ -1575,11 +1575,11 @@ msgstr "Webseite besuchen"
 
 #: Croogo/Controller/Component/CroogoComponent.php:145
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 #: Croogo/Controller/Component/CroogoComponent.php:160
 msgid "Logout"
-msgstr ""
+msgstr "Ausloggen"
 
 #: Croogo/Controller/Component/CroogoComponent.php:292
 #: Nodes/Controller/NodesController.php:288;748;768
@@ -1607,31 +1607,31 @@ msgstr "Unveröffentlicht"
 #: Croogo/Lib/CroogoStatus.php:41
 #: FileManager/View/Attachments/admin_edit.ctp:71
 msgid "Preview"
-msgstr ""
+msgstr "Vorschau"
 
 #: Croogo/Lib/CroogoStatus.php:44
 msgid "Approved"
-msgstr ""
+msgstr "Bestätigt"
 
 #: Croogo/Lib/CroogoStatus.php:45
 msgid "Pending"
-msgstr ""
+msgstr "Schwebend"
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:40
 msgid "Cannot load configuration files with ../ in them."
-msgstr ""
+msgstr "Kann die Konfigurationsdateien mit ../ nicht laden."
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:55
 msgid "Could not load configuration files: %s or %s"
-msgstr ""
+msgstr "Konnte die Konfigurationsdateien: %s or %s nicht laden"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:65
 msgid "Invalid action to perform"
-msgstr ""
+msgstr "Ungültige Aktion um zu verarbeiten"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:69
 msgid "No target to process action upon"
-msgstr ""
+msgstr "Kein Ziel zur verarbeitenden Aktion"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:75
 #, fuzzy
@@ -1657,7 +1657,7 @@ msgstr "Croogo %s"
 
 #: Croogo/View/Elements/admin/footer.ctp:11
 msgid "Powered by %s"
-msgstr ""
+msgstr "Präsentiert von %s"
 
 #: Croogo/View/Elements/admin/header.ctp:18
 #: Dashboards/Config/admin_menu.php:5;11
@@ -1670,7 +1670,7 @@ msgstr "Kontrollbereich"
 
 #: Croogo/View/Elements/admin/modal.ctp:20
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: Croogo/View/Elements/admin/pagination.ctp:5
 msgid ""
@@ -1727,7 +1727,7 @@ msgstr ""
 
 #: Croogo/View/Helper/LayoutHelper.php:95
 msgid "Method %1$s::%2$s does not exist"
-msgstr ""
+msgstr "Methode %1$s::%2$s existiert nicht"
 
 #: Croogo/View/Layouts/admin.ctp:6 Croogo/View/Layouts/admin_full.ctp:6
 #: Croogo/View/Layouts/admin_login.ctp:6 Croogo/View/Layouts/admin_popup.ctp:6
@@ -1749,11 +1749,11 @@ msgstr ""
 
 #: Dashboards/Controller/DashboardsDashboardsController.php:97
 msgid "Invalid id for Dashboard"
-msgstr ""
+msgstr "Ungültige Id für Dashboard"
 
 #: Dashboards/Controller/DashboardsDashboardsController.php:101
 msgid "Dashboard deleted"
-msgstr ""
+msgstr "Dashboard gelöscht"
 
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:2;7
 msgid "Dashboards"
@@ -1766,19 +1766,19 @@ msgstr "Sind Sie sicher, dass # %s gelöscht werden soll?"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:131
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:134
 msgid "Right"
-msgstr ""
+msgstr "Rechts"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:137
 msgid "Full"
-msgstr ""
+msgstr "Voll"
 
 #: Example/Config/admin_dashboard.php:5
 msgid "Welcome"
-msgstr ""
+msgstr "Willkommen"
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
@@ -1793,7 +1793,7 @@ msgstr "Inhalt hier"
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:7
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Extensions"
-msgstr ""
+msgstr "Erweiterungen"
 
 #: Extensions/Config/admin_menu.php:15
 #: Extensions/Controller/ExtensionsThemesController.php:60
@@ -1851,7 +1851,7 @@ msgstr "Locale bearbeiten: %s"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:183;211
 msgid "The file %s does not exist."
-msgstr ""
+msgstr "Die Datei %s existiert nicht."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:193
 msgid "Locale updated successfully"
@@ -1898,19 +1898,19 @@ msgstr "Plugin konnte nicht aktiviert werden. Bitte nochmal versuchen."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:176
 msgid "Plugin \"%s\" migrated successfully."
-msgstr ""
+msgstr "Plugin \"%s\" wurde erfolgreich migriert."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:179
 msgid "Plugin \"%s\" could not be migrated. Error: %s"
-msgstr ""
+msgstr "Plugin \"%s\" konnte nicht migriert werden. Fehler: %s"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:201
 msgid "Plugin %s has been moved up"
-msgstr ""
+msgstr "Plugin %s wurde nach Oben verschoben"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:225
 msgid "Plugin %s has been moved down"
-msgstr ""
+msgstr "Plugin %s wurde nach Unten verschoben"
 
 #: Extensions/Controller/ExtensionsThemesController.php:81
 msgid "Theme activated."
@@ -1967,23 +1967,23 @@ msgstr "Plugin \"%s\" ist nicht aktiv."
 
 #: Extensions/Lib/CroogoPlugin.php:715
 msgid "%s is already at the first position"
-msgstr ""
+msgstr "%s ist bereits an der ersten Position"
 
 #: Extensions/Lib/CroogoPlugin.php:721;733
 msgid "Plugin %s depends on %s"
-msgstr ""
+msgstr "Plugin %s hängt von %s ab"
 
 #: Extensions/Lib/CroogoPlugin.php:726
 msgid "%s is already at the last position"
-msgstr ""
+msgstr "%s ist bereits an der letzten Position"
 
 #: Extensions/Lib/CroogoPlugin.php:737
 msgid "Invalid direction"
-msgstr ""
+msgstr "Ungültiger Pfad"
 
 #: Extensions/Lib/CroogoPlugin.php:742
 msgid "Plugin %s cannot be reordered"
-msgstr ""
+msgstr "Plugin %s kann nicht verschoben werden"
 
 #: Extensions/Lib/CroogoTheme.php:255
 #: Extensions/Lib/ExtensionsInstaller.php:186
@@ -1992,7 +1992,7 @@ msgstr "Ungültiges Theme"
 
 #: Extensions/Lib/CroogoTheme.php:276
 msgid "Theme %s not found"
-msgstr ""
+msgstr "Theme %s nicht gefunden"
 
 #: Extensions/Lib/ExtensionsInstaller.php:62
 msgid "Invalid plugin path"
@@ -2004,15 +2004,15 @@ msgstr "Ungültige ZIP-Datei"
 
 #: Extensions/Lib/ExtensionsInstaller.php:78
 msgid "Invalid plugin.json or missing plugin name"
-msgstr ""
+msgstr "Ungültiges plugin.json oder fehlender Plugin Name"
 
 #: Extensions/Lib/ExtensionsInstaller.php:99
 msgid "Missing expected files: %s in: %s"
-msgstr ""
+msgstr "Fehlende erwartete Dateien: %s in: %s"
 
 #: Extensions/Lib/ExtensionsInstaller.php:100
 msgid "Invalid plugin or missing expected files"
-msgstr ""
+msgstr "Ungültiges Plugin oder fehlende erwartete Dateien"
 
 #: Extensions/Lib/ExtensionsInstaller.php:125
 msgid "Invalid plugin file path"
@@ -2083,7 +2083,7 @@ msgstr "Aktivieren"
 #: FileManager/View/FileManager/admin_create_file.ctp:33
 #: FileManager/View/FileManager/admin_rename.ctp:33
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
 #: Menus/View/Links/admin_form.ctp:99 Menus/View/Menus/admin_form.ctp:36
@@ -2104,7 +2104,7 @@ msgstr "Deaktivieren"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:73
 msgid "Migrate"
-msgstr ""
+msgstr "Migriere"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:26
 msgid "Current Theme"
@@ -2120,7 +2120,7 @@ msgstr "Verfügbare Themes"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:137
 msgid "No available theme"
-msgstr ""
+msgstr "Kein verfügbares Theme"
 
 #: FileManager/Config/admin_menu.php:5
 msgid "Media"
@@ -2182,7 +2182,7 @@ msgstr "Anlage gelöscht"
 
 #: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
 msgid "Path %s is restricted"
-msgstr ""
+msgstr "Pfad %s ist gesperrt"
 
 #: FileManager/Controller/FileManagerController.php:157
 msgid "Edit file: %s"
@@ -2206,28 +2206,28 @@ msgstr "Verzeichnis gelöscht"
 
 #: FileManager/Controller/FileManagerController.php:285
 msgid "Path \"%s\" cannot be renamed"
-msgstr ""
+msgstr "Pfad \"%s\" kann nicht umbenannt werden"
 
 #: FileManager/Controller/FileManagerController.php:298
 msgid "%s already exists"
-msgstr ""
+msgstr "%s existiert bereits"
 
 #: FileManager/Controller/FileManagerController.php:302
 msgid "\"%s\" has been renamed to \"%s\""
-msgstr ""
+msgstr "\"%s\" wurde umbennant zu \"%s\""
 
 #: FileManager/Controller/FileManagerController.php:305
 msgid "Could not rename \"%s\" to \"%s\""
-msgstr ""
+msgstr "Konnte \"%s\" nicht umbenenn zu \"%s\""
 
 #: FileManager/Controller/FileManagerController.php:310
 msgid "Name has not changed"
-msgstr ""
+msgstr "Name hat sich nicht verändert"
 
 #: FileManager/Controller/FileManagerController.php:331
 #: FileManager/View/FileManager/admin_create_directory.ctp:8
 msgid "Create Directory"
-msgstr ""
+msgstr "Erstelle Pfad"
 
 #: FileManager/Controller/FileManagerController.php:347
 msgid "Directory created successfully."
@@ -2236,7 +2236,7 @@ msgstr "Verzeichnis erfolgreich erstellt"
 #: FileManager/Controller/FileManagerController.php:365
 #: FileManager/View/FileManager/admin_create_file.ctp:8
 msgid "Create File"
-msgstr ""
+msgstr "Erstelle Datei"
 
 #: FileManager/Controller/FileManagerController.php:380
 msgid "File created successfully."
@@ -2244,7 +2244,7 @@ msgstr "Datei erfolgreich erstellt"
 
 #: FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
-msgstr ""
+msgstr "Fehler während des Datei Hochladens"
 
 #: FileManager/View/Attachments/admin_browse.ctp:10
 msgid "New Attachment"
@@ -2296,7 +2296,7 @@ msgstr "Suchen"
 #: FileManager/View/Elements/admin/attachments_search.ctp:29
 #: Nodes/View/Elements/admin/nodes_search.ctp:23
 msgid "Search..."
-msgstr ""
+msgstr "Suchen..."
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:45
 #: Nodes/View/Elements/admin/nodes_search.ctp:44
@@ -2327,7 +2327,7 @@ msgstr "Datei erstellen"
 #: FileManager/View/FileManager/admin_rename.ctp:13
 #: FileManager/View/FileManager/admin_upload.ctp:13
 msgid "You are here"
-msgstr ""
+msgstr "Du bist hier"
 
 #: FileManager/View/FileManager/admin_browse.ctp:46
 msgid "Directory content"
@@ -2340,19 +2340,19 @@ msgstr "Öffnen"
 #: FileManager/View/FileManager/admin_browse.ctp:66;111
 #: FileManager/View/FileManager/admin_rename.ctp:8
 msgid "Rename"
-msgstr ""
+msgstr "Umbenennen"
 
 #: FileManager/View/FileManager/admin_browse.ctp:91
 msgid "View"
-msgstr ""
+msgstr "Ansicht"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:34
 msgid "Directory"
-msgstr ""
+msgstr "Pfad"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:42
 msgid "Directory name"
-msgstr ""
+msgstr "Pfad Name"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:51
 #: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
@@ -2362,11 +2362,11 @@ msgstr "Erstellen"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
-msgstr ""
+msgstr "Dateiname"
 
 #: FileManager/View/FileManager/admin_rename.ctp:41
 msgid "New name"
-msgstr ""
+msgstr "Neuer Name"
 
 #: Install/Console/Command/InstallShell.php:27
 msgid "Install Utilities"
@@ -2374,7 +2374,7 @@ msgstr "Utilities installieren"
 
 #: Install/Console/Command/InstallShell.php:108
 msgid "DataSource"
-msgstr ""
+msgstr "Datenquelle"
 
 #: Install/Console/Command/InstallShell.php:115
 #: Install/View/Install/database.ctp:58
@@ -2390,12 +2390,12 @@ msgstr "Einloggen"
 #: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
 #: Users/View/Users/admin_login.ctp:15 Users/View/Users/login.ctp:7
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #: Install/Console/Command/InstallShell.php:118
 #: Install/View/Install/database.ctp:47
 msgid "Database"
-msgstr ""
+msgstr "Datenbank"
 
 #: Install/Console/Command/InstallShell.php:119
 #: Install/View/Install/database.ctp:89
@@ -2412,7 +2412,7 @@ msgstr ""
 #: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
 #: Users/View/Users/login.ctp:6
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: Install/Console/Command/InstallShell.php:155
 #: Install/View/Install/adminuser.ctp:26 Users/View/Users/admin_form.ctp:96
@@ -2422,7 +2422,7 @@ msgstr "Passwort bestätigen"
 
 #: Install/Console/Command/InstallShell.php:217
 msgid "Permission %s granted to %s"
-msgstr ""
+msgstr "Berechtigung %s erteilt für %s"
 
 #: Install/Controller/InstallController.php:101
 msgid "Installation: Welcome"
@@ -2438,47 +2438,47 @@ msgstr "Schritt 2: Datenbank erstellen"
 
 #: Install/Controller/InstallController.php:170
 msgid "Warning: Database \"%s\" is not empty."
-msgstr ""
+msgstr "Warnung: Datenbank \"%s\" ist nicht leer."
 
 #: Install/Controller/InstallController.php:222
 msgid "Installation successful"
-msgstr ""
+msgstr "Installation erfolgreich"
 
 #: Install/Controller/InstallController.php:230
 msgid "Installation failed"
-msgstr ""
+msgstr "Installation fehlgeschlagen"
 
 #: Install/Controller/InstallController.php:231
 msgid "Installation failed: Unable to create settings file"
-msgstr ""
+msgstr "Installation fehlgeschlagen: Konnte keine Einstellungen Datei erzeugen"
 
 #: Install/Lib/AssetGenerator.php:100
 msgid "CSS : %s created"
-msgstr ""
+msgstr "CSS : %s erstellt"
 
 #: Install/Lib/AssetGenerator.php:103
 msgid "CSS : %s failed"
-msgstr ""
+msgstr "CSS : %S fehlgeschlagen"
 
 #: Install/Lib/AssetGenerator.php:120
 msgid "JS  : %s created"
-msgstr ""
+msgstr "JS : %S erstellt"
 
 #: Install/Lib/AssetGenerator.php:123
 msgid "JS  : %s failed"
-msgstr ""
+msgstr "JS : %S fehlgeschlagen"
 
 #: Install/Lib/AssetGenerator.php:165
 msgid "Font: %s copied"
-msgstr ""
+msgstr "Font: %s kopiert"
 
 #: Install/Lib/AssetGenerator.php:168
 msgid "File: %s not copied"
-msgstr ""
+msgstr "Datei: %s nicht kopiert"
 
 #: Install/Lib/InstallManager.php:38
 msgid "Could not copy database.php file."
-msgstr ""
+msgstr "Konnte die database.php Datei nicht kopieren."
 
 #: Install/Lib/InstallManager.php:48
 msgid "Could not write database.php file."
@@ -2486,7 +2486,7 @@ msgstr "Die Datei 'database.php' konnte nicht geschrieben werden."
 
 #: Install/Lib/InstallManager.php:56
 msgid "Could not connect to database: "
-msgstr ""
+msgstr "Konnte keine Verbindung zur Datenbank erzeugen:"
 
 #: Install/Lib/InstallManager.php:59
 msgid "Could not connect to database."
@@ -2503,11 +2503,11 @@ msgstr "Neues Passwort"
 
 #: Install/View/Install/data.ctp:6
 msgid "Create tables and load initial data"
-msgstr ""
+msgstr "Erstelle Tabellen und lade Basisdaten"
 
 #: Install/View/Install/data.ctp:12
 msgid "Build database"
-msgstr ""
+msgstr "Erstelle Datenbank"
 
 #: Install/View/Install/data.ctp:19
 msgid "Click here to build your database"
@@ -2515,55 +2515,55 @@ msgstr "Hier klicken, um die Datenbank zu erstellen"
 
 #: Install/View/Install/database.ctp:20
 msgid "Warning"
-msgstr ""
+msgstr "Warnung"
 
 #: Install/View/Install/database.ctp:21
 msgid "A `database.php` file already exists."
-msgstr ""
+msgstr "Die `database.php` Datei existiert bereits."
 
 #: Install/View/Install/database.ctp:24
 msgid "Valid"
-msgstr ""
+msgstr "Valide"
 
 #: Install/View/Install/database.ctp:27
 msgid "Invalid"
-msgstr ""
+msgstr "Ungültig"
 
 #: Install/View/Install/database.ctp:30
 msgid "This file is %s."
-msgstr ""
+msgstr "Diese Datei ist %s."
 
 #: Install/View/Install/database.ctp:35
 msgid "Reuse this file and proceed."
-msgstr ""
+msgstr "Verwende diese Datei und verarbeite."
 
 #: Install/View/Install/database.ctp:40
 msgid "This file will be replaced."
-msgstr ""
+msgstr "Diese Datei wird ersetzt."
 
 #: Install/View/Install/database.ctp:60
 msgid "Database hostname or IP Address"
-msgstr ""
+msgstr "Datenbank Hostname oder IP Adressse"
 
 #: Install/View/Install/database.ctp:68
 msgid "Database login/username"
-msgstr ""
+msgstr "Datenbank Login/Benutzername"
 
 #: Install/View/Install/database.ctp:75
 msgid "Database password"
-msgstr ""
+msgstr "Datenbank Passwort"
 
 #: Install/View/Install/database.ctp:83
 msgid "Database name"
-msgstr ""
+msgstr "Datenbank Name"
 
 #: Install/View/Install/database.ctp:90
 msgid "Table prefix (leave blank if unknown)"
-msgstr ""
+msgstr "Tabellen Prfix (lasse leer wenn nicht benötigt)"
 
 #: Install/View/Install/database.ctp:97
 msgid "Database port (leave blank if unknown)"
-msgstr ""
+msgstr "Datenbank Port (lasse leer wenn nicht benötigt)"
 
 #: Install/View/Install/finish.ctp:6
 msgid ""
@@ -2611,15 +2611,15 @@ msgstr "Das 'config' Verzeichnis ist NICHT beschreibbar."
 
 #: Install/View/Install/index.ctp:26
 msgid "PHP version %s %s %s"
-msgstr ""
+msgstr "PHP Version %s %s %s"
 
 #: Install/View/Install/index.ctp:29
 msgid "PHP version %s < %s"
-msgstr ""
+msgstr "PHP Version %s < %s"
 
 #: Install/View/Install/index.ctp:37
 msgid "CakePhp version %s %s %s"
-msgstr ""
+msgstr "CakePHP Version %s %s %s"
 
 #: Install/View/Install/index.ctp:40
 msgid "CakePHP version %s < %s"
@@ -2627,11 +2627,11 @@ msgstr "CakePHP Version %s < %s"
 
 #: Install/View/Install/index.ctp:47
 msgid "Install"
-msgstr ""
+msgstr "Installiere"
 
 #: Install/View/Install/index.ctp:52
 msgid "Click here to begin installation"
-msgstr ""
+msgstr "Klicke hier um die Installation zu starten"
 
 #: Install/View/Install/index.ctp:57
 msgid "Installation cannot continue as minimum requirements are not met."
@@ -2744,27 +2744,27 @@ msgstr ""
 
 #: Menus/View/Links/admin_form.ctp:105
 msgid "Target"
-msgstr ""
+msgstr "Ziel"
 
 #: Menus/View/Links/admin_form.ctp:148
 msgid "Choose Link"
-msgstr ""
+msgstr "Wähle Link"
 
 #: Menus/View/Links/admin_index.ctp:78
 msgid "Create a copy of this Link?"
-msgstr ""
+msgstr "Erstelle eine Kopie von diesem Link?"
 
 #: Menus/View/Links/admin_index.ctp:85
 msgid "Delete this item"
-msgstr ""
+msgstr "Lösche dieses Objekt"
 
 #: Menus/View/Links/admin_link_chooser.ctp:12
 msgid "Link to %s"
-msgstr ""
+msgstr "Link zu %s"
 
 #: Menus/View/Menus/admin_index.ctp:15
 msgid "Link Count"
-msgstr ""
+msgstr "Link zählen"
 
 #: Menus/View/Menus/admin_index.ctp:29
 msgid "View links"
@@ -2772,7 +2772,7 @@ msgstr "Links ansehen"
 
 #: Meta/Controller/Component/MetaComponent.php:47
 msgid "Custom Fields"
-msgstr ""
+msgstr "Individuelle Felder"
 
 #: Meta/View/Elements/admin/meta_tab.ctp:19
 msgid "Add another field"
@@ -2801,7 +2801,7 @@ msgstr "Liste"
 
 #: Nodes/Controller/NodesController.php:145
 msgid "Type must be specified"
-msgstr ""
+msgstr "Typ muss spezifiziert werden"
 
 #: Nodes/Controller/NodesController.php:226
 #: Nodes/View/Nodes/admin_index.ctp:12
@@ -2827,7 +2827,7 @@ msgstr "Inhalt erstellen: %s"
 
 #: Nodes/Controller/NodesController.php:315
 msgid "Edit %s: %s"
-msgstr ""
+msgstr "Bearbeite %s: %s"
 
 #: Nodes/Controller/NodesController.php:328
 msgid "Paths updated."
@@ -2849,15 +2849,15 @@ msgstr "Node gelöscht"
 
 #: Nodes/Controller/NodesController.php:409
 msgid "%s deleted"
-msgstr ""
+msgstr "%s gelöscht"
 
 #: Nodes/Controller/NodesController.php:410
 msgid "%s published"
-msgstr ""
+msgstr "%s veröffentlicht"
 
 #: Nodes/Controller/NodesController.php:411
 msgid "%s unpublished"
-msgstr ""
+msgstr "%s unveröffentlicht"
 
 #: Nodes/Controller/NodesController.php:412
 msgid "%s promoted"
@@ -2869,7 +2869,7 @@ msgstr ""
 
 #: Nodes/Controller/NodesController.php:414
 msgid "%s copied"
-msgstr ""
+msgstr "%s kopiert"
 
 #: Nodes/Controller/NodesController.php:467;568;640;703
 msgid "Invalid content type."
@@ -2881,7 +2881,7 @@ msgstr "Ungültiger Term"
 
 #: Nodes/Controller/NodesController.php:619
 msgid "Home"
-msgstr ""
+msgstr "Startseite"
 
 #: Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
@@ -2915,7 +2915,7 @@ msgstr "Slug"
 
 #: Nodes/View/Nodes/admin_form.ctp:83
 msgid "Excerpt"
-msgstr ""
+msgstr "Ausschnitt"
 
 #: Nodes/View/Nodes/admin_form.ctp:117
 msgid "Promoted to front page"
@@ -2923,7 +2923,7 @@ msgstr "In die Startseite befördern"
 
 #: Nodes/View/Nodes/admin_form.ctp:121
 msgid "Publish as "
-msgstr ""
+msgstr "Veröffentlicht als"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
 #: Users/View/Users/admin_form.ctp:37
@@ -3355,11 +3355,11 @@ msgstr ""
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:138
 msgid "Please select at most 1 value"
-msgstr "Ungültiger Inhaltstyp"
+msgstr ""
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:177
 msgid "Invalid Content Type"
-msgstr ""
+msgstr "Ungültiger Inhaltstyp"
 
 #: Taxonomy/View/Helper/TaxonomiesHelper.php:61
 msgid "Terms"
@@ -3492,6 +3492,7 @@ msgstr "Benutzername zum Zurücksetzen"
 
 #: Users/Console/Command/UsersShell.php:29
 msgid "New user password"
+msgstr "Neues Benutzer Passwort"
 
 #: Users/Console/Command/UsersShell.php:45
 msgid "User '%s' not found"
@@ -3499,6 +3500,7 @@ msgstr "Benutzer '%s' nicht gefunden"
 
 #: Users/Console/Command/UsersShell.php:50
 msgid "Password for '%s' has been changed"
+msgstr "Passwort für '%s' wurde geändert"
 
 #: Users/Controller/RolesController.php:55
 msgid "Add Role"
@@ -3671,9 +3673,11 @@ msgstr "Bitte folgen Sie diesen Link, um ihren Benutzerkonto zu aktivieren: %s"
 
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
+msgstr "Benutzer bearbeiten %s"
 
 #: Users/View/Users/admin_form.ctp:16
 msgid "New user"
+msgstr "Neuer Benutzer"
 
 #: Users/View/Users/admin_form.ctp:62
 msgid "Timezone"
