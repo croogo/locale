@@ -2144,7 +2144,7 @@ msgstr "Bijlagen"
 #: FileManager/View/FileManager/admin_rename.ctp:7
 #: FileManager/View/FileManager/admin_upload.ctp:7
 msgid "File Manager"
-msgstr "Bstandsbeheer"
+msgstr "Bestandsbeheer"
 
 #: FileManager/Controller/AttachmentsController.php:155
 msgid "Add Attachment"
@@ -2356,7 +2356,7 @@ msgstr ""
 #: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
 #: Nodes/View/Nodes/admin_form.ctp:14
 msgid "Create"
-msgstr ""
+msgstr "Creëer"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
