@@ -586,7 +586,7 @@ msgstr "Blocchi"
 #: Blocks/View/Regions/admin_form.ctp:9
 #: Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
-msgstr "regioni"
+msgstr "Regioni"
 
 #: Blocks/Controller/BlocksController.php:122
 msgid "Add Block"
