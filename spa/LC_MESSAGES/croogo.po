@@ -1,43 +1,48 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: Revision: 7945 \app\webroot\test.php
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Croogo Czech\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2010-09-11 14:44+0100\n"
-"Last-Translator: Marek Sebera <marek.sebera@gmail.com>\n"
-"Language-Team: Marek Sebera <marek.sebera@gmail.com>\n"
-"Language: \n"
+"PO-Revision-Date: 2013-02-10 01:55-0500\n"
+"Last-Translator: Elias Coronado <me@ecor.me>\n"
+"Language-Team: ESPAÑOL <EMAIL@ADDRESS>\n"
+"Language: Español\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2 \n"
-"X-Poedit-Language: Czech\n"
-"X-Poedit-Country: CZECH REPUBLIC\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: Acl/Config/admin_menu.php:4 Acl/Controller/AclPermissionsController.php:58
 #: Acl/Controller/Component/RowLevelAclComponent.php:67
 #: Acl/View/AclActions/admin_form.ctp:7 Acl/View/AclActions/admin_index.ctp:11
 #: Acl/View/AclPermissions/admin_index.ctp:10
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
 #: Acl/Config/admin_menu.php:15
 msgid "Access Control"
-msgstr ""
+msgstr "Control de Acceso"
 
 #: Acl/Console/Command/ExtrasShell.php:93
 msgid "Plugin to process"
-msgstr ""
+msgstr "Plugin a procesar"
 
 #: Acl/Console/Command/ExtrasShell.php:96
 msgid "Better manage, and easily synchronize you application's ACO tree"
-msgstr ""
+msgstr "Administra y sincroniza de mejor manera el arbol ACO de tu aplicacion"
 
 #: Acl/Console/Command/ExtrasShell.php:101
 msgid ""
 "Add new ACOs for new controllers and actions. Does not remove nodes from the "
 "ACO table."
 msgstr ""
+"Agrega nuevos ACOs para controladores o acciones nuevas. No remueve nodos de "
+"la tabla Aco."
 
 #: Acl/Console/Command/ExtrasShell.php:107
 msgid ""
@@ -45,6 +50,9 @@ msgid ""
 "controllers and actions.Will also remove orphaned entries that no longer "
 "have a matching controller/action"
 msgstr ""
+"Ejecuta una sincronizacion completa de la tabla ACO. Esto creara nuevos ACOs "
+"para controladores o acciones faltantes. Tambien removera entradas huerfanas "
+"que ya no tengan un cotrolador o accion existente"
 
 #: Acl/Console/Command/ExtrasShell.php:112
 msgid ""
@@ -52,26 +60,29 @@ msgid ""
 "contents.Will also remove orphaned entries that no longer have a matching "
 "contents"
 msgstr ""
+"Ejecuta una sincronizacion completa de la tabla ACO. Esto creara nuevos ACOs "
+"o contenidos faltantes. Tambien removera entradas huerfanas que no tengan "
+"contenido existente"
 
 #: Acl/Console/Command/ExtrasShell.php:119
 msgid "The content model name "
-msgstr ""
+msgstr "Nombre del modelo de contenido"
 
 #: Acl/Console/Command/ExtrasShell.php:125
 msgid "Verify the tree structure of either your Aco or Aro Trees"
-msgstr ""
+msgstr "Verifica la estructura del arbol de Aco o Aro"
 
 #: Acl/Console/Command/ExtrasShell.php:130
 msgid "The type of tree to verify"
-msgstr ""
+msgstr "El tipo de arbol a verificar"
 
 #: Acl/Console/Command/ExtrasShell.php:137
 msgid "Recover a corrupted Tree"
-msgstr ""
+msgstr "Recuperar arbol corrupto"
 
 #: Acl/Console/Command/ExtrasShell.php:142
 msgid "The type of tree to recover"
-msgstr ""
+msgstr "El tipo de arbol a recuperar"
 
 #: Acl/Controller/AclActionsController.php:47
 #: Acl/View/AclActions/admin_form.ctp:8
@@ -95,146 +106,150 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:17
 #: Translate/View/Translate/admin_index.ctp:81
 msgid "Actions"
-msgstr "Akce"
+msgstr "Acciones"
 
 #: Acl/Controller/AclActionsController.php:64
 msgid "Add Action"
-msgstr ""
+msgstr "Añadir acción"
 
 #: Acl/Controller/AclActionsController.php:78
 msgid "The %s has been saved"
-msgstr ""
+msgstr "El %s ha sido guardado"
 
 #: Acl/Controller/AclActionsController.php:81
 msgid "The %s could not be saved. Please, try again."
-msgstr ""
+msgstr "El %s no pudo ser guardado. Por favor intente de nuevo."
 
 #: Acl/Controller/AclActionsController.php:95
 msgid "Edit Action"
-msgstr ""
+msgstr "Editar acción"
 
 #: Acl/Controller/AclActionsController.php:98
 msgid "Invalid Action"
-msgstr ""
+msgstr "Acción no válida"
 
 #: Acl/Controller/AclActionsController.php:103
 msgid "The Action has been saved"
-msgstr ""
+msgstr "La acción ha sido guardada"
 
 #: Acl/Controller/AclActionsController.php:106
 msgid "The Action could not be saved. Please, try again."
-msgstr ""
+msgstr "La acción no ha podido ser guardada. Por favor intente de nuevo."
 
 #: Acl/Controller/AclActionsController.php:124;142
 msgid "Invalid id for Action"
-msgstr ""
+msgstr "Id de acción no válido"
 
 #: Acl/Controller/AclActionsController.php:128
 msgid "Action deleted"
-msgstr ""
+msgstr "Acción borrada"
 
 #: Acl/Controller/AclActionsController.php:147
 msgid "Action moved up"
-msgstr ""
+msgstr "Acción movida arriba"
 
 #: Acl/Controller/AclActionsController.php:152
 msgid "Action moved down"
-msgstr ""
+msgstr "Acción movida abajo"
 
 #: Acl/Controller/AclActionsController.php:174
 msgid "Created %d new permissions"
-msgstr ""
+msgstr "Se crearon %s nuevos permisos"
 
 #: Acl/Controller/AclPermissionsController.php:168
 msgid "ACL database has been upgraded successfully"
-msgstr ""
+msgstr "La tabla ACL ha sido actualizada exitosamente"
 
 #: Acl/Controller/Component/AclAccessComponent.php:52
 msgid "Parent Role"
-msgstr ""
+msgstr "Rol padre"
 
 #: Acl/Controller/Component/AclFilterComponent.php:82
 msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
+"\"AutoLogin\" (Recordar) inhabilitado ya que mcrypt_encrypt no esta "
+"disponible"
 
 #: Acl/Controller/Component/Auth/AclCachedAuthorize.php:223
 msgid ""
 "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
 "\"%2$s\""
 msgstr ""
+"_authorizeByContent() - Acceso de la accion fuera del mapa \"%1$s\" en "
+"controlador \"%2$s\""
 
 #: Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
-msgstr ""
+msgstr "Modelo %s no encontrado."
 
 #: Acl/Lib/AclExtras.php:172
 msgid "Created Aco node: %s"
-msgstr ""
+msgstr "Se creo el nodo Aco: %s"
 
 #: Acl/Lib/AclExtras.php:192
 msgid "<error>Plugin %s not found or not activated</error>"
-msgstr ""
+msgstr "<error>Plugin %s no encontrado u activo</error>"
 
 #: Acl/Lib/AclExtras.php:208
 msgid "<success>Aco Sync Complete</success>"
-msgstr ""
+msgstr "<success>Sincronizacion Aco Completa</success>"
 
 #: Acl/Lib/AclExtras.php:210
 msgid "<success>Aco Update Complete</success>"
-msgstr ""
+msgstr "<success>Actualizacion Aco Completa</success>"
 
 #: Acl/Lib/AclExtras.php:241
 msgid "Skipped Aco node: <warning>%s</warning>"
-msgstr ""
+msgstr "Se paso por alto el nodo: <warning>%s</warning>"
 
 #: Acl/Lib/AclExtras.php:261
 msgid "Deleted %s and all children"
-msgstr ""
+msgstr "Se elimino %s y todos sus hijos"
 
 #: Acl/Lib/AclExtras.php:291;366
 msgid "Created Aco node: <success>%s</success>"
-msgstr ""
+msgstr "Se creo el nodo: <success>%s</success>"
 
 #: Acl/Lib/AclExtras.php:307;438
 msgid "Deleted Aco node: <warning>%s</warning>"
-msgstr ""
+msgstr "Nodo Aco eliminado: <warning>%s</warning>"
 
 #: Acl/Lib/AclExtras.php:457
 msgid "<success>Tree is valid and strong</success>"
-msgstr ""
+msgstr "<success>El arbol es valido y fuerte</success>"
 
 #: Acl/Lib/AclExtras.php:475
 msgid "Tree has been recovered, or tree did not need recovery."
-msgstr ""
+msgstr "Arbol recuperado, o no el arbol no necesitaba recuperar."
 
 #: Acl/Lib/AclExtras.php:477
 msgid "<error>Tree recovery failed.</error>"
-msgstr ""
+msgstr "<error>Recuperacion del arbol fallida.</error>"
 
 #: Acl/Lib/AclUpgrade.php:67
 msgid "No root node found"
-msgstr ""
+msgstr "No se encontro nodo raiz"
 
 #: Acl/Lib/AclUpgrade.php:75
 msgid "<warning>ACL Database seems to have already been upgraded</warning>"
-msgstr ""
+msgstr "<warning>Base de datos ACL parece que fue actualizada</warning>"
 
 #: Acl/Lib/AclUpgrade.php:115
 msgid "%s not found"
-msgstr ""
+msgstr "%s no encontrado"
 
 #: Acl/Lib/AclUpgrade.php:139
 msgid "Role: Public not found"
-msgstr ""
+msgstr "Rol: Public no encontrado"
 
 #: Acl/Lib/AclUpgrade.php:145
 msgid "Role: Registered not found"
-msgstr ""
+msgstr "Rol: Registered no encontrado"
 
 #: Acl/Lib/AclUpgrade.php:151
 msgid "Role: Admin not found"
-msgstr ""
+msgstr "Rol: Admin no encontrado"
 
 #: Acl/Model/AclAco.php:173
 msgid "API"
@@ -247,7 +262,7 @@ msgstr ""
 #: Users/View/Users/admin_form.ctp:7 Users/View/Users/admin_index.ctp:6
 #: Users/View/Users/admin_reset_password.ctp:7
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #: Acl/View/AclActions/admin_form.ctp:15 Blocks/View/Blocks/admin_form.ctp:13
 #: Blocks/View/Regions/admin_form.ctp:20
@@ -260,20 +275,20 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_form.ctp:18
 #: Users/View/Roles/admin_form.ctp:15 Users/View/Users/admin_form.ctp:20
 msgid "Add"
-msgstr ""
+msgstr "Adicionar"
 
 #: Acl/View/AclActions/admin_form.ctp:23
 msgid "Action"
-msgstr ""
+msgstr "Accion"
 
 #: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
 #: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
-msgstr ""
+msgstr "Padre"
 
 #: Acl/View/AclActions/admin_form.ctp:35
 msgid "Choose none if the Aco is a controller."
-msgstr ""
+msgstr "Escoja nada si el Aco es un controlador."
 
 #: Acl/View/AclActions/admin_form.ctp:38
 #: Acl/View/AclActions/admin_index.ctp:71
@@ -290,7 +305,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:15
 #: Users/View/Roles/admin_form.ctp:32
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 #: Acl/View/AclActions/admin_form.ctp:46 Blocks/View/Blocks/admin_form.ctp:78
 #: Blocks/View/Regions/admin_form.ctp:46
@@ -319,7 +334,7 @@ msgstr ""
 #: Users/View/Roles/admin_form.ctp:40 Users/View/Users/admin_form.ctp:70
 #: Users/View/Users/admin_reset_password.ctp:45
 msgid "Publishing"
-msgstr ""
+msgstr "Publicando"
 
 #: Acl/View/AclActions/admin_form.ctp:47 Blocks/View/Blocks/admin_form.ctp:79
 #: Blocks/View/Regions/admin_form.ctp:47
@@ -332,7 +347,7 @@ msgstr ""
 #: Translate/View/Translate/admin_edit.ctp:50
 #: Users/View/Roles/admin_form.ctp:41 Users/View/Users/admin_form.ctp:71
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 #: Acl/View/AclActions/admin_form.ctp:48 Blocks/View/Blocks/admin_form.ctp:80
 #: Blocks/View/Regions/admin_form.ctp:48
@@ -357,7 +372,7 @@ msgstr ""
 #: Translate/View/Translate/admin_edit.ctp:51
 #: Users/View/Roles/admin_form.ctp:42 Users/View/Users/admin_form.ctp:72
 msgid "Save"
-msgstr "Uložit"
+msgstr "Guardar"
 
 #: Acl/View/AclActions/admin_form.ctp:49 Blocks/View/Blocks/admin_form.ctp:81
 #: Blocks/View/Regions/admin_form.ctp:49
@@ -388,37 +403,37 @@ msgstr "Uložit"
 #: Users/View/Roles/admin_form.ctp:44 Users/View/Users/admin_form.ctp:74
 #: Users/View/Users/admin_reset_password.ctp:48
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr "Cancelar"
 
 #: Acl/View/AclActions/admin_index.ctp:18
 #: Acl/View/AclPermissions/admin_index.ctp:19
 msgid "Tools"
-msgstr ""
+msgstr "Herramientas"
 
 #: Acl/View/AclActions/admin_index.ctp:33
 #: Acl/View/AclPermissions/admin_index.ctp:34
 msgid "Generate"
-msgstr ""
+msgstr "Generar"
 
 #: Acl/View/AclActions/admin_index.ctp:40
 #: Acl/View/AclPermissions/admin_index.ctp:41
 msgid "Create new actions (no removal)"
-msgstr ""
+msgstr "Crear nuevas acciones (sin remover)"
 
 #: Acl/View/AclActions/admin_index.ctp:45
 #: Acl/View/AclPermissions/admin_index.ctp:46
 msgid "Synchronize"
-msgstr ""
+msgstr "Sincronizar"
 
 #: Acl/View/AclActions/admin_index.ctp:52
 #: Acl/View/AclPermissions/admin_index.ctp:53
 msgid "Create new & remove orphaned actions"
-msgstr ""
+msgstr "Crear y remover aciones huerfanas"
 
 #: Acl/View/AclActions/admin_index.ctp:62
 #: Acl/View/AclPermissions/admin_index.ctp:62
 msgid "Edit Actions"
-msgstr ""
+msgstr "Editar acciones"
 
 #: Acl/View/AclActions/admin_index.ctp:70
 #: Acl/View/Elements/admin/acl_permissions_table.ctp:7
@@ -438,7 +453,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_index.ctp:26
 #: Taxonomy/View/Vocabularies/admin_index.ctp:13
 msgid "Id"
-msgstr "ID"
+msgstr "Id"
 
 #: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
@@ -451,7 +466,7 @@ msgstr "ID"
 #: Taxonomy/View/Terms/admin_index.ctp:42
 #: Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
-msgstr ""
+msgstr "Mover arriba"
 
 #: Acl/View/AclActions/admin_index.ctp:108
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
@@ -464,7 +479,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_index.ctp:46
 #: Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
-msgstr ""
+msgstr "Mover abajo"
 
 #: Acl/View/AclActions/admin_index.ctp:113
 #: Acl/View/AclPermissions/json/admin_index.ctp:15
@@ -483,7 +498,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:43
 #: Translate/View/Translate/admin_index.ctp:97
 msgid "Edit this item"
-msgstr ""
+msgstr "Editar este elemento"
 
 #: Acl/View/AclActions/admin_index.ctp:119
 #: Acl/View/AclPermissions/json/admin_index.ctp:19
@@ -502,7 +517,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:47
 #: Translate/View/Translate/admin_index.ctp:106
 msgid "Remove this item"
-msgstr ""
+msgstr "Remover este elemento"
 
 #: Acl/View/AclActions/admin_index.ctp:123
 #: Acl/View/AclPermissions/json/admin_index.ctp:20
@@ -526,62 +541,62 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:48
 #: Translate/View/Translate/admin_index.ctp:107
 msgid "Are you sure?"
-msgstr ""
+msgstr "¿Está seguro?"
 
 #: Acl/View/AclPermissions/admin_toggle.ctp:19
 msgid "error"
-msgstr ""
+msgstr "error"
 
 #: Acl/View/Elements/admin/parent_role.ctp:4
 msgid "When set, permissions from parent role are inherited"
-msgstr ""
+msgstr "Cuando se active, los permisos del rol padre son heredados"
 
 #: Acl/View/Elements/admin/row_acl.ctp:4
 msgid "Edit Permissions"
-msgstr ""
+msgstr "Editar Permisos"
 
 #: Acl/View/Helper/AclHelper.php:62
 msgid "Upgrade Acl database"
-msgstr ""
+msgstr "Actualizar base de datos Acl"
 
 #: Blocks/Config/admin_menu.php:5;15 Blocks/Controller/BlocksController.php:99
 #: Blocks/View/Blocks/admin_form.ctp:7 Blocks/View/Blocks/admin_index.ctp:9
 #: Blocks/View/Regions/admin_form.ctp:7 Blocks/View/Regions/admin_index.ctp:5
 msgid "Blocks"
-msgstr "Bloky"
+msgstr "Bloques"
 
 #: Blocks/Config/admin_menu.php:24 Blocks/View/Regions/admin_form.ctp:9
 #: Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
-msgstr "Oblasti"
+msgstr "Regiones"
 
 #: Blocks/Controller/BlocksController.php:122
 msgid "Add Block"
-msgstr "Přidat Blok"
+msgstr "Añadir bloque"
 
 #: Blocks/Controller/BlocksController.php:129;158
 msgid "The Block has been saved"
-msgstr "Blok byl uložen"
+msgstr "El bloque ha sido guardado"
 
 #: Blocks/Controller/BlocksController.php:132;161
 msgid "The Block could not be saved. Please, try again."
-msgstr "Blok nemohl být uložen, zkuste to prosím znovu"
+msgstr "El bloque no ha podido ser guardado. Por favor, intente de nuevo."
 
 #: Blocks/Controller/BlocksController.php:148
 msgid "Edit Block"
-msgstr "Upravit Blok"
+msgstr "Editar bloque"
 
 #: Blocks/Controller/BlocksController.php:151
 msgid "Invalid Block"
-msgstr "Vadný Blok"
+msgstr "Bloque no válido"
 
 #: Blocks/Controller/BlocksController.php:186
 msgid "Invalid id for Block"
-msgstr "Neplatné id Bloku"
+msgstr "Id de bloque no válido"
 
 #: Blocks/Controller/BlocksController.php:190
 msgid "Block deleted"
-msgstr "Blok byl smazán"
+msgstr "Bloque borrado"
 
 #: Blocks/Controller/BlocksController.php:205
 #: Dashboards/Controller/DashboardsDashboardsController.php:126
@@ -591,7 +606,7 @@ msgstr "Blok byl smazán"
 #: Settings/Controller/SettingsController.php:199
 #: Taxonomy/Controller/VocabulariesController.php:132
 msgid "Moved up successfully"
-msgstr "Posunuto nahoru bez problémů"
+msgstr "Movido arriba con éxito"
 
 #: Blocks/Controller/BlocksController.php:207
 #: Dashboards/Controller/DashboardsDashboardsController.php:128
@@ -601,7 +616,7 @@ msgstr "Posunuto nahoru bez problémů"
 #: Settings/Controller/SettingsController.php:201
 #: Taxonomy/Controller/VocabulariesController.php:134
 msgid "Could not move up"
-msgstr "Nemohu to posunout nahoru"
+msgstr "No se ha podido mover arriba"
 
 #: Blocks/Controller/BlocksController.php:223
 #: Dashboards/Controller/DashboardsDashboardsController.php:142
@@ -611,7 +626,7 @@ msgstr "Nemohu to posunout nahoru"
 #: Settings/Controller/SettingsController.php:225
 #: Taxonomy/Controller/VocabulariesController.php:150
 msgid "Moved down successfully"
-msgstr "Posunuto dolů bez problémů"
+msgstr "Movido abajo con éxito"
 
 #: Blocks/Controller/BlocksController.php:225
 #: Dashboards/Controller/DashboardsDashboardsController.php:144
@@ -621,78 +636,78 @@ msgstr "Posunuto dolů bez problémů"
 #: Settings/Controller/SettingsController.php:227
 #: Taxonomy/Controller/VocabulariesController.php:152
 msgid "Could not move down"
-msgstr "Nemohu to posunout dolů"
+msgstr "No se ha podido mover abajo"
 
 #: Blocks/Controller/BlocksController.php:243
 msgid "Blocks deleted"
-msgstr ""
+msgstr "Bloques eliminados"
 
 #: Blocks/Controller/BlocksController.php:244
 msgid "Blocks published"
-msgstr "Blok publikován"
+msgstr "Bloques publicados"
 
 #: Blocks/Controller/BlocksController.php:245
 msgid "Blocks unpublished"
-msgstr "Blok nebyl publikován"
+msgstr "Bloques no publicados"
 
 #: Blocks/Controller/BlocksController.php:246
 #, fuzzy
 msgid "Blocks copied"
-msgstr "Blok publikován"
+msgstr "Bloques publicados"
 
 #: Blocks/Controller/RegionsController.php:66
 #: Blocks/View/Blocks/admin_form.ctp:41 Blocks/View/Blocks/admin_index.ctp:22
 #: Blocks/View/Regions/admin_form.ctp:26
 msgid "Region"
-msgstr "Region"
+msgstr "Región"
 
 #: Blocks/Controller/RegionsController.php:85
 msgid "Add Region"
-msgstr "Přidat Region"
+msgstr "Añadir región"
 
 #: Blocks/Controller/RegionsController.php:90;114
 msgid "The Region has been saved"
-msgstr "Region byl uložen"
+msgstr "La región ha sido guardada"
 
 #: Blocks/Controller/RegionsController.php:93;117
 msgid "The Region could not be saved. Please, try again."
-msgstr "Region se nepodařilo uložit, zkuste to prosím později"
+msgstr "La región no ha podido ser guardada. Por favor intente de nuevo."
 
 #: Blocks/Controller/RegionsController.php:106
 msgid "Edit Region"
-msgstr "Upravit Region"
+msgstr "Editar región"
 
 #: Blocks/Controller/RegionsController.php:109
 msgid "Invalid Region"
-msgstr "Neplatný region"
+msgstr "Región no válida"
 
 #: Blocks/Controller/RegionsController.php:134
 msgid "Invalid id for Region"
-msgstr "Neplatné ID Regionu"
+msgstr "Id de región no válido"
 
 #: Blocks/Controller/RegionsController.php:138
 msgid "Region deleted"
-msgstr "Regiony byly smazány"
+msgstr "Región borrada"
 
 #: Blocks/View/Blocks/admin_form.ctp:22
 msgid "Block"
-msgstr ""
+msgstr "Bloque"
 
 #: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
 #: Nodes/View/Nodes/admin_form.ctp:55
 msgid "Access"
-msgstr ""
+msgstr "Acceso"
 
 #: Blocks/View/Blocks/admin_form.ctp:24
 msgid "Visibilities"
-msgstr ""
+msgstr "Visibilidades"
 
 #: Blocks/View/Blocks/admin_form.ctp:25;70 Menus/View/Links/admin_form.ctp:108
 #: Menus/View/Menus/admin_form.ctp:42 Settings/View/Settings/admin_form.ctp:57
 #: Settings/View/Settings/admin_view.ctp:34
 #: Taxonomy/View/Types/admin_form.ctp:23;91
 msgid "Params"
-msgstr ""
+msgstr "Parámetros"
 
 #: Blocks/View/Blocks/admin_form.ctp:34 Blocks/View/Blocks/admin_index.ctp:20
 #: Blocks/View/Regions/admin_form.ctp:35
@@ -721,60 +736,64 @@ msgstr ""
 #: Translate/View/Translate/admin_index.ctp:79
 #: Users/View/Roles/admin_form.ctp:29
 msgid "Title"
-msgstr "Nadpis"
+msgstr "Título"
 
 #: Blocks/View/Blocks/admin_form.ctp:38
 msgid "unique name for your block"
-msgstr ""
+msgstr "Nombre único para su bloque"
 
 #: Blocks/View/Blocks/admin_form.ctp:42
 msgid "if you are not sure, choose 'none'"
-msgstr ""
+msgstr "si no está seguro, escoja 'ninguno'"
 
 #: Blocks/View/Blocks/admin_form.ctp:45
 #: Comments/View/Comments/admin_form.ctp:26
 #: Contacts/View/Contacts/admin_form.ctp:40
 #: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:86
 msgid "Body"
-msgstr ""
+msgstr "Cuerpo"
 
 #: Blocks/View/Blocks/admin_form.ctp:48 Menus/View/Links/admin_form.ctp:95
 msgid "Class"
-msgstr ""
+msgstr "Clase"
 
 #: Blocks/View/Blocks/admin_form.ctp:51
 msgid "Element"
-msgstr ""
+msgstr "Elemento"
 
 #: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:89
 #: Nodes/View/Nodes/admin_form.ctp:93 Users/View/Roles/admin_form.ctp:21
 #: Users/View/Users/admin_form.ctp:45
 msgid "Role"
-msgstr ""
+msgstr "Rol"
 
 #: Blocks/View/Blocks/admin_form.ctp:63
 msgid "Visibility Paths"
-msgstr ""
+msgstr "Rutas de visibilidad"
 
 #: Blocks/View/Blocks/admin_form.ctp:64
 msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
 msgstr ""
+"Introduzca una URL por línea. Déjelo en blanco si quiere que este bloque "
+"aparezca en todas las páginas."
 
 #: Blocks/View/Blocks/admin_form.ctp:90
 msgid "Show title ?"
-msgstr ""
+msgstr "Mostrar titulo?"
 
 #: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
 #: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
+#, fuzzy
 msgid "Publish Start"
-msgstr ""
+msgstr "Publicar como "
 
 #: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
 #: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:144
+#, fuzzy
 msgid "Publish End"
-msgstr ""
+msgstr "Publicado"
 
 #: Blocks/View/Blocks/admin_index.ctp:23
 #: Croogo/Console/Command/ExtShell.php:236;262
@@ -788,13 +807,13 @@ msgstr ""
 #: Settings/View/Languages/admin_index.ctp:19
 #: Users/View/Users/admin_form.ctp:86
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
 #: Nodes/View/Nodes/admin_index.ctp:102
 #, fuzzy
 msgid "Create a copy"
-msgstr "Vytvořit obsah"
+msgstr "Se creo directorio"
 
 #: Blocks/View/Blocks/admin_index.ctp:54
 msgid "Create a copy of this Block?"
@@ -802,7 +821,7 @@ msgstr ""
 
 #: Blocks/View/Blocks/admin_index.ctp:65 Croogo/View/Common/admin_index.ctp:75
 msgid "Choose"
-msgstr ""
+msgstr "Seleccione"
 
 #: Blocks/View/Blocks/admin_index.ctp:84 Menus/View/Links/admin_index.ctp:93
 #: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_hierarchy.ctp:71
@@ -816,7 +835,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:129
 #: Nodes/View/Nodes/admin_index.ctp:130
 msgid "Publish"
-msgstr ""
+msgstr "Publicar"
 
 #: Blocks/View/Blocks/admin_index.ctp:115
 #: Comments/View/Comments/admin_index.ctp:110
@@ -824,7 +843,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:130
 #: Nodes/View/Nodes/admin_index.ctp:131
 msgid "Unpublish"
-msgstr ""
+msgstr "Despublicar"
 
 #: Blocks/View/Blocks/admin_index.ctp:116
 #: Comments/View/Comments/admin_index.ctp:111
@@ -838,7 +857,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_index.ctp:134
 #: Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
-msgstr "Smazat"
+msgstr "Borrar"
 
 #: Blocks/View/Blocks/admin_index.ctp:117 Menus/View/Links/admin_index.ctp:124
 #: Nodes/View/Nodes/admin_hierarchy.ctp:136
@@ -853,7 +872,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:144
 #: Nodes/View/Nodes/admin_index.ctp:145 Users/View/Users/forgot.ctp:9
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 #: Comments/Config/admin_menu.php:4
 #: Comments/Controller/CommentsController.php:81;171
@@ -864,7 +883,7 @@ msgstr ""
 #: Nodes/View/Elements/node_more_info.ctp:33
 #: Taxonomy/View/Types/admin_form.ctp:22
 msgid "Comments"
-msgstr "Komentáře"
+msgstr "Comentarios"
 
 #: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
 #: Comments/View/Comments/admin_index.ctp:14;29
@@ -872,48 +891,48 @@ msgstr "Komentáře"
 #: FileManager/View/Elements/admin/attachments_search.ctp:37
 #: Nodes/View/Elements/admin/nodes_search.ctp:36
 msgid "Published"
-msgstr ""
+msgstr "Publicado"
 
 #: Comments/Config/admin_menu.php:25
 #: Comments/View/Comments/admin_index.ctp:17;33
 msgid "Approval"
-msgstr ""
+msgstr "Aprobación"
 
 #: Comments/Controller/CommentsController.php:107
 msgid "Edit Comment"
-msgstr "Upravit komentář"
+msgstr "Editar comentario"
 
 #: Comments/Controller/CommentsController.php:110
 msgid "Invalid Comment"
-msgstr "Chybný komentář"
+msgstr "Comentario no válido"
 
 #: Comments/Controller/CommentsController.php:115
 msgid "The Comment has been saved"
-msgstr "Komentář byl uložen"
+msgstr "El comentario ha sido guardado"
 
 #: Comments/Controller/CommentsController.php:118
 msgid "The Comment could not be saved. Please, try again."
-msgstr "Komentář nemohl být uložen, zkuste to prosím znovu"
+msgstr "El comentario no ha podido guardarse. Por favor intente de nuevo."
 
 #: Comments/Controller/CommentsController.php:135
 msgid "Invalid id for Comment"
-msgstr "Neplatné id Komentáře"
+msgstr "Id de comentario no válido"
 
 #: Comments/Controller/CommentsController.php:139
 msgid "Comment deleted"
-msgstr "Komentář byl smazán"
+msgstr "Comentario borrado"
 
 #: Comments/Controller/CommentsController.php:156
 msgid "Comments deleted"
-msgstr ""
+msgstr "Comentarios eliminados"
 
 #: Comments/Controller/CommentsController.php:157
 msgid "Comments published"
-msgstr "Komentáře byly publikovány"
+msgstr "Comentarios publicados"
 
 #: Comments/Controller/CommentsController.php:158
 msgid "Comments unpublished"
-msgstr "Komentáře nebyly publikovány"
+msgstr "Comentarios no publicados"
 
 #: Comments/Controller/CommentsController.php:198
 msgid "Invalid id"
@@ -921,40 +940,40 @@ msgstr ""
 
 #: Comments/Controller/CommentsController.php:223
 msgid "Maximum level reached. You cannot reply to that comment."
-msgstr "Maximální úrovně dosaženo, nelze odpověďet na tento Komentář"
+msgstr "Nivel máximo alcanzado. No puede contestar a ese comentario."
 
 #: Comments/Controller/CommentsController.php:238
 msgid "Comments are not allowed."
-msgstr ""
+msgstr "Comentarios no se autorizados."
 
 #: Comments/Controller/CommentsController.php:262
 msgid "Your comment has been added successfully."
-msgstr "Komentář úspěšně přidán"
+msgstr "Su comentario ha sido añadido con éxito."
 
 #: Comments/Controller/CommentsController.php:264
 msgid "Your comment will appear after moderation."
-msgstr "Komentář se objeví po schválení"
+msgstr "Su comentario aparecerá tras ser moderado."
 
 #: Comments/Controller/CommentsController.php:299
 msgid "Sorry, the comment appears to be spam."
-msgstr "Sorry, komentář vypadá jako spam"
+msgstr "Lo sentimos, este comentario parece ser spam."
 
 #: Comments/Controller/CommentsController.php:321
 #: Contacts/Controller/ContactsController.php:246
 msgid "Invalid captcha entry"
-msgstr "Špatně opsaná captcha"
+msgstr "Captcha no válido"
 
 #: Comments/Controller/CommentsController.php:343
 msgid "New comment posted under"
-msgstr "Nový komentář zaslán"
+msgstr "Nuevo comentario publicado"
 
 #: Comments/Model/Comment.php:130
 msgid "Invalid Node id"
-msgstr ""
+msgstr "Id de nodo invalido"
 
 #: Comments/Model/Comment.php:199
 msgid "Invalid Comment id"
-msgstr ""
+msgstr "Id de comentario invalido"
 
 #: Comments/View/Comments/admin_form.ctp:6
 #: Comments/View/Comments/admin_index.ctp:9
@@ -967,19 +986,19 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_form.ctp:7
 #: Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
-msgstr "Obsah"
+msgstr "Contenido"
 
 #: Comments/View/Comments/admin_form.ctp:14
 #: Comments/View/Elements/comments.ctp:5
 #: Nodes/View/Elements/node_more_info.ctp:31 Settings/Config/admin_menu.php:64
 msgid "Comment"
-msgstr "Komentář"
+msgstr "Comentario"
 
 #: Comments/View/Comments/admin_form.ctp:43
 #: Contacts/View/Contacts/admin_form.ctp:20
 #: Contacts/View/Messages/admin_index.ctp:61
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #: Comments/View/Comments/admin_form.ctp:44
 #: Comments/View/Comments/admin_index.ctp:43
@@ -990,7 +1009,7 @@ msgstr ""
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
 #: Install/View/Install/database.ctp:81 Users/View/Users/admin_form.ctp:50
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: Comments/View/Comments/admin_form.ctp:45
 #: Comments/View/Comments/admin_index.ctp:44
@@ -1000,108 +1019,108 @@ msgstr ""
 #: Contacts/View/Messages/admin_index.ctp:63
 #: Users/View/Users/admin_form.ctp:53
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: Comments/View/Comments/admin_form.ctp:46
 #: Comments/View/Elements/comments_form.ctp:35;43
 #: Users/View/Users/admin_form.ctp:56
 msgid "Website"
-msgstr ""
+msgstr "Sitio web"
 
 #: Comments/View/Comments/admin_form.ctp:49
 msgid "Ip"
-msgstr ""
+msgstr "Ip"
 
 #: Comments/View/Comments/admin_index.ctp:15
 msgid "Comments: Published"
-msgstr "Komentáře : Publikovaní"
+msgstr "Comentarios publicados"
 
 #: Comments/View/Comments/admin_index.ctp:18
 msgid "Comments: Approval"
-msgstr "Komentáře : K přijetí"
+msgstr "Comentarios: Aprobación"
 
 #: Comments/View/Comments/admin_index.ctp:45
 msgid "Node"
-msgstr ""
+msgstr "Nodo"
 
 #: Comments/View/Comments/admin_index.ctp:47
 #: FileManager/View/Attachments/admin_chooser.ctp:7;49
 #: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:135
 msgid "Created"
-msgstr ""
+msgstr "Creado"
 
 #: Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
-msgstr ""
+msgstr "Comentar"
 
 #: Comments/View/Comments/rss/index.ctp:18
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:54;108
 #: Nodes/View/Elements/node_info.ctp:9
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: Comments/View/Elements/comment.ctp:13
 msgid "said on %s"
-msgstr ""
+msgstr "dijo el %s"
 
 #: Comments/View/Elements/comment.ctp:19
 msgid "Reply"
-msgstr ""
+msgstr "Responder"
 
 #: Comments/View/Elements/comments_form.ctp:2
 msgid "Add new comment"
-msgstr ""
+msgstr "Añadir un nuevo comentario"
 
 #: Comments/View/Elements/comments_form.ctp:7
 msgid "Go back to original post"
-msgstr ""
+msgstr "Volver a la publicación original"
 
 #: Comments/View/Elements/comments_form.ctp:50
 msgid "Post comment"
-msgstr ""
+msgstr "Publicar comentario"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:5
 #: Taxonomy/View/Types/admin_form.ctp:61
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivado"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:6
 #: Taxonomy/View/Types/admin_form.ctp:62
 msgid "Read only"
-msgstr ""
+msgstr "Sólo lectura"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:7
 #: Taxonomy/View/Types/admin_form.ctp:63
 msgid "Read/Write"
-msgstr ""
+msgstr "Lectura/escritura"
 
 #: Comments/View/Emails/text/comment.ctp:2
 msgid "A new comment has been posted under: %s"
-msgstr ""
+msgstr "Se ha publicado un nuevo comentario bajo: %s"
 
 #: Comments/View/Emails/text/comment.ctp:6
 #: Contacts/View/Emails/text/contact.ctp:8
 msgid "Name: %s"
-msgstr ""
+msgstr "Nombre: %s"
 
 #: Comments/View/Emails/text/comment.ctp:7
 #: Contacts/View/Emails/text/contact.ctp:9
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: Comments/View/Emails/text/comment.ctp:8
 msgid "Website: %s"
-msgstr ""
+msgstr "Sitio web: %s"
 
 #: Comments/View/Emails/text/comment.ctp:9
 #: Contacts/View/Emails/text/contact.ctp:11
 #: Users/View/Emails/text/forgot_password.ctp:17
 msgid "IP Address: %s"
-msgstr ""
+msgstr "Dirección IP: %s"
 
 #: Comments/View/Emails/text/comment.ctp:10
 msgid "Comment: %s"
-msgstr ""
+msgstr "Comentario: %s"
 
 #: Contacts/Config/admin_menu.php:5;15
 #: Contacts/Controller/ContactsController.php:52
@@ -1110,268 +1129,268 @@ msgstr ""
 #: Contacts/View/Messages/admin_form.ctp:7
 #: Contacts/View/Messages/admin_index.ctp:9
 msgid "Contacts"
-msgstr "Kontakty"
+msgstr "Contactos"
 
 #: Contacts/Config/admin_menu.php:24
 #: Contacts/Controller/MessagesController.php:64
 #: Contacts/View/Messages/admin_form.ctp:8
 #: Contacts/View/Messages/admin_index.ctp:10
 msgid "Messages"
-msgstr "Zprávy"
+msgstr "Mensajes"
 
 #: Contacts/Controller/ContactsController.php:67
 msgid "Add Contact"
-msgstr "Přidat Kontakt"
+msgstr "Añadir contacto"
 
 #: Contacts/Controller/ContactsController.php:72;96
 msgid "The Contact has been saved"
-msgstr "Kontakt byl uložen"
+msgstr "El contacto ha sido guardado"
 
 #: Contacts/Controller/ContactsController.php:75;99
 msgid "The Contact could not be saved. Please, try again."
-msgstr "Kontakt se nepodařilo uložit, zkuste to prosím později"
+msgstr "El contacto no ha podido ser guardado. Por favor intente de nuevo."
 
 #: Contacts/Controller/ContactsController.php:88
 msgid "Edit Contact"
-msgstr "Upravit Kontakt"
+msgstr "Editar contacto"
 
 #: Contacts/Controller/ContactsController.php:91
 msgid "Invalid Contact"
-msgstr "Neplatný Kontakt"
+msgstr "Contacto no válido"
 
 #: Contacts/Controller/ContactsController.php:116
 msgid "Invalid id for Contact"
-msgstr "Neplatné id pro kontakt"
+msgstr "Id de contacto no válido"
 
 #: Contacts/Controller/ContactsController.php:120
 msgid "Contact deleted"
-msgstr "Kontakt byl smazán"
+msgstr "Contacto borrado"
 
 #: Contacts/Controller/ContactsController.php:171
 msgid "Your message has been received..."
-msgstr "Vaše zpráva byla přijata"
+msgstr "Su mensaje ha sido recibido..."
 
 #: Contacts/Controller/ContactsController.php:225
 msgid "Sorry, the message appears to be spam."
-msgstr "Pardon, zpráva byla označena za spam"
+msgstr "Lo sentimos, este mensaje parece ser spam."
 
 #: Contacts/Controller/ContactsController.php:270
 msgid "[%s] %s"
-msgstr ""
+msgstr "[%s] %s"
 
 #: Contacts/Controller/MessagesController.php:72
 #: Contacts/View/Messages/admin_index.ctp:14;47
 msgid "Read"
-msgstr ""
+msgstr "Leído"
 
 #: Contacts/Controller/MessagesController.php:86
 msgid "Edit Message"
-msgstr "Upravit zprávu"
+msgstr "Editar mensaje"
 
 #: Contacts/Controller/MessagesController.php:89
 msgid "Invalid Message"
-msgstr "Neplatná zpráva"
+msgstr "Mensaje no válido"
 
 #: Contacts/Controller/MessagesController.php:94
 msgid "The Message has been saved"
-msgstr "Zpráva byla uložena"
+msgstr "El mensaje ha sido guardado"
 
 #: Contacts/Controller/MessagesController.php:97
 msgid "The Message could not be saved. Please, try again."
-msgstr "Zpráva nemohla být doručena"
+msgstr "El mensaje no ha podido ser guardado. Por favor intente de nuevo."
 
 #: Contacts/Controller/MessagesController.php:114
 msgid "Invalid id for Message"
-msgstr "Neplatné id zprávy"
+msgstr "Id de mensaje no válido"
 
 #: Contacts/Controller/MessagesController.php:118
 msgid "Message deleted"
-msgstr "Zpráva byla smazána"
+msgstr "Mensaje borrado"
 
 #: Contacts/Controller/MessagesController.php:134
 #, fuzzy
 msgid "Messages deleted"
-msgstr "Zprávy byly smazány"
+msgstr "Mensajes borrados."
 
 #: Contacts/Controller/MessagesController.php:135
 msgid "Messages marked as read"
-msgstr "Zpráva byla označena jako přečtená"
+msgstr "Mensajes marcados como leídos"
 
 #: Contacts/Controller/MessagesController.php:136
 msgid "Messages marked as unread"
-msgstr "Zpráva byla označena jako nepřečtená"
+msgstr "Mensajes marcados como no leídos"
 
 #: Contacts/View/Contacts/admin_form.ctp:21
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: Contacts/View/Contacts/admin_form.ctp:22 Contacts/View/Contacts/view.ctp:21
 #: Contacts/View/Messages/admin_form.ctp:17
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #: Contacts/View/Contacts/admin_form.ctp:49
 msgid "Position"
-msgstr ""
+msgstr "Posicion"
 
 #: Contacts/View/Contacts/admin_form.ctp:52
 #: Contacts/View/Messages/admin_form.ctp:41
 msgid "Address"
-msgstr ""
+msgstr "Direccion"
 
 #: Contacts/View/Contacts/admin_form.ctp:55
 msgid "Address2"
-msgstr ""
+msgstr "Direccion2"
 
 #: Contacts/View/Contacts/admin_form.ctp:58
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #: Contacts/View/Contacts/admin_form.ctp:61
 msgid "Country"
-msgstr ""
+msgstr "Pais"
 
 #: Contacts/View/Contacts/admin_form.ctp:64
 msgid "Post Code"
-msgstr ""
+msgstr "Codigo Postal"
 
 #: Contacts/View/Contacts/admin_form.ctp:67
 #: Contacts/View/Messages/admin_form.ctp:38
 msgid "Phone"
-msgstr ""
+msgstr "Telefono"
 
 #: Contacts/View/Contacts/admin_form.ctp:70
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 #: Contacts/View/Contacts/admin_form.ctp:76
 msgid "Let users leave a message"
-msgstr ""
+msgstr "Permitir a los usuarios dejar un mensaje"
 
 #: Contacts/View/Contacts/admin_form.ctp:79
 msgid "Save messages in database"
-msgstr ""
+msgstr "Guardar mensajes en la base de datos"
 
 #: Contacts/View/Contacts/admin_form.ctp:82
 msgid "Notify by email instantly"
-msgstr ""
+msgstr "Notificar por email instantáneamente"
 
 #: Contacts/View/Contacts/admin_form.ctp:85
 #: Taxonomy/View/Types/admin_form.ctp:73
 msgid "Spam protection (requires Akismet API key)"
-msgstr ""
+msgstr "Protección anti-spam (requiere una clave de API Akismet)"
 
 #: Contacts/View/Contacts/admin_form.ctp:88
 #: Taxonomy/View/Types/admin_form.ctp:76
 msgid "Use captcha? (requires Recaptcha API key)"
-msgstr ""
+msgstr "¿Utilizar captcha? (Requiere una clave de API Recaptcha)"
 
 #: Contacts/View/Contacts/admin_form.ctp:91
 #: Taxonomy/View/Types/admin_form.ctp:78
 msgid "You can manage your API keys here."
-msgstr ""
+msgstr "Puede gestionar sus claves API aquí."
 
 #: Contacts/View/Contacts/view.ctp:18
 msgid "Your name"
-msgstr ""
+msgstr "Su nombre"
 
 #: Contacts/View/Contacts/view.ctp:19
 msgid "Your email"
-msgstr ""
+msgstr "Su email"
 
 #: Contacts/View/Contacts/view.ctp:20
 msgid "Subject"
-msgstr ""
+msgstr "Asunto"
 
 #: Contacts/View/Contacts/view.ctp:25
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: Contacts/View/Emails/text/contact.ctp:7
 msgid "You have received a new message at: %s"
-msgstr ""
+msgstr "Ha recibido un nuevo mensaje en: %s"
 
 #: Contacts/View/Emails/text/contact.ctp:10
 msgid "Subject: %s"
-msgstr ""
+msgstr "Asunto: %s"
 
 #: Contacts/View/Emails/text/contact.ctp:12
 msgid "Message: %s"
-msgstr ""
+msgstr "Mensaje: %s"
 
 #: Contacts/View/Messages/admin_index.ctp:15
 msgid "Messages: Read"
-msgstr "Zpráva: Přečtené"
+msgstr "Mensajes: Leídos"
 
 #: Contacts/View/Messages/admin_index.ctp:17;41
 msgid "Unread"
-msgstr ""
+msgstr "No leído"
 
 #: Contacts/View/Messages/admin_index.ctp:18
 msgid "Messages: Unread"
-msgstr "Zpráva: Nepřečtené"
+msgstr "Mensajes: No leído"
 
 #: Contacts/View/Messages/admin_index.ctp:120
 msgid "Mark as read"
-msgstr ""
+msgstr "Marcar como leído"
 
 #: Contacts/View/Messages/admin_index.ctp:121
 msgid "Mark as unread"
-msgstr ""
+msgstr "Marcar como no leído"
 
 #: Croogo/Console/Command/CroogoShell.php:27
 msgid "Croogo Utilities"
-msgstr ""
+msgstr "Utilidades de Croogo"
 
 #: Croogo/Console/Command/CroogoShell.php:29
 msgid "Compile/Generate CSS"
-msgstr ""
+msgstr "Compilar/Generar CSS"
 
 #: Croogo/Console/Command/CroogoShell.php:32
 msgid "Upgrade Croogo"
-msgstr ""
+msgstr "Actualizar Croogo"
 
 #: Croogo/Console/Command/ExtShell.php:103
 msgid "Theme cannot be deactivated, instead activate another theme."
-msgstr ""
+msgstr "La plantilla no puede ser desactivada, intenta desactivar otra."
 
 #: Croogo/Console/Command/ExtShell.php:107
 msgid "%s \"%s\" not found."
-msgstr ""
+msgstr "%s \"%s\" no encontrad"
 
 #: Croogo/Console/Command/ExtShell.php:116
 msgid "%s name must be provided."
-msgstr ""
+msgstr "nombre %s debe ser provisto"
 
 #: Croogo/Console/Command/ExtShell.php:128
 msgid "Activate Plugins & Themes"
-msgstr ""
+msgstr "Activar Plugins & Temas"
 
 #: Croogo/Console/Command/ExtShell.php:131
 msgid "Method to perform"
-msgstr ""
+msgstr "Métido a ejecutar"
 
 #: Croogo/Console/Command/ExtShell.php:136
 #: Croogo/Console/Command/InstallShell.php:136
 msgid "Extension type"
-msgstr ""
+msgstr "Tipo de extensión"
 
 #: Croogo/Console/Command/ExtShell.php:141
 msgid "Name of extension"
-msgstr ""
+msgstr "Nombre de la extensión"
 
 #: Croogo/Console/Command/ExtShell.php:165
 #: Extensions/Controller/ExtensionsPluginsController.php:157
 msgid "Plugin \"%s\" activated successfully."
-msgstr ""
+msgstr "Plugin \"%s\" desactivado exitosamente."
 
 #: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:558
 msgid "Plugin \"%s\" could not be activated. Please, try again."
-msgstr ""
+msgstr "El plugin \"%s\" no pudo ser activado. Por favor intente de nuevo."
 
 #: Croogo/Console/Command/ExtShell.php:186
 msgid "Plugin \"%s\" could not be deactivated. Please, try again."
-msgstr ""
+msgstr "El plugin \"%s\" no pudo ser desactivado. Por favor intente de nuevo."
 
 #: Croogo/Console/Command/ExtShell.php:194
 #: Extensions/Controller/ExtensionsPluginsController.php:143
@@ -1381,84 +1400,84 @@ msgstr ""
 #: Croogo/Console/Command/ExtShell.php:205
 #: Extensions/Controller/ExtensionsPluginsController.php:148
 msgid "Plugin \"%s\" deactivated successfully."
-msgstr ""
+msgstr "Plugin \"%s\" desactivado exitosamente"
 
 #: Croogo/Console/Command/ExtShell.php:219
 msgid "Theme \"%s\" activated successfully."
-msgstr ""
+msgstr "Tema \"%s\" activado con éxito."
 
 #: Croogo/Console/Command/ExtShell.php:221
 msgid "Theme \"%s\" activation failed."
-msgstr ""
+msgstr "Activación del tema \"%s\" falló."
 
 #: Croogo/Console/Command/ExtShell.php:235
 msgid "Plugins:"
-msgstr ""
+msgstr "Plugins:"
 
 #: Croogo/Console/Command/ExtShell.php:236;248;262;272
 msgid "%-20s%-50s%s"
-msgstr ""
+msgstr "%-20s%-50s%s"
 
 #: Croogo/Console/Command/ExtShell.php:236
 #: Taxonomy/View/Vocabularies/admin_index.ctp:16
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: Croogo/Console/Command/ExtShell.php:236;262
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: Croogo/Console/Command/ExtShell.php:262
 msgid "Theme"
-msgstr ""
+msgstr "Plantilla"
 
 #: Croogo/Console/Command/InstallShell.php:81
 msgid "Installing with Composer..."
-msgstr ""
+msgstr "Instalando con Composer..."
 
 #: Croogo/Console/Command/InstallShell.php:89
 msgid "Unexpected composerInstall return value"
-msgstr ""
+msgstr "Valor regresado por composerInstall desconocido"
 
 #: Croogo/Console/Command/InstallShell.php:102
 msgid "Package installed and activated."
-msgstr ""
+msgstr "Paquete instalado y activado"
 
 #: Croogo/Console/Command/InstallShell.php:104
 msgid "Package installed but not activated."
-msgstr ""
+msgstr "Paquete instalado pero no activado."
 
 #: Croogo/Console/Command/InstallShell.php:121
 msgid "Extension installed and activated."
-msgstr ""
+msgstr "Extensión instalada y activada."
 
 #: Croogo/Console/Command/InstallShell.php:133
 msgid "Download, Install & Activate Plugins & Themes"
-msgstr ""
+msgstr "Descarga, Instalación & Activación de Plugins & Temas"
 
 #: Croogo/Console/Command/InstallShell.php:141
 msgid "URL to zip file OR github user name"
-msgstr ""
+msgstr "URL a archivo zip O nombre de usuario de github"
 
 #: Croogo/Console/Command/InstallShell.php:145
 msgid "Github repo name"
-msgstr ""
+msgstr "Nombre de repo de Github"
 
 #: Croogo/Console/Command/InstallShell.php:176
 msgid "Installing extension..."
-msgstr ""
+msgstr "Instalndo extensión..."
 
 #: Croogo/Console/Command/InstallShell.php:195
 msgid "Please specify a URL to a zipball extension"
-msgstr ""
+msgstr "Por favor especifique una URL a una extensión zipball"
 
 #: Croogo/Console/Command/InstallShell.php:200
 msgid "Downloading extension to %s..."
-msgstr ""
+msgstr "Descargando extensión a %s..."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:62
 msgid "Upgrade ACL database for core controllers."
-msgstr ""
+msgstr "Actualizar base de datos ACL para los controladores del nucleo"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:64
 msgid ""
@@ -1469,22 +1488,29 @@ msgid ""
 "%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
+"Actualiza la jerarquia ACO de 1.3/1.4 para que siga el comportamiendo por "
+"defecto en aplicaciones normales con CakePHP. La principal diferencia es "
+"quelos controladores de los plugins estan guardados dentro de su propio "
+"registroACO, mientras que en versiones anteriores se asume que todos los "
+"controladorespertenecen a el nodo 'controlador raiz'. %s<warning>Asegurate "
+"que tienes un Respaldo de tus tablas aros, acos y aros_acos antes de "
+"actualizar.</warning>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:76
 msgid "Create settings.json from database"
-msgstr ""
+msgstr "Crear un archivo settings.json de la base de datos"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:79
 msgid "Update Hook.bootstrap settings"
-msgstr ""
+msgstr "Actualizar opciones deHook.bootstrap"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:82
 msgid "Update Links in database"
-msgstr ""
+msgstr "Actualizar links en base de datos"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:85
 msgid "Create first migration records"
-msgstr ""
+msgstr "Crear registros de primera migracion"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:88
 msgid "Run all pending migrations for core plugins"
@@ -1492,20 +1518,21 @@ msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:91
 msgid "Run all upgrade tasks"
-msgstr ""
+msgstr "Correr todas las tareas de actualizacion"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:101
 msgid "<warning>Config/settings.json already exist</warning>"
-msgstr ""
+msgstr "<warning>Config/settings.json ya existe</warning>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:142
 msgid ""
 "<success>Config/settings.yml created based on `settings` table</success>"
 msgstr ""
+"<success>Config/settings.yml se creo en base a la tabla `settings`</success>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:187
 msgid "Updating Link %s"
-msgstr ""
+msgstr "Actualizando Link %s"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:188
 #: Settings/Console/Command/SettingsShell.php:155
@@ -1519,32 +1546,32 @@ msgstr ""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:194
 msgid "Links updated: %d rows"
-msgstr ""
+msgstr "Links actualizados: %d filas"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:210
 msgid "Hook.bootstraps updated"
-msgstr ""
+msgstr "Hook.bootstraps actualizados"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:334
 msgid "Upgrade \"%s\""
-msgstr ""
+msgstr "Actualizar \"%s\""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:348
 msgid "Command not recognized"
-msgstr ""
+msgstr "Comando no reconocido"
 
 #: Croogo/Controller/CroogoAppController.php:268
 msgid "Site down for maintenance"
-msgstr "Probíhají úpravy, vraťte se prosím později"
+msgstr "Página en mantenimiento"
 
 #: Croogo/Controller/CroogoErrorController.php:55
 msgid "Errors in CakeErrorController: %s"
-msgstr ""
+msgstr "Errores en CakeErrorController: %s"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:98
 #, fuzzy
 msgid "No item selected"
-msgstr "Žádná položka nebyla vybrána"
+msgstr "No se han seleccionado elementos."
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:99
 msgid "Please choose only one item for this operation"
@@ -1557,11 +1584,11 @@ msgstr ""
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
 #: FileManager/Controller/FileManagerController.php:229;262;351;384
 msgid "An error occured"
-msgstr "Nastala chyba"
+msgstr "Ha ocurrido un error"
 
 #: Croogo/Controller/Component/CroogoComponent.php:128
 msgid "Visit website"
-msgstr "Jít na stránky"
+msgstr "Visitar sitio web"
 
 #: Croogo/Controller/Component/CroogoComponent.php:145
 msgid "Profile"
@@ -1574,25 +1601,25 @@ msgstr ""
 #: Croogo/Controller/Component/CroogoComponent.php:292
 #: Nodes/Controller/NodesController.php:288;748;768
 msgid "Invalid content"
-msgstr "Neplatný obsah"
+msgstr "Contenido no válido"
 
 #: Croogo/Controller/Component/CroogoComponent.php:301
 msgid "Failed toggling field %s to %s"
-msgstr ""
+msgstr "Fallo el cambio de campo %s a %s"
 
 #: Croogo/Event/CroogoEventManager.php:77
 msgid "EventHandler %s not found in plugin %s"
-msgstr ""
+msgstr "EventHandler %s no encontrado en el plugin %s"
 
 #: Croogo/Lib/CroogoRouter.php:201
 msgid "Unable to get routeable content types: %s"
-msgstr ""
+msgstr "No se pudieron obtener tipos de contenidos enrutables: %s"
 
 #: Croogo/Lib/CroogoStatus.php:39
 #: FileManager/View/Elements/admin/attachments_search.ctp:38
 #: Nodes/View/Elements/admin/nodes_search.ctp:37
 msgid "Unpublished"
-msgstr ""
+msgstr "No publicado"
 
 #: Croogo/Lib/CroogoStatus.php:41
 #: FileManager/View/Attachments/admin_edit.ctp:71
@@ -1609,23 +1636,24 @@ msgstr ""
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:40
 msgid "Cannot load configuration files with ../ in them."
-msgstr ""
+msgstr "No se puede cargar archivos de configuracion con ../ en ellos"
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:55
 msgid "Could not load configuration files: %s or %s"
-msgstr ""
+msgstr "No se pudo cargar los archivos de configuracion: %s o %s"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:65
 msgid "Invalid action to perform"
-msgstr ""
+msgstr "Acion a realizar invalida"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:69
 msgid "No target to process action upon"
-msgstr ""
+msgstr "No existe objetivo para procesar accion"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:75
+#, fuzzy
 msgid "Action %s is disabled"
-msgstr ""
+msgstr "Acción borrada"
 
 #: Croogo/View/Common/admin_edit.ctp:11
 #: FileManager/View/Attachments/admin_browse.ctp:35
@@ -1633,16 +1661,16 @@ msgstr ""
 #: FileManager/View/FileManager/admin_editfile.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
-msgstr "Upravit"
+msgstr "Editar"
 
 #: Croogo/View/Common/admin_index.ctp:41 Croogo/View/Common/admin_view.ctp:39
 #: Menus/View/Links/admin_index.ctp:17
 msgid "New %s"
-msgstr ""
+msgstr "Nuevo %s"
 
 #: Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
-msgstr ""
+msgstr "Croogo %s"
 
 #: Croogo/View/Elements/admin/footer.ctp:11
 msgid "Powered by %s"
@@ -1655,82 +1683,84 @@ msgstr ""
 #: Extensions/Controller/ExtensionsDashboardController.php:11
 #: Extensions/View/ExtensionsDashboard/admin_index.ctp:5
 msgid "Dashboard"
-msgstr "Přístrojová deska"
+msgstr "Panel"
 
 #: Croogo/View/Elements/admin/modal.ctp:20
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: Croogo/View/Elements/admin/pagination.ctp:5
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
+"Pagina {:page} de {:pages}, mostrando {:current} registros de {:count} "
+"totales, iniciando en registro {:start}, finalizando en {:end}"
 
 #: Croogo/View/Elements/admin/pagination.ctp:10
 msgid "first"
-msgstr ""
+msgstr "primero"
 
 #: Croogo/View/Elements/admin/pagination.ctp:11
 msgid "prev"
-msgstr ""
+msgstr "anterior"
 
 #: Croogo/View/Elements/admin/pagination.ctp:13
 msgid "next"
-msgstr ""
+msgstr "siguiente"
 
 #: Croogo/View/Elements/admin/pagination.ctp:14
 msgid "last"
-msgstr ""
+msgstr "última"
 
 #: Croogo/View/Elements/admin/search.ctp:46
 #: FileManager/View/Elements/admin/attachments_search.ctp:53
 #: Nodes/View/Elements/admin/nodes_search.ctp:52
 msgid "Filter"
-msgstr ""
+msgstr "Filtro"
 
 #: Croogo/View/Errors/missing_action.ctp:1
 #: Croogo/View/Errors/missing_controller.ctp:1
 #: Croogo/View/Errors/security.ctp:1
 msgid "Page not found"
-msgstr ""
+msgstr "Página no encontrada"
 
 #: Croogo/View/Errors/missing_action.ctp:2
 #: Croogo/View/Errors/missing_controller.ctp:2
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: Croogo/View/Errors/missing_action.ctp:4
 #: Croogo/View/Errors/missing_controller.ctp:4
 #: Croogo/View/Errors/security.ctp:4
 msgid "The requested address was not found on this server."
-msgstr ""
+msgstr "La página que ha solicitado no se ha podido encontrar en el servidor."
 
 #: Croogo/View/Errors/security.ctp:2
 msgid "Security Error"
-msgstr ""
+msgstr "Error de seguridad"
 
 #: Croogo/View/Errors/security.ctp:8
 msgid "Request blackholed due to \"%s\" violation."
-msgstr ""
+msgstr "La peticion se fue al hoyo negro debido a una violacion \"%s\""
 
 #: Croogo/View/Helper/LayoutHelper.php:95
 msgid "Method %1$s::%2$s does not exist"
-msgstr ""
+msgstr "Metodo %1$s::%2$s no existe"
 
 #: Croogo/View/Layouts/admin.ctp:6 Croogo/View/Layouts/admin_full.ctp:6
 #: Croogo/View/Layouts/admin_login.ctp:6 Croogo/View/Layouts/admin_popup.ctp:6
 #: Install/View/Layouts/install.ctp:6
 msgid "Croogo"
-msgstr ""
+msgstr "Croogo"
 
 #: Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
-msgstr ""
+msgstr "Volver a"
 
 #: Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
-msgstr ""
+msgstr "Sitio desactivado por mantenimiento."
 
 #: Dashboards/Config/admin_dashboard.php:5
 msgid "Croogo News"
@@ -1751,7 +1781,7 @@ msgstr ""
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
 #: Settings/View/Settings/admin_view.ctp:44
 msgid "Are you sure you want to delete # %s?"
-msgstr ""
+msgstr "¿Está seguro de que quiere borrar # %s?"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:131
 msgid "Left"
@@ -1771,7 +1801,7 @@ msgstr ""
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
-msgstr ""
+msgstr "contenido aquí"
 
 #: Extensions/Config/admin_menu.php:5
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:7
@@ -1782,14 +1812,14 @@ msgstr ""
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:7
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Extensions"
-msgstr "Doplňky"
+msgstr "Extensiones"
 
 #: Extensions/Config/admin_menu.php:15
 #: Extensions/Controller/ExtensionsThemesController.php:60
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:8
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:8
 msgid "Themes"
-msgstr "Témata"
+msgstr "Temas"
 
 #: Extensions/Config/admin_menu.php:25
 #: Extensions/Controller/ExtensionsLocalesController.php:44
@@ -1797,14 +1827,14 @@ msgstr "Témata"
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:8
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:8
 msgid "Locales"
-msgstr "Jazyky"
+msgstr "Locales"
 
 #: Extensions/Config/admin_menu.php:35
 #: Extensions/Controller/ExtensionsPluginsController.php:69
 #: Extensions/View/ExtensionsPlugins/admin_add.ctp:8
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:10
 msgid "Plugins"
-msgstr "Rozšíření"
+msgstr "Plugins"
 
 #: Extensions/Console/Command/DataMigrationShell.php:23
 msgid "Data Migration Utility"
@@ -1812,232 +1842,232 @@ msgstr ""
 
 #: Extensions/Controller/ExtensionsLocalesController.php:76
 msgid "Locale does not exist."
-msgstr ""
+msgstr "El locale no existe."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:82
 msgid "Locale '%s' set as default"
-msgstr ""
+msgstr "Locale '%s' activado como por defecto"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:84
 msgid "Could not save Locale setting."
-msgstr ""
+msgstr "No pudieron ser guardadas las opciones de locale"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:95
 msgid "Upload a new locale"
-msgstr ""
+msgstr "Cargar un nuevo locale"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:121;176
 msgid "Invalid locale."
-msgstr ""
+msgstr "Locale no válido."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:126
 msgid "Locale already exists."
-msgstr ""
+msgstr "Locale ya existe."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "Edit locale: %s"
-msgstr ""
+msgstr "Editar locale: %s"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:183;211
 msgid "The file %s does not exist."
-msgstr ""
+msgstr "El archivo %s no existe."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:193
 msgid "Locale updated successfully"
-msgstr ""
+msgstr "Locale actualizado con éxito"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:217
 msgid "Locale deleted successfully."
-msgstr ""
+msgstr "Locale borrado con éxito."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:219
 msgid "Local could not be deleted."
-msgstr ""
+msgstr "No se pudo borrar el locale."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:83
 msgid "Upload a new plugin"
-msgstr ""
+msgstr "Cargar un nuevo plugin"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
 #: Extensions/Lib/CroogoPlugin.php:685
 #: Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
-msgstr ""
+msgstr "Plugin no válido"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:112
 msgid "You cannot delete a plugin that is currently active."
-msgstr ""
+msgstr "Usted no puede borrar un plugin que está actualmente activo."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:118
 msgid "Plugin \"%s\" deleted successfully."
-msgstr ""
+msgstr "Plugin \"%s\" borrado exitosamente."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:122
 msgid "Plugin could not be deleted."
-msgstr ""
+msgstr "El plugin no ha podido ser borrado."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:152
 #: Extensions/Lib/CroogoPlugin.php:600
 msgid "Plugin could not be deactivated. Please, try again."
-msgstr ""
+msgstr "El plugin no pudo ser desactivado. Por favor intente de nuevo."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:161
 msgid "Plugin could not be activated. Please, try again."
-msgstr ""
+msgstr "El plugin no pudo ser activado. Por favor intente de nuevo."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:176
 msgid "Plugin \"%s\" migrated successfully."
-msgstr ""
+msgstr "Plugin \"%s\" se ha migrado exitosamente."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:179
 msgid "Plugin \"%s\" could not be migrated. Error: %s"
-msgstr ""
+msgstr "Plugin \"%s\" no pudo ser migrado. Error: %s"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:201
 msgid "Plugin %s has been moved up"
-msgstr ""
+msgstr "Plugin %s ha sido movido hacia arriba"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:225
 msgid "Plugin %s has been moved down"
-msgstr ""
+msgstr "Plugin %s ha sido movido hacia abajo"
 
 #: Extensions/Controller/ExtensionsThemesController.php:81
 msgid "Theme activated."
-msgstr ""
+msgstr "Tema activado."
 
 #: Extensions/Controller/ExtensionsThemesController.php:83
 msgid "Theme activation failed."
-msgstr ""
+msgstr "Activación del tema falló."
 
 #: Extensions/Controller/ExtensionsThemesController.php:95
 msgid "Upload a new theme"
-msgstr ""
+msgstr "Cargar un nuevo tema"
 
 #: Extensions/Controller/ExtensionsThemesController.php:104
 msgid "Theme uploaded successfully."
-msgstr ""
+msgstr "Tema cargado exitosamente."
 
 #: Extensions/Controller/ExtensionsThemesController.php:118
 msgid "Theme Editor"
-msgstr ""
+msgstr "Editor de temas"
 
 #: Extensions/Controller/ExtensionsThemesController.php:137
 msgid "Invalid Theme."
-msgstr ""
+msgstr "Tema no válido."
 
 #: Extensions/Controller/ExtensionsThemesController.php:142
 msgid "Default theme cannot be deleted."
-msgstr ""
+msgstr "El tema por defecto no ha podido ser borrado."
 
 #: Extensions/Controller/ExtensionsThemesController.php:145
 msgid "You cannot delete a theme that is currently active."
-msgstr ""
+msgstr "Usted no puede borrar un tema que está activo."
 
 #: Extensions/Controller/ExtensionsThemesController.php:152
 msgid "Theme deleted successfully."
-msgstr ""
+msgstr "Tema borrado con éxito."
 
 #: Extensions/Controller/ExtensionsThemesController.php:156
 #: Users/Controller/UsersController.php:427;496;507
 msgid "An error occurred."
-msgstr "Nastala chyba"
+msgstr "Ha ocurrido un error."
 
 #: Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin \"%s\" is already active."
-msgstr ""
+msgstr "El plugin \"%s\" ya está activo."
 
 #: Extensions/Lib/CroogoPlugin.php:556
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
-msgstr ""
+msgstr "Plugin \"%s\" depende del plugin \"%s\"."
 
 #: Extensions/Lib/CroogoPlugin.php:587
 msgid "Plugin \"%s\" is not active."
-msgstr ""
+msgstr "Plugin \"%s\" no está activo."
 
 #: Extensions/Lib/CroogoPlugin.php:715
 msgid "%s is already at the first position"
-msgstr ""
+msgstr "%s ya esta en la primera posicion"
 
 #: Extensions/Lib/CroogoPlugin.php:721;733
 msgid "Plugin %s depends on %s"
-msgstr ""
+msgstr "Plugin %s depende de %s"
 
 #: Extensions/Lib/CroogoPlugin.php:726
 msgid "%s is already at the last position"
-msgstr ""
+msgstr "%s ya esta en la ultima posicion"
 
 #: Extensions/Lib/CroogoPlugin.php:737
 msgid "Invalid direction"
-msgstr ""
+msgstr "Direccion invalida"
 
 #: Extensions/Lib/CroogoPlugin.php:742
 msgid "Plugin %s cannot be reordered"
-msgstr ""
+msgstr "Plugin %s no puede ser reordenado"
 
 #: Extensions/Lib/CroogoTheme.php:255
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
-msgstr ""
+msgstr "Tema inválido"
 
 #: Extensions/Lib/CroogoTheme.php:276
 msgid "Theme %s not found"
-msgstr ""
+msgstr "Plantilla %s no encontrada"
 
 #: Extensions/Lib/ExtensionsInstaller.php:62
 msgid "Invalid plugin path"
-msgstr ""
+msgstr "Ruta al plugin inválida"
 
 #: Extensions/Lib/ExtensionsInstaller.php:72;110;191
 msgid "Invalid zip archive"
-msgstr ""
+msgstr "Archivo zip inválido"
 
 #: Extensions/Lib/ExtensionsInstaller.php:78
 msgid "Invalid plugin.json or missing plugin name"
-msgstr ""
+msgstr "Archivo plugin.json invalido o falta nombre del plugin"
 
 #: Extensions/Lib/ExtensionsInstaller.php:99
 msgid "Missing expected files: %s in: %s"
-msgstr ""
+msgstr "Faltan archivos esperados: %s en %s"
 
 #: Extensions/Lib/ExtensionsInstaller.php:100
 msgid "Invalid plugin or missing expected files"
-msgstr ""
+msgstr "Plugin faltante o faltan archivos esperados"
 
 #: Extensions/Lib/ExtensionsInstaller.php:125
 msgid "Invalid plugin file path"
-msgstr ""
+msgstr "Ruta al archivo del plugin inválida"
 
 #: Extensions/Lib/ExtensionsInstaller.php:136
 msgid "Plugin already exists"
-msgstr ""
+msgstr "Plugin ya existe."
 
 #: Extensions/Lib/ExtensionsInstaller.php:152
 msgid "Failed to extract plugin"
-msgstr ""
+msgstr "Falló al extraer el plugin"
 
 #: Extensions/Lib/ExtensionsInstaller.php:165
 msgid "Invalid theme path"
-msgstr ""
+msgstr "Ruta al tema inválida"
 
 #: Extensions/Lib/ExtensionsInstaller.php:206
 msgid "Invalid theme file path"
-msgstr ""
+msgstr "Ruta al archivo del tema inválida"
 
 #: Extensions/Lib/ExtensionsInstaller.php:217
 msgid "Theme already exists"
-msgstr ""
+msgstr "El tema ya existe"
 
 #: Extensions/Lib/ExtensionsInstaller.php:233
 msgid "Failed to extract theme"
-msgstr ""
+msgstr "Falló al extraer el tema"
 
 #: Extensions/Lib/ExtensionsInstaller.php:252
 msgid "Must specify a valid package name: vendor/name."
-msgstr ""
+msgstr "Debe especificar un nombre de paquete válido: proveedor/nombre."
 
 #: Extensions/Lib/ExtensionsInstaller.php:255
 msgid "Themes installed via composer are not yet supported."
-msgstr ""
+msgstr "Temas instalados via composer aun no son soportados."
 
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:11
@@ -2049,29 +2079,29 @@ msgstr ""
 #: FileManager/View/Attachments/admin_add.ctp:8;21;29;42
 #: FileManager/View/FileManager/admin_upload.ctp:8;32
 msgid "Upload"
-msgstr "Nahrát"
+msgstr "Upload"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:19
 #: Nodes/View/Nodes/admin_translations.ctp:26
 #: Translate/View/Translate/admin_index.ctp:80
 msgid "Locale"
-msgstr ""
+msgstr "Locale"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:20
 msgid "Default"
-msgstr ""
+msgstr "Defecto"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:33
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:114
 msgid "Activate"
-msgstr "Aktivovat"
+msgstr "Activar"
 
 #: Extensions/View/ExtensionsPlugins/admin_add.ctp:29
 #: FileManager/View/FileManager/admin_create_file.ctp:33
 #: FileManager/View/FileManager/admin_rename.ctp:33
 msgid "File"
-msgstr ""
+msgstr "Archivo"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
 #: Menus/View/Links/admin_form.ctp:99 Menus/View/Menus/admin_form.ctp:36
@@ -2080,31 +2110,31 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_form.ctp:51 Taxonomy/View/Types/admin_form.ctp:38
 #: Taxonomy/View/Vocabularies/admin_form.ctp:43
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:29
 msgid "Active"
-msgstr ""
+msgstr "Activo"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 msgid "Deactivate"
-msgstr "Deaktivovat"
+msgstr "Desactivar"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:73
 msgid "Migrate"
-msgstr ""
+msgstr "Migrar"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:26
 msgid "Current Theme"
-msgstr ""
+msgstr "Tema actual"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:60;111
 msgid "Regions supported: "
-msgstr ""
+msgstr "Regiones válidas:"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:66
 msgid "Available Themes"
-msgstr ""
+msgstr "Temas disponibles"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:137
 msgid "No available theme"
@@ -2112,7 +2142,7 @@ msgstr ""
 
 #: FileManager/Config/admin_menu.php:5
 msgid "Media"
-msgstr ""
+msgstr "Media"
 
 #: FileManager/Config/admin_menu.php:15
 #: FileManager/Controller/AttachmentsController.php:117
@@ -2120,7 +2150,7 @@ msgstr ""
 #: FileManager/View/Attachments/admin_edit.ctp:7
 #: FileManager/View/Attachments/admin_index.ctp:7
 msgid "Attachments"
-msgstr "Přílohy"
+msgstr "Archivos adjuntos"
 
 #: FileManager/Config/admin_menu.php:24
 #: FileManager/Controller/FileManagerController.php:117
@@ -2131,63 +2161,66 @@ msgstr "Přílohy"
 #: FileManager/View/FileManager/admin_rename.ctp:7
 #: FileManager/View/FileManager/admin_upload.ctp:7
 msgid "File Manager"
-msgstr "Správce souborů"
+msgstr "Gestor de archivos"
 
 #: FileManager/Controller/AttachmentsController.php:155
 msgid "Add Attachment"
-msgstr "Přidat přílohu"
+msgstr "Añadir archivo adjunto"
 
 #: FileManager/Controller/AttachmentsController.php:164
 msgid "Upload failed. Please ensure size does not exceed the server limit."
 msgstr ""
+"Fallo la carga. Por favor asegurese que el tamño no exceda el límite del "
+"servidor."
 
 #: FileManager/Controller/AttachmentsController.php:171;204
 msgid "The Attachment has been saved"
-msgstr "Příloha byla uožena"
+msgstr "El archivo adjunto ha sido guardado"
 
 #: FileManager/Controller/AttachmentsController.php:179;207
 msgid "The Attachment could not be saved. Please, try again."
-msgstr "Příloha nemohla být uložena, zkuste to to prosím znovu"
+msgstr ""
+"El archivo adjunto no ha podido ser guardado. Por favor intente de nuevo."
 
 #: FileManager/Controller/AttachmentsController.php:192
 msgid "Edit Attachment"
-msgstr "Upravit přílohu"
+msgstr "Editar archivo adjunto"
 
 #: FileManager/Controller/AttachmentsController.php:199
 msgid "Invalid Attachment"
-msgstr "Neplatný formát přílohy"
+msgstr "Archivo adjunto no válido"
 
 #: FileManager/Controller/AttachmentsController.php:224;232
 msgid "Invalid id for Attachment"
-msgstr "Neplatné id přílohy"
+msgstr "Id de archivo adjunto no válido"
 
 #: FileManager/Controller/AttachmentsController.php:229
 msgid "Attachment deleted"
-msgstr "Příloha smazána"
+msgstr "Archivo adjunto borrado"
 
 #: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
 msgid "Path %s is restricted"
-msgstr ""
+msgstr "Ruta %s restringida"
 
 #: FileManager/Controller/FileManagerController.php:157
 msgid "Edit file: %s"
-msgstr "Upravit soubor: %s"
+msgstr "Editar archivo: %s"
 
 #: FileManager/Controller/FileManagerController.php:167
 msgid "File saved successfully"
-msgstr "Soubor úspěšně uložen"
+msgstr "Archivo guardado con éxito"
 
 #: FileManager/Controller/FileManagerController.php:201
 msgid "File uploaded successfully."
-msgstr "Soubor nahrán úspěšně"
+msgstr "Archivo cargado con éxito."
 
 #: FileManager/Controller/FileManagerController.php:227
 msgid "File deleted"
-msgstr "Soubor smazán"
+msgstr "Archivo borrado"
 
 #: FileManager/Controller/FileManagerController.php:260
 msgid "Directory deleted"
-msgstr "Adresář byl smazán"
+msgstr "Directorio borrado"
 
 #: FileManager/Controller/FileManagerController.php:285
 msgid "Path \"%s\" cannot be renamed"
@@ -2212,98 +2245,98 @@ msgstr ""
 #: FileManager/Controller/FileManagerController.php:331
 #: FileManager/View/FileManager/admin_create_directory.ctp:8
 msgid "Create Directory"
-msgstr ""
+msgstr "Se creo directorio"
 
 #: FileManager/Controller/FileManagerController.php:347
 msgid "Directory created successfully."
-msgstr "Adresář byl vytvořen úspěšně"
+msgstr "Directorio creado con éxito"
 
 #: FileManager/Controller/FileManagerController.php:365
 #: FileManager/View/FileManager/admin_create_file.ctp:8
 msgid "Create File"
-msgstr ""
+msgstr "Crear archivo"
 
 #: FileManager/Controller/FileManagerController.php:380
 msgid "File created successfully."
-msgstr "Soubor vytvořen úspěšně"
+msgstr "Archivo creado con éxito."
 
 #: FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
-msgstr ""
+msgstr "Error durante la carga del archivo"
 
 #: FileManager/View/Attachments/admin_browse.ctp:10
 msgid "New Attachment"
-msgstr ""
+msgstr "Nuevo archivo adjunto"
 
 #: FileManager/View/Attachments/admin_browse.ctp:25
 #: FileManager/View/Attachments/admin_index.ctp:14
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: FileManager/View/Attachments/admin_browse.ctp:67
 msgid "Insert"
-msgstr ""
+msgstr "Insertar"
 
 #: FileManager/View/Attachments/admin_chooser.ctp:4
 #: Nodes/View/Nodes/admin_chooser.ctp:4
 msgid "Sort by:"
-msgstr ""
+msgstr "Ordenado por:"
 
 #: FileManager/View/Attachments/admin_chooser.ctp:41
 #: FileManager/View/Elements/admin/attachments_search.ctp:48
 #: Nodes/View/Elements/admin/nodes_search.ctp:47
 #: Nodes/View/Nodes/admin_chooser.ctp:50
 msgid "Promoted"
-msgstr ""
+msgstr "Promovido"
 
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
-msgstr ""
+msgstr "Archivo adjunto"
 
 #: FileManager/View/Attachments/admin_edit.ctp:29
 msgid "Caption"
-msgstr ""
+msgstr "Leyenda"
 
 #: FileManager/View/Attachments/admin_edit.ctp:32
 msgid "File URL"
-msgstr ""
+msgstr "URL del archivo"
 
 #: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
-msgstr ""
+msgstr "Tipo Mime"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:28
 #: Nodes/View/Elements/search.ctp:7
 #: Nodes/View/Elements/admin/nodes_search.ctp:22
 msgid "Search"
-msgstr ""
+msgstr "Búsqueda"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:29
 #: Nodes/View/Elements/admin/nodes_search.ctp:23
 msgid "Search..."
-msgstr ""
+msgstr "Buscar..."
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:45
 #: Nodes/View/Elements/admin/nodes_search.ctp:44
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:46
 #: Nodes/View/Elements/admin/nodes_search.ctp:45
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: FileManager/View/FileManager/admin_browse.ctp:14
 msgid "Upload here"
-msgstr ""
+msgstr "Cargar aquí"
 
 #: FileManager/View/FileManager/admin_browse.ctp:18
 msgid "Create directory"
-msgstr ""
+msgstr "Crear directorio"
 
 #: FileManager/View/FileManager/admin_browse.ctp:22
 msgid "Create file"
-msgstr ""
+msgstr "Crear archivo"
 
 #: FileManager/View/FileManager/admin_browse.ctp:31
 #: FileManager/View/FileManager/admin_create_directory.ctp:21
@@ -2312,15 +2345,15 @@ msgstr ""
 #: FileManager/View/FileManager/admin_rename.ctp:13
 #: FileManager/View/FileManager/admin_upload.ctp:13
 msgid "You are here"
-msgstr ""
+msgstr "Estas aqui"
 
 #: FileManager/View/FileManager/admin_browse.ctp:46
 msgid "Directory content"
-msgstr ""
+msgstr "Contenido del directorio"
 
 #: FileManager/View/FileManager/admin_browse.ctp:59
 msgid "Open"
-msgstr ""
+msgstr "Abrir"
 
 #: FileManager/View/FileManager/admin_browse.ctp:66;111
 #: FileManager/View/FileManager/admin_rename.ctp:8
@@ -2329,25 +2362,25 @@ msgstr ""
 
 #: FileManager/View/FileManager/admin_browse.ctp:91
 msgid "View"
-msgstr ""
+msgstr "Vista"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:34
 msgid "Directory"
-msgstr ""
+msgstr "Directorio"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:42
 msgid "Directory name"
-msgstr ""
+msgstr "Nombre del directorio"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:51
 #: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
 #: Nodes/View/Nodes/admin_form.ctp:14
 msgid "Create"
-msgstr "Vytvořit"
+msgstr "Crear"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
-msgstr ""
+msgstr "Nombre de archivo"
 
 #: FileManager/View/FileManager/admin_rename.ctp:41
 msgid "New name"
@@ -2355,79 +2388,79 @@ msgstr ""
 
 #: Install/Console/Command/InstallShell.php:27
 msgid "Install Utilities"
-msgstr ""
+msgstr "Instalar Utilidades"
 
 #: Install/Console/Command/InstallShell.php:108
 msgid "DataSource"
-msgstr ""
+msgstr "Fuente de datos (DataSource)"
 
 #: Install/Console/Command/InstallShell.php:115
 #: Install/View/Install/database.ctp:58
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: Install/Console/Command/InstallShell.php:116
 #: Install/View/Install/database.ctp:66
 msgid "Login"
-msgstr "Přihlásit"
+msgstr "Login"
 
 #: Install/Console/Command/InstallShell.php:117;153
 #: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
 #: Users/View/Users/admin_login.ctp:15 Users/View/Users/login.ctp:7
 msgid "Password"
-msgstr ""
+msgstr "Password"
 
 #: Install/Console/Command/InstallShell.php:118
 #: Install/View/Install/database.ctp:47
 msgid "Database"
-msgstr ""
+msgstr "Base de datos"
 
 #: Install/Console/Command/InstallShell.php:119
 #: Install/View/Install/database.ctp:89
 msgid "Prefix"
-msgstr ""
+msgstr "Prefijo"
 
 #: Install/Console/Command/InstallShell.php:120
 #: Install/View/Install/database.ctp:96
 msgid "Port"
-msgstr ""
+msgstr "Puerto"
 
 #: Install/Console/Command/InstallShell.php:146
 #: Install/View/Install/adminuser.ctp:13 Users/View/Users/admin_form.ctp:47
 #: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
 #: Users/View/Users/login.ctp:6
 msgid "Username"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #: Install/Console/Command/InstallShell.php:155
 #: Install/View/Install/adminuser.ctp:26 Users/View/Users/admin_form.ctp:96
 #: Users/View/Users/admin_reset_password.ctp:35 Users/View/Users/reset.ctp:7
 msgid "Verify Password"
-msgstr ""
+msgstr "Verificar Contraseña"
 
 #: Install/Console/Command/InstallShell.php:217
 msgid "Permission %s granted to %s"
-msgstr ""
+msgstr "Permiso %s concedido a %s"
 
 #: Install/Controller/InstallController.php:101
 msgid "Installation: Welcome"
-msgstr ""
+msgstr "Instalación: Bienvenido"
 
 #: Install/Controller/InstallController.php:116
 msgid "Step 1: Database"
-msgstr ""
+msgstr "Paso 1: Base de datos"
 
 #: Install/Controller/InstallController.php:162
 msgid "Step 2: Build database"
-msgstr ""
+msgstr "Paso 2: Construir base de datos"
 
 #: Install/Controller/InstallController.php:170
 msgid "Warning: Database \"%s\" is not empty."
-msgstr ""
+msgstr "Alerta: Base de datos \"%s\" no esta vacia"
 
 #: Install/Controller/InstallController.php:222
 msgid "Installation successful"
-msgstr ""
+msgstr "Instalacion exitosa"
 
 #: Install/Controller/InstallController.php:230
 msgid "Installation failed"
@@ -2435,31 +2468,31 @@ msgstr ""
 
 #: Install/Controller/InstallController.php:231
 msgid "Installation failed: Unable to create settings file"
-msgstr ""
+msgstr "Instalacion fallida: no es posible crear el archivo de opciones"
 
 #: Install/Lib/AssetGenerator.php:100
 msgid "CSS : %s created"
-msgstr ""
+msgstr "CSS : %s creado"
 
 #: Install/Lib/AssetGenerator.php:103
 msgid "CSS : %s failed"
-msgstr ""
+msgstr "CSS : %s fallo"
 
 #: Install/Lib/AssetGenerator.php:120
 msgid "JS  : %s created"
-msgstr ""
+msgstr "JS : %s creado"
 
 #: Install/Lib/AssetGenerator.php:123
 msgid "JS  : %s failed"
-msgstr ""
+msgstr "JS : %s fallo"
 
 #: Install/Lib/AssetGenerator.php:165
 msgid "Font: %s copied"
-msgstr ""
+msgstr "Letra: %s copiada"
 
 #: Install/Lib/AssetGenerator.php:168
 msgid "File: %s not copied"
-msgstr ""
+msgstr "Archivo: %s no ha sido copiado"
 
 #: Install/Lib/InstallManager.php:38
 msgid "Could not copy database.php file."
@@ -2467,36 +2500,36 @@ msgstr ""
 
 #: Install/Lib/InstallManager.php:48
 msgid "Could not write database.php file."
-msgstr ""
+msgstr "No se pudo escribir el archivo database.php."
 
 #: Install/Lib/InstallManager.php:56
 msgid "Could not connect to database: "
-msgstr ""
+msgstr "No se pudo conectar con base de datos:"
 
 #: Install/Lib/InstallManager.php:59
 msgid "Could not connect to database."
-msgstr ""
+msgstr "No se pudo conectar a la base de datos."
 
 #: Install/View/Install/adminuser.ctp:10
 msgid "Step 3: Create Admin User"
-msgstr ""
+msgstr "Paso 3: Crear un usuario Administrador"
 
 #: Install/View/Install/adminuser.ctp:19
 #: Users/View/Users/admin_reset_password.ctp:31
 msgid "New Password"
-msgstr "Nové heslo"
+msgstr "Nueva contraseña"
 
 #: Install/View/Install/data.ctp:6
 msgid "Create tables and load initial data"
-msgstr ""
+msgstr "Crear tablas y cargar informacion inicial"
 
 #: Install/View/Install/data.ctp:12
 msgid "Build database"
-msgstr ""
+msgstr "Construir base de datos"
 
 #: Install/View/Install/data.ctp:19
 msgid "Click here to build your database"
-msgstr ""
+msgstr "Pulse aquí para crear su base de datos"
 
 #: Install/View/Install/database.ctp:20
 msgid "Warning"
@@ -2528,192 +2561,196 @@ msgstr ""
 
 #: Install/View/Install/database.ctp:60
 msgid "Database hostname or IP Address"
-msgstr ""
+msgstr "Host de base de datos o direccion IP"
 
 #: Install/View/Install/database.ctp:68
 msgid "Database login/username"
-msgstr ""
+msgstr "Login/Usuario de base de datos"
 
 #: Install/View/Install/database.ctp:75
 msgid "Database password"
-msgstr ""
+msgstr "Password de base de datos"
 
 #: Install/View/Install/database.ctp:83
 msgid "Database name"
-msgstr ""
+msgstr "Nombre de base de datos"
 
 #: Install/View/Install/database.ctp:90
 msgid "Table prefix (leave blank if unknown)"
-msgstr ""
+msgstr "Prefijo de tabla (dejar en blanco si se desconoce)"
 
 #: Install/View/Install/database.ctp:97
 msgid "Database port (leave blank if unknown)"
-msgstr ""
+msgstr "Puerto de base de datos (dejar en blanco si se desconoce)"
 
 #: Install/View/Install/finish.ctp:6
 msgid ""
 "\n"
 "\t\tThe user %s has been created with administrative rights."
 msgstr ""
+"\n"
+"\t\tEl usuario %s ha sido creado con derechos administrativos."
 
 #: Install/View/Install/finish.ctp:13
 msgid "Admin panel: %s"
-msgstr ""
+msgstr "Panel de administración: %s"
 
 #: Install/View/Install/finish.ctp:18
 msgid "You can start with %s or jump in and %s."
-msgstr ""
+msgstr "Puede empezar en %s o saltarlo y %s"
 
 #: Install/View/Install/finish.ctp:19
 msgid "configuring your site"
-msgstr ""
+msgstr "configurando su sitio"
 
 #: Install/View/Install/finish.ctp:20
 msgid "create a blog post"
-msgstr ""
+msgstr "Crear un artículo blog"
 
 #: Install/View/Install/finish.ctp:27
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: Install/View/Install/index.ctp:8
 msgid "Your tmp directory is writable."
-msgstr ""
+msgstr "Su directorio tmp es escribible"
 
 #: Install/View/Install/index.ctp:11
 msgid "Your tmp directory is NOT writable."
-msgstr ""
+msgstr "Su directorio tmp NO es escribible"
 
 #: Install/View/Install/index.ctp:16
 msgid "Your config directory is writable."
-msgstr ""
+msgstr "Su directorio config es escribible"
 
 #: Install/View/Install/index.ctp:19
 msgid "Your config directory is NOT writable."
-msgstr ""
+msgstr "Su directorio config NO es escribible"
 
 #: Install/View/Install/index.ctp:26
 msgid "PHP version %s %s %s"
-msgstr ""
+msgstr "Version PHP %s %s %s"
 
 #: Install/View/Install/index.ctp:29
 msgid "PHP version %s < %s"
-msgstr ""
+msgstr "Version PHP %s < %s"
 
 #: Install/View/Install/index.ctp:37
 msgid "CakePhp version %s %s %s"
-msgstr ""
+msgstr "Version CakePHP %s %s %s"
 
 #: Install/View/Install/index.ctp:40
 msgid "CakePHP version %s < %s"
-msgstr ""
+msgstr "Version de CakePHP %s < %s"
 
 #: Install/View/Install/index.ctp:47
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: Install/View/Install/index.ctp:52
 msgid "Click here to begin installation"
-msgstr ""
+msgstr "Click aqui para iniciar instalacion"
 
 #: Install/View/Install/index.ctp:57
 msgid "Installation cannot continue as minimum requirements are not met."
 msgstr ""
+"La instalación no puede continuar ya que el mínimo de requerimientos no se "
+"cumple."
 
 #: Install/View/Layouts/install.ctp:27
 msgid "Install Croogo"
-msgstr ""
+msgstr "Instalar Croogo"
 
 #: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
 #: Menus/View/Links/admin_form.ctp:9 Menus/View/Links/admin_index.ctp:9
 #: Menus/View/Menus/admin_form.ctp:7 Menus/View/Menus/admin_index.ctp:7
 msgid "Menus"
-msgstr "Menu"
+msgstr "Menús"
 
 #: Menus/Controller/LinksController.php:108
 msgid "Links: %s"
-msgstr "Odkazy: %s"
+msgstr "Enlaces: %s"
 
 #: Menus/Controller/LinksController.php:137
 msgid "Add Link"
-msgstr "Přidat odkaz"
+msgstr "Añadir enlace"
 
 #: Menus/Controller/LinksController.php:144;188
 msgid "The Link has been saved"
-msgstr "Odkaz byl uložen"
+msgstr "El enlace ha sido guardado"
 
 #: Menus/Controller/LinksController.php:156;200
 msgid "The Link could not be saved. Please, try again."
-msgstr "Odkaz nemohl být uložen, zkuste to prosím později"
+msgstr "El enlace no ha podido ser guardado. Por favor intente de nuevo."
 
 #: Menus/Controller/LinksController.php:175
 msgid "Edit Link"
-msgstr "Upravit Odkaz"
+msgstr "Editar enlace"
 
 #: Menus/Controller/LinksController.php:178
 msgid "Invalid Link"
-msgstr "Neplatný odkaz"
+msgstr "Enlace no válido"
 
 #: Menus/Controller/LinksController.php:227;235;264;296
 msgid "Invalid id for Link"
-msgstr "Neplatné id pro Odkaz"
+msgstr "Id de enlace no válido"
 
 #: Menus/Controller/LinksController.php:243
 msgid "Link deleted"
-msgstr "Odkaz smazán"
+msgstr "Enlace borrado"
 
 #: Menus/Controller/LinksController.php:338
 #, fuzzy
 msgid "Links deleted"
-msgstr "Odkazy smazány"
+msgstr "Enlaces borrados."
 
 #: Menus/Controller/LinksController.php:339
 msgid "Links published"
-msgstr "Odkazy zobrazeny"
+msgstr "Enlaces publicados"
 
 #: Menus/Controller/LinksController.php:340
 msgid "Links unpublished"
-msgstr "Odkazy schovány"
+msgstr "Enlaces no publicados"
 
 #: Menus/Controller/MenusController.php:82
 msgid "Add Menu"
-msgstr "Přidat Menu"
+msgstr "Añadir menú"
 
 #: Menus/Controller/MenusController.php:87;111
 msgid "The Menu has been saved"
-msgstr "Menu bylo uloženo"
+msgstr "El menú ha sido guardado"
 
 #: Menus/Controller/MenusController.php:90;114
 msgid "The Menu could not be saved. Please, try again."
-msgstr "Menu nemohlo být uloženo. Zkuste to prosím později"
+msgstr "El menú no ha podido ser guardado. Por favor, intente de nuevo."
 
 #: Menus/Controller/MenusController.php:103
 msgid "Edit Menu"
-msgstr "Upravit Menu"
+msgstr "Editar menú"
 
 #: Menus/Controller/MenusController.php:106
 msgid "Invalid Menu"
-msgstr "Chybné menu"
+msgstr "Menú no válido"
 
 #: Menus/Controller/MenusController.php:131
 msgid "Invalid id for Menu"
-msgstr "Chybné id Menu"
+msgstr "Id de menú no válido"
 
 #: Menus/Controller/MenusController.php:135
 msgid "Menu deleted"
-msgstr "Menu smazáno"
+msgstr "Menú borrado"
 
 #: Menus/View/Links/admin_form.ctp:51;74
 msgid "Link"
-msgstr ""
+msgstr "Enlace"
 
 #: Menus/View/Links/admin_form.ctp:53 Menus/View/Menus/admin_form.ctp:21
 msgid "Misc."
-msgstr ""
+msgstr "Misc."
 
 #: Menus/View/Links/admin_form.ctp:62 Menus/View/Menus/admin_form.ctp:20
 msgid "Menu"
-msgstr ""
+msgstr "Menú"
 
 #: Menus/View/Links/admin_form.ctp:80
 msgid "Link Chooser"
@@ -2721,11 +2758,11 @@ msgstr ""
 
 #: Menus/View/Links/admin_form.ctp:102
 msgid "Rel"
-msgstr ""
+msgstr "Rel"
 
 #: Menus/View/Links/admin_form.ctp:105
 msgid "Target"
-msgstr ""
+msgstr "Objetivo"
 
 #: Menus/View/Links/admin_form.ctp:148
 msgid "Choose Link"
@@ -2737,7 +2774,7 @@ msgstr ""
 
 #: Menus/View/Links/admin_index.ctp:85
 msgid "Delete this item"
-msgstr ""
+msgstr "Eliminar este elemento"
 
 #: Menus/View/Links/admin_link_chooser.ctp:12
 msgid "Link to %s"
@@ -2745,40 +2782,40 @@ msgstr ""
 
 #: Menus/View/Menus/admin_index.ctp:15
 msgid "Link Count"
-msgstr ""
+msgstr "Numero de links"
 
 #: Menus/View/Menus/admin_index.ctp:29
 msgid "View links"
-msgstr ""
+msgstr "Ver enlaces"
 
 #: Meta/Controller/Component/MetaComponent.php:47
 msgid "Custom Fields"
-msgstr ""
+msgstr "Campos personalizados"
 
 #: Meta/View/Elements/admin/meta_tab.ctp:19
 msgid "Add another field"
-msgstr ""
+msgstr "Añadir otro campo"
 
 #: Meta/View/Helper/MetaHelper.php:98 Settings/View/Settings/admin_form.ctp:35
 #: Settings/View/Settings/admin_index.ctp:19
 #: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
-msgstr ""
+msgstr "Clave"
 
 #: Meta/View/Helper/MetaHelper.php:102
 #: Settings/View/Settings/admin_form.ctp:38
 #: Settings/View/Settings/admin_index.ctp:20
 #: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: Meta/View/Helper/MetaHelper.php:129
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 #: Nodes/Config/admin_menu.php:15 Taxonomy/Config/admin_menu.php:25
 msgid "List"
-msgstr "Procházet"
+msgstr "Listado"
 
 #: Nodes/Controller/NodesController.php:145
 msgid "Type must be specified"
@@ -2787,45 +2824,47 @@ msgstr ""
 #: Nodes/Controller/NodesController.php:226
 #: Nodes/View/Nodes/admin_index.ctp:12
 msgid "Create content"
-msgstr "Vytvořit obsah"
+msgstr "Crear contenido"
 
 #: Nodes/Controller/NodesController.php:247
 msgid "Content type does not exist."
-msgstr "Typ obsahu neexistuje"
+msgstr "El tipo de contenido no existe."
 
 #: Nodes/Controller/NodesController.php:258;299
 msgid "%s has been saved"
-msgstr "%s byl uložen"
+msgstr "%s ha sido guardado"
 
 #: Nodes/Controller/NodesController.php:261;302
 msgid "%s could not be saved. Please, try again."
-msgstr "%s nemohl být uložen. Zkuste to prosím znovu"
+msgstr "%s no ha podido ser guardado. Por favor intente de nuevo."
 
 #: Nodes/Controller/NodesController.php:268
 msgid "Create content: %s"
-msgstr "Vytvořit obsah: %s"
+msgstr "Crear contenido: %s"
 
 #: Nodes/Controller/NodesController.php:315
 msgid "Edit %s: %s"
-msgstr ""
+msgstr "Editar %s %s"
 
 #: Nodes/Controller/NodesController.php:328
 msgid "Paths updated."
-msgstr "Cesty byly aktualizovány"
+msgstr "Rutas actualizadas."
 
 #: Nodes/Controller/NodesController.php:331
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
 msgstr ""
+"Algo salio mal actualizando rutas.\n"
+"Intente de nuevo"
 
 #: Nodes/Controller/NodesController.php:348
 msgid "Invalid id for Node"
-msgstr "Neplatné ID pro článek"
+msgstr "Id de nodo no válido"
 
 #: Nodes/Controller/NodesController.php:354
 msgid "Node deleted"
-msgstr "Článek byl smazán"
+msgstr "Nodo borrado"
 
 #: Nodes/Controller/NodesController.php:409
 msgid "%s deleted"
@@ -2853,11 +2892,11 @@ msgstr ""
 
 #: Nodes/Controller/NodesController.php:467;568;640;703
 msgid "Invalid content type."
-msgstr "Neplatný typ obsahu"
+msgstr "Tipo de contenido no válido."
 
 #: Nodes/Controller/NodesController.php:525
 msgid "Invalid Term."
-msgstr "Neplatný termín"
+msgstr "Término no válido."
 
 #: Nodes/Controller/NodesController.php:619
 msgid "Home"
@@ -2865,19 +2904,19 @@ msgstr ""
 
 #: Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
-msgstr ""
+msgstr "Publicado"
 
 #: Nodes/View/Elements/node_info.ctp:20
 msgid "on"
-msgstr ""
+msgstr "en"
 
 #: Nodes/View/Elements/node_more_info.ctp:18
 msgid "Posted in"
-msgstr ""
+msgstr "Publicado en"
 
 #: Nodes/View/Elements/node_more_info.ctp:29
 msgid "Leave a comment"
-msgstr ""
+msgstr "Dejar un comentario"
 
 #: Nodes/View/Elements/admin/nodes_search.ctp:31
 #: Nodes/View/Nodes/admin_hierarchy.ctp:38 Nodes/View/Nodes/admin_index.ctp:33
@@ -2885,73 +2924,73 @@ msgstr ""
 #: Taxonomy/View/Types/admin_form.ctp:20
 #: Taxonomy/View/Vocabularies/admin_form.ctp:46
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: Nodes/View/Nodes/admin_form.ctp:80 Taxonomy/View/Terms/admin_chooser.ctp:7
 #: Taxonomy/View/Terms/admin_form.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
-msgstr "Zkratka"
+msgstr "Slug"
 
 #: Nodes/View/Nodes/admin_form.ctp:83
 msgid "Excerpt"
-msgstr ""
+msgstr "Esbozo"
 
 #: Nodes/View/Nodes/admin_form.ctp:117
 msgid "Promoted to front page"
-msgstr ""
+msgstr "Promovido a la página principal"
 
 #: Nodes/View/Nodes/admin_form.ctp:121
 msgid "Publish as "
-msgstr ""
+msgstr "Publicar como "
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
 #: Users/View/Users/admin_form.ctp:37
 msgid "User"
-msgstr "Uživatel"
+msgstr "Usuario"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:67 Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
-msgstr ""
+msgstr "promovido"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:126
 #: Nodes/View/Nodes/admin_index.ctp:127
 msgid "Applying to selected"
-msgstr ""
+msgstr "Aplicar a seleccionados"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:131
 #: Nodes/View/Nodes/admin_index.ctp:132
 msgid "Promote"
-msgstr "Zveřejnit"
+msgstr "Promover"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:132
 #: Nodes/View/Nodes/admin_index.ctp:133
 msgid "Unpromote"
-msgstr ""
+msgstr "Degradar"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:151
 #: Nodes/View/Nodes/admin_index.ctp:152
 msgid "%s selected items?"
-msgstr ""
+msgstr "%s los ítems seleccionados?"
 
 #: Nodes/View/Nodes/admin_translations.ctp:8
 #: Translate/View/Translate/admin_index.ctp:36
 msgid "Translate in a new language"
-msgstr ""
+msgstr "Traducir a un nuevo idioma"
 
 #: Nodes/View/Nodes/admin_translations.ctp:49
 #: Translate/View/Translate/admin_index.ctp:72
 msgid "No translations available."
-msgstr ""
+msgstr "No hay traducciones disponibles."
 
 #: Nodes/View/Nodes/index.ctp:4 Nodes/View/Nodes/promoted.ctp:4
 #: Nodes/View/Nodes/search.ctp:11 Nodes/View/Nodes/term.ctp:6
 msgid "No items found."
-msgstr ""
+msgstr "No se han encontrado elementos."
 
 #: Nodes/View/Nodes/search.ctp:3
 msgid "Search Results: %s"
-msgstr "Výsledky vyhledávání: %s"
+msgstr "Resultados de búsqueda: %s"
 
 #: Settings/Config/admin_menu.php:5
 #: Settings/Controller/SettingsController.php:68
@@ -2962,62 +3001,62 @@ msgstr "Výsledky vyhledávání: %s"
 #: Settings/View/Settings/admin_index.ctp:7
 #: Settings/View/Settings/admin_prefix.ctp:6
 msgid "Settings"
-msgstr ""
+msgstr "Configuración"
 
 #: Settings/Config/admin_menu.php:16
 msgid "Site"
-msgstr ""
+msgstr "Sitio"
 
 #: Settings/Config/admin_menu.php:28
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 #: Settings/Config/admin_menu.php:40
 msgid "Reading"
-msgstr ""
+msgstr "Leyendo"
 
 #: Settings/Config/admin_menu.php:52
 msgid "Writing"
-msgstr ""
+msgstr "Escribiendo"
 
 #: Settings/Config/admin_menu.php:76
 msgid "Service"
-msgstr ""
+msgstr "Servicio"
 
 #: Settings/Config/admin_menu.php:88
 #: Settings/Controller/LanguagesController.php:40
 #: Settings/View/Languages/admin_index.ctp:7
 #: Settings/View/Languages/admin_select.ctp:8
 msgid "Languages"
-msgstr "Jazyky"
+msgstr "Idiomas"
 
 #: Settings/Console/Command/SettingsShell.php:33
 msgid "Displays setting values"
-msgstr ""
+msgstr "Mostrar valores de opciones"
 
 #: Settings/Console/Command/SettingsShell.php:37;55;93
 msgid "Setting key"
-msgstr ""
+msgstr "Indice de opcion"
 
 #: Settings/Console/Command/SettingsShell.php:43
 msgid "List all settings"
-msgstr ""
+msgstr "Mostrar todas las opciones"
 
 #: Settings/Console/Command/SettingsShell.php:51
 msgid "Write setting value for a given key"
-msgstr ""
+msgstr "Escribe el valor de la opcion para el indice dado"
 
 #: Settings/Console/Command/SettingsShell.php:59
 msgid "Setting value"
-msgstr ""
+msgstr "Valor de opcion"
 
 #: Settings/Console/Command/SettingsShell.php:89
 msgid "Delete setting based on key"
-msgstr ""
+msgstr "Eliminar opcion en base a indice"
 
 #: Settings/Console/Command/SettingsShell.php:100
 msgid "Update version string from git tag information"
-msgstr ""
+msgstr "Actualizar la cadena de version desde la informacion de un tag de git"
 
 #: Settings/Console/Command/SettingsShell.php:129
 msgid "    %-30s: %s"
@@ -3025,149 +3064,150 @@ msgstr ""
 
 #: Settings/Console/Command/SettingsShell.php:150
 msgid "Updating %s"
-msgstr ""
+msgstr "Actualizando %s"
 
 #: Settings/Console/Command/SettingsShell.php:151
 msgid "Confirm update"
-msgstr ""
+msgstr "Confirmar actualizacion"
 
 #: Settings/Console/Command/SettingsShell.php:166
 msgid "Setting updated"
-msgstr ""
+msgstr "Opcion actualizada"
 
 #: Settings/Console/Command/SettingsShell.php:168;196
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #: Settings/Console/Command/SettingsShell.php:171;199
 msgid "Key: %s not found"
-msgstr ""
+msgstr "Key: %s no encontrada"
 
 #: Settings/Console/Command/SettingsShell.php:189
 msgid "Deleting %s"
-msgstr ""
+msgstr "Borrando %s"
 
 #: Settings/Console/Command/SettingsShell.php:190
 msgid "Delete?"
-msgstr ""
+msgstr "Borrar?"
 
 #: Settings/Console/Command/SettingsShell.php:194
 #: Settings/Controller/SettingsController.php:152
 msgid "Setting deleted"
-msgstr ""
+msgstr "Configuración borrada"
 
 #: Settings/Controller/LanguagesController.php:54
 msgid "Add Language"
-msgstr "Přidat jazyk"
+msgstr "Añadir idioma"
 
 #: Settings/Controller/LanguagesController.php:59;83
 msgid "The Language has been saved"
-msgstr "Jazyk byl uložen"
+msgstr "El idioma ha sido guardado"
 
 #: Settings/Controller/LanguagesController.php:62;86
 msgid "The Language could not be saved. Please, try again."
-msgstr "Jazyk nemohl být uložen. Zkuste to prosím znovu"
+msgstr "El idioma no ha podido ser guardado. Por favor intente de nuevo"
 
 #: Settings/Controller/LanguagesController.php:75
 msgid "Edit Language"
-msgstr "Upravit jazyk"
+msgstr "Editar idioma"
 
 #: Settings/Controller/LanguagesController.php:78
 #: Translate/Controller/TranslateController.php:134
 msgid "Invalid Language"
-msgstr "Neplatný jazyk"
+msgstr "Idioma no válido"
 
 #: Settings/Controller/LanguagesController.php:103
 msgid "Invalid id for Language"
-msgstr "Neplatné id Jazyka"
+msgstr "Id de idioma no válido"
 
 #: Settings/Controller/LanguagesController.php:107
 msgid "Language deleted"
-msgstr "jazyk byl smazán"
+msgstr "Idioma borrado"
 
 #: Settings/Controller/LanguagesController.php:162
 msgid "Select a language"
-msgstr "Vyberte jazyk"
+msgstr "Seleccione un idioma"
 
 #: Settings/Controller/SettingsController.php:86
 msgid "Invalid Setting."
-msgstr ""
+msgstr "Configuración no válida."
 
 #: Settings/Controller/SettingsController.php:99
 msgid "Add Setting"
-msgstr ""
+msgstr "Adicionar configuración"
 
 #: Settings/Controller/SettingsController.php:104;128
 msgid "The Setting has been saved"
-msgstr ""
+msgstr "La configuración ha sido guardada"
 
 #: Settings/Controller/SettingsController.php:107;131
 msgid "The Setting could not be saved. Please, try again."
 msgstr ""
+"La configuración no ha podido ser guardada. Por favor intente de nuevo."
 
 #: Settings/Controller/SettingsController.php:120
 #: Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
-msgstr ""
+msgstr "Editar configuración"
 
 #: Settings/Controller/SettingsController.php:123
 msgid "Invalid Setting"
-msgstr ""
+msgstr "Configuración no válida"
 
 #: Settings/Controller/SettingsController.php:148
 msgid "Invalid id for Setting"
-msgstr ""
+msgstr "Id de configuración no válido"
 
 #: Settings/Controller/SettingsController.php:165
 msgid "Settings: %s"
-msgstr ""
+msgstr "Configuraciones: %s"
 
 #: Settings/Controller/SettingsController.php:169
 msgid "Settings updated successfully"
-msgstr ""
+msgstr "Configuraciones actualizadas con éxito"
 
 #: Settings/Controller/SettingsController.php:183
 msgid "Invalid Setting key"
-msgstr ""
+msgstr "Clave de configuración no válida"
 
 #: Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
 msgid "Could not add a new language."
-msgstr ""
+msgstr "No se pudo adicionar un nuevo lenguaje."
 
 #: Settings/View/Languages/admin_form.ctp:8;25
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: Settings/View/Languages/admin_form.ctp:38
 #: Settings/View/Languages/admin_index.ctp:17
 msgid "Native"
-msgstr ""
+msgstr "Nativo"
 
 #: Settings/View/Languages/admin_select.ctp:12
 msgid "New Language"
-msgstr ""
+msgstr "Nuevo idioma"
 
 #: Settings/View/Settings/admin_form.ctp:27
 msgid "Misc"
-msgstr ""
+msgstr "Miscelaneo"
 
 #: Settings/View/Settings/admin_form.ctp:34
 msgid "e.g., 'Site.title'"
-msgstr ""
+msgstr "ej: 'Site.title'"
 
 #: Settings/View/Settings/admin_form.ctp:50
 #: Settings/View/Settings/admin_view.ctp:24
 msgid "Input Type"
-msgstr ""
+msgstr "Tipo de entrada"
 
 #: Settings/View/Settings/admin_form.ctp:51
 msgid "e.g., 'text' or 'textarea'"
-msgstr ""
+msgstr "ej: 'text' o 'textarea'"
 
 #: Settings/View/Settings/admin_form.ctp:54
 #: Settings/View/Settings/admin_index.ctp:21
 msgid "Editable"
-msgstr ""
+msgstr "Editable"
 
 #: Settings/View/Settings/admin_prefix.ctp:53
 msgid "Saving"
@@ -3175,64 +3215,65 @@ msgstr ""
 
 #: Settings/View/Settings/admin_view.ctp:2
 msgid "Setting"
-msgstr ""
+msgstr "Configuración"
 
 #: Settings/View/Settings/admin_view.ctp:29
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #: Settings/View/Settings/admin_view.ctp:44
 msgid "Delete Setting"
-msgstr ""
+msgstr "Borrar configuración"
 
 #: Settings/View/Settings/admin_view.ctp:45
 msgid "List Settings"
-msgstr ""
+msgstr "Listado de configuraciones"
 
 #: Settings/View/Settings/admin_view.ctp:46
 msgid "New Setting"
-msgstr ""
+msgstr "Nueva configuración"
 
 #: Taxonomy/Config/admin_menu.php:4
-#, fuzzy
 msgid "Content Types"
-msgstr "Obsah"
+msgstr "Tipos de contenido"
 
 #: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:21
 msgid "Taxonomy"
-msgstr ""
+msgstr "Taxonomía"
 
 #: Taxonomy/Config/admin_menu.php:35
 msgid "Add new"
-msgstr "Přidat nový"
+msgstr "Añadir nuevo"
 
 #: Taxonomy/Controller/TermsController.php:67
 msgid "Vocabulary: %s"
-msgstr ""
+msgstr "Vocabulario: %s"
 
 #: Taxonomy/Controller/TermsController.php:89
 msgid "%s: Add Term"
-msgstr ""
+msgstr "%s: Añadir término"
 
 #: Taxonomy/Controller/TermsController.php:93;136
 msgid "Term saved successfuly."
-msgstr ""
+msgstr "Térmio guardado exitosamente."
 
 #: Taxonomy/Controller/TermsController.php:99;146
 msgid "Term could not be added to the vocabulary. Please try again."
 msgstr ""
+"El término no ha podido ser adicionado al vocabulario. Por favor intente de "
+"nuevo."
 
 #: Taxonomy/Controller/TermsController.php:132
 msgid "%s: Edit Term"
-msgstr ""
+msgstr "%s: Editar término"
 
 #: Taxonomy/Controller/TermsController.php:172
 msgid "Term deleted"
-msgstr ""
+msgstr "Término borrado"
 
 #: Taxonomy/Controller/TermsController.php:175
 msgid "Term could not be deleted. Please, try again."
-msgstr ""
+msgstr "El término no pudo ser eliminado. Por favor intente de nuevo."
 
 #: Taxonomy/Controller/TermsController.php:229
 msgid "Moved %s successfully"
@@ -3252,35 +3293,35 @@ msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:300
 msgid "Invalid Vocabulary ID."
-msgstr ""
+msgstr "ID de vocabulario no válido."
 
 #: Taxonomy/Controller/TypesController.php:68
 msgid "Add Type"
-msgstr ""
+msgstr "Añadir tipo"
 
 #: Taxonomy/Controller/TypesController.php:73;100
 msgid "The Type has been saved"
-msgstr ""
+msgstr "El tipo ha sido guardado"
 
 #: Taxonomy/Controller/TypesController.php:76;103
 msgid "The Type could not be saved. Please, try again."
-msgstr ""
+msgstr "El tipo no ha podido ser guardado. Por favor, intente de nuevo."
 
 #: Taxonomy/Controller/TypesController.php:92
 msgid "Edit Type"
-msgstr ""
+msgstr "Editar tipo"
 
 #: Taxonomy/Controller/TypesController.php:95
 msgid "Invalid Type"
-msgstr ""
+msgstr "Tipo no válido"
 
 #: Taxonomy/Controller/TypesController.php:123
 msgid "Invalid id for Type"
-msgstr ""
+msgstr "Id de tipo no válido"
 
 #: Taxonomy/Controller/TypesController.php:127
 msgid "Type deleted"
-msgstr ""
+msgstr "Tipo borrado"
 
 #: Taxonomy/Controller/VocabulariesController.php:40
 #: Taxonomy/View/Terms/admin_form.ctp:12;19
@@ -3288,35 +3329,35 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_form.ctp:11;17
 #: Taxonomy/View/Vocabularies/admin_index.ctp:8
 msgid "Vocabularies"
-msgstr ""
+msgstr "Vocabularios"
 
 #: Taxonomy/Controller/VocabulariesController.php:54
 msgid "Add Vocabulary"
-msgstr ""
+msgstr "Añadir vocabulario"
 
 #: Taxonomy/Controller/VocabulariesController.php:59;86
 msgid "The Vocabulary has been saved"
-msgstr ""
+msgstr "El vocabulario ha sido guardado"
 
 #: Taxonomy/Controller/VocabulariesController.php:62;89
 msgid "The Vocabulary could not be saved. Please, try again."
-msgstr ""
+msgstr "El vocabulario no ha podido ser guardado. Por favor intente de nuevo."
 
 #: Taxonomy/Controller/VocabulariesController.php:78
 msgid "Edit Vocabulary"
-msgstr ""
+msgstr "Editar vocabulario"
 
 #: Taxonomy/Controller/VocabulariesController.php:81
 msgid "Invalid Vocabulary"
-msgstr ""
+msgstr "Vocabulario no válido"
 
 #: Taxonomy/Controller/VocabulariesController.php:113
 msgid "Invalid id for Vocabulary"
-msgstr ""
+msgstr "Id de vocabulario no válido"
 
 #: Taxonomy/Controller/VocabulariesController.php:117
 msgid "Vocabulary deleted"
-msgstr ""
+msgstr "Vocabulario borrado"
 
 #: Taxonomy/Model/Term.php:178
 msgid "Invalid Term Id"
@@ -3336,23 +3377,23 @@ msgstr ""
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:177
 msgid "Invalid Content Type"
-msgstr ""
+msgstr "Tipo de contenido invalido"
 
 #: Taxonomy/View/Helper/TaxonomiesHelper.php:61
 msgid "Terms"
-msgstr ""
+msgstr "Términos"
 
 #: Taxonomy/View/Terms/admin_form.ctp:29
 msgid "Term"
-msgstr ""
+msgstr "Término"
 
 #: Taxonomy/View/Terms/admin_index.ctp:13
 msgid "New Term"
-msgstr ""
+msgstr "Nuevo término"
 
 #: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:8
 msgid "Types"
-msgstr ""
+msgstr "Tipos"
 
 #: Taxonomy/View/Types/admin_form.ctp:41
 msgid "Enable Wysiwyg Editor"
@@ -3361,88 +3402,90 @@ msgstr ""
 #: Taxonomy/View/Types/admin_form.ctp:50
 #: Taxonomy/View/Vocabularies/admin_form.ctp:26
 msgid "Vocabulary"
-msgstr "Slovní zásoba"
+msgstr "Vocabulario"
 
 #: Taxonomy/View/Types/admin_form.ctp:109
 msgid "Show author's name"
-msgstr "Ukázat autorovo jméno"
+msgstr "Mostrar nombre del autor"
 
 #: Taxonomy/View/Types/admin_form.ctp:112
 msgid "Show date"
-msgstr "Ukázat datum"
+msgstr "Mostrar fecha"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:27
 msgid "Options"
-msgstr "Nastavení"
+msgstr "Opciones"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Required"
-msgstr ""
+msgstr "Requerido"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Multiple"
-msgstr ""
+msgstr "Multiple"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:58
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 #: Taxonomy/View/Vocabularies/admin_index.ctp:30
 msgid "View terms"
-msgstr "Prohlížet termíny"
+msgstr "Ver términos"
 
 #: Translate/Controller/TranslateController.php:45;107
 msgid "Invalid ID."
-msgstr ""
+msgstr "ID no válido."
 
 #: Translate/Controller/TranslateController.php:57;203
 msgid "Invalid model."
-msgstr ""
+msgstr "Modelo no válido."
 
 #: Translate/Controller/TranslateController.php:69;146;214
 msgid "Invalid record."
-msgstr ""
+msgstr "Registro no válido."
 
 #: Translate/Controller/TranslateController.php:76
 msgid "Translations: %s"
-msgstr ""
+msgstr "Traducciones: %s"
 
 #: Translate/Controller/TranslateController.php:116
 msgid "Invalid locale"
-msgstr ""
+msgstr "Locale no válido"
 
 #: Translate/Controller/TranslateController.php:153
 msgid "Translate content: %s (%s)"
-msgstr ""
+msgstr "Traducir contenido: %s (%s)"
 
 #: Translate/Controller/TranslateController.php:160
 msgid "Record has been translated"
-msgstr ""
+msgstr "El registro ha sido traducido"
 
 #: Translate/Controller/TranslateController.php:172
 msgid "Record could not be translated. Please, try again."
-msgstr ""
+msgstr "El registro no ha podido ser traducido. Por favor intente de nuevo."
 
 #: Translate/Controller/TranslateController.php:191
 msgid "Invalid Locale or ID"
-msgstr ""
+msgstr "Locale o ID no válido"
 
 #: Translate/Controller/TranslateController.php:229
 msgid "Translation for the locale deleted successfully."
-msgstr ""
+msgstr "Traducción del locale borrada con éxito."
 
 #: Translate/Controller/TranslateController.php:231
 msgid "Translation for the locale could not be deleted."
-msgstr ""
+msgstr "La traducción del locale no ha podido ser borrada."
 
 #: Translate/Lib/Translations.php:22;27
 #: Translate/View/Translate/admin_edit.ctp:19;33
 msgid "Translate"
-msgstr "Přeložit"
+msgstr "Traducir"
 
 #: Translate/Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
 msgstr ""
+"La fuente de datos %s para CroogoTranslateBehaviour del modelo %s no está "
+"conectada"
 
 #: Translate/View/Translate/admin_edit.ctp:10
 #: Translate/View/Translate/admin_index.ctp:31
@@ -3452,105 +3495,108 @@ msgstr ""
 #: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
 #: Users/View/Roles/admin_form.ctp:8 Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
-msgstr "Role"
+msgstr "Roles"
 
 #: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:25
 msgid "Reset password"
-msgstr "Reset hesla"
+msgstr "Reestablecer contraseña"
 
 #: Users/Console/Command/UsersShell.php:20
 msgid "Reset user password"
-msgstr ""
+msgstr "Reiniciar password de usuario"
 
 #: Users/Console/Command/UsersShell.php:25
 msgid "Username to reset"
-msgstr ""
+msgstr "Nombre de usuario a reiniciar"
 
 #: Users/Console/Command/UsersShell.php:29
 msgid "New user password"
-msgstr ""
+msgstr "Password de nuevo usuario"
 
 #: Users/Console/Command/UsersShell.php:45
 msgid "User '%s' not found"
-msgstr ""
+msgstr "Usuario '%s' no encontrado"
 
 #: Users/Console/Command/UsersShell.php:50
 msgid "Password for '%s' has been changed"
-msgstr ""
+msgstr "Password para '%s' ha sido cambiado"
 
 #: Users/Controller/RolesController.php:55
 msgid "Add Role"
-msgstr "Přidat Roli"
+msgstr "Añadir rol"
 
 #: Users/Controller/RolesController.php:60;84
 msgid "The Role has been saved"
-msgstr "Role byla uložena"
+msgstr "El rol ha sido guardado"
 
 #: Users/Controller/RolesController.php:63;87
 msgid "The Role could not be saved. Please, try again."
-msgstr "Role nemohla být uložena, zkuste to prosím později"
+msgstr "El rol no ha podido ser guardada. Por favor intente de nuevo."
 
 #: Users/Controller/RolesController.php:76
 msgid "Edit Role"
-msgstr "Upravit Roli"
+msgstr "Editar roles"
 
 #: Users/Controller/RolesController.php:79
 msgid "Invalid Role"
-msgstr "Neplatná Role"
+msgstr "Rol no válido"
 
 #: Users/Controller/RolesController.php:104
 msgid "Invalid id for Role"
-msgstr "Neplatné ID pro Roli"
+msgstr "Id de rol no válido"
 
 #: Users/Controller/RolesController.php:108
 msgid "Role deleted"
-msgstr "Role byla smazána"
+msgstr "Rol borrado"
 
 #: Users/Controller/UsersController.php:77
 msgid ""
 "You have reached maximum limit for failed login attempts. Please try again "
 "after a few minutes."
 msgstr ""
+"Usted ha alcanzado el límite máximo de logins fallidos. Por favor intente "
+"nuevamente en unos minutos."
 
 #: Users/Controller/UsersController.php:146;362
 msgid "[%s] Please activate your account"
-msgstr ""
+msgstr "[%s] Por favor active su cuenta"
 
 #: Users/Controller/UsersController.php:171;194
 msgid "The User has been saved"
-msgstr ""
+msgstr "El usuario ha sido guardado"
 
 #: Users/Controller/UsersController.php:174;197;373
 msgid "The User could not be saved. Please, try again."
-msgstr ""
+msgstr "El usuario no ha podido ser guardado. Por favor intente de nuevo."
 
 #: Users/Controller/UsersController.php:216
 msgid "Invalid User"
-msgstr ""
+msgstr "Usuario no válido"
 
 #: Users/Controller/UsersController.php:221
 msgid "Password has been reset."
-msgstr ""
+msgstr "Contraseña reestablecida."
 
 #: Users/Controller/UsersController.php:224
 msgid "Password could not be reset. Please, try again."
 msgstr ""
+"La contraseña no ha podido ser reestablecida. Por favor intente de nuevo."
 
 #: Users/Controller/UsersController.php:239
 msgid "Invalid id for User"
-msgstr ""
+msgstr "Id de usuario no válido"
 
 #: Users/Controller/UsersController.php:243
 msgid "User deleted"
-msgstr ""
+msgstr "Usuario borrado"
 
 #: Users/Controller/UsersController.php:246
 msgid "User cannot be deleted"
-msgstr ""
+msgstr "El usuario no pudo ser borrado"
 
 #: Users/Controller/UsersController.php:258
 msgid "Admin Login"
-msgstr ""
+msgstr "Login de administración"
 
 #: Users/Controller/UsersController.php:263
 msgid "You are already logged in"
@@ -3558,87 +3604,90 @@ msgstr ""
 
 #: Users/Controller/UsersController.php:276
 msgid "Incorrect username or password"
-msgstr ""
+msgstr "Nombre de usuario y password incorrecto"
 
 #: Users/Controller/UsersController.php:291;557
 msgid "Log out successful."
-msgstr ""
+msgstr "Logout realizado."
 
 #: Users/Controller/UsersController.php:346
 msgid "Register"
-msgstr ""
+msgstr "Registro"
 
 #: Users/Controller/UsersController.php:369
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
-msgstr ""
+msgstr "Ha registrado una cuenta. Se le ha enviado un email con instrucciones."
 
 #: Users/Controller/UsersController.php:393 Users/View/Users/index.ctp:4
 msgid "You are currently logged in as:"
-msgstr "Právě přihlášen:"
+msgstr "Está conectado como:"
 
 #: Users/Controller/UsersController.php:424
 msgid "Account activated successfully."
-msgstr ""
+msgstr "Cuenta activada con éxito."
 
 #: Users/Controller/UsersController.php:451
 msgid "Forgot Password"
-msgstr ""
+msgstr "Olvidé la contraseña"
 
 #: Users/Controller/UsersController.php:456
 msgid "Invalid username."
-msgstr ""
+msgstr "Nombre de usuario no válido"
 
 #: Users/Controller/UsersController.php:468
 msgid "[%s] Reset Password"
-msgstr ""
+msgstr "[%s] Reinicio de Contraseña"
 
 #: Users/Controller/UsersController.php:476
 msgid "An email has been sent with instructions for resetting your password."
 msgstr ""
+"Se le ha enviado un email con instrucciones para reestablecer su contraseña."
 
 #: Users/Controller/UsersController.php:479;521
 msgid "An error occurred. Please try again."
-msgstr ""
+msgstr "Ha ocurrido un error. Por favor intente de nuevo."
 
 #: Users/Controller/UsersController.php:493
 #: Users/View/Users/admin_reset_password.ctp:11;22
 msgid "Reset Password"
-msgstr ""
+msgstr "Reestablecer contraseña"
 
 #: Users/Controller/UsersController.php:518
 msgid "Your password has been reset successfully."
-msgstr ""
+msgstr "Su contraseña ha sido reestablecida con éxito."
 
 #: Users/Controller/UsersController.php:535
 msgid "Log in"
-msgstr ""
+msgstr "Login"
 
 #: Users/Controller/UsersController.php:576
 msgid "Invalid User."
-msgstr ""
+msgstr "Usuario no válido."
 
 #: Users/Model/User.php:226
 msgid "Passwords do not match. Please, try again."
-msgstr ""
+msgstr "La contraseñas no coinciden. Por favor intente de nuevo."
 
 #: Users/View/Emails/text/forgot_password.ctp:1
 #: Users/View/Emails/text/register.ctp:1
 msgid "Hello %s"
-msgstr ""
+msgstr "Hola %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
-msgstr ""
+msgstr "Por favor, pulse este enlace para reestablecer su contraseña: %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
 msgstr ""
+"Si no pidió que su contraseña fuese reestablecida, por favor ignore este "
+"email."
 
 #: Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
-msgstr ""
+msgstr "Por favor visite este enlace para activar su cuenta: %s"
 
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
@@ -3658,15 +3707,15 @@ msgstr ""
 
 #: Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
-msgstr ""
+msgstr "Recordarte?"
 
 #: Users/View/Users/admin_login.ctp:27 Users/View/Users/login.ctp:10
 msgid "Log In"
-msgstr "Přihlásit"
+msgstr "Login"
 
 #: Users/View/Users/admin_login.ctp:28 Users/View/Users/login.ctp:12
 msgid "Forgot password?"
-msgstr "Zapomenuté heslo?"
+msgstr "¿Olvidó su contraseña?"
 
 #: Users/View/Users/admin_reset_password.ctp:13
 msgid "Reset Password: %s"
@@ -3674,18 +3723,18 @@ msgstr ""
 
 #: Users/View/Users/admin_reset_password.ctp:46 Users/View/Users/reset.ctp:10
 msgid "Reset"
-msgstr ""
+msgstr "Reiniciar"
 
 #: Users/View/Users/reset.ctp:6
 msgid "New password"
-msgstr "Nové heslo"
+msgstr "Nueva contraseña"
 
 #: Blocks/Model/Block.php:validation for field title
 #: Blocks/Model/Region.php:validation Menus/Model/Link.php:validation
 #: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
 #: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 msgid "Title cannot be empty."
-msgstr ""
+msgstr "El título no puede ser vacio."
 
 #: Blocks/Model/Block.php:validation for field alias
 #: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
@@ -3693,7 +3742,7 @@ msgstr ""
 #: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 #: Users/Model/Role.php:validation
 msgid "This alias has already been taken."
-msgstr ""
+msgstr "Este alias y ha sido tomado."
 
 #: Blocks/Model/Block.php:validation for field alias
 #: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
@@ -3701,7 +3750,7 @@ msgstr ""
 #: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 #: Users/Model/Role.php:validation title;validation
 msgid "Alias cannot be empty."
-msgstr ""
+msgstr "El álias no puede estar vacio."
 
 #: Comments/Model/Comment.php:validation for field body;validation name
 #: Contacts/Model/Contact.php:validation title
@@ -3709,123 +3758,406 @@ msgstr ""
 #: FileManager/Model/Attachment.php:validation Nodes/Model/Node.php:validation
 #: Users/Model/User.php:validation username;validation
 msgid "This field cannot be left blank."
-msgstr ""
+msgstr "Este campo no puede dejarse en blanco"
 
 #: Comments/Model/Comment.php:validation for field email
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Por favor ingrese una dirección de email válida."
 
 #: Contacts/Model/Contact.php:validation for field email
 #: Contacts/Model/Message.php:validation Users/Model/User.php:validation
 msgid "Please provide a valid email address."
-msgstr ""
+msgstr "Por favor provea una dirección de email válida."
 
 #: FileManager/Model/Attachment.php:validation for field slug
 #: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
-msgstr ""
+msgstr "Este slug ya ha sido tomado"
 
 #: FileManager/Model/Attachment.php:validation for field slug
 #: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
-msgstr ""
+msgstr "El slug no puede estar vacio."
 
 #: Menus/Model/Link.php:validation for field link
 msgid "Link cannot be empty."
-msgstr ""
+msgstr "El enlace no puede ser vacio."
 
 #: Settings/Model/Setting.php:validation for field key
 msgid "This key has already been taken."
-msgstr ""
+msgstr "Esta llave ya ha sido tomada"
 
 #: Settings/Model/Setting.php:validation for field key
 msgid "Key cannot be empty."
-msgstr ""
+msgstr "La llave no puede ser vacia."
 
 #: Users/Model/Role.php:validation for field title;validation alias
 #: Users/Model/User.php:validation username;validation name
 msgid "This field must be alphanumeric"
-msgstr ""
+msgstr "Este campo debe ser alfanumérico"
 
 #: Users/Model/User.php:validation for field username
 msgid "The username has already been taken."
-msgstr ""
+msgstr "El nombre de usuario ya ha sido tomado."
 
 #: Users/Model/User.php:validation for field email
 msgid "Email address already in use."
-msgstr ""
+msgstr "Este email ya está siendo usado."
 
 #: Users/Model/User.php:validation for field password
 msgid "Passwords must be at least 6 characters long."
-msgstr ""
+msgstr "La contraseña debe ser de almeno de 6 caracteres de longitud."
 
 #: Users/Model/User.php:validation for field website
 msgid "This field must be a valid URL"
-msgstr ""
+msgstr "Este campo debe ser una URL válida"
+
+#~ msgid "Nodes deleted"
+#~ msgstr "Nodos eliminados"
 
 #~ msgid "Nodes published"
-#~ msgstr "Články byly publikovány"
+#~ msgstr "Nodos publicados"
 
 #~ msgid "Nodes unpublished"
-#~ msgstr "Články byly nepublikovány"
+#~ msgstr "Nodos no publicados"
 
 #~ msgid "Nodes promoted"
-#~ msgstr "Článek byl zveřejněn"
+#~ msgstr "Nodos promocionados"
 
 #~ msgid "Nodes unpromoted"
-#~ msgstr "Články nezveřejněny"
+#~ msgstr "Nodos no promocionados"
 
 #, fuzzy
 #~ msgid "Nodes copied"
-#~ msgstr "Články byly publikovány"
+#~ msgstr "Nodos publicados"
+
+#~ msgid ""
+#~ "Page %page% of %pages%, showing %current% records out of %count% total, "
+#~ "starting on record %start%, ending on %end%"
+#~ msgstr ""
+#~ "Página %page% de %pages%, mostrando %current% resultados de %count% en "
+#~ "total, comenzando por la fila %start% y terminando por %end%"
+
+#~ msgid "Edit file"
+#~ msgstr "Editar archivo"
+
+#~ msgid "Upload file"
+#~ msgstr "Cargar archivo"
 
 #~ msgid "Invalid Node"
-#~ msgstr "Neplatný Node"
+#~ msgstr "Nodo inválido"
 
 #~ msgid "You are logged in as: %s"
-#~ msgstr "Jste přihlášeni jako: %s"
+#~ msgstr "Está conectado como: %s"
+
+#~ msgid "Log out"
+#~ msgstr "Salir"
+
+#~ msgid "Link to a Node"
+#~ msgstr "Enlace a un nodo"
 
 #~ msgid "Nodes"
-#~ msgstr "Články"
+#~ msgstr "Nodos"
 
-#~ msgid "Add User"
-#~ msgstr "Přidat uživatele"
+#~ msgid "Term with same slug already exists in the vocabulary."
+#~ msgstr "Término con el mismo slug ya existe en el vocabulario."
+
+#~ msgid "Term could not be saved. Please try again."
+#~ msgstr "El término no pudo ser guardado. Por favor intente de nuevo."
+
+#~ msgid "Invalid id for Term"
+#~ msgstr "Id de término no válido"
+
+#~ msgid "CakePhp version %s >= %s"
+#~ msgstr "Versión de CakePhp %s >= %s"
+
+#~ msgid "Theme deactivated successfully."
+#~ msgstr "Tema desactivado con éxito."
 
 #~ msgid "Blocks deleted."
-#~ msgstr "Blok smazán"
+#~ msgstr "Bloques borrados"
 
 #~ msgid "Comments deleted."
-#~ msgstr "Komentáře byly smazány"
-
-#~ msgid "Current Password"
-#~ msgstr "Stávající heslo"
-
-#~ msgid "Debug setting does not allow access to this url."
-#~ msgstr "Nastavení serveru nedovoluje přistupovat na tuto URL"
-
-#~ msgid "Edit User"
-#~ msgstr "Upravit uživatele"
-
-#~ msgid "Edit content: %s"
-#~ msgstr "Upravit obsah: %s"
-
-#~ msgid "Format"
-#~ msgstr "Formát"
+#~ msgstr "Comentarios borrados."
 
 #~ msgid "New Directory"
-#~ msgstr "Nový adresář"
+#~ msgstr "Nuevo directorio"
 
 #~ msgid "New File"
-#~ msgstr "Nový soubor"
+#~ msgstr "Nuevo archivo"
 
-#~ msgid "New Type"
-#~ msgstr "Nový typ"
-
-#~ msgid "New User"
-#~ msgstr "Nový uživatel"
-
-#~ msgid "New Vocabulary"
-#~ msgstr "Nová slovní zásoba"
+#~ msgid "Edit content: %s"
+#~ msgstr "Editar contenido: %s"
 
 #~ msgid "Nodes deleted."
-#~ msgstr "Články byly smazány"
+#~ msgstr "Nodos borrados."
+
+#~ msgid "New Action"
+#~ msgstr "Nueva acción"
+
+#~ msgid "Generate Actions"
+#~ msgstr "Generar acciones"
+
+#~ msgid "Example"
+#~ msgstr "Ejemplo"
+
+#~ msgid "Example 1"
+#~ msgstr "Ejemplo 1"
+
+#~ msgid "Example 2"
+#~ msgstr "Ejemplo 2"
+
+#~ msgid "Welcome %s.  Have a nice day"
+#~ msgstr "Bienvenido a %s. Tenga un buen día"
+
+#~ msgid "New Tab"
+#~ msgstr "Nueva pestaña"
+
+#~ msgid "The file default.po does not exist."
+#~ msgstr "El archivo default.po no existe."
+
+#~ msgid "Editor"
+#~ msgstr "Editor"
+
+#~ msgid "Could not connect to database: %s"
+#~ msgstr "No se pudo conectar a la base de datos: %s"
+
+#~ msgid "Could not write croogo.php file."
+#~ msgstr "No se pudo escribir el archivo croogo.php."
+
+#~ msgid "Could not create table: %s"
+#~ msgstr "No se pudo crear la tabla: %s"
+
+#~ msgid "Installation completed successfully"
+#~ msgstr "Instalación completada con éxito"
+
+#~ msgid "PHP version %s > 5"
+#~ msgstr "Version de PHP %s > 5"
+
+#~ msgid "PHP version %s < 5"
+#~ msgstr "Version de PHP %s < 5"
+
+#~ msgid "Record"
+#~ msgstr "Registro"
+
+#~ msgid "Info"
+#~ msgstr "Información"
+
+#~ msgid "Contact Info"
+#~ msgstr "Información de contacto"
+
+#~ msgid "You are here:"
+#~ msgstr "Usted está aquí:"
+
+#~ msgid "Custom fields"
+#~ msgstr "Campos personalizados"
+
+#~ msgid "Format"
+#~ msgstr "Formato"
+
+#~ msgid "Invalid Term"
+#~ msgstr "Término no válido"
+
+#~ msgid "Terms deleted."
+#~ msgstr "Términos borrados."
+
+#~ msgid "Terms published"
+#~ msgstr "Términos publicados"
+
+#~ msgid "Terms unpublished"
+#~ msgstr "Términos no publicados"
+
+#~ msgid "Acos"
+#~ msgstr "Acos"
+
+#~ msgid "The Aco has been saved"
+#~ msgstr "El Aco ha sido guardado"
+
+#~ msgid "The Aco could not be saved. Please, try again."
+#~ msgstr "El Aco no ha podido ser guardado. Por favor intente de nuevo."
+
+#~ msgid "Edit Aco"
+#~ msgstr "Editar Aco"
+
+#~ msgid "Invalid Aco"
+#~ msgstr "Aco no válido"
+
+#~ msgid "Invalid id for Aco"
+#~ msgstr "Id de Aco no válido"
+
+#~ msgid "Aco deleted"
+#~ msgstr "Aco borrado"
+
+#~ msgid "Aros"
+#~ msgstr "Aros"
+
+#~ msgid "Add Aro"
+#~ msgstr "Añadir Aro"
+
+#~ msgid "The Aro has been saved"
+#~ msgstr "El Aro ha sido guardado"
+
+#~ msgid "The Aro could not be saved. Please, try again."
+#~ msgstr "El Aro no ha podido ser guardado. Por favor intente de nuevo."
+
+#~ msgid "Edit Aro"
+#~ msgstr "Editar Aro"
+
+#~ msgid "Invalid Aro"
+#~ msgstr "Aro no válido"
+
+#~ msgid "Invalid id for Aro"
+#~ msgstr "Id de Aro no válido"
+
+#~ msgid "Aro deleted"
+#~ msgstr "Aro borrado"
+
+#~ msgid "New Aco"
+#~ msgstr "Nuevo Aco"
+
+#~ msgid "New Aro"
+#~ msgstr "Nuevo Aro"
+
+#~ msgid "Component initialization and startup"
+#~ msgstr "Inicialización de componente e inicio"
+
+#~ msgid "Controller Action"
+#~ msgstr "Acción del controlador"
+
+#~ msgid "Render Controller Action"
+#~ msgstr "Renderizar acción del controlador"
+
+#~ msgid "Could not load DebugToolbar panel %s"
+#~ msgstr "No se ha podido cargar el panel de DebugToolbar %s"
+
+#~ msgid ""
+#~ "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+#~ msgstr ""
+#~ "Las cabeceras han sido ya enviadas en %s en la línea %s. No se puede "
+#~ "enviar datos de log a FirePHP."
+
+#~ msgid "Incorrect parameter count for FireCake::fb()"
+#~ msgstr "Número de parámetros incorrectos para FireCake::fb()"
+
+#~ msgid "Maximum number (99,999) of messages reached!"
+#~ msgstr "¡Número máximo de mensajes (99.999) alcanzado!"
+
+#~ msgid "Rendering %s"
+#~ msgstr "Renderizando %s"
+
+#~ msgid "Rendering View"
+#~ msgstr "Renderizando vista"
+
+#~ msgid ""
+#~ "There are no active panels. You must enable a panel to see its output."
+#~ msgstr "No hay paneles activos. Debe activar un panel para ver su salida."
+
+#~ msgid "Logs"
+#~ msgstr "Registros"
+
+#~ msgid "Time"
+#~ msgstr "Hora"
+
+#~ msgid "There were no log entries made this request"
+#~ msgstr "Esta petición no ha generado entradas en el log"
+
+#~ msgid "Memory"
+#~ msgstr "Memoria"
+
+#~ msgid "Current Memory Use"
+#~ msgstr "Uso de memoria actual"
+
+#~ msgid "Peak Memory Use"
+#~ msgstr "Pico de uso de memoria"
+
+#~ msgid "Request"
+#~ msgstr "Petición"
+
+#~ msgid "Current Route"
+#~ msgstr "Ruta actual"
+
+#~ msgid "Session"
+#~ msgstr "Sesión"
+
+#~ msgid "Sql Logs"
+#~ msgstr "Logs de SQL"
+
+#~ msgid "No active database connections"
+#~ msgstr "No hay conexiones de base de datos activas"
+
+#~ msgid "Timers"
+#~ msgstr "Cronómetros"
+
+#~ msgid "%s (seconds)"
+#~ msgstr "%s (segundos)"
+
+#~ msgid "Total Request Time:"
+#~ msgstr "Tiempo total de petición:"
+
+#~ msgid "time in seconds"
+#~ msgstr "tiempo en segundos"
+
+#~ msgid "View Variables"
+#~ msgstr "Ver variables"
+
+#~ msgid "Hooks"
+#~ msgstr "Hooks"
+
+#~ msgid "Invalid plugin."
+#~ msgstr "Plugin no válido."
+
+#~ msgid "Directory with theme alias already exists."
+#~ msgstr "Ya existe un directorio con el alias del tema."
+
+#, fuzzy
+#~ msgid "Hook"
+#~ msgstr "Gancho"
+
+#, fuzzy
+#~ msgid "Hook type"
+#~ msgstr "Tipo de gancho"
+
+#~ msgid "Step 2: Run SQL"
+#~ msgstr "Paso 2: Ejecutar SQL"
+
+#~ msgid "Installataion files deleted successfully."
+#~ msgstr "Archivos de instalación borrados con éxito."
+
+#~ msgid "Could not delete installation files."
+#~ msgstr "No se han podido borrar los archivos de instalación."
+
+#~ msgid "Click here to delete installation files"
+#~ msgstr "Pulse aquí para borrar los archivos de instalación"
+
+#~ msgid "New Block"
+#~ msgstr "Nuevo bloque"
+
+#~ msgid "New Contact"
+#~ msgstr "Nuevo contacto"
+
+#~ msgid "New Link"
+#~ msgstr "Nuevo enlace"
+
+#~ msgid "New Menu"
+#~ msgstr "Nuevo Menú"
+
+#~ msgid "New Region"
+#~ msgstr "Nueva región"
+
+#~ msgid "New Role"
+#~ msgstr "Nuevo rol"
+
+#~ msgid "New Type"
+#~ msgstr "Nuevo tipo"
+
+#~ msgid "Add User"
+#~ msgstr "Añadir usuario"
+
+#~ msgid "Edit User"
+#~ msgstr "Editar usuario"
+
+#~ msgid "New Vocabulary"
+#~ msgstr "Nuevo vocabulario"
+
+#~ msgid "Debug setting does not allow access to this url."
+#~ msgstr "La configuración de debug no permite acceder a esta url."

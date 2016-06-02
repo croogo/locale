@@ -1,25 +1,26 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+# itkariera.sk
 msgid ""
 msgstr ""
-"Project-Id-Version: Croogo Czech\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2010-09-11 14:44+0100\n"
-"Last-Translator: Marek Sebera <marek.sebera@gmail.com>\n"
-"Language-Team: Marek Sebera <marek.sebera@gmail.com>\n"
+"PO-Revision-Date: 2010-09-01 10:10+0100\n"
+"Last-Translator: (status draft) ITKariera <support@itkariera.sk>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2 \n"
-"X-Poedit-Language: Czech\n"
-"X-Poedit-Country: CZECH REPUBLIC\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: Acl/Config/admin_menu.php:4 Acl/Controller/AclPermissionsController.php:58
 #: Acl/Controller/Component/RowLevelAclComponent.php:67
 #: Acl/View/AclActions/admin_form.ctp:7 Acl/View/AclActions/admin_index.ctp:11
 #: Acl/View/AclPermissions/admin_index.ctp:10
 msgid "Permissions"
-msgstr ""
+msgstr "Pristupové práva"
 
 #: Acl/Config/admin_menu.php:15
 msgid "Access Control"
@@ -95,11 +96,11 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:17
 #: Translate/View/Translate/admin_index.ctp:81
 msgid "Actions"
-msgstr "Akce"
+msgstr "Činnosti"
 
 #: Acl/Controller/AclActionsController.php:64
 msgid "Add Action"
-msgstr ""
+msgstr "Pridať činnosť"
 
 #: Acl/Controller/AclActionsController.php:78
 msgid "The %s has been saved"
@@ -111,35 +112,35 @@ msgstr ""
 
 #: Acl/Controller/AclActionsController.php:95
 msgid "Edit Action"
-msgstr ""
+msgstr "Upraviť činnosť"
 
 #: Acl/Controller/AclActionsController.php:98
 msgid "Invalid Action"
-msgstr ""
+msgstr "Neplatná činnosť"
 
 #: Acl/Controller/AclActionsController.php:103
 msgid "The Action has been saved"
-msgstr ""
+msgstr "Činnosť bola uložená."
 
 #: Acl/Controller/AclActionsController.php:106
 msgid "The Action could not be saved. Please, try again."
-msgstr ""
+msgstr "Činnosť sa nedalo uložiť. Pokúste sa neskôr."
 
 #: Acl/Controller/AclActionsController.php:124;142
 msgid "Invalid id for Action"
-msgstr ""
+msgstr "Neplatné id pre činnosť"
 
 #: Acl/Controller/AclActionsController.php:128
 msgid "Action deleted"
-msgstr ""
+msgstr "Činnosť zmazaná"
 
 #: Acl/Controller/AclActionsController.php:147
 msgid "Action moved up"
-msgstr ""
+msgstr "Činnosť posunutá hore"
 
 #: Acl/Controller/AclActionsController.php:152
 msgid "Action moved down"
-msgstr ""
+msgstr "Činnosť posunutá dole"
 
 #: Acl/Controller/AclActionsController.php:174
 msgid "Created %d new permissions"
@@ -247,7 +248,7 @@ msgstr ""
 #: Users/View/Users/admin_form.ctp:7 Users/View/Users/admin_index.ctp:6
 #: Users/View/Users/admin_reset_password.ctp:7
 msgid "Users"
-msgstr ""
+msgstr "Užívatelia"
 
 #: Acl/View/AclActions/admin_form.ctp:15 Blocks/View/Blocks/admin_form.ctp:13
 #: Blocks/View/Regions/admin_form.ctp:20
@@ -269,11 +270,11 @@ msgstr ""
 #: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
 #: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
-msgstr ""
+msgstr "Nadradený"
 
 #: Acl/View/AclActions/admin_form.ctp:35
 msgid "Choose none if the Aco is a controller."
-msgstr ""
+msgstr "Vyberte žiadny ak Aco je ovládač."
 
 #: Acl/View/AclActions/admin_form.ctp:38
 #: Acl/View/AclActions/admin_index.ctp:71
@@ -290,7 +291,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:15
 #: Users/View/Roles/admin_form.ctp:32
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 #: Acl/View/AclActions/admin_form.ctp:46 Blocks/View/Blocks/admin_form.ctp:78
 #: Blocks/View/Regions/admin_form.ctp:46
@@ -319,7 +320,7 @@ msgstr ""
 #: Users/View/Roles/admin_form.ctp:40 Users/View/Users/admin_form.ctp:70
 #: Users/View/Users/admin_reset_password.ctp:45
 msgid "Publishing"
-msgstr ""
+msgstr "Zverejnenie"
 
 #: Acl/View/AclActions/admin_form.ctp:47 Blocks/View/Blocks/admin_form.ctp:79
 #: Blocks/View/Regions/admin_form.ctp:47
@@ -357,7 +358,7 @@ msgstr ""
 #: Translate/View/Translate/admin_edit.ctp:51
 #: Users/View/Roles/admin_form.ctp:42 Users/View/Users/admin_form.ctp:72
 msgid "Save"
-msgstr "Uložit"
+msgstr ""
 
 #: Acl/View/AclActions/admin_form.ctp:49 Blocks/View/Blocks/admin_form.ctp:81
 #: Blocks/View/Regions/admin_form.ctp:49
@@ -388,7 +389,7 @@ msgstr "Uložit"
 #: Users/View/Roles/admin_form.ctp:44 Users/View/Users/admin_form.ctp:74
 #: Users/View/Users/admin_reset_password.ctp:48
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr ""
 
 #: Acl/View/AclActions/admin_index.ctp:18
 #: Acl/View/AclPermissions/admin_index.ctp:19
@@ -418,7 +419,7 @@ msgstr ""
 #: Acl/View/AclActions/admin_index.ctp:62
 #: Acl/View/AclPermissions/admin_index.ctp:62
 msgid "Edit Actions"
-msgstr ""
+msgstr "Uprav činnosti"
 
 #: Acl/View/AclActions/admin_index.ctp:70
 #: Acl/View/Elements/admin/acl_permissions_table.ctp:7
@@ -438,7 +439,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_index.ctp:26
 #: Taxonomy/View/Vocabularies/admin_index.ctp:13
 msgid "Id"
-msgstr "ID"
+msgstr "Id"
 
 #: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
@@ -451,7 +452,7 @@ msgstr "ID"
 #: Taxonomy/View/Terms/admin_index.ctp:42
 #: Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
-msgstr ""
+msgstr "Posunúť hore"
 
 #: Acl/View/AclActions/admin_index.ctp:108
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
@@ -464,7 +465,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_index.ctp:46
 #: Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
-msgstr ""
+msgstr "Posunúť dole"
 
 #: Acl/View/AclActions/admin_index.ctp:113
 #: Acl/View/AclPermissions/json/admin_index.ctp:15
@@ -526,11 +527,11 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:48
 #: Translate/View/Translate/admin_index.ctp:107
 msgid "Are you sure?"
-msgstr ""
+msgstr "Ste si istý?"
 
 #: Acl/View/AclPermissions/admin_toggle.ctp:19
 msgid "error"
-msgstr ""
+msgstr "chyba"
 
 #: Acl/View/Elements/admin/parent_role.ctp:4
 msgid "When set, permissions from parent role are inherited"
@@ -553,35 +554,35 @@ msgstr "Bloky"
 #: Blocks/Config/admin_menu.php:24 Blocks/View/Regions/admin_form.ctp:9
 #: Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
-msgstr "Oblasti"
+msgstr "Regióny"
 
 #: Blocks/Controller/BlocksController.php:122
 msgid "Add Block"
-msgstr "Přidat Blok"
+msgstr "Pridaj Blok"
 
 #: Blocks/Controller/BlocksController.php:129;158
 msgid "The Block has been saved"
-msgstr "Blok byl uložen"
+msgstr "Blok uložený"
 
 #: Blocks/Controller/BlocksController.php:132;161
 msgid "The Block could not be saved. Please, try again."
-msgstr "Blok nemohl být uložen, zkuste to prosím znovu"
+msgstr "Nie je možné uložiť Blok. Skúste znova prosím."
 
 #: Blocks/Controller/BlocksController.php:148
 msgid "Edit Block"
-msgstr "Upravit Blok"
+msgstr "Uprav Blok"
 
 #: Blocks/Controller/BlocksController.php:151
 msgid "Invalid Block"
-msgstr "Vadný Blok"
+msgstr "Chybný Blok"
 
 #: Blocks/Controller/BlocksController.php:186
 msgid "Invalid id for Block"
-msgstr "Neplatné id Bloku"
+msgstr "Nesprávne id pre Blok"
 
 #: Blocks/Controller/BlocksController.php:190
 msgid "Block deleted"
-msgstr "Blok byl smazán"
+msgstr "Blok zmazaný"
 
 #: Blocks/Controller/BlocksController.php:205
 #: Dashboards/Controller/DashboardsDashboardsController.php:126
@@ -591,7 +592,7 @@ msgstr "Blok byl smazán"
 #: Settings/Controller/SettingsController.php:199
 #: Taxonomy/Controller/VocabulariesController.php:132
 msgid "Moved up successfully"
-msgstr "Posunuto nahoru bez problémů"
+msgstr "Presun nahor úspešný"
 
 #: Blocks/Controller/BlocksController.php:207
 #: Dashboards/Controller/DashboardsDashboardsController.php:128
@@ -601,7 +602,7 @@ msgstr "Posunuto nahoru bez problémů"
 #: Settings/Controller/SettingsController.php:201
 #: Taxonomy/Controller/VocabulariesController.php:134
 msgid "Could not move up"
-msgstr "Nemohu to posunout nahoru"
+msgstr "Nie je možné presunúť nahor"
 
 #: Blocks/Controller/BlocksController.php:223
 #: Dashboards/Controller/DashboardsDashboardsController.php:142
@@ -611,7 +612,7 @@ msgstr "Nemohu to posunout nahoru"
 #: Settings/Controller/SettingsController.php:225
 #: Taxonomy/Controller/VocabulariesController.php:150
 msgid "Moved down successfully"
-msgstr "Posunuto dolů bez problémů"
+msgstr "Presun nadol úspešný"
 
 #: Blocks/Controller/BlocksController.php:225
 #: Dashboards/Controller/DashboardsDashboardsController.php:144
@@ -621,7 +622,7 @@ msgstr "Posunuto dolů bez problémů"
 #: Settings/Controller/SettingsController.php:227
 #: Taxonomy/Controller/VocabulariesController.php:152
 msgid "Could not move down"
-msgstr "Nemohu to posunout dolů"
+msgstr "Nie je možné presunúť nadol"
 
 #: Blocks/Controller/BlocksController.php:243
 msgid "Blocks deleted"
@@ -629,70 +630,70 @@ msgstr ""
 
 #: Blocks/Controller/BlocksController.php:244
 msgid "Blocks published"
-msgstr "Blok publikován"
+msgstr "Bloky publikované"
 
 #: Blocks/Controller/BlocksController.php:245
 msgid "Blocks unpublished"
-msgstr "Blok nebyl publikován"
+msgstr "Bloky nepublikované"
 
 #: Blocks/Controller/BlocksController.php:246
 #, fuzzy
 msgid "Blocks copied"
-msgstr "Blok publikován"
+msgstr "Bloky publikované"
 
 #: Blocks/Controller/RegionsController.php:66
 #: Blocks/View/Blocks/admin_form.ctp:41 Blocks/View/Blocks/admin_index.ctp:22
 #: Blocks/View/Regions/admin_form.ctp:26
 msgid "Region"
-msgstr "Region"
+msgstr "Región"
 
 #: Blocks/Controller/RegionsController.php:85
 msgid "Add Region"
-msgstr "Přidat Region"
+msgstr "Pridať región"
 
 #: Blocks/Controller/RegionsController.php:90;114
 msgid "The Region has been saved"
-msgstr "Region byl uložen"
+msgstr "Región bol uložený"
 
 #: Blocks/Controller/RegionsController.php:93;117
 msgid "The Region could not be saved. Please, try again."
-msgstr "Region se nepodařilo uložit, zkuste to prosím později"
+msgstr "Región sa nedal uložiť. Skúste prosím znova."
 
 #: Blocks/Controller/RegionsController.php:106
 msgid "Edit Region"
-msgstr "Upravit Region"
+msgstr "Upraviť región"
 
 #: Blocks/Controller/RegionsController.php:109
 msgid "Invalid Region"
-msgstr "Neplatný region"
+msgstr "Neplatný región"
 
 #: Blocks/Controller/RegionsController.php:134
 msgid "Invalid id for Region"
-msgstr "Neplatné ID Regionu"
+msgstr "Neplatné id pre región"
 
 #: Blocks/Controller/RegionsController.php:138
 msgid "Region deleted"
-msgstr "Regiony byly smazány"
+msgstr "Región bol zmazaný"
 
 #: Blocks/View/Blocks/admin_form.ctp:22
 msgid "Block"
-msgstr ""
+msgstr "Blok"
 
 #: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
 #: Nodes/View/Nodes/admin_form.ctp:55
 msgid "Access"
-msgstr ""
+msgstr "Prístup"
 
 #: Blocks/View/Blocks/admin_form.ctp:24
 msgid "Visibilities"
-msgstr ""
+msgstr "Dohladnosť"
 
 #: Blocks/View/Blocks/admin_form.ctp:25;70 Menus/View/Links/admin_form.ctp:108
 #: Menus/View/Menus/admin_form.ctp:42 Settings/View/Settings/admin_form.ctp:57
 #: Settings/View/Settings/admin_view.ctp:34
 #: Taxonomy/View/Types/admin_form.ctp:23;91
 msgid "Params"
-msgstr ""
+msgstr "Parametre"
 
 #: Blocks/View/Blocks/admin_form.ctp:34 Blocks/View/Blocks/admin_index.ctp:20
 #: Blocks/View/Regions/admin_form.ctp:35
@@ -721,15 +722,15 @@ msgstr ""
 #: Translate/View/Translate/admin_index.ctp:79
 #: Users/View/Roles/admin_form.ctp:29
 msgid "Title"
-msgstr "Nadpis"
+msgstr "Názov"
 
 #: Blocks/View/Blocks/admin_form.ctp:38
 msgid "unique name for your block"
-msgstr ""
+msgstr "unikátne meno pre váš blok"
 
 #: Blocks/View/Blocks/admin_form.ctp:42
 msgid "if you are not sure, choose 'none'"
-msgstr ""
+msgstr "ak si nie ste istý, vyberte si 'žiadny' "
 
 #: Blocks/View/Blocks/admin_form.ctp:45
 #: Comments/View/Comments/admin_form.ctp:26
@@ -750,7 +751,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_form.ctp:93 Users/View/Roles/admin_form.ctp:21
 #: Users/View/Users/admin_form.ctp:45
 msgid "Role"
-msgstr ""
+msgstr "Skupiny"
 
 #: Blocks/View/Blocks/admin_form.ctp:63
 msgid "Visibility Paths"
@@ -761,6 +762,8 @@ msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
 msgstr ""
+"Zadajte jedno URL na riadok. Nechajte prázdny ak chcete aby sa tento blok "
+"zobrazil na všetkých stránkách."
 
 #: Blocks/View/Blocks/admin_form.ctp:90
 msgid "Show title ?"
@@ -768,13 +771,15 @@ msgstr ""
 
 #: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
 #: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
+#, fuzzy
 msgid "Publish Start"
-msgstr ""
+msgstr "Zverejniť"
 
 #: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
 #: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:144
+#, fuzzy
 msgid "Publish End"
-msgstr ""
+msgstr "Publikované"
 
 #: Blocks/View/Blocks/admin_index.ctp:23
 #: Croogo/Console/Command/ExtShell.php:236;262
@@ -788,13 +793,13 @@ msgstr ""
 #: Settings/View/Languages/admin_index.ctp:19
 #: Users/View/Users/admin_form.ctp:86
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
 #: Nodes/View/Nodes/admin_index.ctp:102
 #, fuzzy
 msgid "Create a copy"
-msgstr "Vytvořit obsah"
+msgstr "Vytvoriť adresár"
 
 #: Blocks/View/Blocks/admin_index.ctp:54
 msgid "Create a copy of this Block?"
@@ -816,7 +821,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:129
 #: Nodes/View/Nodes/admin_index.ctp:130
 msgid "Publish"
-msgstr ""
+msgstr "Zverejniť"
 
 #: Blocks/View/Blocks/admin_index.ctp:115
 #: Comments/View/Comments/admin_index.ctp:110
@@ -824,7 +829,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:130
 #: Nodes/View/Nodes/admin_index.ctp:131
 msgid "Unpublish"
-msgstr ""
+msgstr "Zrušiť zverejnenie"
 
 #: Blocks/View/Blocks/admin_index.ctp:116
 #: Comments/View/Comments/admin_index.ctp:111
@@ -838,7 +843,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_index.ctp:134
 #: Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
-msgstr "Smazat"
+msgstr "Zmazať"
 
 #: Blocks/View/Blocks/admin_index.ctp:117 Menus/View/Links/admin_index.ctp:124
 #: Nodes/View/Nodes/admin_hierarchy.ctp:136
@@ -853,7 +858,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:144
 #: Nodes/View/Nodes/admin_index.ctp:145 Users/View/Users/forgot.ctp:9
 msgid "Submit"
-msgstr ""
+msgstr "Pošli"
 
 #: Comments/Config/admin_menu.php:4
 #: Comments/Controller/CommentsController.php:81;171
@@ -864,7 +869,7 @@ msgstr ""
 #: Nodes/View/Elements/node_more_info.ctp:33
 #: Taxonomy/View/Types/admin_form.ctp:22
 msgid "Comments"
-msgstr "Komentáře"
+msgstr "Komentáre"
 
 #: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
 #: Comments/View/Comments/admin_index.ctp:14;29
@@ -872,36 +877,36 @@ msgstr "Komentáře"
 #: FileManager/View/Elements/admin/attachments_search.ctp:37
 #: Nodes/View/Elements/admin/nodes_search.ctp:36
 msgid "Published"
-msgstr ""
+msgstr "Publikované"
 
 #: Comments/Config/admin_menu.php:25
 #: Comments/View/Comments/admin_index.ctp:17;33
 msgid "Approval"
-msgstr ""
+msgstr "Schválenie"
 
 #: Comments/Controller/CommentsController.php:107
 msgid "Edit Comment"
-msgstr "Upravit komentář"
+msgstr "Upraviť komentár"
 
 #: Comments/Controller/CommentsController.php:110
 msgid "Invalid Comment"
-msgstr "Chybný komentář"
+msgstr "Chybný Komentár"
 
 #: Comments/Controller/CommentsController.php:115
 msgid "The Comment has been saved"
-msgstr "Komentář byl uložen"
+msgstr "Komentár bol uložený"
 
 #: Comments/Controller/CommentsController.php:118
 msgid "The Comment could not be saved. Please, try again."
-msgstr "Komentář nemohl být uložen, zkuste to prosím znovu"
+msgstr "Komentáre nie je možné uložiť. Prosím, skúste znova."
 
 #: Comments/Controller/CommentsController.php:135
 msgid "Invalid id for Comment"
-msgstr "Neplatné id Komentáře"
+msgstr "Nesprávne id pre Komentár"
 
 #: Comments/Controller/CommentsController.php:139
 msgid "Comment deleted"
-msgstr "Komentář byl smazán"
+msgstr "Komentár zmazaný"
 
 #: Comments/Controller/CommentsController.php:156
 msgid "Comments deleted"
@@ -909,11 +914,11 @@ msgstr ""
 
 #: Comments/Controller/CommentsController.php:157
 msgid "Comments published"
-msgstr "Komentáře byly publikovány"
+msgstr "Komentáre publikované"
 
 #: Comments/Controller/CommentsController.php:158
 msgid "Comments unpublished"
-msgstr "Komentáře nebyly publikovány"
+msgstr "Komentáre nepublikované"
 
 #: Comments/Controller/CommentsController.php:198
 msgid "Invalid id"
@@ -921,7 +926,7 @@ msgstr ""
 
 #: Comments/Controller/CommentsController.php:223
 msgid "Maximum level reached. You cannot reply to that comment."
-msgstr "Maximální úrovně dosaženo, nelze odpověďet na tento Komentář"
+msgstr "Maximálna úroveň dosiahnutá. Nemôžete odpovedať na tento komentár."
 
 #: Comments/Controller/CommentsController.php:238
 msgid "Comments are not allowed."
@@ -929,24 +934,24 @@ msgstr ""
 
 #: Comments/Controller/CommentsController.php:262
 msgid "Your comment has been added successfully."
-msgstr "Komentář úspěšně přidán"
+msgstr "Váš komentár bol úspešne pridaný."
 
 #: Comments/Controller/CommentsController.php:264
 msgid "Your comment will appear after moderation."
-msgstr "Komentář se objeví po schválení"
+msgstr "Váš komentár bude po schválení publikovaný."
 
 #: Comments/Controller/CommentsController.php:299
 msgid "Sorry, the comment appears to be spam."
-msgstr "Sorry, komentář vypadá jako spam"
+msgstr "Prepáčte, komentár vyzerá ako spam"
 
 #: Comments/Controller/CommentsController.php:321
 #: Contacts/Controller/ContactsController.php:246
 msgid "Invalid captcha entry"
-msgstr "Špatně opsaná captcha"
+msgstr "Nesprávny údaj captcha"
 
 #: Comments/Controller/CommentsController.php:343
 msgid "New comment posted under"
-msgstr "Nový komentář zaslán"
+msgstr "Nový komentár pridaný pod"
 
 #: Comments/Model/Comment.php:130
 msgid "Invalid Node id"
@@ -973,13 +978,13 @@ msgstr "Obsah"
 #: Comments/View/Elements/comments.ctp:5
 #: Nodes/View/Elements/node_more_info.ctp:31 Settings/Config/admin_menu.php:64
 msgid "Comment"
-msgstr "Komentář"
+msgstr "Komentár"
 
 #: Comments/View/Comments/admin_form.ctp:43
 #: Contacts/View/Contacts/admin_form.ctp:20
 #: Contacts/View/Messages/admin_index.ctp:61
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: Comments/View/Comments/admin_form.ctp:44
 #: Comments/View/Comments/admin_index.ctp:43
@@ -990,7 +995,7 @@ msgstr ""
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
 #: Install/View/Install/database.ctp:81 Users/View/Users/admin_form.ctp:50
 msgid "Name"
-msgstr ""
+msgstr "Meno"
 
 #: Comments/View/Comments/admin_form.ctp:45
 #: Comments/View/Comments/admin_index.ctp:44
@@ -1000,13 +1005,13 @@ msgstr ""
 #: Contacts/View/Messages/admin_index.ctp:63
 #: Users/View/Users/admin_form.ctp:53
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: Comments/View/Comments/admin_form.ctp:46
 #: Comments/View/Elements/comments_form.ctp:35;43
 #: Users/View/Users/admin_form.ctp:56
 msgid "Website"
-msgstr ""
+msgstr "Webová stránka"
 
 #: Comments/View/Comments/admin_form.ctp:49
 msgid "Ip"
@@ -1014,11 +1019,11 @@ msgstr ""
 
 #: Comments/View/Comments/admin_index.ctp:15
 msgid "Comments: Published"
-msgstr "Komentáře : Publikovaní"
+msgstr "Komentáre: Publikované"
 
 #: Comments/View/Comments/admin_index.ctp:18
 msgid "Comments: Approval"
-msgstr "Komentáře : K přijetí"
+msgstr "Komentáre: Overenie"
 
 #: Comments/View/Comments/admin_index.ctp:45
 msgid "Node"
@@ -1032,76 +1037,76 @@ msgstr ""
 
 #: Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
-msgstr ""
+msgstr "Komentár na"
 
 #: Comments/View/Comments/rss/index.ctp:18
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:54;108
 #: Nodes/View/Elements/node_info.ctp:9
 msgid "by"
-msgstr ""
+msgstr "od"
 
 #: Comments/View/Elements/comment.ctp:13
 msgid "said on %s"
-msgstr ""
+msgstr "povedané na %s"
 
 #: Comments/View/Elements/comment.ctp:19
 msgid "Reply"
-msgstr ""
+msgstr "Odpovedať"
 
 #: Comments/View/Elements/comments_form.ctp:2
 msgid "Add new comment"
-msgstr ""
+msgstr "Pridať nový komentár"
 
 #: Comments/View/Elements/comments_form.ctp:7
 msgid "Go back to original post"
-msgstr ""
+msgstr "Návrat k pôvodnému obsahu"
 
 #: Comments/View/Elements/comments_form.ctp:50
 msgid "Post comment"
-msgstr ""
+msgstr "Pridať komentár"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:5
 #: Taxonomy/View/Types/admin_form.ctp:61
 msgid "Disabled"
-msgstr ""
+msgstr "Zablokovaný"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:6
 #: Taxonomy/View/Types/admin_form.ctp:62
 msgid "Read only"
-msgstr ""
+msgstr "Len na čítanie"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:7
 #: Taxonomy/View/Types/admin_form.ctp:63
 msgid "Read/Write"
-msgstr ""
+msgstr "Čítať/Zapísať"
 
 #: Comments/View/Emails/text/comment.ctp:2
 msgid "A new comment has been posted under: %s"
-msgstr ""
+msgstr "Nový komentár bol zadaný pod: %s"
 
 #: Comments/View/Emails/text/comment.ctp:6
 #: Contacts/View/Emails/text/contact.ctp:8
 msgid "Name: %s"
-msgstr ""
+msgstr "Meno: %s"
 
 #: Comments/View/Emails/text/comment.ctp:7
 #: Contacts/View/Emails/text/contact.ctp:9
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: Comments/View/Emails/text/comment.ctp:8
 msgid "Website: %s"
-msgstr ""
+msgstr "Webstránka: %s"
 
 #: Comments/View/Emails/text/comment.ctp:9
 #: Contacts/View/Emails/text/contact.ctp:11
 #: Users/View/Emails/text/forgot_password.ctp:17
 msgid "IP Address: %s"
-msgstr ""
+msgstr "IP Adresa: %s"
 
 #: Comments/View/Emails/text/comment.ctp:10
 msgid "Comment: %s"
-msgstr ""
+msgstr "Komentár: %s"
 
 #: Contacts/Config/admin_menu.php:5;15
 #: Contacts/Controller/ContactsController.php:52
@@ -1117,43 +1122,43 @@ msgstr "Kontakty"
 #: Contacts/View/Messages/admin_form.ctp:8
 #: Contacts/View/Messages/admin_index.ctp:10
 msgid "Messages"
-msgstr "Zprávy"
+msgstr "Správy"
 
 #: Contacts/Controller/ContactsController.php:67
 msgid "Add Contact"
-msgstr "Přidat Kontakt"
+msgstr "Pridaj Kontakt"
 
 #: Contacts/Controller/ContactsController.php:72;96
 msgid "The Contact has been saved"
-msgstr "Kontakt byl uložen"
+msgstr "Kontakt bol uložený"
 
 #: Contacts/Controller/ContactsController.php:75;99
 msgid "The Contact could not be saved. Please, try again."
-msgstr "Kontakt se nepodařilo uložit, zkuste to prosím později"
+msgstr "Kontakt nie je možné uložiť. Prosím, skúste znova."
 
 #: Contacts/Controller/ContactsController.php:88
 msgid "Edit Contact"
-msgstr "Upravit Kontakt"
+msgstr "Upraviť Kontakt"
 
 #: Contacts/Controller/ContactsController.php:91
 msgid "Invalid Contact"
-msgstr "Neplatný Kontakt"
+msgstr "Nesprávny Kontakt"
 
 #: Contacts/Controller/ContactsController.php:116
 msgid "Invalid id for Contact"
-msgstr "Neplatné id pro kontakt"
+msgstr "Chybné id pre Kontakt"
 
 #: Contacts/Controller/ContactsController.php:120
 msgid "Contact deleted"
-msgstr "Kontakt byl smazán"
+msgstr "Kontakt zmazaný"
 
 #: Contacts/Controller/ContactsController.php:171
 msgid "Your message has been received..."
-msgstr "Vaše zpráva byla přijata"
+msgstr "Vaša správa bola prijatá..."
 
 #: Contacts/Controller/ContactsController.php:225
 msgid "Sorry, the message appears to be spam."
-msgstr "Pardon, zpráva byla označena za spam"
+msgstr "Prepáčte, správa vyzerá ako spam."
 
 #: Contacts/Controller/ContactsController.php:270
 msgid "[%s] %s"
@@ -1162,53 +1167,53 @@ msgstr ""
 #: Contacts/Controller/MessagesController.php:72
 #: Contacts/View/Messages/admin_index.ctp:14;47
 msgid "Read"
-msgstr ""
+msgstr "Prečitané"
 
 #: Contacts/Controller/MessagesController.php:86
 msgid "Edit Message"
-msgstr "Upravit zprávu"
+msgstr "Uprav Správu"
 
 #: Contacts/Controller/MessagesController.php:89
 msgid "Invalid Message"
-msgstr "Neplatná zpráva"
+msgstr "Chybná Správa"
 
 #: Contacts/Controller/MessagesController.php:94
 msgid "The Message has been saved"
-msgstr "Zpráva byla uložena"
+msgstr "Správa bola uložená"
 
 #: Contacts/Controller/MessagesController.php:97
 msgid "The Message could not be saved. Please, try again."
-msgstr "Zpráva nemohla být doručena"
+msgstr "Správu nebolo možné uložiť. Prosím, skúste znova."
 
 #: Contacts/Controller/MessagesController.php:114
 msgid "Invalid id for Message"
-msgstr "Neplatné id zprávy"
+msgstr "Nesprávne id Správy"
 
 #: Contacts/Controller/MessagesController.php:118
 msgid "Message deleted"
-msgstr "Zpráva byla smazána"
+msgstr "Správa zmazaná"
 
 #: Contacts/Controller/MessagesController.php:134
 #, fuzzy
 msgid "Messages deleted"
-msgstr "Zprávy byly smazány"
+msgstr "Správy zmazané."
 
 #: Contacts/Controller/MessagesController.php:135
 msgid "Messages marked as read"
-msgstr "Zpráva byla označena jako přečtená"
+msgstr "Správy označené ako prečítané"
 
 #: Contacts/Controller/MessagesController.php:136
 msgid "Messages marked as unread"
-msgstr "Zpráva byla označena jako nepřečtená"
+msgstr "Správy označené ako neprečítané"
 
 #: Contacts/View/Contacts/admin_form.ctp:21
 msgid "Details"
-msgstr ""
+msgstr "Podrobnosti"
 
 #: Contacts/View/Contacts/admin_form.ctp:22 Contacts/View/Contacts/view.ctp:21
 #: Contacts/View/Messages/admin_form.ctp:17
 msgid "Message"
-msgstr ""
+msgstr "Správa"
 
 #: Contacts/View/Contacts/admin_form.ctp:49
 msgid "Position"
@@ -1246,78 +1251,78 @@ msgstr ""
 
 #: Contacts/View/Contacts/admin_form.ctp:76
 msgid "Let users leave a message"
-msgstr ""
+msgstr "Uživatelia môžu zanechať komentár"
 
 #: Contacts/View/Contacts/admin_form.ctp:79
 msgid "Save messages in database"
-msgstr ""
+msgstr "Uložiť správy do databázy"
 
 #: Contacts/View/Contacts/admin_form.ctp:82
 msgid "Notify by email instantly"
-msgstr ""
+msgstr "Okamžité ohlásenie emailom"
 
 #: Contacts/View/Contacts/admin_form.ctp:85
 #: Taxonomy/View/Types/admin_form.ctp:73
 msgid "Spam protection (requires Akismet API key)"
-msgstr ""
+msgstr "Spam ochrana (je potrebný Akismet API kľúč)"
 
 #: Contacts/View/Contacts/admin_form.ctp:88
 #: Taxonomy/View/Types/admin_form.ctp:76
 msgid "Use captcha? (requires Recaptcha API key)"
-msgstr ""
+msgstr "Použiť captcha? (je potrebný recaptcha API kľúč)"
 
 #: Contacts/View/Contacts/admin_form.ctp:91
 #: Taxonomy/View/Types/admin_form.ctp:78
 msgid "You can manage your API keys here."
-msgstr ""
+msgstr "Tu môžete spravovať vaše API kľúče"
 
 #: Contacts/View/Contacts/view.ctp:18
 msgid "Your name"
-msgstr ""
+msgstr "Vaše meno"
 
 #: Contacts/View/Contacts/view.ctp:19
 msgid "Your email"
-msgstr ""
+msgstr "Váš email"
 
 #: Contacts/View/Contacts/view.ctp:20
 msgid "Subject"
-msgstr ""
+msgstr "Predmet"
 
 #: Contacts/View/Contacts/view.ctp:25
 msgid "Send"
-msgstr ""
+msgstr "Poslať"
 
 #: Contacts/View/Emails/text/contact.ctp:7
 msgid "You have received a new message at: %s"
-msgstr ""
+msgstr "Máte novú správu na: %s"
 
 #: Contacts/View/Emails/text/contact.ctp:10
 msgid "Subject: %s"
-msgstr ""
+msgstr "Predmet: %s"
 
 #: Contacts/View/Emails/text/contact.ctp:12
 msgid "Message: %s"
-msgstr ""
+msgstr "Správa: %s"
 
 #: Contacts/View/Messages/admin_index.ctp:15
 msgid "Messages: Read"
-msgstr "Zpráva: Přečtené"
+msgstr "Správy: Prečítané"
 
 #: Contacts/View/Messages/admin_index.ctp:17;41
 msgid "Unread"
-msgstr ""
+msgstr "Neprečítané"
 
 #: Contacts/View/Messages/admin_index.ctp:18
 msgid "Messages: Unread"
-msgstr "Zpráva: Nepřečtené"
+msgstr "Správy: Neprečítané"
 
 #: Contacts/View/Messages/admin_index.ctp:120
 msgid "Mark as read"
-msgstr ""
+msgstr "Označ ako prečítané"
 
 #: Contacts/View/Messages/admin_index.ctp:121
 msgid "Mark as unread"
-msgstr ""
+msgstr "Označ ako neprečítané"
 
 #: Croogo/Console/Command/CroogoShell.php:27
 msgid "Croogo Utilities"
@@ -1402,7 +1407,7 @@ msgstr ""
 #: Croogo/Console/Command/ExtShell.php:236
 #: Taxonomy/View/Vocabularies/admin_index.ctp:16
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: Croogo/Console/Command/ExtShell.php:236;262
 msgid "Author"
@@ -1535,7 +1540,7 @@ msgstr ""
 
 #: Croogo/Controller/CroogoAppController.php:268
 msgid "Site down for maintenance"
-msgstr "Probíhají úpravy, vraťte se prosím později"
+msgstr "Prebieha údržba stránky"
 
 #: Croogo/Controller/CroogoErrorController.php:55
 msgid "Errors in CakeErrorController: %s"
@@ -1544,7 +1549,7 @@ msgstr ""
 #: Croogo/Controller/Component/BulkProcessComponent.php:98
 #, fuzzy
 msgid "No item selected"
-msgstr "Žádná položka nebyla vybrána"
+msgstr "Žiadne položky nezvolené."
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:99
 msgid "Please choose only one item for this operation"
@@ -1561,7 +1566,7 @@ msgstr "Nastala chyba"
 
 #: Croogo/Controller/Component/CroogoComponent.php:128
 msgid "Visit website"
-msgstr "Jít na stránky"
+msgstr "Zobraziť stránku"
 
 #: Croogo/Controller/Component/CroogoComponent.php:145
 msgid "Profile"
@@ -1592,7 +1597,7 @@ msgstr ""
 #: FileManager/View/Elements/admin/attachments_search.ctp:38
 #: Nodes/View/Elements/admin/nodes_search.ctp:37
 msgid "Unpublished"
-msgstr ""
+msgstr "Nepublikovaný"
 
 #: Croogo/Lib/CroogoStatus.php:41
 #: FileManager/View/Attachments/admin_edit.ctp:71
@@ -1624,8 +1629,9 @@ msgid "No target to process action upon"
 msgstr ""
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:75
+#, fuzzy
 msgid "Action %s is disabled"
-msgstr ""
+msgstr "Činnosť zmazaná"
 
 #: Croogo/View/Common/admin_edit.ctp:11
 #: FileManager/View/Attachments/admin_browse.ctp:35
@@ -1633,7 +1639,7 @@ msgstr ""
 #: FileManager/View/FileManager/admin_editfile.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
-msgstr "Upravit"
+msgstr "Upraviť"
 
 #: Croogo/View/Common/admin_index.ctp:41 Croogo/View/Common/admin_view.ctp:39
 #: Menus/View/Links/admin_index.ctp:17
@@ -1655,7 +1661,7 @@ msgstr ""
 #: Extensions/Controller/ExtensionsDashboardController.php:11
 #: Extensions/View/ExtensionsDashboard/admin_index.ctp:5
 msgid "Dashboard"
-msgstr "Přístrojová deska"
+msgstr "Nástenka"
 
 #: Croogo/View/Elements/admin/modal.ctp:20
 msgid "Close"
@@ -1687,28 +1693,28 @@ msgstr ""
 #: FileManager/View/Elements/admin/attachments_search.ctp:53
 #: Nodes/View/Elements/admin/nodes_search.ctp:52
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: Croogo/View/Errors/missing_action.ctp:1
 #: Croogo/View/Errors/missing_controller.ctp:1
 #: Croogo/View/Errors/security.ctp:1
 msgid "Page not found"
-msgstr ""
+msgstr "Stránka nebola nájdená"
 
 #: Croogo/View/Errors/missing_action.ctp:2
 #: Croogo/View/Errors/missing_controller.ctp:2
 msgid "Error"
-msgstr ""
+msgstr "Chyba"
 
 #: Croogo/View/Errors/missing_action.ctp:4
 #: Croogo/View/Errors/missing_controller.ctp:4
 #: Croogo/View/Errors/security.ctp:4
 msgid "The requested address was not found on this server."
-msgstr ""
+msgstr "Požadovaná adresa nebola na serveri nájdená"
 
 #: Croogo/View/Errors/security.ctp:2
 msgid "Security Error"
-msgstr ""
+msgstr "Bezpečnostná chyba"
 
 #: Croogo/View/Errors/security.ctp:8
 msgid "Request blackholed due to \"%s\" violation."
@@ -1722,15 +1728,15 @@ msgstr ""
 #: Croogo/View/Layouts/admin_login.ctp:6 Croogo/View/Layouts/admin_popup.ctp:6
 #: Install/View/Layouts/install.ctp:6
 msgid "Croogo"
-msgstr ""
+msgstr "Croogo"
 
 #: Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
-msgstr ""
+msgstr "Späť na"
 
 #: Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
-msgstr ""
+msgstr "Na stránke práve prebieha údržba."
 
 #: Dashboards/Config/admin_dashboard.php:5
 msgid "Croogo News"
@@ -1751,7 +1757,7 @@ msgstr ""
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
 #: Settings/View/Settings/admin_view.ctp:44
 msgid "Are you sure you want to delete # %s?"
-msgstr ""
+msgstr "Naozaj chcete zmazať # %s?"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:131
 msgid "Left"
@@ -1771,7 +1777,7 @@ msgstr ""
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
-msgstr ""
+msgstr "obsah sem"
 
 #: Extensions/Config/admin_menu.php:5
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:7
@@ -1782,14 +1788,14 @@ msgstr ""
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:7
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Extensions"
-msgstr "Doplňky"
+msgstr "Rozšírenia"
 
 #: Extensions/Config/admin_menu.php:15
 #: Extensions/Controller/ExtensionsThemesController.php:60
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:8
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:8
 msgid "Themes"
-msgstr "Témata"
+msgstr "Šablóny"
 
 #: Extensions/Config/admin_menu.php:25
 #: Extensions/Controller/ExtensionsLocalesController.php:44
@@ -1797,14 +1803,14 @@ msgstr "Témata"
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:8
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:8
 msgid "Locales"
-msgstr "Jazyky"
+msgstr "Lokalizácie"
 
 #: Extensions/Config/admin_menu.php:35
 #: Extensions/Controller/ExtensionsPluginsController.php:69
 #: Extensions/View/ExtensionsPlugins/admin_add.ctp:8
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:10
 msgid "Plugins"
-msgstr "Rozšíření"
+msgstr "Pluginy"
 
 #: Extensions/Console/Command/DataMigrationShell.php:23
 msgid "Data Migration Utility"
@@ -1812,7 +1818,7 @@ msgstr ""
 
 #: Extensions/Controller/ExtensionsLocalesController.php:76
 msgid "Locale does not exist."
-msgstr ""
+msgstr "Lokalizácia neexistuje."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:82
 msgid "Locale '%s' set as default"
@@ -1824,19 +1830,19 @@ msgstr ""
 
 #: Extensions/Controller/ExtensionsLocalesController.php:95
 msgid "Upload a new locale"
-msgstr ""
+msgstr "Nahrať novú lokalizáciu"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:121;176
 msgid "Invalid locale."
-msgstr ""
+msgstr "Neplatná lokalizácia"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:126
 msgid "Locale already exists."
-msgstr ""
+msgstr "Lokalizácia už existuje"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "Edit locale: %s"
-msgstr ""
+msgstr "Upraviť lokalizáciu: %s "
 
 #: Extensions/Controller/ExtensionsLocalesController.php:183;211
 msgid "The file %s does not exist."
@@ -1844,29 +1850,29 @@ msgstr ""
 
 #: Extensions/Controller/ExtensionsLocalesController.php:193
 msgid "Locale updated successfully"
-msgstr ""
+msgstr "Lokalizácia bola úspešne aktualizovaná"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:217
 msgid "Locale deleted successfully."
-msgstr ""
+msgstr "Lokalizácia bola úspešne zmazaná."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:219
 msgid "Local could not be deleted."
-msgstr ""
+msgstr "Lokalizáciu nie je možné zmazať."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:83
 msgid "Upload a new plugin"
-msgstr ""
+msgstr "Nahrať nový plugin"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
 #: Extensions/Lib/CroogoPlugin.php:685
 #: Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
-msgstr ""
+msgstr "Neplatný plugin"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:112
 msgid "You cannot delete a plugin that is currently active."
-msgstr ""
+msgstr "Aktívny plugin neviete zmazať."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:118
 msgid "Plugin \"%s\" deleted successfully."
@@ -1874,7 +1880,7 @@ msgstr ""
 
 #: Extensions/Controller/ExtensionsPluginsController.php:122
 msgid "Plugin could not be deleted."
-msgstr ""
+msgstr "Plugin nie je možné zmazať."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:152
 #: Extensions/Lib/CroogoPlugin.php:600
@@ -1903,7 +1909,7 @@ msgstr ""
 
 #: Extensions/Controller/ExtensionsThemesController.php:81
 msgid "Theme activated."
-msgstr ""
+msgstr "Šablóna aktivovaná"
 
 #: Extensions/Controller/ExtensionsThemesController.php:83
 msgid "Theme activation failed."
@@ -1911,36 +1917,36 @@ msgstr ""
 
 #: Extensions/Controller/ExtensionsThemesController.php:95
 msgid "Upload a new theme"
-msgstr ""
+msgstr "Nahrať novú šablónu"
 
 #: Extensions/Controller/ExtensionsThemesController.php:104
 msgid "Theme uploaded successfully."
-msgstr ""
+msgstr "Šablóna bola úspešne nahraná"
 
 #: Extensions/Controller/ExtensionsThemesController.php:118
 msgid "Theme Editor"
-msgstr ""
+msgstr "Editor Šablón"
 
 #: Extensions/Controller/ExtensionsThemesController.php:137
 msgid "Invalid Theme."
-msgstr ""
+msgstr "Neplatná šablóna"
 
 #: Extensions/Controller/ExtensionsThemesController.php:142
 msgid "Default theme cannot be deleted."
-msgstr ""
+msgstr "Predvolenú šablónu neviete zmazať"
 
 #: Extensions/Controller/ExtensionsThemesController.php:145
 msgid "You cannot delete a theme that is currently active."
-msgstr ""
+msgstr "Aktívnu tému neviete zmazať."
 
 #: Extensions/Controller/ExtensionsThemesController.php:152
 msgid "Theme deleted successfully."
-msgstr ""
+msgstr "Šablóna úspešne zmazaná."
 
 #: Extensions/Controller/ExtensionsThemesController.php:156
 #: Users/Controller/UsersController.php:427;496;507
 msgid "An error occurred."
-msgstr "Nastala chyba"
+msgstr "Nastala chyba."
 
 #: Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin \"%s\" is already active."
@@ -1989,7 +1995,7 @@ msgstr ""
 
 #: Extensions/Lib/ExtensionsInstaller.php:72;110;191
 msgid "Invalid zip archive"
-msgstr ""
+msgstr "Chybný ZIP súbor."
 
 #: Extensions/Lib/ExtensionsInstaller.php:78
 msgid "Invalid plugin.json or missing plugin name"
@@ -2049,23 +2055,23 @@ msgstr ""
 #: FileManager/View/Attachments/admin_add.ctp:8;21;29;42
 #: FileManager/View/FileManager/admin_upload.ctp:8;32
 msgid "Upload"
-msgstr "Nahrát"
+msgstr "Pridať súbor"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:19
 #: Nodes/View/Nodes/admin_translations.ctp:26
 #: Translate/View/Translate/admin_index.ctp:80
 msgid "Locale"
-msgstr ""
+msgstr "Lokalizácia"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:20
 msgid "Default"
-msgstr ""
+msgstr "Predvolený"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:33
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:114
 msgid "Activate"
-msgstr "Aktivovat"
+msgstr "Aktivovať"
 
 #: Extensions/View/ExtensionsPlugins/admin_add.ctp:29
 #: FileManager/View/FileManager/admin_create_file.ctp:33
@@ -2080,7 +2086,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_form.ctp:51 Taxonomy/View/Types/admin_form.ctp:38
 #: Taxonomy/View/Vocabularies/admin_form.ctp:43
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:29
 msgid "Active"
@@ -2088,7 +2094,7 @@ msgstr ""
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 msgid "Deactivate"
-msgstr "Deaktivovat"
+msgstr "Deaktivovať"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:73
 msgid "Migrate"
@@ -2096,15 +2102,15 @@ msgstr ""
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:26
 msgid "Current Theme"
-msgstr ""
+msgstr "Aktuálna Šablóna"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:60;111
 msgid "Regions supported: "
-msgstr ""
+msgstr "Podporované regióny: "
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:66
 msgid "Available Themes"
-msgstr ""
+msgstr "Dostupné šablóny"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:137
 msgid "No available theme"
@@ -2112,7 +2118,7 @@ msgstr ""
 
 #: FileManager/Config/admin_menu.php:5
 msgid "Media"
-msgstr ""
+msgstr "Médiá"
 
 #: FileManager/Config/admin_menu.php:15
 #: FileManager/Controller/AttachmentsController.php:117
@@ -2120,7 +2126,7 @@ msgstr ""
 #: FileManager/View/Attachments/admin_edit.ctp:7
 #: FileManager/View/Attachments/admin_index.ctp:7
 msgid "Attachments"
-msgstr "Přílohy"
+msgstr "Prílohy"
 
 #: FileManager/Config/admin_menu.php:24
 #: FileManager/Controller/FileManagerController.php:117
@@ -2131,11 +2137,11 @@ msgstr "Přílohy"
 #: FileManager/View/FileManager/admin_rename.ctp:7
 #: FileManager/View/FileManager/admin_upload.ctp:7
 msgid "File Manager"
-msgstr "Správce souborů"
+msgstr "Správa súborov"
 
 #: FileManager/Controller/AttachmentsController.php:155
 msgid "Add Attachment"
-msgstr "Přidat přílohu"
+msgstr "Pridaj prílohu"
 
 #: FileManager/Controller/AttachmentsController.php:164
 msgid "Upload failed. Please ensure size does not exceed the server limit."
@@ -2143,27 +2149,27 @@ msgstr ""
 
 #: FileManager/Controller/AttachmentsController.php:171;204
 msgid "The Attachment has been saved"
-msgstr "Příloha byla uožena"
+msgstr "Príloha uložená"
 
 #: FileManager/Controller/AttachmentsController.php:179;207
 msgid "The Attachment could not be saved. Please, try again."
-msgstr "Příloha nemohla být uložena, zkuste to to prosím znovu"
+msgstr "Nemožno uložiť prílohu. Skúste neskôr prosím."
 
 #: FileManager/Controller/AttachmentsController.php:192
 msgid "Edit Attachment"
-msgstr "Upravit přílohu"
+msgstr "Upraviť prílohu"
 
 #: FileManager/Controller/AttachmentsController.php:199
 msgid "Invalid Attachment"
-msgstr "Neplatný formát přílohy"
+msgstr "Chyba v prílohe"
 
 #: FileManager/Controller/AttachmentsController.php:224;232
 msgid "Invalid id for Attachment"
-msgstr "Neplatné id přílohy"
+msgstr "Nesprávne id pre prílohu"
 
 #: FileManager/Controller/AttachmentsController.php:229
 msgid "Attachment deleted"
-msgstr "Příloha smazána"
+msgstr "Príloha zmazaná"
 
 #: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
 msgid "Path %s is restricted"
@@ -2171,23 +2177,23 @@ msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:157
 msgid "Edit file: %s"
-msgstr "Upravit soubor: %s"
+msgstr "Upraviť súbor: %s"
 
 #: FileManager/Controller/FileManagerController.php:167
 msgid "File saved successfully"
-msgstr "Soubor úspěšně uložen"
+msgstr "Súbor úspešne uložený"
 
 #: FileManager/Controller/FileManagerController.php:201
 msgid "File uploaded successfully."
-msgstr "Soubor nahrán úspěšně"
+msgstr "Súbor úspešne odoslaný."
 
 #: FileManager/Controller/FileManagerController.php:227
 msgid "File deleted"
-msgstr "Soubor smazán"
+msgstr "Súbor zmazaný"
 
 #: FileManager/Controller/FileManagerController.php:260
 msgid "Directory deleted"
-msgstr "Adresář byl smazán"
+msgstr "Adresár zmazaný"
 
 #: FileManager/Controller/FileManagerController.php:285
 msgid "Path \"%s\" cannot be renamed"
@@ -2216,7 +2222,7 @@ msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:347
 msgid "Directory created successfully."
-msgstr "Adresář byl vytvořen úspěšně"
+msgstr "Adresár úspešne vytvorený."
 
 #: FileManager/Controller/FileManagerController.php:365
 #: FileManager/View/FileManager/admin_create_file.ctp:8
@@ -2225,7 +2231,7 @@ msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:380
 msgid "File created successfully."
-msgstr "Soubor vytvořen úspěšně"
+msgstr "Súbor úspešne vytvorený."
 
 #: FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
@@ -2233,50 +2239,50 @@ msgstr ""
 
 #: FileManager/View/Attachments/admin_browse.ctp:10
 msgid "New Attachment"
-msgstr ""
+msgstr "Nová príloha"
 
 #: FileManager/View/Attachments/admin_browse.ctp:25
 #: FileManager/View/Attachments/admin_index.ctp:14
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: FileManager/View/Attachments/admin_browse.ctp:67
 msgid "Insert"
-msgstr ""
+msgstr "Pridať"
 
 #: FileManager/View/Attachments/admin_chooser.ctp:4
 #: Nodes/View/Nodes/admin_chooser.ctp:4
 msgid "Sort by:"
-msgstr ""
+msgstr "Usporiadať podľa:"
 
 #: FileManager/View/Attachments/admin_chooser.ctp:41
 #: FileManager/View/Elements/admin/attachments_search.ctp:48
 #: Nodes/View/Elements/admin/nodes_search.ctp:47
 #: Nodes/View/Nodes/admin_chooser.ctp:50
 msgid "Promoted"
-msgstr ""
+msgstr "Propagovaný"
 
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
-msgstr ""
+msgstr "Príloha"
 
 #: FileManager/View/Attachments/admin_edit.ctp:29
 msgid "Caption"
-msgstr ""
+msgstr "Hlavička"
 
 #: FileManager/View/Attachments/admin_edit.ctp:32
 msgid "File URL"
-msgstr ""
+msgstr "URL súboru"
 
 #: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
-msgstr ""
+msgstr "Mime typ"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:28
 #: Nodes/View/Elements/search.ctp:7
 #: Nodes/View/Elements/admin/nodes_search.ctp:22
 msgid "Search"
-msgstr ""
+msgstr "Hľadať"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:29
 #: Nodes/View/Elements/admin/nodes_search.ctp:23
@@ -2286,24 +2292,24 @@ msgstr ""
 #: FileManager/View/Elements/admin/attachments_search.ctp:45
 #: Nodes/View/Elements/admin/nodes_search.ctp:44
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:46
 #: Nodes/View/Elements/admin/nodes_search.ctp:45
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #: FileManager/View/FileManager/admin_browse.ctp:14
 msgid "Upload here"
-msgstr ""
+msgstr "Nahrať sem"
 
 #: FileManager/View/FileManager/admin_browse.ctp:18
 msgid "Create directory"
-msgstr ""
+msgstr "Vytvoriť adresár"
 
 #: FileManager/View/FileManager/admin_browse.ctp:22
 msgid "Create file"
-msgstr ""
+msgstr "Vytvoriť súbor"
 
 #: FileManager/View/FileManager/admin_browse.ctp:31
 #: FileManager/View/FileManager/admin_create_directory.ctp:21
@@ -2316,11 +2322,11 @@ msgstr ""
 
 #: FileManager/View/FileManager/admin_browse.ctp:46
 msgid "Directory content"
-msgstr ""
+msgstr "Obsah adresára"
 
 #: FileManager/View/FileManager/admin_browse.ctp:59
 msgid "Open"
-msgstr ""
+msgstr "Otvorený"
 
 #: FileManager/View/FileManager/admin_browse.ctp:66;111
 #: FileManager/View/FileManager/admin_rename.ctp:8
@@ -2343,7 +2349,7 @@ msgstr ""
 #: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
 #: Nodes/View/Nodes/admin_form.ctp:14
 msgid "Create"
-msgstr "Vytvořit"
+msgstr ""
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
@@ -2369,7 +2375,7 @@ msgstr ""
 #: Install/Console/Command/InstallShell.php:116
 #: Install/View/Install/database.ctp:66
 msgid "Login"
-msgstr "Přihlásit"
+msgstr "Prihlásenie"
 
 #: Install/Console/Command/InstallShell.php:117;153
 #: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
@@ -2411,15 +2417,15 @@ msgstr ""
 
 #: Install/Controller/InstallController.php:101
 msgid "Installation: Welcome"
-msgstr ""
+msgstr "Vítajte v inštalácii."
 
 #: Install/Controller/InstallController.php:116
 msgid "Step 1: Database"
-msgstr ""
+msgstr "Krok 1: Databáza"
 
 #: Install/Controller/InstallController.php:162
 msgid "Step 2: Build database"
-msgstr ""
+msgstr "Krok 2: Vytvorenie databázy"
 
 #: Install/Controller/InstallController.php:170
 msgid "Warning: Database \"%s\" is not empty."
@@ -2467,7 +2473,7 @@ msgstr ""
 
 #: Install/Lib/InstallManager.php:48
 msgid "Could not write database.php file."
-msgstr ""
+msgstr "Nie je možné zapísať do súboru database.php"
 
 #: Install/Lib/InstallManager.php:56
 msgid "Could not connect to database: "
@@ -2475,7 +2481,7 @@ msgstr ""
 
 #: Install/Lib/InstallManager.php:59
 msgid "Could not connect to database."
-msgstr ""
+msgstr "Nie je možné pripojiť sa k databáze"
 
 #: Install/View/Install/adminuser.ctp:10
 msgid "Step 3: Create Admin User"
@@ -2496,7 +2502,7 @@ msgstr ""
 
 #: Install/View/Install/data.ctp:19
 msgid "Click here to build your database"
-msgstr ""
+msgstr "Kliknite sem pre naplnenie vašej databázy"
 
 #: Install/View/Install/database.ctp:20
 msgid "Warning"
@@ -2578,19 +2584,19 @@ msgstr ""
 
 #: Install/View/Install/index.ctp:8
 msgid "Your tmp directory is writable."
-msgstr ""
+msgstr "Váš tmp adresár je zapisovateľný."
 
 #: Install/View/Install/index.ctp:11
 msgid "Your tmp directory is NOT writable."
-msgstr ""
+msgstr "Váš tmp adresár NIE je zapisovateľný."
 
 #: Install/View/Install/index.ctp:16
 msgid "Your config directory is writable."
-msgstr ""
+msgstr "Váš konfiguračný adresár je zapisovateľný."
 
 #: Install/View/Install/index.ctp:19
 msgid "Your config directory is NOT writable."
-msgstr ""
+msgstr "Váš konfiguračný adresár NIE je zapisovateľný."
 
 #: Install/View/Install/index.ctp:26
 msgid "PHP version %s %s %s"
@@ -2619,16 +2625,18 @@ msgstr ""
 #: Install/View/Install/index.ctp:57
 msgid "Installation cannot continue as minimum requirements are not met."
 msgstr ""
+"V inštalácii nie je možné pokračovať, keďže nie sú splnené minimálne "
+"požiadavky."
 
 #: Install/View/Layouts/install.ctp:27
 msgid "Install Croogo"
-msgstr ""
+msgstr "Inštaluj Croogo"
 
 #: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
 #: Menus/View/Links/admin_form.ctp:9 Menus/View/Links/admin_index.ctp:9
 #: Menus/View/Menus/admin_form.ctp:7 Menus/View/Menus/admin_index.ctp:7
 msgid "Menus"
-msgstr "Menu"
+msgstr "Navigácia"
 
 #: Menus/Controller/LinksController.php:108
 msgid "Links: %s"
@@ -2636,84 +2644,84 @@ msgstr "Odkazy: %s"
 
 #: Menus/Controller/LinksController.php:137
 msgid "Add Link"
-msgstr "Přidat odkaz"
+msgstr "Pridať Odkaz"
 
 #: Menus/Controller/LinksController.php:144;188
 msgid "The Link has been saved"
-msgstr "Odkaz byl uložen"
+msgstr "Odkaz bol uložený"
 
 #: Menus/Controller/LinksController.php:156;200
 msgid "The Link could not be saved. Please, try again."
-msgstr "Odkaz nemohl být uložen, zkuste to prosím později"
+msgstr "Odkaz nebol uložený. Skúste znova, prosím."
 
 #: Menus/Controller/LinksController.php:175
 msgid "Edit Link"
-msgstr "Upravit Odkaz"
+msgstr "Uprav Odkaz"
 
 #: Menus/Controller/LinksController.php:178
 msgid "Invalid Link"
-msgstr "Neplatný odkaz"
+msgstr "Nesprávny Odkaz"
 
 #: Menus/Controller/LinksController.php:227;235;264;296
 msgid "Invalid id for Link"
-msgstr "Neplatné id pro Odkaz"
+msgstr "Nesprávne id Odkazu"
 
 #: Menus/Controller/LinksController.php:243
 msgid "Link deleted"
-msgstr "Odkaz smazán"
+msgstr "Odkaz zmazaný"
 
 #: Menus/Controller/LinksController.php:338
 #, fuzzy
 msgid "Links deleted"
-msgstr "Odkazy smazány"
+msgstr "Odkazy zmazané."
 
 #: Menus/Controller/LinksController.php:339
 msgid "Links published"
-msgstr "Odkazy zobrazeny"
+msgstr "Odkazy publikované"
 
 #: Menus/Controller/LinksController.php:340
 msgid "Links unpublished"
-msgstr "Odkazy schovány"
+msgstr "Odkazy nepublikované"
 
 #: Menus/Controller/MenusController.php:82
 msgid "Add Menu"
-msgstr "Přidat Menu"
+msgstr "Pridaj položku"
 
 #: Menus/Controller/MenusController.php:87;111
 msgid "The Menu has been saved"
-msgstr "Menu bylo uloženo"
+msgstr "Položka menu bola uložená"
 
 #: Menus/Controller/MenusController.php:90;114
 msgid "The Menu could not be saved. Please, try again."
-msgstr "Menu nemohlo být uloženo. Zkuste to prosím později"
+msgstr "Položka menu nebola uložená. Prosím, skúste znova."
 
 #: Menus/Controller/MenusController.php:103
 msgid "Edit Menu"
-msgstr "Upravit Menu"
+msgstr "Edituj menu"
 
 #: Menus/Controller/MenusController.php:106
 msgid "Invalid Menu"
-msgstr "Chybné menu"
+msgstr "Nesprávne menu"
 
 #: Menus/Controller/MenusController.php:131
 msgid "Invalid id for Menu"
-msgstr "Chybné id Menu"
+msgstr "Nesprávne id pre menu"
 
 #: Menus/Controller/MenusController.php:135
 msgid "Menu deleted"
-msgstr "Menu smazáno"
+msgstr "Položka menu zmazaná."
 
 #: Menus/View/Links/admin_form.ctp:51;74
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: Menus/View/Links/admin_form.ctp:53 Menus/View/Menus/admin_form.ctp:21
 msgid "Misc."
-msgstr ""
+msgstr "Iné"
 
 #: Menus/View/Links/admin_form.ctp:62 Menus/View/Menus/admin_form.ctp:20
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: Menus/View/Links/admin_form.ctp:80
 msgid "Link Chooser"
@@ -2749,7 +2757,7 @@ msgstr ""
 
 #: Menus/View/Menus/admin_index.ctp:29
 msgid "View links"
-msgstr ""
+msgstr "Pozri linky"
 
 #: Meta/Controller/Component/MetaComponent.php:47
 msgid "Custom Fields"
@@ -2757,28 +2765,28 @@ msgstr ""
 
 #: Meta/View/Elements/admin/meta_tab.ctp:19
 msgid "Add another field"
-msgstr ""
+msgstr "Pridať ďalšie pole"
 
 #: Meta/View/Helper/MetaHelper.php:98 Settings/View/Settings/admin_form.ctp:35
 #: Settings/View/Settings/admin_index.ctp:19
 #: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
-msgstr ""
+msgstr "Kľúč"
 
 #: Meta/View/Helper/MetaHelper.php:102
 #: Settings/View/Settings/admin_form.ctp:38
 #: Settings/View/Settings/admin_index.ctp:20
 #: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
-msgstr ""
+msgstr "Hodnota"
 
 #: Meta/View/Helper/MetaHelper.php:129
 msgid "Remove"
-msgstr ""
+msgstr "Odobrať"
 
 #: Nodes/Config/admin_menu.php:15 Taxonomy/Config/admin_menu.php:25
 msgid "List"
-msgstr "Procházet"
+msgstr "Zoznam"
 
 #: Nodes/Controller/NodesController.php:145
 msgid "Type must be specified"
@@ -2787,23 +2795,23 @@ msgstr ""
 #: Nodes/Controller/NodesController.php:226
 #: Nodes/View/Nodes/admin_index.ctp:12
 msgid "Create content"
-msgstr "Vytvořit obsah"
+msgstr "Vytvoriť Obsah"
 
 #: Nodes/Controller/NodesController.php:247
 msgid "Content type does not exist."
-msgstr "Typ obsahu neexistuje"
+msgstr "Typ obsahu neexistuje."
 
 #: Nodes/Controller/NodesController.php:258;299
 msgid "%s has been saved"
-msgstr "%s byl uložen"
+msgstr "%s bol uložený"
 
 #: Nodes/Controller/NodesController.php:261;302
 msgid "%s could not be saved. Please, try again."
-msgstr "%s nemohl být uložen. Zkuste to prosím znovu"
+msgstr "%s sa nedá uložiť. Skúste ešte raz."
 
 #: Nodes/Controller/NodesController.php:268
 msgid "Create content: %s"
-msgstr "Vytvořit obsah: %s"
+msgstr "Vytvor Obsah: %s"
 
 #: Nodes/Controller/NodesController.php:315
 msgid "Edit %s: %s"
@@ -2811,7 +2819,7 @@ msgstr ""
 
 #: Nodes/Controller/NodesController.php:328
 msgid "Paths updated."
-msgstr "Cesty byly aktualizovány"
+msgstr "Cesty aktualizované."
 
 #: Nodes/Controller/NodesController.php:331
 msgid ""
@@ -2821,11 +2829,11 @@ msgstr ""
 
 #: Nodes/Controller/NodesController.php:348
 msgid "Invalid id for Node"
-msgstr "Neplatné ID pro článek"
+msgstr "Chybné id pre Uzol"
 
 #: Nodes/Controller/NodesController.php:354
 msgid "Node deleted"
-msgstr "Článek byl smazán"
+msgstr "Uzol zmazaný"
 
 #: Nodes/Controller/NodesController.php:409
 msgid "%s deleted"
@@ -2853,11 +2861,11 @@ msgstr ""
 
 #: Nodes/Controller/NodesController.php:467;568;640;703
 msgid "Invalid content type."
-msgstr "Neplatný typ obsahu"
+msgstr "Neplatný obsah"
 
 #: Nodes/Controller/NodesController.php:525
 msgid "Invalid Term."
-msgstr "Neplatný termín"
+msgstr "Neplatný výraz"
 
 #: Nodes/Controller/NodesController.php:619
 msgid "Home"
@@ -2865,19 +2873,19 @@ msgstr ""
 
 #: Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
-msgstr ""
+msgstr "Pridané"
 
 #: Nodes/View/Elements/node_info.ctp:20
 msgid "on"
-msgstr ""
+msgstr "dňa"
 
 #: Nodes/View/Elements/node_more_info.ctp:18
 msgid "Posted in"
-msgstr ""
+msgstr "Pridané v"
 
 #: Nodes/View/Elements/node_more_info.ctp:29
 msgid "Leave a comment"
-msgstr ""
+msgstr "Pridajte komentár"
 
 #: Nodes/View/Elements/admin/nodes_search.ctp:31
 #: Nodes/View/Nodes/admin_hierarchy.ctp:38 Nodes/View/Nodes/admin_index.ctp:33
@@ -2885,13 +2893,13 @@ msgstr ""
 #: Taxonomy/View/Types/admin_form.ctp:20
 #: Taxonomy/View/Vocabularies/admin_form.ctp:46
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: Nodes/View/Nodes/admin_form.ctp:80 Taxonomy/View/Terms/admin_chooser.ctp:7
 #: Taxonomy/View/Terms/admin_form.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
-msgstr "Zkratka"
+msgstr "Označenie"
 
 #: Nodes/View/Nodes/admin_form.ctp:83
 msgid "Excerpt"
@@ -2899,7 +2907,7 @@ msgstr ""
 
 #: Nodes/View/Nodes/admin_form.ctp:117
 msgid "Promoted to front page"
-msgstr ""
+msgstr "Propagované na úvodnej stránke"
 
 #: Nodes/View/Nodes/admin_form.ctp:121
 msgid "Publish as "
@@ -2908,7 +2916,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
 #: Users/View/Users/admin_form.ctp:37
 msgid "User"
-msgstr "Uživatel"
+msgstr ""
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:67 Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
@@ -2922,12 +2930,12 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:131
 #: Nodes/View/Nodes/admin_index.ctp:132
 msgid "Promote"
-msgstr "Zveřejnit"
+msgstr "Propagovať"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:132
 #: Nodes/View/Nodes/admin_index.ctp:133
 msgid "Unpromote"
-msgstr ""
+msgstr "Zrušiť propagáciu"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:151
 #: Nodes/View/Nodes/admin_index.ctp:152
@@ -2937,21 +2945,21 @@ msgstr ""
 #: Nodes/View/Nodes/admin_translations.ctp:8
 #: Translate/View/Translate/admin_index.ctp:36
 msgid "Translate in a new language"
-msgstr ""
+msgstr "Prelož do nového jazyka"
 
 #: Nodes/View/Nodes/admin_translations.ctp:49
 #: Translate/View/Translate/admin_index.ctp:72
 msgid "No translations available."
-msgstr ""
+msgstr "Preklady nie sú k dispozícii"
 
 #: Nodes/View/Nodes/index.ctp:4 Nodes/View/Nodes/promoted.ctp:4
 #: Nodes/View/Nodes/search.ctp:11 Nodes/View/Nodes/term.ctp:6
 msgid "No items found."
-msgstr ""
+msgstr "Žiadne položky nenájdené"
 
 #: Nodes/View/Nodes/search.ctp:3
 msgid "Search Results: %s"
-msgstr "Výsledky vyhledávání: %s"
+msgstr "Vysledok vyhľadávania: %s"
 
 #: Settings/Config/admin_menu.php:5
 #: Settings/Controller/SettingsController.php:68
@@ -2962,27 +2970,27 @@ msgstr "Výsledky vyhledávání: %s"
 #: Settings/View/Settings/admin_index.ctp:7
 #: Settings/View/Settings/admin_prefix.ctp:6
 msgid "Settings"
-msgstr ""
+msgstr "Nastavenia"
 
 #: Settings/Config/admin_menu.php:16
 msgid "Site"
-msgstr ""
+msgstr "Stránka"
 
 #: Settings/Config/admin_menu.php:28
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 #: Settings/Config/admin_menu.php:40
 msgid "Reading"
-msgstr ""
+msgstr "Čítanie"
 
 #: Settings/Config/admin_menu.php:52
 msgid "Writing"
-msgstr ""
+msgstr "Písanie"
 
 #: Settings/Config/admin_menu.php:76
 msgid "Service"
-msgstr ""
+msgstr "Služba"
 
 #: Settings/Config/admin_menu.php:88
 #: Settings/Controller/LanguagesController.php:40
@@ -3054,36 +3062,36 @@ msgstr ""
 #: Settings/Console/Command/SettingsShell.php:194
 #: Settings/Controller/SettingsController.php:152
 msgid "Setting deleted"
-msgstr ""
+msgstr "Nastavenie zmazané"
 
 #: Settings/Controller/LanguagesController.php:54
 msgid "Add Language"
-msgstr "Přidat jazyk"
+msgstr "Pridaj jazyk"
 
 #: Settings/Controller/LanguagesController.php:59;83
 msgid "The Language has been saved"
-msgstr "Jazyk byl uložen"
+msgstr "Jazyk bol uložený"
 
 #: Settings/Controller/LanguagesController.php:62;86
 msgid "The Language could not be saved. Please, try again."
-msgstr "Jazyk nemohl být uložen. Zkuste to prosím znovu"
+msgstr "Jazyk nie je možné uložiť. Prosím, skúste znova."
 
 #: Settings/Controller/LanguagesController.php:75
 msgid "Edit Language"
-msgstr "Upravit jazyk"
+msgstr "Upraviť jazyk"
 
 #: Settings/Controller/LanguagesController.php:78
 #: Translate/Controller/TranslateController.php:134
 msgid "Invalid Language"
-msgstr "Neplatný jazyk"
+msgstr "Nesprávny jazyk"
 
 #: Settings/Controller/LanguagesController.php:103
 msgid "Invalid id for Language"
-msgstr "Neplatné id Jazyka"
+msgstr "Chybné id pre jazyk"
 
 #: Settings/Controller/LanguagesController.php:107
 msgid "Language deleted"
-msgstr "jazyk byl smazán"
+msgstr "Jazyk vymazaný"
 
 #: Settings/Controller/LanguagesController.php:162
 msgid "Select a language"
@@ -3091,48 +3099,48 @@ msgstr "Vyberte jazyk"
 
 #: Settings/Controller/SettingsController.php:86
 msgid "Invalid Setting."
-msgstr ""
+msgstr "Neplatné nastavenie"
 
 #: Settings/Controller/SettingsController.php:99
 msgid "Add Setting"
-msgstr ""
+msgstr "Pridať nastavenie"
 
 #: Settings/Controller/SettingsController.php:104;128
 msgid "The Setting has been saved"
-msgstr ""
+msgstr "Nastavenie bolo uložené"
 
 #: Settings/Controller/SettingsController.php:107;131
 msgid "The Setting could not be saved. Please, try again."
-msgstr ""
+msgstr "Nastavenie sa nedalo uložiť. Skúste prosím znova."
 
 #: Settings/Controller/SettingsController.php:120
 #: Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
-msgstr ""
+msgstr "Upraviť nastavenie"
 
 #: Settings/Controller/SettingsController.php:123
 msgid "Invalid Setting"
-msgstr ""
+msgstr "Neplatné nastavenie"
 
 #: Settings/Controller/SettingsController.php:148
 msgid "Invalid id for Setting"
-msgstr ""
+msgstr "Neplatné id pre nastavenie"
 
 #: Settings/Controller/SettingsController.php:165
 msgid "Settings: %s"
-msgstr ""
+msgstr "Nastavenia: %s"
 
 #: Settings/Controller/SettingsController.php:169
 msgid "Settings updated successfully"
-msgstr ""
+msgstr "Nastavenia boli úspešne aktualizované"
 
 #: Settings/Controller/SettingsController.php:183
 msgid "Invalid Setting key"
-msgstr ""
+msgstr "Neplatný nastavovací kľúč."
 
 #: Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
 msgid "Could not add a new language."
-msgstr ""
+msgstr "Nevedel som pridať nový jazyk"
 
 #: Settings/View/Languages/admin_form.ctp:8;25
 msgid "Language"
@@ -3145,7 +3153,7 @@ msgstr ""
 
 #: Settings/View/Languages/admin_select.ctp:12
 msgid "New Language"
-msgstr ""
+msgstr "Nová Lokalizácia"
 
 #: Settings/View/Settings/admin_form.ctp:27
 msgid "Misc"
@@ -3153,16 +3161,16 @@ msgstr ""
 
 #: Settings/View/Settings/admin_form.ctp:34
 msgid "e.g., 'Site.title'"
-msgstr ""
+msgstr "napríklad, 'Site.title'"
 
 #: Settings/View/Settings/admin_form.ctp:50
 #: Settings/View/Settings/admin_view.ctp:24
 msgid "Input Type"
-msgstr ""
+msgstr "Zadaj Typ"
 
 #: Settings/View/Settings/admin_form.ctp:51
 msgid "e.g., 'text' or 'textarea'"
-msgstr ""
+msgstr "napríklad, 'text' alebo 'textarea'"
 
 #: Settings/View/Settings/admin_form.ctp:54
 #: Settings/View/Settings/admin_index.ctp:21
@@ -3175,64 +3183,64 @@ msgstr ""
 
 #: Settings/View/Settings/admin_view.ctp:2
 msgid "Setting"
-msgstr ""
+msgstr "Nastavenie"
 
 #: Settings/View/Settings/admin_view.ctp:29
 msgid "Weight"
-msgstr ""
+msgstr "Váha"
 
 #: Settings/View/Settings/admin_view.ctp:44
 msgid "Delete Setting"
-msgstr ""
+msgstr "Zmaž nastavenie"
 
 #: Settings/View/Settings/admin_view.ctp:45
 msgid "List Settings"
-msgstr ""
+msgstr "Zobraz nastavenia"
 
 #: Settings/View/Settings/admin_view.ctp:46
 msgid "New Setting"
-msgstr ""
+msgstr "Nové nastavenie"
 
 #: Taxonomy/Config/admin_menu.php:4
 #, fuzzy
 msgid "Content Types"
-msgstr "Obsah"
+msgstr "Typy obsahu"
 
 #: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:21
 msgid "Taxonomy"
-msgstr ""
+msgstr "Taxonómia"
 
 #: Taxonomy/Config/admin_menu.php:35
 msgid "Add new"
-msgstr "Přidat nový"
+msgstr "Pridaj nový"
 
 #: Taxonomy/Controller/TermsController.php:67
 msgid "Vocabulary: %s"
-msgstr ""
+msgstr "Slovník"
 
 #: Taxonomy/Controller/TermsController.php:89
 msgid "%s: Add Term"
-msgstr ""
+msgstr "%s: Pridať termín"
 
 #: Taxonomy/Controller/TermsController.php:93;136
 msgid "Term saved successfuly."
-msgstr ""
+msgstr "Termín bol úspešne uložený"
 
 #: Taxonomy/Controller/TermsController.php:99;146
 msgid "Term could not be added to the vocabulary. Please try again."
-msgstr ""
+msgstr "Termín nebolo možné pridať do slovníka. Skúste prosím znova."
 
 #: Taxonomy/Controller/TermsController.php:132
 msgid "%s: Edit Term"
-msgstr ""
+msgstr "%s: Upraviť termín"
 
 #: Taxonomy/Controller/TermsController.php:172
 msgid "Term deleted"
-msgstr ""
+msgstr "Termín zmazaný"
 
 #: Taxonomy/Controller/TermsController.php:175
 msgid "Term could not be deleted. Please, try again."
-msgstr ""
+msgstr "Termín sa nedal zmazať. Skúste prosím znova."
 
 #: Taxonomy/Controller/TermsController.php:229
 msgid "Moved %s successfully"
@@ -3252,35 +3260,35 @@ msgstr ""
 
 #: Taxonomy/Controller/TermsController.php:300
 msgid "Invalid Vocabulary ID."
-msgstr ""
+msgstr "Neplatné ID slovníka."
 
 #: Taxonomy/Controller/TypesController.php:68
 msgid "Add Type"
-msgstr ""
+msgstr "Pridať typ"
 
 #: Taxonomy/Controller/TypesController.php:73;100
 msgid "The Type has been saved"
-msgstr ""
+msgstr "Typ bol uložený"
 
 #: Taxonomy/Controller/TypesController.php:76;103
 msgid "The Type could not be saved. Please, try again."
-msgstr ""
+msgstr "Typ sa nedal uložiť. Skúste prosím znova."
 
 #: Taxonomy/Controller/TypesController.php:92
 msgid "Edit Type"
-msgstr ""
+msgstr "Upraviť typ"
 
 #: Taxonomy/Controller/TypesController.php:95
 msgid "Invalid Type"
-msgstr ""
+msgstr "Neplatný typ"
 
 #: Taxonomy/Controller/TypesController.php:123
 msgid "Invalid id for Type"
-msgstr ""
+msgstr "Neplatné id pre typ"
 
 #: Taxonomy/Controller/TypesController.php:127
 msgid "Type deleted"
-msgstr ""
+msgstr "Typ zmazaný"
 
 #: Taxonomy/Controller/VocabulariesController.php:40
 #: Taxonomy/View/Terms/admin_form.ctp:12;19
@@ -3288,35 +3296,35 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_form.ctp:11;17
 #: Taxonomy/View/Vocabularies/admin_index.ctp:8
 msgid "Vocabularies"
-msgstr ""
+msgstr "Slovníky"
 
 #: Taxonomy/Controller/VocabulariesController.php:54
 msgid "Add Vocabulary"
-msgstr ""
+msgstr "Pridať slovník"
 
 #: Taxonomy/Controller/VocabulariesController.php:59;86
 msgid "The Vocabulary has been saved"
-msgstr ""
+msgstr "Slovník bol uložený"
 
 #: Taxonomy/Controller/VocabulariesController.php:62;89
 msgid "The Vocabulary could not be saved. Please, try again."
-msgstr ""
+msgstr "Slovník sa nedá uložiť. Skúste znova."
 
 #: Taxonomy/Controller/VocabulariesController.php:78
 msgid "Edit Vocabulary"
-msgstr ""
+msgstr "Upraviť slovník"
 
 #: Taxonomy/Controller/VocabulariesController.php:81
 msgid "Invalid Vocabulary"
-msgstr ""
+msgstr "Neplatný Slovník"
 
 #: Taxonomy/Controller/VocabulariesController.php:113
 msgid "Invalid id for Vocabulary"
-msgstr ""
+msgstr "Neplatné id pre slovník"
 
 #: Taxonomy/Controller/VocabulariesController.php:117
 msgid "Vocabulary deleted"
-msgstr ""
+msgstr "Slovník zmazaný"
 
 #: Taxonomy/Model/Term.php:178
 msgid "Invalid Term Id"
@@ -3340,15 +3348,15 @@ msgstr ""
 
 #: Taxonomy/View/Helper/TaxonomiesHelper.php:61
 msgid "Terms"
-msgstr ""
+msgstr "Podmienky"
 
 #: Taxonomy/View/Terms/admin_form.ctp:29
 msgid "Term"
-msgstr ""
+msgstr "Kľúčové slovo"
 
 #: Taxonomy/View/Terms/admin_index.ctp:13
 msgid "New Term"
-msgstr ""
+msgstr "Nové kľúčové slovo"
 
 #: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:8
 msgid "Types"
@@ -3361,19 +3369,19 @@ msgstr ""
 #: Taxonomy/View/Types/admin_form.ctp:50
 #: Taxonomy/View/Vocabularies/admin_form.ctp:26
 msgid "Vocabulary"
-msgstr "Slovní zásoba"
+msgstr "Slovník"
 
 #: Taxonomy/View/Types/admin_form.ctp:109
 msgid "Show author's name"
-msgstr "Ukázat autorovo jméno"
+msgstr "Zobraz meno autora"
 
 #: Taxonomy/View/Types/admin_form.ctp:112
 msgid "Show date"
-msgstr "Ukázat datum"
+msgstr "Zobraz dátum"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:27
 msgid "Options"
-msgstr "Nastavení"
+msgstr "Nastavenia"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Required"
@@ -3389,60 +3397,61 @@ msgstr ""
 
 #: Taxonomy/View/Vocabularies/admin_index.ctp:30
 msgid "View terms"
-msgstr "Prohlížet termíny"
+msgstr "Zobraziť pojmy"
 
 #: Translate/Controller/TranslateController.php:45;107
 msgid "Invalid ID."
-msgstr ""
+msgstr "Chybné ID"
 
 #: Translate/Controller/TranslateController.php:57;203
 msgid "Invalid model."
-msgstr ""
+msgstr "Neplatný model."
 
 #: Translate/Controller/TranslateController.php:69;146;214
 msgid "Invalid record."
-msgstr ""
+msgstr "Neplatný záznam."
 
 #: Translate/Controller/TranslateController.php:76
 msgid "Translations: %s"
-msgstr ""
+msgstr "Preklady: %s"
 
 #: Translate/Controller/TranslateController.php:116
 msgid "Invalid locale"
-msgstr ""
+msgstr "Neplatná lokalizácia"
 
 #: Translate/Controller/TranslateController.php:153
 msgid "Translate content: %s (%s)"
-msgstr ""
+msgstr "Prelož obsah: %s (%s)"
 
 #: Translate/Controller/TranslateController.php:160
 msgid "Record has been translated"
-msgstr ""
+msgstr "Záznam bol preložený."
 
 #: Translate/Controller/TranslateController.php:172
 msgid "Record could not be translated. Please, try again."
-msgstr ""
+msgstr "Záznam sa nedá preložiť. Pokúste sa znova."
 
 #: Translate/Controller/TranslateController.php:191
 msgid "Invalid Locale or ID"
-msgstr ""
+msgstr "Chybný Locale alebo ID"
 
 #: Translate/Controller/TranslateController.php:229
 msgid "Translation for the locale deleted successfully."
-msgstr ""
+msgstr "Lokalizácia bola úspešne zmazaná."
 
 #: Translate/Controller/TranslateController.php:231
 msgid "Translation for the locale could not be deleted."
-msgstr ""
+msgstr "Lokalizácia sa nedá zmazať."
 
 #: Translate/Lib/Translations.php:22;27
 #: Translate/View/Translate/admin_edit.ctp:19;33
 msgid "Translate"
-msgstr "Přeložit"
+msgstr ""
 
 #: Translate/Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
 msgstr ""
+"Zdroj údajov %s pre CroogoTranslateBehavior of model %s nie je pripojený"
 
 #: Translate/View/Translate/admin_edit.ctp:10
 #: Translate/View/Translate/admin_index.ctp:31
@@ -3452,11 +3461,11 @@ msgstr ""
 #: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
 #: Users/View/Roles/admin_form.ctp:8 Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
-msgstr "Role"
+msgstr "Skupiny"
 
 #: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:25
 msgid "Reset password"
-msgstr "Reset hesla"
+msgstr "Vygenerovať heslo"
 
 #: Users/Console/Command/UsersShell.php:20
 msgid "Reset user password"
@@ -3480,37 +3489,39 @@ msgstr ""
 
 #: Users/Controller/RolesController.php:55
 msgid "Add Role"
-msgstr "Přidat Roli"
+msgstr "Pridať Skupinu"
 
 #: Users/Controller/RolesController.php:60;84
 msgid "The Role has been saved"
-msgstr "Role byla uložena"
+msgstr "Skupina bola uložená"
 
 #: Users/Controller/RolesController.php:63;87
 msgid "The Role could not be saved. Please, try again."
-msgstr "Role nemohla být uložena, zkuste to prosím později"
+msgstr "Skupinu nebolo možné uložiť. Skúste prosím znova."
 
 #: Users/Controller/RolesController.php:76
 msgid "Edit Role"
-msgstr "Upravit Roli"
+msgstr "Upraviť Skupinu"
 
 #: Users/Controller/RolesController.php:79
 msgid "Invalid Role"
-msgstr "Neplatná Role"
+msgstr "Neplatná Skupina"
 
 #: Users/Controller/RolesController.php:104
 msgid "Invalid id for Role"
-msgstr "Neplatné ID pro Roli"
+msgstr "Neplatné id pre Skupinu"
 
 #: Users/Controller/RolesController.php:108
 msgid "Role deleted"
-msgstr "Role byla smazána"
+msgstr "Skupina zmazaná"
 
 #: Users/Controller/UsersController.php:77
 msgid ""
 "You have reached maximum limit for failed login attempts. Please try again "
 "after a few minutes."
 msgstr ""
+"Maximálny limit pre neúspešne prihlásenie bol dosiahnutý. Skúste prosím "
+"znova o niekoľko minút."
 
 #: Users/Controller/UsersController.php:146;362
 msgid "[%s] Please activate your account"
@@ -3518,31 +3529,31 @@ msgstr ""
 
 #: Users/Controller/UsersController.php:171;194
 msgid "The User has been saved"
-msgstr ""
+msgstr "Užívateľ bol uložený"
 
 #: Users/Controller/UsersController.php:174;197;373
 msgid "The User could not be saved. Please, try again."
-msgstr ""
+msgstr "Užívateľa nie je možné uložiť. Skúste znova."
 
 #: Users/Controller/UsersController.php:216
 msgid "Invalid User"
-msgstr ""
+msgstr "Neplatný užívateľ"
 
 #: Users/Controller/UsersController.php:221
 msgid "Password has been reset."
-msgstr ""
+msgstr "Heslo bolo obnovené."
 
 #: Users/Controller/UsersController.php:224
 msgid "Password could not be reset. Please, try again."
-msgstr ""
+msgstr "Heslo nie je možné obnoviť. Skúste prosím znova."
 
 #: Users/Controller/UsersController.php:239
 msgid "Invalid id for User"
-msgstr ""
+msgstr "Neplatné id užívateľa"
 
 #: Users/Controller/UsersController.php:243
 msgid "User deleted"
-msgstr ""
+msgstr "Užívateľ zmazaný"
 
 #: Users/Controller/UsersController.php:246
 msgid "User cannot be deleted"
@@ -3550,7 +3561,7 @@ msgstr ""
 
 #: Users/Controller/UsersController.php:258
 msgid "Admin Login"
-msgstr ""
+msgstr "Admin Login"
 
 #: Users/Controller/UsersController.php:263
 msgid "You are already logged in"
@@ -3562,33 +3573,34 @@ msgstr ""
 
 #: Users/Controller/UsersController.php:291;557
 msgid "Log out successful."
-msgstr ""
+msgstr "Odhlásenie bolo úspešné"
 
 #: Users/Controller/UsersController.php:346
 msgid "Register"
-msgstr ""
+msgstr "Registrovať"
 
 #: Users/Controller/UsersController.php:369
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
 msgstr ""
+"Registrácia prebehla úspešne. Poslali sme vám email s ďalšími inštrukciami."
 
 #: Users/Controller/UsersController.php:393 Users/View/Users/index.ctp:4
 msgid "You are currently logged in as:"
-msgstr "Právě přihlášen:"
+msgstr "Prihlásený ako:"
 
 #: Users/Controller/UsersController.php:424
 msgid "Account activated successfully."
-msgstr ""
+msgstr "Účet úspešne aktivovaný."
 
 #: Users/Controller/UsersController.php:451
 msgid "Forgot Password"
-msgstr ""
+msgstr "Zabudnuté heslo"
 
 #: Users/Controller/UsersController.php:456
 msgid "Invalid username."
-msgstr ""
+msgstr "Neplatné užívateľské meno."
 
 #: Users/Controller/UsersController.php:468
 msgid "[%s] Reset Password"
@@ -3596,28 +3608,28 @@ msgstr ""
 
 #: Users/Controller/UsersController.php:476
 msgid "An email has been sent with instructions for resetting your password."
-msgstr ""
+msgstr "Bol vám poslaný email s inštruktážou ako obnoviť heslo."
 
 #: Users/Controller/UsersController.php:479;521
 msgid "An error occurred. Please try again."
-msgstr ""
+msgstr "Chyba, skúste znova."
 
 #: Users/Controller/UsersController.php:493
 #: Users/View/Users/admin_reset_password.ctp:11;22
 msgid "Reset Password"
-msgstr ""
+msgstr "Obnoviť heslo"
 
 #: Users/Controller/UsersController.php:518
 msgid "Your password has been reset successfully."
-msgstr ""
+msgstr "Vaše heslo bolo obnovené úspešne."
 
 #: Users/Controller/UsersController.php:535
 msgid "Log in"
-msgstr ""
+msgstr "Prihlásenie"
 
 #: Users/Controller/UsersController.php:576
 msgid "Invalid User."
-msgstr ""
+msgstr "Neplatný uživateľ"
 
 #: Users/Model/User.php:226
 msgid "Passwords do not match. Please, try again."
@@ -3626,19 +3638,19 @@ msgstr ""
 #: Users/View/Emails/text/forgot_password.ctp:1
 #: Users/View/Emails/text/register.ctp:1
 msgid "Hello %s"
-msgstr ""
+msgstr "Dobrý deň %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
-msgstr ""
+msgstr "Pre nové heslo navštívte tento link: %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
-msgstr ""
+msgstr "Ak ste nežiadali nové heslo, prosím ignorujte tento email."
 
 #: Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
-msgstr ""
+msgstr "Pre aktiváciu konta kliknite na tento link: %s"
 
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
@@ -3662,11 +3674,11 @@ msgstr ""
 
 #: Users/View/Users/admin_login.ctp:27 Users/View/Users/login.ctp:10
 msgid "Log In"
-msgstr "Přihlásit"
+msgstr "Prihlásiť sa"
 
 #: Users/View/Users/admin_login.ctp:28 Users/View/Users/login.ctp:12
 msgid "Forgot password?"
-msgstr "Zapomenuté heslo?"
+msgstr "Zabudnuté heslo"
 
 #: Users/View/Users/admin_reset_password.ctp:13
 msgid "Reset Password: %s"
@@ -3764,68 +3776,268 @@ msgid "This field must be a valid URL"
 msgstr ""
 
 #~ msgid "Nodes published"
-#~ msgstr "Články byly publikovány"
+#~ msgstr "Uzly publikované"
 
 #~ msgid "Nodes unpublished"
-#~ msgstr "Články byly nepublikovány"
+#~ msgstr "Uzly nepublikované"
 
 #~ msgid "Nodes promoted"
-#~ msgstr "Článek byl zveřejněn"
+#~ msgstr "Propagované uzly"
 
 #~ msgid "Nodes unpromoted"
-#~ msgstr "Články nezveřejněny"
+#~ msgstr "Nepropagované uzly"
 
 #, fuzzy
 #~ msgid "Nodes copied"
-#~ msgstr "Články byly publikovány"
+#~ msgstr "Uzly publikované"
+
+#~ msgid ""
+#~ "Page %page% of %pages%, showing %current% records out of %count% total, "
+#~ "starting on record %start%, ending on %end%"
+#~ msgstr ""
+#~ "Strana %page% of %pages%, zobrazuje %current% záznamov z %count% spolu, "
+#~ "začínajúc s %start%, končiac na %end%"
 
 #~ msgid "Invalid Node"
-#~ msgstr "Neplatný Node"
+#~ msgstr "Chybný Uzol"
 
-#~ msgid "You are logged in as: %s"
-#~ msgstr "Jste přihlášeni jako: %s"
+#~ msgid "Link to a Node"
+#~ msgstr "Link na Uzol"
 
 #~ msgid "Nodes"
-#~ msgstr "Články"
+#~ msgstr "Uzly"
 
-#~ msgid "Add User"
-#~ msgstr "Přidat uživatele"
+#~ msgid "Term with same slug already exists in the vocabulary."
+#~ msgstr "Termín s rovnakým slug už existuje v slovníku."
+
+#~ msgid "Term could not be saved. Please try again."
+#~ msgstr "Termín nebolo možné uložiť. Skúste prosím znova."
+
+#~ msgid "Invalid id for Term"
+#~ msgstr "Neplatné id pre termín"
 
 #~ msgid "Blocks deleted."
-#~ msgstr "Blok smazán"
+#~ msgstr "Bloky zmazané."
 
 #~ msgid "Comments deleted."
-#~ msgstr "Komentáře byly smazány"
+#~ msgstr "Komentáre zmazané"
 
-#~ msgid "Current Password"
-#~ msgstr "Stávající heslo"
+#~ msgid "New Directory"
+#~ msgstr "Nový adresár"
 
-#~ msgid "Debug setting does not allow access to this url."
-#~ msgstr "Nastavení serveru nedovoluje přistupovat na tuto URL"
-
-#~ msgid "Edit User"
-#~ msgstr "Upravit uživatele"
+#~ msgid "New File"
+#~ msgstr "Nový Súbor"
 
 #~ msgid "Edit content: %s"
-#~ msgstr "Upravit obsah: %s"
+#~ msgstr "Upraviť obsah: %s"
+
+#~ msgid "Nodes deleted."
+#~ msgstr "Uzly zmazané"
+
+#~ msgid "Current password did not match. Please, try again."
+#~ msgstr "Vaše existujúce heslo nie je správne. Skúste prosím znova."
+
+#~ msgid "["
+#~ msgstr "["
+
+#~ msgid "Acos"
+#~ msgstr "Acos"
+
+#~ msgid "Add Aco"
+#~ msgstr "Pridať Aco"
+
+#~ msgid "The Aco has been saved"
+#~ msgstr "Aco bolo uložené"
+
+#~ msgid "The Aco could not be saved. Please, try again."
+#~ msgstr "Aco sa nedalo uložiť, pokúste sa znova."
+
+#~ msgid "Edit Aco"
+#~ msgstr "Upraviť Aco"
+
+#~ msgid "Invalid Aco"
+#~ msgstr "Neplatné Aco"
+
+#~ msgid "Invalid id for Aco"
+#~ msgstr "Neplatné id pre Aco"
+
+#~ msgid "Aco deleted"
+#~ msgstr "Aco zmazané"
+
+#~ msgid "Aros"
+#~ msgstr "Aros"
+
+#~ msgid "Add Aro"
+#~ msgstr "Pridať Aro"
+
+#~ msgid "The Aro has been saved"
+#~ msgstr "Aro bolo uložené"
+
+#~ msgid "The Aro could not be saved. Please, try again."
+#~ msgstr "Aro sa nedalo uložiť. Skúste znova."
+
+#~ msgid "Edit Aro"
+#~ msgstr "Upraviť Aro"
+
+#~ msgid "Invalid Aro"
+#~ msgstr "Neplatné Aro"
+
+#~ msgid "Invalid id for Aro"
+#~ msgstr "Neplatné id pre Aro"
+
+#~ msgid "Aro deleted"
+#~ msgstr "Aro zmazané"
+
+#~ msgid "New Aco"
+#~ msgstr "Nové Aco"
+
+#~ msgid "New Action"
+#~ msgstr "Nová činnosť"
+
+#~ msgid "Generate Actions"
+#~ msgstr "Vytvoriť činnosť"
+
+#~ msgid "New Aro"
+#~ msgstr "Nové Aro"
+
+#~ msgid "Example"
+#~ msgstr "Príklad"
+
+#~ msgid "Example 1"
+#~ msgstr "Príklad 1"
+
+#~ msgid "Example 2"
+#~ msgstr "Príklad 2"
+
+#~ msgid "Hooks"
+#~ msgstr "Komponenty"
+
+#~ msgid "%s activated successfully."
+#~ msgstr "%s bol úspešne aktivovaný."
+
+#~ msgid ""
+#~ "%s could not be activated. Plugin depends on other plugins that are not "
+#~ "available."
+#~ msgstr ""
+#~ "%s nebolo možné aktivovať. Plugin vyžaduje ďalší plugin, ktorý nie je k "
+#~ "dispozícii."
+
+#~ msgid "%s deactivated successfully."
+#~ msgstr "%s bol úspešne deaktivovaný"
+
+#~ msgid "Could not edit croogo_bootstrap.php file."
+#~ msgstr "Nie je možné upraviť súbor croogo_bootstrap.php."
+
+#~ msgid "The file default.po does not exist."
+#~ msgstr "Súbor default.po neexistuje."
+
+#~ msgid "Invalid plugin."
+#~ msgstr "Neplatný plugin."
+
+#~ msgid "Plugin already exists."
+#~ msgstr "Plugin už existuje."
+
+#~ msgid "Plugin deleted successfully."
+#~ msgstr "Plugin bol úspešne zmazaný."
+
+#~ msgid "Invalid YML file"
+#~ msgstr "Chybný YML súbor"
+
+#~ msgid "Directory with theme alias already exists."
+#~ msgstr "Adresár so zadaným názvom šablóny už existuje"
+
+#~ msgid "Hook"
+#~ msgstr "Komponenty"
+
+#~ msgid "Hook type"
+#~ msgstr "Typ Komponentu"
+
+#~ msgid "Hooks Active"
+#~ msgstr "Aktívne Komponenty"
+
+#~ msgid "Editor"
+#~ msgstr "Editor"
+
+#~ msgid "Installation completed successfully"
+#~ msgstr "Inštalácia prebehla v poriadku."
+
+#~ msgid "Installation files deleted successfully."
+#~ msgstr "Inštalačné súbory boli vymazané."
+
+#~ msgid "Could not delete installation files."
+#~ msgstr "Inštalačné súbory nebolo možné vymazať."
+
+#~ msgid "Click here to delete installation files"
+#~ msgstr "Kliknite sem pre zmazanie inštalačných súborov"
+
+#~ msgid "PHP version %s > 5"
+#~ msgstr "PHP verzia %s > 5"
+
+#~ msgid "PHP version %s < 5"
+#~ msgstr "PHP verzia %s < 5"
+
+#~ msgid "Record"
+#~ msgstr "Záznam"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "New Block"
+#~ msgstr "Nový blok"
+
+#~ msgid "Contact Info"
+#~ msgstr "Kontaktné info"
+
+#~ msgid "New Contact"
+#~ msgstr "Nový kontakt"
+
+#~ msgid "Admin Panel"
+#~ msgstr "Admin rozhranie"
+
+#~ msgid "You are logged in as "
+#~ msgstr "Prihlásený ako "
+
+#~ msgid "Log Out"
+#~ msgstr "Odhlásiť"
+
+#~ msgid "You are here:"
+#~ msgstr "Nachádzate sa tu:"
+
+#~ msgid "New Link"
+#~ msgstr "Nový Link"
+
+#~ msgid "New Menu"
+#~ msgstr "Nové menu"
+
+#~ msgid "Custom fields"
+#~ msgstr "Vlastné polia"
+
+#~ msgid "New Region"
+#~ msgstr "Nový Región"
+
+#~ msgid "New Role"
+#~ msgstr "Nová Skupina"
 
 #~ msgid "Format"
 #~ msgstr "Formát"
 
-#~ msgid "New Directory"
-#~ msgstr "Nový adresář"
-
-#~ msgid "New File"
-#~ msgstr "Nový soubor"
-
 #~ msgid "New Type"
 #~ msgstr "Nový typ"
 
+#~ msgid "Add User"
+#~ msgstr "Pridať užívateľa"
+
+#~ msgid "Edit User"
+#~ msgstr "Editovať užívateľa"
+
 #~ msgid "New User"
-#~ msgstr "Nový uživatel"
+#~ msgstr "Nový užívateľ"
+
+#~ msgid "Current Password"
+#~ msgstr "Súčasné heslo"
 
 #~ msgid "New Vocabulary"
-#~ msgstr "Nová slovní zásoba"
+#~ msgstr "Nový slovník"
 
-#~ msgid "Nodes deleted."
-#~ msgstr "Články byly smazány"
+#~ msgid "Debug setting does not allow access to this url."
+#~ msgstr "Nastavenie debug nepovoľujú prístup k tejto url adrese"

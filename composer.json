@@ -1,0 +1,29 @@
+{
+    "name": "croogo/locale",
+    "description": "Croogo - Translations",
+    "homepage": "http://github.com/croogo/locale",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fahad Ibnay Heylall",
+            "email": "contact@fahad19.com",
+            "homepage": "http://fahad19.com"
+        },
+        {
+            "name": "Rachman Chavik",
+            "email": "contact@xintesa.com",
+            "homepage": "http://xintesa.com"
+        },
+        {
+            "name": "Kyle Robinson Young",
+            "email": "kyle@dontkry.com",
+            "homepage": "http://dontkry.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "Vendor"
+    },
+    "require": {
+        "croogo/croogo": "~2.2"
+    }
+}

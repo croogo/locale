@@ -1,43 +1,45 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright 2015 rahim gashti <rahim.gashti@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Croogo Czech\n"
+"Project-Id-Version: 2.2.0\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2010-09-11 14:44+0100\n"
-"Last-Translator: Marek Sebera <marek.sebera@gmail.com>\n"
-"Language-Team: Marek Sebera <marek.sebera@gmail.com>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-01-30 14:58+0330\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2 \n"
-"X-Poedit-Language: Czech\n"
-"X-Poedit-Country: CZECH REPUBLIC\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.6.3\n"
 
 #: Acl/Config/admin_menu.php:4 Acl/Controller/AclPermissionsController.php:58
 #: Acl/Controller/Component/RowLevelAclComponent.php:67
 #: Acl/View/AclActions/admin_form.ctp:7 Acl/View/AclActions/admin_index.ctp:11
 #: Acl/View/AclPermissions/admin_index.ctp:10
 msgid "Permissions"
-msgstr ""
+msgstr "مجوزها"
 
 #: Acl/Config/admin_menu.php:15
 msgid "Access Control"
-msgstr ""
+msgstr "کنترل دسترسی"
 
 #: Acl/Console/Command/ExtrasShell.php:93
 msgid "Plugin to process"
-msgstr ""
+msgstr "افزونه پردازش"
 
 #: Acl/Console/Command/ExtrasShell.php:96
 msgid "Better manage, and easily synchronize you application's ACO tree"
-msgstr ""
+msgstr "مدیریت بهتر و همگام سازی آسان"
 
 #: Acl/Console/Command/ExtrasShell.php:101
 msgid ""
 "Add new ACOs for new controllers and actions. Does not remove nodes from the "
 "ACO table."
 msgstr ""
+"افزودن ACO جدید برای اکشن ها و کنترلر های جدید. گره ها نمی توانند از جدول "
+"ACO حذف گردند."
 
 #: Acl/Console/Command/ExtrasShell.php:107
 msgid ""
@@ -45,6 +47,9 @@ msgid ""
 "controllers and actions.Will also remove orphaned entries that no longer "
 "have a matching controller/action"
 msgstr ""
+"انجام همگام سازی کامل در جدول Aco ،یک Aco جدید ایجاد خواهد کرد که ممکن است "
+"تمام اکشن ها و کنترلرها از بین بروند و همچنین مدخل های زائدی که با کنترل "
+"کننده اش تطابق ندارد حذف شوند."
 
 #: Acl/Console/Command/ExtrasShell.php:112
 msgid ""
@@ -52,26 +57,29 @@ msgid ""
 "contents.Will also remove orphaned entries that no longer have a matching "
 "contents"
 msgstr ""
+"انجام همگام سازی کامل در جدول Aco ،یک Aco جدید ایجاد خواهد کرد که ممکن است "
+"تمام اکشن ها و کنترلرها از بین بروند و همچنین مدخل های زائدی که با محتوایش "
+"تطابق ندارد حذف شوند."
 
 #: Acl/Console/Command/ExtrasShell.php:119
 msgid "The content model name "
-msgstr ""
+msgstr "عنوان مدل محتوا"
 
 #: Acl/Console/Command/ExtrasShell.php:125
 msgid "Verify the tree structure of either your Aco or Aro Trees"
-msgstr ""
+msgstr "بررسی ساختار درخت های Aco یا Aro"
 
 #: Acl/Console/Command/ExtrasShell.php:130
 msgid "The type of tree to verify"
-msgstr ""
+msgstr "نوع درخت برای بررسی"
 
 #: Acl/Console/Command/ExtrasShell.php:137
 msgid "Recover a corrupted Tree"
-msgstr ""
+msgstr "بازیابی درخت خراب شده"
 
 #: Acl/Console/Command/ExtrasShell.php:142
 msgid "The type of tree to recover"
-msgstr ""
+msgstr "نوع درخت جهت بازیابی"
 
 #: Acl/Controller/AclActionsController.php:47
 #: Acl/View/AclActions/admin_form.ctp:8
@@ -95,150 +103,154 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:17
 #: Translate/View/Translate/admin_index.ctp:81
 msgid "Actions"
-msgstr "Akce"
+msgstr "فعالیت ها"
 
 #: Acl/Controller/AclActionsController.php:64
 msgid "Add Action"
-msgstr ""
+msgstr "افزودن فعالیت"
 
 #: Acl/Controller/AclActionsController.php:78
 msgid "The %s has been saved"
-msgstr ""
+msgstr "%s ذخیره شد"
 
 #: Acl/Controller/AclActionsController.php:81
 msgid "The %s could not be saved. Please, try again."
-msgstr ""
+msgstr "%s نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
 
 #: Acl/Controller/AclActionsController.php:95
 msgid "Edit Action"
-msgstr ""
+msgstr "ویرایش فعالیت"
 
 #: Acl/Controller/AclActionsController.php:98
 msgid "Invalid Action"
-msgstr ""
+msgstr "فعالیت غیر مجاز"
 
 #: Acl/Controller/AclActionsController.php:103
 msgid "The Action has been saved"
-msgstr ""
+msgstr "دستور ذخیره شد"
 
 #: Acl/Controller/AclActionsController.php:106
 msgid "The Action could not be saved. Please, try again."
-msgstr ""
+msgstr "دستور نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
 
 #: Acl/Controller/AclActionsController.php:124;142
 msgid "Invalid id for Action"
-msgstr ""
+msgstr "کد نامعتبر برای دستور"
 
 #: Acl/Controller/AclActionsController.php:128
 msgid "Action deleted"
-msgstr ""
+msgstr "دستور حذف شد"
 
 #: Acl/Controller/AclActionsController.php:147
 msgid "Action moved up"
-msgstr ""
+msgstr "دستور به بالا برده شد"
 
 #: Acl/Controller/AclActionsController.php:152
 msgid "Action moved down"
-msgstr ""
+msgstr "دستور به پایین آورده شد"
 
 #: Acl/Controller/AclActionsController.php:174
 msgid "Created %d new permissions"
-msgstr ""
+msgstr "%d  مجوز جدید ایجاد شده است"
 
 #: Acl/Controller/AclPermissionsController.php:168
 msgid "ACL database has been upgraded successfully"
-msgstr ""
+msgstr "بانک اطلاعاتی Acl (لیست مجوزهای دسترسی) با موفقیت به روزرسانی شد."
 
 #: Acl/Controller/Component/AclAccessComponent.php:52
 msgid "Parent Role"
-msgstr ""
+msgstr "نقش والد"
 
 #: Acl/Controller/Component/AclFilterComponent.php:82
 msgid ""
 "\"AutoLogin\" (Remember Me) disabled since mcrypt_encrypt is not available"
 msgstr ""
+"\"AutoLogin\" (مرا به خاطر بیاور) به علت در دسترس نبودن mcrypt_encrypt "
+"غیرفعال شده است."
 
 #: Acl/Controller/Component/Auth/AclCachedAuthorize.php:223
 msgid ""
 "_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
 "\"%2$s\""
 msgstr ""
+"_authorizeByContent() - Access of un-mapped action \"%1$s\" in controller "
+"\"%2$s\""
 
 #: Acl/Lib/AclExtras.php:149
 msgid "Model %s cannot be found."
-msgstr ""
+msgstr "مدل %s پیدا نشد."
 
 #: Acl/Lib/AclExtras.php:172
 msgid "Created Aco node: %s"
-msgstr ""
+msgstr "گره Aco ایجاد شد: %s"
 
 #: Acl/Lib/AclExtras.php:192
 msgid "<error>Plugin %s not found or not activated</error>"
-msgstr ""
+msgstr "<error>افزونه %s پیدا نشد یا غیر فعال می باشد</error>"
 
 #: Acl/Lib/AclExtras.php:208
 msgid "<success>Aco Sync Complete</success>"
-msgstr ""
+msgstr "<success>اتمام همگام سازی خودکار</success>"
 
 #: Acl/Lib/AclExtras.php:210
 msgid "<success>Aco Update Complete</success>"
-msgstr ""
+msgstr "<success> اتمام به روزرسانی خودکار</success>"
 
 #: Acl/Lib/AclExtras.php:241
 msgid "Skipped Aco node: <warning>%s</warning>"
-msgstr ""
+msgstr "از گره Aco رد شد: <warning>%s</warning>"
 
 #: Acl/Lib/AclExtras.php:261
 msgid "Deleted %s and all children"
-msgstr ""
+msgstr "همه زیر شاخه ها و %s حذف شدند"
 
 #: Acl/Lib/AclExtras.php:291;366
 msgid "Created Aco node: <success>%s</success>"
-msgstr ""
+msgstr "گره Aco ایجاد شد: <success>%s</success>"
 
 #: Acl/Lib/AclExtras.php:307;438
 msgid "Deleted Aco node: <warning>%s</warning>"
-msgstr ""
+msgstr "گره Aco حذف شد: <success>%s</success>"
 
 #: Acl/Lib/AclExtras.php:457
 msgid "<success>Tree is valid and strong</success>"
-msgstr ""
+msgstr "<success>درخت معتبر و سالم می باشد</success>"
 
 #: Acl/Lib/AclExtras.php:475
 msgid "Tree has been recovered, or tree did not need recovery."
-msgstr ""
+msgstr "درخت بازیاب شد یا درخت نیازی به بازیابی ندارد."
 
 #: Acl/Lib/AclExtras.php:477
 msgid "<error>Tree recovery failed.</error>"
-msgstr ""
+msgstr "<error>خطا در بازیابی درخت</error>"
 
 #: Acl/Lib/AclUpgrade.php:67
 msgid "No root node found"
-msgstr ""
+msgstr "گره ریشه پیدا نشد"
 
 #: Acl/Lib/AclUpgrade.php:75
 msgid "<warning>ACL Database seems to have already been upgraded</warning>"
-msgstr ""
+msgstr "<warning>بانک اطلاعاتی ACL به نظر می رسد آخرین ورژن باشد.</warning>"
 
 #: Acl/Lib/AclUpgrade.php:115
 msgid "%s not found"
-msgstr ""
+msgstr "%s پیدا نشد"
 
 #: Acl/Lib/AclUpgrade.php:139
 msgid "Role: Public not found"
-msgstr ""
+msgstr "نقش: عمومی پیدا نشد"
 
 #: Acl/Lib/AclUpgrade.php:145
 msgid "Role: Registered not found"
-msgstr ""
+msgstr "نقش: ثبت نام کرده پیدا نشد"
 
 #: Acl/Lib/AclUpgrade.php:151
 msgid "Role: Admin not found"
-msgstr ""
+msgstr "نقش: مدیر پیدا نشد"
 
 #: Acl/Model/AclAco.php:173
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: Acl/View/AclActions/admin_form.ctp:6 Acl/View/AclActions/admin_index.ctp:10
 #: Acl/View/AclPermissions/admin_index.ctp:9 Users/Config/admin_menu.php:5;15
@@ -247,7 +259,7 @@ msgstr ""
 #: Users/View/Users/admin_form.ctp:7 Users/View/Users/admin_index.ctp:6
 #: Users/View/Users/admin_reset_password.ctp:7
 msgid "Users"
-msgstr ""
+msgstr "کاربران"
 
 #: Acl/View/AclActions/admin_form.ctp:15 Blocks/View/Blocks/admin_form.ctp:13
 #: Blocks/View/Regions/admin_form.ctp:20
@@ -260,20 +272,20 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_form.ctp:18
 #: Users/View/Roles/admin_form.ctp:15 Users/View/Users/admin_form.ctp:20
 msgid "Add"
-msgstr ""
+msgstr "افزودن"
 
 #: Acl/View/AclActions/admin_form.ctp:23
 msgid "Action"
-msgstr ""
+msgstr "فعالیت"
 
 #: Acl/View/AclActions/admin_form.ctp:34 Menus/View/Links/admin_form.ctp:66
 #: Nodes/View/Nodes/admin_form.ctp:63 Taxonomy/View/Terms/admin_form.ctp:39
 msgid "Parent"
-msgstr ""
+msgstr "والد"
 
 #: Acl/View/AclActions/admin_form.ctp:35
 msgid "Choose none if the Aco is a controller."
-msgstr ""
+msgstr "اگر Aco یک کنترل کننده هست، \"هیچکدام\" را انتخاب کنید."
 
 #: Acl/View/AclActions/admin_form.ctp:38
 #: Acl/View/AclActions/admin_index.ctp:71
@@ -290,7 +302,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:15
 #: Users/View/Roles/admin_form.ctp:32
 msgid "Alias"
-msgstr ""
+msgstr "مستعار"
 
 #: Acl/View/AclActions/admin_form.ctp:46 Blocks/View/Blocks/admin_form.ctp:78
 #: Blocks/View/Regions/admin_form.ctp:46
@@ -319,7 +331,7 @@ msgstr ""
 #: Users/View/Roles/admin_form.ctp:40 Users/View/Users/admin_form.ctp:70
 #: Users/View/Users/admin_reset_password.ctp:45
 msgid "Publishing"
-msgstr ""
+msgstr "در حال انتشار"
 
 #: Acl/View/AclActions/admin_form.ctp:47 Blocks/View/Blocks/admin_form.ctp:79
 #: Blocks/View/Regions/admin_form.ctp:47
@@ -332,7 +344,7 @@ msgstr ""
 #: Translate/View/Translate/admin_edit.ctp:50
 #: Users/View/Roles/admin_form.ctp:41 Users/View/Users/admin_form.ctp:71
 msgid "Apply"
-msgstr ""
+msgstr "اعمال"
 
 #: Acl/View/AclActions/admin_form.ctp:48 Blocks/View/Blocks/admin_form.ctp:80
 #: Blocks/View/Regions/admin_form.ctp:48
@@ -357,7 +369,7 @@ msgstr ""
 #: Translate/View/Translate/admin_edit.ctp:51
 #: Users/View/Roles/admin_form.ctp:42 Users/View/Users/admin_form.ctp:72
 msgid "Save"
-msgstr "Uložit"
+msgstr "ذخیره"
 
 #: Acl/View/AclActions/admin_form.ctp:49 Blocks/View/Blocks/admin_form.ctp:81
 #: Blocks/View/Regions/admin_form.ctp:49
@@ -388,37 +400,37 @@ msgstr "Uložit"
 #: Users/View/Roles/admin_form.ctp:44 Users/View/Users/admin_form.ctp:74
 #: Users/View/Users/admin_reset_password.ctp:48
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr "لغو"
 
 #: Acl/View/AclActions/admin_index.ctp:18
 #: Acl/View/AclPermissions/admin_index.ctp:19
 msgid "Tools"
-msgstr ""
+msgstr "ابزار"
 
 #: Acl/View/AclActions/admin_index.ctp:33
 #: Acl/View/AclPermissions/admin_index.ctp:34
 msgid "Generate"
-msgstr ""
+msgstr "تولید"
 
 #: Acl/View/AclActions/admin_index.ctp:40
 #: Acl/View/AclPermissions/admin_index.ctp:41
 msgid "Create new actions (no removal)"
-msgstr ""
+msgstr "ایجاد اکشن جدید (قابل حذف نیست)"
 
 #: Acl/View/AclActions/admin_index.ctp:45
 #: Acl/View/AclPermissions/admin_index.ctp:46
 msgid "Synchronize"
-msgstr ""
+msgstr "همگام سازی"
 
 #: Acl/View/AclActions/admin_index.ctp:52
 #: Acl/View/AclPermissions/admin_index.ctp:53
 msgid "Create new & remove orphaned actions"
-msgstr ""
+msgstr "ایجاد و حذف اکشن های زائد"
 
 #: Acl/View/AclActions/admin_index.ctp:62
 #: Acl/View/AclPermissions/admin_index.ctp:62
 msgid "Edit Actions"
-msgstr ""
+msgstr "ویرایش اکشن ها"
 
 #: Acl/View/AclActions/admin_index.ctp:70
 #: Acl/View/Elements/admin/acl_permissions_table.ctp:7
@@ -438,7 +450,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_index.ctp:26
 #: Taxonomy/View/Vocabularies/admin_index.ctp:13
 msgid "Id"
-msgstr "ID"
+msgstr "کد"
 
 #: Acl/View/AclActions/admin_index.ctp:104
 #: Acl/View/AclPermissions/json/admin_index.ctp:7
@@ -451,7 +463,7 @@ msgstr "ID"
 #: Taxonomy/View/Terms/admin_index.ctp:42
 #: Taxonomy/View/Vocabularies/admin_index.ctp:34
 msgid "Move up"
-msgstr ""
+msgstr "حرکت به بالا"
 
 #: Acl/View/AclActions/admin_index.ctp:108
 #: Acl/View/AclPermissions/json/admin_index.ctp:11
@@ -464,7 +476,7 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_index.ctp:46
 #: Taxonomy/View/Vocabularies/admin_index.ctp:38
 msgid "Move down"
-msgstr ""
+msgstr "حرکت به پایین"
 
 #: Acl/View/AclActions/admin_index.ctp:113
 #: Acl/View/AclPermissions/json/admin_index.ctp:15
@@ -483,7 +495,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:43
 #: Translate/View/Translate/admin_index.ctp:97
 msgid "Edit this item"
-msgstr ""
+msgstr "ویرایش این مورد"
 
 #: Acl/View/AclActions/admin_index.ctp:119
 #: Acl/View/AclPermissions/json/admin_index.ctp:19
@@ -502,7 +514,7 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:47
 #: Translate/View/Translate/admin_index.ctp:106
 msgid "Remove this item"
-msgstr ""
+msgstr "حذف این مورد"
 
 #: Acl/View/AclActions/admin_index.ctp:123
 #: Acl/View/AclPermissions/json/admin_index.ctp:20
@@ -526,62 +538,62 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_index.ctp:48
 #: Translate/View/Translate/admin_index.ctp:107
 msgid "Are you sure?"
-msgstr ""
+msgstr "آیا شما مطمئن هستید؟"
 
 #: Acl/View/AclPermissions/admin_toggle.ctp:19
 msgid "error"
-msgstr ""
+msgstr "خطا"
 
 #: Acl/View/Elements/admin/parent_role.ctp:4
 msgid "When set, permissions from parent role are inherited"
-msgstr ""
+msgstr "زمانیکه مجموعه مجوزها از نقش والد به ارٍث برده می شوند."
 
 #: Acl/View/Elements/admin/row_acl.ctp:4
 msgid "Edit Permissions"
-msgstr ""
+msgstr "ویرایش مجوزها"
 
 #: Acl/View/Helper/AclHelper.php:62
 msgid "Upgrade Acl database"
-msgstr ""
+msgstr "به روزرسانی بانک اطلاعاتی Acl"
 
 #: Blocks/Config/admin_menu.php:5;15 Blocks/Controller/BlocksController.php:99
 #: Blocks/View/Blocks/admin_form.ctp:7 Blocks/View/Blocks/admin_index.ctp:9
 #: Blocks/View/Regions/admin_form.ctp:7 Blocks/View/Regions/admin_index.ctp:5
 msgid "Blocks"
-msgstr "Bloky"
+msgstr "بلوک ها"
 
 #: Blocks/Config/admin_menu.php:24 Blocks/View/Regions/admin_form.ctp:9
 #: Blocks/View/Regions/admin_index.ctp:6
 msgid "Regions"
-msgstr "Oblasti"
+msgstr "مناطق"
 
 #: Blocks/Controller/BlocksController.php:122
 msgid "Add Block"
-msgstr "Přidat Blok"
+msgstr "افزودن بلوک"
 
 #: Blocks/Controller/BlocksController.php:129;158
 msgid "The Block has been saved"
-msgstr "Blok byl uložen"
+msgstr "بلوک ذخیره شد"
 
 #: Blocks/Controller/BlocksController.php:132;161
 msgid "The Block could not be saved. Please, try again."
-msgstr "Blok nemohl být uložen, zkuste to prosím znovu"
+msgstr "بلوک نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
 
 #: Blocks/Controller/BlocksController.php:148
 msgid "Edit Block"
-msgstr "Upravit Blok"
+msgstr "ویرایش بلوک"
 
 #: Blocks/Controller/BlocksController.php:151
 msgid "Invalid Block"
-msgstr "Vadný Blok"
+msgstr "بلوک نامعتبر"
 
 #: Blocks/Controller/BlocksController.php:186
 msgid "Invalid id for Block"
-msgstr "Neplatné id Bloku"
+msgstr "کد نامعتبر برای بلوک"
 
 #: Blocks/Controller/BlocksController.php:190
 msgid "Block deleted"
-msgstr "Blok byl smazán"
+msgstr "بلوک حذف شد"
 
 #: Blocks/Controller/BlocksController.php:205
 #: Dashboards/Controller/DashboardsDashboardsController.php:126
@@ -591,7 +603,7 @@ msgstr "Blok byl smazán"
 #: Settings/Controller/SettingsController.php:199
 #: Taxonomy/Controller/VocabulariesController.php:132
 msgid "Moved up successfully"
-msgstr "Posunuto nahoru bez problémů"
+msgstr "با موفقیت به بالا جابه جا شد"
 
 #: Blocks/Controller/BlocksController.php:207
 #: Dashboards/Controller/DashboardsDashboardsController.php:128
@@ -601,7 +613,7 @@ msgstr "Posunuto nahoru bez problémů"
 #: Settings/Controller/SettingsController.php:201
 #: Taxonomy/Controller/VocabulariesController.php:134
 msgid "Could not move up"
-msgstr "Nemohu to posunout nahoru"
+msgstr "نمی تواند به بالا جابه جا شود"
 
 #: Blocks/Controller/BlocksController.php:223
 #: Dashboards/Controller/DashboardsDashboardsController.php:142
@@ -611,7 +623,7 @@ msgstr "Nemohu to posunout nahoru"
 #: Settings/Controller/SettingsController.php:225
 #: Taxonomy/Controller/VocabulariesController.php:150
 msgid "Moved down successfully"
-msgstr "Posunuto dolů bez problémů"
+msgstr "با موفقیت به پایین جابه جا شد"
 
 #: Blocks/Controller/BlocksController.php:225
 #: Dashboards/Controller/DashboardsDashboardsController.php:144
@@ -621,78 +633,77 @@ msgstr "Posunuto dolů bez problémů"
 #: Settings/Controller/SettingsController.php:227
 #: Taxonomy/Controller/VocabulariesController.php:152
 msgid "Could not move down"
-msgstr "Nemohu to posunout dolů"
+msgstr "نمی تواند به پایین جا به جا شود"
 
 #: Blocks/Controller/BlocksController.php:243
 msgid "Blocks deleted"
-msgstr ""
+msgstr "بلوک ها حذف شدند"
 
 #: Blocks/Controller/BlocksController.php:244
 msgid "Blocks published"
-msgstr "Blok publikován"
+msgstr "بلوک ها منتشر شدند"
 
 #: Blocks/Controller/BlocksController.php:245
 msgid "Blocks unpublished"
-msgstr "Blok nebyl publikován"
+msgstr "بلوک ها از انتشار خارج شدند"
 
 #: Blocks/Controller/BlocksController.php:246
-#, fuzzy
 msgid "Blocks copied"
-msgstr "Blok publikován"
+msgstr "بلوک ها کپی شدند"
 
 #: Blocks/Controller/RegionsController.php:66
 #: Blocks/View/Blocks/admin_form.ctp:41 Blocks/View/Blocks/admin_index.ctp:22
 #: Blocks/View/Regions/admin_form.ctp:26
 msgid "Region"
-msgstr "Region"
+msgstr "ناحیه"
 
 #: Blocks/Controller/RegionsController.php:85
 msgid "Add Region"
-msgstr "Přidat Region"
+msgstr "افزودن ناحیه"
 
 #: Blocks/Controller/RegionsController.php:90;114
 msgid "The Region has been saved"
-msgstr "Region byl uložen"
+msgstr "ناحیه ذخیره شد"
 
 #: Blocks/Controller/RegionsController.php:93;117
 msgid "The Region could not be saved. Please, try again."
-msgstr "Region se nepodařilo uložit, zkuste to prosím později"
+msgstr "ناحیه نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
 
 #: Blocks/Controller/RegionsController.php:106
 msgid "Edit Region"
-msgstr "Upravit Region"
+msgstr "ویرایش ناحیه"
 
 #: Blocks/Controller/RegionsController.php:109
 msgid "Invalid Region"
-msgstr "Neplatný region"
+msgstr "ناحیه نامعتبر"
 
 #: Blocks/Controller/RegionsController.php:134
 msgid "Invalid id for Region"
-msgstr "Neplatné ID Regionu"
+msgstr "کد نامعتبر برای ناحیه"
 
 #: Blocks/Controller/RegionsController.php:138
 msgid "Region deleted"
-msgstr "Regiony byly smazány"
+msgstr "ناحیه حذف شد"
 
 #: Blocks/View/Blocks/admin_form.ctp:22
 msgid "Block"
-msgstr ""
+msgstr "بلوک"
 
 #: Blocks/View/Blocks/admin_form.ctp:23 Menus/View/Links/admin_form.ctp:52
 #: Nodes/View/Nodes/admin_form.ctp:55
 msgid "Access"
-msgstr ""
+msgstr "دسترسی"
 
 #: Blocks/View/Blocks/admin_form.ctp:24
 msgid "Visibilities"
-msgstr ""
+msgstr "نمایش"
 
 #: Blocks/View/Blocks/admin_form.ctp:25;70 Menus/View/Links/admin_form.ctp:108
 #: Menus/View/Menus/admin_form.ctp:42 Settings/View/Settings/admin_form.ctp:57
 #: Settings/View/Settings/admin_view.ctp:34
 #: Taxonomy/View/Types/admin_form.ctp:23;91
 msgid "Params"
-msgstr ""
+msgstr "پارامترها"
 
 #: Blocks/View/Blocks/admin_form.ctp:34 Blocks/View/Blocks/admin_index.ctp:20
 #: Blocks/View/Regions/admin_form.ctp:35
@@ -721,60 +732,62 @@ msgstr ""
 #: Translate/View/Translate/admin_index.ctp:79
 #: Users/View/Roles/admin_form.ctp:29
 msgid "Title"
-msgstr "Nadpis"
+msgstr "عنوان"
 
 #: Blocks/View/Blocks/admin_form.ctp:38
 msgid "unique name for your block"
-msgstr ""
+msgstr "نام یکتا برای بلوک"
 
 #: Blocks/View/Blocks/admin_form.ctp:42
 msgid "if you are not sure, choose 'none'"
-msgstr ""
+msgstr "اگر شما مطمئن نیستید، هیچکدام را انتخاب کنید"
 
 #: Blocks/View/Blocks/admin_form.ctp:45
 #: Comments/View/Comments/admin_form.ctp:26
 #: Contacts/View/Contacts/admin_form.ctp:40
 #: Contacts/View/Messages/admin_form.ctp:35 Nodes/View/Nodes/admin_form.ctp:86
 msgid "Body"
-msgstr ""
+msgstr "بدنه"
 
 #: Blocks/View/Blocks/admin_form.ctp:48 Menus/View/Links/admin_form.ctp:95
 msgid "Class"
-msgstr ""
+msgstr "کلاس"
 
 #: Blocks/View/Blocks/admin_form.ctp:51
 msgid "Element"
-msgstr ""
+msgstr "المان"
 
 #: Blocks/View/Blocks/admin_form.ctp:57 Menus/View/Links/admin_form.ctp:89
 #: Nodes/View/Nodes/admin_form.ctp:93 Users/View/Roles/admin_form.ctp:21
 #: Users/View/Users/admin_form.ctp:45
 msgid "Role"
-msgstr ""
+msgstr "نقش"
 
 #: Blocks/View/Blocks/admin_form.ctp:63
 msgid "Visibility Paths"
-msgstr ""
+msgstr "آدرس نمایش"
 
 #: Blocks/View/Blocks/admin_form.ctp:64
 msgid ""
 "Enter one URL per line. Leave blank if you want this Block to appear in all "
 "pages."
 msgstr ""
+"یک URL در هر سطر وارد نمایید. اگر می خواهید این بلوک در همه صفحات نمایش داده "
+"شود، آن را خالی بگذارید."
 
 #: Blocks/View/Blocks/admin_form.ctp:90
 msgid "Show title ?"
-msgstr ""
+msgstr "نمایش عنوان؟"
 
 #: Blocks/View/Blocks/admin_form.ctp:94 Menus/View/Links/admin_form.ctp:129
 #: Menus/View/Menus/admin_form.ctp:63 Nodes/View/Nodes/admin_form.ctp:140
 msgid "Publish Start"
-msgstr ""
+msgstr "شروع انتشار"
 
 #: Blocks/View/Blocks/admin_form.ctp:98 Menus/View/Links/admin_form.ctp:133
 #: Menus/View/Menus/admin_form.ctp:67 Nodes/View/Nodes/admin_form.ctp:144
 msgid "Publish End"
-msgstr ""
+msgstr "پایان انتشار"
 
 #: Blocks/View/Blocks/admin_index.ctp:23
 #: Croogo/Console/Command/ExtShell.php:236;262
@@ -788,27 +801,26 @@ msgstr ""
 #: Settings/View/Languages/admin_index.ctp:19
 #: Users/View/Users/admin_form.ctp:86
 msgid "Status"
-msgstr ""
+msgstr "وضعیت"
 
 #: Blocks/View/Blocks/admin_index.ctp:51 Menus/View/Links/admin_index.ctp:75
 #: Nodes/View/Nodes/admin_index.ctp:102
-#, fuzzy
 msgid "Create a copy"
-msgstr "Vytvořit obsah"
+msgstr "ایجاد کپی"
 
 #: Blocks/View/Blocks/admin_index.ctp:54
 msgid "Create a copy of this Block?"
-msgstr ""
+msgstr "ایجاد یک کپی از این بلوک؟"
 
 #: Blocks/View/Blocks/admin_index.ctp:65 Croogo/View/Common/admin_index.ctp:75
 msgid "Choose"
-msgstr ""
+msgstr "انتخاب کنید"
 
 #: Blocks/View/Blocks/admin_index.ctp:84 Menus/View/Links/admin_index.ctp:93
 #: Menus/View/Menus/admin_index.ctp:53 Nodes/View/Nodes/admin_hierarchy.ctp:71
 #: Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
-msgstr ""
+msgstr "پیش نمایش"
 
 #: Blocks/View/Blocks/admin_index.ctp:114
 #: Comments/View/Comments/admin_index.ctp:109
@@ -816,7 +828,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:129
 #: Nodes/View/Nodes/admin_index.ctp:130
 msgid "Publish"
-msgstr ""
+msgstr "انتشار"
 
 #: Blocks/View/Blocks/admin_index.ctp:115
 #: Comments/View/Comments/admin_index.ctp:110
@@ -824,7 +836,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:130
 #: Nodes/View/Nodes/admin_index.ctp:131
 msgid "Unpublish"
-msgstr ""
+msgstr "عدم انتشار"
 
 #: Blocks/View/Blocks/admin_index.ctp:116
 #: Comments/View/Comments/admin_index.ctp:111
@@ -838,13 +850,13 @@ msgstr ""
 #: Nodes/View/Nodes/admin_index.ctp:134
 #: Nodes/View/Nodes/admin_translations.ctp:34
 msgid "Delete"
-msgstr "Smazat"
+msgstr "حذف"
 
 #: Blocks/View/Blocks/admin_index.ctp:117 Menus/View/Links/admin_index.ctp:124
 #: Nodes/View/Nodes/admin_hierarchy.ctp:136
 #: Nodes/View/Nodes/admin_index.ctp:137
 msgid "Copy"
-msgstr ""
+msgstr "کپی"
 
 #: Blocks/View/Blocks/admin_index.ctp:121
 #: Comments/View/Comments/admin_index.ctp:115
@@ -853,7 +865,7 @@ msgstr ""
 #: Nodes/View/Nodes/admin_hierarchy.ctp:144
 #: Nodes/View/Nodes/admin_index.ctp:145 Users/View/Users/forgot.ctp:9
 msgid "Submit"
-msgstr ""
+msgstr "تایید"
 
 #: Comments/Config/admin_menu.php:4
 #: Comments/Controller/CommentsController.php:81;171
@@ -864,7 +876,7 @@ msgstr ""
 #: Nodes/View/Elements/node_more_info.ctp:33
 #: Taxonomy/View/Types/admin_form.ctp:22
 msgid "Comments"
-msgstr "Komentáře"
+msgstr "نظرات"
 
 #: Comments/Config/admin_menu.php:13 Comments/View/Comments/admin_form.ctp:39
 #: Comments/View/Comments/admin_index.ctp:14;29
@@ -872,89 +884,91 @@ msgstr "Komentáře"
 #: FileManager/View/Elements/admin/attachments_search.ctp:37
 #: Nodes/View/Elements/admin/nodes_search.ctp:36
 msgid "Published"
-msgstr ""
+msgstr "منتشر شده"
 
 #: Comments/Config/admin_menu.php:25
 #: Comments/View/Comments/admin_index.ctp:17;33
 msgid "Approval"
-msgstr ""
+msgstr "تصویب"
 
 #: Comments/Controller/CommentsController.php:107
 msgid "Edit Comment"
-msgstr "Upravit komentář"
+msgstr "ویرایش نظر"
 
 #: Comments/Controller/CommentsController.php:110
 msgid "Invalid Comment"
-msgstr "Chybný komentář"
+msgstr "نظر نامعتبر"
 
 #: Comments/Controller/CommentsController.php:115
 msgid "The Comment has been saved"
-msgstr "Komentář byl uložen"
+msgstr "نظر ذخیره شد"
 
 #: Comments/Controller/CommentsController.php:118
 msgid "The Comment could not be saved. Please, try again."
-msgstr "Komentář nemohl být uložen, zkuste to prosím znovu"
+msgstr "نظر نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
 
 #: Comments/Controller/CommentsController.php:135
 msgid "Invalid id for Comment"
-msgstr "Neplatné id Komentáře"
+msgstr "کد نامعتبر برای نظر"
 
 #: Comments/Controller/CommentsController.php:139
 msgid "Comment deleted"
-msgstr "Komentář byl smazán"
+msgstr "نظر حذف شد"
 
 #: Comments/Controller/CommentsController.php:156
 msgid "Comments deleted"
-msgstr ""
+msgstr "نظرات حذف شدند"
 
 #: Comments/Controller/CommentsController.php:157
 msgid "Comments published"
-msgstr "Komentáře byly publikovány"
+msgstr "نظرات انتشار یافتند"
 
 #: Comments/Controller/CommentsController.php:158
 msgid "Comments unpublished"
-msgstr "Komentáře nebyly publikovány"
+msgstr "نظرات از انتشار خارج شدند"
 
 #: Comments/Controller/CommentsController.php:198
 msgid "Invalid id"
-msgstr ""
+msgstr "کد نامعتبر"
 
 #: Comments/Controller/CommentsController.php:223
 msgid "Maximum level reached. You cannot reply to that comment."
-msgstr "Maximální úrovně dosaženo, nelze odpověďet na tento Komentář"
+msgstr ""
+"تعداد پاسخ های ثبت شده به حداکثر مقدار خود رسیده است و امکان ثبت پاسخ وجود "
+"ندارد."
 
 #: Comments/Controller/CommentsController.php:238
 msgid "Comments are not allowed."
-msgstr ""
+msgstr "امکان ثبت نظر فعال نشده است."
 
 #: Comments/Controller/CommentsController.php:262
 msgid "Your comment has been added successfully."
-msgstr "Komentář úspěšně přidán"
+msgstr "نظر شما با موفقیت ثبت شد."
 
 #: Comments/Controller/CommentsController.php:264
 msgid "Your comment will appear after moderation."
-msgstr "Komentář se objeví po schválení"
+msgstr "نظر شما بعد از تایید مدیریت نمایش داده خواهد شد."
 
 #: Comments/Controller/CommentsController.php:299
 msgid "Sorry, the comment appears to be spam."
-msgstr "Sorry, komentář vypadá jako spam"
+msgstr "متاسفانه،نظر شما به عنوان اسپم شناخته شد."
 
 #: Comments/Controller/CommentsController.php:321
 #: Contacts/Controller/ContactsController.php:246
 msgid "Invalid captcha entry"
-msgstr "Špatně opsaná captcha"
+msgstr "کد کپچای نامعتبر"
 
 #: Comments/Controller/CommentsController.php:343
 msgid "New comment posted under"
-msgstr "Nový komentář zaslán"
+msgstr "نظر جدید نوشته شد در"
 
 #: Comments/Model/Comment.php:130
 msgid "Invalid Node id"
-msgstr ""
+msgstr "کد گره نامعتبر"
 
 #: Comments/Model/Comment.php:199
 msgid "Invalid Comment id"
-msgstr ""
+msgstr "کد نظر نامعتبر"
 
 #: Comments/View/Comments/admin_form.ctp:6
 #: Comments/View/Comments/admin_index.ctp:9
@@ -967,19 +981,19 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_form.ctp:7
 #: Taxonomy/View/Vocabularies/admin_index.ctp:7
 msgid "Content"
-msgstr "Obsah"
+msgstr "محتوا"
 
 #: Comments/View/Comments/admin_form.ctp:14
 #: Comments/View/Elements/comments.ctp:5
 #: Nodes/View/Elements/node_more_info.ctp:31 Settings/Config/admin_menu.php:64
 msgid "Comment"
-msgstr "Komentář"
+msgstr "نظر"
 
 #: Comments/View/Comments/admin_form.ctp:43
 #: Contacts/View/Contacts/admin_form.ctp:20
 #: Contacts/View/Messages/admin_index.ctp:61
 msgid "Contact"
-msgstr ""
+msgstr "تماس"
 
 #: Comments/View/Comments/admin_form.ctp:44
 #: Comments/View/Comments/admin_index.ctp:43
@@ -990,7 +1004,7 @@ msgstr ""
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
 #: Install/View/Install/database.ctp:81 Users/View/Users/admin_form.ctp:50
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
 #: Comments/View/Comments/admin_form.ctp:45
 #: Comments/View/Comments/admin_index.ctp:44
@@ -1000,108 +1014,108 @@ msgstr ""
 #: Contacts/View/Messages/admin_index.ctp:63
 #: Users/View/Users/admin_form.ctp:53
 msgid "Email"
-msgstr ""
+msgstr "ایمیل"
 
 #: Comments/View/Comments/admin_form.ctp:46
 #: Comments/View/Elements/comments_form.ctp:35;43
 #: Users/View/Users/admin_form.ctp:56
 msgid "Website"
-msgstr ""
+msgstr "وب سایت"
 
 #: Comments/View/Comments/admin_form.ctp:49
 msgid "Ip"
-msgstr ""
+msgstr "IP"
 
 #: Comments/View/Comments/admin_index.ctp:15
 msgid "Comments: Published"
-msgstr "Komentáře : Publikovaní"
+msgstr "نظرات: منشر شد"
 
 #: Comments/View/Comments/admin_index.ctp:18
 msgid "Comments: Approval"
-msgstr "Komentáře : K přijetí"
+msgstr "نظرات: تصویب شدند"
 
 #: Comments/View/Comments/admin_index.ctp:45
 msgid "Node"
-msgstr ""
+msgstr "گره"
 
 #: Comments/View/Comments/admin_index.ctp:47
 #: FileManager/View/Attachments/admin_chooser.ctp:7;49
 #: Nodes/View/Nodes/admin_chooser.ctp:7;58 Nodes/View/Nodes/admin_form.ctp:135
 msgid "Created"
-msgstr ""
+msgstr "ایجاد شده"
 
 #: Comments/View/Comments/rss/index.ctp:18
 msgid "Comment on"
-msgstr ""
+msgstr "نظر در"
 
 #: Comments/View/Comments/rss/index.ctp:18
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:54;108
 #: Nodes/View/Elements/node_info.ctp:9
 msgid "by"
-msgstr ""
+msgstr "توسط"
 
 #: Comments/View/Elements/comment.ctp:13
 msgid "said on %s"
-msgstr ""
+msgstr "گفته شده در %s"
 
 #: Comments/View/Elements/comment.ctp:19
 msgid "Reply"
-msgstr ""
+msgstr "پاسخ"
 
 #: Comments/View/Elements/comments_form.ctp:2
 msgid "Add new comment"
-msgstr ""
+msgstr "افزودن نظر جدید"
 
 #: Comments/View/Elements/comments_form.ctp:7
 msgid "Go back to original post"
-msgstr ""
+msgstr "برگشت به نوشته اصلی"
 
 #: Comments/View/Elements/comments_form.ctp:50
 msgid "Post comment"
-msgstr ""
+msgstr "ارسال نظر"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:5
 #: Taxonomy/View/Types/admin_form.ctp:61
 msgid "Disabled"
-msgstr ""
+msgstr "غیرفعال شده"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:6
 #: Taxonomy/View/Types/admin_form.ctp:62
 msgid "Read only"
-msgstr ""
+msgstr "خواندنی"
 
 #: Comments/View/Elements/admin/comments_tab.ctp:7
 #: Taxonomy/View/Types/admin_form.ctp:63
 msgid "Read/Write"
-msgstr ""
+msgstr "خواندن / نوشتن"
 
 #: Comments/View/Emails/text/comment.ctp:2
 msgid "A new comment has been posted under: %s"
-msgstr ""
+msgstr "یک نظر جدیدنوشته شد در : %s"
 
 #: Comments/View/Emails/text/comment.ctp:6
 #: Contacts/View/Emails/text/contact.ctp:8
 msgid "Name: %s"
-msgstr ""
+msgstr "نام: %s"
 
 #: Comments/View/Emails/text/comment.ctp:7
 #: Contacts/View/Emails/text/contact.ctp:9
 msgid "Email: %s"
-msgstr ""
+msgstr "ایمیل:  %s"
 
 #: Comments/View/Emails/text/comment.ctp:8
 msgid "Website: %s"
-msgstr ""
+msgstr "وب سایت: %s"
 
 #: Comments/View/Emails/text/comment.ctp:9
 #: Contacts/View/Emails/text/contact.ctp:11
 #: Users/View/Emails/text/forgot_password.ctp:17
 msgid "IP Address: %s"
-msgstr ""
+msgstr "آدرس IP : %s"
 
 #: Comments/View/Emails/text/comment.ctp:10
 msgid "Comment: %s"
-msgstr ""
+msgstr "نظر: %s"
 
 #: Contacts/Config/admin_menu.php:5;15
 #: Contacts/Controller/ContactsController.php:52
@@ -1110,355 +1124,354 @@ msgstr ""
 #: Contacts/View/Messages/admin_form.ctp:7
 #: Contacts/View/Messages/admin_index.ctp:9
 msgid "Contacts"
-msgstr "Kontakty"
+msgstr "اطلاعات تماس"
 
 #: Contacts/Config/admin_menu.php:24
 #: Contacts/Controller/MessagesController.php:64
 #: Contacts/View/Messages/admin_form.ctp:8
 #: Contacts/View/Messages/admin_index.ctp:10
 msgid "Messages"
-msgstr "Zprávy"
+msgstr "پیام ها"
 
 #: Contacts/Controller/ContactsController.php:67
 msgid "Add Contact"
-msgstr "Přidat Kontakt"
+msgstr "افزودن آدرس"
 
 #: Contacts/Controller/ContactsController.php:72;96
 msgid "The Contact has been saved"
-msgstr "Kontakt byl uložen"
+msgstr "آدرس ذخیره شد"
 
 #: Contacts/Controller/ContactsController.php:75;99
 msgid "The Contact could not be saved. Please, try again."
-msgstr "Kontakt se nepodařilo uložit, zkuste to prosím později"
+msgstr "آدرس نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
 
 #: Contacts/Controller/ContactsController.php:88
 msgid "Edit Contact"
-msgstr "Upravit Kontakt"
+msgstr "ویرایش ادرس"
 
 #: Contacts/Controller/ContactsController.php:91
 msgid "Invalid Contact"
-msgstr "Neplatný Kontakt"
+msgstr "آدرس نامعتبر"
 
 #: Contacts/Controller/ContactsController.php:116
 msgid "Invalid id for Contact"
-msgstr "Neplatné id pro kontakt"
+msgstr "کد نامعتبر برای آدرس"
 
 #: Contacts/Controller/ContactsController.php:120
 msgid "Contact deleted"
-msgstr "Kontakt byl smazán"
+msgstr "آدرس حذف شد"
 
 #: Contacts/Controller/ContactsController.php:171
 msgid "Your message has been received..."
-msgstr "Vaše zpráva byla přijata"
+msgstr "پیام شما دریافت شده است ..."
 
 #: Contacts/Controller/ContactsController.php:225
 msgid "Sorry, the message appears to be spam."
-msgstr "Pardon, zpráva byla označena za spam"
+msgstr "متاسفانه، پیام به عنوان اسپم شناخته شد."
 
 #: Contacts/Controller/ContactsController.php:270
 msgid "[%s] %s"
-msgstr ""
+msgstr "[%s] %s"
 
 #: Contacts/Controller/MessagesController.php:72
 #: Contacts/View/Messages/admin_index.ctp:14;47
 msgid "Read"
-msgstr ""
+msgstr "خواندن"
 
 #: Contacts/Controller/MessagesController.php:86
 msgid "Edit Message"
-msgstr "Upravit zprávu"
+msgstr "ویرایش پیام"
 
 #: Contacts/Controller/MessagesController.php:89
 msgid "Invalid Message"
-msgstr "Neplatná zpráva"
+msgstr "پیام غیرمجاز"
 
 #: Contacts/Controller/MessagesController.php:94
 msgid "The Message has been saved"
-msgstr "Zpráva byla uložena"
+msgstr "پیام ذخیره شد"
 
 #: Contacts/Controller/MessagesController.php:97
 msgid "The Message could not be saved. Please, try again."
-msgstr "Zpráva nemohla být doručena"
+msgstr "پیام ذخیره نشد، مجدداً سعی نمایید."
 
 #: Contacts/Controller/MessagesController.php:114
 msgid "Invalid id for Message"
-msgstr "Neplatné id zprávy"
+msgstr "کد نامعتبر برای پیام"
 
 #: Contacts/Controller/MessagesController.php:118
 msgid "Message deleted"
-msgstr "Zpráva byla smazána"
+msgstr "پیام حذف شد"
 
 #: Contacts/Controller/MessagesController.php:134
-#, fuzzy
 msgid "Messages deleted"
-msgstr "Zprávy byly smazány"
+msgstr "پیام ها حذف شدند"
 
 #: Contacts/Controller/MessagesController.php:135
 msgid "Messages marked as read"
-msgstr "Zpráva byla označena jako přečtená"
+msgstr "پیام به عنوان خوانده شده علامت گذاری شده است."
 
 #: Contacts/Controller/MessagesController.php:136
 msgid "Messages marked as unread"
-msgstr "Zpráva byla označena jako nepřečtená"
+msgstr "پیام به عنوان خوانده نشده علامت گذاری شده است."
 
 #: Contacts/View/Contacts/admin_form.ctp:21
 msgid "Details"
-msgstr ""
+msgstr "جزئیات"
 
 #: Contacts/View/Contacts/admin_form.ctp:22 Contacts/View/Contacts/view.ctp:21
 #: Contacts/View/Messages/admin_form.ctp:17
 msgid "Message"
-msgstr ""
+msgstr "پیام"
 
 #: Contacts/View/Contacts/admin_form.ctp:49
 msgid "Position"
-msgstr ""
+msgstr "موقعیت"
 
 #: Contacts/View/Contacts/admin_form.ctp:52
 #: Contacts/View/Messages/admin_form.ctp:41
 msgid "Address"
-msgstr ""
+msgstr "آدرس"
 
 #: Contacts/View/Contacts/admin_form.ctp:55
 msgid "Address2"
-msgstr ""
+msgstr "آدرس 2"
 
 #: Contacts/View/Contacts/admin_form.ctp:58
 msgid "State"
-msgstr ""
+msgstr "حالت"
 
 #: Contacts/View/Contacts/admin_form.ctp:61
 msgid "Country"
-msgstr ""
+msgstr "کشور"
 
 #: Contacts/View/Contacts/admin_form.ctp:64
 msgid "Post Code"
-msgstr ""
+msgstr "کد پستی"
 
 #: Contacts/View/Contacts/admin_form.ctp:67
 #: Contacts/View/Messages/admin_form.ctp:38
 msgid "Phone"
-msgstr ""
+msgstr "تلفن"
 
 #: Contacts/View/Contacts/admin_form.ctp:70
 msgid "Fax"
-msgstr ""
+msgstr "فکس"
 
 #: Contacts/View/Contacts/admin_form.ctp:76
 msgid "Let users leave a message"
-msgstr ""
+msgstr "اجازه بده کاربران پیام بفرستند."
 
 #: Contacts/View/Contacts/admin_form.ctp:79
 msgid "Save messages in database"
-msgstr ""
+msgstr "ذخیره پیام در بانک اطلاعاتی"
 
 #: Contacts/View/Contacts/admin_form.ctp:82
 msgid "Notify by email instantly"
-msgstr ""
+msgstr "اطلاع از طریق ایمیل"
 
 #: Contacts/View/Contacts/admin_form.ctp:85
 #: Taxonomy/View/Types/admin_form.ctp:73
 msgid "Spam protection (requires Akismet API key)"
-msgstr ""
+msgstr "محافظ اسپم ( به Akismet API key نیاز دارد )"
 
 #: Contacts/View/Contacts/admin_form.ctp:88
 #: Taxonomy/View/Types/admin_form.ctp:76
 msgid "Use captcha? (requires Recaptcha API key)"
-msgstr ""
+msgstr "استفاده از کپچا؟ ( به Recaptcha API key نیاز دارد)"
 
 #: Contacts/View/Contacts/admin_form.ctp:91
 #: Taxonomy/View/Types/admin_form.ctp:78
 msgid "You can manage your API keys here."
-msgstr ""
+msgstr "شما می توانید کلید های API را در اینجا مدیریت کنید."
 
 #: Contacts/View/Contacts/view.ctp:18
 msgid "Your name"
-msgstr ""
+msgstr "نام شما"
 
 #: Contacts/View/Contacts/view.ctp:19
 msgid "Your email"
-msgstr ""
+msgstr "ایمیل شما"
 
 #: Contacts/View/Contacts/view.ctp:20
 msgid "Subject"
-msgstr ""
+msgstr "موضوع"
 
 #: Contacts/View/Contacts/view.ctp:25
 msgid "Send"
-msgstr ""
+msgstr "ارسال"
 
 #: Contacts/View/Emails/text/contact.ctp:7
 msgid "You have received a new message at: %s"
-msgstr ""
+msgstr "شما یک پیام جدید از %s دریافت کردید."
 
 #: Contacts/View/Emails/text/contact.ctp:10
 msgid "Subject: %s"
-msgstr ""
+msgstr "موضوع: %s"
 
 #: Contacts/View/Emails/text/contact.ctp:12
 msgid "Message: %s"
-msgstr ""
+msgstr "پیام: %s"
 
 #: Contacts/View/Messages/admin_index.ctp:15
 msgid "Messages: Read"
-msgstr "Zpráva: Přečtené"
+msgstr "پیام ها: خواندن"
 
 #: Contacts/View/Messages/admin_index.ctp:17;41
 msgid "Unread"
-msgstr ""
+msgstr "خوانده نشده"
 
 #: Contacts/View/Messages/admin_index.ctp:18
 msgid "Messages: Unread"
-msgstr "Zpráva: Nepřečtené"
+msgstr "پیام ها: خوانده نشده"
 
 #: Contacts/View/Messages/admin_index.ctp:120
 msgid "Mark as read"
-msgstr ""
+msgstr "علامت گذاری به عنوان خوانده شده"
 
 #: Contacts/View/Messages/admin_index.ctp:121
 msgid "Mark as unread"
-msgstr ""
+msgstr "علامت گذاری به عنوان خوانده نشده"
 
 #: Croogo/Console/Command/CroogoShell.php:27
 msgid "Croogo Utilities"
-msgstr ""
+msgstr "ابزار کروگو"
 
 #: Croogo/Console/Command/CroogoShell.php:29
 msgid "Compile/Generate CSS"
-msgstr ""
+msgstr "Compile/Generate CSS"
 
 #: Croogo/Console/Command/CroogoShell.php:32
 msgid "Upgrade Croogo"
-msgstr ""
+msgstr "به روزرسانی کروگو"
 
 #: Croogo/Console/Command/ExtShell.php:103
 msgid "Theme cannot be deactivated, instead activate another theme."
-msgstr ""
+msgstr "قالب نمی تواند غیرفعال شود می توانید قالب دیگری را فعال کنید."
 
 #: Croogo/Console/Command/ExtShell.php:107
 msgid "%s \"%s\" not found."
-msgstr ""
+msgstr "%s \"%s\" پیدا نشد."
 
 #: Croogo/Console/Command/ExtShell.php:116
 msgid "%s name must be provided."
-msgstr ""
+msgstr "نام %s باید فراهم شود"
 
 #: Croogo/Console/Command/ExtShell.php:128
 msgid "Activate Plugins & Themes"
-msgstr ""
+msgstr "فعال سازی افزونه ها و قالب ها"
 
 #: Croogo/Console/Command/ExtShell.php:131
 msgid "Method to perform"
-msgstr ""
+msgstr "متد اجرا"
 
 #: Croogo/Console/Command/ExtShell.php:136
 #: Croogo/Console/Command/InstallShell.php:136
 msgid "Extension type"
-msgstr ""
+msgstr "نوع توسعه"
 
 #: Croogo/Console/Command/ExtShell.php:141
 msgid "Name of extension"
-msgstr ""
+msgstr "نام توسعه"
 
 #: Croogo/Console/Command/ExtShell.php:165
 #: Extensions/Controller/ExtensionsPluginsController.php:157
 msgid "Plugin \"%s\" activated successfully."
-msgstr ""
+msgstr "افزونه \"%s\" با موفقیت فعال شد."
 
 #: Croogo/Console/Command/ExtShell.php:170 Extensions/Lib/CroogoPlugin.php:558
 msgid "Plugin \"%s\" could not be activated. Please, try again."
-msgstr ""
+msgstr "افزونه افزونه \"%s\"  نمی تواند فعال شود، لطفاً دوباره سعی نمایید."
 
 #: Croogo/Console/Command/ExtShell.php:186
 msgid "Plugin \"%s\" could not be deactivated. Please, try again."
-msgstr ""
+msgstr "افزونه \"%s\" نمی تواند غیرفعال شود، لطفاً دوباره سعی نمایید."
 
 #: Croogo/Console/Command/ExtShell.php:194
 #: Extensions/Controller/ExtensionsPluginsController.php:143
 msgid "Plugin \"%s\" could not be deactivated since \"%s\" depends on it."
-msgstr ""
+msgstr "افزونه \"%s\"  نمی تواند غیرعال شود چون \"%s\"  به آن وابسته است."
 
 #: Croogo/Console/Command/ExtShell.php:205
 #: Extensions/Controller/ExtensionsPluginsController.php:148
 msgid "Plugin \"%s\" deactivated successfully."
-msgstr ""
+msgstr "افزونه \"%s\" با موفقیت غیرفعال شد."
 
 #: Croogo/Console/Command/ExtShell.php:219
 msgid "Theme \"%s\" activated successfully."
-msgstr ""
+msgstr "قالب \"%s\" با موفقیت فعال شد."
 
 #: Croogo/Console/Command/ExtShell.php:221
 msgid "Theme \"%s\" activation failed."
-msgstr ""
+msgstr "خطا در فعال سازی قالب  \"%s\""
 
 #: Croogo/Console/Command/ExtShell.php:235
 msgid "Plugins:"
-msgstr ""
+msgstr "افزونه ها"
 
 #: Croogo/Console/Command/ExtShell.php:236;248;262;272
 msgid "%-20s%-50s%s"
-msgstr ""
+msgstr "%-20s%-50s%s"
 
 #: Croogo/Console/Command/ExtShell.php:236
 #: Taxonomy/View/Vocabularies/admin_index.ctp:16
 msgid "Plugin"
-msgstr ""
+msgstr "افزونه"
 
 #: Croogo/Console/Command/ExtShell.php:236;262
 msgid "Author"
-msgstr ""
+msgstr "نویسنده"
 
 #: Croogo/Console/Command/ExtShell.php:262
 msgid "Theme"
-msgstr ""
+msgstr "قالب"
 
 #: Croogo/Console/Command/InstallShell.php:81
 msgid "Installing with Composer..."
-msgstr ""
+msgstr "نصب توسط Composer..."
 
 #: Croogo/Console/Command/InstallShell.php:89
 msgid "Unexpected composerInstall return value"
-msgstr ""
+msgstr "مقدار برگشتی نامعلوم از composerInstall "
 
 #: Croogo/Console/Command/InstallShell.php:102
 msgid "Package installed and activated."
-msgstr ""
+msgstr "بسته نصبو فعال شد."
 
 #: Croogo/Console/Command/InstallShell.php:104
 msgid "Package installed but not activated."
-msgstr ""
+msgstr "بسته نصب شد ولی فعال نشده است."
 
 #: Croogo/Console/Command/InstallShell.php:121
 msgid "Extension installed and activated."
-msgstr ""
+msgstr "توسعه نصب و فعال شد."
 
 #: Croogo/Console/Command/InstallShell.php:133
 msgid "Download, Install & Activate Plugins & Themes"
-msgstr ""
+msgstr "دانلود، نصب و فعال کردن افزونه ها و قالب ها"
 
 #: Croogo/Console/Command/InstallShell.php:141
 msgid "URL to zip file OR github user name"
-msgstr ""
+msgstr "آدرس فایل Zip یا نام کاربری github "
 
 #: Croogo/Console/Command/InstallShell.php:145
 msgid "Github repo name"
-msgstr ""
+msgstr "نام Github repo"
 
 #: Croogo/Console/Command/InstallShell.php:176
 msgid "Installing extension..."
-msgstr ""
+msgstr "نصب توسعه ..."
 
 #: Croogo/Console/Command/InstallShell.php:195
 msgid "Please specify a URL to a zipball extension"
-msgstr ""
+msgstr "لطفاً آدرس توسعه را مشخص نمایید تا Zipbll"
 
 #: Croogo/Console/Command/InstallShell.php:200
 msgid "Downloading extension to %s..."
-msgstr ""
+msgstr "دانلود توسعه %s..."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:62
 msgid "Upgrade ACL database for core controllers."
-msgstr ""
+msgstr "به روز رسانی یانک اطلاعاتی ACL برای کنترل کننده های های هسته."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:64
 msgid ""
@@ -1469,163 +1482,168 @@ msgid ""
 "%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
 "table before upgrading.</warning>"
 msgstr ""
+"Upgrades the ACO hierarchy from 1.3/1.4 so it follows the default behavior "
+"in normal CakePHP applications. The primary difference is plugin controllers "
+"now are stored underneath its own Plugin ACO record, whereas previous "
+"version assumes all Controllers belongs to the root 'controllers' node."
+"%s<warning>Ensure that you have a backup of your aros, acos, and aros_acos "
+"table before upgrading.</warning>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:76
 msgid "Create settings.json from database"
-msgstr ""
+msgstr "ساخت settings.json از بانک اطلاعاتی"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:79
 msgid "Update Hook.bootstrap settings"
-msgstr ""
+msgstr "به روزرسانی تنظیمات Hook.bootstrap"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:82
 msgid "Update Links in database"
-msgstr ""
+msgstr "به روز رسانی لینک ها در بانک اطلاعاتی"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:85
 msgid "Create first migration records"
-msgstr ""
+msgstr "ساخت رکوردهای اولیه منتقل شده"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:88
 msgid "Run all pending migrations for core plugins"
-msgstr ""
+msgstr "اجرای تمام درخواست های انتقال برای افزونه های هسته"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:91
 msgid "Run all upgrade tasks"
-msgstr ""
+msgstr "اجرای تمام کارهای به روزرسانی"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:101
 msgid "<warning>Config/settings.json already exist</warning>"
-msgstr ""
+msgstr "<warning>Config/settings.json وجود دارد</warning>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:142
 msgid ""
 "<success>Config/settings.yml created based on `settings` table</success>"
-msgstr ""
+msgstr "<success>Config/settings.yml برحسب جدول `settings` ایجاد شد</success>"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:187
 msgid "Updating Link %s"
-msgstr ""
+msgstr "به روزرسانی لینک %s"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:188
 #: Settings/Console/Command/SettingsShell.php:155
 msgid "- %s"
-msgstr ""
+msgstr "- %s"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:189
 #: Settings/Console/Command/SettingsShell.php:158
 msgid "+ %s"
-msgstr ""
+msgstr "+ %s"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:194
 msgid "Links updated: %d rows"
-msgstr ""
+msgstr "لینک ها به روز شدند:  %d سطر"
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:210
 msgid "Hook.bootstraps updated"
-msgstr ""
+msgstr "Hook.bootstraps به روزرسانی شد."
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:334
 msgid "Upgrade \"%s\""
-msgstr ""
+msgstr "به روزرسانی  \"%s\""
 
 #: Croogo/Console/Command/Task/UpgradeTask.php:348
 msgid "Command not recognized"
-msgstr ""
+msgstr "دستور تشخیص داده نشد"
 
 #: Croogo/Controller/CroogoAppController.php:268
 msgid "Site down for maintenance"
-msgstr "Probíhají úpravy, vraťte se prosím později"
+msgstr "سایت به علت تعمییرات غیرفعال می باشد."
 
 #: Croogo/Controller/CroogoErrorController.php:55
 msgid "Errors in CakeErrorController: %s"
-msgstr ""
+msgstr "خطا در CakeErrorController: %s"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:98
-#, fuzzy
 msgid "No item selected"
-msgstr "Žádná položka nebyla vybrána"
+msgstr "موردی انتخاب نشده است"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:99
 msgid "Please choose only one item for this operation"
-msgstr ""
+msgstr "لطفاً برای این عملیات فقط یک مورد را انتخاب نمایید."
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:136
 msgid "%s processed"
-msgstr ""
+msgstr "%s پردازش شد"
 
 #: Croogo/Controller/Component/BulkProcessComponent.php:141
 #: FileManager/Controller/FileManagerController.php:229;262;351;384
 msgid "An error occured"
-msgstr "Nastala chyba"
+msgstr "بروز خطا"
 
 #: Croogo/Controller/Component/CroogoComponent.php:128
 msgid "Visit website"
-msgstr "Jít na stránky"
+msgstr "نمایش وب سایت"
 
 #: Croogo/Controller/Component/CroogoComponent.php:145
 msgid "Profile"
-msgstr ""
+msgstr "پروفایل"
 
 #: Croogo/Controller/Component/CroogoComponent.php:160
 msgid "Logout"
-msgstr ""
+msgstr "خروج"
 
 #: Croogo/Controller/Component/CroogoComponent.php:292
 #: Nodes/Controller/NodesController.php:288;748;768
 msgid "Invalid content"
-msgstr "Neplatný obsah"
+msgstr "محتوای نامعتبر"
 
 #: Croogo/Controller/Component/CroogoComponent.php:301
 msgid "Failed toggling field %s to %s"
-msgstr ""
+msgstr "Failed toggling field %s to %s"
 
 #: Croogo/Event/CroogoEventManager.php:77
 msgid "EventHandler %s not found in plugin %s"
-msgstr ""
+msgstr "EventHandler %s not found in plugin %s"
 
 #: Croogo/Lib/CroogoRouter.php:201
 msgid "Unable to get routeable content types: %s"
-msgstr ""
+msgstr "Unable to get routeable content types: %s"
 
 #: Croogo/Lib/CroogoStatus.php:39
 #: FileManager/View/Elements/admin/attachments_search.ctp:38
 #: Nodes/View/Elements/admin/nodes_search.ctp:37
 msgid "Unpublished"
-msgstr ""
+msgstr "منتشر نشده"
 
 #: Croogo/Lib/CroogoStatus.php:41
 #: FileManager/View/Attachments/admin_edit.ctp:71
 msgid "Preview"
-msgstr ""
+msgstr "پیش نمایش"
 
 #: Croogo/Lib/CroogoStatus.php:44
 msgid "Approved"
-msgstr ""
+msgstr "تایید شده"
 
 #: Croogo/Lib/CroogoStatus.php:45
 msgid "Pending"
-msgstr ""
+msgstr "در انتظار"
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:40
 msgid "Cannot load configuration files with ../ in them."
-msgstr ""
+msgstr "امکان لود تنظیمات فایل در صورت وجود  ../ در آنها وجود ندارد."
 
 #: Croogo/Lib/Configure/CroogoJsonReader.php:55
 msgid "Could not load configuration files: %s or %s"
-msgstr ""
+msgstr "Could not load configuration files: %s or %s"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:65
 msgid "Invalid action to perform"
-msgstr ""
+msgstr "عمل غیرمجاز"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:69
 msgid "No target to process action upon"
-msgstr ""
+msgstr "بدون هدف برای پردازش دستور"
 
 #: Croogo/Model/Behavior/BulkProcessBehavior.php:75
 msgid "Action %s is disabled"
-msgstr ""
+msgstr "دستور % غیرفعال شده هست."
 
 #: Croogo/View/Common/admin_edit.ctp:11
 #: FileManager/View/Attachments/admin_browse.ctp:35
@@ -1633,20 +1651,20 @@ msgstr ""
 #: FileManager/View/FileManager/admin_editfile.ctp:32
 #: Nodes/View/Nodes/admin_translations.ctp:33
 msgid "Edit"
-msgstr "Upravit"
+msgstr "ویرایش"
 
 #: Croogo/View/Common/admin_index.ctp:41 Croogo/View/Common/admin_view.ctp:39
 #: Menus/View/Links/admin_index.ctp:17
 msgid "New %s"
-msgstr ""
+msgstr "جدید %s"
 
 #: Croogo/View/Elements/admin/footer.ctp:7
 msgid "Croogo %s"
-msgstr ""
+msgstr "کروگو %s"
 
 #: Croogo/View/Elements/admin/footer.ctp:11
 msgid "Powered by %s"
-msgstr ""
+msgstr "قدرت گرفته از %s"
 
 #: Croogo/View/Elements/admin/header.ctp:18
 #: Dashboards/Config/admin_menu.php:5;11
@@ -1655,123 +1673,125 @@ msgstr ""
 #: Extensions/Controller/ExtensionsDashboardController.php:11
 #: Extensions/View/ExtensionsDashboard/admin_index.ctp:5
 msgid "Dashboard"
-msgstr "Přístrojová deska"
+msgstr "داشبورد"
 
 #: Croogo/View/Elements/admin/modal.ctp:20
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 #: Croogo/View/Elements/admin/pagination.ctp:5
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
+"صفحه {:page} از {:pages} ، نمایش {:current} رکورد خارج از {:count} ، شروع از "
+"رکورد {:start}، خاتمه در {:end}"
 
 #: Croogo/View/Elements/admin/pagination.ctp:10
 msgid "first"
-msgstr ""
+msgstr "اولین"
 
 #: Croogo/View/Elements/admin/pagination.ctp:11
 msgid "prev"
-msgstr ""
+msgstr "قبلی"
 
 #: Croogo/View/Elements/admin/pagination.ctp:13
 msgid "next"
-msgstr ""
+msgstr "بعدی"
 
 #: Croogo/View/Elements/admin/pagination.ctp:14
 msgid "last"
-msgstr ""
+msgstr "آخرین"
 
 #: Croogo/View/Elements/admin/search.ctp:46
 #: FileManager/View/Elements/admin/attachments_search.ctp:53
 #: Nodes/View/Elements/admin/nodes_search.ctp:52
 msgid "Filter"
-msgstr ""
+msgstr "فیلتر"
 
 #: Croogo/View/Errors/missing_action.ctp:1
 #: Croogo/View/Errors/missing_controller.ctp:1
 #: Croogo/View/Errors/security.ctp:1
 msgid "Page not found"
-msgstr ""
+msgstr "صفحه پیدا نشد"
 
 #: Croogo/View/Errors/missing_action.ctp:2
 #: Croogo/View/Errors/missing_controller.ctp:2
 msgid "Error"
-msgstr ""
+msgstr "خطا"
 
 #: Croogo/View/Errors/missing_action.ctp:4
 #: Croogo/View/Errors/missing_controller.ctp:4
 #: Croogo/View/Errors/security.ctp:4
 msgid "The requested address was not found on this server."
-msgstr ""
+msgstr "آدرس درخواست شده در این سرور پیدا نشد."
 
 #: Croogo/View/Errors/security.ctp:2
 msgid "Security Error"
-msgstr ""
+msgstr "خطای امنیتی"
 
 #: Croogo/View/Errors/security.ctp:8
 msgid "Request blackholed due to \"%s\" violation."
-msgstr ""
+msgstr "Request blackholed due to \"%s\" violation."
 
 #: Croogo/View/Helper/LayoutHelper.php:95
 msgid "Method %1$s::%2$s does not exist"
-msgstr ""
+msgstr "Method %1$s::%2$s does not exist"
 
 #: Croogo/View/Layouts/admin.ctp:6 Croogo/View/Layouts/admin_full.ctp:6
 #: Croogo/View/Layouts/admin_login.ctp:6 Croogo/View/Layouts/admin_popup.ctp:6
 #: Install/View/Layouts/install.ctp:6
 msgid "Croogo"
-msgstr ""
+msgstr "کروگو"
 
 #: Croogo/View/Layouts/admin_login.ctp:28
 msgid "Back to"
-msgstr ""
+msgstr "بازگشت"
 
 #: Croogo/View/Layouts/maintenance.ctp:13
 msgid "Site down for maintenance."
-msgstr ""
+msgstr "غیرفعال کردن سایت جهت تعمیرات"
 
 #: Dashboards/Config/admin_dashboard.php:5
 msgid "Croogo News"
-msgstr ""
+msgstr "اخبار کروگو"
 
 #: Dashboards/Controller/DashboardsDashboardsController.php:97
 msgid "Invalid id for Dashboard"
-msgstr ""
+msgstr "کد نامعتبر برای داشبورد"
 
 #: Dashboards/Controller/DashboardsDashboardsController.php:101
 msgid "Dashboard deleted"
-msgstr ""
+msgstr "داشبوردحذف شد"
 
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:2;7
 msgid "Dashboards"
-msgstr ""
+msgstr "داشبوردها"
 
 #: Dashboards/View/DashboardsDashboards/admin_index.ctp:69
 #: Settings/View/Settings/admin_view.ctp:44
 msgid "Are you sure you want to delete # %s?"
-msgstr ""
+msgstr "آیا شما از حذف # %s مطمئن هستید؟"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:131
 msgid "Left"
-msgstr ""
+msgstr "چپ"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:134
 msgid "Right"
-msgstr ""
+msgstr "راست"
 
 #: Dashboards/View/Helper/DashboardsHelper.php:137
 msgid "Full"
-msgstr ""
+msgstr "کامل"
 
 #: Example/Config/admin_dashboard.php:5
 msgid "Welcome"
-msgstr ""
+msgstr "خوش آمدید"
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
-msgstr ""
+msgstr "محتوا اینجا"
 
 #: Extensions/Config/admin_menu.php:5
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:7
@@ -1782,14 +1802,14 @@ msgstr ""
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:7
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Extensions"
-msgstr "Doplňky"
+msgstr "توسعه"
 
 #: Extensions/Config/admin_menu.php:15
 #: Extensions/Controller/ExtensionsThemesController.php:60
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:8
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:8
 msgid "Themes"
-msgstr "Témata"
+msgstr "قالب"
 
 #: Extensions/Config/admin_menu.php:25
 #: Extensions/Controller/ExtensionsLocalesController.php:44
@@ -1797,247 +1817,247 @@ msgstr "Témata"
 #: Extensions/View/ExtensionsLocales/admin_edit.ctp:8
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:8
 msgid "Locales"
-msgstr "Jazyky"
+msgstr "محل ها"
 
 #: Extensions/Config/admin_menu.php:35
 #: Extensions/Controller/ExtensionsPluginsController.php:69
 #: Extensions/View/ExtensionsPlugins/admin_add.ctp:8
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:10
 msgid "Plugins"
-msgstr "Rozšíření"
+msgstr "افزونه ها"
 
 #: Extensions/Console/Command/DataMigrationShell.php:23
 msgid "Data Migration Utility"
-msgstr ""
+msgstr "ابزار انتقال اطلاعات"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:76
 msgid "Locale does not exist."
-msgstr ""
+msgstr "محل وجود ندارد"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:82
 msgid "Locale '%s' set as default"
-msgstr ""
+msgstr "محل '%s' به عنوان پیش فرض ست شد."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:84
 msgid "Could not save Locale setting."
-msgstr ""
+msgstr "نمی نوان تنظیمات محل را ذخیره نمود."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:95
 msgid "Upload a new locale"
-msgstr ""
+msgstr "اپلود محل جدید"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:121;176
 msgid "Invalid locale."
-msgstr ""
+msgstr "محل نامعتبر."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:126
 msgid "Locale already exists."
-msgstr ""
+msgstr "محل موجود هست."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "Edit locale: %s"
-msgstr ""
+msgstr "ویرایش محل: %s"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:183;211
 msgid "The file %s does not exist."
-msgstr ""
+msgstr "فایل %s وجود ندارد."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:193
 msgid "Locale updated successfully"
-msgstr ""
+msgstr "محل با موفقیت به روزرسانی شد."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:217
 msgid "Locale deleted successfully."
-msgstr ""
+msgstr "محل با موفقیت حذف شد."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:219
 msgid "Local could not be deleted."
-msgstr ""
+msgstr "محل نمی تواند حذف شود."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:83
 msgid "Upload a new plugin"
-msgstr ""
+msgstr "آپلود افزونه جدید"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:108;136;174;195;219
 #: Extensions/Lib/CroogoPlugin.php:685
 #: Extensions/Lib/ExtensionsInstaller.php:105
 msgid "Invalid plugin"
-msgstr ""
+msgstr "افرونه نامعتبر"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:112
 msgid "You cannot delete a plugin that is currently active."
-msgstr ""
+msgstr "شما نمی توانید افزونه های فعال را حذف نمایید"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:118
 msgid "Plugin \"%s\" deleted successfully."
-msgstr ""
+msgstr "افزونه \"%s\" با موفقیت حذف شد."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:122
 msgid "Plugin could not be deleted."
-msgstr ""
+msgstr "افزونه نمی تواند حذف شود"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:152
 #: Extensions/Lib/CroogoPlugin.php:600
 msgid "Plugin could not be deactivated. Please, try again."
-msgstr ""
+msgstr "افزونه نمی تواند غیرفعال گردد، لطفاً دوباره سعی نمایید."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:161
 msgid "Plugin could not be activated. Please, try again."
-msgstr ""
+msgstr "افزونه نمی تواند فعال گردد، لطفاً دوباره سعی نمایید."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:176
 msgid "Plugin \"%s\" migrated successfully."
-msgstr ""
+msgstr "افزونه \"%s\" با موفقیت انتقال یافت."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:179
 msgid "Plugin \"%s\" could not be migrated. Error: %s"
-msgstr ""
+msgstr "افزونه \"%s\" نمی تواند انتقال یابد. خطا:  %s"
 
 #: Extensions/Controller/ExtensionsPluginsController.php:201
 msgid "Plugin %s has been moved up"
-msgstr ""
+msgstr "افزونه %s به بالا برده شد."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:225
 msgid "Plugin %s has been moved down"
-msgstr ""
+msgstr "افزونه %s به پایین بردهشد."
 
 #: Extensions/Controller/ExtensionsThemesController.php:81
 msgid "Theme activated."
-msgstr ""
+msgstr "قالب فعال شد."
 
 #: Extensions/Controller/ExtensionsThemesController.php:83
 msgid "Theme activation failed."
-msgstr ""
+msgstr "خطا در فعال سازی قالب"
 
 #: Extensions/Controller/ExtensionsThemesController.php:95
 msgid "Upload a new theme"
-msgstr ""
+msgstr "آپلود قالب جدید"
 
 #: Extensions/Controller/ExtensionsThemesController.php:104
 msgid "Theme uploaded successfully."
-msgstr ""
+msgstr "قالب با موفقیت به روزرسانی شد."
 
 #: Extensions/Controller/ExtensionsThemesController.php:118
 msgid "Theme Editor"
-msgstr ""
+msgstr "ویرایشگر قالب"
 
 #: Extensions/Controller/ExtensionsThemesController.php:137
 msgid "Invalid Theme."
-msgstr ""
+msgstr "قالب نامعتبر"
 
 #: Extensions/Controller/ExtensionsThemesController.php:142
 msgid "Default theme cannot be deleted."
-msgstr ""
+msgstr "امکان حذف قالب پیش فرض وجود ندارد"
 
 #: Extensions/Controller/ExtensionsThemesController.php:145
 msgid "You cannot delete a theme that is currently active."
-msgstr ""
+msgstr "شما نمی توانید قالب فعال را حذف نمایید."
 
 #: Extensions/Controller/ExtensionsThemesController.php:152
 msgid "Theme deleted successfully."
-msgstr ""
+msgstr "قالب با موفقیت حذف شد."
 
 #: Extensions/Controller/ExtensionsThemesController.php:156
 #: Users/Controller/UsersController.php:427;496;507
 msgid "An error occurred."
-msgstr "Nastala chyba"
+msgstr "بروز خطا."
 
 #: Extensions/Lib/CroogoPlugin.php:530
 msgid "Plugin \"%s\" is already active."
-msgstr ""
+msgstr "افزونه \"%s\" در حال حاضر فعال است."
 
 #: Extensions/Lib/CroogoPlugin.php:556
 msgid "Plugin \"%s\" depends on \"%s\" plugin."
-msgstr ""
+msgstr "افزونه \"%s\" وابسته به افزونه \"%s\" می باشد."
 
 #: Extensions/Lib/CroogoPlugin.php:587
 msgid "Plugin \"%s\" is not active."
-msgstr ""
+msgstr "افزونه \"%s\" فعال نمی باشد"
 
 #: Extensions/Lib/CroogoPlugin.php:715
 msgid "%s is already at the first position"
-msgstr ""
+msgstr "%s در حال حاضر در موقعیت اول قرار دارد"
 
 #: Extensions/Lib/CroogoPlugin.php:721;733
 msgid "Plugin %s depends on %s"
-msgstr ""
+msgstr "افزونه %s به %s وابسته هست."
 
 #: Extensions/Lib/CroogoPlugin.php:726
 msgid "%s is already at the last position"
-msgstr ""
+msgstr "%s در حال حاضر در موقعیت آخر قرار دارد."
 
 #: Extensions/Lib/CroogoPlugin.php:737
 msgid "Invalid direction"
-msgstr ""
+msgstr "جهت نامعتبر"
 
 #: Extensions/Lib/CroogoPlugin.php:742
 msgid "Plugin %s cannot be reordered"
-msgstr ""
+msgstr "امکان تغییر ترتیب افزونه %s وجود ندارد."
 
 #: Extensions/Lib/CroogoTheme.php:255
 #: Extensions/Lib/ExtensionsInstaller.php:186
 msgid "Invalid theme"
-msgstr ""
+msgstr "قالب نامعتبر"
 
 #: Extensions/Lib/CroogoTheme.php:276
 msgid "Theme %s not found"
-msgstr ""
+msgstr "قالب %s پیدا نشد."
 
 #: Extensions/Lib/ExtensionsInstaller.php:62
 msgid "Invalid plugin path"
-msgstr ""
+msgstr "آدرس نامعتبر افزونه"
 
 #: Extensions/Lib/ExtensionsInstaller.php:72;110;191
 msgid "Invalid zip archive"
-msgstr ""
+msgstr "فایل zip نامعتبر"
 
 #: Extensions/Lib/ExtensionsInstaller.php:78
 msgid "Invalid plugin.json or missing plugin name"
-msgstr ""
+msgstr "plugin.json نامعتبر یا نام افرونه پیدا نشد"
 
 #: Extensions/Lib/ExtensionsInstaller.php:99
 msgid "Missing expected files: %s in: %s"
-msgstr ""
+msgstr "فایل های استخراج شده پیدا نشدند: %s در: %s"
 
 #: Extensions/Lib/ExtensionsInstaller.php:100
 msgid "Invalid plugin or missing expected files"
-msgstr ""
+msgstr "افزونه نامعتبر یا فیل های استخراج شده پیدا نشدند."
 
 #: Extensions/Lib/ExtensionsInstaller.php:125
 msgid "Invalid plugin file path"
-msgstr ""
+msgstr "آدرس نامعتبر فایل افزونه"
 
 #: Extensions/Lib/ExtensionsInstaller.php:136
 msgid "Plugin already exists"
-msgstr ""
+msgstr "افزونه موجود هست"
 
 #: Extensions/Lib/ExtensionsInstaller.php:152
 msgid "Failed to extract plugin"
-msgstr ""
+msgstr "خطا در استخراج افزونه"
 
 #: Extensions/Lib/ExtensionsInstaller.php:165
 msgid "Invalid theme path"
-msgstr ""
+msgstr "آدرس نامعتبر قالب"
 
 #: Extensions/Lib/ExtensionsInstaller.php:206
 msgid "Invalid theme file path"
-msgstr ""
+msgstr "آدرس نامعتبر فایل افزونه"
 
 #: Extensions/Lib/ExtensionsInstaller.php:217
 msgid "Theme already exists"
-msgstr ""
+msgstr "قالب موجود هست"
 
 #: Extensions/Lib/ExtensionsInstaller.php:233
 msgid "Failed to extract theme"
-msgstr ""
+msgstr "خطا در استخراج قالب"
 
 #: Extensions/Lib/ExtensionsInstaller.php:252
 msgid "Must specify a valid package name: vendor/name."
-msgstr ""
+msgstr "باید یک نام معتبر برای بسته مشخص نمایید: فروشنده / نام."
 
 #: Extensions/Lib/ExtensionsInstaller.php:255
 msgid "Themes installed via composer are not yet supported."
-msgstr ""
+msgstr "قالب های نصب شده با composer در حال حاضر پشتیبانی نمی شوند."
 
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:9;21;37
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:11
@@ -2049,29 +2069,29 @@ msgstr ""
 #: FileManager/View/Attachments/admin_add.ctp:8;21;29;42
 #: FileManager/View/FileManager/admin_upload.ctp:8;32
 msgid "Upload"
-msgstr "Nahrát"
+msgstr "آپلود"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:19
 #: Nodes/View/Nodes/admin_translations.ctp:26
 #: Translate/View/Translate/admin_index.ctp:80
 msgid "Locale"
-msgstr ""
+msgstr "محل"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:20
 msgid "Default"
-msgstr ""
+msgstr "پیش فرض"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:33
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:114
 msgid "Activate"
-msgstr "Aktivovat"
+msgstr "فعال کردن"
 
 #: Extensions/View/ExtensionsPlugins/admin_add.ctp:29
 #: FileManager/View/FileManager/admin_create_file.ctp:33
 #: FileManager/View/FileManager/admin_rename.ctp:33
 msgid "File"
-msgstr ""
+msgstr "فایل"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:28
 #: Menus/View/Links/admin_form.ctp:99 Menus/View/Menus/admin_form.ctp:36
@@ -2080,39 +2100,39 @@ msgstr ""
 #: Taxonomy/View/Terms/admin_form.ctp:51 Taxonomy/View/Types/admin_form.ctp:38
 #: Taxonomy/View/Vocabularies/admin_form.ctp:43
 msgid "Description"
-msgstr ""
+msgstr "توضیحات"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:29
 msgid "Active"
-msgstr ""
+msgstr "فعال"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:41
 msgid "Deactivate"
-msgstr "Deaktivovat"
+msgstr "غیرفعال کردن"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:73
 msgid "Migrate"
-msgstr ""
+msgstr "مهاجرت"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:26
 msgid "Current Theme"
-msgstr ""
+msgstr "قالب فعلی"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:60;111
 msgid "Regions supported: "
-msgstr ""
+msgstr "نواحی پشتیبانی شده:"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:66
 msgid "Available Themes"
-msgstr ""
+msgstr "قالب های موجود"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:137
 msgid "No available theme"
-msgstr ""
+msgstr "قالبی وجود ندارد"
 
 #: FileManager/Config/admin_menu.php:5
 msgid "Media"
-msgstr ""
+msgstr "رسانه"
 
 #: FileManager/Config/admin_menu.php:15
 #: FileManager/Controller/AttachmentsController.php:117
@@ -2120,7 +2140,7 @@ msgstr ""
 #: FileManager/View/Attachments/admin_edit.ctp:7
 #: FileManager/View/Attachments/admin_index.ctp:7
 msgid "Attachments"
-msgstr "Přílohy"
+msgstr "پیوست ها"
 
 #: FileManager/Config/admin_menu.php:24
 #: FileManager/Controller/FileManagerController.php:117
@@ -2131,179 +2151,181 @@ msgstr "Přílohy"
 #: FileManager/View/FileManager/admin_rename.ctp:7
 #: FileManager/View/FileManager/admin_upload.ctp:7
 msgid "File Manager"
-msgstr "Správce souborů"
+msgstr "مدیریت فایل"
 
 #: FileManager/Controller/AttachmentsController.php:155
 msgid "Add Attachment"
-msgstr "Přidat přílohu"
+msgstr "افودن پیوست"
 
 #: FileManager/Controller/AttachmentsController.php:164
 msgid "Upload failed. Please ensure size does not exceed the server limit."
 msgstr ""
+"آخطا در آپلود. لطفاً مطمئن شوید حجم فایل از حجم تعیین شده سرور تجاوز نکرده "
+"است/"
 
 #: FileManager/Controller/AttachmentsController.php:171;204
 msgid "The Attachment has been saved"
-msgstr "Příloha byla uožena"
+msgstr "پیوست ذخیره شد"
 
 #: FileManager/Controller/AttachmentsController.php:179;207
 msgid "The Attachment could not be saved. Please, try again."
-msgstr "Příloha nemohla být uložena, zkuste to to prosím znovu"
+msgstr "فایل پیوست نمی تواند ذخیره شود،لطفاً دوباره سعی نمایید."
 
 #: FileManager/Controller/AttachmentsController.php:192
 msgid "Edit Attachment"
-msgstr "Upravit přílohu"
+msgstr "ویرایش پیوست"
 
 #: FileManager/Controller/AttachmentsController.php:199
 msgid "Invalid Attachment"
-msgstr "Neplatný formát přílohy"
+msgstr "پیوست نامعتبر"
 
 #: FileManager/Controller/AttachmentsController.php:224;232
 msgid "Invalid id for Attachment"
-msgstr "Neplatné id přílohy"
+msgstr "کد نامعتبر برای پیوست"
 
 #: FileManager/Controller/AttachmentsController.php:229
 msgid "Attachment deleted"
-msgstr "Příloha smazána"
+msgstr "پیوست حذف شد"
 
 #: FileManager/Controller/FileManagerController.php:122;154;193;222;255;340;374
 msgid "Path %s is restricted"
-msgstr ""
+msgstr "آدرس %s محدود شده است."
 
 #: FileManager/Controller/FileManagerController.php:157
 msgid "Edit file: %s"
-msgstr "Upravit soubor: %s"
+msgstr "ویرایش فایل: %s"
 
 #: FileManager/Controller/FileManagerController.php:167
 msgid "File saved successfully"
-msgstr "Soubor úspěšně uložen"
+msgstr "فایل با موفقیت ذخیره شد"
 
 #: FileManager/Controller/FileManagerController.php:201
 msgid "File uploaded successfully."
-msgstr "Soubor nahrán úspěšně"
+msgstr "فایل با موفقیت آپلود شد"
 
 #: FileManager/Controller/FileManagerController.php:227
 msgid "File deleted"
-msgstr "Soubor smazán"
+msgstr "فایل حذف شد"
 
 #: FileManager/Controller/FileManagerController.php:260
 msgid "Directory deleted"
-msgstr "Adresář byl smazán"
+msgstr "دایرکتوری حذف شد"
 
 #: FileManager/Controller/FileManagerController.php:285
 msgid "Path \"%s\" cannot be renamed"
-msgstr ""
+msgstr "تغیبر نام آدرس \"%s\" میسر نیست"
 
 #: FileManager/Controller/FileManagerController.php:298
 msgid "%s already exists"
-msgstr ""
+msgstr "%s وجود دارد"
 
 #: FileManager/Controller/FileManagerController.php:302
 msgid "\"%s\" has been renamed to \"%s\""
-msgstr ""
+msgstr "\"%s\" به \"%s\" تغییر نام یافت"
 
 #: FileManager/Controller/FileManagerController.php:305
 msgid "Could not rename \"%s\" to \"%s\""
-msgstr ""
+msgstr "نمی تواند از \"%s\" به \"%s\" تغییر یابد"
 
 #: FileManager/Controller/FileManagerController.php:310
 msgid "Name has not changed"
-msgstr ""
+msgstr "نام تغییر نیافت"
 
 #: FileManager/Controller/FileManagerController.php:331
 #: FileManager/View/FileManager/admin_create_directory.ctp:8
 msgid "Create Directory"
-msgstr ""
+msgstr "ایجاد دایرکتوری"
 
 #: FileManager/Controller/FileManagerController.php:347
 msgid "Directory created successfully."
-msgstr "Adresář byl vytvořen úspěšně"
+msgstr "دایکتوری با موفقیت ایجاد شد."
 
 #: FileManager/Controller/FileManagerController.php:365
 #: FileManager/View/FileManager/admin_create_file.ctp:8
 msgid "Create File"
-msgstr ""
+msgstr "ایجاد فایل"
 
 #: FileManager/Controller/FileManagerController.php:380
 msgid "File created successfully."
-msgstr "Soubor vytvořen úspěšně"
+msgstr "فایل با موفقیت ایجاد شد."
 
 #: FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
-msgstr ""
+msgstr "خطا در آپلود فایل"
 
 #: FileManager/View/Attachments/admin_browse.ctp:10
 msgid "New Attachment"
-msgstr ""
+msgstr "پیوست جدید"
 
 #: FileManager/View/Attachments/admin_browse.ctp:25
 #: FileManager/View/Attachments/admin_index.ctp:14
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: FileManager/View/Attachments/admin_browse.ctp:67
 msgid "Insert"
-msgstr ""
+msgstr "وارد کردن"
 
 #: FileManager/View/Attachments/admin_chooser.ctp:4
 #: Nodes/View/Nodes/admin_chooser.ctp:4
 msgid "Sort by:"
-msgstr ""
+msgstr "مرتب سازی بر حسب:"
 
 #: FileManager/View/Attachments/admin_chooser.ctp:41
 #: FileManager/View/Elements/admin/attachments_search.ctp:48
 #: Nodes/View/Elements/admin/nodes_search.ctp:47
 #: Nodes/View/Nodes/admin_chooser.ctp:50
 msgid "Promoted"
-msgstr ""
+msgstr "ارتقا یافته"
 
 #: FileManager/View/Attachments/admin_edit.ctp:18
 msgid "Attachment"
-msgstr ""
+msgstr "پیوست"
 
 #: FileManager/View/Attachments/admin_edit.ctp:29
 msgid "Caption"
-msgstr ""
+msgstr "عنوان"
 
 #: FileManager/View/Attachments/admin_edit.ctp:32
 msgid "File URL"
-msgstr ""
+msgstr "URL فایل"
 
 #: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
-msgstr ""
+msgstr "Mime Type"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:28
 #: Nodes/View/Elements/search.ctp:7
 #: Nodes/View/Elements/admin/nodes_search.ctp:22
 msgid "Search"
-msgstr ""
+msgstr "جستجو"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:29
 #: Nodes/View/Elements/admin/nodes_search.ctp:23
 msgid "Search..."
-msgstr ""
+msgstr "جستجو ..."
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:45
 #: Nodes/View/Elements/admin/nodes_search.ctp:44
 msgid "Yes"
-msgstr ""
+msgstr "بله"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:46
 #: Nodes/View/Elements/admin/nodes_search.ctp:45
 msgid "No"
-msgstr ""
+msgstr "خیر"
 
 #: FileManager/View/FileManager/admin_browse.ctp:14
 msgid "Upload here"
-msgstr ""
+msgstr "اینجا آپلود کنید"
 
 #: FileManager/View/FileManager/admin_browse.ctp:18
 msgid "Create directory"
-msgstr ""
+msgstr "ایجاد دایرکتوری"
 
 #: FileManager/View/FileManager/admin_browse.ctp:22
 msgid "Create file"
-msgstr ""
+msgstr "ایجاد فایل"
 
 #: FileManager/View/FileManager/admin_browse.ctp:31
 #: FileManager/View/FileManager/admin_create_directory.ctp:21
@@ -2312,572 +2334,575 @@ msgstr ""
 #: FileManager/View/FileManager/admin_rename.ctp:13
 #: FileManager/View/FileManager/admin_upload.ctp:13
 msgid "You are here"
-msgstr ""
+msgstr "شما اینجا هستید"
 
 #: FileManager/View/FileManager/admin_browse.ctp:46
 msgid "Directory content"
-msgstr ""
+msgstr "محتوای دایرکتوری"
 
 #: FileManager/View/FileManager/admin_browse.ctp:59
 msgid "Open"
-msgstr ""
+msgstr "باز کردن"
 
 #: FileManager/View/FileManager/admin_browse.ctp:66;111
 #: FileManager/View/FileManager/admin_rename.ctp:8
 msgid "Rename"
-msgstr ""
+msgstr "تغییر نام"
 
 #: FileManager/View/FileManager/admin_browse.ctp:91
 msgid "View"
-msgstr ""
+msgstr "مشاهده"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:34
 msgid "Directory"
-msgstr ""
+msgstr "دایرکتوری"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:42
 msgid "Directory name"
-msgstr ""
+msgstr "نام دایرکتوری"
 
 #: FileManager/View/FileManager/admin_create_directory.ctp:51
 #: Nodes/Config/admin_menu.php:25 Nodes/View/Nodes/admin_create.ctp:6
 #: Nodes/View/Nodes/admin_form.ctp:14
 msgid "Create"
-msgstr "Vytvořit"
+msgstr "ایجاد"
 
 #: FileManager/View/FileManager/admin_create_file.ctp:41
 msgid "Filename"
-msgstr ""
+msgstr "نام فایل"
 
 #: FileManager/View/FileManager/admin_rename.ctp:41
 msgid "New name"
-msgstr ""
+msgstr "نام جدید"
 
 #: Install/Console/Command/InstallShell.php:27
 msgid "Install Utilities"
-msgstr ""
+msgstr "نصب ابزارها"
 
 #: Install/Console/Command/InstallShell.php:108
 msgid "DataSource"
-msgstr ""
+msgstr "منبع داده"
 
 #: Install/Console/Command/InstallShell.php:115
 #: Install/View/Install/database.ctp:58
 msgid "Host"
-msgstr ""
+msgstr "میزبان"
 
 #: Install/Console/Command/InstallShell.php:116
 #: Install/View/Install/database.ctp:66
 msgid "Login"
-msgstr "Přihlásit"
+msgstr "نام کاربری"
 
 #: Install/Console/Command/InstallShell.php:117;153
 #: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
 #: Users/View/Users/admin_login.ctp:15 Users/View/Users/login.ctp:7
 msgid "Password"
-msgstr ""
+msgstr "رمز"
 
 #: Install/Console/Command/InstallShell.php:118
 #: Install/View/Install/database.ctp:47
 msgid "Database"
-msgstr ""
+msgstr "بانک اطلاعاتی"
 
 #: Install/Console/Command/InstallShell.php:119
 #: Install/View/Install/database.ctp:89
 msgid "Prefix"
-msgstr ""
+msgstr "پیشوند"
 
 #: Install/Console/Command/InstallShell.php:120
 #: Install/View/Install/database.ctp:96
 msgid "Port"
-msgstr ""
+msgstr "پورت"
 
 #: Install/Console/Command/InstallShell.php:146
 #: Install/View/Install/adminuser.ctp:13 Users/View/Users/admin_form.ctp:47
 #: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
 #: Users/View/Users/login.ctp:6
 msgid "Username"
-msgstr ""
+msgstr "نام کاربری"
 
 #: Install/Console/Command/InstallShell.php:155
 #: Install/View/Install/adminuser.ctp:26 Users/View/Users/admin_form.ctp:96
 #: Users/View/Users/admin_reset_password.ctp:35 Users/View/Users/reset.ctp:7
 msgid "Verify Password"
-msgstr ""
+msgstr "بازبینی رمز"
 
 #: Install/Console/Command/InstallShell.php:217
 msgid "Permission %s granted to %s"
-msgstr ""
+msgstr "مجوز %s به %s  اعطا شد."
 
 #: Install/Controller/InstallController.php:101
 msgid "Installation: Welcome"
-msgstr ""
+msgstr "نصب: خوش آمدید"
 
 #: Install/Controller/InstallController.php:116
 msgid "Step 1: Database"
-msgstr ""
+msgstr "مرحله 1: بانک اطلاعاتی"
 
 #: Install/Controller/InstallController.php:162
 msgid "Step 2: Build database"
-msgstr ""
+msgstr "مرحله 2: ایجاد بانک اطلاعاتی"
 
 #: Install/Controller/InstallController.php:170
 msgid "Warning: Database \"%s\" is not empty."
-msgstr ""
+msgstr "هشدار: بانک اطلاعاتی \"%s\" خالی نبوده و دارای رکورد می باشد."
 
 #: Install/Controller/InstallController.php:222
 msgid "Installation successful"
-msgstr ""
+msgstr "نصب با موفقیت انجام شد"
 
 #: Install/Controller/InstallController.php:230
 msgid "Installation failed"
-msgstr ""
+msgstr "خطا در نصب"
 
 #: Install/Controller/InstallController.php:231
 msgid "Installation failed: Unable to create settings file"
-msgstr ""
+msgstr "خطا در نصب: عدم ایجاد فایل تنظیمات"
 
 #: Install/Lib/AssetGenerator.php:100
 msgid "CSS : %s created"
-msgstr ""
+msgstr "CSS: %s ایجاد شد"
 
 #: Install/Lib/AssetGenerator.php:103
 msgid "CSS : %s failed"
-msgstr ""
+msgstr "CSS: %s ناموفق"
 
 #: Install/Lib/AssetGenerator.php:120
 msgid "JS  : %s created"
-msgstr ""
+msgstr "JS: %s ایجاد شد"
 
 #: Install/Lib/AssetGenerator.php:123
 msgid "JS  : %s failed"
-msgstr ""
+msgstr "JS: %s ناموفق"
 
 #: Install/Lib/AssetGenerator.php:165
 msgid "Font: %s copied"
-msgstr ""
+msgstr "فونت: %s کپی شد"
 
 #: Install/Lib/AssetGenerator.php:168
 msgid "File: %s not copied"
-msgstr ""
+msgstr "فایل: %s کپی نشد"
 
 #: Install/Lib/InstallManager.php:38
 msgid "Could not copy database.php file."
-msgstr ""
+msgstr "خطا در کپی  فایل database.php."
 
 #: Install/Lib/InstallManager.php:48
 msgid "Could not write database.php file."
-msgstr ""
+msgstr "خطا در نوشتن فایل database.php."
 
 #: Install/Lib/InstallManager.php:56
 msgid "Could not connect to database: "
-msgstr ""
+msgstr "خطا در اتصال به بانک اطلاعاتی:"
 
 #: Install/Lib/InstallManager.php:59
 msgid "Could not connect to database."
-msgstr ""
+msgstr "خطا در اتصال به بانک اطلاعاتی."
 
 #: Install/View/Install/adminuser.ctp:10
 msgid "Step 3: Create Admin User"
-msgstr ""
+msgstr "مرحله 3: ایجاد کاربر مدیر"
 
 #: Install/View/Install/adminuser.ctp:19
 #: Users/View/Users/admin_reset_password.ctp:31
 msgid "New Password"
-msgstr "Nové heslo"
+msgstr "پسورد جدید"
 
 #: Install/View/Install/data.ctp:6
 msgid "Create tables and load initial data"
-msgstr ""
+msgstr "ایجاد جداول و بارگذاری داده های اولیه"
 
 #: Install/View/Install/data.ctp:12
 msgid "Build database"
-msgstr ""
+msgstr "ساخت بانک اطلاعاتی"
 
 #: Install/View/Install/data.ctp:19
 msgid "Click here to build your database"
-msgstr ""
+msgstr "اینجا کلیک کنید تا بانک اطلاعاتی ساخته شود"
 
 #: Install/View/Install/database.ctp:20
 msgid "Warning"
-msgstr ""
+msgstr "هشدار"
 
 #: Install/View/Install/database.ctp:21
 msgid "A `database.php` file already exists."
-msgstr ""
+msgstr "فایل `database.php`  وجود دارد."
 
 #: Install/View/Install/database.ctp:24
 msgid "Valid"
-msgstr ""
+msgstr "مجاز"
 
 #: Install/View/Install/database.ctp:27
 msgid "Invalid"
-msgstr ""
+msgstr "غیرمجاز"
 
 #: Install/View/Install/database.ctp:30
 msgid "This file is %s."
-msgstr ""
+msgstr "این فایل %s می باشد."
 
 #: Install/View/Install/database.ctp:35
 msgid "Reuse this file and proceed."
-msgstr ""
+msgstr "از این فایل استفاده کن و ادامه بده."
 
 #: Install/View/Install/database.ctp:40
 msgid "This file will be replaced."
-msgstr ""
+msgstr "این فایل جایگزین خواهد شد."
 
 #: Install/View/Install/database.ctp:60
 msgid "Database hostname or IP Address"
-msgstr ""
+msgstr "نام میزبان یاIP بانک اطلاعاتی"
 
 #: Install/View/Install/database.ctp:68
 msgid "Database login/username"
-msgstr ""
+msgstr "نام کاربری / رمز بانک اطلاعاتی"
 
 #: Install/View/Install/database.ctp:75
 msgid "Database password"
-msgstr ""
+msgstr "رمز بانک اطلاعاتی"
 
 #: Install/View/Install/database.ctp:83
 msgid "Database name"
-msgstr ""
+msgstr "نام بانک اطلاعاتی"
 
 #: Install/View/Install/database.ctp:90
 msgid "Table prefix (leave blank if unknown)"
-msgstr ""
+msgstr "پیشوند جدول (اگر نمی دانید خالی بگذارید)"
 
 #: Install/View/Install/database.ctp:97
 msgid "Database port (leave blank if unknown)"
-msgstr ""
+msgstr "پورت بانک اطلاعاتی(اگر نمی دانید خالی بگذارید)"
 
 #: Install/View/Install/finish.ctp:6
 msgid ""
 "\n"
 "\t\tThe user %s has been created with administrative rights."
 msgstr ""
+"\n"
+"\t\t کاربر %s با دسترسی مدیریتی ایجاد شد."
 
 #: Install/View/Install/finish.ctp:13
 msgid "Admin panel: %s"
-msgstr ""
+msgstr "پنل مدیریت:  %s"
 
 #: Install/View/Install/finish.ctp:18
 msgid "You can start with %s or jump in and %s."
-msgstr ""
+msgstr "شما می توانید با %s شروع کنید یا رد شده و %s."
 
 #: Install/View/Install/finish.ctp:19
 msgid "configuring your site"
-msgstr ""
+msgstr "تنظیم سایت"
 
 #: Install/View/Install/finish.ctp:20
 msgid "create a blog post"
-msgstr ""
+msgstr "ایجاد نوشته بلاگ"
 
 #: Install/View/Install/finish.ctp:27
 msgid "Resources"
-msgstr ""
+msgstr "منابع"
 
 #: Install/View/Install/index.ctp:8
 msgid "Your tmp directory is writable."
-msgstr ""
+msgstr "دایرکتوری موقت شما قابل نوشتن هست"
 
 #: Install/View/Install/index.ctp:11
 msgid "Your tmp directory is NOT writable."
-msgstr ""
+msgstr "دایرکتوری موقت شما قابل نوشتن نیست"
 
 #: Install/View/Install/index.ctp:16
 msgid "Your config directory is writable."
-msgstr ""
+msgstr "تنظیمات دایرکتوری قابل نوشتن هست."
 
 #: Install/View/Install/index.ctp:19
 msgid "Your config directory is NOT writable."
-msgstr ""
+msgstr "تنظیمات دایرکتوری قابل نوشتن نیست."
 
 #: Install/View/Install/index.ctp:26
 msgid "PHP version %s %s %s"
-msgstr ""
+msgstr "ورژن PHP %s %s %s"
 
 #: Install/View/Install/index.ctp:29
 msgid "PHP version %s < %s"
-msgstr ""
+msgstr "ورژن PHP %s < %s"
 
 #: Install/View/Install/index.ctp:37
 msgid "CakePhp version %s %s %s"
-msgstr ""
+msgstr "ورژن CakePhp %s %s %s"
 
 #: Install/View/Install/index.ctp:40
 msgid "CakePHP version %s < %s"
-msgstr ""
+msgstr "ورژن CakePhp %s < %s"
 
 #: Install/View/Install/index.ctp:47
 msgid "Install"
-msgstr ""
+msgstr "نصب"
 
 #: Install/View/Install/index.ctp:52
 msgid "Click here to begin installation"
-msgstr ""
+msgstr "شروع نصب"
 
 #: Install/View/Install/index.ctp:57
 msgid "Installation cannot continue as minimum requirements are not met."
-msgstr ""
+msgstr "امکان ادامه عملیات نصب تا فراهم نشدن حداقل نیازمندی ها وجود ندارد."
 
 #: Install/View/Layouts/install.ctp:27
 msgid "Install Croogo"
-msgstr ""
+msgstr "نصب کورگو"
 
 #: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
 #: Menus/View/Links/admin_form.ctp:9 Menus/View/Links/admin_index.ctp:9
 #: Menus/View/Menus/admin_form.ctp:7 Menus/View/Menus/admin_index.ctp:7
 msgid "Menus"
-msgstr "Menu"
+msgstr "منوها"
 
 #: Menus/Controller/LinksController.php:108
 msgid "Links: %s"
-msgstr "Odkazy: %s"
+msgstr "لینکها : %s"
 
 #: Menus/Controller/LinksController.php:137
 msgid "Add Link"
-msgstr "Přidat odkaz"
+msgstr "افزودن لینک"
 
 #: Menus/Controller/LinksController.php:144;188
 msgid "The Link has been saved"
-msgstr "Odkaz byl uložen"
+msgstr "لینک ذخیره شد"
 
 #: Menus/Controller/LinksController.php:156;200
 msgid "The Link could not be saved. Please, try again."
-msgstr "Odkaz nemohl být uložen, zkuste to prosím později"
+msgstr "لینک نمی تواند ذخیره شود، لطفآ دوباره سعی نمایید."
 
 #: Menus/Controller/LinksController.php:175
 msgid "Edit Link"
-msgstr "Upravit Odkaz"
+msgstr "ویرایش لینک"
 
 #: Menus/Controller/LinksController.php:178
 msgid "Invalid Link"
-msgstr "Neplatný odkaz"
+msgstr "لینک نامعتبر"
 
 #: Menus/Controller/LinksController.php:227;235;264;296
 msgid "Invalid id for Link"
-msgstr "Neplatné id pro Odkaz"
+msgstr "کد نامعتبر برای لینک"
 
 #: Menus/Controller/LinksController.php:243
 msgid "Link deleted"
-msgstr "Odkaz smazán"
+msgstr "لینک حذف شد"
 
 #: Menus/Controller/LinksController.php:338
-#, fuzzy
 msgid "Links deleted"
-msgstr "Odkazy smazány"
+msgstr "لینک های حذف شدند"
 
 #: Menus/Controller/LinksController.php:339
 msgid "Links published"
-msgstr "Odkazy zobrazeny"
+msgstr "لینک ها انتشار یافتند"
 
 #: Menus/Controller/LinksController.php:340
 msgid "Links unpublished"
-msgstr "Odkazy schovány"
+msgstr "لینکها منتشر نشدند"
 
 #: Menus/Controller/MenusController.php:82
 msgid "Add Menu"
-msgstr "Přidat Menu"
+msgstr "افزودن منو"
 
 #: Menus/Controller/MenusController.php:87;111
 msgid "The Menu has been saved"
-msgstr "Menu bylo uloženo"
+msgstr "منو ذخیره شد"
 
 #: Menus/Controller/MenusController.php:90;114
 msgid "The Menu could not be saved. Please, try again."
-msgstr "Menu nemohlo být uloženo. Zkuste to prosím později"
+msgstr "منو نمی تواند ذخیره شود، لطفآ دوباره سعی نمایید."
 
 #: Menus/Controller/MenusController.php:103
 msgid "Edit Menu"
-msgstr "Upravit Menu"
+msgstr "ویرایش منو"
 
 #: Menus/Controller/MenusController.php:106
 msgid "Invalid Menu"
-msgstr "Chybné menu"
+msgstr "منوی نامعتبر"
 
 #: Menus/Controller/MenusController.php:131
 msgid "Invalid id for Menu"
-msgstr "Chybné id Menu"
+msgstr "کد نامعتبر برای منو"
 
 #: Menus/Controller/MenusController.php:135
 msgid "Menu deleted"
-msgstr "Menu smazáno"
+msgstr "منو حذف شد"
 
 #: Menus/View/Links/admin_form.ctp:51;74
 msgid "Link"
-msgstr ""
+msgstr "لینک"
 
 #: Menus/View/Links/admin_form.ctp:53 Menus/View/Menus/admin_form.ctp:21
 msgid "Misc."
-msgstr ""
+msgstr "متفرقه"
 
 #: Menus/View/Links/admin_form.ctp:62 Menus/View/Menus/admin_form.ctp:20
 msgid "Menu"
-msgstr ""
+msgstr "منو"
 
 #: Menus/View/Links/admin_form.ctp:80
 msgid "Link Chooser"
-msgstr ""
+msgstr "انتخابگر لینک"
 
 #: Menus/View/Links/admin_form.ctp:102
 msgid "Rel"
-msgstr ""
+msgstr "REl"
 
 #: Menus/View/Links/admin_form.ctp:105
 msgid "Target"
-msgstr ""
+msgstr "Target"
 
 #: Menus/View/Links/admin_form.ctp:148
 msgid "Choose Link"
-msgstr ""
+msgstr "انتخاب لینک"
 
 #: Menus/View/Links/admin_index.ctp:78
 msgid "Create a copy of this Link?"
-msgstr ""
+msgstr "ایجاد کپی از این لینک"
 
 #: Menus/View/Links/admin_index.ctp:85
 msgid "Delete this item"
-msgstr ""
+msgstr "حذف این آیتم"
 
 #: Menus/View/Links/admin_link_chooser.ctp:12
 msgid "Link to %s"
-msgstr ""
+msgstr "لینک به %s"
 
 #: Menus/View/Menus/admin_index.ctp:15
 msgid "Link Count"
-msgstr ""
+msgstr "تعداد لینک"
 
 #: Menus/View/Menus/admin_index.ctp:29
 msgid "View links"
-msgstr ""
+msgstr "مشاهده لینکها"
 
 #: Meta/Controller/Component/MetaComponent.php:47
 msgid "Custom Fields"
-msgstr ""
+msgstr "فیلدهای دلخواه"
 
 #: Meta/View/Elements/admin/meta_tab.ctp:19
 msgid "Add another field"
-msgstr ""
+msgstr "افزودن فیلد دیگر"
 
 #: Meta/View/Helper/MetaHelper.php:98 Settings/View/Settings/admin_form.ctp:35
 #: Settings/View/Settings/admin_index.ctp:19
 #: Settings/View/Settings/admin_view.ctp:9
 msgid "Key"
-msgstr ""
+msgstr "کلید"
 
 #: Meta/View/Helper/MetaHelper.php:102
 #: Settings/View/Settings/admin_form.ctp:38
 #: Settings/View/Settings/admin_index.ctp:20
 #: Settings/View/Settings/admin_view.ctp:14
 msgid "Value"
-msgstr ""
+msgstr "مقدار"
 
 #: Meta/View/Helper/MetaHelper.php:129
 msgid "Remove"
-msgstr ""
+msgstr "حذف"
 
 #: Nodes/Config/admin_menu.php:15 Taxonomy/Config/admin_menu.php:25
 msgid "List"
-msgstr "Procházet"
+msgstr "لیست"
 
 #: Nodes/Controller/NodesController.php:145
 msgid "Type must be specified"
-msgstr ""
+msgstr "نوع باید تعیین شود"
 
 #: Nodes/Controller/NodesController.php:226
 #: Nodes/View/Nodes/admin_index.ctp:12
 msgid "Create content"
-msgstr "Vytvořit obsah"
+msgstr "ایجاد محتوا"
 
 #: Nodes/Controller/NodesController.php:247
 msgid "Content type does not exist."
-msgstr "Typ obsahu neexistuje"
+msgstr "نوع محتوا وجود ندارد"
 
 #: Nodes/Controller/NodesController.php:258;299
 msgid "%s has been saved"
-msgstr "%s byl uložen"
+msgstr "%s ذخیره شد"
 
 #: Nodes/Controller/NodesController.php:261;302
 msgid "%s could not be saved. Please, try again."
-msgstr "%s nemohl být uložen. Zkuste to prosím znovu"
+msgstr "%s نمی تواند ذخیره شود،  لطفآ دوباره سعی نمایید."
 
 #: Nodes/Controller/NodesController.php:268
 msgid "Create content: %s"
-msgstr "Vytvořit obsah: %s"
+msgstr "ایجاد محتوا: %s"
 
 #: Nodes/Controller/NodesController.php:315
 msgid "Edit %s: %s"
-msgstr ""
+msgstr "ویرایش : %s: %s"
 
 #: Nodes/Controller/NodesController.php:328
 msgid "Paths updated."
-msgstr "Cesty byly aktualizovány"
+msgstr "آدرس ها به روزرسانی شد."
 
 #: Nodes/Controller/NodesController.php:331
 msgid ""
 "Something went wrong while updating paths.\n"
 "Please try again"
 msgstr ""
+"خطا در به روز رسانی آدرس ها\n"
+" لطفآ دوباره سعی نمایید."
 
 #: Nodes/Controller/NodesController.php:348
 msgid "Invalid id for Node"
-msgstr "Neplatné ID pro článek"
+msgstr "کد نامعتبر برای گره"
 
 #: Nodes/Controller/NodesController.php:354
 msgid "Node deleted"
-msgstr "Článek byl smazán"
+msgstr "گره حذف شد"
 
 #: Nodes/Controller/NodesController.php:409
 msgid "%s deleted"
-msgstr ""
+msgstr "%s حذف شده"
 
 #: Nodes/Controller/NodesController.php:410
 msgid "%s published"
-msgstr ""
+msgstr "%s منشر شده"
 
 #: Nodes/Controller/NodesController.php:411
 msgid "%s unpublished"
-msgstr ""
+msgstr "%s منتشر نشده"
 
 #: Nodes/Controller/NodesController.php:412
 msgid "%s promoted"
-msgstr ""
+msgstr "%s ارتقا یافته"
 
 #: Nodes/Controller/NodesController.php:413
 msgid "%s unpromoted"
-msgstr ""
+msgstr "%s ارتقا نیافته"
 
 #: Nodes/Controller/NodesController.php:414
 msgid "%s copied"
-msgstr ""
+msgstr "%s کپی شده"
 
 #: Nodes/Controller/NodesController.php:467;568;640;703
 msgid "Invalid content type."
-msgstr "Neplatný typ obsahu"
+msgstr "نوع محتوای نامعتبر"
 
 #: Nodes/Controller/NodesController.php:525
 msgid "Invalid Term."
-msgstr "Neplatný termín"
+msgstr "قانون نامعتبر"
 
 #: Nodes/Controller/NodesController.php:619
 msgid "Home"
-msgstr ""
+msgstr "خانه"
 
 #: Nodes/View/Elements/node_info.ctp:6
 msgid "Posted"
-msgstr ""
+msgstr "نوشته شده"
 
 #: Nodes/View/Elements/node_info.ctp:20
 msgid "on"
-msgstr ""
+msgstr "فعال"
 
 #: Nodes/View/Elements/node_more_info.ctp:18
 msgid "Posted in"
-msgstr ""
+msgstr "نوشته شده در"
 
 #: Nodes/View/Elements/node_more_info.ctp:29
 msgid "Leave a comment"
-msgstr ""
+msgstr "درج نظر"
 
 #: Nodes/View/Elements/admin/nodes_search.ctp:31
 #: Nodes/View/Nodes/admin_hierarchy.ctp:38 Nodes/View/Nodes/admin_index.ctp:33
@@ -2885,73 +2910,73 @@ msgstr ""
 #: Taxonomy/View/Types/admin_form.ctp:20
 #: Taxonomy/View/Vocabularies/admin_form.ctp:46
 msgid "Type"
-msgstr ""
+msgstr "نوع"
 
 #: Nodes/View/Nodes/admin_form.ctp:80 Taxonomy/View/Terms/admin_chooser.ctp:7
 #: Taxonomy/View/Terms/admin_form.ctp:47
 #: Taxonomy/View/Terms/admin_index.ctp:28
 msgid "Slug"
-msgstr "Zkratka"
+msgstr "لینک"
 
 #: Nodes/View/Nodes/admin_form.ctp:83
 msgid "Excerpt"
-msgstr ""
+msgstr "فیلتر کردن"
 
 #: Nodes/View/Nodes/admin_form.ctp:117
 msgid "Promoted to front page"
-msgstr ""
+msgstr "ارتقا به  front page"
 
 #: Nodes/View/Nodes/admin_form.ctp:121
 msgid "Publish as "
-msgstr ""
+msgstr "انتشار به عنوان"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:39 Nodes/View/Nodes/admin_index.ctp:34
 #: Users/View/Users/admin_form.ctp:37
 msgid "User"
-msgstr "Uživatel"
+msgstr "کاربر"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:67 Nodes/View/Nodes/admin_index.ctp:62
 msgid "promoted"
-msgstr ""
+msgstr "ارتقا یافته"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:126
 #: Nodes/View/Nodes/admin_index.ctp:127
 msgid "Applying to selected"
-msgstr ""
+msgstr "اعمال به انتخاب شده"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:131
 #: Nodes/View/Nodes/admin_index.ctp:132
 msgid "Promote"
-msgstr "Zveřejnit"
+msgstr "ارتقا"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:132
 #: Nodes/View/Nodes/admin_index.ctp:133
 msgid "Unpromote"
-msgstr ""
+msgstr "عدم ارتقا"
 
 #: Nodes/View/Nodes/admin_hierarchy.ctp:151
 #: Nodes/View/Nodes/admin_index.ctp:152
 msgid "%s selected items?"
-msgstr ""
+msgstr "%s موارد انتخاب شده؟"
 
 #: Nodes/View/Nodes/admin_translations.ctp:8
 #: Translate/View/Translate/admin_index.ctp:36
 msgid "Translate in a new language"
-msgstr ""
+msgstr "ترجمه در زبان جدید"
 
 #: Nodes/View/Nodes/admin_translations.ctp:49
 #: Translate/View/Translate/admin_index.ctp:72
 msgid "No translations available."
-msgstr ""
+msgstr "ترجمه ای وجود ندارد"
 
 #: Nodes/View/Nodes/index.ctp:4 Nodes/View/Nodes/promoted.ctp:4
 #: Nodes/View/Nodes/search.ctp:11 Nodes/View/Nodes/term.ctp:6
 msgid "No items found."
-msgstr ""
+msgstr "موردی پیدا نشد"
 
 #: Nodes/View/Nodes/search.ctp:3
 msgid "Search Results: %s"
-msgstr "Výsledky vyhledávání: %s"
+msgstr "نتایج جستو: %s"
 
 #: Settings/Config/admin_menu.php:5
 #: Settings/Controller/SettingsController.php:68
@@ -2962,325 +2987,324 @@ msgstr "Výsledky vyhledávání: %s"
 #: Settings/View/Settings/admin_index.ctp:7
 #: Settings/View/Settings/admin_prefix.ctp:6
 msgid "Settings"
-msgstr ""
+msgstr "تنظیمات"
 
 #: Settings/Config/admin_menu.php:16
 msgid "Site"
-msgstr ""
+msgstr "سایت"
 
 #: Settings/Config/admin_menu.php:28
 msgid "Meta"
-msgstr ""
+msgstr "متا"
 
 #: Settings/Config/admin_menu.php:40
 msgid "Reading"
-msgstr ""
+msgstr "خواندن"
 
 #: Settings/Config/admin_menu.php:52
 msgid "Writing"
-msgstr ""
+msgstr "نوشتن"
 
 #: Settings/Config/admin_menu.php:76
 msgid "Service"
-msgstr ""
+msgstr "سرویس"
 
 #: Settings/Config/admin_menu.php:88
 #: Settings/Controller/LanguagesController.php:40
 #: Settings/View/Languages/admin_index.ctp:7
 #: Settings/View/Languages/admin_select.ctp:8
 msgid "Languages"
-msgstr "Jazyky"
+msgstr "زبان ها"
 
 #: Settings/Console/Command/SettingsShell.php:33
 msgid "Displays setting values"
-msgstr ""
+msgstr "نمایش مقادیر تنظیمات"
 
 #: Settings/Console/Command/SettingsShell.php:37;55;93
 msgid "Setting key"
-msgstr ""
+msgstr "کلید تنظیمات"
 
 #: Settings/Console/Command/SettingsShell.php:43
 msgid "List all settings"
-msgstr ""
+msgstr "لیست همه تنظیمات"
 
 #: Settings/Console/Command/SettingsShell.php:51
 msgid "Write setting value for a given key"
-msgstr ""
+msgstr "نوشتن مقدار برای کلید"
 
 #: Settings/Console/Command/SettingsShell.php:59
 msgid "Setting value"
-msgstr ""
+msgstr "مقدار تنظیم"
 
 #: Settings/Console/Command/SettingsShell.php:89
 msgid "Delete setting based on key"
-msgstr ""
+msgstr "حذف تنظیم براساس کلید"
 
 #: Settings/Console/Command/SettingsShell.php:100
 msgid "Update version string from git tag information"
-msgstr ""
+msgstr "متن ورژن به روز رسانی از تگ اطلاعاتی GIT"
 
 #: Settings/Console/Command/SettingsShell.php:129
 msgid "    %-30s: %s"
-msgstr ""
+msgstr "    %-30s: %s"
 
 #: Settings/Console/Command/SettingsShell.php:150
 msgid "Updating %s"
-msgstr ""
+msgstr "به روز رسانی %s"
 
 #: Settings/Console/Command/SettingsShell.php:151
 msgid "Confirm update"
-msgstr ""
+msgstr "تایید به روزرسانی"
 
 #: Settings/Console/Command/SettingsShell.php:166
 msgid "Setting updated"
-msgstr ""
+msgstr "تنظیمات به روز شد"
 
 #: Settings/Console/Command/SettingsShell.php:168;196
 msgid "Cancelled"
-msgstr ""
+msgstr "لغو شده"
 
 #: Settings/Console/Command/SettingsShell.php:171;199
 msgid "Key: %s not found"
-msgstr ""
+msgstr "کلید: %s پیدا نشد"
 
 #: Settings/Console/Command/SettingsShell.php:189
 msgid "Deleting %s"
-msgstr ""
+msgstr "حذف %s"
 
 #: Settings/Console/Command/SettingsShell.php:190
 msgid "Delete?"
-msgstr ""
+msgstr "حذف؟"
 
 #: Settings/Console/Command/SettingsShell.php:194
 #: Settings/Controller/SettingsController.php:152
 msgid "Setting deleted"
-msgstr ""
+msgstr "تنظم حذف شد"
 
 #: Settings/Controller/LanguagesController.php:54
 msgid "Add Language"
-msgstr "Přidat jazyk"
+msgstr "افزودن زبان"
 
 #: Settings/Controller/LanguagesController.php:59;83
 msgid "The Language has been saved"
-msgstr "Jazyk byl uložen"
+msgstr "زبان ذخیره شد"
 
 #: Settings/Controller/LanguagesController.php:62;86
 msgid "The Language could not be saved. Please, try again."
-msgstr "Jazyk nemohl být uložen. Zkuste to prosím znovu"
+msgstr "امکان ذخیره زبان وجود ندارد، لطفاً دوباره سعی نمایید."
 
 #: Settings/Controller/LanguagesController.php:75
 msgid "Edit Language"
-msgstr "Upravit jazyk"
+msgstr "ویرایش زبان"
 
 #: Settings/Controller/LanguagesController.php:78
 #: Translate/Controller/TranslateController.php:134
 msgid "Invalid Language"
-msgstr "Neplatný jazyk"
+msgstr "زبان نامعتبر"
 
 #: Settings/Controller/LanguagesController.php:103
 msgid "Invalid id for Language"
-msgstr "Neplatné id Jazyka"
+msgstr "کد نامعتبر برای زبان"
 
 #: Settings/Controller/LanguagesController.php:107
 msgid "Language deleted"
-msgstr "jazyk byl smazán"
+msgstr "زبان حذف شد"
 
 #: Settings/Controller/LanguagesController.php:162
 msgid "Select a language"
-msgstr "Vyberte jazyk"
+msgstr "یک زبان را انتخاب کنید"
 
 #: Settings/Controller/SettingsController.php:86
 msgid "Invalid Setting."
-msgstr ""
+msgstr "تنظیمات نامعتبر."
 
 #: Settings/Controller/SettingsController.php:99
 msgid "Add Setting"
-msgstr ""
+msgstr "افزودن تنظیمات"
 
 #: Settings/Controller/SettingsController.php:104;128
 msgid "The Setting has been saved"
-msgstr ""
+msgstr "تنظیمات ذخیره شد"
 
 #: Settings/Controller/SettingsController.php:107;131
 msgid "The Setting could not be saved. Please, try again."
-msgstr ""
+msgstr "امکان ذخیره تنظیمات وجود ندارد، لطفاً دوباره سعی نمایید."
 
 #: Settings/Controller/SettingsController.php:120
 #: Settings/View/Settings/admin_view.ctp:43
 msgid "Edit Setting"
-msgstr ""
+msgstr "ویرایش تنظیمات"
 
 #: Settings/Controller/SettingsController.php:123
 msgid "Invalid Setting"
-msgstr ""
+msgstr "تنظیمات نامعتبر"
 
 #: Settings/Controller/SettingsController.php:148
 msgid "Invalid id for Setting"
-msgstr ""
+msgstr "کد نامعتبر برای تنظیمات"
 
 #: Settings/Controller/SettingsController.php:165
 msgid "Settings: %s"
-msgstr ""
+msgstr "تنظیمات: %s"
 
 #: Settings/Controller/SettingsController.php:169
 msgid "Settings updated successfully"
-msgstr ""
+msgstr "تنظیمات با موفقیت به روز رسانی شد"
 
 #: Settings/Controller/SettingsController.php:183
 msgid "Invalid Setting key"
-msgstr ""
+msgstr "کلید تنظیم نامعتبر"
 
 #: Settings/Test/Case/Controller/LanguagesControllerTest.php:135;158
 msgid "Could not add a new language."
-msgstr ""
+msgstr "نمی توان یک زبان جدید اضافه کرد."
 
 #: Settings/View/Languages/admin_form.ctp:8;25
 msgid "Language"
-msgstr ""
+msgstr "زبان"
 
 #: Settings/View/Languages/admin_form.ctp:38
 #: Settings/View/Languages/admin_index.ctp:17
 msgid "Native"
-msgstr ""
+msgstr "محلی"
 
 #: Settings/View/Languages/admin_select.ctp:12
 msgid "New Language"
-msgstr ""
+msgstr "زبان جدید"
 
 #: Settings/View/Settings/admin_form.ctp:27
 msgid "Misc"
-msgstr ""
+msgstr "متفرقه"
 
 #: Settings/View/Settings/admin_form.ctp:34
 msgid "e.g., 'Site.title'"
-msgstr ""
+msgstr "مثال  'Site.title'"
 
 #: Settings/View/Settings/admin_form.ctp:50
 #: Settings/View/Settings/admin_view.ctp:24
 msgid "Input Type"
-msgstr ""
+msgstr "نوع ورودی"
 
 #: Settings/View/Settings/admin_form.ctp:51
 msgid "e.g., 'text' or 'textarea'"
-msgstr ""
+msgstr "مثال text' یا 'textarea'"
 
 #: Settings/View/Settings/admin_form.ctp:54
 #: Settings/View/Settings/admin_index.ctp:21
 msgid "Editable"
-msgstr ""
+msgstr "قابل ویرایش"
 
 #: Settings/View/Settings/admin_prefix.ctp:53
 msgid "Saving"
-msgstr ""
+msgstr "در حال ذخیره"
 
 #: Settings/View/Settings/admin_view.ctp:2
 msgid "Setting"
-msgstr ""
+msgstr "تنظیمات"
 
 #: Settings/View/Settings/admin_view.ctp:29
 msgid "Weight"
-msgstr ""
+msgstr "وزن"
 
 #: Settings/View/Settings/admin_view.ctp:44
 msgid "Delete Setting"
-msgstr ""
+msgstr "حذف تنظیم"
 
 #: Settings/View/Settings/admin_view.ctp:45
 msgid "List Settings"
-msgstr ""
+msgstr "لیست تنظیمات"
 
 #: Settings/View/Settings/admin_view.ctp:46
 msgid "New Setting"
-msgstr ""
+msgstr "تنظیم جدید"
 
 #: Taxonomy/Config/admin_menu.php:4
-#, fuzzy
 msgid "Content Types"
-msgstr "Obsah"
+msgstr "نوع محتوا"
 
 #: Taxonomy/Config/admin_menu.php:15 Taxonomy/View/Types/admin_form.ctp:21
 msgid "Taxonomy"
-msgstr ""
+msgstr "دسته بندی"
 
 #: Taxonomy/Config/admin_menu.php:35
 msgid "Add new"
-msgstr "Přidat nový"
+msgstr "افزودن جدید"
 
 #: Taxonomy/Controller/TermsController.php:67
 msgid "Vocabulary: %s"
-msgstr ""
+msgstr "لغت: %s"
 
 #: Taxonomy/Controller/TermsController.php:89
 msgid "%s: Add Term"
-msgstr ""
+msgstr "%s: افزودن دسته"
 
 #: Taxonomy/Controller/TermsController.php:93;136
 msgid "Term saved successfuly."
-msgstr ""
+msgstr "دسته با موفقیت ذخیره شد."
 
 #: Taxonomy/Controller/TermsController.php:99;146
 msgid "Term could not be added to the vocabulary. Please try again."
-msgstr ""
+msgstr "امکان افزودن دسته به لغت وجود ندارد، دوباره سعی نمایید."
 
 #: Taxonomy/Controller/TermsController.php:132
 msgid "%s: Edit Term"
-msgstr ""
+msgstr "%s: ویرایش دسته"
 
 #: Taxonomy/Controller/TermsController.php:172
 msgid "Term deleted"
-msgstr ""
+msgstr "دسته حذف شد"
 
 #: Taxonomy/Controller/TermsController.php:175
 msgid "Term could not be deleted. Please, try again."
-msgstr ""
+msgstr "امکان حذف وجود ندارد. دوباره سعی نمایید"
 
 #: Taxonomy/Controller/TermsController.php:229
 msgid "Moved %s successfully"
-msgstr ""
+msgstr "%s با موفقیت انتقال یافت"
 
 #: Taxonomy/Controller/TermsController.php:232
 msgid "Could not move %s"
-msgstr ""
+msgstr "%s نمی تواند منتقل شود"
 
 #: Taxonomy/Controller/TermsController.php:265
 msgid "Invalid Term ID."
-msgstr ""
+msgstr "کد دسته نامعتبر."
 
 #: Taxonomy/Controller/TermsController.php:281
 msgid "Invalid Taxonomy."
-msgstr ""
+msgstr "دسته بندی نامتبر."
 
 #: Taxonomy/Controller/TermsController.php:300
 msgid "Invalid Vocabulary ID."
-msgstr ""
+msgstr "کد لغت نامعتبر."
 
 #: Taxonomy/Controller/TypesController.php:68
 msgid "Add Type"
-msgstr ""
+msgstr "افزودن نوع"
 
 #: Taxonomy/Controller/TypesController.php:73;100
 msgid "The Type has been saved"
-msgstr ""
+msgstr "نوع ذخیره شد"
 
 #: Taxonomy/Controller/TypesController.php:76;103
 msgid "The Type could not be saved. Please, try again."
-msgstr ""
+msgstr "نوع ذخیره نشد، دوباره سعی نمایید."
 
 #: Taxonomy/Controller/TypesController.php:92
 msgid "Edit Type"
-msgstr ""
+msgstr "ویرایش نوع"
 
 #: Taxonomy/Controller/TypesController.php:95
 msgid "Invalid Type"
-msgstr ""
+msgstr "نوع نامعتبر"
 
 #: Taxonomy/Controller/TypesController.php:123
 msgid "Invalid id for Type"
-msgstr ""
+msgstr "کد نامعتبر برای نوع"
 
 #: Taxonomy/Controller/TypesController.php:127
 msgid "Type deleted"
-msgstr ""
+msgstr "نوع حذف شد"
 
 #: Taxonomy/Controller/VocabulariesController.php:40
 #: Taxonomy/View/Terms/admin_form.ctp:12;19
@@ -3288,404 +3312,407 @@ msgstr ""
 #: Taxonomy/View/Vocabularies/admin_form.ctp:11;17
 #: Taxonomy/View/Vocabularies/admin_index.ctp:8
 msgid "Vocabularies"
-msgstr ""
+msgstr "لغات"
 
 #: Taxonomy/Controller/VocabulariesController.php:54
 msgid "Add Vocabulary"
-msgstr ""
+msgstr "افزودن لغت"
 
 #: Taxonomy/Controller/VocabulariesController.php:59;86
 msgid "The Vocabulary has been saved"
-msgstr ""
+msgstr "لغت ذخیره شد"
 
 #: Taxonomy/Controller/VocabulariesController.php:62;89
 msgid "The Vocabulary could not be saved. Please, try again."
-msgstr ""
+msgstr "لغت نمی تواند ذخیره شود، لطفاً دوباره سعی نمایید."
 
 #: Taxonomy/Controller/VocabulariesController.php:78
 msgid "Edit Vocabulary"
-msgstr ""
+msgstr "ویرایش لغت"
 
 #: Taxonomy/Controller/VocabulariesController.php:81
 msgid "Invalid Vocabulary"
-msgstr ""
+msgstr "لغت نامعتبر"
 
 #: Taxonomy/Controller/VocabulariesController.php:113
 msgid "Invalid id for Vocabulary"
-msgstr ""
+msgstr "کد نامعتبر برای لغت"
 
 #: Taxonomy/Controller/VocabulariesController.php:117
 msgid "Vocabulary deleted"
-msgstr ""
+msgstr "لغت حذف شد"
 
 #: Taxonomy/Model/Term.php:178
 msgid "Invalid Term Id"
-msgstr ""
+msgstr "کد دسته نامعتبر."
 
 #: Taxonomy/Model/Term.php:235
 msgid "\"vocabulary_id\" key not found"
-msgstr ""
+msgstr "کلید \"vocabulary_id\" پیدا نشد"
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:137
 msgid "Please select at least 1 value"
-msgstr ""
+msgstr "لطفاً حداقل یک مقدار انتخاب نمایید."
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:138
 msgid "Please select at most 1 value"
-msgstr ""
+msgstr "لطفاً حداکثر یک مقدار انتخاب نمایید."
 
 #: Taxonomy/Model/Behavior/TaxonomizableBehavior.php:177
 msgid "Invalid Content Type"
-msgstr ""
+msgstr "نوع محتوای نامعتبر"
 
 #: Taxonomy/View/Helper/TaxonomiesHelper.php:61
 msgid "Terms"
-msgstr ""
+msgstr "قوانین"
 
 #: Taxonomy/View/Terms/admin_form.ctp:29
 msgid "Term"
-msgstr ""
+msgstr "قانون"
 
 #: Taxonomy/View/Terms/admin_index.ctp:13
 msgid "New Term"
-msgstr ""
+msgstr "قانون جدید"
 
 #: Taxonomy/View/Types/admin_form.ctp:7 Taxonomy/View/Types/admin_index.ctp:8
 msgid "Types"
-msgstr ""
+msgstr "انواع"
 
 #: Taxonomy/View/Types/admin_form.ctp:41
 msgid "Enable Wysiwyg Editor"
-msgstr ""
+msgstr "فعال سازی ویرایشگر Wysiwyg"
 
 #: Taxonomy/View/Types/admin_form.ctp:50
 #: Taxonomy/View/Vocabularies/admin_form.ctp:26
 msgid "Vocabulary"
-msgstr "Slovní zásoba"
+msgstr "لغت"
 
 #: Taxonomy/View/Types/admin_form.ctp:109
 msgid "Show author's name"
-msgstr "Ukázat autorovo jméno"
+msgstr "نمایش نام نویسنده"
 
 #: Taxonomy/View/Types/admin_form.ctp:112
 msgid "Show date"
-msgstr "Ukázat datum"
+msgstr "نمایش تاریخ"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:27
 msgid "Options"
-msgstr "Nastavení"
+msgstr "تنظیمات"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:52
 msgid "Required"
-msgstr ""
+msgstr "الزامی"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:55
 msgid "Multiple"
-msgstr ""
+msgstr "چندین"
 
 #: Taxonomy/View/Vocabularies/admin_form.ctp:58
 msgid "Tags"
-msgstr ""
+msgstr "برچسپ ها"
 
 #: Taxonomy/View/Vocabularies/admin_index.ctp:30
 msgid "View terms"
-msgstr "Prohlížet termíny"
+msgstr "نمایش قوانین"
 
 #: Translate/Controller/TranslateController.php:45;107
 msgid "Invalid ID."
-msgstr ""
+msgstr "کد نامعتبر"
 
 #: Translate/Controller/TranslateController.php:57;203
 msgid "Invalid model."
-msgstr ""
+msgstr "مدل نامعتبر"
 
 #: Translate/Controller/TranslateController.php:69;146;214
 msgid "Invalid record."
-msgstr ""
+msgstr "رکورد نامعتبر"
 
 #: Translate/Controller/TranslateController.php:76
 msgid "Translations: %s"
-msgstr ""
+msgstr "ترجمه های: %s"
 
 #: Translate/Controller/TranslateController.php:116
 msgid "Invalid locale"
-msgstr ""
+msgstr "منطقه نامعتبر"
 
 #: Translate/Controller/TranslateController.php:153
 msgid "Translate content: %s (%s)"
-msgstr ""
+msgstr "محتوای ترجمه: %s (%s)"
 
 #: Translate/Controller/TranslateController.php:160
 msgid "Record has been translated"
-msgstr ""
+msgstr "رکورد ترجمه شد"
 
 #: Translate/Controller/TranslateController.php:172
 msgid "Record could not be translated. Please, try again."
-msgstr ""
+msgstr "امکان ترجمه رکورد وجود ندارد، لطفاً دوباره سعی نمایید."
 
 #: Translate/Controller/TranslateController.php:191
 msgid "Invalid Locale or ID"
-msgstr ""
+msgstr "منطقه یا کد نامعتبر"
 
 #: Translate/Controller/TranslateController.php:229
 msgid "Translation for the locale deleted successfully."
-msgstr ""
+msgstr "ترجمه برای منطقه مورد نظر با موفقیت حذف شد."
 
 #: Translate/Controller/TranslateController.php:231
 msgid "Translation for the locale could not be deleted."
-msgstr ""
+msgstr "امکان حذف ترجمه منطقه مورد نظر وجود ندارد."
 
 #: Translate/Lib/Translations.php:22;27
 #: Translate/View/Translate/admin_edit.ctp:19;33
 msgid "Translate"
-msgstr "Přeložit"
+msgstr "ترجمه"
 
 #: Translate/Model/Behavior/CroogoTranslateBehavior.php:56
 msgid "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-msgstr ""
+msgstr "منبع داده  %s برای CroogoTranslateBehavior از مدل %s متصل نشده است."
 
 #: Translate/View/Translate/admin_edit.ctp:10
 #: Translate/View/Translate/admin_index.ctp:31
 msgid "Translations"
-msgstr ""
+msgstr "ترجمه ها"
 
 #: Users/Config/admin_menu.php:25 Users/Controller/RolesController.php:40
 #: Users/View/Roles/admin_form.ctp:8 Users/View/Roles/admin_index.ctp:7
 msgid "Roles"
-msgstr "Role"
+msgstr "نقش ها"
 
 #: Users/Config/bootstrap.php:28 Users/View/Users/admin_form.ctp:25
 msgid "Reset password"
-msgstr "Reset hesla"
+msgstr "ریست رمز"
 
 #: Users/Console/Command/UsersShell.php:20
 msgid "Reset user password"
-msgstr ""
+msgstr "ریست رمز کاربر"
 
 #: Users/Console/Command/UsersShell.php:25
 msgid "Username to reset"
-msgstr ""
+msgstr "نام کاربری برای ریست"
 
 #: Users/Console/Command/UsersShell.php:29
 msgid "New user password"
-msgstr ""
+msgstr "پسورد جدید کاربر"
 
 #: Users/Console/Command/UsersShell.php:45
 msgid "User '%s' not found"
-msgstr ""
+msgstr "کاربر '%s' پیدا نشد"
 
 #: Users/Console/Command/UsersShell.php:50
 msgid "Password for '%s' has been changed"
-msgstr ""
+msgstr "رمز '%s' تغییر یافته است"
 
 #: Users/Controller/RolesController.php:55
 msgid "Add Role"
-msgstr "Přidat Roli"
+msgstr "افزودن نقش"
 
 #: Users/Controller/RolesController.php:60;84
 msgid "The Role has been saved"
-msgstr "Role byla uložena"
+msgstr "نقش ذخیره شد."
 
 #: Users/Controller/RolesController.php:63;87
 msgid "The Role could not be saved. Please, try again."
-msgstr "Role nemohla být uložena, zkuste to prosím později"
+msgstr "نقش نمی تواند ذخیره شود، لطفا دوباره سعی نمایید."
 
 #: Users/Controller/RolesController.php:76
 msgid "Edit Role"
-msgstr "Upravit Roli"
+msgstr "ویرایش نقش"
 
 #: Users/Controller/RolesController.php:79
 msgid "Invalid Role"
-msgstr "Neplatná Role"
+msgstr "نقش نامعتبر"
 
 #: Users/Controller/RolesController.php:104
 msgid "Invalid id for Role"
-msgstr "Neplatné ID pro Roli"
+msgstr "کد نامعتبر برای نقش"
 
 #: Users/Controller/RolesController.php:108
 msgid "Role deleted"
-msgstr "Role byla smazána"
+msgstr "نقش حذف شد"
 
 #: Users/Controller/UsersController.php:77
 msgid ""
 "You have reached maximum limit for failed login attempts. Please try again "
 "after a few minutes."
 msgstr ""
+"شما از حد مجاز خطا در ورود عبور کردید، لطفاً بعد از چند دقیقه دوباره سعی "
+"نمایید."
 
 #: Users/Controller/UsersController.php:146;362
 msgid "[%s] Please activate your account"
-msgstr ""
+msgstr "[%s] لطفاً حساب خود را فعال نمایید."
 
 #: Users/Controller/UsersController.php:171;194
 msgid "The User has been saved"
-msgstr ""
+msgstr "کاربر ذخیره شد"
 
 #: Users/Controller/UsersController.php:174;197;373
 msgid "The User could not be saved. Please, try again."
-msgstr ""
+msgstr "کاربر نمی تواند ذخیره گردد، لطفاً دوباره سعی نمایید."
 
 #: Users/Controller/UsersController.php:216
 msgid "Invalid User"
-msgstr ""
+msgstr "کاربر نامعتبر"
 
 #: Users/Controller/UsersController.php:221
 msgid "Password has been reset."
-msgstr ""
+msgstr "رمز عبور ریست شده است."
 
 #: Users/Controller/UsersController.php:224
 msgid "Password could not be reset. Please, try again."
-msgstr ""
+msgstr "رمز عبور نمی تواند ریست شود، لطفاً دوباره سعی نمایید."
 
 #: Users/Controller/UsersController.php:239
 msgid "Invalid id for User"
-msgstr ""
+msgstr "کد نامعتبر برای کاربر"
 
 #: Users/Controller/UsersController.php:243
 msgid "User deleted"
-msgstr ""
+msgstr "کاربر حذف شده است"
 
 #: Users/Controller/UsersController.php:246
 msgid "User cannot be deleted"
-msgstr ""
+msgstr "کاربر نمی تواند حذف شود"
 
 #: Users/Controller/UsersController.php:258
 msgid "Admin Login"
-msgstr ""
+msgstr "ورود مدیر"
 
 #: Users/Controller/UsersController.php:263
 msgid "You are already logged in"
-msgstr ""
+msgstr "شما وارد شدید در"
 
 #: Users/Controller/UsersController.php:276
 msgid "Incorrect username or password"
-msgstr ""
+msgstr "نام کاربری یا پسورد نامعتبر"
 
 #: Users/Controller/UsersController.php:291;557
 msgid "Log out successful."
-msgstr ""
+msgstr "خروج موفق"
 
 #: Users/Controller/UsersController.php:346
 msgid "Register"
-msgstr ""
+msgstr "ثبت نام"
 
 #: Users/Controller/UsersController.php:369
 msgid ""
 "You have successfully registered an account. An email has been sent with "
 "further instructions."
 msgstr ""
+"حساب کاربری شما با موفقیت ایجاد شد. یک ایمیل با دستورالعمل های دیگر ارسال شد."
 
 #: Users/Controller/UsersController.php:393 Users/View/Users/index.ctp:4
 msgid "You are currently logged in as:"
-msgstr "Právě přihlášen:"
+msgstr "وارد شده به عنوان:"
 
 #: Users/Controller/UsersController.php:424
 msgid "Account activated successfully."
-msgstr ""
+msgstr "حساب کاربری با موفقیت فعال شد."
 
 #: Users/Controller/UsersController.php:451
 msgid "Forgot Password"
-msgstr ""
+msgstr "فراموشی رمز"
 
 #: Users/Controller/UsersController.php:456
 msgid "Invalid username."
-msgstr ""
+msgstr "نام کاربری نامعتبر"
 
 #: Users/Controller/UsersController.php:468
 msgid "[%s] Reset Password"
-msgstr ""
+msgstr "[%s] بازیابی پسورد"
 
 #: Users/Controller/UsersController.php:476
 msgid "An email has been sent with instructions for resetting your password."
-msgstr ""
+msgstr "یک ایمیل با دستورالعمل نحوه بازیابی پسورد شما ارسال شد."
 
 #: Users/Controller/UsersController.php:479;521
 msgid "An error occurred. Please try again."
-msgstr ""
+msgstr "خطایی رخ داد، لطفاً دوباره سعی نمایید."
 
 #: Users/Controller/UsersController.php:493
 #: Users/View/Users/admin_reset_password.ctp:11;22
 msgid "Reset Password"
-msgstr ""
+msgstr "بازیابی پسورد"
 
 #: Users/Controller/UsersController.php:518
 msgid "Your password has been reset successfully."
-msgstr ""
+msgstr "پسورد شما با موفقیت بازیابی شد."
 
 #: Users/Controller/UsersController.php:535
 msgid "Log in"
-msgstr ""
+msgstr "ورود"
 
 #: Users/Controller/UsersController.php:576
 msgid "Invalid User."
-msgstr ""
+msgstr "کاربر نامعتبر."
 
 #: Users/Model/User.php:226
 msgid "Passwords do not match. Please, try again."
-msgstr ""
+msgstr "پسورد ها باه تطابق ندارند، لطفاً دوباره سعی نمایید."
 
 #: Users/View/Emails/text/forgot_password.ctp:1
 #: Users/View/Emails/text/register.ctp:1
 msgid "Hello %s"
-msgstr ""
+msgstr "سلام %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:10
 msgid "Please visit this link to reset your password: %s"
-msgstr ""
+msgstr "لطفاً بر روی این لینک کلیک نمایید تا پسورد شما ریست شود: %s"
 
 #: Users/View/Emails/text/forgot_password.ctp:14
 msgid "If you did not request a password reset, then please ignore this email."
-msgstr ""
+msgstr "اگر شما درخواست ریست رمز را نداشتید، این ایمیل را نادیده بگیرید."
 
 #: Users/View/Emails/text/register.ctp:12
 msgid "Please visit this link to activate your account: %s"
-msgstr ""
+msgstr "لطفاً این لینک را کلیک نمایید تا حساب شما فعال گردد."
 
 #: Users/View/Users/admin_form.ctp:14
 msgid "Edit user %s"
-msgstr ""
+msgstr "ویرایش کاربر %s"
 
 #: Users/View/Users/admin_form.ctp:16
 msgid "New user"
-msgstr ""
+msgstr "کاربر جدید"
 
 #: Users/View/Users/admin_form.ctp:62
 msgid "Timezone"
-msgstr ""
+msgstr "منطقه زمانی"
 
 #: Users/View/Users/admin_form.ctp:80
 msgid "Send Activation Email"
-msgstr ""
+msgstr "ارسال ایمیل فعال سازی"
 
 #: Users/View/Users/admin_login.ctp:22
 msgid "Remember me?"
-msgstr ""
+msgstr "به یاد آوردن من؟"
 
 #: Users/View/Users/admin_login.ctp:27 Users/View/Users/login.ctp:10
 msgid "Log In"
-msgstr "Přihlásit"
+msgstr "ورود"
 
 #: Users/View/Users/admin_login.ctp:28 Users/View/Users/login.ctp:12
 msgid "Forgot password?"
-msgstr "Zapomenuté heslo?"
+msgstr "فراموشی رمز؟"
 
 #: Users/View/Users/admin_reset_password.ctp:13
 msgid "Reset Password: %s"
-msgstr ""
+msgstr "بازیابی پسورد: %s"
 
 #: Users/View/Users/admin_reset_password.ctp:46 Users/View/Users/reset.ctp:10
 msgid "Reset"
-msgstr ""
+msgstr "بازیابی"
 
 #: Users/View/Users/reset.ctp:6
 msgid "New password"
-msgstr "Nové heslo"
+msgstr "پسورد جدید"
 
 #: Blocks/Model/Block.php:validation for field title
 #: Blocks/Model/Region.php:validation Menus/Model/Link.php:validation
 #: Menus/Model/Menu.php:validation Settings/Model/Language.php:validation
 #: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 msgid "Title cannot be empty."
-msgstr ""
+msgstr "عنوان را وارد نمایید"
 
 #: Blocks/Model/Block.php:validation for field alias
 #: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
@@ -3693,7 +3720,7 @@ msgstr ""
 #: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 #: Users/Model/Role.php:validation
 msgid "This alias has already been taken."
-msgstr ""
+msgstr "نام مستعار انتخاب شده تکراری می باشد."
 
 #: Blocks/Model/Block.php:validation for field alias
 #: Blocks/Model/Region.php:validation Contacts/Model/Contact.php:validation
@@ -3701,7 +3728,7 @@ msgstr ""
 #: Taxonomy/Model/Type.php:validation Taxonomy/Model/Vocabulary.php:validation
 #: Users/Model/Role.php:validation title;validation
 msgid "Alias cannot be empty."
-msgstr ""
+msgstr "نام مستعار را وارد نمایید."
 
 #: Comments/Model/Comment.php:validation for field body;validation name
 #: Contacts/Model/Contact.php:validation title
@@ -3709,123 +3736,56 @@ msgstr ""
 #: FileManager/Model/Attachment.php:validation Nodes/Model/Node.php:validation
 #: Users/Model/User.php:validation username;validation
 msgid "This field cannot be left blank."
-msgstr ""
+msgstr "این فیلد نمی تواند خالی باشد."
 
 #: Comments/Model/Comment.php:validation for field email
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "لطفاً یک ایمیل معتبر وارد نمایید."
 
 #: Contacts/Model/Contact.php:validation for field email
 #: Contacts/Model/Message.php:validation Users/Model/User.php:validation
 msgid "Please provide a valid email address."
-msgstr ""
+msgstr "لطفاً یک ایمیل معتبر تهیه نمایید."
 
 #: FileManager/Model/Attachment.php:validation for field slug
 #: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "This slug has already been taken."
-msgstr ""
+msgstr "این لینک تکراری می باشد."
 
 #: FileManager/Model/Attachment.php:validation for field slug
 #: Nodes/Model/Node.php:validation Taxonomy/Model/Term.php:validation
 msgid "Slug cannot be empty."
-msgstr ""
+msgstr "لینک نمی تواند خالی باشد."
 
 #: Menus/Model/Link.php:validation for field link
 msgid "Link cannot be empty."
-msgstr ""
+msgstr "لینک نمی تواند خالی باشد."
 
 #: Settings/Model/Setting.php:validation for field key
 msgid "This key has already been taken."
-msgstr ""
+msgstr "این کلید تکراری می باشد."
 
 #: Settings/Model/Setting.php:validation for field key
 msgid "Key cannot be empty."
-msgstr ""
+msgstr "کلید نمی تواند خالی باشد."
 
 #: Users/Model/Role.php:validation for field title;validation alias
 #: Users/Model/User.php:validation username;validation name
 msgid "This field must be alphanumeric"
-msgstr ""
+msgstr "این فیلد باید ترکیبی از حروف و ارقام باشد."
 
 #: Users/Model/User.php:validation for field username
 msgid "The username has already been taken."
-msgstr ""
+msgstr "نام کاربری تکراری می باشد."
 
 #: Users/Model/User.php:validation for field email
 msgid "Email address already in use."
-msgstr ""
+msgstr "آدرس ایمیل تکراری می باشد."
 
 #: Users/Model/User.php:validation for field password
 msgid "Passwords must be at least 6 characters long."
-msgstr ""
+msgstr "طول پسورد باید حداقل 6 کاراکتر باشد."
 
 #: Users/Model/User.php:validation for field website
 msgid "This field must be a valid URL"
-msgstr ""
-
-#~ msgid "Nodes published"
-#~ msgstr "Články byly publikovány"
-
-#~ msgid "Nodes unpublished"
-#~ msgstr "Články byly nepublikovány"
-
-#~ msgid "Nodes promoted"
-#~ msgstr "Článek byl zveřejněn"
-
-#~ msgid "Nodes unpromoted"
-#~ msgstr "Články nezveřejněny"
-
-#, fuzzy
-#~ msgid "Nodes copied"
-#~ msgstr "Články byly publikovány"
-
-#~ msgid "Invalid Node"
-#~ msgstr "Neplatný Node"
-
-#~ msgid "You are logged in as: %s"
-#~ msgstr "Jste přihlášeni jako: %s"
-
-#~ msgid "Nodes"
-#~ msgstr "Články"
-
-#~ msgid "Add User"
-#~ msgstr "Přidat uživatele"
-
-#~ msgid "Blocks deleted."
-#~ msgstr "Blok smazán"
-
-#~ msgid "Comments deleted."
-#~ msgstr "Komentáře byly smazány"
-
-#~ msgid "Current Password"
-#~ msgstr "Stávající heslo"
-
-#~ msgid "Debug setting does not allow access to this url."
-#~ msgstr "Nastavení serveru nedovoluje přistupovat na tuto URL"
-
-#~ msgid "Edit User"
-#~ msgstr "Upravit uživatele"
-
-#~ msgid "Edit content: %s"
-#~ msgstr "Upravit obsah: %s"
-
-#~ msgid "Format"
-#~ msgstr "Formát"
-
-#~ msgid "New Directory"
-#~ msgstr "Nový adresář"
-
-#~ msgid "New File"
-#~ msgstr "Nový soubor"
-
-#~ msgid "New Type"
-#~ msgstr "Nový typ"
-
-#~ msgid "New User"
-#~ msgstr "Nový uživatel"
-
-#~ msgid "New Vocabulary"
-#~ msgstr "Nová slovní zásoba"
-
-#~ msgid "Nodes deleted."
-#~ msgstr "Články byly smazány"
+msgstr "این فیلد باید یک URL (آدرس اینترنتی) معتبر باشد."
