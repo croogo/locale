@@ -21,6 +21,6 @@
         }
     ],
     "require": {
-        "croogo/croogo": "4.0.x-dev"
+        "croogo/croogo": "^4.0"
     }
 }
