@@ -1984,7 +1984,7 @@ msgstr "Buka"
 #: /FileManager/src/Template/Admin/FileManager/browse.ctp:50;92
 #: /FileManager/src/Template/Admin/FileManager/rename.ctp:7
 msgid "Rename"
-msgstr "Rubah nama"
+msgstr "Ubah nama"
 
 #: /FileManager/src/Template/Admin/FileManager/browse.ctp:76
 msgid "View"
